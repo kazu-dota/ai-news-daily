@@ -49,16 +49,56 @@ git pull --rebase origin main
   - `media` / `media_jp`: 主要記事のみ
 - ソース取得失敗時は **そのソースだけスキップ**、ルーティン全体は止めない (失敗カウントを `meta` に残す)
 
+### Step 3.5. 過去 7 日分のサマリーを参照 (重複防止)
+
+同じニュースが何日も繰り返し記載されることを防ぐため、当日のキュレーション前に
+**過去 7 日分の md ファイル** を読み込んで「既出 URL」と「既出トピック」を抽出する。
+
+#### 読み込み対象
+当日 ($TODAY) を起点に、過去 7 日 (= $TODAY-1 〜 $TODAY-7) の以下のファイルを Read:
+```
+summaries/$(date -d "$TODAY -1 day" +%Y/%m)/$(date -d "$TODAY -1 day" +%Y-%m-%d).md
+summaries/$(date -d "$TODAY -2 day" +%Y/%m)/$(date -d "$TODAY -2 day" +%Y-%m-%d).md
+... (-7 day まで)
+```
+存在しない日 (まだサマリーがない日) はスキップして良い。
+
+bash で日付ループを回す場合の例:
+```bash
+for d in 1 2 3 4 5 6 7; do
+  PAST=$(TZ=Asia/Tokyo date -d "$TODAY -$d day" +%Y/%m/%Y-%m-%d 2>/dev/null \
+       || TZ=Asia/Tokyo date -v-${d}d -j -f %Y-%m-%d "$TODAY" +%Y/%m/%Y-%m-%d)
+  [ -f "summaries/${PAST}.md" ] && cat "summaries/${PAST}.md"
+done
+```
+(GNU date / BSD date の両対応)
+
+#### 抽出するもの
+読み込んだ md から以下を集計してメモリに保持:
+- **`seen_urls`**: 各 md 内の Markdown link `[...](URL)` の URL を全て抽出 (重複除去)
+- **`seen_topics`**: 各 md の `### <vendor>: <製品/トピック>` 見出し行を抽出 (vendor 名 + 製品名の組み合わせ)
+   - 例: `Anthropic: Claude Opus 4.7 の詳細`、`Microsoft: M365 Copilot Wave X 公開`
+
+これら2つのリストを Step 4 のキュレーションで参照する。
+
 ### Step 4. キュレーション
 取得した候補から以下をフィルタリング:
 - AI関連でないものを除外 (`ai_keywords`: AI, LLM, GenAI, ML, model, 生成AI, etc.)
-- 重複 (同じURLや、別ソースから同じトピック) を統合
-- 24時間以上古いものは除外
-- 重要度評価:
+- **過去との重複判定** (Step 3.5 で抽出した `seen_urls` / `seen_topics` を使用):
+  1. **完全重複** (元記事 URL が `seen_urls` に存在) → **採録しない**
+  2. **続報** (URL は新しいが、トピック=vendor+製品/トーマ が `seen_topics` に存在)
+     → 採録するが、見出しに `[続報]` を付ける。前回記載済みの内容は再記載せず、**新情報 (差分) のみ** を 2〜3 行で書く
+     - 例: 前日に「Anthropic: Claude Opus 4.7 GA」を記載 → 当日「Opus 4.7 が Stanford HELM で首位」 → `### [続報] Anthropic: Claude Opus 4.7 — Stanford HELM ベンチ首位獲得`
+  3. **新規** (どちらにも該当しない) → 通常通り記載
+- 別ソースから来た同じトピックは統合 (当日内の重複)
+- 24時間以上古いものは除外 (公式発表日が当日 or 前日のものに限る)
+- 重要度評価 (続報の重要度判定にも適用):
   - 新モデル/新製品の発表 → 必ずハイライト候補
   - 大手VCの大型調達/買収 → ハイライト候補
   - 政府規制・大手の方針変更 → ハイライト候補
   - GitHub星数の急増 (★ +1k/day超) → 候補
+  - 続報のうち「ベンチマーク結果・採用事例・価格変更」など実質的な新情報があるもの → 候補
+  - 続報のうち「同じ事実の蒸し返し・前回の言い換え」しか無いもの → ハイライトに上げない (本文に短く触れるのみ)
 - ハイライトは **最大5件、最低1件** まで絞る
 
 ### Step 5. 日本語サマリー生成
@@ -118,6 +158,12 @@ items_curated: 18
 ### <a id="anthropic-opus-48"></a>Anthropic: Claude Opus 4.8 発表
 事実情報を独自要約で2〜4行。
 - 元記事: [Introducing Claude Opus 4.8](https://www.anthropic.com/news/...)
+
+### [続報] Anthropic: Claude Opus 4.7 — Stanford HELM で首位
+※ 過去 7 日に既に取り上げた話題の続報の場合は `[続報]` プレフィックスを付け、
+   **新情報 (今日の差分) のみ**を2〜3行で書く。前回記載済みの内容は再掲しない。
+- 関連: 前回 [2026-05-08](summaries/2026/05/2026-05-08.md) に Opus 4.7 GA を記載済み
+- 元記事 (新): [HELM benchmark result](https://crfm.stanford.edu/helm/...)
 
 ### OpenAI: 本日アップデートなし
 
