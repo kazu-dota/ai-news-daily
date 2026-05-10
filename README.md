@@ -16,7 +16,7 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
-- [2026-05-10](summaries/2026/05/2026-05-10.md) — Anthropic+SpaceXコンピュート提携 / Anthropic投資3社とエンタープライズAI合弁 / Google DeepMind Gemma 4 公開
+- [2026-05-10](summaries/2026/05/2026-05-10.md) — Anthropic $900B 調達ラウンド最終局面 / OpenAI GPT-Realtime-2 音声3モデル / Gemini 3.1 Flash-Lite GA / Claude Managed Agents 並列20エージェント追加
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
