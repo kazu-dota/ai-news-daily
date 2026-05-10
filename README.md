@@ -71,6 +71,18 @@ ai-news-daily/
    - PR の対象は `dev` のみ。**`dev-test` ブランチは PR の対象外** なので、テスト出力が main に混入することはない
 7. main の routine は翌朝 8:00 JST から新ルールで動作
 
+### main の保護ルール (branch protection)
+
+`main` は GitHub の branch protection で **PR 経由でしかマージできない** ように保護しています。
+
+- ✅ Pull request required (PR 必須)
+- ✅ Required approvals: **0 件** (auto-merge をシンプルに動かすため)
+- ✅ Enforce for admins (admin も PR が必須 — 「うっかり直接 push」を防ぐ)
+- ✅ Allow auto-merge (リポジトリ設定)
+- ❌ Force push 禁止 / ブランチ削除禁止
+
+**人間が直接 main に push しようとすると拒否されます**。すべての変更は PR 経由 (人間は dev → PR → main、本番 routine は `routine/auto-summary-...` → PR → main)。
+
 ### 事前検証用の dev test routine
 
 `main` にマージする前に dev ブランチで実際にルーティンを動かすための**非アクティブな routine** を用意しています。
@@ -91,8 +103,8 @@ ai-news-daily/
 - routine への恒久的な指示書は **`CLAUDE.md`** にまとめてあり、毎回 routine が起動時に読みます。指針を変えたい場合は `CLAUDE.md` を更新すれば、次回実行から反映されます
 - routine の **schedule・モデル・許可ツール・MCP接続** の変更は claude.ai の routine 管理UIで行います (リポジトリ側のファイルでは管理しません)
 - routine は2つあります:
-  - **本番**: `AI News Daily` ([管理UI](https://claude.ai/code/routines/trig_018FqfKJQvnp1XTkMaKkjN6i)) — main ブランチで毎朝 8:00 JST に自動実行
-  - **dev test**: `AI News Daily (dev test)` ([管理UI](https://claude.ai/code/routines/trig_01YH59UQzxR8M1VrNfG6y8AH)) — dev ブランチで Run now のみ
+  - **本番**: `AI News Daily` ([管理UI](https://claude.ai/code/routines/trig_018FqfKJQvnp1XTkMaKkjN6i)) — 毎朝 8:00 JST に起動。`routine/auto-summary-YYYY-MM-DD-HHMMSS` ブランチを切って **PR を作成し auto-merge** で main に反映 (main の branch protection を尊重)
+  - **dev test**: `AI News Daily (dev test)` ([管理UI](https://claude.ai/code/routines/trig_01YH59UQzxR8M1VrNfG6y8AH)) — `dev-test` ブランチに force push、Run now のみ
 
 ## ライセンス
 
