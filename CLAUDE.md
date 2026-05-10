@@ -141,23 +141,38 @@ git push origin main
 
 ### Step 9. Discussion 投稿 (オプション、初期は手動でも可)
 
-「Daily News」カテゴリにスレッドを立てる:
+`Announcements` カテゴリ (デフォルト・告知用) にスレッドを立てる。
+`gh discussion create` は存在しないので GraphQL の `createDiscussion` mutation を使用する。
+
+**固定値**:
+- リポジトリ ID: `R_kgDOSZGj6Q`
+- Announcements カテゴリ ID: `DIC_kwDOSZGj6c4C8sAZ`
+
 ```bash
-gh discussion create -R kazu-dota/ai-news-daily \
-  --title "📅 YYYY-MM-DD AI News" \
-  --category "Daily News" \
-  --body "$(cat <<EOF
+gh api graphql -f query='
+mutation($repoId: ID!, $catId: ID!, $title: String!, $body: String!) {
+  createDiscussion(input: {
+    repositoryId: $repoId,
+    categoryId: $catId,
+    title: $title,
+    body: $body
+  }) { discussion { url } }
+}' \
+  -F repoId='R_kgDOSZGj6Q' \
+  -F catId='DIC_kwDOSZGj6c4C8sAZ' \
+  -F title='📅 YYYY-MM-DD AI News' \
+  -F body="$(cat <<EOF
 今日のハイライト:
 - ハイライト1
 - ハイライト2
 - ハイライト3
 
-詳細: [summaries/YYYY/MM/YYYY-MM-DD.md](URL)
+詳細: https://github.com/kazu-dota/ai-news-daily/blob/main/summaries/YYYY/MM/YYYY-MM-DD.md
 EOF
 )"
 ```
 
-※ `gh discussion create` が利用できない環境の場合は GraphQL APIで `createDiscussion` mutation を使う。失敗してもルーティン全体は失敗としない (mdコミットは成功している)。
+※ Discussion投稿に失敗してもルーティン全体は失敗としない (mdコミットは既に成功している)。
 
 ---
 

@@ -16,7 +16,7 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
-*（初回ルーティン実行後にリンクが追加されます）*
+- [2026-05-10](summaries/2026/05/2026-05-10.md) — Anthropic+SpaceXコンピュート提携 / Anthropic投資3社とエンタープライズAI合弁 / Google DeepMind Gemma 4 公開
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
