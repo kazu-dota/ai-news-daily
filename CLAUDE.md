@@ -73,6 +73,20 @@ git pull --rebase origin main
 - メディア記事の要約は **1記事あたり2〜3行まで** (元記事の代替コンテンツにしない)
 - robots.txt や利用規約で明示的に禁止しているサイトはスキップ
 
+**📌 該当アップデートがない場合の記載ルール (絶対遵守)**:
+読者が「routine が探さなかった」のと「本当に該当発表がなかった」を区別できるように、**黙って項目・セクションを省略してはならない**。
+
+- **各メインセクションは必ず存在させる** (`🔥 ハイライト` / `🏢 企業・モデル発表` / `💻 技術コミュニティ` / `📚 話題の研究論文` / `📰 メディア記事`)。該当0件でもセクション見出しは出し、本文に「**本日該当アップデートなし**」と1行記載する
+- **主要 vendor は必ず言及する**: 以下の vendor は、当日アップデートがない場合でも `### <vendor名>: 本日アップデートなし` の1行を残す
+  - Anthropic
+  - OpenAI
+  - Google / Google DeepMind
+  - **Microsoft** (Microsoft 365 Copilot / Copilot Studio / GitHub Copilot / Azure AI 等を確認した上で、無ければ「本日アップデートなし」と明記)
+  - Meta
+- 上記以外の vendor (Mistral, xAI, Hugging Face 等) は、当日発表があった場合のみ記載で良い
+- ハイライトが0件の場合は「本日特筆すべき大型発表なし」と1行記載
+- メタ情報の `items_curated` が 0 になることは原則ない (vendor 各社の "アップデートなし" を含めれば最低5件は記載される)
+
 ### Step 6. 出力フォーマット
 
 `summaries/2026/05/2026-05-10.md` を以下のフォーマットで作成:
@@ -81,7 +95,7 @@ git pull --rebase origin main
 ---
 date: 2026-05-10
 generated_at: 2026-05-10T08:05:00+09:00
-sources_checked: 12
+sources_checked: 18
 sources_failed: 0
 items_total: 47
 items_curated: 18
@@ -93,28 +107,58 @@ items_curated: 18
 - **Anthropic、Claude Opus 4.8 を発表** — 推論ベンチで前世代比 +12% [↓詳細](#anthropic-opus-48)
 - ...
 
+(該当0件の場合: 「本日特筆すべき大型発表なし」と1行記載)
+
 ## 🏢 企業・モデル発表
 ### <a id="anthropic-opus-48"></a>Anthropic: Claude Opus 4.8 発表
 事実情報を独自要約で2〜4行。
 - 元記事: [Introducing Claude Opus 4.8](https://www.anthropic.com/news/...)
 
+### OpenAI: 本日アップデートなし
+
+### Google / Google DeepMind: Gemini 3.x の機能拡張
+事実情報を独自要約で2〜3行。
+- 元記事: [...](https://blog.google/...)
+
+### Microsoft: Microsoft 365 Copilot Wave X 公開
+事実情報を独自要約で2〜3行。Copilot 本体・Copilot Studio・GitHub Copilot・Azure AI Foundry のいずれかでアップデートがあれば各々を1ブロックとして記載。
+- 元記事: [...](https://blogs.microsoft.com/...)
+
+### Microsoft (Copilot Studio): エージェント機能のGA
+事実情報を独自要約で2〜3行。
+- 元記事: [...](https://www.microsoft.com/en-us/power-platform/blog/...)
+
+### Microsoft (GitHub Copilot): 本日アップデートなし
+
+### Meta: 本日アップデートなし
+
+(その他 vendor: 当日発表があれば記載、なければ省略可)
+
 ## 💻 技術コミュニティ
 ### GitHub Trending (AI関連)
 - [`org/repo`](https://github.com/...) — 1行説明 (★ +1.2k today)
 
+(該当0件の場合: 「本日 AI 関連の急騰なし」)
+
 ### Hacker News / Reddit ハイライト
 - ...
 
-## 📚 話題の研究論文 (任意・該当があれば)
+(該当0件の場合: 「本日該当なし」)
+
+## 📚 話題の研究論文
 ※ Hugging Face Papers / Hacker News / Reddit でバズった論文のみ採録
 - **タイトル (arXiv:2505.xxxxx)** — なぜ話題か含む一文サマリー [arXiv](URL) [HF Papers](URL)
+
+(該当0件の場合: 「本日バズった論文なし」)
 
 ## 📰 メディア記事
 ※ 著作権配慮: 1記事2〜3行、ペイウォールはタイトルのみ
 - [TechCrunch] タイトル要約 — 1〜2行コメント [元記事](URL)
 
+(該当0件の場合: 「本日特筆すべきメディア記事なし」)
+
 ## 📊 メタ情報
-- 取得ソース: 12 (失敗 0) / 候補: 47 / 採録: 18
+- 取得ソース: 18 (失敗 0) / 候補: 47 / 採録: 18
 - 生成: Claude Code routine `ai-news-daily`
 ```
 

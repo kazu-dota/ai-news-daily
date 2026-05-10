@@ -44,6 +44,36 @@ sources:
     category: vendor
     priority: medium
 
+  # Microsoft (Copilot / Copilot Studio / Azure AI 等)
+  - name: Microsoft AI Blog
+    url: https://blogs.microsoft.com/ai/
+    category: vendor
+    priority: high
+  - name: Microsoft 365 Blog
+    url: https://www.microsoft.com/en-us/microsoft-365/blog/
+    category: vendor
+    priority: medium
+  - name: Microsoft Copilot Blog
+    url: https://www.microsoft.com/en-us/microsoft-copilot/blog/
+    category: vendor
+    priority: medium
+  - name: Microsoft Power Platform Blog (Copilot Studio 含む)
+    url: https://www.microsoft.com/en-us/power-platform/blog/
+    category: vendor
+    priority: medium
+  - name: Azure AI Blog
+    url: https://azure.microsoft.com/en-us/blog/category/ai/
+    category: vendor
+    priority: medium
+  - name: Microsoft Research Blog
+    url: https://www.microsoft.com/en-us/research/blog/
+    category: vendor
+    priority: medium
+  - name: GitHub Blog (AI/Copilot)
+    url: https://github.blog/category/ai-and-ml/
+    category: vendor
+    priority: medium
+
   # ============== Community ==============
   - name: Hacker News (front page)
     url: https://news.ycombinator.com/
