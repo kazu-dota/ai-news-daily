@@ -1,0 +1,115 @@
+# AI News Daily — 監視対象ソース定義
+#
+# category:
+#   vendor          - 企業/モデル発表 (公式ブログ・リリース)
+#   community       - 技術コミュニティ (HN, Reddit, GitHub Trending)
+#   papers_trending - 話題の研究論文 (Hugging Face Papers など)
+#   media           - 海外メディア
+#   media_jp        - 日本語メディア
+#
+# priority: high / medium / low
+#   ルーティンは high を必ずチェック、medium は時間が許せばチェック、low は余裕があれば。
+#
+# filter (任意):
+#   ai_keywords - AI関連キーワード (LLM, AI, model, 生成AI, etc.) でフィルタリング
+
+sources:
+  # ============== Vendor (企業/モデル発表) ==============
+  - name: Anthropic News
+    url: https://www.anthropic.com/news
+    category: vendor
+    priority: high
+  - name: OpenAI Blog
+    url: https://openai.com/blog
+    category: vendor
+    priority: high
+  - name: Google DeepMind Blog
+    url: https://deepmind.google/discover/blog/
+    category: vendor
+    priority: high
+  - name: Meta AI Blog
+    url: https://ai.meta.com/blog/
+    category: vendor
+    priority: medium
+  - name: Mistral AI News
+    url: https://mistral.ai/news/
+    category: vendor
+    priority: medium
+  - name: xAI News
+    url: https://x.ai/news
+    category: vendor
+    priority: medium
+  - name: Hugging Face Blog
+    url: https://huggingface.co/blog
+    category: vendor
+    priority: medium
+
+  # ============== Community ==============
+  - name: Hacker News (front page)
+    url: https://news.ycombinator.com/
+    category: community
+    priority: medium
+    filter: ai_keywords
+  - name: Reddit r/MachineLearning (top/day)
+    url: https://www.reddit.com/r/MachineLearning/top/.json?t=day
+    category: community
+    priority: medium
+  - name: Reddit r/LocalLLaMA (top/day)
+    url: https://www.reddit.com/r/LocalLLaMA/top/.json?t=day
+    category: community
+    priority: medium
+  - name: GitHub Trending (Python/today)
+    url: https://github.com/trending/python?since=daily
+    category: community
+    priority: low
+    filter: ai_keywords
+  - name: GitHub Trending (TypeScript/today)
+    url: https://github.com/trending/typescript?since=daily
+    category: community
+    priority: low
+    filter: ai_keywords
+
+  # ============== Papers (Trending) ==============
+  - name: Hugging Face Papers (daily)
+    url: https://huggingface.co/papers
+    category: papers_trending
+    priority: medium
+    note: 話題スコア順なので「ネットで話題の論文」検出に最適
+
+  # ============== Media (English) ==============
+  - name: TechCrunch AI
+    url: https://techcrunch.com/category/artificial-intelligence/
+    category: media
+    priority: medium
+  - name: The Verge AI
+    url: https://www.theverge.com/ai-artificial-intelligence
+    category: media
+    priority: medium
+  - name: VentureBeat AI
+    url: https://venturebeat.com/category/ai/
+    category: media
+    priority: low
+
+  # ============== Media (日本語) ==============
+  - name: ITmedia AI+
+    url: https://www.itmedia.co.jp/aiplus/
+    category: media_jp
+    priority: medium
+  - name: Ledge.ai
+    url: https://ledge.ai/
+    category: media_jp
+    priority: low
+  - name: AI Scholar
+    url: https://ai-scholar.tech/
+    category: media_jp
+    priority: low
+
+# ペイウォール注意リスト (本文要約せず、タイトル+リンクのみ)
+paywalled_or_protected:
+  - nikkei.com         # 日経電子版
+  - wsj.com            # WSJ
+  - ft.com             # FT
+  - nytimes.com        # NYT
+  - bloomberg.com      # Bloomberg
+  - nhk.or.jp          # NHK
+  - businessinsider.com
