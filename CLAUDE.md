@@ -39,9 +39,10 @@ git pull --rebase origin main
 - 取得手段: `WebFetch` を優先、必要に応じて `WebSearch`
 - カテゴリ別の優先度:
   - `vendor` (企業/モデル発表): **必ず全件チェック**
-  - `community` (HN, Reddit, GitHub Trending): 上位スコア順に最大10件
+  - `vendor_ms` (Microsoft Copilot エコシステム): **必ず全件チェック**。`filter: ms_copilot_keywords` 指定があるソースは、`sources.yaml` の `ms_copilot_keywords` リストとマッチする記事のみ採録
+  - `community` (HN, Reddit, GitHub Trending): 上位スコア順に最大10件。Microsoft Copilot 関連で言及がある投稿は `ms_copilot_keywords` でクロスチェックして拾う
   - `papers_trending` (Hugging Face Papers): デイリートレンド上位5件
-  - `media` / `media_jp`: 主要記事のみ
+  - `media` / `media_jp`: 主要記事のみ。Microsoft Copilot 関連は別途上位採録
 - ソース取得失敗時は **そのソースだけスキップ**、ルーティン全体は止めない (失敗カウントを `meta` に残す)
 
 ### Step 4. キュレーション
@@ -54,6 +55,10 @@ git pull --rebase origin main
   - 大手VCの大型調達/買収 → ハイライト候補
   - 政府規制・大手の方針変更 → ハイライト候補
   - GitHub星数の急増 (★ +1k/day超) → 候補
+- **Microsoft Copilot 関連は重み付けを1段階引き上げ** (本リポジトリの利用組織が Microsoft 製品中心のため):
+  - vendor_ms カテゴリで取得した記事は、原則として全件採録 (mediocre な小規模アップデートでも記録)
+  - 他カテゴリで取得した記事も `ms_copilot_keywords` にマッチすれば優先的に採録
+  - メジャー発表 (新機能GA、Wave更新、価格変更、Ignite/Build発表など) はハイライト候補
 - ハイライトは **最大5件、最低1件** まで絞る
 
 ### Step 5. 日本語サマリー生成
@@ -97,6 +102,21 @@ items_curated: 18
 ### <a id="anthropic-opus-48"></a>Anthropic: Claude Opus 4.8 発表
 事実情報を独自要約で2〜4行。
 - 元記事: [Introducing Claude Opus 4.8](https://www.anthropic.com/news/...)
+
+## 🪟 Microsoft Copilot エコシステム
+※ `vendor_ms` カテゴリと、他カテゴリで `ms_copilot_keywords` にマッチした記事を集約。
+   該当がない日は本セクションごとスキップして良いが、原則として何かしら記載する。
+
+### Microsoft 365 Copilot: Wave X の機能アップデート
+- 事実情報を独自要約で2〜3行。GA / プレビュー / プライシング変更など
+- 元記事: [...](https://www.microsoft.com/...)
+
+### Copilot Studio: 新コネクタ・エージェント機能
+- 1〜2行の独自要約 + 元記事リンク
+
+### GitHub Copilot: ...
+
+### Power Platform / Azure AI Foundry / その他 Microsoft AI: ...
 
 ## 💻 技術コミュニティ
 ### GitHub Trending (AI関連)
