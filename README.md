@@ -94,7 +94,7 @@ ai-news-daily/
   - 当日 md を生成し、`[dev-test]` 接頭辞付きの commit を **`dev-test` ブランチに force push**
   - dev / main には一切 push しない → **PR に混入しない・main に持ち込まれない**
   - README.md の LATEST セクションは更新しない・Discussion 投稿もしない
-- **実行方法**: [dev test routine 管理ページ](https://claude.ai/code/routines/trig_01YH59UQzxR8M1VrNfG6y8AH) で **Run now** をクリック
+- **実行方法**: [claude.ai の Routines 画面](https://claude.ai/code/routines) を開き、`AI News Daily (dev test)` を選んで **Run now** をクリック (オーナーのみ閲覧可)
 - **レビュー先**: https://github.com/kazu-dota/ai-news-daily/tree/dev-test/summaries
 - **状態**: デフォルト無効 (enabled: false)、手動 Run now 専用
 
@@ -102,9 +102,9 @@ ai-news-daily/
 
 - routine への恒久的な指示書は **`CLAUDE.md`** にまとめてあり、毎回 routine が起動時に読みます。指針を変えたい場合は `CLAUDE.md` を更新すれば、次回実行から反映されます
 - routine の **schedule・モデル・許可ツール・MCP接続** の変更は claude.ai の routine 管理UIで行います (リポジトリ側のファイルでは管理しません)
-- routine は2つあります:
-  - **本番**: `AI News Daily` ([管理UI](https://claude.ai/code/routines/trig_018FqfKJQvnp1XTkMaKkjN6i)) — 毎朝 8:00 JST に起動。`routine/auto-summary-YYYY-MM-DD-HHMMSS` ブランチを切って **PR を作成し auto-merge** で main に反映 (main の branch protection を尊重)
-  - **dev test**: `AI News Daily (dev test)` ([管理UI](https://claude.ai/code/routines/trig_01YH59UQzxR8M1VrNfG6y8AH)) — `dev-test` ブランチに force push、Run now のみ
+- routine は2つあります (オーナーは [claude.ai → Routines](https://claude.ai/code/routines) から管理):
+  - **本番** `AI News Daily` — 毎朝 8:00 JST に起動。`routine/auto-summary-YYYY-MM-DD-HHMMSS` ブランチを切って **PR を作成し auto-merge** で main に反映 (main の branch protection を尊重)
+  - **dev test** `AI News Daily (dev test)` — `dev-test` ブランチに force push、Run now のみ
 
 ## ライセンス
 
