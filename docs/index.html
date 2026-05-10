@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI News Daily</title>
+<meta name="description" content="毎日の生成 AI 関連ニュースを Claude が自動収集・要約してまとめる日本語アーカイブ">
+<style>
+  :root {
+    --fg: #1f2328;
+    --fg-mute: #59636e;
+    --bg: #ffffff;
+    --bg-mute: #f6f8fa;
+    --border: #d1d9e0;
+    --accent: #0969da;
+    --accent-bg: #ddf4ff;
+    --highlight: #bf8700;
+    --highlight-bg: #fff8c5;
+    --no-update: #59636e;
+    --no-update-bg: #eff2f5;
+    --followup: #6639ba;
+    --followup-bg: #fbefff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fg: #f0f6fc;
+      --fg-mute: #9198a1;
+      --bg: #0d1117;
+      --bg-mute: #151b23;
+      --border: #3d444d;
+      --accent: #4493f8;
+      --accent-bg: #0c2d6b;
+      --highlight: #d29922;
+      --highlight-bg: #4d2d00;
+      --no-update: #6e7681;
+      --no-update-bg: #21262d;
+      --followup: #b083f0;
+      --followup-bg: #2c1b47;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans",
+      "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    line-height: 1.6;
+  }
+  header {
+    border-bottom: 1px solid var(--border);
+    padding: 1.5rem 1rem;
+    background: var(--bg-mute);
+  }
+  header h1 { margin: 0 0 .3rem; font-size: 1.4rem; }
+  header p { margin: 0; color: var(--fg-mute); font-size: .9rem; }
+  header a { color: var(--accent); text-decoration: none; }
+  main {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+  }
+  @media (max-width: 720px) {
+    main { grid-template-columns: 1fr; }
+    aside { border-bottom: 1px solid var(--border); padding-bottom: 1rem; }
+  }
+  aside h2 {
+    font-size: .85rem;
+    text-transform: uppercase;
+    color: var(--fg-mute);
+    margin: 1rem 0 .5rem;
+    letter-spacing: .05em;
+  }
+  aside h2:first-child { margin-top: 0; }
+  .filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+  }
+  .filter-group label {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    font-size: .9rem;
+    cursor: pointer;
+    padding: .15rem .3rem;
+    border-radius: 4px;
+  }
+  .filter-group label:hover { background: var(--bg-mute); }
+  .date-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  .date-list li {
+    padding: .35rem .5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: .9rem;
+    color: var(--fg-mute);
+  }
+  .date-list li:hover { background: var(--bg-mute); }
+  .date-list li.active { background: var(--accent-bg); color: var(--accent); font-weight: 600; }
+  #search {
+    width: 100%;
+    padding: .5rem .75rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--bg);
+    color: var(--fg);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  #search:focus { outline: 2px solid var(--accent); border-color: var(--accent); }
+  #status {
+    color: var(--fg-mute);
+    font-size: .85rem;
+    margin-bottom: .8rem;
+  }
+  .item {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: .75rem;
+    background: var(--bg);
+  }
+  .item.highlight { border-left: 4px solid var(--highlight); }
+  .item.followup { border-left: 4px solid var(--followup); }
+  .item.no-update { background: var(--no-update-bg); border-left: 4px solid var(--no-update); }
+  .item-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    align-items: center;
+    margin-bottom: .4rem;
+    font-size: .8rem;
+    color: var(--fg-mute);
+  }
+  .badge {
+    display: inline-block;
+    padding: .1rem .5rem;
+    border-radius: 12px;
+    font-size: .75rem;
+    font-weight: 600;
+    background: var(--bg-mute);
+  }
+  .badge.highlight { background: var(--highlight-bg); color: var(--highlight); }
+  .badge.followup { background: var(--followup-bg); color: var(--followup); }
+  .badge.no-update { background: var(--no-update-bg); color: var(--no-update); }
+  .badge.vendor { background: var(--accent-bg); color: var(--accent); }
+  .item h3 {
+    margin: .2rem 0 .4rem;
+    font-size: 1.05rem;
+    font-weight: 600;
+  }
+  .item h3 a { color: var(--fg); text-decoration: none; }
+  .item h3 a:hover { color: var(--accent); }
+  .item p { margin: 0; font-size: .92rem; color: var(--fg-mute); }
+  .item .source-link {
+    display: inline-block;
+    margin-top: .4rem;
+    font-size: .85rem;
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .item .source-link:hover { text-decoration: underline; }
+  .empty {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: var(--fg-mute);
+  }
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 1rem;
+    text-align: center;
+    font-size: .85rem;
+    color: var(--fg-mute);
+    margin-top: 2rem;
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<header>
+  <h1>📰 AI News Daily</h1>
+  <p>毎日の生成 AI 関連ニュースを Claude が自動収集・要約。<a href="https://github.com/kazu-dota/ai-news-daily">GitHub リポジトリ</a></p>
+</header>
+
+<main>
+  <aside>
+    <h2>日付</h2>
+    <ul class="date-list" id="date-nav"></ul>
+
+    <h2>vendor</h2>
+    <div class="filter-group" id="vendor-filters"></div>
+
+    <h2>section</h2>
+    <div class="filter-group" id="section-filters"></div>
+
+    <h2>表示</h2>
+    <div class="filter-group">
+      <label><input type="checkbox" id="show-no-update" checked> 「アップデートなし」も表示</label>
+      <label><input type="checkbox" id="show-followup" checked> 続報を表示</label>
+    </div>
+  </aside>
+
+  <section>
+    <input type="search" id="search" placeholder="🔍 タイトル・要約・タグから検索…" autocomplete="off">
+    <div id="status">読み込み中...</div>
+    <div id="items"></div>
+  </section>
+</main>
+
+<footer>
+  <p>本サイトの要約は事実情報を独自に再構成したものです。詳細は元記事をご参照ください。<br>
+  著作権・削除依頼は <a href="https://github.com/kazu-dota/ai-news-daily/issues/new?template=copyright-takedown.md">Issue</a> から。</p>
+</footer>
+
+<script>
+(async function() {
+  const $ = (id) => document.getElementById(id);
+  const state = {
+    items: [],
+    selectedDate: null,        // null = 全日付
+    selectedVendors: new Set(),
+    selectedSections: new Set(),
+    query: '',
+    showNoUpdate: true,
+    showFollowup: true,
+  };
+
+  try {
+    const res = await fetch('data/index.json', { cache: 'no-cache' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    state.items = await res.json();
+  } catch (err) {
+    $('status').textContent = `データを読み込めませんでした: ${err.message}。routine がまだ data/index.json を生成していない可能性があります。`;
+    return;
+  }
+
+  // --- date nav ---
+  const dates = [...new Set(state.items.map(i => i.date))].sort().reverse();
+  const dateNav = $('date-nav');
+  const allLi = document.createElement('li');
+  allLi.textContent = `すべて (${dates.length} 日)`;
+  allLi.classList.add('active');
+  allLi.onclick = () => selectDate(null, allLi);
+  dateNav.appendChild(allLi);
+  dates.forEach(d => {
+    const li = document.createElement('li');
+    li.textContent = d;
+    li.onclick = () => selectDate(d, li);
+    dateNav.appendChild(li);
+  });
+  function selectDate(date, el) {
+    state.selectedDate = date;
+    [...dateNav.children].forEach(c => c.classList.remove('active'));
+    el.classList.add('active');
+    render();
+  }
+
+  // --- vendor filters ---
+  const vendors = [...new Set(state.items.map(i => i.vendor).filter(Boolean))].sort();
+  const vendorFilters = $('vendor-filters');
+  vendors.forEach(v => {
+    const label = document.createElement('label');
+    label.innerHTML = `<input type="checkbox" value="${v}"> ${v}`;
+    label.querySelector('input').onchange = (e) => {
+      if (e.target.checked) state.selectedVendors.add(v);
+      else state.selectedVendors.delete(v);
+      render();
+    };
+    vendorFilters.appendChild(label);
+  });
+
+  // --- section filters ---
+  const sections = [...new Set(state.items.map(i => i.section).filter(Boolean))].sort();
+  const sectionFilters = $('section-filters');
+  sections.forEach(s => {
+    const label = document.createElement('label');
+    label.innerHTML = `<input type="checkbox" value="${s}"> ${s}`;
+    label.querySelector('input').onchange = (e) => {
+      if (e.target.checked) state.selectedSections.add(s);
+      else state.selectedSections.delete(s);
+      render();
+    };
+    sectionFilters.appendChild(label);
+  });
+
+  // --- search + checkboxes ---
+  $('search').oninput = (e) => { state.query = e.target.value.trim().toLowerCase(); render(); };
+  $('show-no-update').onchange = (e) => { state.showNoUpdate = e.target.checked; render(); };
+  $('show-followup').onchange = (e) => { state.showFollowup = e.target.checked; render(); };
+
+  // --- render ---
+  function matches(item) {
+    if (state.selectedDate && item.date !== state.selectedDate) return false;
+    if (state.selectedVendors.size > 0 && !state.selectedVendors.has(item.vendor)) return false;
+    if (state.selectedSections.size > 0 && !state.selectedSections.has(item.section)) return false;
+    if (!state.showNoUpdate && item.type === 'no-update') return false;
+    if (!state.showFollowup && item.type === 'followup') return false;
+    if (state.query) {
+      const hay = [item.title, item.summary, item.vendor, ...(item.tags || [])].join(' ').toLowerCase();
+      if (!hay.includes(state.query)) return false;
+    }
+    return true;
+  }
+
+  function render() {
+    const filtered = state.items.filter(matches);
+    $('status').textContent = `${filtered.length} 件 / 全 ${state.items.length} 件`;
+    const out = $('items');
+    out.innerHTML = '';
+    if (filtered.length === 0) {
+      out.innerHTML = '<div class="empty">該当する項目がありません。</div>';
+      return;
+    }
+    // group by date
+    const byDate = {};
+    filtered.forEach(i => { (byDate[i.date] ||= []).push(i); });
+    Object.keys(byDate).sort().reverse().forEach(date => {
+      const dh = document.createElement('h2');
+      dh.style.cssText = 'margin-top:1.5rem;font-size:1.1rem;color:var(--fg-mute);border-bottom:1px solid var(--border);padding-bottom:.3rem;';
+      dh.textContent = date;
+      out.appendChild(dh);
+      byDate[date].forEach(item => out.appendChild(renderItem(item)));
+    });
+  }
+
+  function renderItem(item) {
+    const div = document.createElement('div');
+    div.className = `item ${item.type || ''} ${item.importance === 'highlight' ? 'highlight' : ''}`;
+    const meta = document.createElement('div');
+    meta.className = 'item-meta';
+    if (item.vendor) meta.innerHTML += `<span class="badge vendor">${item.vendor}</span>`;
+    if (item.section) meta.innerHTML += `<span class="badge">${item.section}</span>`;
+    if (item.type === 'followup') meta.innerHTML += `<span class="badge followup">続報</span>`;
+    if (item.type === 'no-update') meta.innerHTML += `<span class="badge no-update">アップデートなし</span>`;
+    if (item.importance === 'highlight') meta.innerHTML += `<span class="badge highlight">⭐ ハイライト</span>`;
+    div.appendChild(meta);
+    if (item.title) {
+      const h3 = document.createElement('h3');
+      if (item.url) h3.innerHTML = `<a href="${item.url}" target="_blank" rel="noopener">${escapeHTML(item.title)}</a>`;
+      else h3.textContent = item.title;
+      div.appendChild(h3);
+    }
+    if (item.summary) {
+      const p = document.createElement('p');
+      p.textContent = item.summary;
+      div.appendChild(p);
+    }
+    if (item.url) {
+      const a = document.createElement('a');
+      a.className = 'source-link';
+      a.href = item.url;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.textContent = '元記事を読む →';
+      div.appendChild(a);
+    }
+    return div;
+  }
+
+  function escapeHTML(s) {
+    return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+  }
+
+  render();
+})();
+</script>
+</body>
+</html>

@@ -4,12 +4,14 @@
 
 ## 仕組み
 
-- **実行基盤**: Claude Code のルーティン (cron) が毎朝 **8:00 JST** に起動
+- **実行基盤**: claude.ai の Routines (Anthropic クラウド側) で毎朝 **8:00 JST** (UTC 23:00) に起動
 - **対象ソース**: 企業/モデル発表、技術コミュニティ、メディア記事、話題の研究論文 (詳細: [`sources.yaml`](./sources.yaml))
 - **出力先**:
-  - `summaries/YYYY/MM/YYYY-MM-DD.md` … 日次アーカイブ (本体)
-  - GitHub Discussions「Daily News」カテゴリ … 当日告知
-- **公開**: GitHub Pages で `summaries/` をブログ化 (準備中)
+  - `summaries/YYYY/MM/YYYY-MM-DD.md` … 日次アーカイブ (人が読む本文)
+  - `docs/data/items/YYYY-MM-DD.json` … 構造化された機械可読データ
+  - `docs/data/index.json` … 全期間累積インデックス (UI が fetch する)
+- **Web UI**: <https://kazu-dota.github.io/ai-news-daily/> で日付ナビ・vendor フィルタ・キーワード検索つきのアーカイブを閲覧可能
+- **整合性**: routine も人間も `main` への直接 push は禁止。すべて PR + auto-merge で反映 (詳細は [`CLAUDE.md`](./CLAUDE.md))
 
 ## 最新のサマリー
 
@@ -43,10 +45,17 @@
 ```
 ai-news-daily/
 ├── README.md            ← このファイル
-├── CLAUDE.md            ← ルーティンへの行動指針
+├── CLAUDE.md            ← 開発者向けガイド (Claude Code が自動で読む)
+├── ROUTINE.md           ← routine 用の実行仕様 (本番 / dev-test routine が読む)
 ├── sources.yaml         ← 監視対象ソース一覧
-├── summaries/           ← 日次サマリー (YYYY/MM/YYYY-MM-DD.md)
-├── docs/                ← GitHub Pages 用 (Jekyll)
+├── summaries/           ← 日次サマリー (YYYY/MM/YYYY-MM-DD.md, 人が読む)
+├── docs/                ← GitHub Pages の配信ルート (Jekyll 不使用、.nojekyll)
+│   ├── index.html       ← SPA UI (data/index.json を読み込んで表示)
+│   ├── .nojekyll
+│   └── data/
+│       ├── index.json   ← 全期間累積インデックス
+│       └── items/       ← 日付ごとの構造化データ
+├── .claude/agents/      ← サブエージェント定義
 └── .github/ISSUE_TEMPLATE/
 ```
 
