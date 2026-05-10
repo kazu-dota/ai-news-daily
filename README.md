@@ -50,6 +50,28 @@ ai-news-daily/
 └── .github/ISSUE_TEMPLATE/
 ```
 
+## 開発フロー
+
+このリポジトリは2つのブランチで運用しています:
+
+| ブランチ | 用途 | 直接 push |
+|---|---|---|
+| `main` | **実行用 (本番)**。日次 routine がここに直接 push します | routine のみ |
+| `dev`  | **開発用**。`CLAUDE.md` / `sources.yaml` / `docs/` などの修正は dev で行い、PR で main にマージ | 開発者 |
+
+### 変更を入れる手順
+
+1. `git checkout dev && git pull origin dev`
+2. 必要な編集 (`CLAUDE.md` / `sources.yaml` / `docs/` など)
+3. `git commit -m "..." && git push origin dev`
+4. PR を作成して main にマージ: `gh pr create --base main --head dev`
+5. routine の次回実行 (毎朝 8:00 JST) から反映。即時試したい場合は [routine 管理UI](https://claude.ai/code/routines) で **Run now**
+
+### routine 自体の改修について
+
+- routine への恒久的な指示書は **`CLAUDE.md`** にまとめてあり、毎回 routine が起動時に読みます。指針を変えたい場合は `CLAUDE.md` を更新すれば、次回実行から反映されます
+- routine の **schedule・モデル・許可ツール・MCP接続** の変更は claude.ai の routine 管理UIで行います (リポジトリ側のファイルでは管理しません)
+
 ## ライセンス
 
 - リポジトリ内のコード・設定: [MIT License](./LICENSE)
