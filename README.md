@@ -64,13 +64,31 @@ ai-news-daily/
 1. `git checkout dev && git pull origin dev`
 2. 必要な編集 (`CLAUDE.md` / `sources.yaml` / `docs/` など)
 3. `git commit -m "..." && git push origin dev`
-4. PR を作成して main にマージ: `gh pr create --base main --head dev`
-5. routine の次回実行 (毎朝 8:00 JST) から反映。即時試したい場合は [routine 管理UI](https://claude.ai/code/routines) で **Run now**
+4. **[事前検証] dev test routine を Run now で実行** (下記参照)
+5. dev ブランチに push された当日 md (`[dev-test] summary: ...`) をレビューし、期待どおりの出力であることを確認
+6. PR を作成して main にマージ: `gh pr create --base main --head dev`
+7. main の routine は翌朝 8:00 JST から新ルールで動作
+
+### 事前検証用の dev test routine
+
+`main` にマージする前に dev ブランチで実際にルーティンを動かすための**非アクティブな routine** を用意しています。
+
+- **目的**: `sources.yaml` / `CLAUDE.md` などの変更を本番に入れる前に、dev で出力を確認する
+- **動作**:
+  - dev ブランチを clone して作業
+  - 当日の md を生成して **dev ブランチに `[dev-test]` 接頭辞付きで commit & push**
+  - README.md の LATEST セクションは更新しない (本番との衝突回避)
+  - Discussion 投稿はしない
+- **実行方法**: [dev test routine 管理ページ](https://claude.ai/code/routines/trig_01YH59UQzxR8M1VrNfG6y8AH) で **Run now** をクリック
+- **状態**: デフォルト無効 (enabled: false)。自動発火せず、手動でのみ実行される
 
 ### routine 自体の改修について
 
 - routine への恒久的な指示書は **`CLAUDE.md`** にまとめてあり、毎回 routine が起動時に読みます。指針を変えたい場合は `CLAUDE.md` を更新すれば、次回実行から反映されます
 - routine の **schedule・モデル・許可ツール・MCP接続** の変更は claude.ai の routine 管理UIで行います (リポジトリ側のファイルでは管理しません)
+- routine は2つあります:
+  - **本番**: `AI News Daily` ([管理UI](https://claude.ai/code/routines/trig_018FqfKJQvnp1XTkMaKkjN6i)) — main ブランチで毎朝 8:00 JST に自動実行
+  - **dev test**: `AI News Daily (dev test)` ([管理UI](https://claude.ai/code/routines/trig_01YH59UQzxR8M1VrNfG6y8AH)) — dev ブランチで Run now のみ
 
 ## ライセンス
 
