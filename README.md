@@ -65,22 +65,26 @@ ai-news-daily/
 2. 必要な編集 (`CLAUDE.md` / `sources.yaml` / `docs/` など)
 3. `git commit -m "..." && git push origin dev`
 4. **[事前検証] dev test routine を Run now で実行** (下記参照)
-5. dev ブランチに push された当日 md (`[dev-test] summary: ...`) をレビューし、期待どおりの出力であることを確認
+5. **`dev-test` ブランチ** に force push される当日 md をレビューし、期待どおりの出力であることを確認
+   - レビュー URL: https://github.com/kazu-dota/ai-news-daily/tree/dev-test/summaries
 6. PR を作成して main にマージ: `gh pr create --base main --head dev`
+   - PR の対象は `dev` のみ。**`dev-test` ブランチは PR の対象外** なので、テスト出力が main に混入することはない
 7. main の routine は翌朝 8:00 JST から新ルールで動作
 
 ### 事前検証用の dev test routine
 
 `main` にマージする前に dev ブランチで実際にルーティンを動かすための**非アクティブな routine** を用意しています。
 
-- **目的**: `sources.yaml` / `CLAUDE.md` などの変更を本番に入れる前に、dev で出力を確認する
+- **目的**: `sources.yaml` / `CLAUDE.md` などの変更を本番に入れる前に、dev の内容で出力を確認する
 - **動作**:
-  - dev ブランチを clone して作業
-  - 当日の md を生成して **dev ブランチに `[dev-test]` 接頭辞付きで commit & push**
-  - README.md の LATEST セクションは更新しない (本番との衝突回避)
-  - Discussion 投稿はしない
+  - 起動時に `git checkout -B dev-test origin/dev` で **dev のtipから `dev-test` ブランチを再作成** (既存履歴は破棄)
+  - `sources.yaml` / `CLAUDE.md` は **dev の最新を参照**
+  - 当日 md を生成し、`[dev-test]` 接頭辞付きの commit を **`dev-test` ブランチに force push**
+  - dev / main には一切 push しない → **PR に混入しない・main に持ち込まれない**
+  - README.md の LATEST セクションは更新しない・Discussion 投稿もしない
 - **実行方法**: [dev test routine 管理ページ](https://claude.ai/code/routines/trig_01YH59UQzxR8M1VrNfG6y8AH) で **Run now** をクリック
-- **状態**: デフォルト無効 (enabled: false)。自動発火せず、手動でのみ実行される
+- **レビュー先**: https://github.com/kazu-dota/ai-news-daily/tree/dev-test/summaries
+- **状態**: デフォルト無効 (enabled: false)、手動 Run now 専用
 
 ### routine 自体の改修について
 
