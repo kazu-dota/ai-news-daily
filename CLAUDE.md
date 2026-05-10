@@ -1,244 +1,138 @@
-# CLAUDE.md — AI News Daily ルーティン行動指針
+# CLAUDE.md — 開発者向け作業ガイド (このリポジトリで Claude Code を使うとき)
 
-このファイルは、`scheduled-tasks` ルーティンが毎朝起動したときに従う **恒久的な指示**である。
-ルーティンは新しいセッションで起動するため、過去の文脈は引き継がれない。必要な情報はすべてここに記述する。
+このファイルは Claude Code がこのリポジトリで動くとき (dev ブランチでの開発作業時)
+に **自動的に読まれる恒久的な指示書** である。
 
----
-
-## あなたの役割
-
-あなたは `kazu-dota/ai-news-daily` リポジトリのキュレーターである。
-毎朝 JST 8:00 に起動し、前日〜当日の生成AI関連ニュースを収集・要約し、
-日本語のMarkdownとしてリポジトリにコミット・プッシュする。
+> **routine が読む実行仕様** (本番 / dev-test routine の手順・著作権ルール・出力フォーマット) は
+> 別ファイル [`ROUTINE.md`](./ROUTINE.md) にまとめてある。本ファイルでは routine の挙動の細部
+> を再記載しない。修正したいときは `ROUTINE.md` を編集すれば、次回 routine 実行から反映される。
 
 ---
 
-## リポジトリ
+## このリポジトリの目的
 
-- **ローカルパス**: `/Users/kazuki/Documents/ai-news-daily`
-- **リモート**: `git@github.com:kazu-dota/ai-news-daily.git`
-- **ブランチ**: `main` に直接コミット (PRは作らない)
+毎日の生成 AI 関連ニュースを Claude Code の routine が自動収集・要約し、日本語の Markdown
+アーカイブとして公開している ([README.md](./README.md) 参照)。
+**開発者の役割は routine の指示書 (`ROUTINE.md`) と監視ソース (`sources.yaml`) を改善すること**。
+routine 実行そのものはクラウド側で動くので、ローカル開発で必要なのは「ファイル編集 → dev-test
+で動作確認 → PR で main マージ」の流れだけ。
 
 ---
 
-## 実行手順 (毎回これを実行する)
+## ブランチ構成
 
-### Step 1. リポジトリを最新化
-```bash
-cd /Users/kazuki/Documents/ai-news-daily
-git pull --rebase origin main
+| ブランチ | 用途 | push 主体 |
+|---|---|---|
+| `main` | 本番 (公開先)。**branch protection で direct push 禁止** | PR 経由のみ |
+| `dev` | 開発用 (人間が編集する場所) | 開発者 |
+| `dev-test` | dev-test routine の使い捨て出力先 (force push される) | dev-test routine のみ |
+| `routine/auto-summary-YYYY-MM-DD-HHMMSS` | 本番 routine の毎日のサマリー反映用 (auto-merge) | 本番 routine のみ |
+
+開発作業は **必ず `dev` ブランチで** 行う。`main` は branch protection で direct push が
+禁止されており、PR 経由でしかマージできない (admin であっても enforce される)。
+
+---
+
+## ファイル構成
+
+```
+ai-news-daily/
+├── CLAUDE.md          ← このファイル (開発者向け)
+├── ROUTINE.md         ← routine 用の実行仕様
+├── README.md          ← リポジトリ説明 + 最新サマリーリンク
+├── sources.yaml       ← 監視対象ソース定義
+├── summaries/         ← 日次サマリー (YYYY/MM/YYYY-MM-DD.md)
+├── docs/              ← GitHub Pages 用 (Jekyll)
+├── .claude/agents/    ← サブエージェント定義 (Claude Code)
+└── .github/ISSUE_TEMPLATE/
 ```
 
-### Step 2. 当日の出力先を決定
-- 日付: 実行時の JST における当日 (例: `2026-05-10`)
-- ファイルパス: `summaries/2026/05/2026-05-10.md`
-- ディレクトリが無ければ `mkdir -p` で作成
-
-### Step 3. ソース取得
-- `sources.yaml` を読み、各ソースから **過去24時間の新着** を取得する
-- 取得手段: `WebFetch` を優先、必要に応じて `WebSearch`
-- カテゴリ別の優先度:
-  - `vendor` (企業/モデル発表): **必ず全件チェック**
-  - `community` (HN, Reddit, GitHub Trending): 上位スコア順に最大10件
-  - `papers_trending` (Hugging Face Papers): デイリートレンド上位5件
-  - `media` / `media_jp`: 主要記事のみ
-- ソース取得失敗時は **そのソースだけスキップ**、ルーティン全体は止めない (失敗カウントを `meta` に残す)
-
-### Step 4. キュレーション
-取得した候補から以下をフィルタリング:
-- AI関連でないものを除外 (`ai_keywords`: AI, LLM, GenAI, ML, model, 生成AI, etc.)
-- 重複 (同じURLや、別ソースから同じトピック) を統合
-- 24時間以上古いものは除外
-- 重要度評価:
-  - 新モデル/新製品の発表 → 必ずハイライト候補
-  - 大手VCの大型調達/買収 → ハイライト候補
-  - 政府規制・大手の方針変更 → ハイライト候補
-  - GitHub星数の急増 (★ +1k/day超) → 候補
-- ハイライトは **最大5件、最低1件** まで絞る
-
-### Step 5. 日本語サマリー生成
-
-各記事について以下を **独自表現で再構成** して書く:
-- 何を (発表/事実)
-- 誰が (主体)
-- なぜ重要か (1〜2行)
-- 元記事への直リンク
-
-**📌 著作権ルール (絶対遵守)**:
-- **直接引用は1記事あたり1回まで、15語または30字以内**、必ず `"..."` で囲み元記事URLを併記
-- **要約は必ず独自表現** に書き直す。原文の文言コピー・近似的言い換え (rephrasing) も禁止
-- 全文翻訳・詳細翻訳は禁止 (要旨レベルのみ)
-- 画像・図表は埋め込まずリンクのみ
-- ペイウォール記事 (NHK, 日経電子版, WSJ, FT, NYT, Bloomberg有料 など) は **本文要約せず、タイトルと「発表があった」事実 + 元記事リンクのみ**
-- メディア記事の要約は **1記事あたり2〜3行まで** (元記事の代替コンテンツにしない)
-- robots.txt や利用規約で明示的に禁止しているサイトはスキップ
-
-**📌 該当アップデートがない場合の記載ルール (絶対遵守)**:
-読者が「routine が探さなかった」のと「本当に該当発表がなかった」を区別できるように、**黙って項目・セクションを省略してはならない**。
-
-- **各メインセクションは必ず存在させる** (`🔥 ハイライト` / `🏢 企業・モデル発表` / `💻 技術コミュニティ` / `📚 話題の研究論文` / `📰 メディア記事`)。該当0件でもセクション見出しは出し、本文に「**本日該当アップデートなし**」と1行記載する
-- **主要 vendor は必ず言及する**: 以下の vendor は、当日アップデートがない場合でも `### <vendor名>: 本日アップデートなし` の1行を残す
-  - Anthropic
-  - OpenAI
-  - Google / Google DeepMind
-  - **Microsoft** (Microsoft 365 Copilot / Copilot Studio / GitHub Copilot / Azure AI 等を確認した上で、無ければ「本日アップデートなし」と明記)
-  - Meta
-- 上記以外の vendor (Mistral, xAI, Hugging Face 等) は、当日発表があった場合のみ記載で良い
-- ハイライトが0件の場合は「本日特筆すべき大型発表なし」と1行記載
-- メタ情報の `items_curated` が 0 になることは原則ない (vendor 各社の "アップデートなし" を含めれば最低5件は記載される)
-
-### Step 6. 出力フォーマット
-
-`summaries/2026/05/2026-05-10.md` を以下のフォーマットで作成:
-
-```markdown
----
-date: 2026-05-10
-generated_at: 2026-05-10T08:05:00+09:00
-sources_checked: 18
-sources_failed: 0
-items_total: 47
-items_curated: 18
 ---
 
-# AI News — 2026年5月10日
+## 開発フロー
 
-## 🔥 今日のハイライト
-- **Anthropic、Claude Opus 4.8 を発表** — 推論ベンチで前世代比 +12% [↓詳細](#anthropic-opus-48)
-- ...
-
-(該当0件の場合: 「本日特筆すべき大型発表なし」と1行記載)
-
-## 🏢 企業・モデル発表
-### <a id="anthropic-opus-48"></a>Anthropic: Claude Opus 4.8 発表
-事実情報を独自要約で2〜4行。
-- 元記事: [Introducing Claude Opus 4.8](https://www.anthropic.com/news/...)
-
-### OpenAI: 本日アップデートなし
-
-### Google / Google DeepMind: Gemini 3.x の機能拡張
-事実情報を独自要約で2〜3行。
-- 元記事: [...](https://blog.google/...)
-
-### Microsoft: Microsoft 365 Copilot Wave X 公開
-事実情報を独自要約で2〜3行。Copilot 本体・Copilot Studio・GitHub Copilot・Azure AI Foundry のいずれかでアップデートがあれば各々を1ブロックとして記載。
-- 元記事: [...](https://blogs.microsoft.com/...)
-
-### Microsoft (Copilot Studio): エージェント機能のGA
-事実情報を独自要約で2〜3行。
-- 元記事: [...](https://www.microsoft.com/en-us/power-platform/blog/...)
-
-### Microsoft (GitHub Copilot): 本日アップデートなし
-
-### Meta: 本日アップデートなし
-
-(その他 vendor: 当日発表があれば記載、なければ省略可)
-
-## 💻 技術コミュニティ
-### GitHub Trending (AI関連)
-- [`org/repo`](https://github.com/...) — 1行説明 (★ +1.2k today)
-
-(該当0件の場合: 「本日 AI 関連の急騰なし」)
-
-### Hacker News / Reddit ハイライト
-- ...
-
-(該当0件の場合: 「本日該当なし」)
-
-## 📚 話題の研究論文
-※ Hugging Face Papers / Hacker News / Reddit でバズった論文のみ採録
-- **タイトル (arXiv:2505.xxxxx)** — なぜ話題か含む一文サマリー [arXiv](URL) [HF Papers](URL)
-
-(該当0件の場合: 「本日バズった論文なし」)
-
-## 📰 メディア記事
-※ 著作権配慮: 1記事2〜3行、ペイウォールはタイトルのみ
-- [TechCrunch] タイトル要約 — 1〜2行コメント [元記事](URL)
-
-(該当0件の場合: 「本日特筆すべきメディア記事なし」)
-
-## 📊 メタ情報
-- 取得ソース: 18 (失敗 0) / 候補: 47 / 採録: 18
-- 生成: Claude Code routine `ai-news-daily`
+```
+1. git checkout dev && git pull origin dev
+2. ROUTINE.md / sources.yaml / docs/ などを編集
+3. git commit && git push origin dev
+4. dev test routine を Run now で実行
+   (claude.ai → Routines → "AI News Daily (dev test)")
+5. dev-test ブランチに force push される md をレビュー
+   https://github.com/kazu-dota/ai-news-daily/tree/dev-test/summaries
+6. 期待どおりなら PR を main に向けて作成
+   gh pr create --base main --head dev
+7. PR をマージ (auto-merge / squash)
+8. 翌朝 8:00 JST から本番 routine が新ルールで動作
 ```
 
-### Step 7. README.md の「最新のサマリー」更新
+---
 
-`<!-- LATEST:BEGIN -->` と `<!-- LATEST:END -->` の間に、最新7日分のサマリーへのリンクを箇条書きで挿入する。
-古いものは溢れさせる (8日以上前は表示しない)。
+## 🤖 サブエージェント利用ポリシー (重要)
 
-例:
-```markdown
-<!-- LATEST:BEGIN -->
-- [2026-05-10](summaries/2026/05/2026-05-10.md) — 主要トピック1, トピック2, ...
-- [2026-05-09](summaries/2026/05/2026-05-09.md) — ...
-<!-- LATEST:END -->
-```
+**コンテキストを大事にするため、重い作業は専用のサブエージェントに delegate すること。**
 
-### Step 8. コミット & プッシュ
+これは Anthropic の "[How we built our multi-agent research
+system](https://www.anthropic.com/engineering/multi-agent-research-system)" および
+"[Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)"
+で述べられている設計原則に倣う:
 
-```bash
-git add summaries/ README.md
-git commit -m "summary: YYYY-MM-DD (N items)"
-git push origin main
-```
+1. **Context isolation** — 各 subagent は独立した context window で動作する。Web 探索や
+   大量ファイル読みのような「最終的に少しの結論しか必要ないが、途中で大量のトークンを使う」
+   作業を lead の context に流し込まない
+2. **Output compression** — subagent は探索の生データではなく、**要約と結論のみ** を lead に
+   返す。これにより lead の context は会話の主筋を保ったまま動ける
+3. **Specialization** — 各 subagent は単一責任。description で「いつ使うか」を明確に
+4. **Tool minimization** — subagent には必要最小限のツールしか渡さない
+5. **Token economy** — Anthropic の評価では token 使用量が agent performance の 80% を
+   説明する。重い探索は subagent に閉じ込め、lead は判断と orchestration に集中
 
-### Step 9. Discussion 投稿 (オプション、初期は手動でも可)
+### このリポジトリで定義済みの subagent
 
-`Announcements` カテゴリ (デフォルト・告知用) にスレッドを立てる。
-`gh discussion create` は存在しないので GraphQL の `createDiscussion` mutation を使用する。
+| 名前 | いつ呼ぶか | 主な tool |
+|---|---|---|
+| [`source-researcher`](.claude/agents/source-researcher.md) | 新しいニュースソースの追加候補を調査するとき (RSS/HTML 確認、更新頻度の評価、`sources.yaml` 形式での提案) | WebFetch, WebSearch, Read |
+| [`summary-reviewer`](.claude/agents/summary-reviewer.md) | `summaries/` 配下の md を読んで `ROUTINE.md` のルール準拠を点検するとき (引用15語/30字、独自表現、必須セクション、no-update 記載、フォーマット崩れ) | Read, Grep, Glob |
 
-**固定値**:
-- リポジトリ ID: `R_kgDOSZGj6Q`
-- Announcements カテゴリ ID: `DIC_kwDOSZGj6c4C8sAZ`
+### subagent を **使うべき** 典型作業
 
-```bash
-gh api graphql -f query='
-mutation($repoId: ID!, $catId: ID!, $title: String!, $body: String!) {
-  createDiscussion(input: {
-    repositoryId: $repoId,
-    categoryId: $catId,
-    title: $title,
-    body: $body
-  }) { discussion { url } }
-}' \
-  -F repoId='R_kgDOSZGj6Q' \
-  -F catId='DIC_kwDOSZGj6c4C8sAZ' \
-  -F title='📅 YYYY-MM-DD AI News' \
-  -F body="$(cat <<EOF
-今日のハイライト:
-- ハイライト1
-- ハイライト2
-- ハイライト3
+- 「Microsoft の AI ブログを5本 fetch して `sources.yaml` に追加候補を出して」 → `source-researcher`
+- 「過去1週間の summaries が引用ルールを守っているか全件チェックして」 → `summary-reviewer`
+- 「ハッカーニュースで AI 関連の RSS を探して」 → `source-researcher`
 
-詳細: https://github.com/kazu-dota/ai-news-daily/blob/main/summaries/YYYY/MM/YYYY-MM-DD.md
-EOF
-)"
-```
+### subagent を **使わなくてよい** 作業
 
-※ Discussion投稿に失敗してもルーティン全体は失敗としない (mdコミットは既に成功している)。
+- ROUTINE.md の文言修正など、対象ファイルが特定済みで小さい編集
+- README の typo 修正
+- `git status` / `git log` などの確認系コマンド
+- 単発の `gh pr create` / `gh pr merge`
+
+### 新しい subagent が必要になったら
+
+`.claude/agents/<name>.md` を frontmatter (`name` / `description` / `tools` / `model`) 付きで
+新規作成し、本ファイルの「定義済みの subagent」表に追記する。description は **「どんなとき
+に呼ぶべきか」** を明確に書くこと (lead がどの subagent を呼ぶか判断するため)。
 
 ---
 
-## エラーハンドリング
+## routine の役割 (詳細は ROUTINE.md)
 
-- ソース取得失敗 (ネットワークエラー、403、404): **そのソースのみスキップ**、`sources_failed` をインクリメント
-- WebFetchのレート制限: 数秒待ってリトライ (最大3回)
-- git push 失敗 (conflict): `git pull --rebase` してリトライ。それでも失敗なら md ファイルを `unsent/` に退避し、エラーログを残して終了
-- Claude のトークン不足 (まれ): ハイライトと vendor カテゴリだけは必ず出力する
+| routine | スケジュール | 出力先 | 役割 |
+|---|---|---|---|
+| `AI News Daily` (本番) | 毎朝 8:00 JST | `routine/auto-summary-...` ブランチ → PR → main | 当日 md を生成して main に PR + auto-merge で反映 |
+| `AI News Daily (dev test)` | 手動 Run now のみ | `dev-test` ブランチに force push | dev で行った変更を main マージ前に試運転 |
 
----
-
-## 重要な留意事項
-
-- **公開リポジトリである**: コミットはすべて世界に公開される。秘密情報・個人情報を絶対に含めないこと
-- **メディア記事の著作権を最優先**: 迷ったら採録しない。タイトルとリンクのみで十分
-- **要約は事実情報中心**: 「誰が・何を・いつ」は著作権対象外。意見・解釈・予測は控えめに
-- **politicallyにセンシティブな話題は中立的記述のみ**
+routine の prompt は claude.ai の Routines 管理 UI で管理されており、**リポジトリのファイル
+ではない**。routine の動作を変えたい場合は通常 `ROUTINE.md` を編集すれば足りる (両方の routine
+が起動時に必ず読み込むため)。schedule・モデル・ツール許可リストの変更だけは管理 UI で行う。
 
 ---
 
-## 想定される実行コスト
+## 編集時の留意点
 
-- 1回あたりのトークン消費: 入力数十万 / 出力数千 → 数十円〜100円程度
-- 失敗時のリトライ含めても 1日200円以下に収まる想定
+- `ROUTINE.md` を変更したら **必ず dev-test routine で動作確認** してから main にマージする
+- `sources.yaml` に追加するソースは可能なら `source-researcher` subagent で事前に URL/更新頻度
+  を検証する
+- `summaries/` 配下のファイルは routine が自動生成するもの。**手動編集しない** (もし必要な
+  ら著作権削除依頼など特殊ケースのみ)
+- main の branch protection は `enforce_admins: true` なので、admin でも direct push は
+  できない。必ず PR 経由
