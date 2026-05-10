@@ -2,7 +2,6 @@
 #
 # category:
 #   vendor          - 企業/モデル発表 (公式ブログ・リリース)
-#   vendor_ms       - Microsoft Copilot エコシステム (重点扱い)
 #   community       - 技術コミュニティ (HN, Reddit, GitHub Trending)
 #   papers_trending - 話題の研究論文 (Hugging Face Papers など)
 #   media           - 海外メディア
@@ -12,10 +11,7 @@
 #   ルーティンは high を必ずチェック、medium は時間が許せばチェック、low は余裕があれば。
 #
 # filter (任意):
-#   ai_keywords          - AI関連キーワード (LLM, AI, model, 生成AI, etc.) でフィルタリング
-#   ms_copilot_keywords  - Microsoft Copilot 関連キーワードでフィルタリング
-#                          (Copilot, Copilot Studio, M365 Copilot, GitHub Copilot,
-#                           Power Platform, Azure AI Foundry, Microsoft 365 Copilot Wave 等)
+#   ai_keywords - AI関連キーワード (LLM, AI, model, 生成AI, etc.) でフィルタリング
 
 sources:
   # ============== Vendor (企業/モデル発表) ==============
@@ -48,54 +44,35 @@ sources:
     category: vendor
     priority: medium
 
-  # ============== Microsoft Copilot エコシステム (重点扱い) ==============
-  # 利用組織が Microsoft 製品中心のため、Copilot 系は必ず全件チェックし、
-  # 出力 md でも独立セクションとして扱う。
-  - name: Microsoft Source (公式ニュース)
-    url: https://news.microsoft.com/source/
-    category: vendor_ms
-    priority: high
-    filter: ms_copilot_keywords
-  - name: Microsoft 365 Blog
-    url: https://www.microsoft.com/en-us/microsoft-365/blog/
-    category: vendor_ms
-    priority: high
-    filter: ms_copilot_keywords
-  - name: Microsoft Copilot Blog (Microsoft 365 Copilot)
-    url: https://www.microsoft.com/en-us/microsoft-copilot/blog/
-    category: vendor_ms
-    priority: high
-  - name: Microsoft Power Platform Blog (Copilot Studio 含む)
-    url: https://www.microsoft.com/en-us/power-platform/blog/
-    category: vendor_ms
-    priority: high
-    filter: ms_copilot_keywords
+  # Microsoft (Copilot / Copilot Studio / Azure AI 等)
   - name: Microsoft AI Blog
     url: https://blogs.microsoft.com/ai/
-    category: vendor_ms
+    category: vendor
     priority: high
+  - name: Microsoft 365 Blog
+    url: https://www.microsoft.com/en-us/microsoft-365/blog/
+    category: vendor
+    priority: medium
+  - name: Microsoft Copilot Blog
+    url: https://www.microsoft.com/en-us/microsoft-copilot/blog/
+    category: vendor
+    priority: medium
+  - name: Microsoft Power Platform Blog (Copilot Studio 含む)
+    url: https://www.microsoft.com/en-us/power-platform/blog/
+    category: vendor
+    priority: medium
   - name: Azure AI Blog
     url: https://azure.microsoft.com/en-us/blog/category/ai/
-    category: vendor_ms
-    priority: medium
-    filter: ms_copilot_keywords
-  - name: Microsoft Tech Community — Copilot
-    url: https://techcommunity.microsoft.com/category/microsoft365copilot
-    category: vendor_ms
+    category: vendor
     priority: medium
   - name: Microsoft Research Blog
     url: https://www.microsoft.com/en-us/research/blog/
-    category: vendor_ms
+    category: vendor
     priority: medium
-  - name: GitHub Blog — Copilot
+  - name: GitHub Blog (AI/Copilot)
     url: https://github.blog/category/ai-and-ml/
-    category: vendor_ms
+    category: vendor
     priority: medium
-  - name: 日本マイクロソフト 公式 Blog
-    url: https://www.microsoft.com/ja-jp/biz/news/
-    category: vendor_ms
-    priority: medium
-    filter: ms_copilot_keywords
 
   # ============== Community ==============
   - name: Hacker News (front page)
@@ -166,45 +143,3 @@ paywalled_or_protected:
   - bloomberg.com      # Bloomberg
   - nhk.or.jp          # NHK
   - businessinsider.com
-
-# Microsoft Copilot 関連キーワード (filter: ms_copilot_keywords が参照)
-# このいずれかが title / 本文に含まれていれば Microsoft Copilot エコシステム関連とみなす。
-ms_copilot_keywords:
-  # Copilot 系製品名
-  - "Copilot"
-  - "Microsoft Copilot"
-  - "Microsoft 365 Copilot"
-  - "M365 Copilot"
-  - "Copilot Studio"
-  - "Copilot Pro"
-  - "Copilot for Sales"
-  - "Copilot for Service"
-  - "Copilot for Finance"
-  - "Copilot for Security"
-  - "Copilot in Teams"
-  - "Copilot in Word"
-  - "Copilot in Excel"
-  - "Copilot in PowerPoint"
-  - "Copilot in Outlook"
-  - "Copilot in Loop"
-  - "Copilot in OneNote"
-  - "GitHub Copilot"
-  - "GitHub Copilot Workspace"
-  - "GitHub Copilot Chat"
-  # Microsoft AI プラットフォーム
-  - "Azure AI Foundry"
-  - "Azure OpenAI"
-  - "Azure AI Studio"
-  - "Microsoft Fabric"
-  - "Power Platform"
-  - "Power Apps"
-  - "Power Automate"
-  - "Power BI"
-  # 関連発表/イベント名
-  - "Microsoft Ignite"
-  - "Microsoft Build"
-  - "Wave"  # M365 Copilot Wave 1/2/3 の文脈
-  # 日本語表記
-  - "マイクロソフト Copilot"
-  - "コパイロット"
-  - "コパイロット スタジオ"
