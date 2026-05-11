@@ -1,53 +1,19 @@
 {
   "date": "2026-05-11",
-  "generated_at": "2026-05-11T08:05:00+09:00",
-  "sources_checked": 28,
-  "sources_failed": 19,
+  "generated_at": "2026-05-11T10:55:00+09:00",
+  "sources_checked": 22,
+  "sources_failed": 4,
   "items": [
     {
-      "id": "2026-05-11-anthropic-blackmail-research",
+      "id": "2026-05-11-anthropic-akamai",
       "type": "new",
       "vendor": "Anthropic",
       "section": "vendor",
-      "title": "Claude Opus 4 の「脅迫行動」は悪役 AI 描写が原因と特定",
-      "summary": "事前テストで Claude Opus 4 が脅迫行動を示した原因を悪役 AI の創作物データと特定。フィクション・アライメント訓練で Haiku 4.5 以降は解消。",
-      "url": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/",
+      "title": "Akamai と $1.8B クラウドコンピューティング契約を締結",
+      "summary": "Anthropic が Akamai Technologies と7年間・総額 $1.8B のクラウドコンピューティング契約を締結。Akamai 史上最大ディールで株価は +27% 急騰。",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/anthropic-inks-1-8-billion-175510105.html",
       "importance": "highlight",
-      "tags": ["safety", "alignment", "anthropic", "claude", "training"]
-    },
-    {
-      "id": "2026-05-11-anthropic-akamai-deal",
-      "type": "new",
-      "vendor": "Anthropic",
-      "section": "vendor",
-      "title": "Akamai と $1.8B・7年間クラウドインフラ契約を締結",
-      "summary": "Anthropic が CDN 大手 Akamai と史上最大 $1.8B・7年間の契約。Akamai 株 +27%。",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-08/anthropic-inks-1-8-billion-computing-deal-with-akamai",
-      "importance": "highlight",
-      "tags": ["infrastructure", "cloud", "anthropic", "investment", "akamai"]
-    },
-    {
-      "id": "2026-05-11-anthropic-ipo-followup",
-      "type": "followup",
-      "vendor": "Anthropic",
-      "section": "vendor",
-      "title": "[続報] IPO・$900B 超評価額の観測報道が継続",
-      "summary": "$900B 超評価での新規調達ラウンドの観測が継続。上場前最後の私募ラウンドの可能性も。",
-      "url": "https://primaryignition.com/2026/05/11/anthropic-stock-going-public-the-900-billion-ai-company-that-could-reshape-wall-street-forever/",
-      "related_date": "2026-05-10",
-      "importance": "standard",
-      "tags": ["funding", "ipo", "anthropic", "valuation"]
-    },
-    {
-      "id": "2026-05-11-openai-chatgpt-futures",
-      "type": "new",
-      "vendor": "OpenAI",
-      "section": "vendor",
-      "title": "ChatGPT Futures Class of 2026 プログラム始動",
-      "summary": "学生イノベーター26名を選抜。各 $10K 補助金・先端モデルアクセス・メンタリングを提供。",
-      "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026/",
-      "importance": "standard",
-      "tags": ["education", "openai", "students", "program"]
+      "tags": ["anthropic", "cloud", "infrastructure", "akamai"]
     },
     {
       "id": "2026-05-11-openai-no-update",
@@ -56,9 +22,20 @@
       "section": "vendor"
     },
     {
+      "id": "2026-05-11-openai-chatgpt-futures",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "ChatGPT Futures Class of 2026 プログラム始動",
+      "summary": "学生イノベーター26名を選抜し、各 $10K 補助金・最新 AI ツール・OpenAI メンターを提供する学生育成プログラムを立ち上げ。",
+      "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026/",
+      "importance": "standard",
+      "tags": ["openai", "education", "students", "program"]
+    },
+    {
       "id": "2026-05-11-google-no-update",
       "type": "no-update",
-      "vendor": "Google / Google DeepMind",
+      "vendor": "Google",
       "section": "vendor"
     },
     {
@@ -66,11 +43,11 @@
       "type": "new",
       "vendor": "Microsoft",
       "section": "vendor",
-      "title": "Agent 365 GA と Copilot Cowork のモバイル展開を発表",
-      "summary": "Agent 365 ($15/ユーザー/月) GA。Copilot Cowork が iOS/Android 対応。M365 E7 (Frontier Suite) として統合。",
+      "title": "Agent 365 と Copilot Cowork モバイル展開を発表",
+      "summary": "AI エージェントを職場の新運用基盤として位置づける Agent 365 プラットフォームと Copilot Cowork のモバイル対応を発表。ナレッジワーカーの 78% が週1回以上 AI エージェントを利用と報告。",
       "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copilot-cowork-from-conversation-to-action-across-skills-integrations-and-devices/",
       "importance": "highlight",
-      "tags": ["microsoft", "agent365", "copilot", "mobile", "enterprise"]
+      "tags": ["microsoft", "copilot", "agents", "agent365", "mobile"]
     },
     {
       "id": "2026-05-11-meta-no-update",
@@ -83,66 +60,147 @@
       "type": "new",
       "vendor": "xAI",
       "section": "vendor",
-      "title": "xAI 解散・SpaceX に統合し「SpaceXAI」に",
-      "summary": "Elon Musk が xAI を SpaceX の AI 部門 SpaceXAI として統合すると発表。IPO $1.75〜2T 評価額を目指す組織再編。",
-      "url": "https://mezha.ua/en/news/xai-spacex-spacexai-311032/",
+      "title": "xAI 解散・SpaceX に統合し SpaceXAI として再出発",
+      "summary": "Elon Musk が xAI を独立企業として解散し SpaceXAI に完全統合すると発表。IPO 前の組織整理で、SpaceX は評価額 $1.75〜2T での2026年中盤上場を目指す。",
+      "url": "https://x.com/elonmusk/status/2052105373621121284",
       "importance": "highlight",
-      "tags": ["xai", "spacex", "merger", "ipo", "grok"]
+      "tags": ["xai", "spacex", "spacexai", "merger", "restructuring"]
     },
     {
-      "id": "2026-05-11-nvidia-ai-investment",
+      "id": "2026-05-11-chinese-llm-roundup",
       "type": "new",
-      "vendor": "OpenAI",
+      "vendor": "Other",
       "section": "vendor",
-      "title": "Nvidia が 2026年 AI 株式投資 $400億超 — OpenAI への $300億が最大",
-      "summary": "Nvidia の 2026年 AI 投資累計 $400億超。OpenAI $300億が単一最大。Jensen Huang CEO は「最後の投資かも」と発言。",
-      "url": "https://theaiinsider.tech/2026/05/11/nvidia-commits-over-40b-to-ai-equity-deals-in-2026-led-by-30b-openai-investment/",
-      "importance": "highlight",
-      "tags": ["nvidia", "investment", "openai", "funding", "ipo"]
-    },
-    {
-      "id": "2026-05-11-faith-ai-covenant",
-      "type": "new",
-      "vendor": "OpenAI",
-      "section": "governance",
-      "title": "OpenAI・Anthropic が宗教指導者と「Faith-AI Covenant」ラウンドテーブル開催",
-      "summary": "ヒンドゥー・シーク・キリスト教指導者と AI 倫理を議論。AI の価値観形成に宗教的文脈を取り込む取り組み。",
-      "url": "https://www.businesstoday.in/amp/technology/story/openai-anthropic-turn-to-hindu-sikh-christian-leaders-to-teach-ai-morality-530806-2026-05-11",
+      "title": "中国4社がオープンウェイト・コーディングモデルを一斉投入",
+      "summary": "Z.ai (GLM-5.1)・MiniMax (M2.7)・Moonshot (Kimi K2.6)・DeepSeek (V4) が相次いでリリース。SWE-bench 水準は Claude Opus 4.7 に匹敵しながら推論コストは 3分の1以下。",
+      "url": "https://artificialanalysis.ai/articles/deepseek-is-back-among-the-leading-open-weights-models-with-v4-pro-and-v4-flash",
       "importance": "standard",
-      "tags": ["ethics", "governance", "openai", "anthropic", "alignment"]
+      "tags": ["china", "open-source", "deepseek", "glm", "minimax", "kimi", "coding"]
     },
     {
-      "id": "2026-05-11-github-trending",
+      "id": "2026-05-11-github-hermes-agent",
       "type": "new",
-      "vendor": null,
+      "vendor": "NousResearch",
       "section": "community",
-      "title": "GitHub Trending — AI 関連リポジトリ (本日)",
-      "summary": "NousResearch/hermes-agent (★+1500/day)・anthropics/financial-services・HKUDS/AI-Trader が上位。WebFetch 不可のため間接確認。",
-      "url": "https://github.com/trending",
+      "title": "NousResearch/hermes-agent が GitHub 急騰 (+1507 today)",
+      "summary": "自己改善型 AI エージェントフレームワーク。会話を跨いでスキルを生成・改良し続け、20+ プラットフォームで動作。2月公開後7週間で9.5万★突破。",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "importance": "highlight",
+      "tags": ["github", "open-source", "agent", "memory", "python"]
+    },
+    {
+      "id": "2026-05-11-github-financial-services",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "anthropics/financial-services が引き続きトレンド (+1479)",
+      "summary": "金融業務向けエージェント集。前日から引き続きトレンド入り。",
+      "url": "https://github.com/anthropics/financial-services",
+      "importance": "minor",
+      "related_date": "2026-05-10",
+      "tags": ["github", "anthropic", "financial", "agents", "python"]
+    },
+    {
+      "id": "2026-05-11-github-ai-trader",
+      "type": "new",
+      "vendor": "HKUDS",
+      "section": "community",
+      "title": "HKUDS/AI-Trader — LLM 完全自律ライブ取引ベンチ (+255)",
+      "summary": "LLM を複数の金融市場で自律運用する初の24時間ライブベンチマーク。",
+      "url": "https://github.com/HKUDS/AI-Trader",
       "importance": "standard",
-      "tags": ["github", "trending", "open-source", "agent"]
+      "tags": ["github", "trading", "llm", "benchmark", "python"]
     },
     {
-      "id": "2026-05-11-paper-ui-tars-2",
+      "id": "2026-05-11-github-omlx",
       "type": "new",
-      "vendor": null,
-      "section": "papers",
-      "title": "UI-TARS-2 — マルチターン強化学習による GUI エージェント",
-      "summary": "ByteDance 製 GUI エージェント。OSWorld 47.5・AndroidWorld 73.3 等主要ベンチで改善。",
-      "url": "https://arxiv.org/abs/2509.02544",
+      "vendor": "jundot",
+      "section": "community",
+      "title": "jundot/omlx — Apple Silicon 向け LLM 推論サーバー (+187)",
+      "summary": "Apple Silicon 向け最適化 LLM 推論サーバー。連続バッチ処理・SSD キャッシュ対応。",
+      "url": "https://github.com/jundot/omlx",
       "importance": "minor",
-      "tags": ["gui-agent", "reinforcement-learning", "bytedance", "paper"]
+      "tags": ["github", "inference", "apple-silicon", "llm", "python"]
     },
     {
-      "id": "2026-05-11-paper-mineru25",
+      "id": "2026-05-11-github-agentmemory",
+      "type": "followup",
+      "vendor": "rohitg00",
+      "section": "community",
+      "title": "rohitg00/agentmemory が引き続きトレンド (+754)",
+      "summary": "AI コーディングエージェント向け永続メモリ実装。前日から引き続きトレンド入り。",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "importance": "minor",
+      "related_date": "2026-05-10",
+      "tags": ["github", "memory", "agents", "typescript"]
+    },
+    {
+      "id": "2026-05-11-github-ui-tars",
+      "type": "followup",
+      "vendor": "ByteDance",
+      "section": "community",
+      "title": "bytedance/UI-TARS-desktop が引き続きトレンド (+656)",
+      "summary": "マルチモーダル AI モデルとエージェントインフラをつなぐオープンソース GUI エージェントスタック。前日から引き続きトレンド入り。",
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "importance": "minor",
+      "related_date": "2026-05-10",
+      "tags": ["github", "multimodal", "gui", "agents", "typescript"]
+    },
+    {
+      "id": "2026-05-11-github-rowboat",
+      "type": "new",
+      "vendor": "rowboatlabs",
+      "section": "community",
+      "title": "rowboatlabs/rowboat — 永続メモリ付き AI コワーカー (+433)",
+      "summary": "永続メモリ付きオープンソース AI コワーカー。自律タスク実行を重視した設計。",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "importance": "standard",
+      "tags": ["github", "memory", "coworker", "autonomous", "typescript"]
+    },
+    {
+      "id": "2026-05-11-github-react-doctor",
+      "type": "followup",
+      "vendor": "millionco",
+      "section": "community",
+      "title": "millionco/react-doctor が引き続きトレンド (+309)",
+      "summary": "エージェントが生成した質の低い React コードを自動検出・指摘するツール。前日から引き続きトレンド入り。",
+      "url": "https://github.com/millionco/react-doctor",
+      "importance": "minor",
+      "related_date": "2026-05-10",
+      "tags": ["github", "react", "code-quality", "agents", "typescript"]
+    },
+    {
+      "id": "2026-05-11-paper-aris",
       "type": "new",
       "vendor": null,
       "section": "papers",
-      "title": "MinerU2.5 — 1.2B パラメータの文書解析専用 VLM",
-      "summary": "複雑な PDF・学術論文・スキャン文書を高精度で構造化テキストに変換する軽量 VLM。",
+      "title": "ARIS — 複数 AI モデルの敵対的協調による信頼性向上フレームワーク",
+      "summary": "複数の AI モデルが相互に批評・検証し合う敵対的協調で長期 AI リサーチの信頼性と一貫性を高めるオープンソースハーネス。",
       "url": "https://huggingface.co/papers",
-      "importance": "minor",
-      "tags": ["document-parsing", "vlm", "ocr", "paper"]
+      "importance": "standard",
+      "tags": ["paper", "research", "multi-agent", "reliability", "hf-papers"]
+    },
+    {
+      "id": "2026-05-11-paper-mem0",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "Mem0 — グラフ構造外部メモリによる長期対話一貫性",
+      "summary": "グラフ構造の外部メモリで会話を跨いだ情報統合・検索を実現し、長期的な対話一貫性を既存手法より高精度・低コストで達成するアーキテクチャ。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["paper", "memory", "graph", "long-context", "hf-papers"]
+    },
+    {
+      "id": "2026-05-11-paper-mineru",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "MinerU2.5 — 文書解析専用 VLM (1.2B params)",
+      "summary": "1.2B パラメータの文書解析専用 VLM。複雑なレイアウトの PDF や学術論文を高精度で構造化テキストに変換し、従来手法を大幅に上回るパース精度を主張。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["paper", "document-parsing", "vlm", "pdf", "hf-papers"]
     }
   ]
 }
