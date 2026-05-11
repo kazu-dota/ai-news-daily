@@ -213,6 +213,90 @@ items_curated: 18
 - 生成: Claude Code routine `ai-news-daily`
 ```
 
+### Step 6.5. 構造化データの出力 (UI 用)
+
+GitHub Pages 上の SPA (`docs/index.html`) が UI として読むため、md と並行して **機械可読な
+JSON** を出力する。Pages から fetch する都合上、**ファイルは `docs/data/` 配下** に置く。
+
+#### A. 当日の items ファイル
+`docs/data/items/YYYY-MM-DD.json` を新規作成 (`mkdir -p` で親ディレクトリ作成):
+
+```json
+{
+  "date": "2026-05-10",
+  "generated_at": "2026-05-10T08:05:00+09:00",
+  "sources_checked": 18,
+  "sources_failed": 0,
+  "items": [
+    {
+      "id": "2026-05-10-anthropic-opus-48",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Claude Opus 4.8 発表",
+      "summary": "推論ベンチで前世代比 +12%。視覚精度も向上。",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "importance": "highlight",
+      "tags": ["model-release", "anthropic"]
+    },
+    {
+      "id": "2026-05-10-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-10-anthropic-opus-47-helm",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[続報] Claude Opus 4.7 — Stanford HELM 首位",
+      "summary": "直前のベンチ評価で首位。新情報のみ短く。",
+      "url": "https://crfm.stanford.edu/helm/...",
+      "related_date": "2026-05-08",
+      "importance": "standard",
+      "tags": ["benchmark", "anthropic", "opus"]
+    }
+  ]
+}
+```
+
+各 item のフィールド仕様:
+- `id`: `YYYY-MM-DD-<slug>` 形式 (slug は md の `<a id="...">` と同じものを推奨)
+- `type`: `new` / `followup` / `no-update`
+- `vendor`: vendor 名 (Anthropic / OpenAI / Google / Microsoft / Meta / Mistral / xAI / Hugging Face / その他は自由)
+- `section`: `vendor` / `community` / `papers` / `media` / `governance`
+- `title`: md と同じ見出し本文
+- `summary`: 1〜2 行の要旨 (md 本文より短い、検索表示用)
+- `url`: 元記事 URL (no-update の場合は省略)
+- `importance`: `highlight` (今日のハイライト) / `standard` (通常) / `minor` (短く触れる程度)
+- `tags`: 自由なキーワード配列 (UI のフィルタ・検索で使う)
+- `related_date` (followup のみ): 元の話題を取り上げた日付
+
+#### B. 累積インデックスの更新
+
+`docs/data/index.json` を読み込み、**当日の items を append** して書き戻す。
+
+```python
+# 擬似コード
+existing = json.load("docs/data/index.json") if exists else []
+new_items = [{"date": "2026-05-10", **item} for item in today_items]
+existing.extend(new_items)
+json.dump(existing, "docs/data/index.json")
+```
+
+`docs/data/index.json` の中身は **フラットな配列** (1 アイテム = 1 オブジェクト):
+```json
+[
+  {"date": "2026-05-10", "id": "...", "vendor": "Anthropic", "title": "...", "type": "new", ...},
+  {"date": "2026-05-10", "id": "...", "vendor": "OpenAI", "type": "no-update", ...},
+  {"date": "2026-05-09", ...},
+  ...
+]
+```
+
+新しい順 (最新が先) で並べる。古い項目はライフサイクル管理で別途扱うので、ここではすべて残す。
+
 ### Step 7. README.md の「最新のサマリー」更新
 
 `<!-- LATEST:BEGIN -->` と `<!-- LATEST:END -->` の間に、最新7日分のサマリーへのリンクを箇条書きで挿入する。
@@ -229,7 +313,7 @@ items_curated: 18
 ### Step 8. コミット & プッシュ
 
 ```bash
-git add summaries/ README.md
+git add summaries/ README.md docs/data/
 git commit -m "summary: YYYY-MM-DD (N items)"
 git push origin main
 ```

@@ -52,9 +52,11 @@ ai-news-daily/
 ## 開発フロー
 
 ```
-1. git checkout dev && git pull origin dev
+1. git checkout dev && git fetch origin && git rebase origin/main
+   (※ main は本番 routine が毎日先行するので、必ず rebase してから作業開始)
 2. ROUTINE.md / sources.yaml / docs/ などを編集
 3. git commit && git push origin dev
+   (rebase 後で履歴が変わっている場合は git push -f origin dev)
 4. dev test routine を Run now で実行
    (claude.ai → Routines → "AI News Daily (dev test)")
 5. dev-test ブランチに force push される md をレビュー
@@ -64,6 +66,19 @@ ai-news-daily/
 7. PR をマージ (auto-merge / squash)
 8. 翌朝 8:00 JST から本番 routine が新ルールで動作
 ```
+
+### ⚠ コンフリクト回避のルール
+
+main は本番 routine が毎日 PR + auto-merge で更新するため、**dev は気付くと数日遅れる**。
+コンフリクトを防ぐために以下を厳守:
+
+1. **README.md の `<!-- LATEST:BEGIN -->` 〜 `<!-- LATEST:END -->` セクションは絶対に触らない**
+   — 本番 routine が毎日書き換える領域。ここを開発者が編集すると確実に衝突する
+2. **`summaries/` 配下のファイルは手動編集しない** — routine の自動生成領域
+3. **PR を出す前に必ず `git rebase origin/main`** で同期する。古い dev のまま PR を出すと、
+   GitHub UI でコンフリクト警告が出る場合がある
+4. PR が長く滞留した場合は、GitHub UI の「Update branch」ボタンか、ローカルで rebase + force push
+   で main に追従させてから再度 push する
 
 ---
 
