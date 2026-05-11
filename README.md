@@ -18,6 +18,7 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-05-12](summaries/2026/05/2026-05-12.md) — Anthropic Project Glasswing + Claude Mythos Preview (全主要 OS ゼロデイ自律発見) / Claude Security パブリックベータ / Google が AI 悪用大規模攻撃を阻止 / Microsoft 365 E7 GA
 - [2026-05-11](summaries/2026/05/2026-05-11.md) — Anthropic × Akamai $1.8B 契約 / xAI 解散・SpaceXAI へ統合 / Microsoft Agent 365 発表 / OpenAI ChatGPT Futures / 中国4社オープンウェイトモデル一斉投入
 - [2026-05-10](summaries/2026/05/2026-05-10.md) — Anthropic $900B 調達ラウンド最終局面 / OpenAI GPT-Realtime-2 音声3モデル / Gemini 3.1 Flash-Lite GA / Claude Managed Agents 並列20エージェント追加
 <!-- LATEST:END -->

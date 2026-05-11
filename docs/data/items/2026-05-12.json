@@ -1,0 +1,187 @@
+{
+  "date": "2026-05-12",
+  "generated_at": "2026-05-12T08:09:44+09:00",
+  "sources_checked": 22,
+  "sources_failed": 8,
+  "items": [
+    {
+      "id": "2026-05-12-anthropic-glasswing",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Project Glasswing と Claude Mythos Preview を始動",
+      "summary": "次世代モデル Mythos Preview が全主要 OS・ブラウザの数千ゼロデイを自律発見。AWS・Apple・Cisco・Google 等11社と連携するセキュリティイニシアチブ。",
+      "url": "https://www.anthropic.com/glasswing",
+      "importance": "highlight",
+      "tags": ["security", "model-preview", "zero-day", "anthropic", "glasswing"]
+    },
+    {
+      "id": "2026-05-12-anthropic-claude-security",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Claude Security — エンタープライズ向けパブリックベータ公開",
+      "summary": "Opus 4.7 搭載のコード脆弱性スキャン・修正支援製品が Enterprise 顧客向け公開ベータに移行。CrowdStrike・Palo Alto Networks ら6社と統合。",
+      "url": "https://siliconangle.com/2026/04/30/anthropic-announces-claude-security-public-beta-find-fix-software-vulnerabilities/",
+      "importance": "highlight",
+      "tags": ["security", "enterprise", "claude-security", "anthropic", "vulnerability"]
+    },
+    {
+      "id": "2026-05-12-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-12-google-ai-attack",
+      "type": "new",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "AI 悪用の大規模ソフト搾取計画を事前阻止 (May 11)",
+      "summary": "国家的脅威アクターが AI ツールを用いた大規模脆弱性搾取を計画していたが、Google が事前に発見し阻止。AI サイバー攻撃の現実化が初確認。",
+      "url": "https://www.cnbc.com/2026/05/11/google-thwarts-effort-hacker-group-use-ai-mass-exploitation-event.html",
+      "importance": "highlight",
+      "tags": ["security", "cyberattack", "google", "ai-threat"]
+    },
+    {
+      "id": "2026-05-12-microsoft-agent365-update",
+      "type": "followup",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "[続報] Microsoft 365 E7 + Agent 365 — 5月アップデートと GA 詳細",
+      "summary": "M365 E7 が5月1日 GA。$99/ユーザー・月で E5+Copilot+Agent 365 を一体化。Agent 365 単体は $15/ユーザー・月。5月更新では操作ログ可視化とサードパーティガバナンス強化。",
+      "url": "https://techcommunity.microsoft.com/blog/microsoft_365blog/microsoft-365-e7-and-agent-365-are-now-generally-available/4516295",
+      "related_date": "2026-05-11",
+      "importance": "standard",
+      "tags": ["microsoft", "agent-365", "m365", "enterprise", "ga"]
+    },
+    {
+      "id": "2026-05-12-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-12-github-python-cloakbrowser",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending Python: CloakHQ/CloakBrowser",
+      "summary": "ボット検出を突破するステルス Chromium ブラウザ。AI エージェントの Web 操作基盤として注目 (★ +1,325 today)。",
+      "url": "https://github.com/cloakhq/cloakbrowser",
+      "importance": "standard",
+      "tags": ["github-trending", "browser", "ai-agent", "python"]
+    },
+    {
+      "id": "2026-05-12-github-ts-gstack",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending TypeScript: garrytan/gstack",
+      "summary": "YC 代表 Garry Tan の Claude Code 環境を再現する23ツール構成の開発スタック (★ +916 today)。",
+      "url": "https://github.com/garrytan/gstack",
+      "importance": "standard",
+      "tags": ["github-trending", "claude-code", "typescript", "developer-tools"]
+    },
+    {
+      "id": "2026-05-12-github-ts-aitolearn",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending TypeScript: yikart/AiToEarn",
+      "summary": "AI を活用した収益化プラットフォーム (★ +595 today)。",
+      "url": "https://github.com/yikart/aitolearn",
+      "importance": "minor",
+      "tags": ["github-trending", "typescript", "ai-platform"]
+    },
+    {
+      "id": "2026-05-12-github-python-hermes-followup",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] NousResearch/hermes-agent — 急増継続 (★ +2,229 today)",
+      "summary": "昨日比 +48% の伸びで連続トレンド入り。自己改善型エージェントへの関心が持続。",
+      "url": "https://github.com/nousresearch/hermes-agent",
+      "related_date": "2026-05-11",
+      "importance": "minor",
+      "tags": ["github-trending", "python", "ai-agent", "followup"]
+    },
+    {
+      "id": "2026-05-12-paper-flow-opd",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "Flow-OPD: フローマッチング画像生成のアライメント改善",
+      "summary": "オンポリシー蒸留とマニフォールドアンカー正則化の2段階手法で Flow Matching モデルの生成品質とプロンプト整合性を同時改善。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["paper", "text-to-image", "flow-matching", "alignment"]
+    },
+    {
+      "id": "2026-05-12-paper-humannet",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "HumanNet: 具現化 AI 向け大規模ヒューマンセントリックデータセット",
+      "summary": "エゴセントリック動画を主軸とした大規模データセット。ロボットデータの代替として VLM 訓練に有効であることを実証。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["paper", "embodied-ai", "dataset", "vlm"]
+    },
+    {
+      "id": "2026-05-12-paper-personalive",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "PersonaLive: リアルタイム肖像動画生成フレームワーク",
+      "summary": "ハイブリッド陰的シグナル・外観蒸留・自己回帰ストリーミングを組み合わせた拡散ベース肖像アニメーション生成手法。",
+      "url": "https://huggingface.co/papers",
+      "importance": "minor",
+      "tags": ["paper", "video-generation", "portrait", "diffusion"]
+    },
+    {
+      "id": "2026-05-12-media-cnbc-google-attack",
+      "type": "new",
+      "vendor": null,
+      "section": "media",
+      "title": "[CNBC] Google、AI 悪用の大規模サイバー攻撃計画を阻止",
+      "summary": "国家的脅威アクターの AI 活用攻撃計画をGoogle が事前封じたと報道。",
+      "url": "https://www.cnbc.com/2026/05/11/google-thwarts-effort-hacker-group-use-ai-mass-exploitation-event.html",
+      "importance": "standard",
+      "tags": ["media", "security", "google", "cyberattack"]
+    },
+    {
+      "id": "2026-05-12-media-techcrunch-xai-anthropic",
+      "type": "new",
+      "vendor": null,
+      "section": "media",
+      "title": "[TechCrunch] xAI と Anthropic のコンピュート契約への懐疑論",
+      "summary": "SpaceX-Anthropic 計算資源契約の実質的受益者を分析し、Anthropic のキャパシティ確保が主目的との見解を示した論考。",
+      "url": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
+      "importance": "minor",
+      "tags": ["media", "anthropic", "xai", "compute", "analysis"]
+    },
+    {
+      "id": "2026-05-12-media-theringer-mythos",
+      "type": "new",
+      "vendor": null,
+      "section": "media",
+      "title": "[The Ringer] Claude Mythos はインターネットを破壊しうるか",
+      "summary": "Project Glasswing の能力を「既存セキュリティの前提が崩れかねない転換点」として詳報するセキュリティ分析記事。",
+      "url": "https://www.theringer.com/2026/05/06/tech/claude-mythos-anthropic-project-glasswing-cybersecurity-threat-ai",
+      "importance": "standard",
+      "tags": ["media", "anthropic", "security", "glasswing", "analysis"]
+    },
+    {
+      "id": "2026-05-12-media-venturebeat-microsoft-mai",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "media",
+      "title": "[VentureBeat] Microsoft、MAI-Image-2-Efficient を公開 — 41% 低コスト・22% 高速化",
+      "summary": "OpenAI 依存から脱却する自社基盤モデル展開の一環として、画像生成モデルの効率化版をリリース。",
+      "url": "https://venturebeat.com/technology/microsoft-launches-mai-image-2-efficient-a-cheaper-and-faster-ai-image-model",
+      "importance": "minor",
+      "tags": ["media", "microsoft", "image-generation", "mai"]
+    }
+  ]
+}
