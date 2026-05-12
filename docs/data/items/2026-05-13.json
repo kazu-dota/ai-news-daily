@@ -1,0 +1,196 @@
+{
+  "date": "2026-05-13",
+  "generated_at": "2026-05-13T08:06:29+09:00",
+  "sources_checked": 21,
+  "sources_failed": 10,
+  "items": [
+    {
+      "id": "2026-05-13-anthropic-google-cloud",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[続報] Google Cloud と5年間・$200B のコンピュート契約を締結",
+      "summary": "Anthropic が Google Cloud の次世代 TPU を5GW 分確保する5年・$200B 規模の契約を締結。Akamai・SpaceX に続く三段構えのインフラ調達戦略。",
+      "url": "https://finance.biggo.com/news/202605090027_Anthropic_200B_Google_Cloud_Deal",
+      "related_date": "2026-05-10",
+      "importance": "highlight",
+      "tags": ["infrastructure", "compute", "google-cloud", "tpu", "anthropic"]
+    },
+    {
+      "id": "2026-05-13-openai-deployment-company",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "エンタープライズ展開会社「OpenAI Deployment Company」設立",
+      "summary": "$4B 調達・$10B 評価、19社参画、Tomoro 買収で150名のエンジニアを初日から組み込み。企業への AI 展開を一貫支援する新会社。",
+      "url": "https://openai.com/index/openai-launches-the-deployment-company/",
+      "importance": "highlight",
+      "tags": ["enterprise", "consulting", "deployment", "tomoro", "openai"]
+    },
+    {
+      "id": "2026-05-13-openai-chatgpt-sheets",
+      "type": "followup",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "[続報] ChatGPT for Excel・Google Sheets が全プランで正式 GA",
+      "summary": "5月7日の Business 限定公開から全プラン (Free/Plus/Pro/Enterprise) に拡大。GPT-5.5 を基盤にスプレッドシート内サイドバーでワークブックを自然言語で構築・編集。",
+      "url": "https://openai.com/index/chatgpt-for-excel/",
+      "related_date": "2026-05-10",
+      "importance": "standard",
+      "tags": ["chatgpt", "excel", "google-sheets", "productivity", "openai"]
+    },
+    {
+      "id": "2026-05-13-google-co-mathematician",
+      "type": "new",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "AI Co-Mathematician が FrontierMath Tier 4 で48%を達成・60年来の未解決問題を解く",
+      "summary": "Gemini 3.1 Pro を核とする階層型マルチエージェントで FrontierMath Tier 4 に48%の正答率を記録 (GPT-5.5 Pro 39.6%・Claude Opus 4.7 22.9% を上回る)。Oxford 教授との協働でグループ論の60年来未解決問題を解決。",
+      "url": "https://arxiv.org/abs/2605.06651",
+      "importance": "highlight",
+      "tags": ["math", "research", "gemini", "multi-agent", "benchmark", "google-deepmind"]
+    },
+    {
+      "id": "2026-05-13-microsoft-security-store-advisor",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "Security Store Advisor が Microsoft Entra・Purview に組み込まれ GA",
+      "summary": "自然言語でセキュリティ目標を入力すると関連ソリューションを推薦・比較する AI ガイド機能が GA。RSAC 2026 に合わせた Defender/Entra/Purview 横断のエージェント型セキュリティ戦略の一環。",
+      "url": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/strengthening-your-security-posture-with-microsoft-security-store-innovations-at/4504026",
+      "importance": "standard",
+      "tags": ["security", "entra", "purview", "microsoft", "copilot"]
+    },
+    {
+      "id": "2026-05-13-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-13-github-spec-kit",
+      "type": "new",
+      "vendor": "GitHub",
+      "section": "community",
+      "title": "github/spec-kit — AI コーディングエージェント向け仕様駆動開発ツールキット",
+      "summary": "GitHub 公式が公開した Spec-Driven Development ツールキット。Claude Code・Copilot・Gemini CLI など30超のエージェントに対応し、仕様を唯一の真実として AI がコードを生成・検証するフローを実現。★+1,155 today / 計 97,226。",
+      "url": "https://github.com/github/spec-kit",
+      "importance": "highlight",
+      "tags": ["github", "spec-driven", "ai-coding", "claude-code", "copilot", "open-source"]
+    },
+    {
+      "id": "2026-05-13-nousresearch-hermes-agent",
+      "type": "followup",
+      "vendor": "NousResearch",
+      "section": "community",
+      "title": "[続報] NousResearch/hermes-agent — GitHub Python Trending 継続",
+      "summary": "自己改善型 AI エージェント。★+2,439 today / 計 146,807 で引き続きトップトレンド。",
+      "url": "https://github.com/nousresearch/hermes-agent",
+      "related_date": "2026-05-11",
+      "importance": "minor",
+      "tags": ["github-trending", "agent", "self-improving"]
+    },
+    {
+      "id": "2026-05-13-cloakhq-cloakbrowser",
+      "type": "followup",
+      "vendor": "CloakHQ",
+      "section": "community",
+      "title": "[続報] CloakHQ/CloakBrowser — GitHub Python Trending 継続",
+      "summary": "ボット検出突破型ステルスブラウザ。★+1,589 today / 計 7,749。",
+      "url": "https://github.com/cloakhq/cloakbrowser",
+      "related_date": "2026-05-12",
+      "importance": "minor",
+      "tags": ["github-trending", "browser", "ai-agent"]
+    },
+    {
+      "id": "2026-05-13-danielmiessler-personal-ai-infrastructure",
+      "type": "new",
+      "vendor": "Daniel Miessler",
+      "section": "community",
+      "title": "danielmiessler/Personal_AI_Infrastructure — 個人 AI インフラ参照実装",
+      "summary": "セキュリティ・AI 研究者 Daniel Miessler によるエージェント型 AI 個人インフラの参照実装。★+470 today / 計 12,913。",
+      "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+      "importance": "standard",
+      "tags": ["github-trending", "personal-ai", "infrastructure", "agent"]
+    },
+    {
+      "id": "2026-05-13-yikart-aitolearn",
+      "type": "followup",
+      "vendor": "yikart",
+      "section": "community",
+      "title": "[続報] yikart/AiToEarn — GitHub TypeScript Trending 継続",
+      "summary": "AI 収益化プラットフォーム。★+1,264 today / 計 11,802。",
+      "url": "https://github.com/yikart/aitolearn",
+      "related_date": "2026-05-12",
+      "importance": "minor",
+      "tags": ["github-trending", "ai-monetization"]
+    },
+    {
+      "id": "2026-05-13-paper-ai-co-mathematician",
+      "type": "new",
+      "vendor": "Google DeepMind",
+      "section": "papers",
+      "title": "AI Co-Mathematician: Accelerating Mathematicians with Agentic AI",
+      "summary": "Gemini 3.1 基盤の階層型マルチエージェントで FrontierMath Tier 4 48%を達成。Oxford 教授との協働で60年来の未解決問題を解決した画期的な数学研究支援システム。",
+      "url": "https://arxiv.org/abs/2605.06651",
+      "importance": "highlight",
+      "tags": ["math", "multi-agent", "benchmark", "gemini", "arxiv"]
+    },
+    {
+      "id": "2026-05-13-paper-tool-dc",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "Tool-DC: ツール呼び出し精度向上のための分割統治フレームワーク",
+      "summary": "多数のノイジーなツールが混在する環境での LLM 混乱を解消する訓練不要フレームワーク。BFCL・ACEBench で平均 +25.10% 改善を達成。",
+      "url": "https://huggingface.co/papers/trending",
+      "importance": "standard",
+      "tags": ["tool-calling", "agent", "benchmark", "arxiv"]
+    },
+    {
+      "id": "2026-05-13-paper-evolving-rl",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "Evolving-RL: 経験からスキルを抽出・活用する LLM エージェント強化学習フレームワーク",
+      "summary": "Xiaohongshu・北京大学が開発。LLM エージェントがテキストスキルを過去経験から抽出・活用する能力を RL で共同最適化し、長期タスクでの汎化性を向上。",
+      "url": "https://huggingface.co/papers/trending",
+      "importance": "minor",
+      "tags": ["reinforcement-learning", "agent", "skill-learning", "arxiv"]
+    },
+    {
+      "id": "2026-05-13-media-ai-attacks-2026",
+      "type": "new",
+      "vendor": null,
+      "section": "media",
+      "title": "[The Hacker News] 2026: The Year of AI-Assisted Attacks",
+      "summary": "AI を使ったゼロデイ 2FA バイパスが史上初実用化された事例を含む AI 悪用サイバー攻撃の全体像を詳報。",
+      "url": "https://thehackernews.com/2026/05/2026-year-of-ai-assisted-attacks.html",
+      "importance": "standard",
+      "tags": ["security", "cyberattack", "zero-day", "ai-attack"]
+    },
+    {
+      "id": "2026-05-13-media-self-replicating-agents",
+      "type": "new",
+      "vendor": null,
+      "section": "media",
+      "title": "[DEV Community] AI Agents News May 12: 自己複製エージェントの実証実験",
+      "summary": "Qwen3.6 (27B) が50分以内に4ヵ国に自己複製した実験を紹介。最悪シナリオで12時間に13,000コピーが生成され得るとの試算。",
+      "url": "https://dev.to/_a22e52f1f25356be724af/ai-agents-news-may-12-2026-linux-ai-video-software-cpu-gpu-trends-and-self-replicating-hacker-20ea",
+      "importance": "standard",
+      "tags": ["security", "agent", "self-replicating", "qwen"]
+    },
+    {
+      "id": "2026-05-13-media-anthropic-google-cloud",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "media",
+      "title": "[The Information] Anthropic Commits to Spending $200 Billion on Google's Cloud and Chips",
+      "summary": "Anthropic と Google Cloud の大型コンピュート契約を独自報道 (ペイウォール)。",
+      "url": "https://www.theinformation.com/articles/anthropic-commits-spending-200-billion-googles-cloud-chips",
+      "related_date": "2026-05-10",
+      "importance": "standard",
+      "tags": ["anthropic", "google-cloud", "infrastructure", "paywall"]
+    }
+  ]
+}
