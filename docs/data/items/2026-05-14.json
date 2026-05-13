@@ -1,0 +1,97 @@
+{
+  "date": "2026-05-14",
+  "generated_at": "2026-05-14T08:10:00+09:00",
+  "sources_checked": 21,
+  "sources_failed": 15,
+  "items": [
+    {
+      "id": "2026-05-14-anthropic-claude-legal",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Claude for Legal — 20+ MCP コネクター + 12 実務領域プラグインを公開",
+      "summary": "Westlaw・DocuSign・Harvey など20超の MCP コネクターと、M&A・IP・訴訟など12の実務領域プラグインを一斉公開。Office 統合も強化。",
+      "url": "https://www.lawnext.com/2026/05/anthropic-goes-all-in-on-legal-releasing-more-than-20-connectors-and-12-practice-area-plugins-for-claude.html",
+      "importance": "highlight",
+      "tags": ["legal-ai", "mcp", "anthropic", "enterprise"]
+    },
+    {
+      "id": "2026-05-14-anthropic-claude-platform-aws",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Claude Platform on AWS が正式 GA",
+      "summary": "AWS アカウント・IAM 認証のまま Anthropic ネイティブ API・Managed Agents にアクセス可能に。17リージョン対応、Opus 4.7/Sonnet 4.6/Haiku 4.5 提供。",
+      "url": "https://claude.com/blog/claude-platform-on-aws",
+      "importance": "highlight",
+      "tags": ["aws", "cloud", "anthropic", "api", "managed-agents"]
+    },
+    {
+      "id": "2026-05-14-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-14-google-gemini-intelligence-android",
+      "type": "new",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "Gemini Intelligence on Android + Googlebook 発表 (Android Show May 12)",
+      "summary": "画面理解・アプリ横断タスク自律実行の Gemini Intelligence 層を Android に展開。新ラップトップ Googlebook (Magic Pointer・AI ウィジェット生成搭載) と Android XR グラスも発表。",
+      "url": "https://techcrunch.com/2026/05/12/google-brings-agentic-ai-and-vibe-coded-widgets-to-android/",
+      "importance": "highlight",
+      "tags": ["google", "gemini", "android", "agentic", "hardware", "xr"]
+    },
+    {
+      "id": "2026-05-14-microsoft-github-copilot-billing",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "GitHub Copilot — 6月1日 usage-based billing 移行向け使用量レポートを提供開始",
+      "summary": "管理者・ユーザーが4月実績を AI クレジット換算で確認できるレポートをダウンロード可能に。1 クレジット = $0.01 USD、コード補完はクレジット消費なし。",
+      "url": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+      "importance": "minor",
+      "tags": ["github-copilot", "billing", "microsoft"]
+    },
+    {
+      "id": "2026-05-14-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-14-github-anthropics-skills",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "GitHub Trending: anthropics/skills — Agent Skills 公式リポジトリがトレンド入り",
+      "summary": "Claude Managed Agents 向け Agent Skills のレファレンス実装。Claude Platform on AWS GA に合わせ注目が集まった (★ +645 today / 計 133,594)。",
+      "url": "https://github.com/anthropics/skills",
+      "importance": "minor",
+      "tags": ["github-trending", "agent-skills", "anthropic", "open-source"]
+    },
+    {
+      "id": "2026-05-14-paper-dflash",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "DFlash: Block Diffusion for Flash Speculative Decoding (arXiv:2602.06036)",
+      "summary": "ブロック拡散モデルを使った投機的デコードフレームワーク。EAGLE-3 比 2.5 倍高速・6倍以上のロスレス加速を実証。Apple Silicon 向け MLX 実装も公開され注目が再燃。",
+      "url": "https://arxiv.org/abs/2602.06036",
+      "importance": "standard",
+      "tags": ["inference", "speculative-decoding", "diffusion", "open-source"]
+    },
+    {
+      "id": "2026-05-14-media-palo-alto-ai-cyberattacks",
+      "type": "new",
+      "vendor": null,
+      "section": "media",
+      "title": "[CNBC] AI-driven cyberattacks will start to be the 'new norm' in months, Palo Alto warns",
+      "summary": "Palo Alto Networks が数ヶ月以内に AI 駆動攻撃が常態化すると警告。AI を使った攻撃・防御の軍拡競争が加速している現状を報告。",
+      "url": "https://www.cnbc.com/2026/05/13/palo-alto-ai-cyberattacks-mythos-gpt.html",
+      "importance": "standard",
+      "tags": ["cybersecurity", "ai-attacks", "palo-alto"]
+    }
+  ]
+}
