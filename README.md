@@ -18,6 +18,7 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-05-14](summaries/2026/05/2026-05-14.md) — Anthropic Claude for Legal (20+ MCP + 12 プラグイン) / Google Gemini Intelligence on Android + Googlebook 発表 / Anthropic Claude Platform on AWS GA / GitHub Copilot usage-based billing 6月移行準備
 - [2026-05-13](summaries/2026/05/2026-05-13.md) — Google DeepMind AI Co-Mathematician FrontierMath 48%達成・60年問題解決 / OpenAI Deployment Company 設立 / Anthropic × Google Cloud $200B 契約 / ChatGPT for Excel・Sheets 全プラン GA / GitHub Spec-Kit 公開
 - [2026-05-12](summaries/2026/05/2026-05-12.md) — Anthropic Project Glasswing + Claude Mythos Preview (全主要 OS ゼロデイ自律発見) / Claude Security パブリックベータ / Google が AI 悪用大規模攻撃を阻止 / Microsoft 365 E7 GA
 - [2026-05-11](summaries/2026/05/2026-05-11.md) — Anthropic × Akamai $1.8B 契約 / xAI 解散・SpaceXAI へ統合 / Microsoft Agent 365 発表 / OpenAI ChatGPT Futures / 中国4社オープンウェイトモデル一斉投入
