@@ -1,0 +1,131 @@
+{
+  "date": "2026-05-15",
+  "generated_at": "2026-05-15T08:06:32+09:00",
+  "sources_checked": 24,
+  "sources_failed": 16,
+  "items": [
+    {
+      "id": "2026-05-15-anthropic-smb",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Claude for Small Business — QuickBooks・PayPal・HubSpot 等7サービスと直接統合、全米ツアー開始",
+      "summary": "15の即戦力ワークフローで中小企業の主要ツールに Claude を直接統合。May 14 シカゴから全米10都市ツアーを開始し、無料研修と Claude Max 1ヶ月を参加者に提供。",
+      "url": "https://www.anthropic.com/news/claude-for-small-business",
+      "importance": "highlight",
+      "tags": ["smb", "product-launch", "anthropic", "integrations", "quickbooks", "hubspot"]
+    },
+    {
+      "id": "2026-05-15-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-15-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-15-microsoft-edge-copilot",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "Microsoft Edge: Copilot AI を大幅刷新 — マルチタブ横断推論・長期記憶・モバイル拡張・Copilot Mode 廃止",
+      "summary": "複数タブをまたいでリアルタイムに比較・要約する推論機能と長期記憶を Edge に追加。Vision・Voice・Journeys をモバイルにも拡張し、独立の「Copilot Mode」を廃止して AI をブラウザ本体に統合。",
+      "url": "https://blogs.windows.com/msedgedev/2026/05/13/new-updates-to-edge-across-desktop-and-mobile/",
+      "importance": "highlight",
+      "tags": ["microsoft-edge", "copilot", "browser-ai", "multi-tab", "memory"]
+    },
+    {
+      "id": "2026-05-15-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-15-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-15-notion-developer-platform",
+      "type": "new",
+      "vendor": "Notion",
+      "section": "vendor",
+      "title": "Notion Developer Platform 正式開放 — Workers・外部エージェント API・DB 同期を追加",
+      "summary": "Workers ランタイム (Webhook でカスタムコードを実行)・External Agent API (Claude Code/Codex/Cursor/Decagon と連携)・Database Sync (Salesforce/Zendesk/Postgres 等) の3機能を一斉公開。エージェントオーケストレーション基盤を目指す。",
+      "url": "https://www.notion.com/releases/2026-05-13",
+      "importance": "highlight",
+      "tags": ["notion", "developer-platform", "agent-integration", "workflow", "workers-runtime"]
+    },
+    {
+      "id": "2026-05-15-github-trending-scientific-agent-skills",
+      "type": "new",
+      "vendor": "K-Dense-AI",
+      "section": "community",
+      "title": "K-Dense-AI/scientific-agent-skills — 研究・科学・工学向けエージェントスキル集",
+      "summary": "Claude Managed Agents 等に対応した専門領域向け即戦力スキル集。本日 Python トレンドの新規エントリ。",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "importance": "standard",
+      "tags": ["github-trending", "agent-skills", "science", "research", "engineering"]
+    },
+    {
+      "id": "2026-05-15-paper-deepcode",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "DeepCode — 文書群→コードベース自動合成フレームワーク",
+      "summary": "ソース圧縮・構造化インデックス・知識注入・誤り修正の4段階最適化でドキュメントからコードベースを完全自律合成。ヒューマンエキスパートを超える精度を報告。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["code-generation", "framework", "document-synthesis", "autonomous"]
+    },
+    {
+      "id": "2026-05-15-paper-nanoresearch",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "NanoResearch — ユーザー専用スキル蓄積型マルチエージェント研究フレームワーク",
+      "summary": "ユーザーの経験・好み・再利用可能スキルを蓄積し個人専用に共進化するリサーチエージェントフレームワーク。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["multi-agent", "research-automation", "personalization", "skill-accumulation"]
+    },
+    {
+      "id": "2026-05-15-paper-elf",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "ELF (Embedded Language Flows) — Flow Matching による連続拡散言語モデル",
+      "summary": "離散トークンを用いず言語を連続空間で「流れ」として扱う Flow Matching ベースの拡散言語モデルパラダイムを提案。生成速度と多様性の両立を目指す。",
+      "url": "https://arxiv.org/",
+      "importance": "standard",
+      "tags": ["diffusion-lm", "flow-matching", "language-model", "continuous-space"]
+    },
+    {
+      "id": "2026-05-15-media-techcrunch-anthropic-smb",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "media",
+      "title": "[TechCrunch] Anthropic courts a new kind of customer: small business owners",
+      "summary": "中小企業市場への参入を「エンタープライズ一辺倒からの路線転換」と分析。ツール統合の広さと実用性の違いを問う視点も提示。",
+      "url": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/",
+      "importance": "minor",
+      "tags": ["anthropic", "smb", "media", "techcrunch"]
+    },
+    {
+      "id": "2026-05-15-media-techcrunch-notion",
+      "type": "new",
+      "vendor": "Notion",
+      "section": "media",
+      "title": "[TechCrunch] Notion just turned its workspace into a hub for AI agents",
+      "summary": "Notion の戦略転換を「生産性ツールからエージェントオーケストレーション基盤へ」と分析。",
+      "url": "https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/",
+      "importance": "minor",
+      "tags": ["notion", "agent-hub", "media", "techcrunch"]
+    }
+  ]
+}
