@@ -1,0 +1,142 @@
+{
+  "date": "2026-05-16",
+  "generated_at": "2026-05-16T08:09:00+09:00",
+  "sources_checked": 22,
+  "sources_failed": 16,
+  "items": [
+    {
+      "id": "2026-05-16-anthropic-gates-foundation",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Anthropic × Gates Foundation $200M パートナーシップ — グローバルヘルス・教育・農業に Claude を展開 (May 14)",
+      "summary": "4年間・$200M 相当の資金・Claude 使用クレジット・技術支援で、46億人が医療アクセスを欠く途上国でのヘルスケア AI、K-12 教育支援、農業アドバイス AI を共同開発。",
+      "url": "https://www.anthropic.com/news/gates-foundation-partnership",
+      "importance": "highlight",
+      "tags": ["anthropic", "gates-foundation", "global-health", "education", "partnership"]
+    },
+    {
+      "id": "2026-05-16-anthropic-ramp-index",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[続報] Ramp AI Index: Anthropic が初めてビジネス採用で OpenAI を逆転 (34.4% vs 32.3%)",
+      "summary": "Ramp AI Index (May 2026) で Anthropic の企業採用率が 34.4% と OpenAI の 32.3% を初めて上回った。過去1年で4倍成長、主因は Claude Code。",
+      "url": "https://ramp.com/leading-indicators/ai-index-may-2026",
+      "related_date": "2026-05-13",
+      "importance": "highlight",
+      "tags": ["anthropic", "openai", "market-adoption", "enterprise", "ramp-ai-index", "claude-code"]
+    },
+    {
+      "id": "2026-05-16-openai-personal-finance",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "ChatGPT Personal Finance — Plaid 連携で 1.2 万金融機関に接続、Pro 向け先行提供 (May 15)",
+      "summary": "米国 Pro 向けに銀行・証券口座を接続し、支出・ポートフォリオを自然言語で分析できる個人ファイナンス機能を公開。Intuit 連携も近日追加予定。",
+      "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
+      "importance": "highlight",
+      "tags": ["openai", "chatgpt", "personal-finance", "plaid", "fintech"]
+    },
+    {
+      "id": "2026-05-16-openai-apple-legal",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "OpenAI、Apple との Siri 提携を巡り法的措置を検討 — ChatGPT 統合の不十分な推進が争点 (May 14–15)",
+      "summary": "OpenAI が 2024年締結の Apple 提携で期待通りの成果が得られず、契約違反通告・訴訟を含む対抗手段を外部法律事務所と検討中。",
+      "url": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
+      "importance": "highlight",
+      "tags": ["openai", "apple", "siri", "legal", "partnership-dispute"]
+    },
+    {
+      "id": "2026-05-16-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-16-microsoft-mdash",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "Microsoft MDASH — AI 主導で Windows の16脆弱性 (うち4件クリティカル RCE) を先行発見 (May 12)",
+      "summary": "100 以上の特化型エージェントを協調稼働させるマルチモデル脆弱性スキャナーが 5月 Patch Tuesday の全16件を Human 研究者より先に発見。CyberGym ベンチ首位 (88.45%)。",
+      "url": "https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html",
+      "importance": "highlight",
+      "tags": ["microsoft", "security", "ai-security", "mdash", "vulnerability", "patch-tuesday"]
+    },
+    {
+      "id": "2026-05-16-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-16-meta-incognito-chat",
+      "type": "new",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "Meta: Incognito Chat with Meta AI — WhatsApp・Meta AI アプリでサーバーログなしのプライベート AI チャット (May 13)",
+      "summary": "サーバーに会話を保存しない完全プライベート設計の AI チャット機能。Meta 社内エンジニアも閲覧不可。アプリを閉じると即終了・文脈リセット。大手 AI 初の試み。",
+      "url": "https://blog.whatsapp.com/introducing-incognito-chat-with-meta-ai-a-completely-private-way-to-chat-with-ai",
+      "importance": "standard",
+      "tags": ["meta", "whatsapp", "privacy", "incognito", "ai-chat"]
+    },
+    {
+      "id": "2026-05-16-meta-layoffs-upcoming",
+      "type": "new",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "Meta: 8,000 名リストラ 5月20日 (4日後) 開始 — $135B AI 投資集中へ向けた構造改革",
+      "summary": "従業員の約 10%・約 8,000 名が 5月20日から削減。6,000 ポジションの採用計画も撤回。AI 特化ポッドへの再編が主目的。",
+      "url": "https://thenextweb.com/news/meta-layoffs-8000-ai-restructuring-may-2026",
+      "importance": "standard",
+      "tags": ["meta", "layoffs", "restructuring", "ai-investment"]
+    },
+    {
+      "id": "2026-05-16-github-nvidia-video-search",
+      "type": "new",
+      "vendor": "NVIDIA",
+      "section": "community",
+      "title": "NVIDIA-AI-Blueprints/video-search-and-summarization — GPU 加速型 AI 動画解析リファレンスアーキテクチャ",
+      "summary": "NVIDIA 公式の GPU 加速ビジョンエージェント・動画検索・要約リファレンス実装。Python Trending 新規エントリ (★ +305 today)。",
+      "url": "https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization",
+      "importance": "standard",
+      "tags": ["github-trending", "nvidia", "video-ai", "vision-agent", "gpu"]
+    },
+    {
+      "id": "2026-05-16-github-qiaomu-notebooklm",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "qiaomu-anything-to-notebooklm — マルチソース→ポッドキャスト/プレゼン自動生成 (★ +465 today)",
+      "summary": "WeChat・Web・YouTube・PDF などあらゆるソースのコンテンツをポッドキャストやプレゼンテーションに自動変換するプロセッサー。Python Trending 新規エントリ。",
+      "url": "https://github.com/joeseesun/qiaomu-anything-to-notebooklm",
+      "importance": "standard",
+      "tags": ["github-trending", "notebooklm", "content-generation", "podcast", "multimodal"]
+    },
+    {
+      "id": "2026-05-16-paper-kronos",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "Kronos — 金融市場言語理解のための基盤モデル (GitHub Trending 入り)",
+      "summary": "K線チャートデータ専用トークナイザーと自己回帰事前学習を組み合わせ、価格予測・合成データ生成で既存モデルを超える性能を報告する金融特化基盤モデル。",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "importance": "standard",
+      "tags": ["financial-ai", "foundation-model", "time-series", "k-line", "github-trending"]
+    },
+    {
+      "id": "2026-05-16-media-techcrunch-personal-finance",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "media",
+      "title": "[TechCrunch] OpenAI launches ChatGPT for personal finance, will let you connect bank accounts",
+      "summary": "Plaid を通じた銀行口座連携の詳細と Pro 向け先行提供の経緯を報道 (May 15)。",
+      "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
+      "importance": "minor",
+      "tags": ["openai", "chatgpt", "media", "techcrunch", "personal-finance"]
+    }
+  ]
+}

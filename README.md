@@ -18,6 +18,7 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-05-16](summaries/2026/05/2026-05-16.md) — OpenAI ChatGPT Personal Finance (Plaid連携・1.2万機関接続) / Anthropic × Gates Foundation $200M / OpenAI が Apple 提携で法的措置を検討 / Microsoft MDASH が Windows 16脆弱性を先行発見
 - [2026-05-15](summaries/2026/05/2026-05-15.md) — Anthropic Claude for Small Business 発表・全米ツアー開始 / Microsoft Edge Copilot 大幅刷新 (マルチタブ推論・長期記憶) / Notion Developer Platform 正式開放
 - [2026-05-14](summaries/2026/05/2026-05-14.md) — Anthropic Claude for Legal (20+ MCP + 12 プラグイン) / Google Gemini Intelligence on Android + Googlebook 発表 / Anthropic Claude Platform on AWS GA / GitHub Copilot usage-based billing 6月移行準備
 - [2026-05-13](summaries/2026/05/2026-05-13.md) — Google DeepMind AI Co-Mathematician FrontierMath 48%達成・60年問題解決 / OpenAI Deployment Company 設立 / Anthropic × Google Cloud $200B 契約 / ChatGPT for Excel・Sheets 全プラン GA / GitHub Spec-Kit 公開
