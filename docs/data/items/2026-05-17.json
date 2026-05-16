@@ -1,0 +1,152 @@
+{
+  "date": "2026-05-17",
+  "generated_at": "2026-05-17T08:07:45+09:00",
+  "sources_checked": 22,
+  "sources_failed": 16,
+  "items": [
+    {
+      "id": "2026-05-17-anthropic-pwc-expanded",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "PwC との戦略提携を大幅拡大 — 30,000名 Claude 認定・Claude ネイティブ金融事業部門を新設",
+      "summary": "PwC が 30,000名の Claude 認定訓練を開始し、全世界 36.4 万人規模への展開を見据えた戦略提携を拡充。保険引受10週→10日など実測の成果が続々と公開。",
+      "url": "https://www.anthropic.com/news/pwc-expanded-partnership",
+      "importance": "highlight",
+      "tags": ["enterprise", "partnership", "anthropic", "pwc", "consulting"]
+    },
+    {
+      "id": "2026-05-17-anthropic-fast-mode-opus47",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Claude Opus 4.7 が Fast Mode に対応 — 最大2.5倍高速、価格は標準の6倍",
+      "summary": "Fast Mode が Opus 4.7 に拡張。Claude Code の /fast コマンドがデフォルトで Opus 4.7 を使用するように変更。研究プレビュー段階で $30/$150 per million tokens。",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "importance": "standard",
+      "tags": ["model-update", "anthropic", "fast-mode", "claude-code", "api"]
+    },
+    {
+      "id": "2026-05-17-openai-codex-mobile",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "Codex が ChatGPT モバイルアプリに対応 — iOS/Android から AI コーディングエージェントをリモート制御",
+      "summary": "ChatGPT iOS/Android アプリから Codex セッションをリモート制御・承認可能に。Remote SSH も GA で週次400万ユーザーのコーディングエージェントがモバイルから操作可能に。",
+      "url": "https://openai.com/index/work-with-codex-from-anywhere/",
+      "importance": "highlight",
+      "tags": ["coding-agent", "mobile", "openai", "codex", "remote-ssh"]
+    },
+    {
+      "id": "2026-05-17-openai-chatgpt-ads-expansion",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "ChatGPT 広告プラットフォームを英国・日本など5ヶ国に拡大 — 自社広告マネージャーも解放",
+      "summary": "Free/Go プランのユーザー向け ChatGPT 広告が英国・日本・メキシコ・ブラジル・韓国に拡大。CPC 入札と自社広告マネージャー (ベータ) を追加。回答内容への影響はなし。",
+      "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads/",
+      "importance": "standard",
+      "tags": ["advertising", "openai", "chatgpt", "monetization", "international"]
+    },
+    {
+      "id": "2026-05-17-google-no-update",
+      "type": "no-update",
+      "vendor": "Google / Google DeepMind",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-17-microsoft-uk-cma",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "英国 CMA が Windows/Office/Teams/Copilot バンドル慣行への独占禁止調査を正式開始",
+      "summary": "UK CMA が新規制権限を用いて Microsoft の事業ソフトウェアを包括的に調査開始。AI 競合他社との相互運用性とバンドル慣行が焦点。指定判断は2027年2月予定。",
+      "url": "https://www.computerworld.com/article/4171743/microsoft-business-software-faces-uk-antitrust-probe-over-bundling-ai-lock-in.html",
+      "importance": "highlight",
+      "tags": ["regulation", "antitrust", "microsoft", "copilot", "uk-cma"]
+    },
+    {
+      "id": "2026-05-17-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-17-github-py-cli-anything",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending Python 新規: HKUDS/CLI-Anything — CLI ツールをエージェントネイティブ化するハブ",
+      "summary": "既存の CLI ツール群を AI エージェントが直接呼び出せる形に変換するフレームワーク。+371 today / 計 35,121 stars。",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "importance": "standard",
+      "tags": ["github-trending", "cli", "agents", "python", "open-source"]
+    },
+    {
+      "id": "2026-05-17-github-ts-codegraph",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending TypeScript 新規: colbymchenry/codegraph — Claude Code 向けコード知識グラフ",
+      "summary": "ローカルファーストのコードベース事前インデックスで Claude Code のトークン使用量と API コール数を削減。+397 today / 計 2,480 stars。",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "importance": "standard",
+      "tags": ["github-trending", "claude-code", "knowledge-graph", "typescript", "open-source"]
+    },
+    {
+      "id": "2026-05-17-github-ts-shannon",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending TypeScript 新規: KeygraphHQ/shannon — 自律型 AI ペンテスター",
+      "summary": "ソースコードを解析して攻撃ベクターを自動特定し本番デプロイ前に脆弱性を実証する自律型ペネトレーションテストエンジン。+288 today / 計 42,367 stars。",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "importance": "standard",
+      "tags": ["github-trending", "security", "pentest", "typescript", "autonomous-agent"]
+    },
+    {
+      "id": "2026-05-17-github-ts-opencode",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending TypeScript: anomalyco/opencode — オープンソース版コーディングエージェント",
+      "summary": "AI 駆動のコード生成・開発自動化を実現するオープンソースコーディングエージェント。+487 today / 計 161,278 stars。",
+      "url": "https://github.com/anomalyco/opencode",
+      "importance": "standard",
+      "tags": ["github-trending", "coding-agent", "open-source", "typescript"]
+    },
+    {
+      "id": "2026-05-17-paper-ai-trader",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "AI-Trader — LLM 金融意思決定の完全自動ライブベンチマーク",
+      "summary": "複数市場で LLM の金融意思決定を情報処理・シグナル生成・売買執行まで自律的に評価する初の完全自動ライブベンチマーク。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["paper", "finance", "benchmark", "llm", "evaluation"]
+    },
+    {
+      "id": "2026-05-17-paper-evermemost",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "EverMemOS — LLM 向け自己組織化メモリシステム",
+      "summary": "対話ストリームを構造化メモリセルとシーンに処理しLLMの長期インタラクション能力を強化する自己組織化メモリシステム。",
+      "url": "https://huggingface.co/papers",
+      "importance": "minor",
+      "tags": ["paper", "memory", "llm", "long-term-context"]
+    },
+    {
+      "id": "2026-05-17-media-techcrunch-codex-mobile",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "media",
+      "title": "[TechCrunch] OpenAI says Codex is coming to your phone",
+      "summary": "AI コーディングエージェントのモバイル展開とセキュリティ設計 (認証情報はマシン上に残留) を詳報 (May 14)。",
+      "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
+      "importance": "standard",
+      "tags": ["media", "techcrunch", "openai", "codex", "mobile"]
+    }
+  ]
+}

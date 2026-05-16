@@ -1,5 +1,233 @@
 [
   {
+    "date": "2026-05-17",
+    "id": "2026-05-17-anthropic-pwc-expanded",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "PwC との戦略提携を大幅拡大 — 30,000名 Claude 認定・Claude ネイティブ金融事業部門を新設",
+    "summary": "PwC が 30,000名の Claude 認定訓練を開始し、全世界 36.4 万人規模への展開を見据えた戦略提携を拡充。保険引受10週→10日など実測の成果が続々と公開。",
+    "url": "https://www.anthropic.com/news/pwc-expanded-partnership",
+    "importance": "highlight",
+    "tags": [
+      "enterprise",
+      "partnership",
+      "anthropic",
+      "pwc",
+      "consulting"
+    ]
+  },
+  {
+    "date": "2026-05-17",
+    "id": "2026-05-17-anthropic-fast-mode-opus47",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Claude Opus 4.7 が Fast Mode に対応 — 最大2.5倍高速、価格は標準の6倍",
+    "summary": "Fast Mode が Opus 4.7 に拡張。Claude Code の /fast コマンドがデフォルトで Opus 4.7 を使用するように変更。研究プレビュー段階で $30/$150 per million tokens。",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "importance": "standard",
+    "tags": [
+      "model-update",
+      "anthropic",
+      "fast-mode",
+      "claude-code",
+      "api"
+    ]
+  },
+  {
+    "date": "2026-05-17",
+    "id": "2026-05-17-openai-codex-mobile",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "Codex が ChatGPT モバイルアプリに対応 — iOS/Android から AI コーディングエージェントをリモート制御",
+    "summary": "ChatGPT iOS/Android アプリから Codex セッションをリモート制御・承認可能に。Remote SSH も GA で週次400万ユーザーのコーディングエージェントがモバイルから操作可能に。",
+    "url": "https://openai.com/index/work-with-codex-from-anywhere/",
+    "importance": "highlight",
+    "tags": [
+      "coding-agent",
+      "mobile",
+      "openai",
+      "codex",
+      "remote-ssh"
+    ]
+  },
+  {
+    "date": "2026-05-17",
+    "id": "2026-05-17-openai-chatgpt-ads-expansion",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "ChatGPT 広告プラットフォームを英国・日本など5ヶ国に拡大 — 自社広告マネージャーも解放",
+    "summary": "Free/Go プランのユーザー向け ChatGPT 広告が英国・日本・メキシコ・ブラジル・韓国に拡大。CPC 入札と自社広告マネージャー (ベータ) を追加。回答内容への影響はなし。",
+    "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads/",
+    "importance": "standard",
+    "tags": [
+      "advertising",
+      "openai",
+      "chatgpt",
+      "monetization",
+      "international"
+    ]
+  },
+  {
+    "date": "2026-05-17",
+    "id": "2026-05-17-google-no-update",
+    "type": "no-update",
+    "vendor": "Google / Google DeepMind",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-05-17",
+    "id": "2026-05-17-microsoft-uk-cma",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "英国 CMA が Windows/Office/Teams/Copilot バンドル慣行への独占禁止調査を正式開始",
+    "summary": "UK CMA が新規制権限を用いて Microsoft の事業ソフトウェアを包括的に調査開始。AI 競合他社との相互運用性とバンドル慣行が焦点。指定判断は2027年2月予定。",
+    "url": "https://www.computerworld.com/article/4171743/microsoft-business-software-faces-uk-antitrust-probe-over-bundling-ai-lock-in.html",
+    "importance": "highlight",
+    "tags": [
+      "regulation",
+      "antitrust",
+      "microsoft",
+      "copilot",
+      "uk-cma"
+    ]
+  },
+  {
+    "date": "2026-05-17",
+    "id": "2026-05-17-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-05-17",
+    "id": "2026-05-17-github-py-cli-anything",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending Python 新規: HKUDS/CLI-Anything — CLI ツールをエージェントネイティブ化するハブ",
+    "summary": "既存の CLI ツール群を AI エージェントが直接呼び出せる形に変換するフレームワーク。+371 today / 計 35,121 stars。",
+    "url": "https://github.com/HKUDS/CLI-Anything",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "cli",
+      "agents",
+      "python",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-05-17",
+    "id": "2026-05-17-github-ts-codegraph",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending TypeScript 新規: colbymchenry/codegraph — Claude Code 向けコード知識グラフ",
+    "summary": "ローカルファーストのコードベース事前インデックスで Claude Code のトークン使用量と API コール数を削減。+397 today / 計 2,480 stars。",
+    "url": "https://github.com/colbymchenry/codegraph",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "claude-code",
+      "knowledge-graph",
+      "typescript",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-05-17",
+    "id": "2026-05-17-github-ts-shannon",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending TypeScript 新規: KeygraphHQ/shannon — 自律型 AI ペンテスター",
+    "summary": "ソースコードを解析して攻撃ベクターを自動特定し本番デプロイ前に脆弱性を実証する自律型ペネトレーションテストエンジン。+288 today / 計 42,367 stars。",
+    "url": "https://github.com/KeygraphHQ/shannon",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "security",
+      "pentest",
+      "typescript",
+      "autonomous-agent"
+    ]
+  },
+  {
+    "date": "2026-05-17",
+    "id": "2026-05-17-github-ts-opencode",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending TypeScript: anomalyco/opencode — オープンソース版コーディングエージェント",
+    "summary": "AI 駆動のコード生成・開発自動化を実現するオープンソースコーディングエージェント。+487 today / 計 161,278 stars。",
+    "url": "https://github.com/anomalyco/opencode",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "coding-agent",
+      "open-source",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-05-17",
+    "id": "2026-05-17-paper-ai-trader",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "AI-Trader — LLM 金融意思決定の完全自動ライブベンチマーク",
+    "summary": "複数市場で LLM の金融意思決定を情報処理・シグナル生成・売買執行まで自律的に評価する初の完全自動ライブベンチマーク。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "paper",
+      "finance",
+      "benchmark",
+      "llm",
+      "evaluation"
+    ]
+  },
+  {
+    "date": "2026-05-17",
+    "id": "2026-05-17-paper-evermemost",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "EverMemOS — LLM 向け自己組織化メモリシステム",
+    "summary": "対話ストリームを構造化メモリセルとシーンに処理しLLMの長期インタラクション能力を強化する自己組織化メモリシステム。",
+    "url": "https://huggingface.co/papers",
+    "importance": "minor",
+    "tags": [
+      "paper",
+      "memory",
+      "llm",
+      "long-term-context"
+    ]
+  },
+  {
+    "date": "2026-05-17",
+    "id": "2026-05-17-media-techcrunch-codex-mobile",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "media",
+    "title": "[TechCrunch] OpenAI says Codex is coming to your phone",
+    "summary": "AI コーディングエージェントのモバイル展開とセキュリティ設計 (認証情報はマシン上に残留) を詳報 (May 14)。",
+    "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
+    "importance": "standard",
+    "tags": [
+      "media",
+      "techcrunch",
+      "openai",
+      "codex",
+      "mobile"
+    ]
+  },
+  {
     "date": "2026-05-16",
     "id": "2026-05-16-anthropic-gates-foundation",
     "type": "new",
@@ -9,7 +237,13 @@
     "summary": "4年間・$200M 相当の資金・Claude 使用クレジット・技術支援で、46億人が医療アクセスを欠く途上国でのヘルスケア AI、K-12 教育支援、農業アドバイス AI を共同開発。",
     "url": "https://www.anthropic.com/news/gates-foundation-partnership",
     "importance": "highlight",
-    "tags": ["anthropic", "gates-foundation", "global-health", "education", "partnership"]
+    "tags": [
+      "anthropic",
+      "gates-foundation",
+      "global-health",
+      "education",
+      "partnership"
+    ]
   },
   {
     "date": "2026-05-16",
@@ -22,7 +256,14 @@
     "url": "https://ramp.com/leading-indicators/ai-index-may-2026",
     "related_date": "2026-05-13",
     "importance": "highlight",
-    "tags": ["anthropic", "openai", "market-adoption", "enterprise", "ramp-ai-index", "claude-code"]
+    "tags": [
+      "anthropic",
+      "openai",
+      "market-adoption",
+      "enterprise",
+      "ramp-ai-index",
+      "claude-code"
+    ]
   },
   {
     "date": "2026-05-16",
@@ -34,7 +275,13 @@
     "summary": "米国 Pro 向けに銀行・証券口座を接続し、支出・ポートフォリオを自然言語で分析できる個人ファイナンス機能を公開。Intuit 連携も近日追加予定。",
     "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
     "importance": "highlight",
-    "tags": ["openai", "chatgpt", "personal-finance", "plaid", "fintech"]
+    "tags": [
+      "openai",
+      "chatgpt",
+      "personal-finance",
+      "plaid",
+      "fintech"
+    ]
   },
   {
     "date": "2026-05-16",
@@ -46,7 +293,13 @@
     "summary": "OpenAI が 2024年締結の Apple 提携で期待通りの成果が得られず、契約違反通告・訴訟を含む対抗手段を外部法律事務所と検討中。",
     "url": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
     "importance": "highlight",
-    "tags": ["openai", "apple", "siri", "legal", "partnership-dispute"]
+    "tags": [
+      "openai",
+      "apple",
+      "siri",
+      "legal",
+      "partnership-dispute"
+    ]
   },
   {
     "date": "2026-05-16",
@@ -65,7 +318,14 @@
     "summary": "100 以上の特化型エージェントを協調稼働させるマルチモデル脆弱性スキャナーが 5月 Patch Tuesday の全16件を Human 研究者より先に発見。CyberGym ベンチ首位 (88.45%)。",
     "url": "https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html",
     "importance": "highlight",
-    "tags": ["microsoft", "security", "ai-security", "mdash", "vulnerability", "patch-tuesday"]
+    "tags": [
+      "microsoft",
+      "security",
+      "ai-security",
+      "mdash",
+      "vulnerability",
+      "patch-tuesday"
+    ]
   },
   {
     "date": "2026-05-16",
@@ -84,7 +344,13 @@
     "summary": "サーバーに会話を保存しない完全プライベート設計の AI チャット機能。Meta 社内エンジニアも閲覧不可。アプリを閉じると即終了・文脈リセット。大手 AI 初の試み。",
     "url": "https://blog.whatsapp.com/introducing-incognito-chat-with-meta-ai-a-completely-private-way-to-chat-with-ai",
     "importance": "standard",
-    "tags": ["meta", "whatsapp", "privacy", "incognito", "ai-chat"]
+    "tags": [
+      "meta",
+      "whatsapp",
+      "privacy",
+      "incognito",
+      "ai-chat"
+    ]
   },
   {
     "date": "2026-05-16",
@@ -96,7 +362,12 @@
     "summary": "従業員の約 10%・約 8,000 名が 5月20日から削減。6,000 ポジションの採用計画も撤回。AI 特化ポッドへの再編が主目的。",
     "url": "https://thenextweb.com/news/meta-layoffs-8000-ai-restructuring-may-2026",
     "importance": "standard",
-    "tags": ["meta", "layoffs", "restructuring", "ai-investment"]
+    "tags": [
+      "meta",
+      "layoffs",
+      "restructuring",
+      "ai-investment"
+    ]
   },
   {
     "date": "2026-05-16",
@@ -108,7 +379,13 @@
     "summary": "NVIDIA 公式の GPU 加速ビジョンエージェント・動画検索・要約リファレンス実装。Python Trending 新規エントリ (★ +305 today)。",
     "url": "https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization",
     "importance": "standard",
-    "tags": ["github-trending", "nvidia", "video-ai", "vision-agent", "gpu"]
+    "tags": [
+      "github-trending",
+      "nvidia",
+      "video-ai",
+      "vision-agent",
+      "gpu"
+    ]
   },
   {
     "date": "2026-05-16",
@@ -120,7 +397,13 @@
     "summary": "WeChat・Web・YouTube・PDF などあらゆるソースのコンテンツをポッドキャストやプレゼンテーションに自動変換するプロセッサー。Python Trending 新規エントリ。",
     "url": "https://github.com/joeseesun/qiaomu-anything-to-notebooklm",
     "importance": "standard",
-    "tags": ["github-trending", "notebooklm", "content-generation", "podcast", "multimodal"]
+    "tags": [
+      "github-trending",
+      "notebooklm",
+      "content-generation",
+      "podcast",
+      "multimodal"
+    ]
   },
   {
     "date": "2026-05-16",
@@ -132,7 +415,13 @@
     "summary": "K線チャートデータ専用トークナイザーと自己回帰事前学習を組み合わせ、価格予測・合成データ生成で既存モデルを超える性能を報告する金融特化基盤モデル。",
     "url": "https://github.com/shiyu-coder/Kronos",
     "importance": "standard",
-    "tags": ["financial-ai", "foundation-model", "time-series", "k-line", "github-trending"]
+    "tags": [
+      "financial-ai",
+      "foundation-model",
+      "time-series",
+      "k-line",
+      "github-trending"
+    ]
   },
   {
     "date": "2026-05-16",
@@ -144,7 +433,13 @@
     "summary": "Plaid を通じた銀行口座連携の詳細と Pro 向け先行提供の経緯を報道 (May 15)。",
     "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
     "importance": "minor",
-    "tags": ["openai", "chatgpt", "media", "techcrunch", "personal-finance"]
+    "tags": [
+      "openai",
+      "chatgpt",
+      "media",
+      "techcrunch",
+      "personal-finance"
+    ]
   },
   {
     "date": "2026-05-15",

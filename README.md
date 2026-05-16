@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-05-17](summaries/2026/05/2026-05-17.md) — OpenAI Codex が ChatGPT モバイルアプリ対応 (Remote SSH GA) / Anthropic × PwC 提携拡大・30,000名 Claude 認定 / 英国 CMA が Microsoft Copilot バンドルを独禁調査へ
 - [2026-05-16](summaries/2026/05/2026-05-16.md) — OpenAI ChatGPT Personal Finance (Plaid連携・1.2万機関接続) / Anthropic × Gates Foundation $200M / OpenAI が Apple 提携で法的措置を検討 / Microsoft MDASH が Windows 16脆弱性を先行発見
 - [2026-05-15](summaries/2026/05/2026-05-15.md) — Anthropic Claude for Small Business 発表・全米ツアー開始 / Microsoft Edge Copilot 大幅刷新 (マルチタブ推論・長期記憶) / Notion Developer Platform 正式開放
 - [2026-05-14](summaries/2026/05/2026-05-14.md) — Anthropic Claude for Legal (20+ MCP + 12 プラグイン) / Google Gemini Intelligence on Android + Googlebook 発表 / Anthropic Claude Platform on AWS GA / GitHub Copilot usage-based billing 6月移行準備
 - [2026-05-13](summaries/2026/05/2026-05-13.md) — Google DeepMind AI Co-Mathematician FrontierMath 48%達成・60年問題解決 / OpenAI Deployment Company 設立 / Anthropic × Google Cloud $200B 契約 / ChatGPT for Excel・Sheets 全プラン GA / GitHub Spec-Kit 公開
 - [2026-05-12](summaries/2026/05/2026-05-12.md) — Anthropic Project Glasswing + Claude Mythos Preview (全主要 OS ゼロデイ自律発見) / Claude Security パブリックベータ / Google が AI 悪用大規模攻撃を阻止 / Microsoft 365 E7 GA
 - [2026-05-11](summaries/2026/05/2026-05-11.md) — Anthropic × Akamai $1.8B 契約 / xAI 解散・SpaceXAI へ統合 / Microsoft Agent 365 発表 / OpenAI ChatGPT Futures / 中国4社オープンウェイトモデル一斉投入
-- [2026-05-10](summaries/2026/05/2026-05-10.md) — Anthropic $900B 調達ラウンド最終局面 / OpenAI GPT-Realtime-2 音声3モデル / Gemini 3.1 Flash-Lite GA / Claude Managed Agents 並列20エージェント追加
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
