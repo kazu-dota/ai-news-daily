@@ -1,0 +1,43 @@
+name: Claude PR Review
+
+# Claude Code Action による PR の自動レビュー。
+# - 必要 secret: CLAUDE_CODE_OAUTH_TOKEN (claude.ai サブスクリプション OAuth トークン)
+#   もし API キーを使うなら ANTHROPIC_API_KEY を設定して下の with を切り替える。
+# - レビュー対象は dev/main 向けの PR (本リポジトリは dev → main 運用のため)。
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches: [main, dev]
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+  id-token: write
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run Claude review
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            あなたは `kazu-dota/ai-news-daily` の PR レビュアーです。
+            最初に `CLAUDE.md` と `ROUTINE.md` を読み、プロジェクトのルール (著作権ルール / 必須セクション / 主要 vendor の no-update 記載 / `<!-- LATEST:BEGIN/END -->` 不可侵 / `summaries/` 手動編集不可 など) を把握してから差分をレビューしてください。
+
+            重点チェック項目:
+            1. **`ROUTINE.md` の変更** — 仕様変更により必須セクション・著作権ルール (15語/30字、ペイウォール扱い)・主要 vendor の no-update 記載・JSON 出力契約 (Step 6.5) が壊れていないか
+            2. **`sources.yaml` の変更** — 追加ソースが実在し AI 関連で、`name` / `url` / `category` / `priority` が揃っているか。カテゴリは `vendor` / `community` / `papers_trending` / `media` / `media_jp` のいずれか
+            3. **`docs/index.html` / `docs/data/*.json`** — SPA 側の契約 (`index.json` がフラット配列、`items/YYYY-MM-DD.json` が `date` + `items` を持つ) と整合しているか
+            4. **不可侵領域** — `README.md` の `<!-- LATEST:BEGIN -->` 〜 `<!-- LATEST:END -->` と `summaries/` 配下を手動編集していないか
+            5. **GitHub Actions / secrets の露出** — workflow に直書きされた認証情報がないか
+            6. 一般的なコード/Markdown 品質
+
+            出力は日本語、簡潔に。問題がなければ「特に指摘なし」と一言で良いです。重要度の高い指摘から先に書いてください。

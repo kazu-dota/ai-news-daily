@@ -1,0 +1,78 @@
+name: Trigger dev-test routine
+
+# dev → main の PR が開いた/更新された時に、claude.ai の
+# `AI News Daily (dev test)` routine の webhook を叩いて自動試運転する。
+#
+# セットアップ:
+#   1. claude.ai → Routines → `AI News Daily (dev test)` の trigger 設定で
+#      webhook トリガを追加し、発行された URL をコピー
+#   2. GitHub リポジトリの Settings → Secrets and variables → Actions に
+#      `DEV_TEST_ROUTINE_WEBHOOK_URL` という名前で URL を保存
+#
+# routine 実行が終わると dev-test ブランチに force push されるので、
+# https://github.com/<owner>/<repo>/tree/dev-test/summaries で結果を確認できる。
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  trigger:
+    # dev → main の PR のときだけ起動。fork PR はスキップ (secret が渡らないため)
+    if: >-
+      github.base_ref == 'main' &&
+      github.head_ref == 'dev' &&
+      github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fire dev-test routine webhook
+        id: fire
+        env:
+          WEBHOOK_URL: ${{ secrets.DEV_TEST_ROUTINE_WEBHOOK_URL }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          if [ -z "${WEBHOOK_URL}" ]; then
+            echo "::warning::DEV_TEST_ROUTINE_WEBHOOK_URL is not set; skipping."
+            echo "skipped=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          payload=$(printf '{"trigger":"github-pr","pr_number":%s,"head_sha":"%s","ref":"dev"}' \
+            "${PR_NUMBER}" "${HEAD_SHA}")
+          http=$(curl -sS -o /tmp/resp.txt -w "%{http_code}" \
+            -X POST -H "Content-Type: application/json" \
+            -d "${payload}" "${WEBHOOK_URL}")
+          echo "HTTP ${http}"
+          head -c 1000 /tmp/resp.txt || true
+          echo
+          if [ "${http}" -ge 400 ]; then
+            echo "::error::Webhook returned HTTP ${http}"
+            exit 1
+          fi
+          echo "skipped=false" >> "$GITHUB_OUTPUT"
+
+      - name: Comment on PR
+        if: >-
+          steps.fire.outputs.skipped != 'true' &&
+          github.event.action == 'opened'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = [
+              '🤖 **dev-test routine** に webhook で起動シグナルを送りました。',
+              '',
+              '完了すると `dev-test` ブランチに force push されます。',
+              `レビュー先: https://github.com/${context.repo.owner}/${context.repo.repo}/tree/dev-test/summaries`,
+              '',
+              '※ 通常 5〜10 分かかります。PR を更新する度に再実行されます。',
+            ].join('\n');
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body,
+            });
