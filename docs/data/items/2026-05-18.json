@@ -1,0 +1,158 @@
+{
+  "date": "2026-05-18",
+  "generated_at": "2026-05-18T08:05:00+09:00",
+  "sources_checked": 22,
+  "sources_failed": 16,
+  "items": [
+    {
+      "id": "2026-05-18-xai-grok-build",
+      "type": "new",
+      "vendor": "xAI",
+      "section": "vendor",
+      "title": "Grok Build — 初の AI コーディングエージェント、Claude Code に挑戦",
+      "summary": "ターミナルネイティブ CLI エージェント。Grok 4.3 beta + 8並列サブエージェント + 200万トークンコンテキスト。$99/月 (6ヶ月間) 導入割引でコーディングエージェント市場に参入。",
+      "url": "https://www.engadget.com/2173482/xai-coding-agent-grok-build/",
+      "importance": "highlight",
+      "tags": ["coding-agent", "xai", "grok", "cli", "claude-code-rival"]
+    },
+    {
+      "id": "2026-05-18-anthropic-900b-funding",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "評価額 $900B 超で $30B 調達交渉が大詰め — OpenAI を初めて上回る評価額へ",
+      "summary": "Bloomberg (5/12) が報道。Dragoneer・Greenoaks・Sequoia・Altimeter がリード、5月中の締結目指す。Series G ($380B、2026年2月) からわずか3ヶ月での倍増。",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/anthropic-in-talks-to-raise-30-billion-at-900-billion-valuation",
+      "importance": "highlight",
+      "tags": ["funding", "valuation", "anthropic", "series-h"]
+    },
+    {
+      "id": "2026-05-18-recursive-superintelligence",
+      "type": "new",
+      "vendor": "Other",
+      "section": "vendor",
+      "title": "Recursive Superintelligence が $650M でステルスから浮上 — 自己改善型 AI を開発",
+      "summary": "Richard Socher 率いる英国スタートアップ。GV・Greycroft・Nvidia・AMD が出資。ViT 共著者 Dosovitskiy ら著名研究者チームが参加し、2026年中旬に Level 1 自律訓練システムを本番化予定。",
+      "url": "https://thenextweb.com/news/recursive-superintelligence-self-improving-ai-funding",
+      "importance": "highlight",
+      "tags": ["startup", "funding", "self-improving-ai", "research", "richard-socher"]
+    },
+    {
+      "id": "2026-05-18-google-io-preview",
+      "type": "new",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "Google I/O 2026 前夜 — 明日開幕、Gemini 4 / Veo 4 / Android XR / Aluminium OS 発表へ",
+      "summary": "5月19日 (月) PT 10:00 開幕。Gemini 4 または 3.x アップデート・Veo 4 (最大30秒動画)・Android 17・Android XR スマートグラス・Aluminium OS (Android+ChromeOS 統合) の正式発表が有力視される。",
+      "url": "https://io.google/2026/",
+      "importance": "highlight",
+      "tags": ["google-io", "gemini", "veo", "android", "event-preview"]
+    },
+    {
+      "id": "2026-05-18-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-18-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-18-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-18-github-trending-shadowbroker",
+      "type": "new",
+      "vendor": "",
+      "section": "community",
+      "title": "BigBodyCobain/Shadowbroker — AI エージェント解析付き情報集約システム (★ +405)",
+      "summary": "多様な情報ソースを AI エージェントが解析・構造化レポートに変換するインテリジェンス集約ツール。Python。",
+      "url": "https://github.com/BigBodyCobain/Shadowbroker",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "intelligence", "agent"]
+    },
+    {
+      "id": "2026-05-18-github-trending-sana",
+      "type": "new",
+      "vendor": "NVIDIA",
+      "section": "community",
+      "title": "NVlabs/Sana — NVIDIA 高効率画像・動画合成 (SANA-WM 追加で再浮上、★ +450)",
+      "summary": "Linear Diffusion Transformer ベースの画像・動画合成フレームワーク。SANA-WM (世界モデル) 追加で再びトレンド入り。",
+      "url": "https://github.com/NVlabs/Sana",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "diffusion", "nvidia", "video-generation"]
+    },
+    {
+      "id": "2026-05-18-github-trending-agent-skills-ts",
+      "type": "new",
+      "vendor": "",
+      "section": "community",
+      "title": "tech-leads-club/agent-skills — AI コーディングエージェント向けスキルレジストリ (★ +923)",
+      "summary": "Claude Code・Cursor などのエージェント向けに検証済みスキルを一元管理する安全なレジストリ。TypeScript。",
+      "url": "https://github.com/tech-leads-club/agent-skills",
+      "importance": "standard",
+      "tags": ["github-trending", "typescript", "agent-skills", "claude-code"]
+    },
+    {
+      "id": "2026-05-18-paper-sana-wm",
+      "type": "new",
+      "vendor": "NVIDIA",
+      "section": "papers",
+      "title": "SANA-WM — 2.6B パラメータ世界モデルで単一 GPU に 720p・1 分映像生成",
+      "summary": "ハイブリッド線形アテンション + 6自由度カメラ制御付き世界モデル。先行 OSS の36倍スループット、蒸留版は RTX 5090 で60秒クリップを34秒で生成。オープンソース公開。",
+      "url": "https://arxiv.org/abs/2605.15178",
+      "importance": "standard",
+      "tags": ["video-generation", "world-model", "nvidia", "diffusion", "open-source"]
+    },
+    {
+      "id": "2026-05-18-media-recursive-si",
+      "type": "new",
+      "vendor": "",
+      "section": "media",
+      "title": "[TechCrunch] AI が AI を改善する時代の幕開け — Recursive Superintelligence 特集",
+      "summary": "自己改善型 AI の現実化を特集。科学的 AI 研究の自動化が次のフロンティアと論じる。",
+      "url": "https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/",
+      "importance": "standard",
+      "tags": ["media", "techcrunch", "self-improving-ai", "recursive-superintelligence"]
+    },
+    {
+      "id": "2026-05-18-media-grok-build",
+      "type": "new",
+      "vendor": "xAI",
+      "section": "media",
+      "title": "[Engadget] xAI が Grok Build でコーディングエージェント市場に参入",
+      "summary": "8並列エージェントと $99/月 導入割引を報道。Claude Code / Codex への正面挑戦と評する。",
+      "url": "https://www.engadget.com/2173482/xai-coding-agent-grok-build/",
+      "importance": "minor",
+      "tags": ["media", "engadget", "grok-build", "xai", "coding-agent"]
+    },
+    {
+      "id": "2026-05-18-media-anthropic-valuation",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "media",
+      "title": "[The Decoder] Anthropic の $900B 評価額が OpenAI を初めて上回る — 勢力図の変化を分析",
+      "summary": "Claude Code 急成長・Ramp AI Index 首位・大型提携 (PwC・Gates) が評価を押し上げた背景を解説。",
+      "url": "https://the-decoder.com/anthropics-900-billion-valuation-would-make-it-more-valuable-than-openai-for-the-first-time/",
+      "importance": "minor",
+      "tags": ["media", "anthropic", "valuation", "funding"]
+    },
+    {
+      "id": "2026-05-18-meta-layoffs-tomorrow",
+      "type": "new",
+      "vendor": "Meta",
+      "section": "governance",
+      "title": "Meta レイオフ第1波 — 明日5月20日に 8,000名削減開始",
+      "summary": "全従業員の約10%・8,000名を削減。6,000 採用ポジションも取消。AI 投資 ($135B) 集中のための構造改革。米国従業員は基本給16週+在籍年数×2週の退職金と18ヶ月医療保険を受領。",
+      "url": "https://thenextweb.com/news/meta-layoffs-may-2026-ai-restructuring-thousands",
+      "importance": "standard",
+      "tags": ["meta", "layoffs", "restructuring", "ai-investment"]
+    }
+  ]
+}
