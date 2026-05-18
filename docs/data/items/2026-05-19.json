@@ -1,0 +1,83 @@
+{
+  "date": "2026-05-19",
+  "generated_at": "2026-05-19T08:03:15+09:00",
+  "sources_checked": 22,
+  "sources_failed": 17,
+  "items": [
+    {
+      "id": "2026-05-19-anthropic-code-with-claude-london",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Code with Claude London 本日開催",
+      "summary": "Anthropic グローバル開発者イベント第2弾。Boris Cherny・Ami Vora ら登壇、ハンズオンワークショップ・新機能ライブデモ。需要超過で5/20 に Extended Day を追加。ライブ配信あり。",
+      "url": "https://claude.com/code-with-claude/london",
+      "importance": "standard",
+      "tags": ["developer-event", "anthropic", "claude-code", "london"]
+    },
+    {
+      "id": "2026-05-19-anthropic-openclaw-reversal",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "OpenClaw/サードパーティエージェント規制を撤廃 — Agent SDK クレジット制導入 (May 13)",
+      "summary": "4月の禁止を6週間で覆し、新「Agent SDK クレジット」専用枠 (Pro $20〜Max 20X $200/月、月末リセット) でサードパーティエージェントを再許可。6月15日より正式発効。",
+      "url": "https://venturebeat.com/technology/anthropic-reinstates-openclaw-and-third-party-agent-usage-on-claude-subscriptions-with-a-catch",
+      "importance": "highlight",
+      "tags": ["policy", "anthropic", "openclaw", "agent-sdk", "subscription", "developer"]
+    },
+    {
+      "id": "2026-05-19-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-19-google-io-2026-day1",
+      "type": "followup",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "[続報] Google I/O 2026 本日開幕 — PT 10:00 キーノートで Gemini 新モデル等の正式発表へ",
+      "summary": "5/18 に前夜として取り上げた Google I/O 2026 が本日 PT 開幕。PT 10:00 (JST 翌02:00) のキーノートで Gemini Omni/3.5・Android XR グラス・Aluminium OS・Veo 更新が有力。翌日詳報予定。",
+      "url": "https://io.google/2026/",
+      "related_date": "2026-05-18",
+      "importance": "highlight",
+      "tags": ["google-io", "gemini", "android-xr", "aluminium-os", "veo", "google"]
+    },
+    {
+      "id": "2026-05-19-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-19-meta-layoffs-confirmed",
+      "type": "followup",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "[続報] Meta 8,000名レイオフ 明日5/20 全オフィス 4AM 通知で開始確定",
+      "summary": "US News が内部文書を独占入手。全世界オフィスで現地時間 4AM に通知、同日中に個別連絡。$145B AI インフラ投資へのシフトが目的。H2 にも追加削減ラウンドを計画。年間 $7〜8B のコスト削減と試算。",
+      "url": "https://money.usnews.com/investing/news/articles/2026-05-18/exclusive-meta-lays-out-plans-for-may-20-layoffs-restructuring-internal-document-says",
+      "related_date": "2026-05-18",
+      "importance": "highlight",
+      "tags": ["layoffs", "meta", "restructuring", "ai-investment"]
+    },
+    {
+      "id": "2026-05-19-hn-ai-2fa-zero-day",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "AI 生成ゼロデイエクスプロイトを史上初確認 — Google が LLM 使用の 2FA バイパス攻撃を阻止",
+      "summary": "Google Threat Intelligence Group が LLM を使ってゼロデイ 2FA バイパスを開発した攻撃者グループを確認 (May 11 発表、HN 再注目)。LLM 固有のコード特性から生成を判定。",
+      "url": "https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html",
+      "importance": "standard",
+      "tags": ["security", "zero-day", "llm", "2fa", "google", "exploit"]
+    },
+    {
+      "id": "2026-05-19-papers-no-update",
+      "type": "no-update",
+      "vendor": "Other",
+      "section": "papers"
+    }
+  ]
+}
