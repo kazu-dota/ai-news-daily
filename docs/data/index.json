@@ -1,5 +1,273 @@
 [
   {
+    "date": "2026-05-20",
+    "id": "2026-05-20-anthropic-cnbc-disruptor50",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "CNBC Disruptor 50 初の #1 獲得 — 年商ランレート $30B超、Q1 収益 80倍",
+    "summary": "Anthropic が 2026年版 CNBC Disruptor 50 で首位を獲得し OpenAI を1位から引き下ろした。年商ランレートは $30B超、Q1収益は前年比80倍。",
+    "url": "https://www.cnbc.com/2026/05/19/2026-cnbc-disruptor-50-rankings-anthropic-no-1.html",
+    "importance": "highlight",
+    "tags": [
+      "anthropic",
+      "business",
+      "revenue",
+      "ranking"
+    ]
+  },
+  {
+    "date": "2026-05-20",
+    "id": "2026-05-20-anthropic-dod-court",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Pentagon ブラックリスト訴訟 — 連邦控訴裁、DOD の判断を「驚くべき越権行為」と批判",
+    "summary": "Anthropic 対 DOD の口頭弁論で Henderson 判事が DOD の指定根拠を問題視。サプライチェーンリスク指定の実質的根拠が示されていないと指摘した。",
+    "url": "https://www.cnbc.com/2026/05/19/anthropic-dod-blacklist-court-opening-arguments.html",
+    "importance": "standard",
+    "tags": [
+      "anthropic",
+      "government",
+      "legal",
+      "dod",
+      "pentagon"
+    ]
+  },
+  {
+    "date": "2026-05-20",
+    "id": "2026-05-20-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-05-20",
+    "id": "2026-05-20-google-io-2026-keynote",
+    "type": "followup",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "[続報] Google I/O 2026 キーノート結果 — Gemini 3.5 Flash/Spark/Omni 発表、Intelligent Eyewear・Aluminium OS 正式公開",
+    "summary": "Gemini 3.5 Flash (フロンティア性能×4倍速) と Gemini Spark (クラウド常時稼働個人エージェント)、Gemini Omni Flash (動画生成) を正式発表。Intelligent Eyewear を Samsung/Gentle Monster/Warby Parker と今秋発売、Aluminium OS + Googlebook も公開。",
+    "url": "https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/",
+    "related_date": "2026-05-19",
+    "importance": "highlight",
+    "tags": [
+      "google",
+      "gemini",
+      "model-release",
+      "hardware",
+      "agent",
+      "video-generation",
+      "android-xr"
+    ]
+  },
+  {
+    "date": "2026-05-20",
+    "id": "2026-05-20-google-gemini-35-flash",
+    "type": "followup",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "Gemini 3.5 Flash — フロンティア性能と Flash 速度を両立する新モデル",
+    "summary": "コーディング・エージェント・マルチモーダル全ベンチマークで Gemini 3.1 Pro超、競合比出力速度4倍。Gemini app・AI Mode・API で本日提供開始。Gemini 3.5 Pro は6月予定。",
+    "url": "https://tech.yahoo.com/ai/gemini/article/google-launches-gemini-35-flash-spark-omni-and-more-ai-updates-at-google-io-2026-172856601.html",
+    "related_date": "2026-05-19",
+    "importance": "highlight",
+    "tags": [
+      "google",
+      "gemini",
+      "model-release",
+      "flash"
+    ]
+  },
+  {
+    "date": "2026-05-20",
+    "id": "2026-05-20-google-gemini-spark",
+    "type": "followup",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "Gemini Spark — クラウド常時稼働の個人 AI エージェント",
+    "summary": "Gmail/Docs/Calendar を横断してタスクを代行するクラウド型エージェント。来週から米国 Google AI Ultra ($100/月) 加入者に先行提供。MCP でサードパーティ拡張は今夏予定。",
+    "url": "https://www.tomsguide.com/news/live/google-io-2026-live-news-updates",
+    "related_date": "2026-05-18",
+    "importance": "highlight",
+    "tags": [
+      "google",
+      "gemini",
+      "agent",
+      "spark",
+      "workspace"
+    ]
+  },
+  {
+    "date": "2026-05-20",
+    "id": "2026-05-20-google-intelligent-eyewear",
+    "type": "followup",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "Android XR Intelligent Eyewear — Samsung/Gentle Monster/Warby Parker と今秋発売",
+    "summary": "音声グラス (スピーカー/マイク/カメラ) とディスプレイグラス (レンズ内表示) の2種。XREAL Project Aura は年内。Kering Eyewear との提携も計画。",
+    "url": "https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/",
+    "related_date": "2026-05-18",
+    "importance": "standard",
+    "tags": [
+      "google",
+      "hardware",
+      "android-xr",
+      "glasses",
+      "wearables"
+    ]
+  },
+  {
+    "date": "2026-05-20",
+    "id": "2026-05-20-google-aluminium-os-googlebook",
+    "type": "followup",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "Aluminium OS + Googlebook — Android/ChromeOS 統合 OS と AI ノート PC 秋発売",
+    "summary": "Android と ChromeOS を統合した AI ネイティブ OS「Aluminium OS」と Googlebook を正式発表。Acer/ASUS/Dell/HP/Lenovo が秋に発売予定。",
+    "url": "https://9to5google.com/2026/05/19/google-io-2026-news/",
+    "related_date": "2026-05-18",
+    "importance": "standard",
+    "tags": [
+      "google",
+      "os",
+      "hardware",
+      "aluminium-os",
+      "googlebook",
+      "chromeos"
+    ]
+  },
+  {
+    "date": "2026-05-20",
+    "id": "2026-05-20-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-05-20",
+    "id": "2026-05-20-meta-layoffs-executed",
+    "type": "followup",
+    "vendor": "Meta",
+    "section": "vendor",
+    "title": "[続報] Meta 8,000名レイオフ 本日一斉実施 — H2 追加削減も正式予告",
+    "summary": "予告どおり5月20日に全世界一斉通知が実施された。6,000ポジションの採用計画も同時取り消し。2026年H2にも追加削減ラウンドが正式に予告された。",
+    "url": "https://thenextweb.com/news/meta-layoffs-may-2026-ai-restructuring-thousands",
+    "related_date": "2026-05-19",
+    "importance": "highlight",
+    "tags": [
+      "meta",
+      "layoffs",
+      "restructuring",
+      "ai-investment"
+    ]
+  },
+  {
+    "date": "2026-05-20",
+    "id": "2026-05-20-github-academic-research-skills",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending Python: academic-research-skills (★ +3,184)",
+    "summary": "AI を活用した学術研究ワークフロー自動化ツールキット。文献検索・要約・引用管理・レポート生成を統合するエージェントスキル集。",
+    "url": "https://github.com/Imbad0202/academic-research-skills",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "python",
+      "research",
+      "agent-skills"
+    ]
+  },
+  {
+    "date": "2026-05-20",
+    "id": "2026-05-20-github-vimax",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending Python: HKUDS/ViMax (★ +504) — Agentic Video Generation",
+    "summary": "マルチロール AI コーディネーションによる動画生成フレームワーク。Google I/O での Gemini Omni 発表と同日に急上昇。",
+    "url": "https://github.com/HKUDS/ViMax",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "python",
+      "video-generation",
+      "agent"
+    ]
+  },
+  {
+    "date": "2026-05-20",
+    "id": "2026-05-20-github-agentmemory",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending TypeScript: rohitg00/agentmemory (★ +1,626) — AIエージェント向け永続メモリ",
+    "summary": "実世界ベンチマークに基づく AI コーディングエージェント向け永続メモリライブラリ。セッションをまたいだ文脈の保持と再利用を可能にする。",
+    "url": "https://github.com/rohitg00/agentmemory",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "typescript",
+      "agent",
+      "memory"
+    ]
+  },
+  {
+    "date": "2026-05-20",
+    "id": "2026-05-20-github-12-factor-agents",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending TypeScript: humanlayer/12-factor-agents (★ +733) — LLMアプリ本番設計原則",
+    "summary": "本番レベルの LLM 駆動ソフトウェアを構築するための12の設計原則。可観測性・ステートレス性・Human-in-the-loop などの観点を整理したガイドライン。",
+    "url": "https://github.com/humanlayer/12-factor-agents",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "typescript",
+      "agent",
+      "best-practices",
+      "production"
+    ]
+  },
+  {
+    "date": "2026-05-20",
+    "id": "2026-05-20-paper-orthrus",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "Orthrus — 自己回帰LLMと拡散モデルを統合するデュアルアーキテクチャ",
+    "summary": "KV キャッシュと合意機構を共有することで、拡散モデルの並列生成速度と自己回帰モデルの推論精度を両立するフレームワーク。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "paper",
+      "diffusion",
+      "llm",
+      "architecture",
+      "inference"
+    ]
+  },
+  {
+    "date": "2026-05-20",
+    "id": "2026-05-20-paper-mineru25",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "MinerU2.5 — 1.2B パラメータ文書解析 VLM で SOTA 達成",
+    "summary": "Coarse-to-fine パーシング戦略により演算効率と文字認識精度の両面で SOTA を実現する文書解析特化の Vision-Language Model。",
+    "url": "https://huggingface.co/papers",
+    "importance": "minor",
+    "tags": [
+      "paper",
+      "document-parsing",
+      "vlm",
+      "ocr"
+    ]
+  },
+  {
     "date": "2026-05-19",
     "id": "2026-05-19-anthropic-code-with-claude-london",
     "type": "new",
