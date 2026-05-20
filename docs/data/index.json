@@ -1,5 +1,271 @@
 [
   {
+    "date": "2026-05-21",
+    "id": "2026-05-21-anthropic-kpmg",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "KPMG グローバルアライアンス締結 — 276,000名が Claude を利用",
+    "summary": "KPMG と Anthropic が戦略的グローバルアライアンスを締結。276,000名超の全従業員が Claude スイートを利用できる「Digital Gateway Powered by Claude」を共同展開。Big Four 2社目の大型アライアンス。",
+    "url": "https://www.anthropic.com/news/anthropic-kpmg",
+    "importance": "highlight",
+    "tags": [
+      "partnership",
+      "enterprise",
+      "anthropic",
+      "kpmg",
+      "big-four"
+    ]
+  },
+  {
+    "date": "2026-05-21",
+    "id": "2026-05-21-anthropic-xai-compute-cost",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "xAI/SpaceX Colossus 1 契約額判明 — 月額 $1.25B (年換算 $15B)、2029年5月まで",
+    "summary": "Anthropic と xAI/SpaceX の大型コンピュート契約の全詳細が明らかに。月額 $1.25B で 22万台超の NVIDIA GPU・300MW超の処理能力を 2029年5月まで確保。総額は $40B超の可能性。",
+    "url": "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/",
+    "importance": "highlight",
+    "tags": [
+      "compute",
+      "infrastructure",
+      "anthropic",
+      "xai",
+      "spacex",
+      "colossus"
+    ]
+  },
+  {
+    "date": "2026-05-21",
+    "id": "2026-05-21-anthropic-stainless-acquisition",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Stainless を $300M 超で買収 — MCP / SDK インフラを内製化",
+    "summary": "Anthropic が SDK 自動生成スタートアップ Stainless を $300M超で買収。OpenAI・Google も使うインフラ企業を取り込み MCP エコシステムを強化。外部向け製品は終了予定。",
+    "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+    "importance": "standard",
+    "tags": [
+      "acquisition",
+      "sdk",
+      "mcp",
+      "developer-tools",
+      "anthropic",
+      "stainless"
+    ]
+  },
+  {
+    "date": "2026-05-21",
+    "id": "2026-05-21-openai-content-provenance",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "コンテンツ来歴イニシアティブ — C2PA + Google SynthID 採用・公開検証ツール",
+    "summary": "OpenAI が AI 生成コンテンツの透明性強化策を発表。C2PA 準拠の Content Credentials 発行、ChatGPT 画像生成への Google SynthID 電子透かし統合、公開検証ツールのプレビューの3本柱。",
+    "url": "https://openai.com/index/advancing-content-provenance/",
+    "importance": "highlight",
+    "tags": [
+      "content-provenance",
+      "transparency",
+      "c2pa",
+      "synthid",
+      "openai",
+      "safety"
+    ]
+  },
+  {
+    "date": "2026-05-21",
+    "id": "2026-05-21-google-search-ai-mode",
+    "type": "followup",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "[続報] Google Search AI Mode — Gemini 3.5 Flash でグローバル展開開始 (198カ国)",
+    "summary": "Google Search の AI Mode が Gemini 3.5 Flash をデフォルトモデルに採用し、198カ国・98言語で無償展開開始 (5月21日)。長文質問・マルチメディア入力・文脈会話が可能に。25年超ぶりの検索根本刷新。",
+    "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+    "related_date": "2026-05-20",
+    "importance": "highlight",
+    "tags": [
+      "google-search",
+      "ai-mode",
+      "gemini-3.5-flash",
+      "google",
+      "search"
+    ]
+  },
+  {
+    "date": "2026-05-21",
+    "id": "2026-05-21-google-gemini-omni-rollout",
+    "type": "followup",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "[続報] Gemini Omni Flash — Gemini アプリ・YouTube Shorts でロールアウト開始",
+    "summary": "I/O で発表されたマルチモーダル動画生成モデル Gemini Omni Flash が Gemini アプリ・Flow・YouTube Shorts 向けに提供開始。最大 10秒クリップ生成可能。API 開発者向けは数週間後。",
+    "url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
+    "related_date": "2026-05-20",
+    "importance": "standard",
+    "tags": [
+      "gemini-omni",
+      "video-generation",
+      "multimodal",
+      "google"
+    ]
+  },
+  {
+    "date": "2026-05-21",
+    "id": "2026-05-21-google-gemini3-deepthink",
+    "type": "followup",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "[続報] Gemini 3 Deep Think — Google AI Ultra で大型アップデート提供開始",
+    "summary": "Google AI Ultra 向けに Gemini 3 Deep Think の大規模モデル更新が Gemini アプリで提供開始。科学計算・数学的推論の精度を強化した延長思考モード搭載。",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
+    "related_date": "2026-05-20",
+    "importance": "standard",
+    "tags": [
+      "gemini-3",
+      "deep-think",
+      "reasoning",
+      "google",
+      "model-update"
+    ]
+  },
+  {
+    "date": "2026-05-21",
+    "id": "2026-05-21-google-gemini-for-science",
+    "type": "followup",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "[続報] Gemini for Science — Google Labs で申請受付開始",
+    "summary": "I/O で公開された科学研究支援ツール群「Gemini for Science」の Google Labs 経由申請が開始。30以上のライフサイエンス DB から知見を抽出する Science Skills、仮説生成、計算探索の3機能を提供。",
+    "url": "https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/",
+    "related_date": "2026-05-20",
+    "importance": "standard",
+    "tags": [
+      "gemini-for-science",
+      "science",
+      "research",
+      "google",
+      "life-science"
+    ]
+  },
+  {
+    "date": "2026-05-21",
+    "id": "2026-05-21-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-05-21",
+    "id": "2026-05-21-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-05-21",
+    "id": "2026-05-21-github-claude-plugins-official",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "anthropics/claude-plugins-official — Anthropic 公式 Claude Code プラグイン集",
+    "summary": "Anthropic が管理する高品質な Claude Code プラグインのオフィシャルリポジトリ。本日 +706★ を記録。",
+    "url": "https://github.com/anthropics/claude-plugins-official",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "claude-code",
+      "plugins",
+      "anthropic"
+    ]
+  },
+  {
+    "date": "2026-05-21",
+    "id": "2026-05-21-github-ai-engineering-from-scratch",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "rohitg00/ai-engineering-from-scratch — AI エンジニアリング基礎コース",
+    "summary": "「Learn it. Build it. Ship it.」をコンセプトに AI エンジニアリングを基礎から体系的に学ぶオープンコース。本日 +762★。",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "education",
+      "ai-engineering"
+    ]
+  },
+  {
+    "date": "2026-05-21",
+    "id": "2026-05-21-github-oh-my-pi",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "can1357/oh-my-pi — ハッシュアンカー付き編集対応ターミナル AI コーディングエージェント",
+    "summary": "LSP・サブエージェント・ブラウザ連携を持つターミナル向け AI コーディングエージェント。最適化されたツールハーネスが特徴。本日 +237★。",
+    "url": "https://github.com/can1357/oh-my-pi",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "coding-agent",
+      "terminal",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-05-21",
+    "id": "2026-05-21-papers-anyflow",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "AnyFlow — 任意ステップ対応の動画拡散モデル蒸留フレームワーク",
+    "summary": "ODE 全軌跡を通じた flow-map 遷移学習により、従来の consistency distillation を超える動画生成品質を達成した蒸留フレームワーク。Hugging Face Papers でトレンド入り。",
+    "url": "https://huggingface.co/papers",
+    "importance": "minor",
+    "tags": [
+      "paper",
+      "video-generation",
+      "diffusion",
+      "distillation"
+    ]
+  },
+  {
+    "date": "2026-05-21",
+    "id": "2026-05-21-papers-tideg",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "TideGS (HKUST) — 10億プリミティブの 3D Gaussian Splatting を単一 GPU で実現",
+    "summary": "SSD-CPU-GPU 階層をブロック仮想化・非同期パイプライン・差分ストリーミングで管理し、1B 超のプリミティブを単一 GPU で訓練可能にした 3DGS 手法。Hugging Face Papers 5位前後。",
+    "url": "https://huggingface.co/papers",
+    "importance": "minor",
+    "tags": [
+      "paper",
+      "3d-gaussian-splatting",
+      "3d",
+      "rendering",
+      "hkust"
+    ]
+  },
+  {
+    "date": "2026-05-21",
+    "id": "2026-05-21-media-google-search-revolution",
+    "type": "new",
+    "vendor": null,
+    "section": "media",
+    "title": "Google、従来型検索パラダイムの退役を正式宣言",
+    "summary": "VentureBeat が「Google Search as you know it is over」と報道。AI Mode への一本化でリンクリスト主体の検索表示を段階的に廃止する方針を Google が示した。",
+    "url": "https://techcrunch.com/2026/05/19/google-search-as-you-know-it-is-over/",
+    "importance": "minor",
+    "tags": [
+      "media",
+      "google-search",
+      "ai-mode",
+      "search-paradigm"
+    ]
+  },
+  {
     "date": "2026-05-20",
     "id": "2026-05-20-anthropic-cnbc-disruptor50",
     "type": "new",

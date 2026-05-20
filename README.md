@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-05-21](summaries/2026/05/2026-05-21.md) — Anthropic × KPMG 276,000名グローバルアライアンス / xAI コンピュート契約月額 $1.25B 判明 / Anthropic が Stainless を $300M超で買収 / OpenAI コンテンツ来歴 (C2PA+SynthID) / Google Search AI Mode グローバル展開開始
 - [2026-05-20](summaries/2026/05/2026-05-20.md) — Google I/O 2026 キーノート結果 (Gemini 3.5 Flash/Spark/Omni・Intelligent Eyewear・Aluminium OS 発表) / Meta 8,000名レイオフ本日実施 / Anthropic が CNBC Disruptor 50 初の #1
 - [2026-05-19](summaries/2026/05/2026-05-19.md) — Google I/O 2026 本日開幕 (PT 10:00 キーノート) / Meta 8,000名レイオフ明日開始・内部文書流出 / Anthropic が OpenClaw/サードパーティエージェント規制を撤廃 (Agent SDK クレジット制)
 - [2026-05-18](summaries/2026/05/2026-05-18.md) — xAI Grok Build 初のコーディングエージェント登場 / Anthropic $900B 評価額で $30B 調達大詰め / Recursive Superintelligence $650M でステルス浮上 / Google I/O 2026 明日開幕
 - [2026-05-17](summaries/2026/05/2026-05-17.md) — OpenAI Codex が ChatGPT モバイルアプリ対応 (Remote SSH GA) / Anthropic × PwC 提携拡大・30,000名 Claude 認定 / 英国 CMA が Microsoft Copilot バンドルを独禁調査へ
 - [2026-05-16](summaries/2026/05/2026-05-16.md) — OpenAI ChatGPT Personal Finance (Plaid連携・1.2万機関接続) / Anthropic × Gates Foundation $200M / OpenAI が Apple 提携で法的措置を検討 / Microsoft MDASH が Windows 16脆弱性を先行発見
 - [2026-05-15](summaries/2026/05/2026-05-15.md) — Anthropic Claude for Small Business 発表・全米ツアー開始 / Microsoft Edge Copilot 大幅刷新 (マルチタブ推論・長期記憶) / Notion Developer Platform 正式開放
-- [2026-05-14](summaries/2026/05/2026-05-14.md) — Anthropic Claude for Legal (20+ MCP + 12 プラグイン) / Google Gemini Intelligence on Android + Googlebook 発表 / Anthropic Claude Platform on AWS GA / GitHub Copilot usage-based billing 6月移行準備
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
