@@ -1,0 +1,147 @@
+{
+  "date": "2026-05-22",
+  "generated_at": "2026-05-22T08:05:00+09:00",
+  "sources_checked": 26,
+  "sources_failed": 7,
+  "items": [
+    {
+      "id": "2026-05-22-anthropic-karpathy",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Andrej Karpathy が事前学習チームに参加",
+      "summary": "OpenAI 共同創業者・元 Tesla AI リードの Andrej Karpathy が Anthropic に入社。pre-training チームで Claude を使った研究加速チームを新設する。",
+      "url": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
+      "importance": "highlight",
+      "tags": ["talent", "pre-training", "anthropic", "karpathy"]
+    },
+    {
+      "id": "2026-05-22-anthropic-microsoft-maia",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Microsoft Maia 200 チップ採用に向けた初期交渉を実施中",
+      "summary": "Anthropic が Microsoft のカスタム AI チップ Maia 200 搭載サーバーの借用交渉を開始。xAI/SpaceX・AWS Trainium に続く第3のコンピュート調達源の多様化を図る。",
+      "url": "https://www.cnbc.com/2026/05/21/anthropic-microsoft-maia-200-ai-chip.html",
+      "importance": "highlight",
+      "tags": ["compute", "microsoft", "maia", "anthropic", "infrastructure"]
+    },
+    {
+      "id": "2026-05-22-openai-ads-manager",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "ChatGPT 広告セルフサービスプラットフォーム「Ads Manager」を一般公開",
+      "summary": "OpenAI が CPC 入札・クリエイティブ管理・計測を備えた広告配信プラットフォームを公開。今年の広告収入目標は $2.5B、2030年に $100B を目指す。",
+      "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads/",
+      "importance": "standard",
+      "tags": ["advertising", "openai", "chatgpt", "monetization"]
+    },
+    {
+      "id": "2026-05-22-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-22-google-no-update",
+      "type": "no-update",
+      "vendor": "Google / Google DeepMind",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-22-microsoft-build-preview",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "Build 2026 直前 — Azure Copilot agents がゲートプレビュー入り",
+      "summary": "Microsoft Build 2026 (June 2–3) に向け、Azure Copilot agents (6種) のゲートプレビュー開始。Copilot Studio では Claude Sonnet 4.5/4.6・Claude Opus が GA。",
+      "url": "https://azure.microsoft.com/en-us/blog/announcing-azure-copilot-agents-and-ai-infrastructure-innovations/",
+      "importance": "standard",
+      "tags": ["microsoft", "azure", "copilot", "build-2026"]
+    },
+    {
+      "id": "2026-05-22-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-22-trump-ai-eo-postponed",
+      "type": "new",
+      "vendor": "US Government",
+      "section": "governance",
+      "title": "Trump 大統領、AI 大統領令の署名を直前でキャンセル",
+      "summary": "当日午後に予定していた AI 大統領令 (AI モデルの政府事前審査制度) の署名を「内容に気に入らない部分があった」として突如キャンセル。中国との AI 競争を阻害しないことを理由に挙げた。",
+      "url": "https://www.cnbc.com/2026/05/21/trump-ai-executive-order-postponed.html",
+      "importance": "highlight",
+      "tags": ["governance", "regulation", "us-government", "trump", "executive-order"]
+    },
+    {
+      "id": "2026-05-22-github-hermes-agent",
+      "type": "new",
+      "vendor": "NousResearch",
+      "section": "community",
+      "title": "NousResearch/hermes-agent — ユーザーに適応するエージェントフレームワーク (★ +1,923 today)",
+      "summary": "Nous Research 製エージェントフレームワーク。経験から学習しユーザーの習慣・好み・コンテキストに継続的に適応する設計。GitHub Trending Python 新規エントリ。",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "importance": "standard",
+      "tags": ["github-trending", "agent", "open-source", "python"]
+    },
+    {
+      "id": "2026-05-22-github-forge",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "antoinezambelli/forge — セルフホスト LLM 向けワークフローフレームワーク (★ +449 today)",
+      "summary": "ローカル環境で API 依存なしにエージェントのツール呼び出しとマルチステップワークフローを実装できる Python フレームワーク。",
+      "url": "https://github.com/antoinezambelli/forge",
+      "importance": "minor",
+      "tags": ["github-trending", "self-hosted", "llm", "python", "open-source"]
+    },
+    {
+      "id": "2026-05-22-github-understand-anything",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "Lum1104/Understand-Anything — コードを知識グラフ化する AI 開発者向けツール (★ +854 today)",
+      "summary": "コードを探索・検索可能なインタラクティブ知識グラフに変換するツール。Claude Code・Cursor・Codex など複数の AI コーディングプラットフォームと互換。",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "importance": "standard",
+      "tags": ["github-trending", "knowledge-graph", "code-analysis", "typescript"]
+    },
+    {
+      "id": "2026-05-22-paper-longlive-2",
+      "type": "new",
+      "vendor": "community",
+      "section": "papers",
+      "title": "LongLive-2.0 — NVFP4 並列インフラによる長尺動画生成",
+      "summary": "シーケンス並列自己回帰訓練と拡散モデルチューニングで長尺動画生成の学習・推論ボトルネックを解消するフレームワーク。",
+      "url": "https://huggingface.co/papers/trending",
+      "importance": "standard",
+      "tags": ["video-generation", "diffusion", "inference", "research"]
+    },
+    {
+      "id": "2026-05-22-paper-pixal3d",
+      "type": "new",
+      "vendor": "community",
+      "section": "papers",
+      "title": "Pixal3D — ピクセル整合型 3D アセット生成",
+      "summary": "バックプロジェクション条件付けで直接的なピクセル-3D 対応関係を確立し、3D 生成の視覚的忠実度を改善するフレームワーク。",
+      "url": "https://huggingface.co/papers/trending",
+      "importance": "minor",
+      "tags": ["3d-generation", "computer-vision", "research"]
+    },
+    {
+      "id": "2026-05-22-media-cnbc-maia",
+      "type": "new",
+      "vendor": "media",
+      "section": "media",
+      "title": "[CNBC] Anthropic, Microsoft in talks about Maia AI chip deal",
+      "summary": "Anthropic の新コンピュート調達戦略と Microsoft カスタムシリコン事業の両面から意義を分析。報道を受けて Microsoft 株が約2%上昇。",
+      "url": "https://www.cnbc.com/2026/05/21/anthropic-microsoft-maia-200-ai-chip.html",
+      "importance": "standard",
+      "tags": ["media", "cnbc", "anthropic", "microsoft"]
+    }
+  ]
+}
