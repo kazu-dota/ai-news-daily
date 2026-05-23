@@ -1,5 +1,317 @@
 [
   {
+    "date": "2026-05-23",
+    "id": "2026-05-23-openai-ipo-confidential",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "OpenAI、SEC に IPO 申請を秘密裏に提出",
+    "summary": "Goldman Sachs / Morgan Stanley 主幹事で9月上場目標。評価額 $852B〜$1T 超。Q1 損失は $1.22/$1 収入。",
+    "url": "https://enterprisedna.co/resources/news/openai-ipo-confidential-filing-may-2026/",
+    "importance": "highlight",
+    "tags": [
+      "ipo",
+      "openai",
+      "sec-filing",
+      "finance"
+    ]
+  },
+  {
+    "date": "2026-05-23",
+    "id": "2026-05-23-anthropic-30b-close",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[続報] Anthropic: $30B 超調達が来週完了見込み — 評価額 $900B+",
+    "summary": "Sequoia/Dragoneer/Altimeter/Greenoaks が各 $2B 程度を共同リード。評価額 $900B+ で OpenAI を超え史上最高値の AI スタートアップへ。",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-22/anthropic-to-close-over-30-billion-round-as-soon-as-next-week",
+    "related_date": "2026-05-18",
+    "importance": "highlight",
+    "tags": [
+      "funding",
+      "anthropic",
+      "valuation",
+      "ipo"
+    ]
+  },
+  {
+    "date": "2026-05-23",
+    "id": "2026-05-23-anthropic-q2-profit",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Anthropic: Q2 2026 売上高 $109億・初の四半期黒字を見込む",
+    "summary": "Q1 $48億 → Q2 $109億 (前QoQ +127%)、営業利益 $5.59億 と初の黒字予測。コンピューティングコスト比率 0.71 → 0.56 に改善。",
+    "url": "https://www.cnbc.com/2026/05/20/anthropic-revenue-explosive-growth-ipo-profitable-quarter.html",
+    "importance": "highlight",
+    "tags": [
+      "finance",
+      "revenue",
+      "profit",
+      "anthropic"
+    ]
+  },
+  {
+    "date": "2026-05-23",
+    "id": "2026-05-23-anthropic-jack-clark-oxford",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Anthropic 共同創業者 Jack Clark: 「AI は 12 ヶ月以内に Nobel 賞級の発見をもたらす」",
+    "summary": "Oxford 大学講演にて予測。同時に「AI が全人類を絶滅させる確率はゼロではない」とも警告。",
+    "url": "https://www.resultsense.com/news/2026-05-21-jack-clark-anthropic-ai-nobel-prize-prediction/",
+    "importance": "standard",
+    "tags": [
+      "anthropic",
+      "safety",
+      "prediction",
+      "scientific-discovery"
+    ]
+  },
+  {
+    "date": "2026-05-23",
+    "id": "2026-05-23-openai-no-other-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-05-23",
+    "id": "2026-05-23-google-co-scientist-nature",
+    "type": "followup",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "[続報] Google DeepMind Co-Scientist が Nature 誌に正式掲載",
+    "summary": "Gemini 搭載 6 エージェントが仮説生成・批評・進化を繰り返す科学 AI システム。Daiichi Sankyo・Bayer Crop Science 等で実運用試験中。Yale との共同研究で免疫療法候補仮説を実験前に予測。",
+    "url": "https://labcritics.com/blog/2026/05/21/google-deepminds-co-scientist-graduates-from-research-demo-to-nature-paper/",
+    "related_date": "2026-05-21",
+    "importance": "standard",
+    "tags": [
+      "google",
+      "deepmind",
+      "co-scientist",
+      "nature",
+      "science-ai",
+      "gemini"
+    ]
+  },
+  {
+    "date": "2026-05-23",
+    "id": "2026-05-23-microsoft-copilot-button-ribbon",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "Microsoft: Word/Excel/PowerPoint の Copilot フローティングボタンをリボンに移動可能に",
+    "summary": "ユーザー反発を受け方針転換。Current Channel 向けに5月最終週から段階展開。右クリックで移動先を選択可能。",
+    "url": "https://www.windowslatest.com/2026/05/22/microsoft-admits-the-floating-copilot-button-in-word-excel-and-powerpoint-was-a-mistake-lets-you-hide-it-after-backlash/",
+    "importance": "standard",
+    "tags": [
+      "microsoft",
+      "copilot",
+      "office",
+      "ux",
+      "m365"
+    ]
+  },
+  {
+    "date": "2026-05-23",
+    "id": "2026-05-23-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-05-23",
+    "id": "2026-05-23-cerebras-kimi-k26",
+    "type": "new",
+    "vendor": "Cerebras",
+    "section": "vendor",
+    "title": "Cerebras: Kimi K2.6 (1 兆パラメータ MoE) を Enterprise 向けに ~981 トークン/秒 で提供",
+    "summary": "Moonshot AI 製オープンウェイト MoE モデルを GPU クラウド比 6.7 倍の速度で推論。IPO 直後の Cerebras がウエハースケールチップの推論優位を実証。",
+    "url": "https://www.cerebras.ai/blog/cerebras-kimi-k2-Enterprise",
+    "importance": "highlight",
+    "tags": [
+      "cerebras",
+      "kimi",
+      "moonshot-ai",
+      "inference",
+      "wafer-scale",
+      "ipo"
+    ]
+  },
+  {
+    "date": "2026-05-23",
+    "id": "2026-05-23-github-py-free-claude-code",
+    "type": "new",
+    "vendor": "Other",
+    "section": "community",
+    "title": "GitHub Trending Python: Alishahryar1/free-claude-code (+541)",
+    "summary": "Claude Code を無料でターミナル・VSCode・Discord から利用するツール。★28,575。",
+    "url": "https://github.com/Alishahryar1/free-claude-code",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "claude-code",
+      "open-source",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-05-23",
+    "id": "2026-05-23-github-ts-chrome-devtools-mcp",
+    "type": "new",
+    "vendor": "Other",
+    "section": "community",
+    "title": "GitHub Trending TypeScript: ChromeDevTools/chrome-devtools-mcp (+437)",
+    "summary": "コーディングエージェント向け Chrome DevTools MCP サーバー。Claude Code / Cursor 等がブラウザデバッグ機能を直接呼び出せる。★41,311。",
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "mcp",
+      "chrome-devtools",
+      "typescript",
+      "coding-agents"
+    ]
+  },
+  {
+    "date": "2026-05-23",
+    "id": "2026-05-23-github-ts-multica",
+    "type": "new",
+    "vendor": "Other",
+    "section": "community",
+    "title": "GitHub Trending TypeScript: multica-ai/multica (+429)",
+    "summary": "コーディングエージェントをチームメンバーとして組み込む OSS Managed Agents プラットフォーム。★31,891。",
+    "url": "https://github.com/multica-ai/multica",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "managed-agents",
+      "typescript",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-05-23",
+    "id": "2026-05-23-hn-openai-ipo",
+    "type": "new",
+    "vendor": "Other",
+    "section": "community",
+    "title": "HN: OpenAI IPO 申請と財務状況の議論",
+    "summary": "$1.22 の損失 / $1 の収入という Q1 財務構造と上場の意義をめぐるコミュニティ議論。",
+    "url": "https://news.ycombinator.com/",
+    "importance": "minor",
+    "tags": [
+      "hacker-news",
+      "openai",
+      "ipo"
+    ]
+  },
+  {
+    "date": "2026-05-23",
+    "id": "2026-05-23-hn-cerebras-kimi",
+    "type": "new",
+    "vendor": "Other",
+    "section": "community",
+    "title": "HN: Cerebras / Kimi K2.6 推論速度ベンチマーク議論",
+    "summary": "Nvidia GPU クラウドへのウエハースケール代替可能性をめぐる技術的議論。6.7 倍速の数字の意味を分析。",
+    "url": "https://news.ycombinator.com/",
+    "importance": "minor",
+    "tags": [
+      "hacker-news",
+      "cerebras",
+      "inference",
+      "nvidia"
+    ]
+  },
+  {
+    "date": "2026-05-23",
+    "id": "2026-05-23-paper-co-scientist-nature",
+    "type": "new",
+    "vendor": "Google",
+    "section": "papers",
+    "title": "Co-Scientist — Google DeepMind × Yale (Nature 掲載)",
+    "summary": "6 種の Gemini エージェントが Elo トーナメントで仮説を競い合う科学 AI システム。肝線維症・抗微生物耐性の予測を実験前に達成。",
+    "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/",
+    "importance": "standard",
+    "tags": [
+      "papers",
+      "google",
+      "deepmind",
+      "nature",
+      "science-ai",
+      "multi-agent"
+    ]
+  },
+  {
+    "date": "2026-05-23",
+    "id": "2026-05-23-paper-tidegs",
+    "type": "new",
+    "vendor": "Other",
+    "section": "papers",
+    "title": "TideGS — 10 億超の 3D Gaussian プリミティブを単一 GPU で訓練",
+    "summary": "従来手法でのメモリボトルネックを解消し、超高精細な 3D シーン表現を現実的なコストで実現する手法を提案。",
+    "url": "https://huggingface.co/papers",
+    "importance": "minor",
+    "tags": [
+      "papers",
+      "3d-gaussian-splatting",
+      "computer-vision"
+    ]
+  },
+  {
+    "date": "2026-05-23",
+    "id": "2026-05-23-media-fortune-openai-ipo",
+    "type": "new",
+    "vendor": "Other",
+    "section": "media",
+    "title": "[Fortune] OpenAI の IPO 申請が答えるべき大きな問い",
+    "summary": "Q1 赤字構造・収益モデル・競合優位性の開示内容への注目を分析。「ユーザー数より収益化率が問われる上場」という観点を提示。",
+    "url": "https://fortune.com/2026/05/22/openai-ipo-filing-1-trillion-may-finally-answer-these-big-questions/",
+    "importance": "standard",
+    "tags": [
+      "media",
+      "openai",
+      "ipo",
+      "finance"
+    ]
+  },
+  {
+    "date": "2026-05-23",
+    "id": "2026-05-23-media-venturebeat-cerebras",
+    "type": "new",
+    "vendor": "Other",
+    "section": "media",
+    "title": "[VentureBeat] Cerebras、GPU クラウド比 6.7 倍速で 1 兆パラメータモデルを運用",
+    "summary": "AI 推論インフラの競争構造がコモディティ GPU から専用シリコンへシフトするシグナルとして分析。",
+    "url": "https://venturebeat.com/technology/cerebras-says-its-chips-run-a-trillion-parameter-ai-model-nearly-7-times-faster-than-gpu-clouds",
+    "importance": "standard",
+    "tags": [
+      "media",
+      "cerebras",
+      "inference",
+      "nvidia"
+    ]
+  },
+  {
+    "date": "2026-05-23",
+    "id": "2026-05-23-media-windowslatest-copilot-button",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "media",
+    "title": "[Windows Latest] Microsoft が浮遊 Copilot ボタンは誤りだったと認める",
+    "summary": "強制 UI 変更が外部ユーザー体験と内部指標の乖離を示した事例として記録。Current Channel 来週展開でリボンへの移動オプションを提供。",
+    "url": "https://www.windowslatest.com/2026/05/22/microsoft-admits-the-floating-copilot-button-in-word-excel-and-powerpoint-was-a-mistake-lets-you-hide-it-after-backlash/",
+    "importance": "minor",
+    "tags": [
+      "media",
+      "microsoft",
+      "copilot",
+      "office",
+      "ux"
+    ]
+  },
+  {
     "date": "2026-05-22",
     "id": "2026-05-22-anthropic-karpathy",
     "type": "new",
