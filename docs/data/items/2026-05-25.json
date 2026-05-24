@@ -1,0 +1,174 @@
+{
+  "date": "2026-05-25",
+  "generated_at": "2026-05-25T08:15:00+09:00",
+  "sources_checked": 14,
+  "sources_failed": 9,
+  "items": [
+    {
+      "id": "2026-05-25-anthropic-glasswing-results",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Project Glasswing — Claude Mythos Preview が 10,000件超の重大脆弱性を発見、Mythos-1 が Claude Code・Claude Security に展開予定",
+      "summary": "Claude Mythos Preview が約 50 のパートナー組織とともに高深刻度・重大脆弱性 10,000件超を発見。Mythos-1 が Claude Code と Claude Security スイートに近く統合予定だが、安全策が整うまで一般公開は行わない方針。",
+      "url": "https://www.anthropic.com/glasswing",
+      "importance": "highlight",
+      "tags": ["security", "claude-mythos", "project-glasswing", "vulnerabilities", "anthropic"]
+    },
+    {
+      "id": "2026-05-25-openai-gartner-mq",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "2026 Gartner Magic Quadrant「エンタープライズ AI コーディングエージェント」でリーダー認定",
+      "summary": "OpenAI の Codex が Gartner MQ のリーダー象限に認定。週間ユーザー 400 万人超。GitHub Copilot も 3 年連続リーダー認定。",
+      "url": "https://openai.com/index/gartner-2026-agentic-coding-leader/",
+      "importance": "standard",
+      "tags": ["gartner", "codex", "enterprise", "ai-coding", "openai"]
+    },
+    {
+      "id": "2026-05-25-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-25-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-25-meta-ai-new-features",
+      "type": "new",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "Meta AI — Live Camera ビュー・Voice Mode・WhatsApp 匿名会話モードを新機能として追加",
+      "summary": "Meta AI に Live Camera (リアルタイム視覚認識)、Voice Mode、WhatsApp 匿名会話モード、Threads「Ask Meta AI」を順次追加。",
+      "url": "https://www.meta.com/blog/",
+      "importance": "standard",
+      "tags": ["meta-ai", "live-camera", "voice-mode", "whatsapp", "threads"]
+    },
+    {
+      "id": "2026-05-25-governance-papal-encyclical",
+      "type": "new",
+      "vendor": null,
+      "section": "governance",
+      "title": "Pope Leo XIV、史上初の AI 回勅「Magnifica Humanitas」を公開 — Anthropic 共同創業者 Christopher Olah が Vatican パネルに登壇",
+      "summary": "ローマ教皇庁が「AI 時代における人間の尊厳の保護」を主題とした初の回勅を 5月25日に公開。Anthropic 共同創業者も発表パネルに参加した。",
+      "url": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
+      "importance": "highlight",
+      "tags": ["governance", "papal-encyclical", "anthropic", "ai-ethics", "religion"]
+    },
+    {
+      "id": "2026-05-25-github-python-knowledge-work-plugins",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "GitHub Trending Python: anthropics/knowledge-work-plugins — Claude Cowork 向けナレッジワーカープラグイン集 (★ +486)",
+      "summary": "文書分析・会議要約・タスク管理など知識労働ワークフローを自動化する Claude Cowork プラグイン集。",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "importance": "minor",
+      "tags": ["github-trending", "claude-cowork", "plugins", "knowledge-work", "anthropic"]
+    },
+    {
+      "id": "2026-05-25-github-python-cybersecurity-skills",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending Python: mukul975/Anthropic-Cybersecurity-Skills — MITRE ATT&CK 対応の 754 サイバーセキュリティスキル集 (★ +934)",
+      "summary": "Project Glasswing の発表を受け急浮上した、MITRE ATT&CK・NIST フレームワーク対応のサイバーセキュリティスキル体系化リポジトリ。",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "importance": "minor",
+      "tags": ["github-trending", "cybersecurity", "mitre-attack", "nist", "security"]
+    },
+    {
+      "id": "2026-05-25-github-ts-earendil-pi",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending TypeScript: earendil-works/pi — AI エージェントツールキット (★ +444)",
+      "summary": "コーディングエージェント CLI・統一 LLM API・UI ライブラリを統合した多モデル対応の開発者向け AI エージェントツールキット。",
+      "url": "https://github.com/earendil-works/pi",
+      "importance": "minor",
+      "tags": ["github-trending", "ai-agent", "llm", "typescript", "developer-tools"]
+    },
+    {
+      "id": "2026-05-25-hn-glasswing-discussion",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "Hacker News: Project Glasswing 10,000件脆弱性発見をめぐる攻防 AI 非対称性の議論",
+      "summary": "AI による脆弱性発見速度がパッチ提供を上回るリスクへの懸念と、HackerOne の AI バグレポート急増による一時停止が HN で注目されている。",
+      "url": "https://news.ycombinator.com/",
+      "importance": "minor",
+      "tags": ["hacker-news", "security", "vulnerabilities", "ai-attacks"]
+    },
+    {
+      "id": "2026-05-25-hn-hackerone-pause",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "Hacker News: HackerOne がインターネットバグバウンティを一時停止 — AI 生成レポートの氾濫によるトリアージ疲弊",
+      "summary": "AI が生成したもっともらしい誤報告が急増し、メンテナのレビュー負荷が限界に達したと HackerOne が説明。",
+      "url": "https://thehackernews.com/2026/05/2026-year-of-ai-assisted-attacks.html",
+      "importance": "standard",
+      "tags": ["hacker-news", "bug-bounty", "ai-hallucination", "security", "hackerone"]
+    },
+    {
+      "id": "2026-05-25-paper-kvserve",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "KVServe (SIGCOMM 2026) — 分散 LLM 推論向けサービス認識型 KV キャッシュ圧縮フレームワーク",
+      "summary": "QoS 考慮型の動的 KV キャッシュ圧縮により、推論クラスタ間の通信コストと応答遅延を同時削減。SIGCOMM 2026 採択。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["research", "kv-cache", "llm-serving", "distributed-inference", "sigcomm"]
+    },
+    {
+      "id": "2026-05-25-paper-clinseekagent",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "ClinSeekAgent — 臨床推論向けマルチモーダル医療証拠収集エージェントシステム",
+      "summary": "AI エージェントが複数モダリティの医療情報を自律収集・評価することで臨床推論の精度と説明可能性を向上。",
+      "url": "https://huggingface.co/papers",
+      "importance": "minor",
+      "tags": ["research", "healthcare", "clinical-ai", "multi-modal", "agent"]
+    },
+    {
+      "id": "2026-05-25-media-papal-encyclical",
+      "type": "new",
+      "vendor": null,
+      "section": "media",
+      "title": "[Vatican News] Magnifica Humanitas: AI 時代の人間の尊厳保護を主題とした史上初の教皇回勅",
+      "summary": "Pope Leo XIV の AI 回勅発表と、Anthropic 共同創業者 Christopher Olah の Vatican 登壇を報じる複数媒体のまとめ。",
+      "url": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
+      "importance": "highlight",
+      "tags": ["media", "governance", "ai-ethics", "vatican", "anthropic"]
+    },
+    {
+      "id": "2026-05-25-media-glasswing-benzinga",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "media",
+      "title": "[Benzinga] Anthropic Project Glasswing — 10,000件超の重大バグ発見とパートナー拡大",
+      "summary": "Claude Mythos の防御的運用実績と、制御されたフレームワーク内での運用管理の重要性を詳報。",
+      "url": "https://www.benzinga.com/markets/private-markets/26/05/52759147/anthropics-project-glasswing-finds-more-than-10000-critical-bugs-expands-to-additional-pa",
+      "importance": "standard",
+      "tags": ["media", "project-glasswing", "anthropic", "security", "claude-mythos"]
+    },
+    {
+      "id": "2026-05-25-media-pope-america-mag",
+      "type": "new",
+      "vendor": null,
+      "section": "media",
+      "title": "[America Magazine] Pope Leo's encyclical comes just in time: AI raises questions only religion can answer",
+      "summary": "AI が価値判断を外部化する時代に宗教倫理が果たす役割と、ユーザーが AI に委ねる「選択と責任の範囲」を考察。",
+      "url": "https://www.americamagazine.org/short-take/2026/05/19/pope-leo-ai-anthropic/",
+      "importance": "standard",
+      "tags": ["media", "ai-ethics", "religion", "governance", "anthropic"]
+    }
+  ]
+}
