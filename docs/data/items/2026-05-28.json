@@ -1,0 +1,142 @@
+{
+  "date": "2026-05-28",
+  "generated_at": "2026-05-28T08:06:00+09:00",
+  "sources_checked": 21,
+  "sources_failed": 12,
+  "items": [
+    {
+      "id": "2026-05-28-anthropic-30b-closed",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[続報] $30B+ 調達ラウンドが今週クローズ確定 — 評価額 $900B+、2026年10月 IPO を目標",
+      "summary": "5/23 に「来週クローズ見込み」と報じられた Anthropic の調達ラウンドが今週正式クローズ。評価額 $900B+ で史上最高評価プライベート AI スタートアップに。IPO は 2026年10月目標とされる。",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-22/anthropic-to-close-over-30-billion-round-as-soon-as-next-week",
+      "related_date": "2026-05-23",
+      "importance": "highlight",
+      "tags": ["funding", "ipo", "anthropic", "valuation"]
+    },
+    {
+      "id": "2026-05-28-anthropic-seoul",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "ソウル事務所を開設、韓国代表取締役に KiYoung Choi 氏を任命",
+      "summary": "Anthropic がソウルに事務所開設。KiYoung Choi 氏 (元 Snowflake Korea GM) が韓国代表取締役に就任。アジア太平洋 3 拠点目。韓国ユーザーの利用頻度は人口比の 3.5 倍超。",
+      "url": "https://www.anthropic.com/news/seoul-becomes-third-anthropic-office-in-asia-pacific",
+      "importance": "standard",
+      "tags": ["expansion", "korea", "asia-pacific", "anthropic"]
+    },
+    {
+      "id": "2026-05-28-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-28-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-05-28-microsoft-copilot-studio-may2026",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "Copilot Studio May 2026 アップデート — リアルタイム音声エージェント GA・A2A 通信 GA・Workflows プレビュー",
+      "summary": "Copilot Studio の 5 月アップデートで、リアルタイム音声エージェント GA (北米 Dynamics 365 Contact Center 経由)、A2A 通信 GA、新 Workflows 体験 (プレビュー) が公開。Build 2026 (6/2-3) 直前の機能展開。",
+      "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/",
+      "importance": "standard",
+      "tags": ["copilot-studio", "voice-agents", "a2a", "workflows", "microsoft"]
+    },
+    {
+      "id": "2026-05-28-meta-subscriptions",
+      "type": "new",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "全主要プラットフォームで有料サブスクリプション展開 — Meta One Plus ($7.99/月) ほか計4プラン発表",
+      "summary": "Meta が Instagram Plus ($3.99/月)・Facebook Plus ($3.99/月)・WhatsApp Plus ($2.99/月)・Meta One Plus ($7.99/月、AI 機能強化) をグローバル展開。広告一辺倒から収益多様化への本格転換。",
+      "url": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
+      "importance": "highlight",
+      "tags": ["subscription", "monetization", "meta-ai", "meta"]
+    },
+    {
+      "id": "2026-05-28-github-moneyprinterturbo",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: harry0403/MoneyPrinterTurbo — AI LLM でショート動画を自動生成",
+      "summary": "テキスト入力から台本・音声・字幕・映像素材の選定まで自動化する高品質ショート動画生成ツール。本日 ★ +1,737。",
+      "url": "https://github.com/harry0403/MoneyPrinterTurbo",
+      "importance": "minor",
+      "tags": ["github-trending", "video-generation", "python"]
+    },
+    {
+      "id": "2026-05-28-github-kronos",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: shiyu-coder/Kronos — 金融市場向けファンデーションモデル",
+      "summary": "株価・為替・商品などの金融時系列データの予測・分析に特化したファンデーションモデル。本日 ★ +402。",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "importance": "minor",
+      "tags": ["github-trending", "finance", "foundation-model", "python"]
+    },
+    {
+      "id": "2026-05-28-github-gstack",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: garrytan/gstack — AI 支援ワークフロー向け 23 ツール統合フレームワーク",
+      "summary": "AI 支援ワークフローを実装する 23 の専門ツールを組み込んだ意見的な開発オペレーション向けツールセット。本日 ★ +452。",
+      "url": "https://github.com/garrytan/gstack",
+      "importance": "minor",
+      "tags": ["github-trending", "developer-tools", "typescript"]
+    },
+    {
+      "id": "2026-05-28-hn-ai-management-gap",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "HN: AI と管理職の生産性ギャップ — 個人出力の加速が管理承認プロセスのボトルネックを露わに",
+      "summary": "生成 AI が個人成果物を加速させる一方、管理職の評価・承認プロセスが律速段階になるという問題が HN で話題。「AI 生産性は管理プロセスが変わるときだけスケールする」という論点が注目された。",
+      "url": "https://johnsviokla.substack.com/p/ep-586-daily-ai-news-may-27-2026",
+      "importance": "minor",
+      "tags": ["hacker-news", "management", "productivity", "ai-impact"]
+    },
+    {
+      "id": "2026-05-28-paper-dmpo",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "DMPO — on-policy 強化学習の mode collapse に forward KL 最小化で対処",
+      "summary": "on-policy RL における mode collapse 問題に forward KL 最小化を適用し、解の多様性を維持しながら組合せ最適化・推論タスクでの性能向上を達成するフレームワーク (May 22 公開)。",
+      "url": "https://huggingface.co/papers",
+      "importance": "minor",
+      "tags": ["reinforcement-learning", "mode-collapse", "research"]
+    },
+    {
+      "id": "2026-05-28-paper-mega-asr",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "Mega-ASR — 実世界音声認識の頑健性を向上させるフレームワーク",
+      "summary": "コンパウンドデータ構築と音響-意味プログレッシブ最適化 (PASO) を組み合わせ、雑音・アクセント・チャネル差異に対するモデルの適応力を向上 (May 19 公開)。",
+      "url": "https://huggingface.co/papers",
+      "importance": "minor",
+      "tags": ["speech-recognition", "asr", "research"]
+    },
+    {
+      "id": "2026-05-28-media-meta-sub",
+      "type": "new",
+      "vendor": "Meta",
+      "section": "media",
+      "title": "[メディア] Meta サブスクリプション開始 — TechCrunch / Bloomberg 報道",
+      "summary": "TechCrunch と Bloomberg が Meta の全プラットフォームへの有料サブスクリプション展開を「広告一辺倒からの本格転換」として報道。AI 機能課金が中長期収益多様化戦略の柱と評価。",
+      "url": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
+      "importance": "minor",
+      "tags": ["media", "meta", "subscription", "monetization"]
+    }
+  ]
+}
