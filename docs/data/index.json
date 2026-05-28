@@ -1,5 +1,234 @@
 [
   {
+    "date": "2026-05-29",
+    "id": "2026-05-29-anthropic-opus-48",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Claude Opus 4.8 を正式リリース",
+    "summary": "USAMO 数学 69.3%→96.7%、SWE-bench Pro 64.3%→69.2%、GraphWalks 1M 40.3%→68.1% に大幅向上。Dynamic Workflows で並列サブエージェント解禁、Fast mode が旧世代比 3 倍安価。同価格 ($5/$25 per M tokens) で全リージョン提供開始。",
+    "url": "https://www.anthropic.com/news/claude-opus-4-8",
+    "importance": "highlight",
+    "tags": [
+      "model-release",
+      "anthropic",
+      "opus",
+      "coding",
+      "math",
+      "agents"
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "id": "2026-05-29-anthropic-valuation-965b",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[続報] 調達総額 $65B・評価額 $965B が最終確定",
+    "summary": "5/28 に「$30B+・評価額 $900B+」として報道されたラウンドの最終数字が確定。調達 $65B、ポストマネー評価額 $965B。ARR は $470億超のランレートに到達。",
+    "url": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html",
+    "related_date": "2026-05-28",
+    "importance": "standard",
+    "tags": [
+      "funding",
+      "valuation",
+      "ipo",
+      "anthropic"
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "id": "2026-05-29-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-05-29",
+    "id": "2026-05-29-google-no-update",
+    "type": "no-update",
+    "vendor": "Google / Google DeepMind",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-05-29",
+    "id": "2026-05-29-microsoft-m365-copilot-design",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "Microsoft 365 Copilot の UI を全面刷新 — タスク認識型ワークスペースを導入",
+    "summary": "静的テキスト入力欄をタスク認識型ワークスペースに再設計。Word/PowerPoint でのコンテキスト提案機能を追加。AI 介入範囲を特定セクションに制限できるロック機能も搭載。",
+    "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/",
+    "importance": "highlight",
+    "tags": [
+      "microsoft",
+      "copilot",
+      "m365",
+      "ui-redesign",
+      "productivity"
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "id": "2026-05-29-microsoft-phi-silica-copilot-pc",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "Phi Silica AI が Qualcomm Snapdragon X 搭載 Copilot+ PC に自動配信",
+    "summary": "KB5096568 で Phi Silica (Microsoft 製 SLM) を Qualcomm NPU 上で自動展開。オフライン動作でスマート Recall・テキスト提案などのプライベート AI 機能を実現。",
+    "url": "https://windowsnews.ai/article/kb5096568-may-2026-update-brings-phi-silica-ai-to-qualcomm-copilot-pcs.420262",
+    "importance": "standard",
+    "tags": [
+      "microsoft",
+      "phi",
+      "edge-ai",
+      "copilot-plus",
+      "windows"
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "id": "2026-05-29-meta-zuckerberg-cloud",
+    "type": "new",
+    "vendor": "Meta",
+    "section": "vendor",
+    "title": "Zuckerberg、株主総会でクラウドサービス参入を「視野に入れている」と発言",
+    "summary": "株主総会で Zuckerberg が AWS・Azure との競合となるクラウドサービス事業参入を「視野に入れている」と言及。余剰コンピューティングの外部販売を選択肢として提示。",
+    "url": "https://247wallst.com/investing/2026/05/28/mark-zuckerberg-just-revealed-metas-break-in-case-of-emergency-ai-plan/",
+    "importance": "minor",
+    "tags": [
+      "meta",
+      "cloud",
+      "infrastructure",
+      "zuckerberg",
+      "strategy"
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "id": "2026-05-29-github-trending-hermes-agent",
+    "type": "new",
+    "vendor": "NousResearch",
+    "section": "community",
+    "title": "GitHub Trending: NousResearch/hermes-agent (★ +1,454 today)",
+    "summary": "継続的な文脈学習と適応型動作設計を持つ Nous Research 製 AI エージェントフレームワーク。「使い込むほど成長する」設計が特徴。",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "importance": "standard",
+    "tags": [
+      "open-source",
+      "agents",
+      "github-trending",
+      "nousresearch"
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "id": "2026-05-29-github-trending-markitdown",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "community",
+    "title": "GitHub Trending: microsoft/markitdown (★ +1,263 today)",
+    "summary": "PDF・Office・HTML など多形式ファイルを LLM 処理向け Markdown に変換する Microsoft 製ツール。Opus 4.8 リリースを受けてエージェントパイプライン用途で再急上昇。",
+    "url": "https://github.com/microsoft/markitdown",
+    "importance": "minor",
+    "tags": [
+      "open-source",
+      "tools",
+      "github-trending",
+      "microsoft",
+      "llm"
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "id": "2026-05-29-github-trending-claude-mem",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "GitHub Trending: thedotmack/claude-mem (★ +298 today / 計 79,402)",
+    "summary": "AI エージェント向けの永続的コンテキスト管理ライブラリ。セッション間保存・圧縮・再注入を担う。Dynamic Workflows 解禁を機に急浮上。",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "importance": "minor",
+    "tags": [
+      "open-source",
+      "context-management",
+      "claude",
+      "agents",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "id": "2026-05-29-paper-ai-trader",
+    "type": "new",
+    "vendor": "community",
+    "section": "papers",
+    "title": "AI-Trader — LLM 金融意思決定の完全自動化ライブベンチマーク",
+    "summary": "LLM が自律的に金融情報を収集・評価して投資判断を下す初のライブベンチマーク。株式・FX・商品の複数市場でリアルタイム評価を実施する標準評価基盤として提案。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "research",
+      "llm",
+      "finance",
+      "benchmark",
+      "agents"
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "id": "2026-05-29-paper-aris",
+    "type": "new",
+    "vendor": "community",
+    "section": "papers",
+    "title": "ARIS — クロスモデル敵対的検証で AI 研究信頼性を向上",
+    "summary": "複数 AI モデルが協調と対立を繰り返すクロスモデル検証フレームワーク。長期研究タスクでの幻覚・見落としを敵対的相互評価で抑制する設計を提案。",
+    "url": "https://huggingface.co/papers",
+    "importance": "minor",
+    "tags": [
+      "research",
+      "reliability",
+      "multi-agent",
+      "science-ai"
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "id": "2026-05-29-media-china-ai-travel",
+    "type": "new",
+    "vendor": "governance",
+    "section": "media",
+    "title": "中国: DeepSeek・Alibaba の AI 研究者に海外渡航規制を発動",
+    "summary": "中国政府が DeepSeek・Alibaba のトップ AI 研究者に海外渡航の政府承認を義務付け。これまで国家機関限定だった「国家安全保障資産」扱いを民間 AI 企業のキーパーソンに初適用。",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-26/china-expands-travel-curbs-to-top-ai-talent-at-private-firms",
+    "importance": "highlight",
+    "tags": [
+      "governance",
+      "china",
+      "deepseek",
+      "alibaba",
+      "regulation",
+      "talent"
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "id": "2026-05-29-media-anthropic-customers-creeped",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "media",
+    "title": "Anthropic の最新モデルに一部ユーザーが「不気味さ」を報告",
+    "summary": "最新 Claude モデルが以前にはなかった独自の振る舞いを示すと一部ユーザーが報告。Opus 4.8 の大幅性能向上に伴い、期待値と実際の動作のギャップへの関心が高まっている。",
+    "url": "https://futurism.com/artificial-intelligence/anthropic-customers-creeped-out-models",
+    "importance": "minor",
+    "tags": [
+      "anthropic",
+      "user-experience",
+      "alignment",
+      "claude"
+    ]
+  },
+  {
     "date": "2026-05-28",
     "id": "2026-05-28-anthropic-30b-closed",
     "type": "followup",
