@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-05-30](summaries/2026/05/2026-05-30.md) — OpenAI が Rosalind Biodefense プログラムを発足 (GPT-Rosalind を政府・研究機関向けに開放) / Frontier Governance Framework を公開 (EU AI Act・カリフォルニア法対応) / Figure AI ヒューマノイド 200時間連続稼働・249,560件処理ゼロ障害
 - [2026-05-29](summaries/2026/05/2026-05-29.md) — Anthropic が Claude Opus 4.8 をリリース (USAMO 数学 96.7%・Dynamic Workflows・Fast mode 3 倍安価) / Anthropic 評価額 $965B・調達 $65B 最終確定 / Microsoft 365 Copilot 全面 UI 刷新 / 中国が DeepSeek・Alibaba AI 人材に海外渡航規制を発動
 - [2026-05-28](summaries/2026/05/2026-05-28.md) — Anthropic $30B+ 調達ラウンドがクローズ・評価額 $900B+ で史上最高評価プライベート AI スタートアップに・IPO は 10月目標 / Meta が全主要プラットフォームで有料サブスクリプション展開 (Meta One Plus $7.99/月) / Microsoft Copilot Studio 音声エージェント GA・A2A GA・Workflows プレビュー / Anthropic ソウル事務所開設
 - [2026-05-25](summaries/2026/05/2026-05-25.md) — Anthropic Project Glasswing で Claude Mythos Preview が重大脆弱性 10,000件超を発見・Mythos-1 が Claude Code/Claude Security に展開予定 / Pope Leo XIV が史上初 AI 回勅「Magnifica Humanitas」を公開 / OpenAI が Gartner MQ「エンタープライズ AI コーディングエージェント」でリーダー認定
 - [2026-05-23](summaries/2026/05/2026-05-23.md) — OpenAI が SEC へ IPO を秘密裏に申請 (9月上場目標) / Anthropic $30B 調達が来週完了・評価額 $900B+ で OpenAI 超え / Anthropic Q2 売上 $109億・初の四半期黒字 / Cerebras が Kimi K2.6 を GPU 比 6.7 倍速で Enterprise 提供
 - [2026-05-22](summaries/2026/05/2026-05-22.md) — Andrej Karpathy が Anthropic の事前学習チームに入社 / Anthropic が Microsoft Maia 200 チップ採用交渉 / Trump が AI 大統領令を直前でキャンセル / OpenAI が ChatGPT Ads Manager を一般公開
 - [2026-05-21](summaries/2026/05/2026-05-21.md) — Anthropic × KPMG 276,000名グローバルアライアンス / xAI コンピュート契約月額 $1.25B 判明 / Anthropic が Stainless を $300M超で買収 / OpenAI コンテンツ来歴 (C2PA+SynthID) / Google Search AI Mode グローバル展開開始
-- [2026-05-20](summaries/2026/05/2026-05-20.md) — Google I/O 2026 キーノート結果 (Gemini 3.5 Flash/Spark/Omni・Intelligent Eyewear・Aluminium OS 発表) / Meta 8,000名レイオフ本日実施 / Anthropic が CNBC Disruptor 50 初の #1
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。

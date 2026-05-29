@@ -1,5 +1,277 @@
 [
   {
+    "date": "2026-05-30",
+    "id": "2026-05-30-openai-rosalind-biodefense",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "Rosalind Biodefense プログラム発足 — GPT-Rosalind をバイオ防衛用途に開放",
+    "summary": "GPT-Rosalind を審査済みの研究者・政府機関に開放。Lawrence Livermore・Johns Hopkins APL・CEPI と提携。疫学モデリングやバイオサーベイランス向け。",
+    "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense/",
+    "importance": "highlight",
+    "tags": [
+      "biodefense",
+      "openai",
+      "gpt-rosalind",
+      "governance",
+      "pandemic-preparedness"
+    ]
+  },
+  {
+    "date": "2026-05-30",
+    "id": "2026-05-30-openai-frontier-governance",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "Frontier Governance Framework を公開 — EU AI Act・カリフォルニア法対応",
+    "summary": "Preparedness Framework を基盤に規制対応ガバナンス文書を公開。CBRN・サイバー攻撃・有害操作・制御喪失の4分類で安全対策を明示。",
+    "url": "https://openai.com/index/openai-frontier-governance-framework/",
+    "importance": "highlight",
+    "tags": [
+      "governance",
+      "openai",
+      "eu-ai-act",
+      "safety",
+      "regulation"
+    ]
+  },
+  {
+    "date": "2026-05-30",
+    "id": "2026-05-30-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-05-30",
+    "id": "2026-05-30-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-05-30",
+    "id": "2026-05-30-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-05-30",
+    "id": "2026-05-30-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-05-30",
+    "id": "2026-05-30-figure-ai-200h",
+    "type": "new",
+    "vendor": "Figure AI",
+    "section": "community",
+    "title": "Figure 03 ロボット 200 時間連続稼働・249,560件処理・ゼロ障害",
+    "summary": "Helix-02 AI 搭載の Figure 03 が 3 体協調で 9 日間稼働。249,560件のパッケージを処理し機械的障害ゼロを達成。商用耐久性を実証。",
+    "url": "https://interestingengineering.com/ai-robotics/figure-03-humanoid-robot-200-hour-shift",
+    "importance": "highlight",
+    "tags": [
+      "robotics",
+      "humanoid",
+      "figure-ai",
+      "helix",
+      "autonomous"
+    ]
+  },
+  {
+    "date": "2026-05-30",
+    "id": "2026-05-30-github-voxcpm",
+    "type": "new",
+    "vendor": "OpenBMB",
+    "section": "community",
+    "title": "VoxCPM: トークナイザー不要の多言語 TTS が GitHub Trending 急上昇",
+    "summary": "30言語対応・ゼロショット音声クローニング対応の OSS TTS モデル VoxCPM2 (2B)。Apache-2.0。今日 +1,549 stars。",
+    "url": "https://github.com/OpenBMB/VoxCPM",
+    "importance": "standard",
+    "tags": [
+      "tts",
+      "speech",
+      "open-source",
+      "github-trending",
+      "openbmb"
+    ]
+  },
+  {
+    "date": "2026-05-30",
+    "id": "2026-05-30-github-claude-code",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "community",
+    "title": "anthropics/claude-code が GitHub Trending Python に急伸",
+    "summary": "Opus 4.8 の Dynamic Workflows 発表を受けエージェントパイプライン構築目的で急伸。今日 +460 stars / 計 127,841。",
+    "url": "https://github.com/anthropics/claude-code",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "claude-code",
+      "anthropic",
+      "agentic"
+    ]
+  },
+  {
+    "date": "2026-05-30",
+    "id": "2026-05-30-github-moss-tts",
+    "type": "new",
+    "vendor": "OpenMOSS",
+    "section": "community",
+    "title": "MOSS-TTS: 実世界向け OSS 音声・音響生成モデルが新規エントリ",
+    "summary": "多様な実世界シナリオ対応の音声生成モデル。VoxCPM と並ぶオープン TTS 新興プロジェクト。今日 +429 stars / 計 2,479。",
+    "url": "https://github.com/OpenMOSS/MOSS-TTS",
+    "importance": "minor",
+    "tags": [
+      "tts",
+      "speech",
+      "open-source",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-05-30",
+    "id": "2026-05-30-github-moneyprinterturbo",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] harry0403/MoneyPrinterTurbo — 引き続きトレンド",
+    "summary": "AI 自動ショート動画生成ツール。今日 +3,563 stars / 計 69,550。5/28 記載済み。",
+    "url": "https://github.com/harry0403/MoneyPrinterTurbo",
+    "related_date": "2026-05-28",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "video-generation",
+      "ai-tools"
+    ]
+  },
+  {
+    "date": "2026-05-30",
+    "id": "2026-05-30-github-markitdown",
+    "type": "followup",
+    "vendor": "Microsoft",
+    "section": "community",
+    "title": "[続報] microsoft/markitdown — 引き続きトレンド",
+    "summary": "多形式 → Markdown 変換ツール。今日 +1,876 stars / 計 129,858。5/29 記載済み。",
+    "url": "https://github.com/microsoft/markitdown",
+    "related_date": "2026-05-29",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "microsoft",
+      "markdown",
+      "llm-tools"
+    ]
+  },
+  {
+    "date": "2026-05-30",
+    "id": "2026-05-30-github-compound-engineering-plugin",
+    "type": "new",
+    "vendor": "EveryInc",
+    "section": "community",
+    "title": "compound-engineering-plugin: 複数 AI コーディングエージェント横断プラグイン",
+    "summary": "Claude Code・Codex・Cursor 向け公式 Compound Engineering プラグイン。今日 +354 stars / 計 18,111。",
+    "url": "https://github.com/EveryInc/compound-engineering-plugin",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "typescript",
+      "claude-code",
+      "coding-agent"
+    ]
+  },
+  {
+    "date": "2026-05-30",
+    "id": "2026-05-30-github-twenty",
+    "type": "new",
+    "vendor": "twentyhq",
+    "section": "community",
+    "title": "twenty: AI 統合設計の OSS Salesforce 代替 CRM",
+    "summary": "エージェント活用前提の CRM プラットフォーム。今日 +575 stars / 計 48,390。",
+    "url": "https://github.com/twentyhq/twenty",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "typescript",
+      "crm",
+      "ai-integration"
+    ]
+  },
+  {
+    "date": "2026-05-30",
+    "id": "2026-05-30-github-react-doctor",
+    "type": "new",
+    "vendor": "millionco",
+    "section": "community",
+    "title": "react-doctor: エージェント生成 React コードの品質問題を自動検出",
+    "summary": "AI エージェントが書いた低品質 React コードを検出・修正するツール。今日 +181 stars / 計 11,525。",
+    "url": "https://github.com/millionco/react-doctor",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "typescript",
+      "react",
+      "code-quality",
+      "ai-tools"
+    ]
+  },
+  {
+    "date": "2026-05-30",
+    "id": "2026-05-30-hn-highlights",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "HN ハイライト: OpenAI ガバナンス 2 件 / Figure AI 耐久テスト",
+    "summary": "Rosalind Biodefense のデュアルユース議論・Frontier Governance Framework 自主規制批判・Figure AI 実用化ロードマップ考察が活発。",
+    "url": "https://news.ycombinator.com/",
+    "importance": "standard",
+    "tags": [
+      "hacker-news",
+      "community",
+      "governance",
+      "robotics"
+    ]
+  },
+  {
+    "date": "2026-05-30",
+    "id": "2026-05-30-paper-ai-scientific-taste",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "AI Can Learn Scientific Taste — RLCF フレームワーク",
+    "summary": "コミュニティフィードバックを強化学習に活用する RLCF で「科学的センス」を LLM に学習させる手法。GPT-5.2 / Gemini 3 Pro を上回ると報告。",
+    "url": "https://arxiv.org/pdf/2603.14473",
+    "importance": "standard",
+    "tags": [
+      "research",
+      "rlcf",
+      "scientific-evaluation",
+      "llm-training"
+    ]
+  },
+  {
+    "date": "2026-05-30",
+    "id": "2026-05-30-media-cnbc-dan-ives",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "media",
+    "title": "Dan Ives: Anthropic の成長は「AI 上昇相場の氷山の一角」— CNBC",
+    "summary": "Wedbush アナリストが Anthropic の ARR 急成長と $965B 評価を AI 投資テーマ全体の初期段階と表現し強気見通しを示した。",
+    "url": "https://www.cnbc.com/2026/05/29/dan-ives-anthropic-growth-tip-of-the-sphere-ai-theme.html",
+    "importance": "standard",
+    "tags": [
+      "media",
+      "anthropic",
+      "valuation",
+      "market-analysis"
+    ]
+  },
+  {
     "date": "2026-05-29",
     "id": "2026-05-29-anthropic-opus-48",
     "type": "new",
