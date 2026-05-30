@@ -1,5 +1,276 @@
 [
   {
+    "date": "2026-05-31",
+    "id": "2026-05-31-microsoft-one-copilot",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "\"One Copilot\" スーパーアプリ — GitHub Copilot・AI Chat・Copilot Cowork・Autopilot を夏末までに統合",
+    "summary": "Fortune 独占報道。M365 の 4.5% 未満しか Copilot に課金していない現状を打開する狙いで、Jacob Andreou 主導のもと Copilot 製品群を単一アプリに集約。夏末リリース目標。",
+    "url": "https://fortune.com/2026/05/29/microsoft-working-on-super-app/",
+    "importance": "highlight",
+    "tags": [
+      "copilot",
+      "microsoft",
+      "super-app",
+      "github-copilot",
+      "strategy"
+    ]
+  },
+  {
+    "date": "2026-05-31",
+    "id": "2026-05-31-microsoft-project-polaris",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "Project Polaris — 自社製コーディング AI で GitHub Copilot を刷新、2026年8月 GA・IP 補償付き",
+    "summary": "Microsoft が OpenAI 依存を脱却する自社製コーディングモデル群を Build 2026 前日に予告。Code Content Guarantee で IP 侵害補償を明記。マルチモーダル対応のプレビューも予定。",
+    "url": "https://windowsnews.ai/article/microsoft-build-2026-homegrown-ai-models-to-power-github-copilot.420887",
+    "importance": "highlight",
+    "tags": [
+      "github-copilot",
+      "microsoft",
+      "project-polaris",
+      "coding-model",
+      "build-2026"
+    ]
+  },
+  {
+    "date": "2026-05-31",
+    "id": "2026-05-31-microsoft-build-waf",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "Build 2026 プレビュー — Windows Agent Framework を MIT ライセンスでオープンソース化、Windows Agent Store も発表予定",
+    "summary": "Build 2026 基調講演でエージェントライフサイクル管理フレームワーク WAF を MIT 公開予定。Windows Local AI (NPU 推論 API) と Agent Store もセットで発表見込み。",
+    "url": "https://windowsnews.ai/article/microsoft-build-2026-ai-agents-copilot-azure-ai-foundry-and-windows-local-ai.420861",
+    "importance": "standard",
+    "tags": [
+      "microsoft",
+      "build-2026",
+      "windows-agent-framework",
+      "waf",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-05-31",
+    "id": "2026-05-31-meta-ai-pendant",
+    "type": "new",
+    "vendor": "Meta",
+    "section": "vendor",
+    "title": "AI ペンダント + \"Wearables for Work\" を開発中 — Limitless 買収技術を転用、下半期 1,000 万台目標",
+    "summary": "The Information が社内メモを入手。Meta は今後 1 年以内のペンダント型デバイステストを計画。法人向け Wearables for Work も並行開発。Reality Labs の損失削減が目的。",
+    "url": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
+    "importance": "highlight",
+    "tags": [
+      "meta",
+      "wearable",
+      "ai-pendant",
+      "hardware",
+      "limitless"
+    ]
+  },
+  {
+    "date": "2026-05-31",
+    "id": "2026-05-31-xai-grok-build-01",
+    "type": "new",
+    "vendor": "xAI",
+    "section": "vendor",
+    "title": "Grok Build 0.1 — アジェンティックコーディング専用モデルを API 公開ベータで提供",
+    "summary": "256K コンテキスト・100+ tokens/秒・$1/M 入力。テキスト+画像入力対応。コードベース全体を対象にした自律リファクタリング・デバッグに特化した設計。",
+    "url": "https://x.ai/news/grok-build-0-1",
+    "importance": "standard",
+    "tags": [
+      "xai",
+      "grok",
+      "coding-model",
+      "agentic",
+      "api"
+    ]
+  },
+  {
+    "date": "2026-05-31",
+    "id": "2026-05-31-anthropic-milan-office",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[続報] ミラノ事務所開設 — 欧州 6 拠点目、Generali・Pirelli・Enel が顧客に (May 28)",
+    "summary": "欧州 6 拠点目のミラノ事務所を 5/28 開設。EMEA 地域の年換算収益は前年比約 9 倍。ソウル開設 (5/26) と同週の動きで、国際展開が加速。",
+    "url": "https://www.anthropic.com/news/milan-office-opening",
+    "related_date": "2026-05-28",
+    "importance": "standard",
+    "tags": [
+      "anthropic",
+      "expansion",
+      "europe",
+      "milan",
+      "enterprise"
+    ]
+  },
+  {
+    "date": "2026-05-31",
+    "id": "2026-05-31-mistral-chips-infra",
+    "type": "new",
+    "vendor": "Mistral",
+    "section": "vendor",
+    "title": "自社チップ設計を将来的に検討・フランス国内に専用推論データセンター開設・BMW/Airbus と企業契約",
+    "summary": "CEO Mensch が CNBC で初めてカスタムシリコン構想を言及。フランス国内に推論専用データセンターを新設し、BMW・Airbus との産業分野の企業契約も同日発表。",
+    "url": "https://www.cnbc.com/2026/05/28/mistral-arthur-mensch-design-chips-ai-data-centers.html",
+    "importance": "standard",
+    "tags": [
+      "mistral",
+      "chips",
+      "infrastructure",
+      "france",
+      "enterprise",
+      "bmw",
+      "airbus"
+    ]
+  },
+  {
+    "date": "2026-05-31",
+    "id": "2026-05-31-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-05-31",
+    "id": "2026-05-31-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-05-31",
+    "id": "2026-05-31-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-05-31",
+    "id": "2026-05-31-github-stable-worldmodel",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: galilai-group/stable-worldmodel — Yann LeCun ら GalilAI Group のワールドモデル研究基盤",
+    "summary": "データ収集・訓練・MPC 評価を統一 API で提供。arXiv:2605.21800 と同時公開。★+319 today。",
+    "url": "https://github.com/galilai-group/stable-worldmodel",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "world-model",
+      "yann-lecun",
+      "research",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-05-31",
+    "id": "2026-05-31-github-anthropics-skills",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "community",
+    "title": "GitHub Trending: anthropics/skills — Anthropic 公式 Agent Skills リポジトリ",
+    "summary": "Agent Skills オープン標準準拠の再利用可能スキルを多数収録。★+471 today。",
+    "url": "https://github.com/anthropics/skills",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "anthropic",
+      "agent-skills",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-05-31",
+    "id": "2026-05-31-github-ts-project-nomad",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending (TS): Crosstalk-Solutions/project-nomad — オフライン完結型サバイバル AI コンピュータ",
+    "summary": "インターネット接続不要のポータブル AI 環境。ローカル AI・重要知識ベースを一台に統合。★+473 today。",
+    "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "offline-ai",
+      "local-ai",
+      "privacy"
+    ]
+  },
+  {
+    "date": "2026-05-31",
+    "id": "2026-05-31-github-ts-opencode",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending (TS): anomalyco/opencode — オープンソースのコーディングエージェント",
+    "summary": "Build 2026 前夜の GitHub Copilot 刷新報道を受け OSS 代替として注目。★+385 today。",
+    "url": "https://github.com/anomalyco/opencode",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "coding-agent",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-05-31",
+    "id": "2026-05-31-hn-community",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "Hacker News: Build 2026 前夜の盛り上がり / Meta ペンダント評価 / Grok Build 0.1 議論",
+    "summary": "One Copilot 統合・Project Polaris の IP 補償・Meta のプライバシーリスク・Grok Build 0.1 の現実的競争力について活発な議論。",
+    "url": "https://news.ycombinator.com/",
+    "importance": "minor",
+    "tags": [
+      "hacker-news",
+      "community",
+      "microsoft-build",
+      "meta",
+      "xai"
+    ]
+  },
+  {
+    "date": "2026-05-31",
+    "id": "2026-05-31-paper-stable-worldmodel",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "stable-worldmodel (arXiv:2605.21800) — Yann LeCun ら、ワールドモデル研究の再現性基盤を公開",
+    "summary": "GalilAI Group (Brown Univ.) によるデータ収集・訓練・MPC 評価の統一プラットフォーム。ベースラインと計画ソルバーを同梱し研究の比較可能性を向上。",
+    "url": "https://arxiv.org/abs/2605.21800",
+    "importance": "standard",
+    "tags": [
+      "world-model",
+      "research",
+      "yann-lecun",
+      "brown-university",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-05-31",
+    "id": "2026-05-31-media-meta-ai-ads",
+    "type": "new",
+    "vendor": "Meta",
+    "section": "media",
+    "title": "[CNBC] Meta has struggled at selling anything other than ads. Will AI be different?",
+    "summary": "Meta の AI サブスクリプション・ウェアラブル・クラウド参入構想を分析。広告依存脱却には事業構造そのものの変革が必要と論じる。",
+    "url": "https://www.cnbc.com/2026/05/30/meta-struggled-selling-anything-other-than-ads-will-ai-be-different.html",
+    "importance": "minor",
+    "tags": [
+      "meta",
+      "media",
+      "ai-monetization",
+      "subscription"
+    ]
+  },
+  {
     "date": "2026-05-30",
     "id": "2026-05-30-openai-rosalind-biodefense",
     "type": "new",
