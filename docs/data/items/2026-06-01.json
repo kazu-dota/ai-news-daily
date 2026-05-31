@@ -1,0 +1,144 @@
+{
+  "date": "2026-06-01",
+  "generated_at": "2026-06-01T08:06:10+09:00",
+  "sources_checked": 22,
+  "sources_failed": 8,
+  "items": [
+    {
+      "id": "2026-06-01-anthropic-mythos-ga",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[続報] Claude Mythos Preview 一般公開を「数週間以内」に計画",
+      "summary": "サイバーセキュリティ特化モデルの安全策を最終調整中。「swift progress」達成し数週間以内に一般顧客へ開放予定。Project Glasswing で累計 10,000件超の重大脆弱性を発見済み。",
+      "url": "https://www.androidheadlines.com/2026/05/anthropic-claude-mythos-ai-model-public-release-cybersecurity.html",
+      "related_date": "2026-05-25",
+      "importance": "standard",
+      "tags": ["claude-mythos", "cybersecurity", "anthropic", "project-glasswing"]
+    },
+    {
+      "id": "2026-06-01-openai-gpt55-cyber-security",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "GPT-5.5-Cyber Trusted Access: Advanced Account Security 要件が本日 (6/1) 有効化",
+      "summary": "Trusted Access for Cyber プログラムで本日より個人ユーザーへのフィッシング耐性認証が必須に。GPT-5.5-Cyber は脆弱性特定・マルウェア解析等を担う審査制サイバー特化モデル。",
+      "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
+      "importance": "minor",
+      "tags": ["openai", "cybersecurity", "gpt-5-5", "trusted-access"]
+    },
+    {
+      "id": "2026-06-01-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-01-microsoft-copilot-billing",
+      "type": "followup",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "[続報] GitHub Copilot 使用量ベース課金「AI Credits」が本日 (6/1) 全プランに正式施行",
+      "summary": "PRU を廃止し AI Credits ($0.01/クレジット) へ移行。Token 消費量で課金。Pro+ $39/月 = $39クレジット付き。開発者コミュニティで「同額でより少量」と批判続出。",
+      "url": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+      "related_date": "2026-05-31",
+      "importance": "highlight",
+      "tags": ["github-copilot", "billing", "microsoft", "ai-credits", "developer-tools"]
+    },
+    {
+      "id": "2026-06-01-microsoft-build-2026",
+      "type": "followup",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "[続報] Microsoft Build 2026 が明日 (6/2) サンフランシスコで開幕",
+      "summary": "Satya Nadella 基調講演は 9:30 PT。AI エージェント・Windows Agent Store・Azure AI Foundry GA・GitHub Copilot アジェンティックワークフロー強化を発表予定。",
+      "url": "https://www.notebookcheck.net/Microsoft-Build-2026-What-to-expect-from-the-June-2-keynote.1311546.0.html",
+      "related_date": "2026-05-31",
+      "importance": "highlight",
+      "tags": ["microsoft-build", "azure-ai-foundry", "windows-agent", "github-copilot", "microsoft"]
+    },
+    {
+      "id": "2026-06-01-meta-conversations",
+      "type": "new",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "Meta Conversations 2026 (6/3) — WhatsApp・Messenger・IG Direct の AI 機能強化を発表へ",
+      "summary": "年次メッセージングカンファレンスを 6/3 に開催。AI エージェント・ビジネスツール・サブスクリプション拡大を発表予定。AI ウェアラブル戦略も焦点。",
+      "url": "https://www.socialmediatoday.com/news/meta-announces-date-for-2026-conversations-event/817512/",
+      "importance": "standard",
+      "tags": ["meta", "whatsapp", "messenger", "ai-features", "conversations"]
+    },
+    {
+      "id": "2026-06-01-xai-grok-daily-updates",
+      "type": "new",
+      "vendor": "xAI",
+      "section": "vendor",
+      "title": "xAI が Grok Build 日次更新ページを公開、Grok V9 Medium (1.5 兆パラメータ) も中旬リリース予定",
+      "summary": "Musk が 2 億超フォロワーに日次ビルド更新ページを直接告知し異例の透明性を示す。旗艦モデル Grok V9 Medium は学習完了済み、6 月中旬リリース見込み。",
+      "url": "https://www.basenor.com/blogs/news/xai-now-publishes-daily-grok-build-updates-heres-where-to-track-them",
+      "importance": "highlight",
+      "tags": ["xai", "grok", "grok-v9", "model-release", "transparency"]
+    },
+    {
+      "id": "2026-06-01-github-feynman",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "feynman (getcompanion-ai) — オープンソース AI リサーチエージェント",
+      "summary": "Pi ランタイム + alphaXiv 論文検索を組み合わせた研究エージェント。論文検索・マルチエージェント調査・実験再現に対応、全出力がソース付き。★7.6k (+115 today)",
+      "url": "https://github.com/companion-inc/feynman",
+      "importance": "standard",
+      "tags": ["github-trending", "research-agent", "open-source", "ai-tools"]
+    },
+    {
+      "id": "2026-06-01-github-sandcastle",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "sandcastle (mattpocock) — サンドボックス化コーディングエージェント orchestration ライブラリ",
+      "summary": "TypeScript でコーディングエージェントを sandcastle.run() で隔離実行環境にデプロイし並列化できるライブラリ。★5.6k (+159 today)",
+      "url": "https://github.com/mattpocock/sandcastle",
+      "importance": "standard",
+      "tags": ["github-trending", "coding-agents", "typescript", "ai-tools"]
+    },
+    {
+      "id": "2026-06-01-hn-copilot-billing",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "HN: GitHub Copilot 課金移行に開発者から批判 — エージェント多用で月数百ドルになる試算も",
+      "summary": "本日施行の AI Credits 移行に対しコスト試算が多数共有。Business/Enterprise の Budget Controls は賛否両論。",
+      "url": "https://github.com/orgs/community/discussions/192948",
+      "importance": "standard",
+      "tags": ["hacker-news", "github-copilot", "billing", "developer-reaction"]
+    },
+    {
+      "id": "2026-06-01-hn-chatgphish",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "ChatGPhish: ChatGPT Markdown 悪用のプロンプトインジェクション脆弱性が報告",
+      "summary": "外部コンテンツ経由で ChatGPT にプロンプトを挿入し任意操作を誘導できる概念実証コードが公開。AI セキュリティ研究コミュニティで活発に議論中。",
+      "url": "https://thehackernews.com/search/label/artificial%20intelligence",
+      "importance": "standard",
+      "tags": ["security", "chatgpt", "prompt-injection", "vulnerability"]
+    },
+    {
+      "id": "2026-06-01-papers-none",
+      "type": "no-update",
+      "vendor": null,
+      "section": "papers"
+    },
+    {
+      "id": "2026-06-01-media-copilot-billing",
+      "type": "new",
+      "vendor": null,
+      "section": "media",
+      "title": "GitHub Copilot 使用量ベース課金施行を各メディアが報道 — エンタープライズ影響と開発者反応",
+      "summary": "Enterprise DNA・NotebookCheck 等が本日施行の課金変更を報道。コスト試算・Budget Controls の活用法・年払いユーザーへの影響を解説。",
+      "url": "https://enterprisedna.co/resources/news/github-copilot-usage-based-billing-enterprise-2026/",
+      "importance": "minor",
+      "tags": ["media", "github-copilot", "billing"]
+    }
+  ]
+}
