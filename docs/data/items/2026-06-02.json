@@ -1,0 +1,149 @@
+{
+  "date": "2026-06-02",
+  "generated_at": "2026-06-02T08:12:00+09:00",
+  "sources_checked": 22,
+  "sources_failed": 4,
+  "items": [
+    {
+      "id": "2026-06-02-anthropic-ipo-s1",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "SEC へ S-1 秘密申請、IPO は 10 月目標",
+      "summary": "$965B 評価での IPO に向け S-1 を SEC に秘密申請。最終評価額 $1.75〜1.8 兆ドル・調達 $75B を目指し、10月上場を狙う。Wilson Sonsini を法律顧問に起用。",
+      "url": "https://www.cnbc.com/2026/06/01/anthropic-ipo-s1-prospectus.html",
+      "importance": "highlight",
+      "tags": ["ipo", "sec-filing", "anthropic", "funding"]
+    },
+    {
+      "id": "2026-06-02-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-02-google-no-update",
+      "type": "no-update",
+      "vendor": "Google / Google DeepMind",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-02-microsoft-build-project-polaris",
+      "type": "followup",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "[続報] Build 2026: Project Polaris 正式披露、GitHub Copilot のデフォルト AI コアを自社製に",
+      "summary": "Mixture-of-Experts 設計の自社製コーディング AI が 8月から GitHub Copilot 全サブスクライバーへ自動移行。GPT-4 Turbo を置き換え、HumanEval・MBPP でも上回るスコアを記録。",
+      "url": "https://chatforest.com/builders-log/microsoft-build-2026-recap-windows-agent-platform-project-polaris-copilot-workspace/",
+      "related_date": "2026-05-31",
+      "importance": "highlight",
+      "tags": ["build-2026", "project-polaris", "github-copilot", "microsoft", "coding-model"]
+    },
+    {
+      "id": "2026-06-02-microsoft-build-agent-platform",
+      "type": "followup",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "[続報] Build 2026: Windows を AI エージェントのファーストクラス実行基盤へ",
+      "summary": "Satya Nadella が Windows の設計転換を宣言。CUA・A2A 通信・リアルタイム音声が Copilot Studio で GA。Azure AI Foundry にツールチェーンを一本化。",
+      "url": "https://windowsforum.com/threads/microsoft-build-2026-windows-11-ai-agents-and-nvidia-rtx-spark-for-arm-pcs.421215/",
+      "related_date": "2026-05-31",
+      "importance": "highlight",
+      "tags": ["build-2026", "windows", "ai-agents", "copilot-studio", "azure-ai-foundry", "microsoft"]
+    },
+    {
+      "id": "2026-06-02-nvidia-rtx-spark",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "NVIDIA RTX Spark: Windows on Arm AI PC 向けスーパーチップ正式発表",
+      "summary": "Arm CPU 20コア + Blackwell GPU + 128GB 統合メモリで 1 PFLOP を実現。Fall 2026 に Surface Laptop Ultra・Dell・HP 等から出荷開始。Qualcomm 後継として AI PC 市場を狙う。",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-microsoft-windows-pcs-agents-rtx-spark",
+      "importance": "highlight",
+      "tags": ["nvidia", "rtx-spark", "windows-on-arm", "ai-pc", "computex-2026", "surface"]
+    },
+    {
+      "id": "2026-06-02-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-02-github-hermes-webui",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "nesquena/hermes-webui — Hermes エージェント Web UI",
+      "summary": "NousResearch Hermes エージェントをブラウザ・スマートフォンから利用するための Web UI。GUI 層への需要を捉えて急浮上。",
+      "url": "https://github.com/nesquena/hermes-webui",
+      "importance": "standard",
+      "tags": ["github-trending", "hermes-agent", "web-ui", "agent"]
+    },
+    {
+      "id": "2026-06-02-github-scrapling",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "D4Vinci/Scrapling — 適応型 Web スクレイピングフレームワーク",
+      "summary": "単発リクエストから大規模クローリングまで対応する Python スクレイピングライブラリ。LLM パイプラインのデータ収集用途で急上昇。",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "importance": "standard",
+      "tags": ["github-trending", "web-scraping", "python", "llm-tools"]
+    },
+    {
+      "id": "2026-06-02-github-claude-code-trending",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "anthropics/claude-code — Build 2026 / Project Polaris 対比文脈で参照増",
+      "summary": "Build 2026 での Project Polaris 発表を受け、競合比較文脈で参照が増加。継続トレンド。",
+      "url": "https://github.com/anthropics/claude-code",
+      "importance": "minor",
+      "tags": ["github-trending", "claude-code", "anthropic", "coding-agent"]
+    },
+    {
+      "id": "2026-06-02-community-build-discussion",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "HN / Reddit: Build 2026 と Anthropic IPO が両コミュニティ上位を占領",
+      "summary": "r/MachineLearning では「OpenAI 依存終焉と Microsoft 独自モデル戦略」が熱議。Hacker News でも Anthropic IPO と Project Polaris が上位トレンド。",
+      "url": null,
+      "importance": "minor",
+      "tags": ["hacker-news", "reddit", "community", "build-2026", "anthropic-ipo"]
+    },
+    {
+      "id": "2026-06-02-paper-autoresearchclaw",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "AutoResearchClaw — 自律研究パイプライン、AI Scientist v2 比 +54.7%",
+      "summary": "多エージェント討議・自己修復ループ・検証済みレポートなど 5 機構を組み合わせた完全自律研究システム。ARC-Bench 25 トピックで AI Scientist v2 を 54.7% 上回る。",
+      "url": "https://arxiv.org/abs/2605.20025",
+      "importance": "standard",
+      "tags": ["paper", "multi-agent", "autonomous-research", "ai-scientist", "arxiv"]
+    },
+    {
+      "id": "2026-06-02-media-anthropic-ipo-cnbc",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "media",
+      "title": "CNBC: Anthropic confidentially files IPO prospectus with SEC",
+      "summary": "Anthropic の S-1 秘密申請を詳報。AI ブームの象徴的 IPO として$965B 評価での上場成立がどれほど市場に影響するかを分析。",
+      "url": "https://www.cnbc.com/2026/06/01/anthropic-ipo-s1-prospectus.html",
+      "importance": "standard",
+      "tags": ["media", "anthropic", "ipo", "cnbc"]
+    },
+    {
+      "id": "2026-06-02-media-nvidia-rtx-spark-tomshardware",
+      "type": "new",
+      "vendor": null,
+      "section": "media",
+      "title": "Tom's Hardware: Nvidia unveils RTX Spark Superchip at Computex 2026",
+      "summary": "RTX Spark の技術仕様を詳報。Qualcomm が占めた Arm PC 市場への NVIDIA 参入で Windows AI PC 競争構図が変化すると論じる。",
+      "url": "https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory",
+      "importance": "minor",
+      "tags": ["media", "nvidia", "rtx-spark", "windows-on-arm", "tomshardware"]
+    }
+  ]
+}
