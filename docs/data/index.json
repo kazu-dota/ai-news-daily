@@ -1,5 +1,352 @@
 [
   {
+    "date": "2026-06-03",
+    "id": "2026-06-03-anthropic-deprecation",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Claude Sonnet 4 / Opus 4 を 6/15 廃止、API クレジット方式に移行",
+    "summary": "6/15 に Sonnet 4・Opus 4 が廃止され Claude 5 世代へ完全移行。同日からサブスク経由のプログラマティック API 利用が専用月次クレジットプールに分離される。",
+    "url": "https://devtoolpicks.com/blog/anthropic-splits-claude-subscriptions-agent-sdk-credit-june-2026",
+    "importance": "highlight",
+    "tags": [
+      "anthropic",
+      "model-deprecation",
+      "api",
+      "claude-5"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "id": "2026-06-03-anthropic-outage",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "6/2 大規模障害 — キャパシティ制約で数時間停止後に復旧",
+    "summary": "6月2日にグローバルで大規模障害が発生。ログインはできるが応答不能な状態が続き、同日中に復旧した。",
+    "url": "https://www.thenationalnews.com/future/technology/2026/06/02/anthropics-claude-hit-by-major-global-outage-due-to-unexpected-capacity-constraints/",
+    "importance": "standard",
+    "tags": [
+      "anthropic",
+      "outage",
+      "incident"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "id": "2026-06-03-openai-bedrock",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "GPT-5.5 + GPT-5.4 + Codex が Amazon Bedrock で正式提供開始",
+    "summary": "AWS との提携拡大で GPT-5.5・GPT-5.4・Codex が Bedrock で一般公開。週 400 万超の開発者が使う Codex がエンタープライズ向け基盤へ。",
+    "url": "https://aws.amazon.com/blogs/aws/get-started-with-openai-gpt-5-5-gpt-5-4-models-and-codex-on-amazon-bedrock/",
+    "importance": "highlight",
+    "tags": [
+      "openai",
+      "gpt-5-5",
+      "codex",
+      "aws",
+      "bedrock"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "id": "2026-06-03-google-no-update",
+    "type": "no-update",
+    "vendor": "Google / Google DeepMind",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-03",
+    "id": "2026-06-03-microsoft-mai-thinking-1",
+    "type": "followup",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "[続報] Build 2026: MAI-Thinking-1 ほか 7 モデル発表 — 初の自社推論モデル公開",
+    "summary": "MAI-Thinking-1 (35B 活性パラメータ・128K コンテキスト、蒸留なし) と MAI-Code-1-Flash (Copilot 本番ハーネス訓練・60% トークン削減) を発表。MAI-Transcribe-1.5・MAI-Voice-2 も同時公開。",
+    "url": "https://www.neowin.net/news/microsoft-unveils-mai-thinking-1-reasoning-and-mai-code-1-coding-models/",
+    "related_date": "2026-06-02",
+    "importance": "highlight",
+    "tags": [
+      "microsoft",
+      "mai-thinking-1",
+      "mai-code-1",
+      "build-2026",
+      "reasoning-model"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "id": "2026-06-03-microsoft-copilot-app",
+    "type": "followup",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "[続報] Build 2026: GitHub Copilot App (PC ネイティブ版) が Preview 公開",
+    "summary": "デスクトップ版 GitHub Copilot App が Preview 公開。Issue から複数エージェントを並列起動し PR→CI→マージまで一貫サポート。",
+    "url": "https://www.tomsguide.com/news/live/microsoft-build-2026",
+    "related_date": "2026-06-02",
+    "importance": "highlight",
+    "tags": [
+      "microsoft",
+      "github-copilot",
+      "build-2026",
+      "agentic",
+      "desktop-app"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "id": "2026-06-03-microsoft-iq",
+    "type": "followup",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "[続報] Build 2026: Microsoft IQ が GA — 4 コンテキスト層を統合",
+    "summary": "Work IQ・Fabric IQ・Foundry IQ・Web IQ の 4 層で構成される AI コンテキスト基盤が正式 GA。Work IQ API は 6/16 GA 予定。",
+    "url": "https://venturebeat.com/data/enterprise-ai-agents-keep-creating-data-silos-microsofts-build-answer-is-microsoft-iq-and-rayfin",
+    "related_date": "2026-06-02",
+    "importance": "standard",
+    "tags": [
+      "microsoft",
+      "microsoft-iq",
+      "build-2026",
+      "enterprise",
+      "context"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "id": "2026-06-03-microsoft-aion",
+    "type": "followup",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "[続報] Build 2026: Aion 1.0 Plan — Windows 組み込みのローカル推論モデル",
+    "summary": "140 億パラメータの推論・ツール呼び出し特化モデルを Windows 組み込みで提供。オフラインでエージェントアプリを開発可能に。",
+    "url": "https://windowsforum.com/threads/build-2026-microsofts-windows-ai-models-copilot-super-app-and-dev-setup-reset.421337/",
+    "related_date": "2026-06-02",
+    "importance": "standard",
+    "tags": [
+      "microsoft",
+      "aion",
+      "windows",
+      "build-2026",
+      "local-ai",
+      "on-device"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "id": "2026-06-03-meta-conversations-2026",
+    "type": "followup",
+    "vendor": "Meta",
+    "section": "vendor",
+    "title": "[続報] Conversations 2026 本日ロンドンで開催 — AI ビジネスメッセージング機能を発表予定",
+    "summary": "WhatsApp/Messenger/IG Direct 向け年次カンファレンスがロンドンで開幕。AI エージェント・AI クローン・決済統合などを発表予定。Business AI は週 1,000 万件会話を突破。",
+    "url": "https://almcorp.com/blog/meta-conversations-2026-date-june-3-london/",
+    "related_date": "2026-06-01",
+    "importance": "highlight",
+    "tags": [
+      "meta",
+      "conversations-2026",
+      "whatsapp",
+      "business-messaging",
+      "ai-agent"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "id": "2026-06-03-xai-grok-updates",
+    "type": "followup",
+    "vendor": "xAI",
+    "section": "vendor",
+    "title": "[続報] Grok に Skills・Connectors 追加、V9-Medium は今月中旬リリースへ",
+    "summary": "Grok 4.3 に Skills (知識保存・再利用) と Connectors (Google Workspace / GitHub / Notion 等) を追加。Imagine API に Quality Mode も追加。V9-Medium (1.5T パラメータ) は SFT 中で 6 月中旬リリース予定。",
+    "url": "https://releasebot.io/updates/xai",
+    "related_date": "2026-06-01",
+    "importance": "standard",
+    "tags": [
+      "xai",
+      "grok",
+      "skills",
+      "connectors",
+      "v9-medium"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "id": "2026-06-03-github-trending-headroom",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "chopratejas/headroom — LLM 送信前に 60〜95% トークン圧縮するコンテキスト最適化ライブラリ",
+    "summary": "ツール出力・ログ・RAG チャンクを LLM 送信前に大幅圧縮。Python/TS ライブラリ・プロキシ・MCP サーバー形式を提供。",
+    "url": "https://github.com/chopratejas/headroom",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "token-compression",
+      "rag",
+      "mcp",
+      "llm"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "id": "2026-06-03-github-trending-trading-agents",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "TauricResearch/TradingAgents — マルチエージェント LLM 金融取引フレームワーク",
+    "summary": "複数エージェントが役割分担して市場分析・売買判断を協調実行する LLM ベースの取引フレームワーク。",
+    "url": "https://github.com/TauricResearch/TradingAgents",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "multi-agent",
+      "finance",
+      "llm"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "id": "2026-06-03-github-trending-supermemory",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "supermemoryai/supermemory — 高速・スケーラブルな AI メモリエンジン",
+    "summary": "AI アプリ向けの高速かつスケーラブルなメモリエンジン。TypeScript 製。24.6k スター。",
+    "url": "https://github.com/supermemoryai/supermemory",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "ai-memory",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "id": "2026-06-03-github-trending-context-mode",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "mksglu/context-mode — AI コーディングエージェント向けコンテキストウィンドウ最適化",
+    "summary": "15 プラットフォームに対応し AI コーディングエージェントの出力を 98% 削減するコンテキスト最適化ツール。",
+    "url": "https://github.com/mksglu/context-mode",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "context-optimization",
+      "ai-coding",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "id": "2026-06-03-hn-meta-ai-bot-hijack",
+    "type": "new",
+    "vendor": "Meta",
+    "section": "community",
+    "title": "Meta AI サポートボットを悪用した Instagram アカウント乗っ取りが報告",
+    "summary": "Meta の AI サポートボットに本人確認を巧みに行わせてアカウントを奪取する手口が報告。AI チャットボット悪用の新たなリスクとして HN で議論。",
+    "url": null,
+    "importance": "standard",
+    "tags": [
+      "hacker-news",
+      "security",
+      "meta",
+      "ai-abuse",
+      "social-engineering"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "id": "2026-06-03-paper-generation-models-3d",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "Generation Models Know Space: Unleashing Implicit 3D Priors for Scene Understanding",
+    "summary": "生成モデルが学習した暗黙の 3D 空間知識をシーン理解タスクに転用する手法を提案。HF Papers 上位 (84 upvotes)。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "paper",
+      "3d-understanding",
+      "scene-understanding",
+      "generative-model"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "id": "2026-06-03-paper-sama-video-editing",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "SAMA: Factorized Semantic Anchoring and Motion Alignment for Instruction-Guided Video Editing",
+    "summary": "テキスト指示による動画編集で意味アンカーと動き整合を組み合わせ高品質な編集を実現。HF Papers 上位 (61 upvotes)。",
+    "url": "https://huggingface.co/papers",
+    "importance": "minor",
+    "tags": [
+      "paper",
+      "video-editing",
+      "multimodal",
+      "instruction-following"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "id": "2026-06-03-paper-faster-vla",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "FASTER: Rethinking Real-Time Flow VLAs",
+    "summary": "ロボット向け視覚・言語・行動モデル (VLA) のリアルタイム推論を再設計し動作フローを高速化するアーキテクチャを提案。HF Papers 上位 (48 upvotes)。",
+    "url": "https://huggingface.co/papers",
+    "importance": "minor",
+    "tags": [
+      "paper",
+      "robotics",
+      "vla",
+      "real-time",
+      "inference"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "id": "2026-06-03-media-microsoft-iq-rayfin",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "media",
+    "title": "[VentureBeat] Microsoft IQ と Rayfin で企業 AI のデータサイロ問題に挑む",
+    "summary": "Build 2026 の Microsoft IQ (4 コンテキスト層) と Rayfin (AI エージェント向けメモリグラフ DB) を詳報。AI エージェントの組織データ横断参照基盤が本格化と評す。",
+    "url": "https://venturebeat.com/data/enterprise-ai-agents-keep-creating-data-silos-microsofts-build-answer-is-microsoft-iq-and-rayfin",
+    "importance": "minor",
+    "tags": [
+      "media",
+      "microsoft",
+      "microsoft-iq",
+      "build-2026",
+      "enterprise-ai"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "id": "2026-06-03-media-dod-microsoft-contract",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "media",
+    "title": "米国防省が Microsoft と約 96.9 億ドルの AI 統合契約を締結",
+    "summary": "M365・Azure・AI Copilot を包括する大型エンタープライズ契約。従来の分散ベンダー構成比で $422M のコスト削減を見込む。",
+    "url": null,
+    "importance": "standard",
+    "tags": [
+      "media",
+      "microsoft",
+      "government",
+      "enterprise",
+      "dod"
+    ]
+  },
+  {
     "date": "2026-06-02",
     "id": "2026-06-02-anthropic-ipo-s1",
     "type": "new",
