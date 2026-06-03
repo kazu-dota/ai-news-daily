@@ -1,0 +1,199 @@
+{
+  "date": "2026-06-04",
+  "generated_at": "2026-06-04T08:06:00+09:00",
+  "sources_checked": 20,
+  "sources_failed": 7,
+  "items": [
+    {
+      "id": "2026-06-04-anthropic-glasswing",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Project Glasswing を 150 組織・15ヵ国以上に拡大",
+      "summary": "Apple・Nvidia・Microsoft 等を含む総計 200 社規模へ拡張。電力・水道・ヘルスケア等新業種も対象に。1 万件超の重大脆弱性を検出済み。",
+      "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+      "importance": "highlight",
+      "tags": ["security", "glasswing", "mythos", "critical-infrastructure"]
+    },
+    {
+      "id": "2026-06-04-openai-codex-plugins",
+      "type": "followup",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "Codex に役割別プラグイン 6 種追加 — 非開発者向けに大幅拡張",
+      "summary": "データ分析・マーケティング・営業等向け 62 アプリ / 110 スキル対応。Sites プレビューも開始。非開発者ユーザーが開発者の 3 倍速で増加中。",
+      "url": "https://openai.com/index/codex-for-every-role-tool-workflow/",
+      "importance": "standard",
+      "tags": ["codex", "enterprise", "plugins", "knowledge-workers"],
+      "related_date": "2026-06-03"
+    },
+    {
+      "id": "2026-06-04-google-dreambeans",
+      "type": "new",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "Dreambeans アプリ — Google ライフログをアニメ化する AI ツール",
+      "summary": "Google Labs が iOS/Android 向けに公開。Google 各サービスのデータを活用し、日常の出来事を AI がアニメ風ストーリーに変換する実験的プロダクト。",
+      "url": "https://techcrunch.com/2026/06/03/googles-dreambeans-its-weirdest-named-ai-tool-to-date-will-turn-your-life-into-a-cartoon/",
+      "importance": "minor",
+      "tags": ["google", "consumer-ai", "creative", "google-labs"]
+    },
+    {
+      "id": "2026-06-04-microsoft-scout",
+      "type": "followup",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "[続報] Build 2026: Scout — 初の Autopilot エージェントが Frontier Preview 公開",
+      "summary": "OpenClaw 基盤の常時稼働型自律エージェント。Teams/Outlook/OneDrive/SharePoint と統合し、会議調整・リスク検出・期限追跡を自律実行。",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/",
+      "importance": "highlight",
+      "tags": ["copilot", "autopilot", "scout", "agent", "build-2026"],
+      "related_date": "2026-06-03"
+    },
+    {
+      "id": "2026-06-04-meta-business-agent",
+      "type": "followup",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "[続報] Meta Conversations 2026: Business Agent がグローバル展開",
+      "summary": "WhatsApp/Instagram/Messenger の顧客対応 AI が全世界へ。問い合わせ・予約・リード獲得対応。100 万社超の先行利用実績。当初無料。",
+      "url": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/",
+      "importance": "highlight",
+      "tags": ["meta", "whatsapp", "business-agent", "conversations-2026"],
+      "related_date": "2026-06-03"
+    },
+    {
+      "id": "2026-06-04-mistral-no-update",
+      "type": "no-update",
+      "vendor": "Mistral",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-04-xai-no-update",
+      "type": "no-update",
+      "vendor": "xAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-04-github-trending-headroom",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "GitHub Trending (Python): headroom — LLM トークン送信前に出力を最大 95% 削減",
+      "summary": "ツール出力・ログ・RAG チャンクを LLM に渡す前に 60〜95% 削減するコンテキスト圧縮ライブラリ。★9.5k。",
+      "url": "https://github.com/chopratejas/headroom",
+      "importance": "minor",
+      "tags": ["github-trending", "llm", "context-compression", "python"]
+    },
+    {
+      "id": "2026-06-04-github-trending-hermes-agent",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "GitHub Trending (Python): hermes-agent — ユーザーとともに成長するエージェント",
+      "summary": "NousResearch 製のエージェントフレームワーク。★179k。",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "importance": "minor",
+      "tags": ["github-trending", "agent", "python"]
+    },
+    {
+      "id": "2026-06-04-github-trending-tradingagents",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "GitHub Trending (Python): TradingAgents — マルチエージェント LLM 金融取引フレームワーク",
+      "summary": "複数 LLM エージェントが協調して金融取引判断を行うフレームワーク。★82.6k。",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "importance": "minor",
+      "tags": ["github-trending", "trading", "multi-agent", "python"]
+    },
+    {
+      "id": "2026-06-04-github-trending-opencode",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "GitHub Trending (TypeScript): opencode — オープンソースのターミナルコーディングエージェント",
+      "summary": "ターミナルで動作するオープンソースのコーディングエージェント。★169k、本日 +577。",
+      "url": "https://github.com/anomalyco/opencode",
+      "importance": "minor",
+      "tags": ["github-trending", "coding-agent", "typescript"]
+    },
+    {
+      "id": "2026-06-04-github-trending-supermemory",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "GitHub Trending (TypeScript): supermemory — AI 時代向け高速メモリエンジン",
+      "summary": "極めて高速・スケーラブルなメモリ API。AI エージェントの記憶基盤として利用可。★25.1k、本日 +601。",
+      "url": "https://github.com/supermemoryai/supermemory",
+      "importance": "minor",
+      "tags": ["github-trending", "memory", "api", "typescript"]
+    },
+    {
+      "id": "2026-06-04-github-trending-oh-my-pi",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "GitHub Trending (TypeScript): oh-my-pi — ハッシュアンカー編集・サブエージェント対応のターミナル AI エージェント",
+      "summary": "LSP・ブラウザ・サブエージェントを統合したターミナル AI コーディングエージェント。★10.3k。",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "importance": "minor",
+      "tags": ["github-trending", "coding-agent", "terminal", "typescript"]
+    },
+    {
+      "id": "2026-06-04-hn-glasswing-discussion",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "HN: Project Glasswing 拡大が議論を呼ぶ — AI のサイバーセキュリティ双対利用への懸念",
+      "summary": "攻守双方で AI が使われる状況への建設的・批判的コメントが多数。",
+      "url": "https://news.ycombinator.com/item?id=48369863",
+      "importance": "minor",
+      "tags": ["hacker-news", "security", "glasswing", "community"]
+    },
+    {
+      "id": "2026-06-04-whitehouse-ai-eo",
+      "type": "new",
+      "vendor": "US Government",
+      "section": "governance",
+      "title": "米国: トランプ大統領、AI 革新・安全促進の大統領令に署名 (6/2)",
+      "summary": "フロンティアモデルの公開 30 日前の自主提出制度を創設。AI サイバーセキュリティ庁設立・連邦 AI 人材拡充も盛り込む。規制より官民協調を優先。",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+      "importance": "highlight",
+      "tags": ["governance", "usa", "executive-order", "security", "trump"]
+    },
+    {
+      "id": "2026-06-04-uk-cma-ai-search",
+      "type": "new",
+      "vendor": "UK CMA",
+      "section": "governance",
+      "title": "英 CMA: Google に AI 検索からのオプトアウト機能をパブリッシャーへ提供するよう義務付け",
+      "summary": "デジタル市場競争法に基づく初の AI 検索規制。Search Console のトグルで AI Overview 等からの除外が可能に。検索ランキングへの影響なし。9ヵ月以内に実装予定。",
+      "url": "https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/",
+      "importance": "standard",
+      "tags": ["governance", "uk", "google", "regulation", "search", "cma"]
+    },
+    {
+      "id": "2026-06-04-suno-400m",
+      "type": "new",
+      "vendor": "Suno",
+      "section": "media",
+      "title": "Suno: $400M Series D 調達、評価額 $5.4B に到達",
+      "summary": "著作権訴訟 (UMG/Sony 等) 係争中も Bond Capital 主導で調達。ARR $300M・会員 200 万人超。前回 $2.45B から評価額が 2 倍超に。",
+      "url": "https://techcrunch.com/2026/06/03/still-facing-copyright-lawsuits-ai-music-generator-suno-raises-another-400m/",
+      "importance": "highlight",
+      "tags": ["funding", "music-ai", "suno", "series-d"]
+    },
+    {
+      "id": "2026-06-04-coralogix-200m",
+      "type": "new",
+      "vendor": "Coralogix",
+      "section": "media",
+      "title": "Coralogix: $200M 調達 — AI エージェント監視基盤の構築へ",
+      "summary": "AI エージェントの普及で急増が見込まれる監視・トラブルシューティング需要を取り込む新世代ツールに注力。",
+      "url": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
+      "importance": "minor",
+      "tags": ["funding", "observability", "ai-agents", "monitoring"]
+    }
+  ]
+}
