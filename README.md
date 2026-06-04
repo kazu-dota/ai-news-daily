@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-06-05](summaries/2026/06/2026-06-05.md) — OpenAI: GPT-Rosalind に創薬・ゲノミクス向け新機能追加・世界展開 / Google: Imagen 3 廃止予告 (6/24) → Gemini 3 Pro Image (Nano Banana Pro) へ移行 / Meta: Muse Spark API を複数回延期 / GitHub Trending: Vibe-Trading・Open-LLM-VTuber・open-notebook
 - [2026-06-04](summaries/2026/06/2026-06-04.md) — Microsoft Build 2026: Scout「Autopilot」(常時稼働型自律エージェント) が Frontier Preview 公開 / Anthropic Project Glasswing を 150 組織・15ヵ国以上に拡大 / Meta Business Agent が WhatsApp/Instagram/Messenger でグローバル展開 / トランプ政権 AI 革新・安全促進の大統領令に署名 / Suno $400M Series D 調達 ($5.4B 評価)
 - [2026-06-03](summaries/2026/06/2026-06-03.md) — Microsoft Build 2026 で自社初推論モデル MAI-Thinking-1 (35B 活性パラメータ) など 7 モデルを発表・GitHub Copilot App PC ネイティブ Preview 公開 / OpenAI GPT-5.5 + Codex が Amazon Bedrock で正式提供開始 / Anthropic: Claude Sonnet 4/Opus 4 廃止 (6/15) と API クレジット分割を発表、6/2 大規模障害も
 - [2026-06-02](summaries/2026/06/2026-06-02.md) — Anthropic が SEC へ S-1 秘密申請・IPO は 10月目標 ($1.75〜1.8T 評価を狙う) / Microsoft Build 2026 で Project Polaris (自社製コーディング AI、8月 GA) と Windows Agent Platform を正式発表 / NVIDIA RTX Spark (Arm+Blackwell+128GB, 1PFLOP) が Fall 2026 に Surface 等で登場
 - [2026-06-01](summaries/2026/06/2026-06-01.md) — GitHub Copilot が本日 (6/1) より AI Credits 使用量ベース課金に移行、開発者から批判 / Microsoft Build 2026 が明日 (6/2) 開幕、AI エージェント・Azure AI Foundry GA 等を発表予定 / xAI が Grok Build 日次更新ページを公開・Grok V9 Medium (1.5兆パラメータ) 中旬リリース予定
 - [2026-05-31](summaries/2026/05/2026-05-31.md) — Microsoft が「One Copilot」スーパーアプリ計画 (GitHub Copilot・Copilot Cowork・Autopilot 統合、夏末目標) と自社製コーディング AI「Project Polaris」(Build 2026 前日予告、8月 GA) を発表 / Meta が AI ペンダント + Wearables for Work の開発計画を明らかに / xAI が Grok Build 0.1 (アジェンティックコーディング専用 API) を公開
 - [2026-05-30](summaries/2026/05/2026-05-30.md) — OpenAI が Rosalind Biodefense プログラムを発足 (GPT-Rosalind を政府・研究機関向けに開放) / Frontier Governance Framework を公開 (EU AI Act・カリフォルニア法対応) / Figure AI ヒューマノイド 200時間連続稼働・249,560件処理ゼロ障害
-- [2026-05-29](summaries/2026/05/2026-05-29.md) — Anthropic が Claude Opus 4.8 をリリース (USAMO 数学 96.7%・Dynamic Workflows・Fast mode 3 倍安価) / Anthropic 評価額 $965B・調達 $65B 最終確定 / Microsoft 365 Copilot 全面 UI 刷新 / 中国が DeepSeek・Alibaba AI 人材に海外渡航規制を発動
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。

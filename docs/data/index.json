@@ -1,5 +1,212 @@
 [
   {
+    "date": "2026-06-05",
+    "id": "2026-06-05-anthropic-platform-aws-webhooks",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Claude Platform on AWS にウェブフック・マルチエージェントオーケストレーション・セルフホスト型サンドボックスを追加",
+    "summary": "Managed Agents 向けウェブフック、マルチエージェントオーケストレーション、セルフホスト型サンドボックスが新たにサポートされた。",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "importance": "minor",
+    "tags": [
+      "anthropic",
+      "aws",
+      "managed-agents",
+      "platform",
+      "webhooks"
+    ],
+    "related_date": "2026-05-12"
+  },
+  {
+    "date": "2026-06-05",
+    "id": "2026-06-05-openai-rosalind-update",
+    "type": "followup",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "[続報] GPT-Rosalind に創薬・ゲノミクス向け新機能追加、研究プレビューを世界展開",
+    "summary": "GPT-5.5 比 31% トークン削減（ゲノミクス）、Life Sciences Research・NGS Analysis プラグイン同時公開。世界中の適格研究機関が研究プレビューへ初めて申請可能に。",
+    "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+    "importance": "highlight",
+    "tags": [
+      "openai",
+      "gpt-rosalind",
+      "life-sciences",
+      "drug-discovery",
+      "genomics"
+    ],
+    "related_date": "2026-05-30"
+  },
+  {
+    "date": "2026-06-05",
+    "id": "2026-06-05-google-imagen-deprecation",
+    "type": "new",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "Imagen 3 を 6/24 廃止予告 — Gemini 3 Pro Image (Nano Banana Pro) への移行を指示",
+    "summary": "Imagen 系列モデルを 6/24 付で全廃し Gemini ブランドへ統合。高精細用途は gemini-3-pro-image、一般用途は gemini-3.1-flash-image が後継。",
+    "url": "https://ai.google.dev/gemini-api/docs/changelog",
+    "importance": "highlight",
+    "tags": [
+      "google",
+      "imagen",
+      "deprecation",
+      "gemini",
+      "image-generation",
+      "nano-banana"
+    ]
+  },
+  {
+    "date": "2026-06-05",
+    "id": "2026-06-05-google-no-new-model",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-05",
+    "id": "2026-06-05-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-05",
+    "id": "2026-06-05-meta-muse-spark-delay",
+    "type": "new",
+    "vendor": "Meta",
+    "section": "vendor",
+    "title": "Muse Spark API を複数回延期 — 競合の即日アクセス提供と対照的",
+    "summary": "4月公開のモデルに対し API は 4月→5月→6月と先送りが続く。確定日なし。Meta 広報は今月中公開と表明。",
+    "url": "https://seekingalpha.com/news/4600511-meta-delays-muse-spark-ai-api-release-due-to-bugs-infrastructure-issues-wsj",
+    "importance": "highlight",
+    "tags": [
+      "meta",
+      "muse-spark",
+      "api-delay",
+      "developer-access"
+    ]
+  },
+  {
+    "date": "2026-06-05",
+    "id": "2026-06-05-mistral-no-update",
+    "type": "no-update",
+    "vendor": "Mistral",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-05",
+    "id": "2026-06-05-xai-no-update",
+    "type": "no-update",
+    "vendor": "xAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-05",
+    "id": "2026-06-05-github-vibe-trading",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: HKUDS/Vibe-Trading — 自律金融取引エージェント",
+    "summary": "LLM を活用して市場シグナルを解析し自律的に売買判断を実行する個人向けトレーディングエージェント。★10.6k, +886 today。",
+    "url": "https://github.com/HKUDS/Vibe-Trading",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "trading-agent",
+      "llm",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-06-05",
+    "id": "2026-06-05-github-open-llm-vtuber",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: Open-LLM-VTuber — 音声インタラクティブ Live2D LLM インターフェース",
+    "summary": "音声ハンズフリーで LLM と対話できる Live2D アバター付きインターフェース。100 言語以上サポート。★9.6k, +583 today。",
+    "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "voice-ai",
+      "vtuber",
+      "live2d",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-06-05",
+    "id": "2026-06-05-github-open-notebook",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: lfnovo/open-notebook — Notebook LM のオープンソース実装",
+    "summary": "Google Notebook LM と同等機能をローカルで動作させるオープンソース実装。★25.0k, +482 today。",
+    "url": "https://github.com/lfnovo/open-notebook",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "notebook-lm",
+      "open-source",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-06-05",
+    "id": "2026-06-05-paper-kvserve",
+    "type": "new",
+    "vendor": "Research",
+    "section": "papers",
+    "title": "KVServe — 分散 LLM サービング向けサービス認識型 KV キャッシュ圧縮 (SIGCOMM 2026 採択)",
+    "summary": "複数ノード間の通信オーバーヘッドを削減する KV キャッシュ圧縮フレームワーク。SIGCOMM 2026 採択済み。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "research",
+      "kv-cache",
+      "distributed-inference",
+      "llm-serving",
+      "sigcomm"
+    ]
+  },
+  {
+    "date": "2026-06-05",
+    "id": "2026-06-05-paper-rag-anything",
+    "type": "new",
+    "vendor": "Research",
+    "section": "papers",
+    "title": "RAG-Anything — マルチモーダル知識検索の統合フレームワーク",
+    "summary": "テキスト・画像・表・グラフを横断するマルチモーダル RAG。クロスモーダルな意味マッチングを強化し複雑ベンチマークで SOTA。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "research",
+      "rag",
+      "multimodal",
+      "knowledge-retrieval"
+    ]
+  },
+  {
+    "date": "2026-06-05",
+    "id": "2026-06-05-media-cnbc-startup-valuations",
+    "type": "new",
+    "vendor": "Media",
+    "section": "media",
+    "title": "[CNBC] AI ブームが ChatGPT 以前スタートアップの評価額を直撃",
+    "summary": "2022年以前設立の AI スタートアップの多くが技術的陳腐化と高値評価で資金調達困難に。フロンティア企業への資本集中が加速する構造を分析。",
+    "url": "https://www.cnbc.com/2026/06/01/ai-startup-valuations-pre-chatgpt.html",
+    "importance": "standard",
+    "tags": [
+      "media",
+      "startup",
+      "valuation",
+      "funding",
+      "cnbc"
+    ]
+  },
+  {
     "date": "2026-06-04",
     "id": "2026-06-04-anthropic-glasswing",
     "type": "new",
