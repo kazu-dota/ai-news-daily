@@ -1,5 +1,266 @@
 [
   {
+    "date": "2026-06-06",
+    "id": "2026-06-06-anthropic-80pct-code",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Claude が自社コードの 80% 超を執筆 — 再帰的自己改善リスクを警告、AI 一時停止の国際的枠組みを提言",
+    "summary": "2026年5月のマージ済みコードの80%超をClaudeが執筆。エンジニアの1日あたりコードマージ量は2024年比8倍。Marina Favaro・Jack Clark が検証可能な国際的AI一時停止枠組みの必要性を公式提言。",
+    "url": "https://thenextweb.com/news/anthropic-claude-recursive-self-improvement-code",
+    "importance": "highlight",
+    "tags": [
+      "anthropic",
+      "ai-safety",
+      "recursive-self-improvement",
+      "governance",
+      "code-generation"
+    ]
+  },
+  {
+    "date": "2026-06-06",
+    "id": "2026-06-06-openai-dreaming-v3",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "ChatGPT「Dreaming V3」— メモリアーキテクチャを全面刷新",
+    "summary": "手動保存式メモリを廃止し、バックグラウンド合成型の自動更新アーキテクチャへ移行。事実想起率が41.5%→82.8%に向上。Plus/Proのメモリ容量2倍。米国Plus/Proから順次展開中。",
+    "url": "https://openai.com/index/chatgpt-memory-dreaming/",
+    "importance": "highlight",
+    "tags": [
+      "openai",
+      "chatgpt",
+      "memory",
+      "personalization",
+      "dreaming-v3"
+    ]
+  },
+  {
+    "date": "2026-06-06",
+    "id": "2026-06-06-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-06",
+    "id": "2026-06-06-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-06",
+    "id": "2026-06-06-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-06",
+    "id": "2026-06-06-mistral-no-update",
+    "type": "no-update",
+    "vendor": "Mistral",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-06",
+    "id": "2026-06-06-xai-grok-build-update",
+    "type": "followup",
+    "vendor": "xAI",
+    "section": "vendor",
+    "title": "Grok Build — コアモデル改善と worktrees サポートを追加 (6/5)",
+    "summary": "Musk が X で告知。コアモデル改善とgit worktreesサポートを追加。Grok V9-Medium (1.5兆パラメータ) はRL フェーズ中で中旬リリース目標継続。",
+    "url": "https://docs.x.ai/developers/release-notes",
+    "importance": "minor",
+    "tags": [
+      "xai",
+      "grok",
+      "grok-build",
+      "grok-v9"
+    ],
+    "related_date": "2026-06-03"
+  },
+  {
+    "date": "2026-06-06",
+    "id": "2026-06-06-github-trending-paddleocr",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: PaddlePaddle/PaddleOCR — 100言語対応OCRツールキット急浮上",
+    "summary": "AIエージェントのドキュメント読み取り基盤・RAGパイプライン用途で需要増。★80.5k, +755 today。",
+    "url": "https://github.com/PaddlePaddle/PaddleOCR",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "ocr",
+      "paddlepaddle",
+      "rag",
+      "document-ai"
+    ]
+  },
+  {
+    "date": "2026-06-06",
+    "id": "2026-06-06-github-trending-last30days-skill",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: last30days-skill — 複数ソースのリサーチを合成するAIスキル",
+    "summary": "Anthropic Agent Skills標準に準拠。直近30日の知識を構造化検索可能な形式で提供。★28.2k, +738 today。",
+    "url": "https://github.com/anthropics/last30days-skill",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "anthropic",
+      "agent-skills",
+      "research",
+      "ai-skill"
+    ]
+  },
+  {
+    "date": "2026-06-06",
+    "id": "2026-06-06-github-trending-mempalace",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: mempalace — オープンソースAIメモリシステム",
+    "summary": "OpenAI Dreaming V3発表と同週に注目集まるOSS代替AIメモリ実装。★53.9k, +228 today。",
+    "url": "https://github.com/mempalace/mempalace",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "memory",
+      "open-source",
+      "local-llm"
+    ]
+  },
+  {
+    "date": "2026-06-06",
+    "id": "2026-06-06-github-trending-agent-reach",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: Agent-Reach — AIエージェント向けマルチプラットフォーム Web検索",
+    "summary": "Twitter・Reddit・YouTube・ニュースを横断し構造化結果を返す。★21.5k, +127 today。",
+    "url": "https://github.com/iammarco/Agent-Reach",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "agent",
+      "web-search",
+      "multi-platform"
+    ]
+  },
+  {
+    "date": "2026-06-06",
+    "id": "2026-06-06-github-trending-copilotkit",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: CopilotKit/CopilotKit — AIエージェント・Generative UI フロントエンドスタック",
+    "summary": "React/Angular でAIエージェントとGenerative UIを実装するフロントエンドフレームワーク。★32.6k, +350 today。",
+    "url": "https://github.com/CopilotKit/CopilotKit",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "frontend",
+      "react",
+      "generative-ui",
+      "agents"
+    ]
+  },
+  {
+    "date": "2026-06-06",
+    "id": "2026-06-06-github-trending-openclaw",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: openclaw — OS・プラットフォーム問わず動作するOSS個人向けAIアシスタント",
+    "summary": "ローカルLLMと外部API双方に対応する汎用設計。★377k, +344 today。",
+    "url": "https://github.com/openclaw/openclaw",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "personal-ai",
+      "open-source",
+      "local-llm",
+      "cross-platform"
+    ]
+  },
+  {
+    "date": "2026-06-06",
+    "id": "2026-06-06-hn-discussion-anthropic-code",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "HN/Reddit: Anthropic「Claude が自社コードの80%超を執筆」が最上位スレッドを占拠",
+    "summary": "「IPO前の安全シグナル戦略」「国際停止ルールの実効性」「エンジニアの役割変容」の3軸で活発な議論が展開。",
+    "url": "https://news.ycombinator.com/",
+    "importance": "standard",
+    "tags": [
+      "hacker-news",
+      "reddit",
+      "anthropic",
+      "ai-safety",
+      "community-discussion"
+    ]
+  },
+  {
+    "date": "2026-06-06",
+    "id": "2026-06-06-paper-kvarn",
+    "type": "new",
+    "vendor": "Research",
+    "section": "papers",
+    "title": "KVarN — 較正不要KVキャッシュ量子化フレームワーク",
+    "summary": "Hadamard回転とデュアルスケーリング分散正規化で自己回帰デコーディングの誤差蓄積を大幅削減。HF Papersトレンド上位 (6/2公開)。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "research",
+      "kv-cache",
+      "quantization",
+      "llm-inference",
+      "efficiency"
+    ]
+  },
+  {
+    "date": "2026-06-06",
+    "id": "2026-06-06-paper-memanto",
+    "type": "new",
+    "vendor": "Research",
+    "section": "papers",
+    "title": "Memanto — エージェント型AI向け汎用メモリレイヤー",
+    "summary": "型付き意味メモリスキーマと情報理論的検索エンジンで計算オーバーヘッドを排除。OpenAI Dreaming V3と同週に公開され、AIメモリ研究の競争加速を可視化。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "research",
+      "memory",
+      "agentic-ai",
+      "retrieval",
+      "semantic-memory"
+    ]
+  },
+  {
+    "date": "2026-06-06",
+    "id": "2026-06-06-apple-wwdc-2026-preview",
+    "type": "new",
+    "vendor": "Apple",
+    "section": "media",
+    "title": "Apple WWDC 2026 (6/8-12) プレビュー: Siri × Gemini 全面刷新・Apple Intelligence 大幅拡充",
+    "summary": "Bloomberg (Gurman, 6/5) がSiriをGeminiベースの会話型AIへ刷新する詳細をリーク。TechCrunch (6/4) もApple Intelligence拡充を予告。月曜基調講演でAIエージェント競争へのApple正式参戦となるか注目。",
+    "url": "https://techcrunch.com/2026/06/04/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+    "importance": "highlight",
+    "tags": [
+      "apple",
+      "wwdc",
+      "siri",
+      "gemini",
+      "apple-intelligence",
+      "ios27"
+    ]
+  },
+  {
     "date": "2026-06-05",
     "id": "2026-06-05-anthropic-platform-aws-webhooks",
     "type": "followup",
