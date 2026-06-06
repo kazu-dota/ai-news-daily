@@ -1,5 +1,172 @@
 [
   {
+    "date": "2026-06-07",
+    "id": "2026-06-07-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-07",
+    "id": "2026-06-07-openai-lockdown-mode",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "ChatGPT「Lockdown Mode」— プロンプトインジェクション対策の高セキュリティ設定",
+    "summary": "プロンプトインジェクション・データ流出リスクを低減するオプトイン設定。ウェブアクセス・Agent Mode 等を制限し、Free/Plus/Pro/Business 全個人アカウントに展開開始 (6/6)。",
+    "url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt/",
+    "importance": "highlight",
+    "tags": [
+      "security",
+      "prompt-injection",
+      "chatgpt",
+      "openai"
+    ]
+  },
+  {
+    "date": "2026-06-07",
+    "id": "2026-06-07-openai-ads-uk",
+    "type": "followup",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "[続報] ChatGPT 広告パイロット — 英国・日本・韓国・ブラジル・メキシコに拡大",
+    "summary": "欧州初の英国を含む 5 市場へ展開拡大。Free・Go ユーザーのみに表示。コンバージョン最適化キャンペーン Beta も 6/5 より提供開始。",
+    "url": "https://openai.com/index/testing-ads-in-chatgpt/",
+    "related_date": "2026-05-05",
+    "importance": "standard",
+    "tags": [
+      "advertising",
+      "monetization",
+      "chatgpt",
+      "openai",
+      "uk"
+    ]
+  },
+  {
+    "date": "2026-06-07",
+    "id": "2026-06-07-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-07",
+    "id": "2026-06-07-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-07",
+    "id": "2026-06-07-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-07",
+    "id": "2026-06-07-github-vibevoice",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "community",
+    "title": "GitHub Trending: microsoft/VibeVoice — オープンソース多言語音声 AI (ASR/TTS)",
+    "summary": "50 言語以上対応の ASR/TTS モデル群。60 分長尺音声を話者・タイムスタンプ付きで構造化転写。+219 stars today。",
+    "url": "https://github.com/microsoft/VibeVoice",
+    "importance": "standard",
+    "tags": [
+      "speech-ai",
+      "asr",
+      "tts",
+      "open-source",
+      "microsoft",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-06-07",
+    "id": "2026-06-07-github-mirofish",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: 666ghj/MiroFish — 汎用スウォームインテリジェンスエンジン",
+    "summary": "複数サブエージェントの分散協調を軽量実装する群知能フレームワーク。+495 stars today。",
+    "url": "https://github.com/666ghj/MiroFish",
+    "importance": "minor",
+    "tags": [
+      "swarm-intelligence",
+      "multi-agent",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-06-07",
+    "id": "2026-06-07-github-spec-kit",
+    "type": "new",
+    "vendor": "GitHub",
+    "section": "community",
+    "title": "GitHub Trending: github/spec-kit — Spec-Driven Development スターターキット",
+    "summary": "仕様書から自動テスト・実装スケルトンを生成するワークフローを支援する GitHub 公式 SDD キット。+413 stars today。",
+    "url": "https://github.com/github/spec-kit",
+    "importance": "minor",
+    "tags": [
+      "developer-tools",
+      "spec-driven-development",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-06-07",
+    "id": "2026-06-07-github-hyperframes",
+    "type": "new",
+    "vendor": "HeyGen",
+    "section": "community",
+    "title": "GitHub Trending: heygen-com/hyperframes — AI エージェント向け HTML/動画統合フレームワーク",
+    "summary": "HTML と動画レンダリングを組み合わせ、AI エージェント応答に動画コンテンツを直接埋め込む TypeScript フレームワーク。+257 stars today。",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "importance": "minor",
+    "tags": [
+      "video-ai",
+      "agents",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-06-07",
+    "id": "2026-06-07-paper-unified-streaming-audio",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "Unified Streaming Audio Model (NUS, 6/3)",
+    "summary": "オフライン処理とリアルタイム音声命令追従を単一フレームワークで両立するストリーミング音声モデル。HF Papers トレンド上位。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "speech",
+      "streaming",
+      "audio",
+      "end-to-end",
+      "research"
+    ]
+  },
+  {
+    "date": "2026-06-07",
+    "id": "2026-06-07-media-lockdown-mode",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "media",
+    "title": "メディア: ChatGPT Lockdown Mode 報道 (Engadget / Digiday)",
+    "summary": "Lockdown Mode の技術的限界と企業向け活用法を解説する記事が複数メディアで掲載。広告 UK 展開の GDPR 対応についても報道。",
+    "url": "https://www.engadget.com/2188537/openai-rolls-out-a-lockdown-mode-for-extra-protection-against-prompt-injection-attacks/",
+    "importance": "minor",
+    "tags": [
+      "media",
+      "chatgpt",
+      "security",
+      "advertising"
+    ]
+  },
+  {
     "date": "2026-06-06",
     "id": "2026-06-06-anthropic-80pct-code",
     "type": "new",
