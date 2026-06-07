@@ -1,12 +1,11 @@
 name: Validate
 
 # リポジトリのスキーマ/フォーマット不変条件を CI で守る。
-# - sources.yaml が必須フィールドを満たす
-# - docs/data/ 配下の JSON がパース可能で、index.json はフラット配列・items/YYYY-MM-DD.json は date + items を持つ
-# - summaries/ 配下の md に必須セクションが揃っている
+# 検証ロジックは `scripts/validate.py` に集約 (DRY: スキーマ定数の単一の正規の場所)。
+# 本 workflow はランナーセットアップとレポートのみを担う (SRP)。
 #
 # 本番 routine も dev-test routine も最終的にここの不変条件を破ると CI が落ちるため、
-# routine 側の仕様 (ROUTINE.md) と本ファイルは表裏一体で更新する。
+# routine 側の仕様 (ROUTINE.md) と scripts/validate.py は表裏一体で更新する。
 
 on:
   pull_request:
@@ -32,134 +31,15 @@ jobs:
           bash <(curl -sSf https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash)
           ./actionlint -color
 
-  yaml:
-    name: sources.yaml
+  schema:
+    name: Repository schema (sources / data / summaries)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Install pyyaml
+      - name: Install dependencies
         run: pip install pyyaml
-      - name: Validate sources.yaml
-        run: |
-          python3 <<'PY'
-          import sys, yaml
-          ALLOWED = {"vendor", "community", "papers_trending", "media", "media_jp"}
-          PRIORITY = {"high", "medium", "low"}
-          REQUIRED = {"name", "url", "category"}
-          with open("sources.yaml") as f:
-              data = yaml.safe_load(f)
-          if not isinstance(data, dict) or "sources" not in data:
-              sys.exit("sources.yaml: top-level must contain `sources` list")
-          errors = []
-          seen_names = set()
-          for i, s in enumerate(data["sources"]):
-              if not isinstance(s, dict):
-                  errors.append(f"sources[{i}] is not a mapping")
-                  continue
-              missing = REQUIRED - s.keys()
-              if missing:
-                  errors.append(f"sources[{i}] missing required: {sorted(missing)}")
-              cat = s.get("category")
-              if cat not in ALLOWED:
-                  errors.append(f"sources[{i}] ({s.get('name')!r}) unknown category: {cat!r}")
-              pri = s.get("priority")
-              if pri is not None and pri not in PRIORITY:
-                  errors.append(f"sources[{i}] ({s.get('name')!r}) unknown priority: {pri!r}")
-              name = s.get("name")
-              if name in seen_names:
-                  errors.append(f"sources[{i}] duplicate name: {name!r}")
-              seen_names.add(name)
-          if errors:
-              print("\n".join(errors))
-              sys.exit(1)
-          print(f"OK: {len(data['sources'])} sources")
-          PY
-
-  json:
-    name: docs/data/*.json
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Validate JSON schemas
-        run: |
-          python3 <<'PY'
-          import json, sys, glob, os
-          errors = []
-
-          index_path = "docs/data/index.json"
-          if os.path.exists(index_path):
-              try:
-                  data = json.load(open(index_path))
-              except json.JSONDecodeError as e:
-                  errors.append(f"{index_path}: invalid JSON: {e}")
-              else:
-                  if not isinstance(data, list):
-                      errors.append(f"{index_path}: must be a flat array")
-                  else:
-                      for i, item in enumerate(data):
-                          if not isinstance(item, dict):
-                              errors.append(f"{index_path}[{i}]: not an object"); continue
-                          for key in ("date", "id"):
-                              if key not in item:
-                                  errors.append(f"{index_path}[{i}]: missing {key!r}")
-
-          for path in sorted(glob.glob("docs/data/items/*.json")):
-              try:
-                  data = json.load(open(path))
-              except json.JSONDecodeError as e:
-                  errors.append(f"{path}: invalid JSON: {e}"); continue
-              if not isinstance(data, dict):
-                  errors.append(f"{path}: top-level must be an object"); continue
-              for key in ("date", "items"):
-                  if key not in data:
-                      errors.append(f"{path}: missing top-level {key!r}")
-              if isinstance(data.get("items"), list):
-                  for i, item in enumerate(data["items"]):
-                      if not isinstance(item, dict):
-                          errors.append(f"{path} items[{i}]: not an object"); continue
-                      for key in ("id", "type", "vendor", "section"):
-                          if key not in item:
-                              errors.append(f"{path} items[{i}]: missing {key!r}")
-                      t = item.get("type")
-                      if t not in {"new", "followup", "no-update"}:
-                          errors.append(f"{path} items[{i}]: unknown type {t!r}")
-                      if t in {"new", "followup"} and not item.get("url"):
-                          errors.append(f"{path} items[{i}]: {t} requires url")
-
-          if errors:
-              print("\n".join(errors))
-              sys.exit(1)
-          print("OK: docs/data/*.json")
-          PY
-
-  markdown:
-    name: summaries/*.md structure
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Check required sections in summary markdown
-        run: |
-          python3 <<'PY'
-          import sys, glob
-          REQUIRED = [
-              "## 🔥 今日のハイライト",
-              "## 🏢 企業・モデル発表",
-              "## 💻 技術コミュニティ",
-              "## 📚 話題の研究論文",
-              "## 📰 メディア記事",
-              "## 📊 メタ情報",
-          ]
-          errors = []
-          for f in sorted(glob.glob("summaries/**/*.md", recursive=True)):
-              text = open(f).read()
-              for h in REQUIRED:
-                  if h not in text:
-                      errors.append(f"{f}: missing section '{h}'")
-          if errors:
-              print("\n".join(errors))
-              sys.exit(1)
-          print("OK: summary md structure")
-          PY
+      - name: Validate all
+        run: python3 scripts/validate.py all
