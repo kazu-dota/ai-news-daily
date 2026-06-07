@@ -147,8 +147,9 @@ def _validate_items_file(path: Path) -> list[str]:
         item_type = item.get("type")
         if item_type not in ALLOWED_ITEM_TYPES:
             errors.append(f"{prefix}: unknown type {item_type!r}")
-        if item_type in {"new", "followup"} and not item.get("url"):
-            errors.append(f"{prefix}: type={item_type!r} requires 'url'")
+        # 注: ROUTINE.md は url を required フィールドに含めていない。
+        # community/papers セクションのダイジェスト等、単一の元記事 URL を持たない
+        # 正当な item が実際に存在するため、url の有無は検証しない。
     return errors
 
 
