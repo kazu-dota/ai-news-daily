@@ -14,10 +14,24 @@ on:
   push:
     branches: [dev]
 
+concurrency:
+  group: validate-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: read
 
 jobs:
+  actionlint:
+    name: GitHub Actions workflows
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run actionlint
+        run: |
+          bash <(curl -sSf https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash)
+          ./actionlint -color
+
   yaml:
     name: sources.yaml
     runs-on: ubuntu-latest

@@ -149,9 +149,13 @@ PR 経由の変更を自動で検証・レビュー・試運転するため、�
 
 | workflow | 起動契機 | 役割 |
 |---|---|---|
-| `validate.yml` | PR / `dev` への push | `sources.yaml` / `docs/data/*.json` / `summaries/*.md` のスキーマ・必須セクション検証 |
+| `validate.yml` | PR / `dev` への push | actionlint で workflow 構文を検証、`sources.yaml` / `docs/data/*.json` / `summaries/*.md` のスキーマ・必須セクションを検証 |
 | `claude-review.yml` | `main` / `dev` 向け PR | Claude Code Action が PR を日本語で自動レビュー (ROUTINE.md / sources.yaml / 不可侵領域などをチェック) |
 | `dev-test-trigger.yml` | `dev → main` の PR | claude.ai の dev-test routine の webhook を叩いて自動試運転 (結果は `dev-test` ブランチに force push) |
+| `dev-test-feedback.yml` | `dev-test` ブランチへの push | routine 完了を検知して open 中の dev→main PR に結果コメントを投稿 (フィードバックループを閉じる) |
+
+各 workflow には `concurrency` が設定されており、連続 push 時の二重起動・コスト浪費を防ぐ。
+GitHub Actions の依存は `.github/dependabot.yml` で週次自動更新する。
 
 ### 必要な repository secrets
 
