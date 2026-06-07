@@ -1,5 +1,257 @@
 [
   {
+    "date": "2026-06-08",
+    "id": "2026-06-08-apple-wwdc-2026-siri-gemini",
+    "type": "followup",
+    "vendor": "Apple",
+    "section": "vendor",
+    "title": "[続報] WWDC 2026 基調講演: Siri を Gemini で全面刷新・AI プロバイダー選択制・iOS 27 発表",
+    "summary": "Apple が年間$1B の Google 契約で 1.2 兆パラメータ Gemini をカスタム統合し、Siri を会話型 AI に全面刷新。ChatGPT/Claude/Grok/Copilot/Perplexity も選択可能なマルチプロバイダー設計を導入。Tim Cook CEO 最後の基調講演。",
+    "url": "https://www.macrumors.com/guide/wwdc-2026-what-to-expect/",
+    "related_date": "2026-06-06",
+    "importance": "highlight",
+    "tags": [
+      "wwdc",
+      "apple",
+      "siri",
+      "gemini",
+      "ios27",
+      "ai-integration",
+      "model-choice"
+    ]
+  },
+  {
+    "date": "2026-06-08",
+    "id": "2026-06-08-apple-tim-cook-ceo-transition",
+    "type": "new",
+    "vendor": "Apple",
+    "section": "vendor",
+    "title": "Tim Cook CEO が 9/1 付で退任、後任は John Ternus (現 SVP Hardware Engineering)",
+    "summary": "WWDC 2026 が Tim Cook の最後の基調講演となった。9 月 1 日に CEO を Ternus に引き継ぎ、Cook 氏は Executive Chairman に留任する。",
+    "url": "https://appleinsider.com/articles/26/06/07/tim-cook-expected-to-head-wwdc-2026-keynote-for-the-last-time",
+    "importance": "standard",
+    "tags": [
+      "apple",
+      "leadership",
+      "tim-cook",
+      "john-ternus",
+      "ceo-transition"
+    ]
+  },
+  {
+    "date": "2026-06-08",
+    "id": "2026-06-08-google-gemini-35-flash-enterprise",
+    "type": "new",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "Gemini 3.5 Flash が Gemini Enterprise の必須デフォルトに (6/8 強制適用)",
+    "summary": "6/8 付で Gemini Enterprise アプリで Gemini 3.5 Flash が強制デフォルト化。管理者によるオフ設定が不可に。Global/US/EU 全リージョンで GA。",
+    "url": "https://docs.cloud.google.com/gemini/enterprise/docs/release-notes",
+    "importance": "highlight",
+    "tags": [
+      "google",
+      "gemini",
+      "gemini-3-5-flash",
+      "enterprise",
+      "default"
+    ]
+  },
+  {
+    "date": "2026-06-08",
+    "id": "2026-06-08-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-08",
+    "id": "2026-06-08-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-08",
+    "id": "2026-06-08-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-08",
+    "id": "2026-06-08-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-08",
+    "id": "2026-06-08-github-hermes-agent",
+    "type": "new",
+    "vendor": "NousResearch",
+    "section": "community",
+    "title": "GitHub Trending: NousResearch/hermes-agent — パーソナライズ型エージェントフレームワーク",
+    "summary": "ユーザーとともに成長するエージェントフレームワーク。対話蓄積で知識・スタイルが変化する設計。(★185k, +1117 today)",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "agent",
+      "personalization",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-06-08",
+    "id": "2026-06-08-github-last30days-skill",
+    "type": "new",
+    "vendor": "mvanhorn",
+    "section": "community",
+    "title": "GitHub Trending: mvanhorn/last30days-skill — マルチソース AI 調査スキル",
+    "summary": "Reddit/X/YouTube/HN/Polymarket/Web を横断するトピック調査エージェントスキル。Claude Code Skills 標準準拠。(★30k, +1097 today)",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "claude-code",
+      "skills",
+      "research",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-06-08",
+    "id": "2026-06-08-github-supervision",
+    "type": "new",
+    "vendor": "Roboflow",
+    "section": "community",
+    "title": "GitHub Trending: roboflow/supervision — コンピュータビジョン向け再利用可能ツールキット",
+    "summary": "AI エージェントの視覚推論パイプラインで採用拡大中のコンピュータビジョンツールキット。(★41k, +600 today)",
+    "url": "https://github.com/roboflow/supervision",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "computer-vision",
+      "python",
+      "roboflow"
+    ]
+  },
+  {
+    "date": "2026-06-08",
+    "id": "2026-06-08-github-copilotkit",
+    "type": "new",
+    "vendor": "CopilotKit",
+    "section": "community",
+    "title": "GitHub Trending: CopilotKit/CopilotKit — エージェントと Generative UI のフロントエンドスタック",
+    "summary": "React/Angular/モバイルでエージェントと Generative UI を実装するフロントエンドスタック。iOS 27 のエージェント化議論で急浮上。(★33k, +590 today)",
+    "url": "https://github.com/CopilotKit/CopilotKit",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "typescript",
+      "react",
+      "agent",
+      "generative-ui"
+    ]
+  },
+  {
+    "date": "2026-06-08",
+    "id": "2026-06-08-github-open-notebook",
+    "type": "new",
+    "vendor": "lfnovo",
+    "section": "community",
+    "title": "GitHub Trending: lfnovo/open-notebook — Notebook LM のオープンソース実装",
+    "summary": "Google Notebook LM のオープンソース代替。ローカル実行・プライバシー重視ユーザー向け。(★27k, +555 today)",
+    "url": "https://github.com/lfnovo/open-notebook",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "typescript",
+      "notebook-lm",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-06-08",
+    "id": "2026-06-08-github-hyperframes",
+    "type": "new",
+    "vendor": "HeyGen",
+    "section": "community",
+    "title": "GitHub Trending: heygen-com/hyperframes — HTML で動画レンダリング・AI エージェント向け",
+    "summary": "HTML 記述から AI エージェント応答に動画を埋め込むレンダリングフレームワーク。(★25k, +404 today)",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "typescript",
+      "video",
+      "agent",
+      "heygen"
+    ]
+  },
+  {
+    "date": "2026-06-08",
+    "id": "2026-06-08-hn-reddit-wwdc-discussion",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "HN/Reddit: Apple WWDC 2026 Siri × Gemini 統合と Tim Cook 退任への反応",
+    "summary": "HN・r/MachineLearning でプロバイダー選択制の競争促進効果とプラットフォームロックリスクを議論。Tim Cook 15 年の功罪を振り返るスレッドも上位。",
+    "url": "https://news.ycombinator.com/",
+    "importance": "standard",
+    "tags": [
+      "hacker-news",
+      "reddit",
+      "apple",
+      "wwdc",
+      "siri",
+      "tim-cook"
+    ]
+  },
+  {
+    "date": "2026-06-08",
+    "id": "2026-06-08-papers-none",
+    "type": "no-update",
+    "vendor": null,
+    "section": "papers"
+  },
+  {
+    "date": "2026-06-08",
+    "id": "2026-06-08-media-wwdc-recap",
+    "type": "new",
+    "vendor": null,
+    "section": "media",
+    "title": "[メディア] Apple WWDC 2026: Gemini 搭載 Siri・iOS 27 速報",
+    "summary": "MacRumors/Tom's Guide 他各テックメディアが WWDC 2026 速報を同時展開。Siri アーキテクチャ刷新とプロバイダー選択制が主要論点。",
+    "url": "https://www.macrumors.com/roundup/wwdc/",
+    "importance": "standard",
+    "tags": [
+      "media",
+      "apple",
+      "wwdc",
+      "siri",
+      "ios27"
+    ]
+  },
+  {
+    "date": "2026-06-08",
+    "id": "2026-06-08-media-tim-cook-retirement",
+    "type": "new",
+    "vendor": null,
+    "section": "media",
+    "title": "[メディア] Tim Cook CEO 退任: 15 年の在任と John Ternus へのバトンタッチ",
+    "summary": "Apple 史上最長クラスの CEO 在任を経て Tim Cook が 9/1 付で退任。Ternus 体制での AI ファースト戦略継続を言及。",
+    "url": "https://www.republicworld.com/tech/apple-wwdc-2026-set-for-june-8-ios-27-macos-27-a-siri-overhaul-and-tim-cook-s-final-keynote-as-ceo-2026-05-19-124930",
+    "importance": "minor",
+    "tags": [
+      "media",
+      "apple",
+      "tim-cook",
+      "leadership",
+      "ceo"
+    ]
+  },
+  {
     "date": "2026-06-07",
     "id": "2026-06-07-anthropic-no-update",
     "type": "no-update",
