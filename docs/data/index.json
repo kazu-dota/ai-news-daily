@@ -1,5 +1,231 @@
 [
   {
+    "date": "2026-06-09",
+    "id": "2026-06-09-apple-wwdc-day2-core-ai-mcp",
+    "type": "followup",
+    "vendor": "Apple",
+    "section": "vendor",
+    "title": "[続報] WWDC 2026 Day 2 — Core AI フレームワーク・MCP 統合・iOS 27 開発者ベータ公開",
+    "summary": "iOS 27 開発者ベータが即日公開。Core AI (Core ML 後継) と MCP のプラットフォーム横断統合の詳細が開発者向けに解禁され、Xcode MCP サーバーが Claude Code/Cursor 等の外部エージェントに対応。",
+    "url": "https://developer.apple.com/wwdc26/",
+    "related_date": "2026-06-08",
+    "importance": "highlight",
+    "tags": [
+      "wwdc",
+      "apple",
+      "core-ai",
+      "mcp",
+      "ios27",
+      "developer-tools",
+      "xcode"
+    ]
+  },
+  {
+    "date": "2026-06-09",
+    "id": "2026-06-09-meta-best-buy-meta-lab",
+    "type": "new",
+    "vendor": "Meta",
+    "section": "vendor",
+    "title": "Meta Lab @ Best Buy — AI グラス・VR 体験コーナーを全米展開",
+    "summary": "Best Buy が Meta と提携し、全米店舗に約 900 sq ft の Meta Lab 体験コーナーを開設。AI グラスと VR ヘッドセットを試用できる実店舗展開。",
+    "url": "https://www.pymnts.com/meta/2026/meta-partners-best-buy-to-showcase-ai-and-vr-products/",
+    "importance": "standard",
+    "tags": [
+      "meta",
+      "retail",
+      "ai-glasses",
+      "vr",
+      "consumer"
+    ]
+  },
+  {
+    "date": "2026-06-09",
+    "id": "2026-06-09-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-09",
+    "id": "2026-06-09-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-09",
+    "id": "2026-06-09-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-09",
+    "id": "2026-06-09-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-09",
+    "id": "2026-06-09-github-turbovec",
+    "type": "new",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "turbovec — TurboQuant ベースの高速 Rust 製ベクターインデックス (★8.8k, +1,730)",
+    "summary": "Rust 実装 + Python バインディング。大規模 RAG のクエリレイテンシ削減向けで、WWDC Core AI・MCP 統合によるオンデバイス RAG 需要増で急浮上。",
+    "url": "https://github.com/RyanCodrai/turbovec",
+    "importance": "standard",
+    "tags": [
+      "vector-db",
+      "rust",
+      "rag",
+      "open-source",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-06-09",
+    "id": "2026-06-09-github-claude-howto",
+    "type": "new",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "claude-howto — Claude Code ユースケースガイド + コピペ可能エージェントテンプレート集 (★35.7k, +393)",
+    "summary": "Claude Code の使い方をビジュアルで解説し、コピペ可能なエージェントテンプレートを集成。Xcode MCP 発表で Claude Code 関心が高まり急伸。",
+    "url": "https://github.com/luongnv89/claude-howto",
+    "importance": "standard",
+    "tags": [
+      "claude-code",
+      "agents",
+      "open-source",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-06-09",
+    "id": "2026-06-09-github-last30days-skill-surge",
+    "type": "followup",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "last30days-skill — 本日 +3,558 stars と急加速 (★34.4k)",
+    "summary": "前日 +1,097 から +3,558 へ急加速。Apple Skills/MCP 統合発表後、Claude Code Skills エコシステムへの再注目が一気に高まった。",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "related_date": "2026-06-08",
+    "importance": "standard",
+    "tags": [
+      "claude-code",
+      "skills",
+      "research",
+      "open-source",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-06-09",
+    "id": "2026-06-09-github-librechat",
+    "type": "new",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "LibreChat — マルチ AI プロバイダー対応オープンソース ChatGPT 代替 (★38.7k, 急伸)",
+    "summary": "セルフホスト・コード実行・プラグイン機能を備えた ChatGPT 代替。Apple の AI プロバイダー選択制発表を受けたオープン代替需要で浮上。",
+    "url": "https://github.com/danny-avila/LibreChat",
+    "importance": "standard",
+    "tags": [
+      "open-source",
+      "self-hosted",
+      "multi-provider",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-06-09",
+    "id": "2026-06-09-github-project-nomad",
+    "type": "new",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "project-nomad — オフラインファーストのサバイバル AI 知識コンピュータ (★30.1k, 急伸)",
+    "summary": "AI ツールと知識ベースを内包し、通信断・インフラ障害時でも完結した知識システムとして機能するオフラインファーストアーキテクチャ。",
+    "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+    "importance": "standard",
+    "tags": [
+      "offline",
+      "ai-tools",
+      "open-source",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-06-09",
+    "id": "2026-06-09-github-airi",
+    "type": "new",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "airi — セルフホスト型 AI コンパニオン (リアルタイム音声・ゲーム対応) (★40.8k, 急伸)",
+    "summary": "リアルタイム音声対話とゲーム機能を搭載し、ローカル LLM と外部 API 双方に対応するプライバシー重視のセルフホスト AI コンパニオン。",
+    "url": "https://github.com/moeru-ai/airi",
+    "importance": "standard",
+    "tags": [
+      "ai-companion",
+      "self-hosted",
+      "voice",
+      "open-source",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-06-09",
+    "id": "2026-06-09-research-magic",
+    "type": "new",
+    "vendor": "Academia",
+    "section": "papers",
+    "title": "MAGIC — Multimodal Alignment & Grounding-aware Instruction Coreset",
+    "summary": "VLM 命令チューニングデータを効率的に圧縮・高品質化するフレームワーク。全量データに匹敵するパフォーマンスを維持しながらデータセットを大幅縮小。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "vlm",
+      "instruction-tuning",
+      "data-efficiency",
+      "research"
+    ]
+  },
+  {
+    "date": "2026-06-09",
+    "id": "2026-06-09-research-terminalworld",
+    "type": "new",
+    "vendor": "Academia",
+    "section": "papers",
+    "title": "TerminalWorld — 1,530 タスクの現実端末作業ベースエージェント評価ベンチマーク",
+    "summary": "実際の端末作業ログを逆エンジニアリングして生成した AI エージェント評価ベンチマーク。現実の開発者の端末作業を基準にエージェント性能を測定できる。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "benchmark",
+      "agent",
+      "coding",
+      "terminal",
+      "research"
+    ]
+  },
+  {
+    "date": "2026-06-09",
+    "id": "2026-06-09-regulation-colorado-ai-act",
+    "type": "new",
+    "vendor": "Governance",
+    "section": "governance",
+    "title": "米コロラド州 AI 法、6/30 施行まで残り 3 週間 — 企業の自動意思決定開示対応が急務",
+    "summary": "高リスク AI を使う企業に消費者への通知義務を課す全米初の包括的 AI 法。EU AI Act (8/2 完全適用) と並ぶ大型規制として企業の法務対応が急がれる。",
+    "url": "https://www.mindfoundry.ai/blog/ai-regulations-around-the-world",
+    "importance": "standard",
+    "tags": [
+      "regulation",
+      "colorado",
+      "us-law",
+      "compliance",
+      "governance"
+    ]
+  },
+  {
     "date": "2026-06-08",
     "id": "2026-06-08-apple-wwdc-2026-siri-gemini",
     "type": "followup",
