@@ -1,5 +1,207 @@
 [
   {
+    "date": "2026-06-10",
+    "id": "2026-06-10-anthropic-claude-fable-5",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Claude Fable 5 + Claude Mythos 5 一般公開",
+    "summary": "SWE-Bench Pro 80.3%・Terminal-Bench 88.0%・1M+ コンテキスト。Claude Mythos 相当の能力を初めて一般に開放。価格は Opus 比約 2 倍 ($10/M)。GitHub Copilot・Amazon Bedrock・Claude Platform on AWS で同日展開。高リスク領域ではサイレントで Opus 4.8 にフォールバックする安全設計。",
+    "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "importance": "highlight",
+    "tags": [
+      "model-release",
+      "anthropic",
+      "fable",
+      "mythos",
+      "benchmark",
+      "bedrock",
+      "github-copilot"
+    ]
+  },
+  {
+    "date": "2026-06-10",
+    "id": "2026-06-10-anthropic-apple-foundation-models",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Apple Foundation Models 向け Claude Swift パッケージを公開",
+    "summary": "iOS 27/macOS 27 の Apple Foundation Models フレームワーク準拠 Swift パッケージを公開。オンデバイスモデルと Claude をコード変更なしに切り替え可能。WWDC 2026 の Core AI / MCP 統合と連動。",
+    "url": "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk",
+    "importance": "highlight",
+    "tags": [
+      "apple",
+      "ios27",
+      "macos27",
+      "swift",
+      "foundation-models",
+      "anthropic",
+      "wwdc"
+    ]
+  },
+  {
+    "date": "2026-06-10",
+    "id": "2026-06-10-openai-economic-research-exchange",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "OpenAI Economic Research Exchange を開設",
+    "summary": "AI が労働・企業・制度・マクロ経済に与える影響を研究する外部研究者向けプログラム。プロジェクト型コラボレーション形式、応募期限 7/5。OpenAI Signals を発展させた取り組み。",
+    "url": "https://openai.com/index/economic-research-exchange/",
+    "importance": "standard",
+    "tags": [
+      "research",
+      "policy",
+      "economics",
+      "openai",
+      "governance"
+    ]
+  },
+  {
+    "date": "2026-06-10",
+    "id": "2026-06-10-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-10",
+    "id": "2026-06-10-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-10",
+    "id": "2026-06-10-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-10",
+    "id": "2026-06-10-xai-grok-v9-medium",
+    "type": "new",
+    "vendor": "xAI",
+    "section": "vendor",
+    "title": "Grok V9-Medium (1.5T パラメータ) 訓練完了 — 今週中リリースへ",
+    "summary": "1.5 兆パラメータ・現行の 3 倍規模。Cursor データ統合済みでコーディング特化設計。Claude Fable 5 公開と同日に訓練完了を確認。公開リリースは今週中〜来週初め予定。",
+    "url": "https://www.techtimes.com/articles/318044/20260609/musks-big-ai-week-grok-v9-finishes-training-15-trillion-parameters-driverless-tesla.htm",
+    "importance": "standard",
+    "tags": [
+      "xai",
+      "grok",
+      "model-training",
+      "v9-medium",
+      "cursor"
+    ]
+  },
+  {
+    "date": "2026-06-10",
+    "id": "2026-06-10-xai-grok-imagine-video",
+    "type": "followup",
+    "vendor": "xAI",
+    "section": "vendor",
+    "title": "[続報] Grok Imagine 1.5 & grok-imagine-video-1.5-preview 公開",
+    "summary": "イメージ・トゥ・ビデオモデルが API プレビューで公開。Video Arena リーダーボード 1 位 (Elo 1404)。720p・15 秒・ネイティブ同期音声に対応。",
+    "url": "https://x.ai/news/grok-imagine-api",
+    "related_date": "2026-06-03",
+    "importance": "minor",
+    "tags": [
+      "xai",
+      "grok",
+      "image-to-video",
+      "video-generation"
+    ]
+  },
+  {
+    "date": "2026-06-10",
+    "id": "2026-06-10-community-github-whichllm",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: whichllm — 自分の HW に最適なローカル LLM を探す",
+    "summary": "実測ベンチマークで VRAM・CPU・量子化ごとに最適ローカル LLM をランク付けするツール。Claude Fable 5 高価格化を受けコスト重視需要で急浮上。+631 stars today。",
+    "url": "https://github.com/Andyyyy64/whichllm",
+    "importance": "minor",
+    "tags": [
+      "local-llm",
+      "benchmark",
+      "tool",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-06-10",
+    "id": "2026-06-10-community-github-personal-ai-infra",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: Personal_AI_Infrastructure — エージェント型 AI インフラの参照実装",
+    "summary": "個人の知識・タスク・コンテキストを横断するエージェント型 AI インフラの参照実装。Claude Fable 5 公開後のエージェント構築需要増で急浮上。+430 stars today。",
+    "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+    "importance": "minor",
+    "tags": [
+      "agent",
+      "infrastructure",
+      "personal-ai",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-06-10",
+    "id": "2026-06-10-community-hn-fable5",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "HN: Claude Fable 5 リリーススレッド — サイレント フォールバックの透明性論争",
+    "summary": "HN 最上位を独占。「特定ドメインでサイレントに Opus 4.8 へフォールバックするが通知がない」という透明性批判が上位。「Fable 5 が視覚のみでポケモン FireRed クリア」も話題に。",
+    "url": "https://news.ycombinator.com/item?id=48463808",
+    "importance": "standard",
+    "tags": [
+      "hn",
+      "claude",
+      "fable",
+      "safety",
+      "transparency"
+    ]
+  },
+  {
+    "date": "2026-06-10",
+    "id": "2026-06-10-papers-bitsmoe",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "BitsMoE — MoE LLM のスペクトル・エネルギー誘導ビット割り当て量子化",
+    "summary": "MoE モデルのエキスパートごとにエネルギー分布を基準に最適ビット幅を自動設定し、精度維持と推論コスト削減を両立するフレームワーク。arXiv cs.LG トレンド上位。",
+    "url": "https://arxiv.org/list/cs.LG/current",
+    "importance": "minor",
+    "tags": [
+      "quantization",
+      "moe",
+      "efficiency",
+      "paper",
+      "llm"
+    ]
+  },
+  {
+    "date": "2026-06-10",
+    "id": "2026-06-10-media-coverage-fable5",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "media",
+    "title": "[CNBC / 9to5Mac] Claude Fable 5 公開報道 — Mythos を一般開放・Apple 統合シナジー",
+    "summary": "CNBC が「Mythos を一般向けに整えたバージョン」としてセキュリティ・法律分野の実用性を分析。9to5Mac は Apple WWDC 週とのタイミングで iOS 27 Foundation Models との連携を評価。",
+    "url": "https://www.cnbc.com/2026/06/09/anthropic-mythos-claude-fable-5.html",
+    "importance": "standard",
+    "tags": [
+      "media",
+      "anthropic",
+      "fable",
+      "apple"
+    ]
+  },
+  {
     "date": "2026-06-09",
     "id": "2026-06-09-apple-wwdc-day2-core-ai-mcp",
     "type": "followup",
