@@ -1,0 +1,149 @@
+{
+  "date": "2026-06-11",
+  "generated_at": "2026-06-11T08:05:00+09:00",
+  "sources_checked": 25,
+  "sources_failed": 8,
+  "items": [
+    {
+      "id": "2026-06-11-anthropic-managed-agents-cron",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Claude Managed Agents — Cron スケジュール実行 + Credential Vault がパブリックベータに",
+      "summary": "エージェントをスケジュール実行でき、認証情報をクラウド側で暗号化保管できる 2 機能がパブリックベータへ。企業エージェントの本番展開障壁を解消。楽天グループが週次・月次スプレッドシート分析の導入事例を公表。追加料金なし。",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "importance": "highlight",
+      "tags": ["managed-agents", "anthropic", "enterprise", "cron", "credential-vault", "platform"]
+    },
+    {
+      "id": "2026-06-11-anthropic-billing-split",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[続報] Claude Agent SDK / claude -p の課金を 6/15 に分離 — Pro ユーザーは月 $20 クレジット上限",
+      "summary": "6/15 よりプログラマティック呼び出しが独立クレジットプールへ移行。Pro: $20/月、Max 5x: $100/月、Max 20x: $200/月。2 バケット間の融通不可。残り 4 日。",
+      "url": "https://www.techtimes.com/articles/317625/20260602/anthropic-ends-subscription-subsidy-agents-june-15-credit-pool-replaces-flat-rate-access.htm",
+      "related_date": "2026-06-02",
+      "importance": "highlight",
+      "tags": ["billing", "anthropic", "agent-sdk", "pricing", "subscription"]
+    },
+    {
+      "id": "2026-06-11-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-11-google-skills-repo",
+      "type": "new",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "Google: AI エージェント向け公式スキルリポジトリ `google/skills` を GitHub に公開",
+      "summary": "npx skills install で即時インストール可能な公式スキルパッケージ群。BigQuery/Cloud Run/Firebase/GKE/Gemini API 等 7 製品対応。Claude Code Skills エコシステムへの公式対抗として注目。",
+      "url": "https://github.com/google/skills",
+      "importance": "highlight",
+      "tags": ["google", "skills", "agent", "open-source", "google-cloud", "bigquery", "firebase"]
+    },
+    {
+      "id": "2026-06-11-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-11-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-11-xai-grok-v9-deployment",
+      "type": "followup",
+      "vendor": "xAI",
+      "section": "vendor",
+      "title": "[続報] Grok V9-Medium (1.5T) — Tesla 車載システムと X への展開を開始",
+      "summary": "訓練完了 (06-10 既報) からデプロイへ移行。Tesla OTA 配信で数百万台に即時配信。Musk 流の垂直統合型「配布の飛輪」戦略が鮮明に。",
+      "url": "https://www.techtimes.com/articles/318165/20260610/grok-v9-rolls-tesla-cars-x-why-musks-distribution-flywheel-worries-ai-rivals.htm",
+      "related_date": "2026-06-10",
+      "importance": "standard",
+      "tags": ["xai", "grok", "v9", "tesla", "deployment", "distribution"]
+    },
+    {
+      "id": "2026-06-11-github-moneyprinturbo",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: harry0703/MoneyPrinterTurbo (+1,471 today)",
+      "summary": "LLM 活用の短尺 AI 動画全自動生成ツール。スクリプト・BGM・字幕・ナレーションを一括処理。(★84,951)",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "importance": "standard",
+      "tags": ["github-trending", "video-generation", "llm", "automation", "python"]
+    },
+    {
+      "id": "2026-06-11-github-openmed",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: maziyarpanahi/openmed (+535 today)",
+      "summary": "医療・ヘルスケア向けオープンソース AI。OpenMed-v1 基盤モデルを含む。(★2,266)",
+      "url": "https://github.com/maziyarpanahi/openmed",
+      "importance": "minor",
+      "tags": ["github-trending", "healthcare", "medical-ai", "python"]
+    },
+    {
+      "id": "2026-06-11-github-tolaria",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: refactoringhq/tolaria (+618 today)",
+      "summary": "Markdown 知識ベース管理のデスクトップアプリ。AI エージェント連携向け設計。(★14,870)",
+      "url": "https://github.com/refactoringhq/tolaria",
+      "importance": "minor",
+      "tags": ["github-trending", "knowledge-base", "markdown", "desktop-app", "typescript"]
+    },
+    {
+      "id": "2026-06-11-github-openspec",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: Fission-AI/OpenSpec (+290 today)",
+      "summary": "AI コーディングアシスタント向け Spec-Driven Development フレームワーク。仕様書からテスト・実装スケルトンを自動生成。(★54,070)",
+      "url": "https://github.com/Fission-AI/OpenSpec",
+      "importance": "standard",
+      "tags": ["github-trending", "spec-driven", "ai-coding", "testing", "typescript"]
+    },
+    {
+      "id": "2026-06-11-paper-drpo",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "DRPO: LLM 強化学習の安定性を改善するスムース正則化フレームワーク",
+      "summary": "ハードマスク代わりにスムース正則化で trust-region 境界超の継続的勾配補正を実現。GRPO 系アルゴリズムの訓練崩壊を抑制。HF Papers トレンド上位 (6/8 公開)。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["paper", "reinforcement-learning", "llm", "training", "grpo"]
+    },
+    {
+      "id": "2026-06-11-paper-aris",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "ARIS: クロスモデル敵対的協調による研究信頼性ハーネス",
+      "summary": "複数 AI モデルが互いに検証し合うアーキテクチャ。単一モデルの自己評価依存を排除し研究成果の長期信頼性を確保。HF Papers 上位。",
+      "url": "https://huggingface.co/papers",
+      "importance": "minor",
+      "tags": ["paper", "multi-agent", "research", "verification", "adversarial"]
+    },
+    {
+      "id": "2026-06-11-media-spacex-ipo",
+      "type": "new",
+      "vendor": null,
+      "section": "media",
+      "title": "SpaceX IPO 価格決定日 (6/11) — AI 業界 IPO 波に対する機関投資家心理のバロメーター",
+      "summary": "目標評価額 $1.75T・調達 $75B で史上最大規模の Nasdaq 上場の価格決定日。Anthropic・OpenAI の上場準備と同週進行し、AI IPO 市場全体の指標として注目される。",
+      "url": "https://www.techtimes.com/",
+      "importance": "minor",
+      "tags": ["ipo", "spacex", "investment", "ai-industry", "media"]
+    }
+  ]
+}
