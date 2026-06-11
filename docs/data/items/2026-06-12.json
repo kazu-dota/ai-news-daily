@@ -1,0 +1,160 @@
+{
+  "date": "2026-06-12",
+  "generated_at": "2026-06-12T08:02:01+09:00",
+  "sources_checked": 24,
+  "sources_failed": 8,
+  "items": [
+    {
+      "id": "2026-06-12-anthropic-billing-june15",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[続報] Claude 6/15 課金変更まで残り3日 — Agent SDK クレジットのクレームを今日中に",
+      "summary": "6/15 以降は Agent SDK / claude -p がサブスクリプション枠から分離されクレジットプールへ移行。クレーム手続き期限が迫っている。",
+      "related_date": "2026-06-11",
+      "importance": "standard",
+      "tags": ["billing", "agent-sdk", "claude-code", "anthropic"]
+    },
+    {
+      "id": "2026-06-12-openai-oracle",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "Oracle Cloud で GPT フロンティアモデル + Codex が既存 OCI 予算から利用可能に",
+      "summary": "エンタープライズが Oracle Universal Credits を充当して OpenAI モデル・Codex にアクセスできるパートナーシップ。新規調達なし。",
+      "url": "https://openai.com/index/openai-on-oracle-cloud/",
+      "importance": "highlight",
+      "tags": ["enterprise", "oracle", "partnership", "codex", "openai"]
+    },
+    {
+      "id": "2026-06-12-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-12-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-12-meta-manus",
+      "type": "new",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "Manus 買収 ($2B) の解除を開始 — 北京命令でデータアクセスを遮断",
+      "summary": "北京当局の命令を受け Meta が Manus とのデータ共有を月初から遮断。AI M&A への地政学的制約が顕在化した事案。",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-11/meta-severs-manus-data-access-after-china-orders-buyout-unwound",
+      "importance": "highlight",
+      "tags": ["meta", "manus", "geopolitics", "acquisition", "china"]
+    },
+    {
+      "id": "2026-06-12-spacex-spcx-ipo",
+      "type": "followup",
+      "vendor": "xAI",
+      "section": "vendor",
+      "title": "[続報] SpaceX (SPCX) Nasdaq 初上場 — 史上最大 IPO ($75B 調達・$1.75T 評価) で xAI・Grok も公開市場へ",
+      "summary": "$135/株で $75B 調達・$1.75T 評価。Starlink 黒字が xAI 損失を支える構造。Grok V9-Medium リリースも今週予定。",
+      "url": "https://www.npr.org/2026/06/11/nx-s1-5853199/spacex-ipo-price-elon-musk",
+      "related_date": "2026-06-11",
+      "importance": "highlight",
+      "tags": ["ipo", "spacex", "xai", "grok", "nasdaq", "spcx"]
+    },
+    {
+      "id": "2026-06-12-github-nvidia-skillspector",
+      "type": "new",
+      "vendor": "NVIDIA",
+      "section": "community",
+      "title": "GitHub Trending: NVIDIA/SkillSpector — AI エージェントスキル向けセキュリティスキャナー",
+      "summary": "64 パターン・16 カテゴリでエージェントスキルのサプライチェーンセキュリティを検査。OpenClaw ClawHub に統合されて急伸。",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "importance": "standard",
+      "tags": ["github-trending", "security", "agent-skills", "nvidia", "open-source"]
+    },
+    {
+      "id": "2026-06-12-github-karpathy-autoresearch",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "GitHub Trending: karpathy/autoresearch — シングル GPU で動く自律研究エージェント",
+      "summary": "Andrej Karpathy 作。実験設計→実行→評価→次実験のループを自律で回す。SPCX 上場で AI 研究民主化議論が活性化し急伸。",
+      "url": "https://github.com/karpathy/autoresearch",
+      "importance": "standard",
+      "tags": ["github-trending", "research-agent", "autonomous", "karpathy"]
+    },
+    {
+      "id": "2026-06-12-github-anomalyco-opencode",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "GitHub Trending: anomalyco/opencode — オープンソースコーディングエージェント (★173k)",
+      "summary": "TypeScript 製「The open source coding agent」。SPCX 上場でコーディング AI への注目が高まる中、大幅新エントリ。",
+      "url": "https://github.com/anomalyco/opencode",
+      "importance": "standard",
+      "tags": ["github-trending", "coding-agent", "open-source", "typescript"]
+    },
+    {
+      "id": "2026-06-12-github-mksglu-context-mode",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "GitHub Trending: mksglu/context-mode — AI コーディングエージェントのコンテキスト使用量を 98% 削減",
+      "summary": "15 プラットフォーム対応のコンテキストウィンドウ最適化ツール。6/15 課金変更前のトークン節約ニーズを直撃して急伸。",
+      "url": "https://github.com/mksglu/context-mode",
+      "importance": "standard",
+      "tags": ["github-trending", "context-window", "optimization", "token-saving"]
+    },
+    {
+      "id": "2026-06-12-github-activeloopai-hivemind",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "GitHub Trending: activeloopai/hivemind — マルチエージェント向け共有知識インフラ",
+      "summary": "複数エージェント間で知識・コンテキストを共有する「One brain for all your agents」設計。",
+      "url": "https://github.com/activeloopai/hivemind",
+      "importance": "minor",
+      "tags": ["github-trending", "multi-agent", "knowledge-sharing"]
+    },
+    {
+      "id": "2026-06-12-hn-spcx-openai-oracle",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "HN / Reddit: SPCX 上場初日議論 + OpenAI-Oracle パートナーシップ",
+      "summary": "HN で SPCX 初値と xAI 損失の評価議論。r/MachineLearning で Oracle 経由 OpenAI アクセスへのクラウドロックイン懸念。",
+      "importance": "standard",
+      "tags": ["hacker-news", "reddit", "spcx", "openai", "oracle"]
+    },
+    {
+      "id": "2026-06-12-paper-denovoswe",
+      "type": "new",
+      "vendor": "Other",
+      "section": "papers",
+      "title": "DeNovoSWE — コードエージェントのゼロからのリポジトリ生成タスク向け大規模データセット",
+      "summary": "ドキュメントのみを入力としてリポジトリ全体を自律生成する長期ホライズンタスクのトレーニング・評価用データセット。",
+      "importance": "standard",
+      "tags": ["paper", "code-agent", "benchmark", "swe", "dataset"]
+    },
+    {
+      "id": "2026-06-12-paper-rag-match",
+      "type": "new",
+      "vendor": "Other",
+      "section": "papers",
+      "title": "RAG-Match — 知識注入と階層的推論を組み合わせた関連性ミスマッチ改善フレームワーク",
+      "summary": "RAG パイプラインの「文脈的には正しいが活用できない」問題をキャリブレーションと階層推論で改善。",
+      "importance": "standard",
+      "tags": ["paper", "rag", "retrieval", "knowledge-injection"]
+    },
+    {
+      "id": "2026-06-12-media-spcx-meta-manus",
+      "type": "new",
+      "vendor": "Other",
+      "section": "media",
+      "title": "メディア: SPCX 史上最大 IPO 初日 / Meta の Manus 買収解除",
+      "summary": "NPR・CNBC が SPCX 上場を速報。Bloomberg が Meta-Manus データ遮断を独自報道。",
+      "importance": "standard",
+      "tags": ["media", "spcx", "ipo", "meta", "manus"]
+    }
+  ]
+}
