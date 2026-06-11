@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-06-12](summaries/2026/06/2026-06-12.md) — SpaceX (SPCX) Nasdaq 初上場・史上最大 IPO ($75B・$1.75T) で xAI・Grok が公開市場デビュー / OpenAI: Oracle Cloud パートナーシップ (既存 OCI 予算で GPT モデル・Codex を利用可能) / Meta: Manus 買収 ($2B) 解除開始 (北京命令) / GitHub Trending: NVIDIA/SkillSpector・anomalyco/opencode・mksglu/context-mode
 - [2026-06-11](summaries/2026/06/2026-06-11.md) — Anthropic: Claude Managed Agents に Cron スケジュール + Credential Vault がパブリックベータ追加 / Anthropic: 6/15 課金改訂 (Agent SDK が独立クレジット化、残り4日) / Google: `google/skills` 公式エージェントスキルリポジトリを公開 / xAI: Grok V9-Medium が Tesla・X に展開開始 / GitHub Trending: MoneyPrinterTurbo・OpenSpec
 - [2026-06-10](summaries/2026/06/2026-06-10.md) — Anthropic: Claude Fable 5 一般公開 (SWE-Bench Pro 80.3%・Terminal-Bench 88.0%・1M+ コンテキスト、GitHub Copilot/Bedrock 同日展開) / Anthropic: Apple Foundation Models 向け Swift パッケージ公開 (iOS 27/macOS 27 でオンデバイスモデルと無段切替) / xAI: Grok V9-Medium (1.5T) 訓練完了・今週中リリースへ / GitHub Trending: whichllm・Personal_AI_Infrastructure
 - [2026-06-09](summaries/2026/06/2026-06-09.md) — Apple WWDC Day 2: iOS 27 開発者ベータ公開・Core AI (Core ML 後継) と MCP システム横断統合の詳細を開発者向けに解禁 / Meta: Best Buy に「Meta Lab」体験コーナー全米展開 / GitHub Trending: turbovec (+1,730)・last30days-skill (+3,558 急加速)・LibreChat・project-nomad
 - [2026-06-08](summaries/2026/06/2026-06-08.md) — Apple WWDC 2026 基調講演: Siri を Gemini で全面刷新・AI プロバイダー選択制 (Claude/ChatGPT/Grok 等) と iOS 27 を発表 (Tim Cook 最後の基調講演) / Google: Gemini 3.5 Flash が Gemini Enterprise の必須デフォルトに (6/8) / GitHub Trending: hermes-agent・last30days-skill・CopilotKit
 - [2026-06-07](summaries/2026/06/2026-06-07.md) — OpenAI: ChatGPT「Lockdown Mode」をプロンプトインジェクション対策として全ユーザーに展開 / OpenAI: ChatGPT 広告パイロットが英国・日本・韓国・ブラジル・メキシコに拡大 / GitHub Trending: VibeVoice・MiroFish・spec-kit・hyperframes
 - [2026-06-06](summaries/2026/06/2026-06-06.md) — Anthropic: Claude が自社コードの 80% 超を執筆・AI 一時停止の国際的枠組みを提言 / OpenAI: ChatGPT Dreaming V3 でメモリアーキテクチャを全面刷新 (事実想起率 41.5%→82.8%) / Apple WWDC 2026 (6/8-12) Siri × Gemini 全面刷新プレビュー / GitHub Trending: CopilotKit・openclaw・PaddleOCR
-- [2026-06-05](summaries/2026/06/2026-06-05.md) — OpenAI: GPT-Rosalind に創薬・ゲノミクス向け新機能追加・世界展開 / Google: Imagen 3 廃止予告 (6/24) → Gemini 3 Pro Image (Nano Banana Pro) へ移行 / Meta: Muse Spark API を複数回延期 / GitHub Trending: Vibe-Trading・Open-LLM-VTuber・open-notebook
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
