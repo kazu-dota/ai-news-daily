@@ -1,5 +1,252 @@
 [
   {
+    "date": "2026-06-13",
+    "id": "2026-06-13-anthropic-dxc",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Anthropic × DXC: ミッションクリティカルエンタープライズへの多年グローバル同盟",
+    "summary": "DXC が Claude Global Premier パートナーに。数万人規模の Claude 認定エンジニアを育成し、世界最大級の銀行・航空・保険企業の基幹システムに Claude を展開。DXC OASIS では 95%+ のコードを Claude が生成し、10 倍の開発速度を達成済み。",
+    "url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
+    "importance": "highlight",
+    "tags": [
+      "enterprise",
+      "partnership",
+      "anthropic",
+      "claude-code"
+    ]
+  },
+  {
+    "date": "2026-06-13",
+    "id": "2026-06-13-anthropic-june15-deadline",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[続報] Anthropic: 6/15 二重期限 — Claude Sonnet 4 / Opus 4 廃止 & エージェント課金分離が同日発効",
+    "summary": "Claude Sonnet 4 (claude-sonnet-4-20250514) と Opus 4 (claude-opus-4-20250514) が 6/15 に API から完全削除。同日エージェントクレジット課金も分離。本日中の移行と事前クレームが必要。",
+    "url": "https://chatforest.com/guides/anthropic-claude-sonnet-4-opus-4-deprecation-june-15-2026/",
+    "related_date": "2026-06-11",
+    "importance": "highlight",
+    "tags": [
+      "deprecation",
+      "api",
+      "billing",
+      "anthropic",
+      "urgent"
+    ]
+  },
+  {
+    "date": "2026-06-13",
+    "id": "2026-06-13-openai-ona",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "OpenAI: Ona (旧Gitpod) 買収 — Codex エージェントのクラウド常時稼働を実現",
+    "summary": "ドイツの Ona (旧 Gitpod) を買収し、Codex エージェントが開発者デバイスオフ後も継続稼働できるクラウド実行環境を内製化。週間 500 万人超の Codex に直接統合予定。",
+    "url": "https://openai.com/index/openai-to-acquire-ona/",
+    "importance": "highlight",
+    "tags": [
+      "acquisition",
+      "codex",
+      "openai",
+      "coding-agent",
+      "cloud"
+    ]
+  },
+  {
+    "date": "2026-06-13",
+    "id": "2026-06-13-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-13",
+    "id": "2026-06-13-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-13",
+    "id": "2026-06-13-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-13",
+    "id": "2026-06-13-github-claude-bug-bounty",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: shuvonsec/claude-bug-bounty — AI 駆動バグバウンティツール",
+    "summary": "Claude を活用してターミナルからバグバウンティを行うオープンソースツール。脆弱性検出から報告書自動生成まで対応 (★2,751, +203 today)。",
+    "url": "https://github.com/shuvonsec/claude-bug-bounty",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "security",
+      "bug-bounty",
+      "claude"
+    ]
+  },
+  {
+    "date": "2026-06-13",
+    "id": "2026-06-13-github-train-llm-scratch",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: FareedKhan-dev/train-llm-from-scratch",
+    "summary": "データダウンロードからテキスト生成まで LLM をスクラッチで訓練する教育用リポジトリ (★5,825, +225 today)。",
+    "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "llm",
+      "training",
+      "education"
+    ]
+  },
+  {
+    "date": "2026-06-13",
+    "id": "2026-06-13-github-skillspector",
+    "type": "followup",
+    "vendor": "NVIDIA",
+    "section": "community",
+    "title": "GitHub Trending: NVIDIA/SkillSpector — 本日 +811 と加速",
+    "summary": "AI エージェントスキルのセキュリティスキャナー。昨日 +308 から本日 +811 に急加速。OpenAI Ona 買収でエージェントサプライチェーンセキュリティへの関心が高まった (★3,416)。",
+    "url": "https://github.com/NVIDIA/SkillSpector",
+    "related_date": "2026-06-12",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "security",
+      "agent",
+      "nvidia"
+    ]
+  },
+  {
+    "date": "2026-06-13",
+    "id": "2026-06-13-github-openmed",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: maziyarpanahi/openmed — 継続トレンド",
+    "summary": "医療特化オープンソース AI。今週も安定した伸び (★3,179, +517 today)。",
+    "url": "https://github.com/maziyarpanahi/openmed",
+    "related_date": "2026-06-11",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "healthcare",
+      "ai"
+    ]
+  },
+  {
+    "date": "2026-06-13",
+    "id": "2026-06-13-github-opencode",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: anomalyco/opencode — OpenAI Ona 買収でオープン代替として再注目",
+    "summary": "オープンソースの coding agent。OpenAI Codex のクラウド内製化に対するオープン代替として再注目 (★173,708, +534 today)。",
+    "url": "https://github.com/anomalyco/opencode",
+    "related_date": "2026-06-12",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "coding-agent",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-06-13",
+    "id": "2026-06-13-github-mattermost",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: mattermost/mattermost",
+    "summary": "セキュアなエンタープライズコラボプラットフォーム。エージェントワークフロー統合需要で安定成長 (★37,615, +391 today)。",
+    "url": "https://github.com/mattermost/mattermost",
+    "related_date": "2026-06-12",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "collaboration",
+      "enterprise"
+    ]
+  },
+  {
+    "date": "2026-06-13",
+    "id": "2026-06-13-paper-ale",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "Agents' Last Exam (ALE) — 経済価値のある実業務タスクでのエージェント評価ベンチマーク",
+    "summary": "13 業種・1,000 件超の現実ビジネスタスクで AI エージェントを評価する大規模ベンチマーク。SWE-Bench 系の「コードパッチ当て」を超えた次世代評価手法として注目。HF Papers トレンド上位。",
+    "url": "https://huggingface.co/papers/trending",
+    "importance": "standard",
+    "tags": [
+      "benchmark",
+      "agent",
+      "evaluation",
+      "papers"
+    ]
+  },
+  {
+    "date": "2026-06-13",
+    "id": "2026-06-13-paper-shadow-self",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "The Shadow Self: Intrinsic Value Misalignment in LLM Agents (arXiv:2601.17344)",
+    "summary": "整合されているように見えるエージェントが特定文脈で内在的価値の不整合を示す現象を実証分析。エンタープライズ展開でのアライメントリスクとして議論が広まっている。",
+    "url": "https://arxiv.org/abs/2601.17344",
+    "importance": "standard",
+    "tags": [
+      "alignment",
+      "agent",
+      "safety",
+      "papers"
+    ]
+  },
+  {
+    "date": "2026-06-13",
+    "id": "2026-06-13-media-techzine",
+    "type": "new",
+    "vendor": null,
+    "section": "media",
+    "title": "[Techzine] As Anthropic claims the enterprise, OpenAI fights back with Ona deal",
+    "summary": "Anthropic × DXC 同盟と OpenAI Ona 買収が同週に発表されたことの意義を分析。エンタープライズ AI の主戦場が API 契約から既存インフラへの深部統合へ移行していると指摘。",
+    "url": "https://www.techzine.eu/news/devops/142087/as-anthropic-claims-the-enterprise-openai-fights-back-with-ona-deal/",
+    "importance": "standard",
+    "tags": [
+      "media",
+      "enterprise",
+      "openai",
+      "anthropic"
+    ]
+  },
+  {
+    "date": "2026-06-13",
+    "id": "2026-06-13-media-june15-guide",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "media",
+    "title": "[ChatForest / Enterprise DNA] Claude Sonnet 4 and Opus 4 Retire June 15 — Developer Guide",
+    "summary": "モデル文字列変更手順とエージェントクレジットクレーム手順を実践的に解説。週末中の対応完了を推奨。",
+    "url": "https://chatforest.com/guides/anthropic-claude-sonnet-4-opus-4-deprecation-june-15-2026/",
+    "related_date": "2026-06-11",
+    "importance": "standard",
+    "tags": [
+      "media",
+      "anthropic",
+      "deprecation",
+      "developer-guide"
+    ]
+  },
+  {
     "date": "2026-06-12",
     "id": "2026-06-12-anthropic-billing-june15",
     "type": "followup",
