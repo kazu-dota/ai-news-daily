@@ -1,5 +1,221 @@
 [
   {
+    "date": "2026-06-14",
+    "id": "2026-06-14-anthropic-june15-final",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[続報] Anthropic: 6/15 二重期限が本日深夜に発効 — 移行は本日中に完了を",
+    "summary": "Claude Sonnet 4 / Opus 4 廃止とエージェント課金分離が明日 6/15 発効。本日が API 移行とクレジットクレームの実質締め切り日。旧モデル ID ハードコードは今日中に修正必須。",
+    "url": "https://developers.make.com/white-label-documentation/release-notes/anthropic-claude-model-deprecations-on-june-15-2026",
+    "related_date": "2026-06-13",
+    "importance": "highlight",
+    "tags": [
+      "deprecation",
+      "anthropic",
+      "api",
+      "billing",
+      "deadline"
+    ]
+  },
+  {
+    "date": "2026-06-14",
+    "id": "2026-06-14-openai-gpt55-migration",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "OpenAI: GPT-5.2 全シリーズが ChatGPT から完全廃止・GPT-5.5 Instant が新標準へ (6/12)",
+    "summary": "GPT-5.2 Instant / Thinking / Pro が 6/12 に ChatGPT から削除。後継 GPT-5.5 Instant は前世代比ハルシネーション率 52.5% 削減。API の廃止予定は 8/10 で猶予あり。",
+    "url": "https://openai.com/index/gpt-5-5-instant/",
+    "importance": "highlight",
+    "tags": [
+      "model-release",
+      "openai",
+      "gpt-5.5",
+      "deprecation",
+      "chatgpt"
+    ]
+  },
+  {
+    "date": "2026-06-14",
+    "id": "2026-06-14-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-14",
+    "id": "2026-06-14-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-14",
+    "id": "2026-06-14-meta-token-spending",
+    "type": "new",
+    "vendor": "Meta",
+    "section": "vendor",
+    "title": "Meta: 社内 AI トークン消費が月 73.7 兆に急増 — \"Claudeonomics\" 問題で AI Gateway 展開へ",
+    "summary": "Meta 社内で 30 日間に 73.7 兆トークンを消費、コストが年間数十億ドルに迫ると内部通達。AI Gateway ダッシュボードで上限規制を導入し、Anthropic Claude から自社 MetaCode への切り替えを推進。",
+    "url": "https://the-decoder.com/meta-shifts-from-tokenmaxxing-to-token-managing-as-internal-ai-costs-reportedly-hit-billions/",
+    "importance": "highlight",
+    "tags": [
+      "meta",
+      "cost-management",
+      "ai-gateway",
+      "metacode",
+      "enterprise"
+    ]
+  },
+  {
+    "date": "2026-06-14",
+    "id": "2026-06-14-xai-grok-plugin-marketplace",
+    "type": "new",
+    "vendor": "xAI",
+    "section": "vendor",
+    "title": "xAI: Grok Build プラグインマーケットプレイス β 公開 — MongoDB/Vercel/Sentry/Cloudflare ほか 6 本",
+    "summary": "ターミナル型コーディングエージェント Grok Build 向けに MCP・フック・LSP を一括インストールできるプラグイン形式のマーケットプレイスがベータ公開。オープンソースで PR 経由の追加申請が可能。",
+    "url": "https://x.ai/news/grok-plugin-marketplace",
+    "importance": "standard",
+    "tags": [
+      "xai",
+      "grok",
+      "plugin-marketplace",
+      "developer-tools",
+      "mcp"
+    ]
+  },
+  {
+    "date": "2026-06-14",
+    "id": "2026-06-14-github-anthropics-skills",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "community",
+    "title": "GitHub Trending: `anthropics/skills` — Anthropic 公式 Agent Skills パブリックリポジトリ (★ +375)",
+    "summary": "Agent Skills 形式のリファレンス実装集。スキル定義・スラッシュコマンド・MCP サーバーを含む。先日の Google `google/skills` 公開に続き Anthropic 版が本日急加速。",
+    "url": "https://github.com/anthropics/skills",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "anthropic",
+      "agent-skills",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-06-14",
+    "id": "2026-06-14-github-lmcache",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: `LMCache/LMCache` — LLM KV キャッシュ高速化レイヤー (★ +246)",
+    "summary": "vLLM / SGLang と連携し TTFT を 3〜10 倍削減。長文エージェント・RAG ワークロードに強く、Google Cloud / CoreWeave 等が採用済み。6/2 に主要コントリビューターが大型資金調達。",
+    "url": "https://github.com/LMCache/LMCache",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "kv-cache",
+      "inference",
+      "vllm",
+      "performance"
+    ]
+  },
+  {
+    "date": "2026-06-14",
+    "id": "2026-06-14-github-browser-use",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: `browser-use/browser-use` — AI エージェント向けブラウザアクセスツール (★ +172)",
+    "summary": "AI エージェントがウェブサイトを操作できるようにするブラウザアクセスフレームワーク。50 以上の統合をサポート。",
+    "url": "https://github.com/browser-use/browser-use",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "browser-automation",
+      "ai-agent",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-06-14",
+    "id": "2026-06-14-github-learn-claude-code",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: `shareAI-lab/learn-claude-code` — ナノ Claude Code 実装チュートリアル (★ +133)",
+    "summary": "Bash のみでナノ Claude Code 風エージェントハーネスを 0 から実装する教材リポジトリ。",
+    "url": "https://github.com/shareAI-lab/learn-claude-code",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "claude-code",
+      "tutorial",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-06-14",
+    "id": "2026-06-14-papers-no-update",
+    "type": "no-update",
+    "vendor": null,
+    "section": "papers"
+  },
+  {
+    "date": "2026-06-14",
+    "id": "2026-06-14-media-meta-token",
+    "type": "new",
+    "vendor": "Meta",
+    "section": "media",
+    "title": "[The Decoder] Meta が \"tokenmaxxing\" からトークン管理へ — AI コストが数十億ドル規模に",
+    "summary": "Meta の社内 AI 活用コスト急増の実態と AI Gateway 整備・MetaCode 移行促進という対応策を詳報。",
+    "url": "https://the-decoder.com/meta-shifts-from-tokenmaxxing-to-token-managing-as-internal-ai-costs-reportedly-hit-billions/",
+    "importance": "standard",
+    "tags": [
+      "media",
+      "meta",
+      "cost",
+      "enterprise",
+      "ai-governance"
+    ]
+  },
+  {
+    "date": "2026-06-14",
+    "id": "2026-06-14-media-openai-gpt55",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "media",
+    "title": "[TechTimes] OpenAI が GPT-5.2 全廃止・GPT-5.5 へ全面移行 (6/13)",
+    "summary": "ChatGPT ユーザーへの自動移行と API 開発者向け猶予期間 (8/10 まで) を整理した解説記事。",
+    "url": "http://www.techtimes.com/articles/318345/20260613/openai-retires-gpt-52-moves-everyone-gpt-55-what-changes-chatgpt-users-developers.htm",
+    "importance": "standard",
+    "tags": [
+      "media",
+      "openai",
+      "gpt-5.5",
+      "deprecation"
+    ]
+  },
+  {
+    "date": "2026-06-14",
+    "id": "2026-06-14-media-xai-grok-plugins",
+    "type": "new",
+    "vendor": "xAI",
+    "section": "media",
+    "title": "[MarkTechPost] xAI の Grok Build Plugin Marketplace β — 6 プラグインで Claude Code と競合本格化",
+    "summary": "MongoDB・Vercel・Sentry・Chrome DevTools・Cloudflare・Superpowers 6 本のローンチ詳細。Claude Code エコシステムとの競合を分析。",
+    "url": "https://www.marktechpost.com/2026/06/11/xai-ships-grok-build-plugin-marketplace-with-mongodb-vercel-sentry-chrome-devtools-cloudflare-and-superpowers-plugins-at-launch/",
+    "importance": "standard",
+    "tags": [
+      "media",
+      "xai",
+      "grok",
+      "plugin-marketplace",
+      "competitive-analysis"
+    ]
+  },
+  {
     "date": "2026-06-13",
     "id": "2026-06-13-anthropic-dxc",
     "type": "new",
