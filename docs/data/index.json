@@ -1,5 +1,209 @@
 [
   {
+    "date": "2026-06-15",
+    "id": "2026-06-15-anthropic-agent-billing-live",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[続報] Anthropic: Agent SDK 課金分離が本日発効 — 開発者コミュニティに大反響",
+    "summary": "Claude Agent SDK / claude -p / Claude Code GitHub Actions の課金がサブスク共有枠から独立クレジットに移行。T3 Code の Theo Browne が「実質 25 倍コスト増」と非難してサブスク解約。Anthropic は Claude Code 週間制限を 50% 引き上げで部分対応。OpenClaw などサードパーティエージェントは条件付きで再開通。",
+    "url": "https://venturebeat.com/technology/anthropic-reinstates-openclaw-and-third-party-agent-usage-on-claude-subscriptions-with-a-catch",
+    "related_date": "2026-06-14",
+    "importance": "highlight",
+    "tags": [
+      "billing",
+      "anthropic",
+      "sdk",
+      "developer-backlash",
+      "openclaw",
+      "agent"
+    ]
+  },
+  {
+    "date": "2026-06-15",
+    "id": "2026-06-15-anthropic-deprecation-live",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[続報] Anthropic: claude-sonnet-4-20250514 / claude-opus-4-20250514 が本日 API から削除",
+    "summary": "旧モデル ID での API 呼び出しが本日よりエラーを返す。移行先は claude-sonnet-4-6 と claude-opus-4-8。Claude.ai・Claude Code 等マネージド環境はAnthropicが自動切替。",
+    "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+    "related_date": "2026-06-13",
+    "importance": "standard",
+    "tags": [
+      "deprecation",
+      "anthropic",
+      "api",
+      "model"
+    ]
+  },
+  {
+    "date": "2026-06-15",
+    "id": "2026-06-15-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-15",
+    "id": "2026-06-15-google-no-update",
+    "type": "no-update",
+    "vendor": "Google / Google DeepMind",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-15",
+    "id": "2026-06-15-microsoft-copilot-outage",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "Microsoft: M365 Copilot が 8 時間超の大規模障害 — 今年 3 回目の重大障害 (6/15)",
+    "summary": "Word・Excel・Outlook・Teams などで AI インテリジェント機能が 8 時間以上停止。14 時間超の内部ロールバックで復旧。AI とオフィス統合の深化が可用性リスクを高めるという課題が改めて浮き彫りに。",
+    "url": "https://windowsnews.ai/article/microsoft-copilot-restored-after-june-2026-disruptionreliability-chain-matters.425491",
+    "importance": "highlight",
+    "tags": [
+      "microsoft",
+      "copilot",
+      "outage",
+      "reliability",
+      "m365"
+    ]
+  },
+  {
+    "date": "2026-06-15",
+    "id": "2026-06-15-microsoft-workiq-ga-tomorrow",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "Microsoft: Work IQ API が明日 6/16 GA — Copilot Credits 消費型課金で提供",
+    "summary": "A2A・リデザイン MCP サーバー・REST API の 3 エンドポイントが明日公開。Copilot Credits での消費型課金。利用開始前に管理者がAdmin Centerで消費型課金を有効化する必要あり。",
+    "url": "https://linkloot.io/blog/microsoft-work-iq-apis-ga-june-2026",
+    "importance": "standard",
+    "tags": [
+      "microsoft",
+      "work-iq",
+      "copilot-credits",
+      "api",
+      "m365"
+    ]
+  },
+  {
+    "date": "2026-06-15",
+    "id": "2026-06-15-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-15",
+    "id": "2026-06-15-kimi-k27-code",
+    "type": "new",
+    "vendor": "Moonshot AI",
+    "section": "vendor",
+    "title": "Moonshot AI: Kimi K2.7-Code 公開 — 1T パラメータ OSS コーディング MoE (6/12)",
+    "summary": "MCPMark Verified 81.1%（Claude Opus 4.8 の 76.4% 超）。推論トークン 30% 削減。384 エキスパート・32B アクティブの MoE。Modified MIT ライセンスで Hugging Face 公開。API 価格 $0.95/$4.00 per 1M tokens。",
+    "url": "https://www.marktechpost.com/2026/06/12/moonshot-ai-releases-kimi-k2-7-code-a-coding-model-reporting-21-8-on-kimi-code-bench-v2-over-k2-6/",
+    "importance": "highlight",
+    "tags": [
+      "open-source",
+      "coding",
+      "moonshot",
+      "kimi",
+      "moe",
+      "1T-params"
+    ]
+  },
+  {
+    "date": "2026-06-15",
+    "id": "2026-06-15-github-kronos",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: shiyu-coder/Kronos — 金融市場のファウンデーションモデル",
+    "summary": "時系列の株価・指標・ニュースを統合表現するファイナンシャル AI フレームワーク。本日急伸 (★29,890, +238)。",
+    "url": "https://github.com/shiyu-coder/Kronos",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "finance",
+      "foundation-model",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-06-15",
+    "id": "2026-06-15-github-openhands",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: OpenHands/OpenHands — AI 駆動開発プラットフォーム",
+    "summary": "コーディング・デバッグ・テスト・デプロイを一貫してエージェントに委任できるオープンソース実装。Anthropic Agent SDK 課金変更文脈で代替エージェント環境として注目が集まり急伸 (★77,056, +258)。",
+    "url": "https://github.com/OpenHands/OpenHands",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "agent",
+      "coding",
+      "open-source",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-06-15",
+    "id": "2026-06-15-github-skillspector-cont",
+    "type": "followup",
+    "vendor": "NVIDIA",
+    "section": "community",
+    "title": "[続報] GitHub Trending: NVIDIA/SkillSpector — 今週も高水準を維持",
+    "summary": "AI エージェントスキルのセキュリティスキャナー。6/12 初登場・6/13 急加速に続き本日も +962 を記録 (★5,225)。",
+    "url": "https://github.com/NVIDIA/SkillSpector",
+    "related_date": "2026-06-13",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "security",
+      "nvidia",
+      "skills",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-06-15",
+    "id": "2026-06-15-paper-everMemos",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "EverMemOS — LLM 向け自己組織化長期記憶システム",
+    "summary": "対話ストリームをメモリセルとシーンに構造化し、必要に応じて過去のコンテキストを呼び出す自己組織化メモリ。エージェントの長期記憶管理課題に取り組む研究として HF Papers トレンド上位。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "memory",
+      "llm",
+      "research",
+      "agent",
+      "long-context"
+    ]
+  },
+  {
+    "date": "2026-06-15",
+    "id": "2026-06-15-paper-robust-u1",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "Robust-U1 — 視覚的劣化に対するマルチモーダル LLM の自己修復フレームワーク",
+    "summary": "ノイズ・ブラー・JPEG 圧縮などに対して自己修復的に頑健性を高める手法。現実環境での VLM 展開精度向上を目標とする。HF Papers トレンド。",
+    "url": "https://huggingface.co/papers",
+    "importance": "minor",
+    "tags": [
+      "multimodal",
+      "vision",
+      "robustness",
+      "research",
+      "vlm"
+    ]
+  },
+  {
     "date": "2026-06-14",
     "id": "2026-06-14-anthropic-june15-final",
     "type": "followup",
