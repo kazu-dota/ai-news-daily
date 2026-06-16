@@ -1,0 +1,143 @@
+{
+  "date": "2026-06-17",
+  "generated_at": "2026-06-17T08:05:00+09:00",
+  "sources_checked": 27,
+  "sources_failed": 18,
+  "items": [
+    {
+      "id": "2026-06-17-anthropic-fable5-suspension",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Claude Fable 5 & Mythos 5 — 米政府輸出規制指令で全世界停止中 (6/12〜、復旧未定)",
+      "summary": "一般公開から 3 日後の 6/12 に米商務省の緊急輸出規制指令を受け、Pliny the Liberator 氏による安全機能回避実証が引き金となり両モデルへのアクセスが全ユーザー向けに停止。6/17 時点でも復旧時期の公式発表なし。",
+      "url": "https://www.anthropic.com/news/fable-mythos-access",
+      "importance": "highlight",
+      "tags": ["safety", "government", "export-control", "fable5", "mythos5", "anthropic"]
+    },
+    {
+      "id": "2026-06-17-anthropic-june16-outage",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "インフラ障害が 12 日間で 10 回目 (6/16) — 需要急増で基盤が限界に",
+      "summary": "Opus 4.8 / Haiku 4.5 に障害が発生し、6/5 以降 12 日間で重大障害が 10 件に達した。年換算収益が $9B から $30B 超へ急拡大した一方、インフラ強化がそのペースに追いつけていない。",
+      "url": "https://www.techtimes.com/articles/318514/20260616/claude-outage-tenth-disruption-12-days-exposes-anthropic-infrastructure-strain.htm",
+      "importance": "standard",
+      "tags": ["outage", "infrastructure", "reliability", "anthropic"]
+    },
+    {
+      "id": "2026-06-17-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-17-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-17-microsoft-cowork-ga",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "Copilot Cowork が全世界で GA (6/16) — 従量課金制、Cowork 1 モデルも近日投入",
+      "summary": "Fortune 500 過半数採用済みの Copilot Cowork が $0.01/Copilot Credit の従量課金制で全世界 GA。Anthropic Opus 4.8/Sonnet 4.6 ベース、Frontier 顧客は GPT-5.5 も利用可。独自 Cowork 1 モデルを数週間内に投入予定。企業向け DeepSeek ホスト提供の構想も報道された。",
+      "url": "https://www.neowin.net/news/microsofts-copilot-cowork-now-generally-available-with-usage-based-billing/",
+      "importance": "highlight",
+      "tags": ["copilot", "cowork", "ga", "enterprise", "microsoft", "pay-as-you-go"]
+    },
+    {
+      "id": "2026-06-17-microsoft-workiq-ga",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "Work IQ API が GA (6/16) — A2A・MCP・REST を Copilot Credits で提供",
+      "summary": "追跡してきた Work IQ API が予告どおり 6/16 に一般公開。A2A・リデザインリモート MCP サーバー・REST API の 3 エンドポイントを Copilot Credits 消費型課金で提供。M365 Copilot ライセンス不要。",
+      "url": "https://devblogs.microsoft.com/microsoft365dev/work-iq-production-ready-intelligence-for-every-agent/",
+      "importance": "standard",
+      "tags": ["work-iq", "api", "ga", "microsoft", "copilot-credits", "mcp", "a2a"]
+    },
+    {
+      "id": "2026-06-17-meta-facebook-ai-mode",
+      "type": "new",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "Facebook AI Mode 検索を米国でローンチ (6/15-16) — Muse Spark が公開投稿から回答を生成",
+      "summary": "Meta が Facebook モバイルアプリ (米国) で AI Mode 検索を展開。Muse Spark モデルが公開投稿・グループ・リール・Instagram・Threads を統合して自然言語で回答を生成。情報の正確性リスクへの指摘も多い。",
+      "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/",
+      "importance": "standard",
+      "tags": ["meta", "facebook", "ai-mode", "search", "muse-spark", "consumer"]
+    },
+    {
+      "id": "2026-06-17-xai-grok-v9-medium",
+      "type": "followup",
+      "vendor": "xAI",
+      "section": "vendor",
+      "title": "[続報] Grok V9-Medium が一般公開 (6/16) — 1.5T パラメータ・Cursor ワークフロー訓練済み",
+      "summary": "1.5T パラメータ・Cursor 開発者ワークフローデータで訓練した Grok V9-Medium が 6/16 に一般公開。ベンチマーク数値は未公開。同日の SpaceX/Cursor 買収合意と合わせて AI コーディングエコシステムが一体化。",
+      "url": "https://www.techtimes.com/articles/318495/20260616/grok-v9-medium-arrives-spacex-seals-cursor-developers-face-model-choice-risk.htm",
+      "related_date": "2026-06-10",
+      "importance": "highlight",
+      "tags": ["xai", "grok", "v9-medium", "model-release", "coding", "1.5T"]
+    },
+    {
+      "id": "2026-06-17-spacex-cursor-acquisition",
+      "type": "followup",
+      "vendor": "xAI",
+      "section": "vendor",
+      "title": "[続報] SpaceX: Cursor (Anysphere) を $60B 全株式交換で正式買収合意 — IPO 4 日後 (6/16)",
+      "summary": "SpaceX が Anysphere (Cursor 開発元) との $60B 全株式交換型合意書を SEC に提出。Cursor は有料ユーザー 100 万人超・年換算収益 $4B。Q3 2026 完了予定。Claude Code / Codex と直接競合する体制が完成。",
+      "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/",
+      "related_date": "2026-06-12",
+      "importance": "highlight",
+      "tags": ["spacex", "cursor", "anysphere", "acquisition", "xai", "coding-agent"]
+    },
+    {
+      "id": "2026-06-17-github-trending-agent-reach",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "Agent-Reach: AI エージェント向けインターネット横断アクセスツール (★+2,150)",
+      "summary": "Twitter・Reddit・YouTube・GitHub など複数プラットフォームへの横断アクセスを単一 CLI で提供する AI エージェント向けツールが本日 Python Trending 首位に急伸。",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "importance": "standard",
+      "tags": ["github-trending", "agent", "internet-access", "python", "open-source"]
+    },
+    {
+      "id": "2026-06-17-github-trending-understand-anything",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "Understand-Anything: コードを対話型知識グラフに変換 (★+1,222)",
+      "summary": "任意のコードを対話型知識グラフに変換し探索・検索・Q&A が可能な TypeScript 製コード理解ツールが本日 TypeScript Trending 首位に急伸。",
+      "url": "https://github.com/Egonex-AI/Understand-Anything",
+      "importance": "minor",
+      "tags": ["github-trending", "code-understanding", "knowledge-graph", "typescript"]
+    },
+    {
+      "id": "2026-06-17-community-hn-reddit",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "SpaceX Cursor 買収・Anthropic Fable 5 停止が HN/Reddit で大スレッド形成",
+      "summary": "SpaceX の $60B Cursor 買収と Anthropic の Fable 5/Mythos 5 停止が HN・r/MachineLearning・r/LocalLLaMA で大型スレッドを形成。コーディング AI のエコシステム争奪戦と Anthropic の信頼性問題が主要議題。",
+      "url": "https://news.ycombinator.com/",
+      "importance": "standard",
+      "tags": ["hacker-news", "reddit", "community", "spacex", "anthropic", "cursor"]
+    },
+    {
+      "id": "2026-06-17-papers-hunyuan-multimodal-rl",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "Tencent-Hunyuan-Multimodal-RL — 強化学習でマルチモーダルモデルのアライメントを改善",
+      "summary": "Tencent が 6/8 に公開した強化学習ベースのマルチモーダル LLM 改善フレームワーク。HF Papers トレンドに登場。",
+      "url": "https://huggingface.co/papers",
+      "importance": "minor",
+      "tags": ["papers", "multimodal", "rl", "reinforcement-learning", "tencent"]
+    }
+  ]
+}
