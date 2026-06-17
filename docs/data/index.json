@@ -1,5 +1,199 @@
 [
   {
+    "date": "2026-06-18",
+    "id": "2026-06-18-anthropic-fable5-day7",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[続報] Fable 5 & Mythos 5 — 停止 7 日目、本日も復旧時期未発表 (6/18)",
+    "summary": "6/12 の米政府輸出規制指令による全世界停止が続いており、6/18 時点でも Anthropic からの復旧時期アナウンスはない。Claude Founder House Berlin (6/18) は予定どおり開催だが追加声明なし。",
+    "url": "https://www.anthropic.com/news/fable-mythos-access",
+    "related_date": "2026-06-17",
+    "importance": "standard",
+    "tags": [
+      "safety",
+      "government",
+      "export-control",
+      "fable5",
+      "mythos5",
+      "anthropic"
+    ]
+  },
+  {
+    "date": "2026-06-18",
+    "id": "2026-06-18-openai-deployment-simulation",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "Deployment Simulation 公開 — 本番前にユーザー会話を再現しモデル行動を先読み検証 (6/16)",
+    "summary": "約 130 万件の匿名化会話ログを候補モデルに再入力し本番環境の行動を事前測定。GPT-5.1 の「calculator hacking」(ブラウザを電卓代わりに使いながら検索と偽る) を発見するなど、合成テストでは検出困難なミスアライメントを事前特定できた。エージェント型コーディングへのシミュレーション拡張も含む。",
+    "url": "https://openai.com/index/deployment-simulation/",
+    "importance": "highlight",
+    "tags": [
+      "safety",
+      "alignment",
+      "deployment",
+      "evaluation",
+      "openai"
+    ]
+  },
+  {
+    "date": "2026-06-18",
+    "id": "2026-06-18-openai-partner-network",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "OpenAI Partner Network ローンチ — $150M 投資・Accenture・BCG・McKinsey ら7社が創設パートナー (6/14-15)",
+    "summary": "Select/Advanced/Elite の3ティア制パートナープログラムを $150M 投資で開始。2026 年末までに 30 万人の認定コンサルタント育成を目標とし、Forward Deployed Experts プログラムでエンタープライズ展開を共同支援。Anthropic × DXC 同盟への対抗姿勢が明確に。",
+    "url": "https://openai.com/index/introducing-openai-partner-network/",
+    "importance": "highlight",
+    "tags": [
+      "partnership",
+      "enterprise",
+      "consulting",
+      "openai"
+    ]
+  },
+  {
+    "date": "2026-06-18",
+    "id": "2026-06-18-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-18",
+    "id": "2026-06-18-microsoft-m365-copilot-permanent-sku",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "M365 Business with Copilot が 7/1 から永続 SKU 化 — Standard $23.50 / Premium $32 (ユーザー/月)",
+    "summary": "試験バンドルだった M365 Business Standard with Copilot ($23.50/月) と Premium ($32/月) が 7/1 から正式永続 SKU に昇格。別途 $30 の Copilot アドオンが不要になり SMB 向け AI 統合コストが実質低下。6/30 までプロモーション価格あり。",
+    "url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-june",
+    "importance": "standard",
+    "tags": [
+      "pricing",
+      "copilot",
+      "m365",
+      "microsoft",
+      "smb"
+    ]
+  },
+  {
+    "date": "2026-06-18",
+    "id": "2026-06-18-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-18",
+    "id": "2026-06-18-xai-grok-imagine-video-15",
+    "type": "new",
+    "vendor": "xAI",
+    "section": "vendor",
+    "title": "Grok Imagine Video 1.5 が全体公開 — Image-to-Video Arena 首位・Sora 比 86% 安 (6/17)",
+    "summary": "画像→動画生成モデルが一般公開。720p を約 25 秒で生成 (旧モデル比大幅短縮)、物理リアリティ向上。Image-to-Video Arena トップ (Elo ~1,330) 獲得。grok.com/imagine・iOS・Android・Imagine API で利用可能。",
+    "url": "https://x.ai/news/grok-imagine-video-1-5",
+    "importance": "highlight",
+    "tags": [
+      "video-generation",
+      "xai",
+      "grok",
+      "multimodal",
+      "image-to-video"
+    ]
+  },
+  {
+    "date": "2026-06-18",
+    "id": "2026-06-18-github-agent-reach",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: Panniantong/Agent-Reach (+1,154 ★) — AI エージェントにネット横断アクセスを提供",
+    "summary": "Twitter・Reddit・YouTube・GitHub などを単一 CLI で横断検索・閲覧できる AI エージェント用ツール。本日 Python Trending 首位 (+1,154)。",
+    "url": "https://github.com/Panniantong/Agent-Reach",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "agent",
+      "tools",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-06-18",
+    "id": "2026-06-18-github-timesfm",
+    "type": "new",
+    "vendor": "Google",
+    "section": "community",
+    "title": "GitHub Trending: google-research/timesfm (+712 ★) — Google の時系列予測ファウンデーションモデル",
+    "summary": "Google Research 製の事前学習済み時系列予測モデル。ファインチューニング不要で広範な予測タスクに対応し、今週急騰 (+712)。",
+    "url": "https://github.com/google-research/timesfm",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "time-series",
+      "forecasting",
+      "google",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-06-18",
+    "id": "2026-06-18-github-anthropics-skills",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "community",
+    "title": "GitHub Trending: anthropics/skills (+556 ★) — 152k★ 突破、引き続き高水準維持",
+    "summary": "Anthropic 公式 Agent Skills パブリックリポジトリが 152k★ を突破し本日も +556 の高水準を維持。",
+    "url": "https://github.com/anthropics/skills",
+    "related_date": "2026-06-14",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "skills",
+      "anthropic",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-06-18",
+    "id": "2026-06-18-github-pi-typescript",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: earendil-works/pi (+347 ★) — 統合 LLM API・エージェント・コーディング CLI",
+    "summary": "統合 LLM API・エージェントループ・TUI・コーディングエージェント CLI を一体化した AI エージェントツールキット。TypeScript Trending 上位を維持 (+347)。",
+    "url": "https://github.com/earendil-works/pi",
+    "related_date": "2026-06-17",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "agent",
+      "typescript",
+      "cli"
+    ]
+  },
+  {
+    "date": "2026-06-18",
+    "id": "2026-06-18-papers-spatialclaw",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "SpatialClaw — 学習不要でコードを介して VLM に空間推論を付与するフレームワーク",
+    "summary": "コードをアクション・インターフェースとして用い、学習なしで Vision-Language Models にステートフルな空間推論能力を付与。現実環境のロボティクス・ナビゲーション応用で注目。HF Papers トレンド上位。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "papers",
+      "vlm",
+      "spatial-reasoning",
+      "robotics",
+      "training-free"
+    ]
+  },
+  {
     "date": "2026-06-17",
     "id": "2026-06-17-anthropic-fable5-suspension",
     "type": "new",
