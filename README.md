@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-06-18](summaries/2026/06/2026-06-18.md) — OpenAI: Deployment Simulation 公開 (本番前にユーザー会話再現でモデル行動を先読み・calculator hacking 発見) / OpenAI: $150M Partner Network ローンチ (Accenture・BCG・McKinsey ら7社が創設パートナー) / xAI: Grok Imagine Video 1.5 が GA (Image-to-Video Arena 首位・Sora 比 86% 安) / Microsoft: M365 Business with Copilot が 7/1 から永続 SKU 化
 - [2026-06-17](summaries/2026/06/2026-06-17.md) — Anthropic: Claude Fable 5 & Mythos 5 が米政府輸出規制命令で全世界停止 (6/12〜継続・当ニュースレター初報) + 12 日間で 10 回目のインフラ障害 / xAI: Grok V9-Medium 一般公開 + SpaceX が Cursor を $60B で正式買収 (同日 6/16) / Microsoft: Copilot Cowork GA + Work IQ API GA が 6/16 に同時ローンチ / Meta: Facebook AI Mode 検索を米国でローンチ
 - [2026-06-15](summaries/2026/06/2026-06-15.md) — [続報] Anthropic 6/15 二重期限が本日発効 (Agent SDK 課金分離・旧モデル廃止)・開発者コミュニティに大反響 / Microsoft: M365 Copilot が 8 時間超の大規模障害 (今年 3 回目) / Moonshot AI: Kimi K2.7-Code 公開 (1T パラメータ OSS MoE、MCPMark で Claude Opus 4.8 超) / GitHub Trending: OpenHands・Kronos
 - [2026-06-14](summaries/2026/06/2026-06-14.md) — [続報] Anthropic 6/15 二重期限が本日深夜発効 (Sonnet 4 / Opus 4 廃止 & エージェント課金分離) / OpenAI: GPT-5.2 全廃止・GPT-5.5 Instant が ChatGPT 完全標準化 (6/12) / Meta: 社内 AI トークン消費が月 73.7 兆に急増・AI Gateway 展開へ / xAI: Grok Build Plugin Marketplace β 公開 / GitHub Trending: anthropics/skills (+375)・LMCache (+246)
 - [2026-06-13](summaries/2026/06/2026-06-13.md) — Anthropic × DXC: 多年グローバル同盟で世界最大規模の金融・航空・保険企業に Claude を展開 / OpenAI: Ona (旧Gitpod) 買収発表 (Codex エージェントがクラウドで常時稼働) / Anthropic: 6/15 二重期限 — Claude Sonnet 4 / Opus 4 廃止 + エージェント課金分離が同日発効 / GitHub Trending: NVIDIA/SkillSpector (+811・急加速)・claude-bug-bounty (新規)
 - [2026-06-12](summaries/2026/06/2026-06-12.md) — SpaceX (SPCX) Nasdaq 初上場・史上最大 IPO ($75B・$1.75T) で xAI・Grok が公開市場デビュー / OpenAI: Oracle Cloud パートナーシップ (既存 OCI 予算で GPT モデル・Codex を利用可能) / Meta: Manus 買収 ($2B) 解除開始 (北京命令) / GitHub Trending: NVIDIA/SkillSpector・anomalyco/opencode・mksglu/context-mode
 - [2026-06-11](summaries/2026/06/2026-06-11.md) — Anthropic: Claude Managed Agents に Cron スケジュール + Credential Vault がパブリックベータ追加 / Anthropic: 6/15 課金改訂 (Agent SDK が独立クレジット化、残り4日) / Google: `google/skills` 公式エージェントスキルリポジトリを公開 / xAI: Grok V9-Medium が Tesla・X に展開開始 / GitHub Trending: MoneyPrinterTurbo・OpenSpec
-- [2026-06-10](summaries/2026/06/2026-06-10.md) — Anthropic: Claude Fable 5 一般公開 (SWE-Bench Pro 80.3%・Terminal-Bench 88.0%・1M+ コンテキスト、GitHub Copilot/Bedrock 同日展開) / Anthropic: Apple Foundation Models 向け Swift パッケージ公開 (iOS 27/macOS 27 でオンデバイスモデルと無段切替) / xAI: Grok V9-Medium (1.5T) 訓練完了・今週中リリースへ / GitHub Trending: whichllm・Personal_AI_Infrastructure
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
