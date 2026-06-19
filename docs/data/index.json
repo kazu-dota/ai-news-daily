@@ -1,5 +1,207 @@
 [
   {
+    "date": "2026-06-20",
+    "id": "2026-06-20-anthropic-fable5-day9",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[続報] Fable 5 & Mythos 5 — 停止 9 日目、Trump 政権と復旧交渉中・「数日内に自信」(6/19)",
+    "summary": "Anthropic MD Chris Ciauri がソウルの会見で「数日内の復旧に自信あり」と発言。Globe and Mail は Anthropic と Trump 政権当局者が復旧に向けた取引を進めていると報道。Kalshi の予測市場では 7 月中の復旧確率 57%。",
+    "url": "https://www.theglobeandmail.com/business/article-anthropic-trump-officials-deal-restore-fable-5-mythos-5/",
+    "related_date": "2026-06-17",
+    "importance": "standard",
+    "tags": [
+      "safety",
+      "government",
+      "export-control",
+      "fable5",
+      "mythos5",
+      "anthropic"
+    ]
+  },
+  {
+    "date": "2026-06-20",
+    "id": "2026-06-20-anthropic-ema-okta",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Enterprise-Managed Authorization (EMA) with Okta beta — MCP コネクターをゼロタッチ SSO 管理 (6/18-19)",
+    "summary": "管理者が Okta 等の IdP で MCP サーバーアクセスを一度設定すると、ユーザーが初回ログイン時に OAuth 画面なしで自動アクセス。Asana・Atlassian・Canva・Figma・Granola・Linear・Supabase の 7 社対応。IETF 採択の MCP 認証拡張の初の production 実装。",
+    "url": "https://www.techtimes.com/articles/318704/20260619/claude-mcp-connectors-now-provision-through-okta-employees-inherit-access-login.htm",
+    "importance": "highlight",
+    "tags": [
+      "enterprise",
+      "mcp",
+      "sso",
+      "okta",
+      "authorization",
+      "anthropic"
+    ]
+  },
+  {
+    "date": "2026-06-20",
+    "id": "2026-06-20-openai-gpt-rosalind-lifescibench",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "GPT-Rosalind 新機能 + LifeSciBench 公開 — 生命科学 AI の評価基準を確立 (6/17-18)",
+    "summary": "173 人の PhD 科学者が構築した 750 タスク・19,020 採点基準の LifeSciBench を公開。GPT-Rosalind が GPT-5.5 (25.7%) 比で 36.1% に向上。Codex プラグイン 2 種 (Life Sciences Research・Life Sciences NGS Analysis) も同時公開。",
+    "url": "https://openai.com/index/introducing-life-sci-bench/",
+    "importance": "highlight",
+    "tags": [
+      "benchmark",
+      "life-science",
+      "drug-discovery",
+      "openai",
+      "gpt-rosalind"
+    ]
+  },
+  {
+    "date": "2026-06-20",
+    "id": "2026-06-20-openai-molecule-one-chemist",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "GPT-5.4 + Molecule.one — 近自律 AI ケミストが湿式実験室で化学発見を実証 (6/17-18)",
+    "summary": "Molecule.one との 3 ヶ月コラボで 10,080 回の実験を実施。Chan-Lam カップリング反応に TEMPO 添加で収率向上を AI が自律的に発見・実験室で検証。FDA 承認薬 91 品目超に含まれるスルホンアミド構造の合成改善に寄与。",
+    "url": "https://www.techtimes.com/articles/318618/20260618/ai-drug-discovery-chemistry-hits-wet-lab-gpt-54-boosts-chan-lam-yields-10080-reactions.htm",
+    "importance": "highlight",
+    "tags": [
+      "chemistry",
+      "drug-discovery",
+      "wet-lab",
+      "autonomous",
+      "openai",
+      "gpt54"
+    ]
+  },
+  {
+    "date": "2026-06-20",
+    "id": "2026-06-20-openai-chatgpt-health",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "ChatGPT の健康情報回答品質を改善 (6/18)",
+    "summary": "症状・疾患・治療法に関する回答精度を改善。ChatGPT Health (1 月発表) の継続的な品質向上の一環。",
+    "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt/",
+    "importance": "standard",
+    "tags": [
+      "health",
+      "chatgpt",
+      "openai"
+    ]
+  },
+  {
+    "date": "2026-06-20",
+    "id": "2026-06-20-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-20",
+    "id": "2026-06-20-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-20",
+    "id": "2026-06-20-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-20",
+    "id": "2026-06-20-xai-grok-word",
+    "type": "new",
+    "vendor": "xAI",
+    "section": "vendor",
+    "title": "Grok for Word/Excel/PowerPoint — 無料 Microsoft 365 アドイン公開 (6/18-19)",
+    "summary": "Word のサイドパネルから Grok の会話 AI・リアルタイム Web 検索・図表生成を利用可能。メモ→ドキュメント変換・文章リライト・X データとの連携。Microsoft Marketplace で無料配布し Microsoft Copilot と直接競合。",
+    "url": "https://x.ai/grok/word",
+    "importance": "standard",
+    "tags": [
+      "microsoft",
+      "word",
+      "office",
+      "xai",
+      "grok",
+      "add-in"
+    ]
+  },
+  {
+    "date": "2026-06-20",
+    "id": "2026-06-20-github-headroom",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: chopratejas/headroom (+3,938 ★) — LLM 入力を 60-95% 圧縮するトークン削減ツール",
+    "summary": "LLM に渡す前のログ・出力テキストを大幅圧縮するライブラリ。プロキシ・MCP サーバーとしても利用可能。本日 Python Trending 首位 (+3,938)。",
+    "url": "https://github.com/chopratejas/headroom",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "tokens",
+      "compression",
+      "mcp",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-06-20",
+    "id": "2026-06-20-github-timesfm",
+    "type": "followup",
+    "vendor": "Google",
+    "section": "community",
+    "title": "GitHub Trending: google-research/timesfm (+1,516 ★) — 昨日に続き急伸維持",
+    "summary": "Google Research 製の事前学習済み時系列予測モデルが 2 日連続で急伸 (昨日 +712、本日 +1,516)。",
+    "url": "https://github.com/google-research/timesfm",
+    "related_date": "2026-06-18",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "time-series",
+      "google",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-06-20",
+    "id": "2026-06-20-github-kilocode",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: Kilo-Org/kilocode (+1,217 ★) — 人気 OSS コーディングエージェント統合プラットフォーム",
+    "summary": "最も人気のあるオープンソースコーディングエージェントを統合したエンジニアリングプラットフォーム。Anthropic EMA 発表を受けエンタープライズ代替として注目集まる (+1,217)。",
+    "url": "https://github.com/Kilo-Org/kilocode",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "coding-agent",
+      "typescript",
+      "enterprise"
+    ]
+  },
+  {
+    "date": "2026-06-20",
+    "id": "2026-06-20-papers-hipporag2",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "HippoRAG 2 — 知識グラフ統合による次世代 RAG 強化フレームワーク",
+    "summary": "パッセージ情報と知識グラフを統合し、事実確認・意味理解・連想記憶タスクで RAG 性能を改善。長文エンタープライズ文書・マルチホップ推論に強い。HF Papers 上位。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "papers",
+      "rag",
+      "knowledge-graph",
+      "retrieval"
+    ]
+  },
+  {
     "date": "2026-06-18",
     "id": "2026-06-18-anthropic-fable5-day7",
     "type": "followup",
