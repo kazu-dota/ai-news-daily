@@ -1,0 +1,131 @@
+{
+  "date": "2026-06-21",
+  "generated_at": "2026-06-21T08:02:00+09:00",
+  "sources_checked": 27,
+  "sources_failed": 25,
+  "items": [
+    {
+      "id": "2026-06-21-codebase-memory-mcp",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "codebase-memory-mcp — コードベース全体を永続知識グラフ化するMCPサーバー急騰",
+      "summary": "DeusData製の高性能コード知識グラフMCPサーバー。リポジトリ全体をインデックスし、AIエージェントが横断検索できる永続知識グラフを提供。本日+1,267 stars (計★9,288)。",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "importance": "highlight",
+      "tags": ["mcp", "code-intelligence", "knowledge-graph", "github-trending"]
+    },
+    {
+      "id": "2026-06-21-openmontage",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "OpenMontage — OSS初のエージェンティック動画制作システム",
+      "summary": "12パイプライン・52ツール・500以上のエージェントスキルで完全自動動画生成を実現するPython製OSS。「世界初のオープンソースエージェンティック動画制作システム」と標榜。本日+677 stars (計★7,001)。",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "importance": "highlight",
+      "tags": ["video-generation", "agentic", "open-source", "github-trending"]
+    },
+    {
+      "id": "2026-06-21-palmier-pro",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "palmier-pro — AI特化設計のmacOS動画エディタ",
+      "summary": "AI機能を前提に設計されたmacOS向け動画編集ツール。Swift製。本日+904 stars (計★3,277)。",
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "importance": "standard",
+      "tags": ["video-editor", "macos", "swift", "ai", "github-trending"]
+    },
+    {
+      "id": "2026-06-21-anthropic-cybersecurity-skills",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "Anthropic-Cybersecurity-Skills — AIエージェント向け754個のサイバーセキュリティスキルセット",
+      "summary": "複数のセキュリティフレームワークにマッピングした754個の構造化サイバーセキュリティスキル。AIエージェントのセキュリティ機能拡張に活用可能。本日+336 stars (計★17,055)。",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "importance": "standard",
+      "tags": ["cybersecurity", "ai-agent", "skills", "github-trending"]
+    },
+    {
+      "id": "2026-06-21-flue",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "withastro/flue — Astroチームのサンドボックス型エージェントフレームワーク",
+      "summary": "静的サイト生成フレームワークAstroの開発チームが公開したサンドボックス型エージェントフレームワーク。TypeScript製。本日+313 stars (計★6,078)。",
+      "url": "https://github.com/withastro/flue",
+      "importance": "standard",
+      "tags": ["agent-framework", "sandbox", "typescript", "astro", "github-trending"]
+    },
+    {
+      "id": "2026-06-21-oh-my-openagent",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "oh-my-openagent — コードベース向けオープンソースコーディングエージェント",
+      "summary": "コードベース全体を理解して操作するオープンソースのコーディングエージェント。TypeScript製。本日+228 stars (計★63,056)。",
+      "url": "https://github.com/code-yeongyu/oh-my-openagent",
+      "importance": "standard",
+      "tags": ["coding-agent", "open-source", "typescript", "github-trending"]
+    },
+    {
+      "id": "2026-06-21-slime",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "THUDM/slime — RLスケーリング向けLLMポストトレーニングフレームワーク",
+      "summary": "強化学習スケーリングに特化したLLMのポストトレーニング用フレームワーク。THUDM (清華大学) 開発。本日+195 stars (計★6,551)。",
+      "url": "https://github.com/THUDM/slime",
+      "importance": "standard",
+      "tags": ["rl", "post-training", "llm", "github-trending"]
+    },
+    {
+      "id": "2026-06-21-ltx-2",
+      "type": "new",
+      "vendor": "Lightricks",
+      "section": "community",
+      "title": "Lightricks/LTX-2 — 音声・動画生成モデルLTX-2の公式Pythonパッケージ",
+      "summary": "Lightricks製の音声・動画生成モデルLTX-2の公式Python推論パッケージおよびLoRAトレーナー。本日+170 stars (計★7,765)。",
+      "url": "https://github.com/Lightricks/LTX-2",
+      "importance": "minor",
+      "tags": ["video-generation", "audio", "lightricks", "github-trending"]
+    },
+    {
+      "id": "2026-06-21-anthropic-fable5-day10",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[続報] Anthropic: Fable 5 & Mythos 5 — 停止10日目 (6/21)",
+      "summary": "6/20時点でAnthropicの幹部が「数日内の復旧に非常に自信」と発言、商務省との交渉継続中。本日(6/21)は公式サイト取得不能で復旧状況の確認ができず。停止10日目。",
+      "related_date": "2026-06-17",
+      "importance": "standard",
+      "tags": ["fable5", "mythos5", "export-control", "anthropic"]
+    },
+    {
+      "id": "2026-06-21-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-21-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-21-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-21-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    }
+  ]
+}
