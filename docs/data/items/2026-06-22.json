@@ -1,0 +1,148 @@
+{
+  "date": "2026-06-22",
+  "generated_at": "2026-06-22T08:05:00+09:00",
+  "sources_checked": 26,
+  "sources_failed": 24,
+  "items": [
+    {
+      "id": "2026-06-22-anthropic-fable5-day11",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[続報] Fable 5 & Mythos 5 — 停止11日目、生体認証ID (7/8〜) で米国限定復旧ルート可視化",
+      "summary": "Trump G7「交渉は順調」発言 + Anthropic が7/8から政府ID・顔スキャン収集を義務化。米国籍ユーザー限定での段階復旧の具体的メカニズムが初めて可視化された。",
+      "url": "https://www.techtimes.com/articles/318778/20260621/claude-identity-verification-starts-july-8-what-facial-data-anthropic-collects.htm",
+      "importance": "highlight",
+      "tags": ["export-control", "anthropic", "fable5", "biometrics", "id-verification"],
+      "related_date": "2026-06-17"
+    },
+    {
+      "id": "2026-06-22-openai-gpt45-retirement",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "GPT-4.5 が ChatGPT から 6/27 廃止、o3 は 8/26 廃止",
+      "summary": "ChatGPT 上の GPT-4.5 が6月27日に廃止され、有料ユーザーは GPT-5.x 系に自動移行。o3 は8月26日廃止。API への影響はなし。",
+      "url": "https://witho2.com/news/openai-gpt-4-5-retirement-june-2026-migration-guide",
+      "importance": "standard",
+      "tags": ["model-retirement", "openai", "gpt45", "chatgpt", "o3"]
+    },
+    {
+      "id": "2026-06-22-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-22-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-22-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-22-hermes-agent-trending",
+      "type": "new",
+      "vendor": "NousResearch",
+      "section": "community",
+      "title": "NousResearch/hermes-agent — v0.17.0 公開・198k★ 突破 (+711 today)",
+      "summary": "適応型自律エージェント。v0.17.0でiMessage/Raftネットワークに拡張。起動4ヶ月で198k★を突破し2026年最速成長OSSエージェントフレームワーク。",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "importance": "standard",
+      "tags": ["agent", "open-source", "github-trending", "adaptive"]
+    },
+    {
+      "id": "2026-06-22-bytedance-deer-flow-trending",
+      "type": "new",
+      "vendor": "ByteDance",
+      "section": "community",
+      "title": "bytedance/deer-flow — 長期自律エージェントフレームワーク (+415 today)",
+      "summary": "ByteDance製。リサーチ・コーディング・クリエイティブ作業にまたがる長時間タスクを自律実行するエージェントフレームワーク。",
+      "url": "https://github.com/bytedance/deer-flow",
+      "importance": "minor",
+      "tags": ["agent", "github-trending", "bytedance", "long-horizon"]
+    },
+    {
+      "id": "2026-06-22-cognee-trending",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "topoteretes/cognee — AI エージェント向けOSSメモリプラットフォーム (+361 today)",
+      "summary": "AI エージェントが対話・作業を通じて長期知識を永続保持できるオープンソースのメモリ基盤。",
+      "url": "https://github.com/topoteretes/cognee",
+      "importance": "minor",
+      "tags": ["memory", "agent", "open-source", "github-trending"]
+    },
+    {
+      "id": "2026-06-22-voicebox-trending",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "jamiepine/voicebox — OSS AI 音声スタジオ (+553 today)",
+      "summary": "音声クローン・ディクテーション・クリエイティブ音声制作を統合したオープンソースの AI 音声スタジオ。",
+      "url": "https://github.com/jamiepine/voicebox",
+      "importance": "minor",
+      "tags": ["voice", "audio", "open-source", "github-trending"]
+    },
+    {
+      "id": "2026-06-22-gstack-trending",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "garrytan/gstack — Claude Code 向けキュレーション開発環境 (+479 today)",
+      "summary": "Claude Code 向けに最適化された23ツール構成の開発セットアップ。各種開発ロールに対応するキュレーション済み設定集。",
+      "url": "https://github.com/garrytan/gstack",
+      "importance": "minor",
+      "tags": ["claude-code", "developer-tools", "github-trending"]
+    },
+    {
+      "id": "2026-06-22-firecrawl-trending",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "firecrawl/firecrawl — Web スケール AI スクレイピング API (+505 today)",
+      "summary": "AIエージェントが消費できる構造化データとして Webを大規模スクレイプ・検索できる API。マルチページクロール・JS レンダリング・LLM向けクリーニングを備える。",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "importance": "minor",
+      "tags": ["web-scraping", "api", "github-trending", "llm"]
+    },
+    {
+      "id": "2026-06-22-recursivemas-paper",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "RecursiveMAS: Recursive Multi-Agent Systems (arXiv:2604.25917)",
+      "summary": "複数エージェントを単一の潜在空間再帰計算として定式化。精度+8.3%・推論1.2〜2.4倍・トークン削減34.6〜75.6%をベースライン比で達成。HF Papersトレンドに再浮上。",
+      "url": "https://arxiv.org/abs/2604.25917",
+      "importance": "standard",
+      "tags": ["multi-agent", "recursive", "arxiv", "scaling", "efficiency"]
+    },
+    {
+      "id": "2026-06-22-techtimes-anthropic-id-verification",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "media",
+      "title": "[TechTimes] Claude Identity Verification Starts July 8: What Facial Data Anthropic Collects",
+      "summary": "Persona Identities 経由の顔スキャン・政府ID収集の技術詳細。消費者アカウント限定で7/8から適用。Team/Enterprise/APIは対象外。",
+      "url": "https://www.techtimes.com/articles/318778/20260621/claude-identity-verification-starts-july-8-what-facial-data-anthropic-collects.htm",
+      "importance": "standard",
+      "tags": ["anthropic", "privacy", "biometrics", "id-verification", "media"]
+    },
+    {
+      "id": "2026-06-22-biometricupdate-claude-pushback",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "media",
+      "title": "[Biometric Update] Update on identity, age verification for Claude prompts user pushback",
+      "summary": "生体認証ポリシー更新への利用者・プライバシー研究者の反発を報告。Fable 5停止との関連性への疑念も浮上。",
+      "url": "https://www.biometricupdate.com/202606/update-on-identity-age-verification-for-claude-prompts-user-pushback",
+      "importance": "minor",
+      "tags": ["anthropic", "privacy", "biometrics", "user-pushback", "media"]
+    }
+  ]
+}
