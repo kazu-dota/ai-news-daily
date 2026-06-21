@@ -18,6 +18,7 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-06-22](summaries/2026/06/2026-06-22.md) — [続報] Anthropic: Fable 5 & Mythos 5 停止 11 日目・Trump G7「交渉順調」＋7/8 から生体認証 ID 確認で米国限定復旧ルートが初めて可視化 / OpenAI: GPT-4.5 が ChatGPT から 6/27 廃止 / GitHub Trending: hermes-agent (198k★・v0.17.0) / RecursiveMAS 論文 (精度+8.3%・トークン削減最大 75.6%)
 - [2026-06-21](summaries/2026/06/2026-06-21.md) — codebase-memory-mcp が +1,267 stars で急騰 (コードベース知識グラフ MCP サーバー) / OpenMontage (OSS 初エージェンティック動画制作システム、+677) / [続報] Anthropic: Fable 5 & Mythos 5 停止 10 日目 — 復旧状況確認不能 / 主要ベンダーブログ取得不能 (25/27 ソース失敗)
 - [2026-06-20](summaries/2026/06/2026-06-20.md) — OpenAI: GPT-Rosalind & LifeSciBench 公開 (生命科学 AI の評価基準確立・750 タスク PhD レベルベンチマーク) / OpenAI: GPT-5.4 + Molecule.one が湿式実験室で近自律 AI ケミスト実証 / Anthropic: EMA with Okta beta (MCP コネクターのゼロタッチ SSO) / xAI: Grok for Word/Excel/PowerPoint アドイン無料公開
 - [2026-06-18](summaries/2026/06/2026-06-18.md) — OpenAI: Deployment Simulation 公開 (本番前にユーザー会話再現でモデル行動を先読み・calculator hacking 発見) / OpenAI: $150M Partner Network ローンチ (Accenture・BCG・McKinsey ら7社が創設パートナー) / xAI: Grok Imagine Video 1.5 が GA (Image-to-Video Arena 首位・Sora 比 86% 安) / Microsoft: M365 Business with Copilot が 7/1 から永続 SKU 化
