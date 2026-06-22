@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-23",
+  "generated_at": "2026-06-23T08:05:00+09:00",
+  "sources_checked": 29,
+  "sources_failed": 25,
+  "items": [
+    {
+      "id": "2026-06-23-anthropic-fable5-day12",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[続報] Fable 5 & Mythos 5 — 停止 12 日目、予測市場は 7/17 までに 75%",
+      "summary": "輸出規制による停止が 12 日目に突入。Kalshi 予測市場では 7 月 17 日までの復旧確率 75%。公式復旧日は未発表。",
+      "url": "https://isfable5back.com/",
+      "related_date": "2026-06-17",
+      "importance": "standard",
+      "tags": ["fable5", "export-control", "anthropic", "suspension"]
+    },
+    {
+      "id": "2026-06-23-anthropic-fable5-pricing",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Fable 5 が本日 6/23 よりサブスクリプション外へ — usage credits 必要に",
+      "summary": "6/9〜6/22 の無料利用期間が終了。Pro/Max/Team ユーザーも継続利用には API 料金ベース ($10/M 入力・$50/M 出力) の usage credits が必要となった。Anthropic は「容量が整い次第サブスクリプションへ復帰予定」と説明。",
+      "url": "https://www.developersdigest.tech/blog/claude-fable-5-june-22-deadline",
+      "importance": "highlight",
+      "tags": ["fable5", "pricing", "anthropic", "subscription", "usage-credits"]
+    },
+    {
+      "id": "2026-06-23-anthropic-john-jumper",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "AlphaFold ノーベル賞受賞者 John Jumper が Google DeepMind から Anthropic へ参加 (6/19-20)",
+      "summary": "2024 年ノーベル化学賞共受賞者 (AlphaFold 開発) が約 9 年ぶりに DeepMind を離れ Anthropic に参加。AI×科学研究インフラを整備する Anthropic の戦略を体現する人材獲得。Noam Shazeer の OpenAI 移籍と合わせ Google にとって歴史的な人材流出週。",
+      "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+      "importance": "highlight",
+      "tags": ["talent", "anthropic", "alphafold", "science", "google-deepmind", "nobel"]
+    },
+    {
+      "id": "2026-06-23-openai-daybreak-expansion",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "Daybreak 拡張: GPT-5.5-Cyber + Codex Security + Patch the Planet (6/22)",
+      "summary": "CyberGym 85.6% の GPT-5.5-Cyber フル版、Codex セキュリティプラグイン、cURL/Go/Python 等 30 以上の OSS を対象とした Patch the Planet を同時発表。オープンソース脆弱性修正を AI で加速する大型サイバーセキュリティ展開。",
+      "url": "https://openai.com/index/patch-the-planet/",
+      "importance": "highlight",
+      "tags": ["cybersecurity", "openai", "daybreak", "gpt-5.5-cyber", "open-source", "codex"]
+    },
+    {
+      "id": "2026-06-23-openai-samsung-codex",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "Samsung Electronics 全従業員に ChatGPT Enterprise + Codex を展開 (6/21)",
+      "summary": "Samsung DX 部門の全世界従業員が対象。Codex を非エンジニアにも展開する最大規模の事例。週次ユーザー 500 万人のうち非エンジニアが 20% を占め 3 倍速で成長中。",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment/",
+      "importance": "standard",
+      "tags": ["enterprise", "openai", "samsung", "codex", "chatgpt", "korea"]
+    },
+    {
+      "id": "2026-06-23-openai-getty-images",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "Getty Images と複数年の表示ライセンス契約 (6/21)",
+      "summary": "Getty のライセンス画像ライブラリが ChatGPT の検索・ディスカバリー体験に表示される複数年契約。AI 生成コンテンツ vs ストック画像市場の対立から協業へ。",
+      "url": "https://www.engadget.com/2198633/openai-signs-deal-with-getty-to-show-images-in-chatgpt-results/",
+      "importance": "standard",
+      "tags": ["openai", "getty", "licensing", "chatgpt", "images", "media"]
+    },
+    {
+      "id": "2026-06-23-google-noam-shazeer",
+      "type": "new",
+      "vendor": "Google / Google DeepMind",
+      "section": "vendor",
+      "title": "Noam Shazeer (Transformer 共著者・Gemini 共同リーダー) が OpenAI へ移籍 (6/18)",
+      "summary": "「Attention Is All You Need」共著者で $2.7B で呼び戻した VP が競合 OpenAI へ。同週の John Jumper → Anthropic と合わせ Google の 3 日間で AI 人材の歴史的流出週。Alphabet 株に売り圧力。",
+      "url": "https://www.cnbc.com/2026/06/18/google-gemini-co-lead-noam-shazeer-leaves-for-openai.html",
+      "importance": "highlight",
+      "tags": ["talent", "google-deepmind", "openai", "transformer", "gemini", "shazeer"]
+    },
+    {
+      "id": "2026-06-23-google-gemini-deprecation",
+      "type": "new",
+      "vendor": "Google / Google DeepMind",
+      "section": "vendor",
+      "title": "gemini-3.1-flash-image-preview と gemini-3-pro-image-preview が 6/25 廃止",
+      "summary": "旧世代画像生成プレビューモデル 2 種が 6 月 25 日にシャットダウン。Gemini 3.5 系への移行を促す廃止スケジュール。",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "importance": "minor",
+      "tags": ["google-deepmind", "gemini", "deprecation", "model-lifecycle", "image-generation"]
+    },
+    {
+      "id": "2026-06-23-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-23-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-23-github-trending-daily-stock",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "ZhuLinsen/daily_stock_analysis — LLM 株式分析 (★45,761, +1,560 today)",
+      "summary": "LLM を活用したマルチ市場リアルタイム株式分析システム。ニュース解析・自動通知機能を内蔵。",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "importance": "standard",
+      "tags": ["github-trending", "llm", "finance", "stock-analysis", "python"]
+    },
+    {
+      "id": "2026-06-23-github-trending-hyperframes",
+      "type": "new",
+      "vendor": "HeyGen",
+      "section": "community",
+      "title": "heygen-com/hyperframes — Write HTML → Render video. Built for agents (★29,940, +369 today)",
+      "summary": "HTML を入力すると動画を生成できるエージェント向け動画制作フレームワーク (HeyGen 製)。",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "importance": "standard",
+      "tags": ["github-trending", "video-generation", "agents", "html", "typescript"]
+    },
+    {
+      "id": "2026-06-23-github-trending-nvidia-skills",
+      "type": "new",
+      "vendor": "NVIDIA",
+      "section": "community",
+      "title": "NVIDIA/skills — NVIDIA 公式 AI エージェントスキル (★1,701, +199 today)",
+      "summary": "NVIDIA 公式が公開した AI エージェント向けスキル集。Anthropic・Google の skills リポジトリと並ぶ主要 vendor のエコシステム整備。",
+      "url": "https://github.com/NVIDIA/skills",
+      "importance": "minor",
+      "tags": ["github-trending", "nvidia", "agent-skills", "llm", "python"]
+    },
+    {
+      "id": "2026-06-23-github-trending-freellmapi",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "tashfeenahmed/freellmapi — 16 LLM の無料枠を束ねた OpenAI 互換プロキシ (★11,564, +257 today)",
+      "summary": "16 のプロバイダーの無料枠を集約し月約 17 億トークンを OpenAI 互換 API として提供するプロキシ。",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "importance": "minor",
+      "tags": ["github-trending", "llm-proxy", "openai-compatible", "free-tier", "typescript"]
+    },
+    {
+      "id": "2026-06-23-github-trending-orca",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "stablyai/orca — 並列エージェント ADE (★6,014, +211 today)",
+      "summary": "並列エージェントに特化した Agent Development Environment。任意のコーディングエージェントをユーザー自身のサブスクリプションで実行可能。",
+      "url": "https://github.com/stablyai/orca",
+      "importance": "minor",
+      "tags": ["github-trending", "agents", "parallel", "ade", "typescript"]
+    },
+    {
+      "id": "2026-06-23-github-trending-hindsight",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "vectorize-io/hindsight — エージェントが学習・記憶するメモリ (★16,937, +143 today)",
+      "summary": "「Agent Memory That Learns」をコンセプトとするエージェント向け永続メモリプラットフォーム。",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "importance": "minor",
+      "tags": ["github-trending", "agent-memory", "llm", "python"]
+    }
+  ]
+}
