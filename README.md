@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-06-24](summaries/2026/06/2026-06-24.md) — Anthropic: Claude Corps 発表 ($150M・1,000 名フェローを全米 NPO へ、初報) / Google DeepMind: A24 に $75M 投資・AI 映画制作ツール共同開発 / SpaceX: Reflection AI と $6.3B コンピュートディール (Colossus 2・NVIDIA GB300) / Microsoft: Azure Copilot Observability Agent GA / [続報] Fable 5 停止 13 日目
 - [2026-06-23](summaries/2026/06/2026-06-23.md) — Google/DeepMind 人材流出 (Shazeer → OpenAI・Jumper → Anthropic) / OpenAI: Daybreak 拡張・GPT-5.5-Cyber + Patch the Planet (6/22) / Anthropic: Fable 5 本日より usage credits 方式に移行・停止 12 日目継続 / Samsung 全従業員に ChatGPT+Codex 展開 / Getty Images と OpenAI が複数年契約
 - [2026-06-22](summaries/2026/06/2026-06-22.md) — [続報] Anthropic: Fable 5 & Mythos 5 停止 11 日目・Trump G7「交渉順調」＋7/8 から生体認証 ID 確認で米国限定復旧ルートが初めて可視化 / OpenAI: GPT-4.5 が ChatGPT から 6/27 廃止 / GitHub Trending: hermes-agent (198k★・v0.17.0) / RecursiveMAS 論文 (精度+8.3%・トークン削減最大 75.6%)
 - [2026-06-21](summaries/2026/06/2026-06-21.md) — codebase-memory-mcp が +1,267 stars で急騰 (コードベース知識グラフ MCP サーバー) / OpenMontage (OSS 初エージェンティック動画制作システム、+677) / [続報] Anthropic: Fable 5 & Mythos 5 停止 10 日目 — 復旧状況確認不能 / 主要ベンダーブログ取得不能 (25/27 ソース失敗)
 - [2026-06-20](summaries/2026/06/2026-06-20.md) — OpenAI: GPT-Rosalind & LifeSciBench 公開 (生命科学 AI の評価基準確立・750 タスク PhD レベルベンチマーク) / OpenAI: GPT-5.4 + Molecule.one が湿式実験室で近自律 AI ケミスト実証 / Anthropic: EMA with Okta beta (MCP コネクターのゼロタッチ SSO) / xAI: Grok for Word/Excel/PowerPoint アドイン無料公開
 - [2026-06-18](summaries/2026/06/2026-06-18.md) — OpenAI: Deployment Simulation 公開 (本番前にユーザー会話再現でモデル行動を先読み・calculator hacking 発見) / OpenAI: $150M Partner Network ローンチ (Accenture・BCG・McKinsey ら7社が創設パートナー) / xAI: Grok Imagine Video 1.5 が GA (Image-to-Video Arena 首位・Sora 比 86% 安) / Microsoft: M365 Business with Copilot が 7/1 から永続 SKU 化
 - [2026-06-17](summaries/2026/06/2026-06-17.md) — Anthropic: Claude Fable 5 & Mythos 5 が米政府輸出規制命令で全世界停止 (6/12〜継続・当ニュースレター初報) + 12 日間で 10 回目のインフラ障害 / xAI: Grok V9-Medium 一般公開 + SpaceX が Cursor を $60B で正式買収 (同日 6/16) / Microsoft: Copilot Cowork GA + Work IQ API GA が 6/16 に同時ローンチ / Meta: Facebook AI Mode 検索を米国でローンチ
-- [2026-06-15](summaries/2026/06/2026-06-15.md) — [続報] Anthropic 6/15 二重期限が本日発効 (Agent SDK 課金分離・旧モデル廃止)・開発者コミュニティに大反響 / Microsoft: M365 Copilot が 8 時間超の大規模障害 (今年 3 回目) / Moonshot AI: Kimi K2.7-Code 公開 (1T パラメータ OSS MoE、MCPMark で Claude Opus 4.8 超) / GitHub Trending: OpenHands・Kronos
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
