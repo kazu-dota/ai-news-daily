@@ -1,5 +1,293 @@
 [
   {
+    "date": "2026-06-24",
+    "id": "2026-06-24-anthropic-fable5-day13",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[続報] Fable 5 & Mythos 5 — 停止 13 日目、8/1 が大統領令 60 日期限",
+    "summary": "本日も両モデルは停止中。Polymarket 予測市場では 7/1 以前の復旧を 57%、7/17 以前を 75% と予測。8 月 1 日が事実上の最終デッドライン。",
+    "url": "https://polymarket.com/event/claude-fable-5-restored-for-us-customers-by-20260613193753196",
+    "related_date": "2026-06-17",
+    "importance": "highlight",
+    "tags": [
+      "fable5",
+      "export-control",
+      "anthropic",
+      "suspension",
+      "prediction-market"
+    ]
+  },
+  {
+    "date": "2026-06-24",
+    "id": "2026-06-24-anthropic-claude-corps",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Claude Corps — $150M・1,000 名フェローを全米 NPO へ派遣する国家的 AI 奉仕プログラム",
+    "summary": "年俸 $85,000 で 1,000 名の早期キャリア人材を全米 NPO に 1 年間常駐派遣。10 月から第 1 期 100 名が開始。Anthropic が $150M を投資し CodePath が雇用主として管理。",
+    "url": "https://www.anthropic.com/news/claude-corps",
+    "importance": "highlight",
+    "tags": [
+      "claude-corps",
+      "anthropic",
+      "fellowship",
+      "nonprofit",
+      "social-impact",
+      "150m"
+    ]
+  },
+  {
+    "date": "2026-06-24",
+    "id": "2026-06-24-anthropic-claude-design",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Claude Design 大幅アップデート — デザインシステム連携・Claude Code 同期・新エクスポート先 9 社 (6/17)",
+    "summary": "初週 100 万人超が使った Claude Design がデザインシステムインポート・Claude Code 直接同期・ダイレクトキャンバス編集・使用枠統合・9 エクスポート先追加で大幅強化。",
+    "url": "https://venturebeat.com/technology/anthropic-ships-major-claude-design-overhaul-with-design-system-imports-code-round-trips-and-a-fix-for-its-token-burning-problem",
+    "importance": "standard",
+    "tags": [
+      "claude-design",
+      "anthropic",
+      "design-tool",
+      "claude-code",
+      "export",
+      "update"
+    ]
+  },
+  {
+    "date": "2026-06-24",
+    "id": "2026-06-24-anthropic-wif",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Workload Identity Federation (WIF) が一般公開 — 静的 API キー不要の認証基盤 (6/17)",
+    "summary": "AWS/GCP/Azure/GitHub Actions/Okta など OIDC 準拠 IdP からキーレスで Claude API にアクセス可能に。短命トークンで静的 API キーの漏洩リスクをゼロに。",
+    "url": "https://claude.com/blog/workload-identity-federation",
+    "importance": "standard",
+    "tags": [
+      "wif",
+      "anthropic",
+      "security",
+      "authentication",
+      "api-keys",
+      "oidc",
+      "enterprise"
+    ]
+  },
+  {
+    "date": "2026-06-24",
+    "id": "2026-06-24-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-24",
+    "id": "2026-06-24-google-a24-partnership",
+    "type": "new",
+    "vendor": "Google / Google DeepMind",
+    "section": "vendor",
+    "title": "A24 に $75M 投資・AI 映画制作ツール共同開発パートナーシップ (6/22)",
+    "summary": "独立系映画スタジオ A24 へのエクイティ投資 $75M と研究パートナーシップを同時発表。DeepMind 研究者と現場映画作家が直接協業。A24 のコンテンツは学習データとして提供しない設計。",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/deepmind-a24-research-partnership/",
+    "importance": "highlight",
+    "tags": [
+      "google-deepmind",
+      "a24",
+      "film",
+      "creative-ai",
+      "partnership",
+      "75m",
+      "hollywood"
+    ]
+  },
+  {
+    "date": "2026-06-24",
+    "id": "2026-06-24-google-gemini35-pro-status",
+    "type": "new",
+    "vendor": "Google / Google DeepMind",
+    "section": "vendor",
+    "title": "Gemini 3.5 Pro: 6/30 GA 予定 (limited preview 継続中)",
+    "summary": "Gemini 3.5 Pro は引き続き限定 Vertex AI プレビュー中。予測市場では 6/30 GA の確率を 50〜55% と見積もる。本日新規発表なし。",
+    "url": "https://ai.google.dev/gemini-api/docs/changelog",
+    "importance": "minor",
+    "tags": [
+      "google-deepmind",
+      "gemini",
+      "gemini-3-5-pro",
+      "preview",
+      "release-date"
+    ]
+  },
+  {
+    "date": "2026-06-24",
+    "id": "2026-06-24-microsoft-observability-agent",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "Azure Copilot Observability Agent が GA — 自然言語でクラウド監視・障害診断 (6/23)",
+    "summary": "Kusto クエリ不要で横断的な根本原因特定を自律実行。Azure Monitor サブスクリプションに追加費用なし (7/1 から Azure Agent Credit 消費型課金)。全 Azure パブリックリージョンで利用可能。",
+    "url": "https://blogs.microsoft.com/blog/2026/06/23/rethinking-cloud-operations-with-agentic-observability/",
+    "importance": "highlight",
+    "tags": [
+      "microsoft",
+      "azure",
+      "copilot",
+      "observability",
+      "agentic",
+      "devops",
+      "monitoring"
+    ]
+  },
+  {
+    "date": "2026-06-24",
+    "id": "2026-06-24-microsoft-copilot-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "Microsoft (M365 / GitHub Copilot): 本日アップデートなし"
+  },
+  {
+    "date": "2026-06-24",
+    "id": "2026-06-24-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-24",
+    "id": "2026-06-24-xai-grok-databricks",
+    "type": "new",
+    "vendor": "xAI",
+    "section": "vendor",
+    "title": "Grok が Databricks Agent Bricks にネイティブ統合 (6/18 Data+AI Summit)",
+    "summary": "企業の Lakehouse データを外部パイプライン経由なしに Grok が直接推論できる統合。エンタープライズ AI バックエンドとして Anthropic Claude・OpenAI GPT と同列の地位を確立。",
+    "url": "https://x.ai/news/grok-databricks",
+    "importance": "standard",
+    "tags": [
+      "xai",
+      "grok",
+      "databricks",
+      "enterprise",
+      "integration",
+      "lakehouse"
+    ]
+  },
+  {
+    "date": "2026-06-24",
+    "id": "2026-06-24-spacex-reflection-ai",
+    "type": "new",
+    "vendor": "SpaceX",
+    "section": "vendor",
+    "title": "Reflection AI に Colossus 2 コンピュートを $6.3B で提供 — NVIDIA GB300 へのアクセス (6/22)",
+    "summary": "open-source AI スタートアップ Reflection AI が月 $150M を 2029 年まで支払い SpaceX の Colossus 2 データセンターの NVIDIA GB300 を確保。SpaceX の AI インフラ事業が本格化。",
+    "url": "https://www.cnbc.com/2026/06/22/spacex-ai-colossus-data-center-reflection.html",
+    "importance": "highlight",
+    "tags": [
+      "spacex",
+      "reflection-ai",
+      "compute",
+      "colossus",
+      "nvidia",
+      "gb300",
+      "infrastructure",
+      "6.3b"
+    ]
+  },
+  {
+    "date": "2026-06-24",
+    "id": "2026-06-24-github-trending-website-cloner",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "JCodesMore/ai-website-cloner-template — AI でどんな Web サイトもクローン (★18,499, +827 today)",
+    "summary": "AI コーディングエージェントを使ってコマンド 1 本でどんな Web サイトもクローンするテンプレート。",
+    "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "ai-coding",
+      "website-cloning",
+      "typescript",
+      "agents"
+    ]
+  },
+  {
+    "date": "2026-06-24",
+    "id": "2026-06-24-github-trending-agent-native",
+    "type": "new",
+    "vendor": "BuilderIO",
+    "section": "community",
+    "title": "BuilderIO/agent-native — エージェントネイティブアプリ構築フレームワーク (★1,889, +434 today)",
+    "summary": "エージェントネイティブなアプリケーションを構築するための BuilderIO 製 TypeScript フレームワーク。",
+    "url": "https://github.com/BuilderIO/agent-native",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "agent-native",
+      "framework",
+      "typescript",
+      "builderio"
+    ]
+  },
+  {
+    "date": "2026-06-24",
+    "id": "2026-06-24-github-trending-page-agent",
+    "type": "new",
+    "vendor": "Alibaba",
+    "section": "community",
+    "title": "alibaba/page-agent — 自然言語でブラウザ GUI 操作を指示するインページエージェント (★19,246, +425 today)",
+    "summary": "Alibaba 製の JavaScript インページ GUI エージェント。自然言語でページ内の要素を操作できる。",
+    "url": "https://github.com/alibaba/page-agent",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "gui-agent",
+      "browser-automation",
+      "javascript",
+      "typescript",
+      "alibaba"
+    ]
+  },
+  {
+    "date": "2026-06-24",
+    "id": "2026-06-24-papers-world-action-models",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "World Action Models — 予測と行動を統合した世界行動モデルの設計論",
+    "summary": "将来状態を生成しながら意思決定に使う予測アクションシステムのアーキテクチャを提案。物理 AI・ロボティクス応用で HF Papers トレンド上位。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "papers",
+      "world-model",
+      "physical-ai",
+      "robotics",
+      "action-model"
+    ]
+  },
+  {
+    "date": "2026-06-24",
+    "id": "2026-06-24-papers-kairos",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "Kairos — ハイブリッド時系列アテンションで永続状態を維持するワールドモデルフレームワーク",
+    "summary": "多様な経験から学習し永続的な内部状態を維持。複数ハードウェアで効率動作する設計で物理 AI エージェントの汎用環境モデルとして HF Papers トレンド。",
+    "url": "https://huggingface.co/papers",
+    "importance": "minor",
+    "tags": [
+      "papers",
+      "world-model",
+      "attention",
+      "physical-ai",
+      "kairos"
+    ]
+  },
+  {
     "date": "2026-06-23",
     "id": "2026-06-23-anthropic-fable5-day12",
     "type": "followup",
