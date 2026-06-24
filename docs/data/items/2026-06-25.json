@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-25",
+  "generated_at": "2026-06-25T08:05:00+09:00",
+  "sources_checked": 28,
+  "sources_failed": 26,
+  "items": [
+    {
+      "id": "2026-06-25-anthropic-claude-tag",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Claude Tag — Slack に @Claude を共有 AI チームメンバーとして招待",
+      "summary": "Enterprise/Team 向けリサーチプレビュー。Slack チャンネルに Claude を招待し、チーム全員が @Claude でタスクを委任できる。Anthropic 社内では同機能でプロダクトチームコードの 65% を生成済み。",
+      "url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
+      "importance": "highlight",
+      "tags": ["slack", "enterprise", "agents", "anthropic", "collaboration"]
+    },
+    {
+      "id": "2026-06-25-anthropic-fable5-day14",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[続報] Fable 5 & Mythos 5 — 停止 14 日目、8/1 が大統領令 60 日期限",
+      "summary": "本日も両モデルは停止中。Polymarket は 7/1 以前の復旧を 57% と予測。公式復旧日はなお未発表。",
+      "url": "https://explainx.ai/blog/is-fable-5-back-2026",
+      "related_date": "2026-06-17",
+      "importance": "highlight",
+      "tags": ["fable5", "mythos5", "export-control", "anthropic", "regulation"]
+    },
+    {
+      "id": "2026-06-25-openai-gpt5-immunologist",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "GPT-5 が免疫学者の 3 年越しの謎を解く — 未公開実験結果を正確に予測",
+      "summary": "免疫学者 Derya Unutmaz のラボで GPT-5 Pro が CD8+ 細胞のリンパ腫攻撃能力向上を実験前に正確予測。未公開データ由来の推論で科学者を驚かせた実科学貢献事例。",
+      "url": "https://openai.com/index/gpt-5-immunology-mystery/",
+      "importance": "standard",
+      "tags": ["gpt-5", "science", "immunology", "case-study", "openai"]
+    },
+    {
+      "id": "2026-06-25-google-image-preview-deprecated",
+      "type": "new",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "gemini-3.1-flash-image-preview & gemini-3-pro-image-preview を本日 (6/25) シャットダウン",
+      "summary": "旧世代画像生成プレビュー 2 モデルが廃止スケジュール通り停止。Gemini 3.5 Flash (GA 済み) と 6/30 GA 予定の Gemini 3.5 Pro への移行が完了。",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "importance": "standard",
+      "tags": ["gemini", "deprecation", "google", "image-generation"]
+    },
+    {
+      "id": "2026-06-25-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-25-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-25-xai-grok-build-goal",
+      "type": "new",
+      "vendor": "xAI",
+      "section": "vendor",
+      "title": "Grok Build に `/goal` 追加 — 長時間タスクを計画→実行→検証まで自律完結 (6/22)",
+      "summary": "実装目標をチェックリスト化し、ユーザー介入なしに完了と検証まで自律実行する新コマンド。Grok Build が 5 月デビュー以来最大のアーキテクチャ強化。",
+      "url": "https://x.ai/news/introducing-goal",
+      "importance": "highlight",
+      "tags": ["grok-build", "autonomous-agents", "xai", "coding", "agentic"]
+    },
+    {
+      "id": "2026-06-25-xai-grok-43-bedrock",
+      "type": "new",
+      "vendor": "xAI",
+      "section": "vendor",
+      "title": "Grok 4.3 が Amazon Bedrock に上陸 (6/15、未掲載補完) — 1M トークンコンテキスト",
+      "summary": "xAI の Bedrock 初統合。推論レベル設定可能、価格 $1.25/$2.50 (100 万トークン)。Mantle インフェレンスエンジンで動作。",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/grok-amazon-bedrock/",
+      "importance": "standard",
+      "tags": ["grok", "bedrock", "aws", "xai", "enterprise"]
+    },
+    {
+      "id": "2026-06-25-github-google-designmd",
+      "type": "new",
+      "vendor": "Google",
+      "section": "community",
+      "title": "google-labs-code/design.md — ビジュアルアイデンティティをコーディングエージェントへ伝える仕様フォーマット",
+      "summary": "Google Labs が提唱するブランドガイドライン・デザインシステムを AI コーディングツールへ伝えるための標準化フォーマット。(★17,265, +504 today)",
+      "url": "https://github.com/google-labs-code/design.md",
+      "importance": "standard",
+      "tags": ["github-trending", "design", "agents", "google", "ai-coding"]
+    },
+    {
+      "id": "2026-06-25-github-interviewstreet-hiring",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "interviewstreet/hiring-agent — AI 採用エージェント (履歴書評価・採点自動化)",
+      "summary": "HackerEarth 製の履歴書評価・採点を自動化する AI 採用エージェント。(★2,113, +152 today)",
+      "url": "https://github.com/interviewstreet/hiring-agent",
+      "importance": "minor",
+      "tags": ["github-trending", "agents", "hiring", "llm"]
+    },
+    {
+      "id": "2026-06-25-github-berriAI-litellm",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "BerriAI/litellm — 100 以上の LLM API を統一 OpenAI 互換 API で呼び出す SDK",
+      "summary": "Python SDK + プロキシゲートウェイで 100+ LLM プロバイダーを OpenAI 互換形式で一元管理。マルチプロバイダー対応エージェント構築の定番ツール。(★51,421, +152 today)",
+      "url": "https://github.com/BerriAI/litellm",
+      "importance": "minor",
+      "tags": ["github-trending", "sdk", "llm-api", "multi-provider"]
+    },
+    {
+      "id": "2026-06-25-paper-deterministic-horizon",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "The Deterministic Horizon: When Extended Reasoning Fails and Tool Delegation Becomes Necessary (ICML 2026)",
+      "summary": "拡張推論が失敗しツール委譲が必要になる境界を理論・実験的に特定。「決定論的地平」の概念を提唱しエージェント設計指針に新示唆。",
+      "url": "https://arxiv.org/list/cs.AI/current",
+      "importance": "standard",
+      "tags": ["reasoning", "agents", "icml-2026", "tool-use", "research"]
+    },
+    {
+      "id": "2026-06-25-paper-cosmos3",
+      "type": "new",
+      "vendor": "NVIDIA",
+      "section": "papers",
+      "title": "Cosmos 3 — NVIDIA のオムニモーダル世界モデル",
+      "summary": "Mixture-of-Transformers 統一アーキテクチャでテキスト・画像・音声・動画を単一モデルで処理・生成。物理 AI・ロボティクス応用で HF Papers トレンド。",
+      "url": "https://huggingface.co/papers/trending",
+      "importance": "minor",
+      "tags": ["world-model", "multimodal", "nvidia", "robotics", "research"]
+    },
+    {
+      "id": "2026-06-25-media-fortune-claude-tag",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "media",
+      "title": "[Fortune] Anthropic launches Claude Tag, a tool that works like a virtual employee within Slack",
+      "summary": "Claude Tag を「バーチャル社員」と位置付けて紹介。OpenAI・Microsoft との競合構図と Anthropic の社内 65% 活用実績を分析。",
+      "url": "https://fortune.com/2026/06/23/anthropic-claude-tag-virtual-employee-tool-slack/",
+      "importance": "standard",
+      "tags": ["media", "anthropic", "claude-tag", "slack"]
+    },
+    {
+      "id": "2026-06-25-media-techtimes-grok-build",
+      "type": "new",
+      "vendor": "xAI",
+      "section": "media",
+      "title": "[TechTimes] Grok Build Ships Autonomous Execution: xAI Agent Now Plans, Runs, and Verifies",
+      "summary": "/goal による自律実行の仕組みを詳報。Claude Code・Codex との競争激化を分析。",
+      "url": "https://www.techtimes.com/articles/318976/20260624/grok-build-ships-autonomous-execution-xai-agent-now-plans-runs-verifies.htm",
+      "importance": "standard",
+      "tags": ["media", "xai", "grok-build", "autonomous-agents"]
+    },
+    {
+      "id": "2026-06-25-media-aws-grok-bedrock",
+      "type": "new",
+      "vendor": "xAI",
+      "section": "media",
+      "title": "[AWS Blog] AWS Weekly Roundup: Grok 4.3 in Bedrock (June 22, 2026)",
+      "summary": "Grok 4.3 の Bedrock 統合詳細を紹介。Mantle エンジン、1M トークン、最安値水準の価格体系を評価。",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ny-summit-recap-local-zone-in-hanoi-grok-4-3-in-bedrock-price-reductions-and-more-june-22-2026/",
+      "importance": "standard",
+      "tags": ["media", "xai", "grok", "bedrock", "aws"]
+    }
+  ]
+}
