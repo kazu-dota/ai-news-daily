@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-06-26](summaries/2026/06/2026-06-26.md) — Anthropic: Alibaba が Claude に最大規模の蒸留攻撃 (偽アカウント 25,000・会話 2,880 万件) / Claude が Apple Foundation Models 対応 (WWDC 6/8 補完) / [続報] Fable 5 停止 15 日目・Tom Brown が交渉の前面へ・Polymarket 60% に上昇 / Meta: AI 予測市場アプリ計画浮上
 - [2026-06-25](summaries/2026/06/2026-06-25.md) — Anthropic: Claude Tag 発表 (Slack に @Claude を共有 AI チームメンバーとして招待、6/23 初報・本日補完) / xAI: Grok Build に `/goal` 追加 (長時間タスクを自律完結、6/22 発表補完) / Google: gemini 画像生成プレビュー 2 モデルが本日廃止 / OpenAI: GPT-5 が免疫学者の 3 年越し謎解きに貢献 / [続報] Fable 5 停止 14 日目
 - [2026-06-24](summaries/2026/06/2026-06-24.md) — Anthropic: Claude Corps 発表 ($150M・1,000 名フェローを全米 NPO へ、初報) / Google DeepMind: A24 に $75M 投資・AI 映画制作ツール共同開発 / SpaceX: Reflection AI と $6.3B コンピュートディール (Colossus 2・NVIDIA GB300) / Microsoft: Azure Copilot Observability Agent GA / [続報] Fable 5 停止 13 日目
 - [2026-06-23](summaries/2026/06/2026-06-23.md) — Google/DeepMind 人材流出 (Shazeer → OpenAI・Jumper → Anthropic) / OpenAI: Daybreak 拡張・GPT-5.5-Cyber + Patch the Planet (6/22) / Anthropic: Fable 5 本日より usage credits 方式に移行・停止 12 日目継続 / Samsung 全従業員に ChatGPT+Codex 展開 / Getty Images と OpenAI が複数年契約
 - [2026-06-22](summaries/2026/06/2026-06-22.md) — [続報] Anthropic: Fable 5 & Mythos 5 停止 11 日目・Trump G7「交渉順調」＋7/8 から生体認証 ID 確認で米国限定復旧ルートが初めて可視化 / OpenAI: GPT-4.5 が ChatGPT から 6/27 廃止 / GitHub Trending: hermes-agent (198k★・v0.17.0) / RecursiveMAS 論文 (精度+8.3%・トークン削減最大 75.6%)
 - [2026-06-21](summaries/2026/06/2026-06-21.md) — codebase-memory-mcp が +1,267 stars で急騰 (コードベース知識グラフ MCP サーバー) / OpenMontage (OSS 初エージェンティック動画制作システム、+677) / [続報] Anthropic: Fable 5 & Mythos 5 停止 10 日目 — 復旧状況確認不能 / 主要ベンダーブログ取得不能 (25/27 ソース失敗)
 - [2026-06-20](summaries/2026/06/2026-06-20.md) — OpenAI: GPT-Rosalind & LifeSciBench 公開 (生命科学 AI の評価基準確立・750 タスク PhD レベルベンチマーク) / OpenAI: GPT-5.4 + Molecule.one が湿式実験室で近自律 AI ケミスト実証 / Anthropic: EMA with Okta beta (MCP コネクターのゼロタッチ SSO) / xAI: Grok for Word/Excel/PowerPoint アドイン無料公開
-- [2026-06-18](summaries/2026/06/2026-06-18.md) — OpenAI: Deployment Simulation 公開 (本番前にユーザー会話再現でモデル行動を先読み・calculator hacking 発見) / OpenAI: $150M Partner Network ローンチ (Accenture・BCG・McKinsey ら7社が創設パートナー) / xAI: Grok Imagine Video 1.5 が GA (Image-to-Video Arena 首位・Sora 比 86% 安) / Microsoft: M365 Business with Copilot が 7/1 から永続 SKU 化
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
