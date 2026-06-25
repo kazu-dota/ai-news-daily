@@ -1,5 +1,177 @@
 [
   {
+    "date": "2026-06-26",
+    "id": "2026-06-26-anthropic-alibaba-distillation",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Alibaba が Claude に最大規模の蒸留攻撃 — 偽アカウント 25,000 件・会話 2,880 万件",
+    "summary": "Alibaba/Qwen 関連事業者が4/22〜6/5に25,000の偽アカウントで28.8M件のClaude会話を取得し自社モデルの訓練に流用。Anthropic が米上院議員に書簡を送付し「最大規模の蒸留攻撃」と表明。",
+    "url": "https://www.cnbc.com/2026/06/24/anthropic-alibaba-distillation-campaign.html",
+    "importance": "highlight",
+    "tags": [
+      "security",
+      "distillation-attack",
+      "alibaba",
+      "china",
+      "anthropic",
+      "policy"
+    ]
+  },
+  {
+    "date": "2026-06-26",
+    "id": "2026-06-26-anthropic-fable5-day15",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[続報] Fable 5 & Mythos 5 — 停止 15 日目、Tom Brown が交渉の前面へ・Polymarket 60% に上昇",
+    "summary": "CEO Dario Amodei に代わり共同創業者 Tom Brown が商務省との交渉を担当。Polymarket の「7/1 前復旧」確率が15%→60%に上昇。依然として両モデルは停止中。",
+    "url": "https://explainx.ai/blog/when-will-fable-5-be-available-again-2026",
+    "related_date": "2026-06-17",
+    "importance": "highlight",
+    "tags": [
+      "fable-5",
+      "mythos-5",
+      "export-control",
+      "anthropic",
+      "regulation"
+    ]
+  },
+  {
+    "date": "2026-06-26",
+    "id": "2026-06-26-anthropic-apple-foundation-models",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Claude が Apple Foundation Models フレームワークに対応 (WWDC 2026・6/8-9 発表)",
+    "summary": "Apple WWDC 2026でFoundation Modelsフレームワークがサードパーティ開放。AnthropicがClaudeForFoundationModels Swift パッケージを公開し、iOS 27/macOS 27等でClaude をオンデバイスモデルと同一APIで呼び出し可能に。",
+    "url": "https://claude.com/blog/claude-for-foundation-models",
+    "importance": "standard",
+    "tags": [
+      "apple",
+      "foundation-models",
+      "ios-27",
+      "macos-27",
+      "swift",
+      "wwdc",
+      "anthropic"
+    ]
+  },
+  {
+    "date": "2026-06-26",
+    "id": "2026-06-26-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-26",
+    "id": "2026-06-26-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-26",
+    "id": "2026-06-26-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-26",
+    "id": "2026-06-26-meta-prediction-market",
+    "type": "new",
+    "vendor": "Meta",
+    "section": "vendor",
+    "title": "Meta: AI 搭載予測市場アプリの計画が浮上 (6/24)",
+    "summary": "NPRが内部文書を入手。Metaがプレイマネーで現実の出来事に賭けられるAI活用の予測市場アプリを開発中。Facebook・Instagramとは独立したアプリとして計画されている。",
+    "url": "https://www.npr.org/2026/06/24/nx-s1-5869486/meta-prediction-market-app-ai",
+    "importance": "minor",
+    "tags": [
+      "meta",
+      "prediction-market",
+      "ai-product"
+    ]
+  },
+  {
+    "date": "2026-06-26",
+    "id": "2026-06-26-github-trending-agent-reach",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: Panniantong/Agent-Reach — AI エージェントにソーシャルメディア全体を見る目",
+    "summary": "Twitter/Reddit/YouTubeのコンテンツをリアルタイムでAIエージェントに提供するブリッジ層。本日+1,430 stars急騰。",
+    "url": "https://github.com/Panniantong/Agent-Reach",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "agent",
+      "social-media",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-06-26",
+    "id": "2026-06-26-github-trending-nvidia-skillspector",
+    "type": "new",
+    "vendor": "NVIDIA",
+    "section": "community",
+    "title": "GitHub Trending: NVIDIA/SkillSpector — AI エージェントスキルのセキュリティスキャナー",
+    "summary": "NVIDIA製。AIエージェントスキルの脆弱なパターンや悪意ある指示を自動検出するセキュリティ監査ツール。+410 stars。",
+    "url": "https://github.com/NVIDIA/SkillSpector",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "security",
+      "agent",
+      "nvidia",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-06-26",
+    "id": "2026-06-26-github-trending-mineru",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: opendatalab/MinerU — PDF・文書を LLM 向け Markdown に変換",
+    "summary": "PDF/Office文書をLLMが消費しやすいMarkdown/JSONに高精度変換するパイプライン。RAG・エージェント向け前処理として急伸。★69k +524 today。",
+    "url": "https://github.com/opendatalab/MinerU",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "document-parsing",
+      "rag",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-06-26",
+    "id": "2026-06-26-github-trending-chrome-devtools-mcp",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: ChromeDevTools/chrome-devtools-mcp — Chrome DevTools の公式 MCP サーバー",
+    "summary": "Chrome DevToolsの機能をコーディングエージェントに公開する公式MCPサーバー。DOM操作・ネットワークトレース・コンソール制御をエージェントツールとして提供。",
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "mcp",
+      "chrome",
+      "devtools",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-06-26",
+    "id": "2026-06-26-papers-no-update",
+    "type": "no-update",
+    "vendor": null,
+    "section": "papers"
+  },
+  {
     "date": "2026-06-25",
     "id": "2026-06-25-anthropic-claude-tag",
     "type": "new",
