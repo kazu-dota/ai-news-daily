@@ -1,0 +1,242 @@
+{
+  "date": "2026-06-27",
+  "generated_at": "2026-06-27T08:05:00+09:00",
+  "sources_checked": 27,
+  "sources_failed": 9,
+  "items": [
+    {
+      "id": "2026-06-27-anthropic-fable5-day16",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[続報] Fable 5 & Mythos 5 — 停止 16 日目、Kalshi 予測市場で 7/1 前復旧確率 57%",
+      "summary": "政府指令によるFable 5/Mythos 5停止が16日目。Kalshi予測市場では7/1以前の復旧確率57%と算出。前日比で実質的な新情報はなく交渉継続中。",
+      "url": "https://news.kalshi.com/p/fable-5-odds-anthropic-access-restored-july-57-percent",
+      "related_date": "2026-06-26",
+      "importance": "standard",
+      "tags": ["fable-5", "mythos-5", "export-control", "anthropic", "regulation"]
+    },
+    {
+      "id": "2026-06-27-anthropic-gemini-researchers",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[続報] Anthropic: Google Gemini チームから上級研究者が6日間で計4名移籍",
+      "summary": "Jonas Adler (AIコーディング) とAlexander Pritzel (モデル訓練) を含む4名がAnthropicへ移籍。Noam ShazeerのOpenAI移籍に続きGoogleからのAI人材流出が加速。",
+      "url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
+      "related_date": "2026-06-23",
+      "importance": "highlight",
+      "tags": ["talent", "google", "anthropic", "gemini", "research"]
+    },
+    {
+      "id": "2026-06-27-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-27-openai-gpt56-wh",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "OpenAI: GPT-5.6「Sol / Terra / Luna」限定プレビュー始動 + ホワイトハウスが慎重公開を要請",
+      "summary": "3ティア構成のGPT-5.6がパートナー機関限定でプレビュー開始。サイバー・生物化学リスク「高」評価を受けホワイトハウスのONCD・OSTPが段階的管理公開を要求。",
+      "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+      "importance": "highlight",
+      "tags": ["gpt-5.6", "openai", "policy", "white-house", "safety", "biosafety", "cybersecurity"]
+    },
+    {
+      "id": "2026-06-27-openai-jalapeno",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "OpenAI: Broadcom と共同開発した推論専用カスタムチップ「Jalapeño」を発表",
+      "summary": "LLM推論専用ASICをBroadcomと9ヶ月で共同設計。現行Nvidia GPU比で推論コスト50%以上削減を目標とし、2026年末に初期展開予定。",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
+      "importance": "highlight",
+      "tags": ["hardware", "chip", "asic", "openai", "broadcom", "inference", "compute"]
+    },
+    {
+      "id": "2026-06-27-openai-gpt45-retirement",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "OpenAI: GPT-4.5 が本日 (6/27) ChatGPT から正式引退",
+      "summary": "30日間の移行猶予期間を終えGPT-4.5がChatGPTから削除。API利用者はGPT-5系列への移行完了が必要。",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "importance": "standard",
+      "tags": ["gpt-4.5", "openai", "deprecation", "chatgpt"]
+    },
+    {
+      "id": "2026-06-27-google-no-update",
+      "type": "no-update",
+      "vendor": "Google / Google DeepMind",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-27-microsoft-mai-code-1-flash",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "Microsoft (GitHub Copilot): MAI-Code-1-Flash が Copilot Business / Enterprise で GA",
+      "summary": "Microsoft自社開発の高速コーディングモデルMAI-Code-1-FlashがCopilot Business/Enterpriseで一般提供開始。エージェント型コーディングワークフロー向けの低レイテンシ設計。",
+      "url": "https://github.blog/changelog/2026-06-26-mai-code-1-flash-for-copilot-business-and-copilot-enterprise/",
+      "importance": "standard",
+      "tags": ["microsoft", "github-copilot", "mai-code", "coding", "enterprise"]
+    },
+    {
+      "id": "2026-06-27-microsoft-github-desktop-36",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "Microsoft (GitHub): GitHub Desktop 3.6 — ワークツリーと Copilot 深化",
+      "summary": "GitHub Desktop 3.6でGitワークツリーサポートを追加。CopilotによるAIコミットメッセージ生成とマージコンフリクト解決がDesktopで直接利用可能に。",
+      "url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration/",
+      "importance": "standard",
+      "tags": ["microsoft", "github", "github-desktop", "copilot", "worktrees", "developer-tools"]
+    },
+    {
+      "id": "2026-06-27-microsoft-copilot-excel-finance",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "Microsoft (Copilot in Excel): 金融プロフェッショナル向け「Frontier Finance」機能群を追加",
+      "summary": "ExcelのCopilotにカスタマイズ可能なスキル・FactSet/Morningstarコネクタ・AI変更トレーサビリティを追加。金融業界向けの新機能群。",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
+      "importance": "standard",
+      "tags": ["microsoft", "copilot", "excel", "finance", "m365"]
+    },
+    {
+      "id": "2026-06-27-meta-mci-suspended",
+      "type": "new",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "Meta: 従業員監視 AI プログラム「Model Capability Initiative」を停止",
+      "summary": "Meta社内でキーストローク・マウス操作・スクリーンショットを収集しモデル訓練に使うMCIが、内部漏洩による従業員データ流出を受けて停止。",
+      "url": "https://thenextweb.com/news/meta-pauses-mouse-tracking-data-security",
+      "importance": "standard",
+      "tags": ["meta", "privacy", "data-collection", "employee-monitoring", "security"]
+    },
+    {
+      "id": "2026-06-27-mistral-ocr-4",
+      "type": "new",
+      "vendor": "Mistral",
+      "section": "vendor",
+      "title": "Mistral: ドキュメント抽出エンタープライズ製品「OCR 4」を発表",
+      "summary": "ページ単位従量課金・バウンディングボックス・信頼スコア・ブロック分類・オンプレミス展開に対応するMistralの企業向けOCRソリューション。",
+      "url": "https://venturebeat.com/data/mistral-launches-ocr-4-turning-document-extraction-into-a-full-enterprise-ai-play",
+      "importance": "standard",
+      "tags": ["mistral", "ocr", "document-extraction", "enterprise"]
+    },
+    {
+      "id": "2026-06-27-deepseek-v4pro-price-cut",
+      "type": "new",
+      "vendor": "DeepSeek",
+      "section": "vendor",
+      "title": "DeepSeek: V4-Pro の 75% 価格引き下げを恒久化",
+      "summary": "DeepSeek V4-Proの75%値下げを永続化。GPT-5.5比で入力トークン約5分の1・出力約17分の1の水準となり、主要ベンダーへの価格圧力が強まる。",
+      "url": "https://www.infoworld.com/article/4176709/deepseeks-steep-v4-pro-price-cut-escalates-ai-pricing-war.html",
+      "importance": "standard",
+      "tags": ["deepseek", "pricing", "competition", "llm"]
+    },
+    {
+      "id": "2026-06-27-github-ai-berkshire",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: xbtlin/ai-berkshire — Claude Code 活用のマルチエージェント型バリュー投資フレームワーク",
+      "summary": "Claude Codeを活用した多エージェント型の価値投資リサーチフレームワーク。本日+1,270スター急騰。",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "importance": "minor",
+      "tags": ["github", "trending", "claude-code", "finance", "multi-agent"]
+    },
+    {
+      "id": "2026-06-27-github-opencode",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: anomalyco/opencode — OSS AI コーディングエージェント (★179k)",
+      "summary": "オープンソースAIコーディングエージェント。累計★179k、本日+631。",
+      "url": "https://github.com/anomalyco/opencode",
+      "importance": "minor",
+      "tags": ["github", "trending", "coding-agent", "open-source"]
+    },
+    {
+      "id": "2026-06-27-github-aws-agent-toolkit",
+      "type": "new",
+      "vendor": "Amazon",
+      "section": "community",
+      "title": "GitHub Trending: aws/agent-toolkit-for-aws — AWS 公式 AI エージェント向け MCP サーバー群",
+      "summary": "AWSが公式公開したAIエージェント向けMCPサーバーとプラグイン集。本日+238スター。",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "importance": "minor",
+      "tags": ["github", "trending", "aws", "mcp", "agent-toolkit"]
+    },
+    {
+      "id": "2026-06-27-paper-opid",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning",
+      "summary": "エージェント型強化学習のためのオンポリシースキル蒸留手法を提案。凍結能力フィールドを活用しMSEロスで速度をマッチングする設計。",
+      "url": "https://arxiv.org/abs/2606.26790",
+      "importance": "standard",
+      "tags": ["paper", "reinforcement-learning", "skill-distillation", "agents", "arxiv"]
+    },
+    {
+      "id": "2026-06-27-paper-viq",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "ViQ: Text-Aligned Visual Quantized Representations at Any Resolution",
+      "summary": "テキスト整合型の視覚量子化表現を任意解像度で学習する手法。マルチモーダル基盤モデルの性能向上を狙う。",
+      "url": "https://arxiv.org/abs/2606.27313",
+      "importance": "minor",
+      "tags": ["paper", "multimodal", "visual-representation", "quantization", "arxiv"]
+    },
+    {
+      "id": "2026-06-27-paper-gui-vs-cli",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "GUI vs. CLI: Execution Bottlenecks in Screen-Only and Skill-Mediated Computer-Use Agents",
+      "summary": "GUIベースとCLIベースのコンピュータ操作エージェントの実行ボトルネックを体系的に比較分析。どちらの操作モードで詰まるかを調査。",
+      "url": "https://arxiv.org/abs/2606.24551",
+      "importance": "minor",
+      "tags": ["paper", "computer-use", "agent", "gui", "cli", "benchmark", "arxiv"]
+    },
+    {
+      "id": "2026-06-27-us-ai-governance-wave",
+      "type": "new",
+      "vendor": null,
+      "section": "governance",
+      "title": "米4州が 6/26 単日に AI 規制法を処理 — AZ拒否権 / CA・RI・NY 各法案成立",
+      "summary": "6/26にアリゾナ知事がAI法案3本に拒否権、カリフォルニアがAI教師禁止可決、ロードアイランドがチャットボット療法禁止署名、ニューヨークがAI関連5法案可決。",
+      "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-june26-2026",
+      "importance": "highlight",
+      "tags": ["governance", "regulation", "ai-policy", "usa", "state-law", "california", "new-york"]
+    },
+    {
+      "id": "2026-06-27-wh-ai-executive-order",
+      "type": "new",
+      "vendor": null,
+      "section": "governance",
+      "title": "ホワイトハウス: 「AI 推進・安全保障」大統領令を発令",
+      "summary": "トランプ政権がAI推進と国家安全保障の両立を目指す新大統領令を発令。連邦レベルでのAI政策の方向性を示す。",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+      "importance": "standard",
+      "tags": ["governance", "regulation", "white-house", "executive-order", "usa", "ai-policy"]
+    },
+    {
+      "id": "2026-06-27-venturebeat-enterprise-agents",
+      "type": "new",
+      "vendor": null,
+      "section": "media",
+      "title": "VentureBeat: エンタープライズ AI エージェント導入が2四半期で3倍に — KPMG 調査",
+      "summary": "KPMG調査(6/26発表)でAIエージェント本番導入企業が2四半期で11%→33%に急拡大。レガシーIT統合が主要障壁として浮上。",
+      "url": "https://venturebeat.com/ai/the-great-ai-agent-acceleration-why-enterprise-adoption-is-happening-faster-than-anyone-predicted",
+      "importance": "standard",
+      "tags": ["enterprise", "ai-agents", "adoption", "kpmg", "research"]
+    }
+  ]
+}
