@@ -1,0 +1,119 @@
+{
+  "date": "2026-06-28",
+  "generated_at": "2026-06-28T08:05:00+09:00",
+  "sources_checked": 27,
+  "sources_failed": 25,
+  "items": [
+    {
+      "id": "2026-06-28-anthropic-mythos5-partial-restore",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[続報] Anthropic: 米商務省が Mythos 5 輸出規制を解除 — 100+ 米国機関が即時アクセス可能、Fable 5 は依然停止",
+      "summary": "6/12 停止から17日目。Lutnick商務長官の6/26書簡でAnnex A記載の100超の機関へMyths 5提供が解禁。Project Glasswingの主要参加組織が対象。Fable 5は引き続き停止中、一般向け復旧の目処なし。",
+      "url": "https://www.axios.com/2026/06/27/commerce-anthropic-mythos-restrictions-lift",
+      "related_date": "2026-06-27",
+      "importance": "highlight",
+      "tags": ["fable-5", "mythos-5", "export-control", "anthropic", "regulation", "lutnick", "glasswing", "commerce-dept"]
+    },
+    {
+      "id": "2026-06-28-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-28-google-gemini35pro-delay",
+      "type": "followup",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "[補完] Google: Gemini 3.5 Pro の 6/30 GA を 7 月に延期",
+      "summary": "Vertex AI限定プレビューのフィードバックをもとにコーディング・トークン効率・長タスク性能を追加改善するため6/30予定のGAを延期。GPT-5.6・Grok 5も7月にスリップし、フロンティアリリースが7月集中に。",
+      "url": "https://cryptobriefing.com/google-delays-gemini-35-pro-launch-to-july-2026",
+      "related_date": "2026-06-25",
+      "importance": "highlight",
+      "tags": ["gemini", "gemini-3.5-pro", "google", "model-release", "delay"]
+    },
+    {
+      "id": "2026-06-28-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-28-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-28-community-cognee",
+      "type": "new",
+      "vendor": "topoteretes",
+      "section": "community",
+      "title": "GitHub Trending: topoteretes/cognee — AI エージェント向けオープンソースメモリプラットフォーム",
+      "summary": "ベクター埋め込み・グラフ推論・認知科学的オントロジー生成を組み合わせ、エージェントにセッション間持続メモリを提供するセルフホスト型知識グラフエンジン (★23,968, +808 today)",
+      "url": "https://github.com/topoteretes/cognee",
+      "importance": "standard",
+      "tags": ["github-trending", "memory", "knowledge-graph", "agent", "oss", "python"]
+    },
+    {
+      "id": "2026-06-28-community-ppt-master",
+      "type": "new",
+      "vendor": "hugohe3",
+      "section": "community",
+      "title": "GitHub Trending: hugohe3/ppt-master — ドキュメントから AI が PowerPoint を自動生成",
+      "summary": "ネイティブアニメーション・スピーカーノート対応のAI PowerPoint生成ツール。文書を即座にプレゼン資料に変換 (★33,028, +589 today)",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "importance": "minor",
+      "tags": ["github-trending", "presentation", "ai-tools", "python"]
+    },
+    {
+      "id": "2026-06-28-community-graphify",
+      "type": "new",
+      "vendor": "safishamsi",
+      "section": "community",
+      "title": "GitHub Trending: safishamsi/graphify — コードフォルダを知識グラフ化する AI コーディングアシスタント",
+      "summary": "コードリポジトリをクエリ可能な知識グラフに変換。RAGベースのコード理解・ナビゲーション機能を提供 (★72,956, +435 today)",
+      "url": "https://github.com/safishamsi/graphify",
+      "importance": "minor",
+      "tags": ["github-trending", "code-graph", "rag", "coding-assistant", "python"]
+    },
+    {
+      "id": "2026-06-28-community-hn-reddit-no-update",
+      "type": "no-update",
+      "vendor": null,
+      "section": "community",
+      "title": "Hacker News / Reddit: 本日直接確認不能 (403)"
+    },
+    {
+      "id": "2026-06-28-papers-no-update",
+      "type": "no-update",
+      "vendor": null,
+      "section": "papers",
+      "title": "HF Papers: 本日アクセス不能 (403)"
+    },
+    {
+      "id": "2026-06-28-media-mythos5-restoration",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "media",
+      "title": "[Axios/Semafor] Mythos 5 部分復旧の詳報 — Annex A 組織・Project Glasswing との関係",
+      "summary": "Lutnick書簡の法的根拠・承認プロセス・Project Glasswingとの関係を独自詳報。Fable 5復旧スケジュールは未定のまま。",
+      "url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
+      "importance": "standard",
+      "tags": ["media", "anthropic", "mythos-5", "regulation", "glasswing", "export-control"]
+    },
+    {
+      "id": "2026-06-28-media-gemini-delay",
+      "type": "new",
+      "vendor": "Google",
+      "section": "media",
+      "title": "[報道] Gemini 3.5 Pro 延期と 6 月フロンティアリリース不発の背景",
+      "summary": "Gemini 3.5 Pro・GPT-5.6・Grok 5がいずれも7月にスリップ。各社が追加調整を優先するなか、7月がフロンティアモデル競争の次の焦点に。",
+      "url": "https://cryptobriefing.com/google-delays-gemini-35-pro-launch-to-july-2026",
+      "importance": "standard",
+      "tags": ["media", "google", "gemini", "frontier-models", "delay"]
+    }
+  ]
+}
