@@ -1,0 +1,132 @@
+{
+  "date": "2026-06-29",
+  "generated_at": "2026-06-29T08:03:06+09:00",
+  "sources_checked": 27,
+  "sources_failed": 22,
+  "items": [
+    {
+      "id": "2026-06-29-austria-eu-anthropic",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Anthropic: オーストリアが EU テクノロジーコミッショナーへ「Anthropic の EU 誘致」を要請",
+      "summary": "Austria 国務長官 Alexander Proell が EU コミッショナー Henna Virkkunen に書簡。Anthropic の EU 域内設立を共同探索するよう要請。EU に拠点を設ければ米輸出規制の影響外に置けるという AI 主権戦略。",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-28/austria-lobbies-eu-to-host-anthropic-after-us-access-curbs",
+      "importance": "highlight",
+      "tags": ["anthropic", "eu", "austria", "ai-sovereignty", "export-control", "geopolitics"]
+    },
+    {
+      "id": "2026-06-29-zhipu-glm52-security",
+      "type": "new",
+      "vendor": "Zhipu AI",
+      "section": "vendor",
+      "title": "[続報] Zhipu AI: GLM-5.2 が Claude Mythos のセキュリティバグ検出と同水準を主張",
+      "summary": "清華大学発 Zhipu AI が、停止から16日でセキュリティ脆弱性発見ベンチマークで Claude Mythos と同等水準を主張するモデルを公表。GLM はオープンソース公開の実績があり、輸出規制の政策的有効性に疑問符。",
+      "url": "https://www.scmp.com/tech/article/3358067/how-anthropics-fable-5-shutdown-could-help-chinas-zhipu-glm-52-gain-ground",
+      "importance": "highlight",
+      "tags": ["zhipu", "glm", "security", "export-control", "open-source", "china-ai"]
+    },
+    {
+      "id": "2026-06-29-anthropic-fable5-day17",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[続報] Anthropic: Fable 5 & Mythos 5 — 停止 17 日目、Fable 5 は引き続きオフライン",
+      "summary": "Mythos 5 は Annex A 機関 (100+) への部分的な提供再開が継続中 (6/28 既報)。Fable 5 は依然停止。本日の新情報: Austria の EU 誘致提案と Zhipu の parity 主張が政策的議論を加速。",
+      "url": "https://explainx.ai/blog/when-will-fable-5-be-available-again-2026",
+      "related_date": "2026-06-28",
+      "importance": "standard",
+      "tags": ["fable-5", "mythos-5", "anthropic", "export-control", "regulation"]
+    },
+    {
+      "id": "2026-06-29-anthropic-ai-for-science-event",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Anthropic: 明日 (6/30) 「The Briefing: AI for Science」ライブ配信",
+      "summary": "6/30 10:00am PST に Anthropic が AI for Science ライブ配信。Claude の製薬・バイオテク・研究機関での活用事例を紹介。Anthropic 幹部と主要研究機関が登壇。",
+      "url": "https://www.anthropic.com/events/the-briefing-ai-for-science-virtual-event",
+      "importance": "minor",
+      "tags": ["anthropic", "science", "event", "life-sciences", "biotech"]
+    },
+    {
+      "id": "2026-06-29-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-29-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-29-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-29-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-06-29-github-vibe-trading",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: HKUDS/Vibe-Trading — マルチエージェント LLM 金融トレーディングエージェント",
+      "summary": "マルチエージェント LLM を活用した個人向け金融トレーディングエージェント。市場分析・リスク評価・ポジション管理を複数の特化エージェントが協調して実行。★14,268, +490 today。",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "importance": "standard",
+      "tags": ["github-trending", "multi-agent", "trading", "finance", "llm"]
+    },
+    {
+      "id": "2026-06-29-github-claude-howto",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: luongnv89/claude-howto — Claude Code ビジュアルガイド",
+      "summary": "Claude Code の視覚的ガイドとテンプレート集。エージェントループ・マルチエージェント実装・高度な応用パターンを図解した実践リファレンス。★38,813, +357 today。",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "importance": "minor",
+      "tags": ["github-trending", "claude-code", "tutorial", "agent"]
+    },
+    {
+      "id": "2026-06-29-github-video-use",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: browser-use/video-use — AI エージェントによる動画編集ツール",
+      "summary": "コーディングエージェントを通じて自然言語指示で動画編集を実行するツール。★10,981, +324 today。",
+      "url": "https://github.com/browser-use/video-use",
+      "importance": "minor",
+      "tags": ["github-trending", "video", "agent", "browser-use"]
+    },
+    {
+      "id": "2026-06-29-github-vercel-skills",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: vercel-labs/skills — オープンエージェントスキルツール",
+      "summary": "npx skills で起動するオープンなエージェントスキルフレームワーク。AI エージェントに再利用可能なスキルを定義・共有する仕組みを提供。★24,036, +248 today。",
+      "url": "https://github.com/vercel-labs/skills",
+      "importance": "minor",
+      "tags": ["github-trending", "agent", "skills", "vercel", "npx"]
+    },
+    {
+      "id": "2026-06-29-paper-danceopd",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "DanceOPD: On-Policy Generative Field Distillation (arXiv:2606.27377)",
+      "summary": "テキスト→画像・局所編集・全体編集の3機能をフロー一致モデルに統合するオンポリシー蒸留フレームワーク。機能別ルーティングと速度 MSE 損失でシンプルに学習。HF Papers トレンド入り。",
+      "url": "https://arxiv.org/abs/2606.27377",
+      "importance": "standard",
+      "tags": ["paper", "generative-ai", "image-generation", "distillation", "flow-matching"]
+    }
+  ]
+}
