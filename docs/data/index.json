@@ -1,5 +1,257 @@
 [
   {
+    "date": "2026-06-30",
+    "id": "2026-06-30-claude-foundry-ga",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Anthropic + Microsoft: Claude が Microsoft Foundry に GA — Opus 4.8 / Haiku 4.5 が Azure ネイティブで即時利用可能",
+    "summary": "Anthropic と Microsoft が Claude in Microsoft Foundry の GA を発表 (6/29)。Claude Opus 4.8 と Haiku 4.5 が NVIDIA GB300 Blackwell Ultra GPU 上で稼働。East US 2 / Sweden Central で提供開始。既存 Azure ID・ネットワーク・ガバナンス統制をそのまま適用。EA顧客は Azure コミットメントから引き落とし可能。",
+    "url": "https://claude.com/blog/claude-in-microsoft-foundry",
+    "importance": "highlight",
+    "tags": [
+      "anthropic",
+      "microsoft",
+      "azure",
+      "foundry",
+      "ga",
+      "enterprise",
+      "opus-4",
+      "haiku-4"
+    ]
+  },
+  {
+    "date": "2026-06-30",
+    "id": "2026-06-30-fable5-day18",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[続報] Anthropic: Fable 5 停止 18 日目 — Jerusalem Post「まもなく復旧へ」と報道",
+    "summary": "6/12 停止から18日目。isfable5back.com は引き続き「No」を表示。Jerusalem Post が「二週間の政府禁止後まもなく復旧へ」と報道し、Pentagon/NSA の最終承認が唯一の残障壁と指摘。Axios (6/27) の「今週中にも解除」報道と整合。",
+    "url": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-900712",
+    "related_date": "2026-06-29",
+    "importance": "highlight",
+    "tags": [
+      "fable-5",
+      "mythos-5",
+      "anthropic",
+      "export-control",
+      "regulation",
+      "pentagon",
+      "nsa"
+    ]
+  },
+  {
+    "date": "2026-06-30",
+    "id": "2026-06-30-anthropic-ai-for-science-event",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Anthropic: 本日「The Briefing: AI for Science」ライブ配信 (10:00am PDT)",
+    "summary": "6/30 10:00am PDT (JST 7/1 02:00) に Anthropic が「AI for Science」ライブ配信。製薬・バイオテク・研究機関の Claude 活用事例をデモと顧客事例で紹介。告知は 6/29 既報。",
+    "url": "https://www.anthropic.com/events/the-briefing-ai-for-science-virtual-event",
+    "related_date": "2026-06-29",
+    "importance": "minor",
+    "tags": [
+      "anthropic",
+      "science",
+      "event",
+      "life-sciences",
+      "biotech"
+    ]
+  },
+  {
+    "date": "2026-06-30",
+    "id": "2026-06-30-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-30",
+    "id": "2026-06-30-google-meta-gemini-compute",
+    "type": "new",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "Google: Meta の Gemini コンピュートを容量不足で制限 — Meta は Muse Spark 内製モデルへ移行加速",
+    "summary": "Google が3月頃に Meta へ Gemini 推論容量の全量供給不能を通達。Meta のコンテンツモデレーション・詐欺検出 AI プロジェクトが遅延し、社内の Muse Spark モデルへ移行。Google 自身も SpaceX に月 $920M を支払い NVIDIA GPU 11万台分を調達するほど逼迫している。",
+    "url": "https://thenextweb.com/news/google-caps-meta-gemini-compute-shortage",
+    "importance": "highlight",
+    "tags": [
+      "google",
+      "gemini",
+      "meta",
+      "compute",
+      "capacity",
+      "gpu",
+      "spacex",
+      "muse-spark"
+    ]
+  },
+  {
+    "date": "2026-06-30",
+    "id": "2026-06-30-gemini-personalized-image-free",
+    "type": "new",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "Google: Gemini パーソナライズ画像生成を米国一般ユーザーに無償開放 (6/29)",
+    "summary": "Gemini アプリのパーソナライズ画像生成 (Nano Banana テクノロジー) を米国適格ユーザー全員に無料開放。Gmail・フォト・YouTube・Search 連携データで詳細プロンプト不要。以前は Plus/Pro/Ultra 限定。オプトイン制。プライベートフォト学習なし。",
+    "url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana-us-expansion/",
+    "importance": "standard",
+    "tags": [
+      "google",
+      "gemini",
+      "image-generation",
+      "personalization",
+      "free-tier",
+      "personal-intelligence"
+    ]
+  },
+  {
+    "date": "2026-06-30",
+    "id": "2026-06-30-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-30",
+    "id": "2026-06-30-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-06-30",
+    "id": "2026-06-30-github-tradingagents",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: TauricResearch/TradingAgents — マルチエージェント LLM 金融トレーディングフレームワーク",
+    "summary": "複数の特化エージェント (アナリスト・リスク管理・トレーダー) が協調する LLM 金融トレーディングフレームワーク。ヘッジファンド的なマルチエージェント投資判断を再現。★89,749, +373 today。",
+    "url": "https://github.com/TauricResearch/TradingAgents",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "multi-agent",
+      "trading",
+      "finance",
+      "llm"
+    ]
+  },
+  {
+    "date": "2026-06-30",
+    "id": "2026-06-30-github-lingbot-map",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: Robbyant/lingbot-map — ストリーミングデータから 3D シーンを再構成する基盤モデル",
+    "summary": "フィードフォワード型 3D 基盤モデル。動的に流れ込む観測データからリアルタイムに 3D シーンを再構成し、ロボティクス・空間 AI 向けに設計。★8,566, +521 today。",
+    "url": "https://github.com/Robbyant/lingbot-map",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "3d",
+      "foundation-model",
+      "robotics",
+      "spatial-ai"
+    ]
+  },
+  {
+    "date": "2026-06-30",
+    "id": "2026-06-30-github-timesfm",
+    "type": "new",
+    "vendor": "Google",
+    "section": "community",
+    "title": "GitHub Trending: google-research/timesfm — Google の時系列予測向け事前学習済み基盤モデル",
+    "summary": "Google Research 公開の時系列予測基盤モデル (TimesFM)。ゼロショットで需要予測・異常検知・金融予測などのタスクに適応。★26,180, +223 today。",
+    "url": "https://github.com/google-research/timesfm",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "time-series",
+      "foundation-model",
+      "google",
+      "forecasting"
+    ]
+  },
+  {
+    "date": "2026-06-30",
+    "id": "2026-06-30-github-omniroute",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: diegosouzapw/OmniRoute — 160+ プロバイダー対応の無料 AI ゲートウェイ",
+    "summary": "160 以上の AI プロバイダーに対応するオープンソース AI ゲートウェイ。トークン圧縮・自動フォールバック・コスト最適化ルーティングを備え、ベンダーロックインなしで複数 LLM を統一 API で利用可能。★7,918, +614 today。",
+    "url": "https://github.com/diegosouzapw/OmniRoute",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "ai-gateway",
+      "llm",
+      "open-source",
+      "api"
+    ]
+  },
+  {
+    "date": "2026-06-30",
+    "id": "2026-06-30-github-astryx",
+    "type": "new",
+    "vendor": "Meta",
+    "section": "community",
+    "title": "GitHub Trending: facebook/astryx — Meta がエージェント対応デザインシステムをオープンソース公開",
+    "summary": "Meta (Facebook) がオープンソース公開した AI エージェント対応デザインシステム。AI エージェントがコンポーネントを理解・操作しやすいように設計。ヒューマン UI とエージェント UI の共存を想定。★1,215, +394 today。",
+    "url": "https://github.com/facebook/astryx",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "design-system",
+      "agent",
+      "meta",
+      "open-source",
+      "ui"
+    ]
+  },
+  {
+    "date": "2026-06-30",
+    "id": "2026-06-30-south-korea-ai-investment",
+    "type": "new",
+    "vendor": null,
+    "section": "media",
+    "title": "韓国: Samsung・SK Hynix 主導の AI チップ投資計画 $576B を発表",
+    "summary": "Lee Jae Myung 大統領が 6/29、800兆ウォン ($576B) の半導体・AI 投資計画を発表。半導体・フィジカル AI・AI データセンターを「三本柱」に位置づけ。Samsung と SK Hynix は韓国南西部に各 2 棟の新ファブ建設、5 年以内に DRAM 生産量倍増を目指す。",
+    "url": "https://edition.cnn.com/2026/06/29/business/south-korea-ai-investment-samsung-skhynix",
+    "importance": "standard",
+    "tags": [
+      "south-korea",
+      "samsung",
+      "sk-hynix",
+      "semiconductor",
+      "ai-infrastructure",
+      "investment",
+      "geopolitics"
+    ]
+  },
+  {
+    "date": "2026-06-30",
+    "id": "2026-06-30-tidal-ai-music",
+    "type": "new",
+    "vendor": null,
+    "section": "media",
+    "title": "TIDAL: 完全 AI 生成音楽の収益化を 7 月 15 日から停止、AI バッジを自動付与",
+    "summary": "音楽ストリーミング TIDAL が 6/29、100% AI 生成楽曲のロイヤリティ・直接販売を 7/15 から停止すると発表。自動検出で「AI」バッジを付与。アーティスト模倣 AI 楽曲は削除対象。Deezer・Bandcamp に続く demonetization 軸の業界規制。",
+    "url": "https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization/",
+    "importance": "standard",
+    "tags": [
+      "tidal",
+      "ai-music",
+      "monetization",
+      "music-streaming",
+      "policy",
+      "copyright"
+    ]
+  },
+  {
     "date": "2026-06-29",
     "id": "2026-06-29-austria-eu-anthropic",
     "type": "new",
