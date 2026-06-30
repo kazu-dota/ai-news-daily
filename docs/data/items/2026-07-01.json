@@ -1,0 +1,160 @@
+{
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T08:02:57+09:00",
+  "sources_checked": 27,
+  "sources_failed": 21,
+  "items": [
+    {
+      "id": "2026-07-01-claude-science",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Claude Science ベータ公開 — 研究者向け AI ワークベンチ (60+ 科学データベース統合)",
+      "summary": "Anthropic が 6/30「AI for Science」イベントにて Claude Science を発表・ベータ公開。新モデルではなく、既存 Claude (Opus 4.8 等) に 60 以上の科学データベース・計算ツールを統合したワークスペース。ゲノミクス・タンパク質構造・化学研究向けにプレ設定済み。macOS/Linux/HPC 対応。Pro/Max/Team/Enterprise ユーザー向けベータ。",
+      "url": "https://www.anthropic.com/events/the-briefing-ai-for-science-virtual-event",
+      "importance": "highlight",
+      "tags": ["anthropic", "claude-science", "research", "biology", "beta", "product-launch"]
+    },
+    {
+      "id": "2026-07-01-fable5-day19",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[続報] Fable 5 停止 19 日目 — 依然オフライン、新情報なし",
+      "summary": "7/1 時点でも Fable 5 は一般ユーザー・API・海外向けに停止中。isfable5back.com は「No」継続。Pentagon/NSA の最終承認待ち状況が続く。Mythos 5 は Annex A 記載機関限定で稼働中。",
+      "url": "https://explainx.ai/blog/is-fable-5-back-2026",
+      "related_date": "2026-06-30",
+      "importance": "standard",
+      "tags": ["anthropic", "fable-5", "mythos-5", "export-control", "followup"]
+    },
+    {
+      "id": "2026-07-01-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-01-gpt56-cerebras",
+      "type": "followup",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "[続報] GPT-5.6 Sol を Cerebras ハードウェアで最大 750 tok/s 提供 (7月)",
+      "summary": "OpenAI が GPT-5.6 Sol を 7 月に Cerebras ウェーハスケールチップ上で稼働させ、最大 750 トークン/秒を実現すると表明。当初は限定顧客向け。現行 GPT-5.5 の約 15 倍の速度。レイテンシ律速ユースケース (コーディングエージェント等) に照準。",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "related_date": "2026-06-27",
+      "importance": "standard",
+      "tags": ["openai", "gpt-5-6", "cerebras", "inference", "speed", "followup"]
+    },
+    {
+      "id": "2026-07-01-google-no-update",
+      "type": "no-update",
+      "vendor": "Google / Google DeepMind",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-01-microsoft-pricing",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "Microsoft M365 グローバル価格改定が本日 (7/1) 全チャネルで実施",
+      "summary": "7/1 より Microsoft 365 商用スイートの価格改定が全購買チャネルで発効。新恒久 SKU として Business Standard+Copilot (~$23.50/月) と Business Premium+Copilot (~$32/月) が正式化。スタンドアロン Copilot アドオンは ~$18 → $21 に値上げ。Enterprise/Business/Frontline 各ティアも対象。既存顧客は次回更新まで猶予あり。",
+      "url": "https://www.microsoft.com/en-us/licensing/news/2026-m365-packaging-pricing-updates",
+      "importance": "highlight",
+      "tags": ["microsoft", "m365", "copilot", "pricing", "enterprise", "business"]
+    },
+    {
+      "id": "2026-07-01-microsoft-copilot-doc-nav",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "M365 Copilot: ドキュメントナビゲーション機能を 7 月追加予定",
+      "summary": "7 月の M365 Copilot アップデートでドキュメント構造ナビゲーション機能を追加予定。AI が長文書のセクション・見出し・ページを解析し、セクション番号・ページ番号付きの明確な引用を提供。長大ドキュメントでの回答精度向上が目的。",
+      "url": "https://windowsnews.ai/article/how-microsoft-365-copilots-july-2026-update-will-revolutionize-document-navigation.430724",
+      "importance": "minor",
+      "tags": ["microsoft", "copilot", "m365", "document-navigation", "feature"]
+    },
+    {
+      "id": "2026-07-01-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-01-meta-brain2qwerty-v2",
+      "type": "new",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "Meta: Brain2Qwerty v2 発表 — 非侵襲 MEG で思考→テキスト変換、61% 単語精度",
+      "summary": "Meta AI が非侵襲型 BCI 「Brain2Qwerty v2」を発表 (Nature Neuroscience 掲載)。MEG で脳活動を計測し Conformer + LLM でテキスト変換。手術不要で平均 61%・最良78% の単語精度を達成 (v1 は約 8%)。訓練コードをオープン公開。",
+      "url": "https://www.nature.com/articles/s41593-026-02303-2",
+      "importance": "standard",
+      "tags": ["meta", "bci", "brain-computer-interface", "brain2qwerty", "research", "nature"]
+    },
+    {
+      "id": "2026-07-01-github-strix",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "usestrix/strix — AI ペネトレーションテストツール (Python, ★28,075, +395)",
+      "summary": "オープンソースの AI セキュリティ検査フレームワーク。アプリケーションの脆弱性を自動発見・修正提案する。",
+      "url": "https://github.com/usestrix/strix",
+      "importance": "standard",
+      "tags": ["github-trending", "security", "penetration-testing", "ai-tools", "python"]
+    },
+    {
+      "id": "2026-07-01-github-google-agents-cli",
+      "type": "new",
+      "vendor": "Google",
+      "section": "community",
+      "title": "google/agents-cli — Google Cloud AI エージェント CLI (Python, ★4,144, +433)",
+      "summary": "Google Cloud 上で AI エージェントを作成・デプロイするための Google 公式 CLI。",
+      "url": "https://github.com/google/agents-cli",
+      "importance": "standard",
+      "tags": ["github-trending", "google", "agents", "cli", "google-cloud", "python"]
+    },
+    {
+      "id": "2026-07-01-github-hiring-agent",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "interviewstreet/hiring-agent — AI 採用エージェント (Python, ★3,980, +433)",
+      "summary": "履歴書評価・スコアリングを自動化する AI 採用エージェント。",
+      "url": "https://github.com/interviewstreet/hiring-agent",
+      "importance": "minor",
+      "tags": ["github-trending", "ai-agents", "hr", "recruiting", "python"]
+    },
+    {
+      "id": "2026-07-01-github-logto",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "logto-io/logto — SaaS・AI アプリ向け認証基盤 (TypeScript, ★13,018, +614)",
+      "summary": "OIDC / OAuth 2.1 ベースの認証・認可インフラ。SaaS および AI エージェントのアクセス制御基盤として設計。",
+      "url": "https://github.com/logto-io/logto",
+      "importance": "standard",
+      "tags": ["github-trending", "auth", "oidc", "oauth", "saas", "ai-infra", "typescript"]
+    },
+    {
+      "id": "2026-07-01-github-12-factor-agents",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "12-factor-agents — 本番 LLM アプリ開発の 12 原則 (TypeScript, ★23,888, +204)",
+      "summary": "本番運用可能な LLM アプリ開発のための 12 の原則を探究するフレームワーク。エージェントの信頼性・観測可能性・スケールに関する実践的な知見。",
+      "url": "https://github.com/12-factor-agents/12-factor-agents",
+      "importance": "standard",
+      "tags": ["github-trending", "llm", "agents", "best-practices", "production", "typescript"]
+    },
+    {
+      "id": "2026-07-01-paper-brain2qwerty",
+      "type": "new",
+      "vendor": "Meta",
+      "section": "papers",
+      "title": "Brain2Qwerty v2: Noninvasive decoding of typed sentences from human brain activity",
+      "summary": "MEG を用いた非侵襲 BCI で思考テキストを変換。Conformer + 微調整 LLM アーキテクチャで平均 61% 単語精度を達成。Nature Neuroscience 掲載。Meta AI + BCBL 共同研究。",
+      "url": "https://www.nature.com/articles/s41593-026-02303-2",
+      "importance": "standard",
+      "tags": ["bci", "brain-computer-interface", "meg", "meta", "nature-neuroscience", "paper"]
+    }
+  ]
+}
