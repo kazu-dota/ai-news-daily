@@ -1,5 +1,216 @@
 [
   {
+    "date": "2026-07-02",
+    "id": "2026-07-02-fable5-restored",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[続報] Fable 5 & Mythos 5 — 輸出規制撤廃・7/1 より全面復旧",
+    "summary": "米商務省が 6/30 に輸出規制を完全撤廃。Fable 5 が 7/1 より Claude Platform・Claude.ai・Claude Code など全チャネルでグローバル向けに復旧。停止 20 日間に終止符。",
+    "url": "https://www.forbes.com/sites/siladityaray/2026/07/01/trump-administration-lifts-export-controls-on-anthropics-mythos-5-and-fable-5-ai-models/",
+    "related_date": "2026-06-17",
+    "importance": "highlight",
+    "tags": [
+      "fable5",
+      "mythos5",
+      "export-restriction",
+      "anthropic",
+      "regulation"
+    ]
+  },
+  {
+    "date": "2026-07-02",
+    "id": "2026-07-02-claude-sonnet-5",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[補完] Claude Sonnet 5 発表 (6/30)",
+    "summary": "SWE-Bench Verified 92.4%・1M コンテキスト・$2/$10 (Mtok) の最上位エージェント特化 Sonnet モデル。Free/Pro のデフォルトに即日変更。7/1 routine では取得不能だったため補完掲載。",
+    "url": "https://www.anthropic.com/news/claude-sonnet-5",
+    "importance": "highlight",
+    "tags": [
+      "model-release",
+      "claude-sonnet-5",
+      "anthropic",
+      "agentic",
+      "swe-bench"
+    ]
+  },
+  {
+    "date": "2026-07-02",
+    "id": "2026-07-02-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-02",
+    "id": "2026-07-02-google-no-update",
+    "type": "no-update",
+    "vendor": "Google / Google DeepMind",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-02",
+    "id": "2026-07-02-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-02",
+    "id": "2026-07-02-meta-compute",
+    "type": "new",
+    "vendor": "Meta",
+    "section": "vendor",
+    "title": "Meta Compute: 余剰 AI コンピュートと自社モデルを外部販売するクラウド事業を計画発表",
+    "summary": "内部名「Meta Compute」として余剰 GPU 容量と Muse Spark モデルを外部提供するクラウド事業を構想。AWS・Azure・GCP と競合。Bloomberg 報道で株価 +9%。",
+    "url": "https://www.bloomberg.com/news/articles/2026-07-01/meta-is-building-a-cloud-business-to-sell-excess-ai-compute",
+    "importance": "highlight",
+    "tags": [
+      "meta",
+      "cloud",
+      "compute",
+      "meta-compute",
+      "infrastructure"
+    ]
+  },
+  {
+    "date": "2026-07-02",
+    "id": "2026-07-02-github-olmocr",
+    "type": "new",
+    "vendor": "Allen AI",
+    "section": "community",
+    "title": "allenai/olmocr — PDF 線形化ツールキット (★18,247, +295 today)",
+    "summary": "LLM 訓練・ファインチューニング向けに PDF を高品質テキストへ変換するオープンソースツール。OCR・レイアウト・数式・表の構造を保持。",
+    "url": "https://github.com/allenai/olmocr",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "pdf",
+      "ocr",
+      "llm-training",
+      "allenai"
+    ]
+  },
+  {
+    "date": "2026-07-02",
+    "id": "2026-07-02-github-book-to-skill",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "virgiliojr94/book-to-skill — 技術書 PDF を Claude Code スキルに変換 (★7,386, +205 today)",
+    "summary": "技術書 PDF を Claude Code の /skill コマンドで呼び出せるスキルファイルに自動変換するツール。書籍知識をエージェントに即活用。",
+    "url": "https://github.com/virgiliojr94/book-to-skill",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "claude-code",
+      "skills",
+      "pdf"
+    ]
+  },
+  {
+    "date": "2026-07-02",
+    "id": "2026-07-02-github-videoagent",
+    "type": "new",
+    "vendor": "HKUDS",
+    "section": "community",
+    "title": "HKUDS/VideoAgent — オールインワン型動画エージェントフレームワーク (★1,136, +150 today)",
+    "summary": "12 パイプライン・52 ツール・500+ エージェントスキルで動画理解・編集・リメイクに対応するエージェントフレームワーク。",
+    "url": "https://github.com/HKUDS/VideoAgent",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "video",
+      "agents",
+      "multimodal"
+    ]
+  },
+  {
+    "date": "2026-07-02",
+    "id": "2026-07-02-github-deepagents",
+    "type": "new",
+    "vendor": "LangChain",
+    "section": "community",
+    "title": "langchain-ai/deepagents — バッテリー同梱型エージェントハーネス (★25,527, +103 today)",
+    "summary": "LangChain のエージェントハーネス。メモリ・ツール・ストリーミング・長期タスク管理を統合済みで最小コードで本番グレードのエージェントを構築できる。",
+    "url": "https://github.com/langchain-ai/deepagents",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "langchain",
+      "agents",
+      "framework"
+    ]
+  },
+  {
+    "date": "2026-07-02",
+    "id": "2026-07-02-hn-reddit",
+    "type": "no-update",
+    "vendor": null,
+    "section": "community",
+    "title": "Hacker News / Reddit — 本日直接確認なし",
+    "summary": "Hacker News 403 のため直接確認不能。Fable 5 復旧・Claude Sonnet 5 に関する議論が活発とみられる。",
+    "importance": "minor",
+    "tags": [
+      "community",
+      "hn",
+      "reddit"
+    ]
+  },
+  {
+    "date": "2026-07-02",
+    "id": "2026-07-02-paper-aris",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "ARIS — クロスモデル敵対的協調による長期研究信頼性フレームワーク",
+    "summary": "複数 AI モデルが互いの研究成果を検証・修正する実行・オーケストレーション・保証の 3 層構造フレームワーク。HF Papers で注目。",
+    "url": "https://huggingface.co/papers/trending",
+    "importance": "standard",
+    "tags": [
+      "paper",
+      "multi-agent",
+      "research",
+      "adversarial"
+    ]
+  },
+  {
+    "date": "2026-07-02",
+    "id": "2026-07-02-media-forbes-fable5",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "media",
+    "title": "[Forbes] U.S. Lifts Restrictions On Anthropic's Mythos 5 And Fable 5 AI Models",
+    "summary": "輸出規制撤廃の経緯と Anthropic の 3 条件合意を詳報。AI モデルを政府管理する新枠組みの先例として分析。",
+    "url": "https://www.forbes.com/sites/siladityaray/2026/07/01/trump-administration-lifts-export-controls-on-anthropics-mythos-5-and-fable-5-ai-models/",
+    "importance": "standard",
+    "tags": [
+      "media",
+      "regulation",
+      "fable5",
+      "anthropic"
+    ]
+  },
+  {
+    "date": "2026-07-02",
+    "id": "2026-07-02-media-cnbc-meta",
+    "type": "new",
+    "vendor": "Meta",
+    "section": "media",
+    "title": "[CNBC] Meta pops 9% as company makes cloud push to sell excess AI compute power capacity",
+    "summary": "Meta Compute 計画報道後の株価反応を詳報。CapEx 爆増に見合う収益モデル不明確という懸念への具体的回答が好感されたと分析。",
+    "url": "https://www.cnbc.com/2026/07/01/meta-stock-cloud-ai-compute.html",
+    "importance": "standard",
+    "tags": [
+      "media",
+      "meta",
+      "cloud",
+      "stock"
+    ]
+  },
+  {
     "date": "2026-07-01",
     "id": "2026-07-01-claude-science",
     "type": "new",
