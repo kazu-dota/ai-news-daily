@@ -1,5 +1,171 @@
 [
   {
+    "date": "2026-07-03",
+    "id": "2026-07-03-anthropic-california-deal",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[補完] カリフォルニア州全機関向け Claude 50% 割引パートナーシップ (6/29 発表)",
+    "summary": "Newsom 知事が全州機関・市・郡に Claude を半額で提供する初の政府 AI パートナーシップを発表。DMV・医療省が既に活用、7 月に全州展開予定。",
+    "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
+    "importance": "standard",
+    "tags": [
+      "government",
+      "partnership",
+      "california",
+      "anthropic",
+      "claude"
+    ]
+  },
+  {
+    "date": "2026-07-03",
+    "id": "2026-07-03-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-03",
+    "id": "2026-07-03-google-nb2lite-omniflash",
+    "type": "new",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "[補完] Nano Banana 2 Lite & Gemini Omni Flash リリース (6/30 発表)",
+    "summary": "Nano Banana 2 Lite は最速・最安値の画像生成モデル ($0.034/枚・約4秒)。Gemini Omni Flash は会話型動画生成・編集モデル ($0.10/秒)。両モデルが Gemini API で即日提供開始。",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
+    "importance": "highlight",
+    "tags": [
+      "model-release",
+      "image-generation",
+      "video-generation",
+      "google",
+      "gemini",
+      "nano-banana"
+    ]
+  },
+  {
+    "date": "2026-07-03",
+    "id": "2026-07-03-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-03",
+    "id": "2026-07-03-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-03",
+    "id": "2026-07-03-xai-voice-agent-builder",
+    "type": "new",
+    "vendor": "xAI",
+    "section": "vendor",
+    "title": "[補完] Grok Voice Agent Builder ベータ公開 (7/1 発表)",
+    "summary": "ノーコードで本番品質の音声 AI エージェントを約2分で構築できるプラットフォーム。STT・LLM・TTS を1つの speech-to-speech モデルに統合しサブ秒レイテンシを実現。$0.05/分・25+ 言語・80+ ボイス。",
+    "url": "https://x.ai/news/grok-voice-agent-builder",
+    "importance": "highlight",
+    "tags": [
+      "voice-ai",
+      "agent",
+      "no-code",
+      "xai",
+      "grok",
+      "speech"
+    ]
+  },
+  {
+    "date": "2026-07-03",
+    "id": "2026-07-03-hermes-agent-trending",
+    "type": "new",
+    "vendor": "NousResearch",
+    "section": "community",
+    "title": "NousResearch/hermes-agent — Judgment Release (7/1) で GitHub 急騰",
+    "summary": "自己改善型オープンソース AI エージェント。7/1 の大型リリースで 998 PR・1,720 コミット・全 P0/P1 課題クローズ。本日 +849 stars。MIT ライセンス。",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "importance": "standard",
+    "tags": [
+      "open-source",
+      "agent",
+      "self-improving",
+      "github-trending",
+      "nous-research"
+    ]
+  },
+  {
+    "date": "2026-07-03",
+    "id": "2026-07-03-aitoeearn-trending",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "yikart/AiToEarn — AI 収益化ツール集が GitHub 急騰",
+    "summary": "AI を使って収益を得る各種スクリプト・ツールのオープンソースコレクション。本日 TypeScript Trending で +498 stars。",
+    "url": "https://github.com/yikart/AiToEarn",
+    "importance": "minor",
+    "tags": [
+      "open-source",
+      "github-trending",
+      "ai-tools",
+      "monetization"
+    ]
+  },
+  {
+    "date": "2026-07-03",
+    "id": "2026-07-03-agents-a1-paper",
+    "type": "new",
+    "vendor": "InternScience",
+    "section": "papers",
+    "title": "Agents-A1 — 35B MoE で兆パラメータ級エージェント性能",
+    "summary": "35B MoE モデルで兆パラメータ規模エージェントと同等性能を達成 (arXiv:2606.30616)。15+ ツール呼び出し連鎖を維持する水平スケーリング手法。Apache 2.0 で重みも公開。",
+    "url": "https://arxiv.org/abs/2606.30616",
+    "importance": "standard",
+    "tags": [
+      "research",
+      "moe",
+      "agent",
+      "open-source",
+      "internscience",
+      "huggingface-papers"
+    ]
+  },
+  {
+    "date": "2026-07-03",
+    "id": "2026-07-03-media-google-models",
+    "type": "new",
+    "vendor": "Google",
+    "section": "media",
+    "title": "Google の Gemini Omni Flash と Nano Banana 2 Lite が低コスト高品質メディア制作を可能に",
+    "summary": "2モデルの連携で「安価に画像生成 → 動画化」のパイプラインが成立するとの分析記事。",
+    "url": "https://siliconangle.com/2026/06/30/googles-gemini-omni-flash-nano-banana-2-lite-support-slick-media-content-creation-lower-costs/",
+    "importance": "minor",
+    "tags": [
+      "media",
+      "google",
+      "image-generation",
+      "video-generation"
+    ]
+  },
+  {
+    "date": "2026-07-03",
+    "id": "2026-07-03-media-anthropic-california",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "media",
+    "title": "Anthropic と Newsom 知事、カリフォルニア政府に Claude 半額提供のパートナーシップ",
+    "summary": "州全体の AI 調達モデルとしての先例と、連邦政府が OpenAI を選択したこととのコントラストを TechCrunch が分析。",
+    "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
+    "importance": "minor",
+    "tags": [
+      "media",
+      "anthropic",
+      "government",
+      "california",
+      "partnership"
+    ]
+  },
+  {
     "date": "2026-07-02",
     "id": "2026-07-02-fable5-restored",
     "type": "followup",
