@@ -1,0 +1,208 @@
+{
+  "date": "2026-07-04",
+  "generated_at": "2026-07-04T08:05:00+09:00",
+  "sources_checked": 28,
+  "sources_failed": 22,
+  "items": [
+    {
+      "id": "2026-07-04-anthropic-enterprise-admin",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[補完] Claude Enterprise: 管理者向け新機能 GA (7/2 公開)",
+      "summary": "グループ/ユーザー別コスト可視化、モデルレベルのエンタイトルメント、支出アラート (75%/90%)、Analytics API を Claude Enterprise に追加。AI コスト管理の精緻化が可能に。",
+      "url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
+      "importance": "highlight",
+      "tags": ["enterprise", "admin", "analytics", "anthropic", "claude"]
+    },
+    {
+      "id": "2026-07-04-anthropic-arr-30b",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[続報] Anthropic: ARR $30B 超で OpenAI を追い越したとの報道",
+      "summary": "Anthropic の年間収益換算が $30B 超に達し OpenAI ($24〜25B) を上回ったと複数メディアが報道。Claude の企業向け特化戦略が売上で競合最大手を追い越した可能性。評価額 $965B との報道も。",
+      "url": "https://www.trendingtopics.eu/anthropic-overtakes-openai-in-revenue-hitting-30-billion-run-rate/",
+      "importance": "highlight",
+      "tags": ["revenue", "arr", "anthropic", "openai", "industry"]
+    },
+    {
+      "id": "2026-07-04-openai-gov-stake",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "OpenAI: 米国政府への 5% 株式提供を提案",
+      "summary": "評価額 $852B の 5% 相当 (~$42.6B) を Trump 政権へ提供することを打診。AI の便益を公共に還元し政治的反発を緩和する Alaska Permanent Fund 方式を参考にした構想。",
+      "url": "https://www.cnbc.com/2026/07/02/openai-proposes-us-government-own-5percent-stake-to-address-political-blowback/",
+      "importance": "highlight",
+      "tags": ["government", "ipo", "policy", "openai", "stake"]
+    },
+    {
+      "id": "2026-07-04-openai-codex-5m",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "OpenAI Codex: 500 万週次ユーザー突破・6 業種向けプラグイン追加",
+      "summary": "Codex が週次アクティブユーザー 500 万人を突破。法務・会計・製薬・製造・マーケティング・金融向けの 6 業種プラグインを追加し、コーディング以外への拡張を加速。",
+      "url": "https://openai.com/news/",
+      "importance": "standard",
+      "tags": ["codex", "openai", "enterprise", "plugins", "milestone"]
+    },
+    {
+      "id": "2026-07-04-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-04-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-04-meta-watermelon",
+      "type": "new",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "Meta: 次期モデル「Watermelon」が GPT-5.5 相当と社内主張・Zuckerberg がエージェント遅れを認める",
+      "summary": "AI責任者 Alexandr Wang が次期モデル Watermelon (Muse Spark 後継) の GPT-5.5 相当ベンチマーク達成を社内発表。一方 Zuckerberg は AI エージェント進捗が「期待に届かなかった」と認めつつ capex $125〜145B を維持。",
+      "url": "https://americanbazaaronline.com/2026/07/03/meta-ai-chief-says-watermelon-model-has-caught-up-to-gpt-5-5-484022/",
+      "importance": "standard",
+      "tags": ["meta", "watermelon", "model", "zuckerberg", "agents", "capex"]
+    },
+    {
+      "id": "2026-07-04-xai-grok45-beta",
+      "type": "new",
+      "vendor": "xAI",
+      "section": "vendor",
+      "title": "[補完] xAI: Grok 4.5 が SpaceX・Tesla 社内で private beta 開始 (6/28 発表)",
+      "summary": "V9 アーキテクチャ・約 1.5 兆パラメータの Grok 4.5 が社内 2 社でテスト開始。Cursor データで追加学習し Claude Opus 相当以上の性能を主張するが独立ベンチマーク未公開。公開スケジュール未定。",
+      "url": "https://letsdatascience.com/news/musk-says-grok-45-enters-private-beta-at-spacex-tesla-1840769e",
+      "importance": "highlight",
+      "tags": ["xai", "grok", "grok4.5", "private-beta", "spacex", "tesla"]
+    },
+    {
+      "id": "2026-07-04-whitehouse-ai-standards",
+      "type": "new",
+      "vendor": "Other",
+      "section": "governance",
+      "title": "White House: 主要 AI 3 社と「自発的 AI 公開基準」策定を協議中",
+      "summary": "OpenAI・Google・Anthropic とホワイトハウスが、リリース前ベンチマーク要件と段階的公開の枠組みについて自発的コミットメントとして合意間近。来週の発表が見込まれる。",
+      "url": "https://aitoolsrecap.com/Blog/ai-news-july-3-2026",
+      "importance": "highlight",
+      "tags": ["governance", "whitehouse", "policy", "release-standards", "safety"]
+    },
+    {
+      "id": "2026-07-04-gh-trending-harvard-cs249r",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "GitHub Trending: harvard-edge/cs249r_book (+792 today)",
+      "summary": "Harvard Edge Lab の Machine Learning Systems 教科書。TinyML からクラウド推論インフラまでを体系化した技術書として研究者・エンジニアから注目を集めている。",
+      "url": "https://github.com/harvard-edge/cs249r_book",
+      "importance": "minor",
+      "tags": ["github-trending", "education", "ml-systems", "textbook"]
+    },
+    {
+      "id": "2026-07-04-gh-trending-langflow",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "GitHub Trending: langflow-ai/langflow (+634 today)",
+      "summary": "AI エージェントおよびマルチエージェントワークフローをノーコードで構築・デプロイするビジュアルフレームワーク。RAG・ツール呼び出し・ストリーミングを内包した状態で本番利用に対応。",
+      "url": "https://github.com/langflow-ai/langflow",
+      "importance": "minor",
+      "tags": ["github-trending", "agents", "workflow", "nocode", "langflow"]
+    },
+    {
+      "id": "2026-07-04-gh-trending-page-agent",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "GitHub Trending: alibaba/page-agent (+949 today)",
+      "summary": "Alibaba 製。自然言語でブラウザおよびデスクトップの GUI を操作する JavaScript エージェントライブラリ。複合 GUI タスクの自律実行に対応。",
+      "url": "https://github.com/alibaba/page-agent",
+      "importance": "standard",
+      "tags": ["github-trending", "gui-agent", "browser", "alibaba", "javascript"]
+    },
+    {
+      "id": "2026-07-04-gh-trending-orca",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "GitHub Trending: stablyai/orca (+736 today)",
+      "summary": "並列エージェントフリートのための統合開発環境 (ADE)。複数コーディングエージェントを同時に制御・デバッグ・モニタリングする機能を提供。",
+      "url": "https://github.com/stablyai/orca",
+      "importance": "minor",
+      "tags": ["github-trending", "agents", "ade", "parallel", "stablyai"]
+    },
+    {
+      "id": "2026-07-04-gh-trending-chrome-devtools-mcp",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "GitHub Trending: ChromeDevTools/chrome-devtools-mcp (+404 today)",
+      "summary": "AI コーディングエージェントが Chrome DevTools を直接操作するための MCP サーバー。デバッグ・プロファイリング・DOM 検査をエージェントが MCP プロトコル経由で利用できるようにする。",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "importance": "standard",
+      "tags": ["github-trending", "mcp", "chrome", "devtools", "agents"]
+    },
+    {
+      "id": "2026-07-04-paper-memanto",
+      "type": "new",
+      "vendor": "Other",
+      "section": "papers",
+      "title": "Memanto — AI エージェント向けユニバーサルメモリレイヤー",
+      "summary": "タイプ付き意味論的メモリスキーマと情報理論的検索エンジンを組み合わせ、ハイブリッドセマンティックグラフのオーバーヘッドを排除した普遍的メモリレイヤー。セッションをまたぐ長期記憶が必要なエージェント向け。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["memory", "agents", "research", "huggingface-papers"]
+    },
+    {
+      "id": "2026-07-04-paper-kairos",
+      "type": "new",
+      "vendor": "Other",
+      "section": "papers",
+      "title": "Kairos — 物理 AI 向けワールドモデルフレームワーク",
+      "summary": "多様な経験から学習し、ハイブリッド時間的アテンション機構で永続状態を維持するワールドモデル。ロボティクス・具身知能において異なるハードウェアをまたぐ効率的動作を目的とした設計。",
+      "url": "https://huggingface.co/papers",
+      "importance": "minor",
+      "tags": ["world-model", "physical-ai", "robotics", "research", "huggingface-papers"]
+    },
+    {
+      "id": "2026-07-04-media-openai-stake",
+      "type": "new",
+      "vendor": "Other",
+      "section": "media",
+      "title": "[CNBC] OpenAI Proposes U.S. Government Own 5% Stake",
+      "summary": "政府株式 5% 提案の背景と AI 企業が政治的リスクを管理する新戦略として分析。",
+      "url": "https://www.cnbc.com/2026/07/02/openai-proposes-us-government-own-5percent-stake-to-address-political-blowback/",
+      "importance": "standard",
+      "tags": ["media", "openai", "government", "policy"]
+    },
+    {
+      "id": "2026-07-04-media-whitehouse-ai-standards",
+      "type": "new",
+      "vendor": "Other",
+      "section": "media",
+      "title": "[AIToolsRecap] White House Drafts Voluntary AI Release Standards",
+      "summary": "主要 3 社との協議経緯と「自発的コミットメント」形式を採った理由、来週予定の合意発表概要を報告。",
+      "url": "https://aitoolsrecap.com/Blog/ai-news-july-3-2026",
+      "importance": "standard",
+      "tags": ["media", "governance", "whitehouse", "standards"]
+    },
+    {
+      "id": "2026-07-04-media-axios-fable5-behind",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "media",
+      "title": "[Axios] Anthropic AI Models Revived — Behind the Scenes",
+      "summary": "Fable 5・Mythos 5 輸出規制撤廃の交渉内幕を詳報。Anthropic が合意した「ジェイルブレーク重大度フレームワーク草案策定」と「HackerOne セキュリティ研究者プログラム拡充」の詳細。",
+      "url": "https://www.axios.com/2026/07/03/anthropic-ai-models-revived-behind-the-scenes",
+      "related_date": "2026-07-02",
+      "importance": "standard",
+      "tags": ["media", "anthropic", "fable5", "export-controls", "security"]
+    }
+  ]
+}
