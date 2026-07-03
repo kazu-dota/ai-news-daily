@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-07-04](summaries/2026/07/2026-07-04.md) — OpenAI: 米国政府への 5% 株式提供を提案 (~$42.6B) / Anthropic ARR $30B 超で OpenAI を追い越したとの報道 / White House が主要 AI 3 社と「自発的 AI 公開基準」策定を協議 / [補完] Claude Enterprise 管理者向け新機能 GA / [補完] xAI: Grok 4.5 が SpaceX・Tesla で private beta 開始
 - [2026-07-03](summaries/2026/07/2026-07-03.md) — [補完] Google: Nano Banana 2 Lite & Gemini Omni Flash 同時リリース (画像 $0.034/枚・動画 $0.10/秒) / [補完] xAI: Grok Voice Agent Builder ベータ ($0.05/分・ノーコード音声 AI) / [補完] Anthropic: カリフォルニア州全機関に Claude 50% 割引 / Agents-A1 — 35B MoE で兆パラメータ級エージェント性能
 - [2026-07-02](summaries/2026/07/2026-07-02.md) — [続報] Fable 5 & Mythos 5 全面復旧 (20日間の停止終了・輸出規制撤廃) / [補完] Anthropic: Claude Sonnet 5 発表 (SWE-bench 92.4%・$2/$10・1M コンテキスト) / Meta: 余剰 AI コンピュートを外部販売する「Meta Compute」クラウド参入を計画発表 (株価 +9%)
 - [2026-07-01](summaries/2026/07/2026-07-01.md) — Anthropic: Claude Science ベータ公開 (60+ 科学 DB 統合 AI ワークベンチ・「AI for Science」イベント発表) / Microsoft: M365 グローバル価格改定が本日実施 (Business Standard+Copilot ~$23.50/月 等) / [続報] GPT-5.6 Sol が Cerebras で 750 tok/s (7月) / Meta: Brain2Qwerty v2 発表 (非侵襲 MEG で 61% 単語精度)
 - [2026-06-30](summaries/2026/06/2026-06-30.md) — Claude in Microsoft Foundry GA (Azure ネイティブ・Opus 4.8 / Haiku 4.5・NVIDIA GB300) / [続報] Fable 5 停止 18 日目・Jerusalem Post「まもなく復旧」報道 / Google: Meta の Gemini コンピュートを制限・Muse Spark へ移行加速 / Gemini パーソナライズ画像生成を米国一般ユーザーに無料開放 / GitHub Trending: OmniRoute (+614★) / facebook/astryx (+394★)
 - [2026-06-29](summaries/2026/06/2026-06-29.md) — Austria が EU に Anthropic 誘致を要請 (輸出規制対抗の AI 主権戦略) / [続報] Zhipu GLM-5.2 が停止 16 日で Mythos 5 同水準のセキュリティ能力を主張 / [続報] Fable 5 停止 17 日目 / 明日 (6/30) Anthropic「AI for Science」ライブ配信 / GitHub Trending: Vibe-Trading (+490★) / video-use (+324★)
 - [2026-06-28](summaries/2026/06/2026-06-28.md) — [続報] Anthropic: 米商務省が Mythos 5 の輸出規制解除・100+ 米国機関が即時アクセス可能・Fable 5 は依然停止 / [補完] Google: Gemini 3.5 Pro の 6/30 GA を 7 月に延期・GPT-5.6・Grok 5 も 7 月スリップ / GitHub Trending: topoteretes/cognee (AIエージェントメモリプラット・+808★) / ppt-master (+589★) / graphify (+435★)
-- [2026-06-27](summaries/2026/06/2026-06-27.md) — OpenAI × Broadcom: 推論専用チップ「Jalapeño」発表 / OpenAI: GPT-5.6「Sol/Terra/Luna」限定プレビュー＋ホワイトハウスが慎重公開を要請 / OpenAI: GPT-4.5 本日引退 / [続報] Gemini 研究者6日間で4名 Anthropic へ / 米4州が AI 規制法を一斉処理＋ホワイトハウス AI 大統領令
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
