@@ -1,0 +1,153 @@
+{
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T08:05:00+09:00",
+  "sources_checked": 28,
+  "sources_failed": 22,
+  "items": [
+    {
+      "id": "2026-07-05-anthropic-china-crackdown",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "中国企業による Claude 不正利用を全面遮断へ",
+      "summary": "Alibaba Qwen ラボが 25,000 アカウントで 2,880 万回の蒸留攻撃を実行と公表。シンガポール子会社・VPN 経由のアクセスを遮断する対策を実施。",
+      "url": "https://www.banklesstimes.com/articles/2026/07/03/anthropic-moves-to-block-chinese-firms-using-claude-via-offshore-workarounds/",
+      "importance": "highlight",
+      "tags": ["security", "china", "distillation-attack", "export-controls", "anthropic"]
+    },
+    {
+      "id": "2026-07-05-anthropic-jailbreak-framework",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[補完] Fable 5 サイバーセーフガードとジェイルブレーク重大度フレームワーク詳細公開",
+      "summary": "Amazon・Microsoft・Google の Glasswing パートナーと共同策定中のジェイルブレーク重大度フレームワーク草案を公開。4軸 (能力向上度・広さ・武器化容易性・発見可能性) で深刻度を評価。",
+      "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+      "importance": "standard",
+      "tags": ["security", "jailbreak", "glasswing", "anthropic", "fable-5"]
+    },
+    {
+      "id": "2026-07-05-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-05-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-05-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-05-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-05-meituan-longcat-20",
+      "type": "new",
+      "vendor": "Meituan",
+      "section": "vendor",
+      "title": "[補完] Meituan: LongCat-2.0 — 1.6T MoE オープンソース公開",
+      "summary": "1.6T MoE・中国製チップ完全訓練・MIT ライセンス。SWE-bench Pro 59.5 で GPT-5.5 (58.6) 超。OpenRouter で匿名トップだった「Owl Alpha」の正体。重み公開は近日予定。",
+      "url": "https://www.longcatai.org/news/longcat-2",
+      "importance": "highlight",
+      "tags": ["model-release", "open-source", "china", "coding", "meituan", "moe"]
+    },
+    {
+      "id": "2026-07-05-together-ai-800m",
+      "type": "new",
+      "vendor": "Together AI",
+      "section": "vendor",
+      "title": "[補完] Together AI: $800M Series C 調達、評価額 $8.3B",
+      "summary": "Aramco Ventures 主導、評価額 $8.3B・総調達 $13 億。年間ブッキング $1.15B 突破。オープンソース推論で顧客は API コストを最大 20 分の 1 に削減。",
+      "url": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/",
+      "importance": "highlight",
+      "tags": ["funding", "open-source", "inference", "together-ai", "series-c"]
+    },
+    {
+      "id": "2026-07-05-un-ai-governance",
+      "type": "new",
+      "vendor": null,
+      "section": "governance",
+      "title": "国連: AI ガバナンス初の政府間対話が明日ジュネーブで開幕",
+      "summary": "193 カ国参加の初の国連 AI ガバナンス政府間対話 (7/6〜7、ジュネーブ)。独立科学パネルが「AI 能力の進歩は各国政府の規制能力を超えている」と警告。WSIS・AI for Good と同時開催。",
+      "url": "https://www.un.org/global-dialogue-ai-governance/en",
+      "importance": "highlight",
+      "tags": ["governance", "regulation", "un", "international", "policy"]
+    },
+    {
+      "id": "2026-07-05-github-agentskills",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: agentskills/agentskills",
+      "summary": "AI エージェントスキルの仕様・ドキュメント集。Claude Code や Cursor が共通フォーマットでスキルを呼び出せる標準インターフェースを定義。今日 +351★。",
+      "url": "https://github.com/agentskills/agentskills",
+      "importance": "standard",
+      "tags": ["github-trending", "agent-skills", "claude-code"]
+    },
+    {
+      "id": "2026-07-05-github-claude-code",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "GitHub Trending: anthropics/claude-code",
+      "summary": "Anthropic 公式 Claude Code CLI がトレンド入り。累計 136,070★、今日 +408★。",
+      "url": "https://github.com/anthropics/claude-code",
+      "importance": "standard",
+      "tags": ["github-trending", "claude-code", "anthropic"]
+    },
+    {
+      "id": "2026-07-05-github-ruflo",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: ruvnet/ruflo",
+      "summary": "マルチプレイヤー AI スウォームと自律ワークフロー協調プラットフォーム。RAG・適応型メモリ統合。今日 +166★。",
+      "url": "https://github.com/ruvnet/ruflo",
+      "importance": "minor",
+      "tags": ["github-trending", "multi-agent", "swarm", "workflow"]
+    },
+    {
+      "id": "2026-07-05-vibevoice-paper",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "VibeVoice — 次世代トークン拡散による長文マルチスピーカー音声合成",
+      "summary": "次世代トークン拡散と高効率連続音声トークナイザーを組み合わせた長文マルチスピーカー音声合成。品質・忠実度で優れた性能を達成。HF Papers でトレンド入り。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["tts", "speech-synthesis", "diffusion", "multi-speaker"]
+    },
+    {
+      "id": "2026-07-05-media-venturebeat-longcat",
+      "type": "new",
+      "vendor": "Meituan",
+      "section": "media",
+      "title": "VentureBeat: Meituan LongCat-2.0 詳報",
+      "summary": "中国製チップだけで訓練した 1T 超モデルが OpenRouter で匿名トップだった経緯を詳報。",
+      "url": "https://venturebeat.com/technology/meituan-open-sources-longcat-2-0-the-1-6t-near-frontier-agentic-coding-model-thats-been-leading-openrouter-trained-entirely-on-chinese-chips",
+      "importance": "standard",
+      "tags": ["media", "open-source", "china", "meituan"]
+    },
+    {
+      "id": "2026-07-05-media-un-ai-warning",
+      "type": "new",
+      "vendor": null,
+      "section": "media",
+      "title": "UN News: AI の進歩は各国政府の規制能力を超えている",
+      "summary": "国連独立科学パネルの予備報告を受け、明日開幕のジュネーブ AI ガバナンス会議への注目が高まっている。",
+      "url": "https://news.un.org/en/story/2026/07/1167848",
+      "importance": "standard",
+      "tags": ["media", "governance", "un", "regulation"]
+    }
+  ]
+}
