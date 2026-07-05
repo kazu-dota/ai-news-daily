@@ -1,5 +1,215 @@
 [
   {
+    "date": "2026-07-06",
+    "id": "2026-07-06-openai-dean-ball-strategic-futures",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "Dean Ball が Strategic Futures 部門長として 7/6 入社",
+    "summary": "元ホワイトハウス AI Action Plan 共同著者が OpenAI の新設 Strategic Futures 部門を率いる。フロンティア AI ポリシー・壊滅的リスク・労働市場影響を担当。IPO 前の戦略的採用が続く。",
+    "url": "https://www.thefai.org/posts/dean-ball-joins-openai-as-head-of-strategic-futures",
+    "importance": "highlight",
+    "tags": [
+      "openai",
+      "policy",
+      "hiring",
+      "ipo",
+      "strategic-futures",
+      "governance"
+    ]
+  },
+  {
+    "date": "2026-07-06",
+    "id": "2026-07-06-un-ai-governance-opens",
+    "type": "followup",
+    "vendor": null,
+    "section": "governance",
+    "title": "[続報] 国連: 世界初の政府間 AI ガバナンス対話がジュネーブで開幕 (7/6〜7)",
+    "summary": "193 カ国参加。科学パネル共同議長は Yoshua Bengio × Maria Ressa。政府側共同議長は El Salvador・Estonia 大使。WSIS Forum・ITU AI for Good と同時開催。",
+    "url": "https://news.un.org/en/story/2026/07/1167862",
+    "importance": "highlight",
+    "related_date": "2026-07-05",
+    "tags": [
+      "governance",
+      "united-nations",
+      "geneva",
+      "global-dialogue",
+      "yoshua-bengio"
+    ]
+  },
+  {
+    "date": "2026-07-06",
+    "id": "2026-07-06-whitehouse-ai-standards-imminent",
+    "type": "followup",
+    "vendor": null,
+    "section": "governance",
+    "title": "[続報] 米ホワイトハウス「自発的 AI 公開基準」: 明日 (7/7) 発表見込み",
+    "summary": "30 日間の政府事前レビューとフロンティアモデル閾値を定める枠組み。6/2 大統領令に基づく。GPT-5.6 Sol の一般公開条件と連動。",
+    "url": "https://tradersunion.com/news/financial-news/show/2550448-white-house-ai-model-standards/",
+    "importance": "highlight",
+    "related_date": "2026-07-04",
+    "tags": [
+      "governance",
+      "white-house",
+      "policy",
+      "gpt-5-6",
+      "openai",
+      "voluntary-standards"
+    ]
+  },
+  {
+    "date": "2026-07-06",
+    "id": "2026-07-06-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-06",
+    "id": "2026-07-06-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-06",
+    "id": "2026-07-06-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-06",
+    "id": "2026-07-06-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-06",
+    "id": "2026-07-06-mistral-leanstral-15",
+    "type": "new",
+    "vendor": "Mistral",
+    "section": "vendor",
+    "title": "[補完] Leanstral 1.5 — Lean 4 形式証明エンジニアリング特化モデル (7/3 公開)",
+    "summary": "Apache 2.0、119B/6B MoE 構成。PutnamBench 587/672、miniF2F 飽和、FATE-H 87%。無料 API エンドポイント提供。",
+    "url": "https://mistral.ai/news/leanstral-1-5/",
+    "importance": "standard",
+    "tags": [
+      "mistral",
+      "leanstral",
+      "open-source",
+      "formal-verification",
+      "lean4",
+      "math",
+      "apache-2"
+    ]
+  },
+  {
+    "date": "2026-07-06",
+    "id": "2026-07-06-github-claude-skills",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: alirezarezvani/claude-skills (+394★)",
+    "summary": "337 種類の Claude Code スキル・エージェントスキル・プラグインコレクション。",
+    "url": "https://github.com/alirezarezvani/claude-skills",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "claude-code",
+      "skills",
+      "agent"
+    ]
+  },
+  {
+    "date": "2026-07-06",
+    "id": "2026-07-06-github-free-llm-api-resources",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: cheahjs/free-llm-api-resources (+510★)",
+    "summary": "API 経由で利用できる無料 LLM 推論リソースのコミュニティ更新一覧。",
+    "url": "https://github.com/cheahjs/free-llm-api-resources",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "llm",
+      "free",
+      "inference",
+      "api"
+    ]
+  },
+  {
+    "date": "2026-07-06",
+    "id": "2026-07-06-github-last30days-skill",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: mvanhorn/last30days-skill (+236★)",
+    "summary": "Reddit・X・YouTube・HN 横断の過去 30 日トレンド調査 Claude Code スキル。",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "claude-code",
+      "skills",
+      "research"
+    ]
+  },
+  {
+    "date": "2026-07-06",
+    "id": "2026-07-06-github-openclaw",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: openclaw/openclaw (+196★)",
+    "summary": "OS・プラットフォーム問わず動作するオープンソースパーソナル AI アシスタント (★381k)。",
+    "url": "https://github.com/openclaw/openclaw",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "ai-assistant",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-07-06",
+    "id": "2026-07-06-github-oh-my-pi",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: can1357/oh-my-pi (+178★)",
+    "summary": "ハッシュアンカード編集と LSP 統合を備えたターミナル向け AI コーディングエージェント。",
+    "url": "https://github.com/can1357/oh-my-pi",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "coding-agent",
+      "terminal",
+      "lsp"
+    ]
+  },
+  {
+    "date": "2026-07-06",
+    "id": "2026-07-06-paper-mmgrpo",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "mmGRPO — DSPy 統合マルチモジュール型 GRPO (arXiv:2508.04660)",
+    "summary": "複数 LM コール横断のポリシー勾配最適化。プロンプト最適化との組み合わせで平均 +11% 精度向上。DSPy に統合済み。",
+    "url": "https://arxiv.org/abs/2508.04660",
+    "importance": "minor",
+    "tags": [
+      "paper",
+      "grpo",
+      "dspy",
+      "prompt-optimization",
+      "rl",
+      "llm"
+    ]
+  },
+  {
     "id": "2026-07-05-anthropic-china-crackdown",
     "type": "new",
     "vendor": "Anthropic",
