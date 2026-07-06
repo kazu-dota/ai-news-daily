@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-07-07](summaries/2026/07/2026-07-07.md) — [補完] Anthropic × Samsung カスタム AI チップ交渉 (2nm プロセス) / Fable 5 が本日よりクレジット制移行 ($10/$50 per Mtok) / 国連 AI ガバナンス対話閉会 (2027/5 NY 第 2 セッション) / Mistral CEO: 夏の新旗艦オープンウェイトモデルを確認 / Meta: ワシントン州 1,395 名解雇 7/22 開始
 - [2026-07-06](summaries/2026/07/2026-07-06.md) — OpenAI: 元ホワイトハウス AI 顧問 Dean Ball が Strategic Futures 部門長として入社 / 国連: 世界初の政府間 AI ガバナンス対話がジュネーブで開幕 (193 カ国参加・Yoshua Bengio × Maria Ressa 共同議長) / 米ホワイトハウス「自発的 AI 公開基準」明日 (7/7) 発表見込み / [補完] Mistral: Leanstral 1.5 公開 (Lean 4 形式証明・PutnamBench 587/672)
 - [2026-07-05](summaries/2026/07/2026-07-05.md) — Anthropic: 中国企業による Claude 不正利用を全面遮断 (Alibaba Qwen ラボが 2,880 万回の蒸留攻撃) / Meituan: LongCat-2.0 — 1.6T MoE オープンソース公開 (SWE-bench Pro 59.5 で GPT-5.5 超) / Together AI: $800M Series C 調達・評価額 $8.3B / 国連: AI ガバナンス初の政府間対話がジュネーブで開幕 (193 カ国参加)
 - [2026-07-04](summaries/2026/07/2026-07-04.md) — OpenAI: 米国政府への 5% 株式提供を提案 (~$42.6B) / Anthropic ARR $30B 超で OpenAI を追い越したとの報道 / White House が主要 AI 3 社と「自発的 AI 公開基準」策定を協議 / [補完] Claude Enterprise 管理者向け新機能 GA / [補完] xAI: Grok 4.5 が SpaceX・Tesla で private beta 開始
 - [2026-07-03](summaries/2026/07/2026-07-03.md) — [補完] Google: Nano Banana 2 Lite & Gemini Omni Flash 同時リリース (画像 $0.034/枚・動画 $0.10/秒) / [補完] xAI: Grok Voice Agent Builder ベータ ($0.05/分・ノーコード音声 AI) / [補完] Anthropic: カリフォルニア州全機関に Claude 50% 割引 / Agents-A1 — 35B MoE で兆パラメータ級エージェント性能
 - [2026-07-02](summaries/2026/07/2026-07-02.md) — [続報] Fable 5 & Mythos 5 全面復旧 (20日間の停止終了・輸出規制撤廃) / [補完] Anthropic: Claude Sonnet 5 発表 (SWE-bench 92.4%・$2/$10・1M コンテキスト) / Meta: 余剰 AI コンピュートを外部販売する「Meta Compute」クラウド参入を計画発表 (株価 +9%)
 - [2026-07-01](summaries/2026/07/2026-07-01.md) — Anthropic: Claude Science ベータ公開 (60+ 科学 DB 統合 AI ワークベンチ・「AI for Science」イベント発表) / Microsoft: M365 グローバル価格改定が本日実施 (Business Standard+Copilot ~$23.50/月 等) / [続報] GPT-5.6 Sol が Cerebras で 750 tok/s (7月) / Meta: Brain2Qwerty v2 発表 (非侵襲 MEG で 61% 単語精度)
-- [2026-06-30](summaries/2026/06/2026-06-30.md) — Claude in Microsoft Foundry GA (Azure ネイティブ・Opus 4.8 / Haiku 4.5・NVIDIA GB300) / [続報] Fable 5 停止 18 日目・Jerusalem Post「まもなく復旧」報道 / Google: Meta の Gemini コンピュートを制限・Muse Spark へ移行加速 / Gemini パーソナライズ画像生成を米国一般ユーザーに無料開放 / GitHub Trending: OmniRoute (+614★) / facebook/astryx (+394★)
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
