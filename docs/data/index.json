@@ -1,5 +1,282 @@
 [
   {
+    "date": "2026-07-07",
+    "id": "2026-07-07-anthropic-samsung-chip",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[補完] Samsung と 2nm プロセスのカスタム AI チップ交渉 (7/2 報道)",
+    "summary": "Anthropic が Samsung の 2nm プロセスで自社専用 AI チップを製造する交渉を開始。元 OpenAI チップ担当 Clive Chan も採用済み。計画は初期段階で詳細未確定。",
+    "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+    "importance": "highlight",
+    "tags": [
+      "chip",
+      "hardware",
+      "samsung",
+      "anthropic",
+      "semiconductor"
+    ]
+  },
+  {
+    "date": "2026-07-07",
+    "id": "2026-07-07-anthropic-fable5-billing",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Fable 5 が本日 (7/7) より使用量クレジット制 ($10/$50 per Mtok) に移行",
+    "summary": "7/1 復旧後のウィークリー無償枠 (最大 50%) が本日終了。Pro/Max/Team/Enterprise 全プランが従量課金へ。Anthropic は「一時的措置」と説明。",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/",
+    "importance": "standard",
+    "tags": [
+      "fable5",
+      "pricing",
+      "billing",
+      "anthropic",
+      "subscription"
+    ]
+  },
+  {
+    "date": "2026-07-07",
+    "id": "2026-07-07-openai-gpt56-limited-preview",
+    "type": "followup",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "[続報] GPT-5.6 Sol/Terra/Luna: 一般アクセス窓口 (7/7〜14) 突入、本日 GA 未確認",
+    "summary": "約 20 機関限定プレビュー継続中。White House 自発的 AI 公開基準発表が GA のトリガーとなる見込み。本日 JST 8:05 時点では GA アナウンス確認できず。",
+    "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+    "related_date": "2026-07-06",
+    "importance": "standard",
+    "tags": [
+      "gpt-5.6",
+      "openai",
+      "release",
+      "whitehouse",
+      "voluntary-standards"
+    ]
+  },
+  {
+    "date": "2026-07-07",
+    "id": "2026-07-07-google-gemini35-preview",
+    "type": "followup",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "[続報] Gemini 3.5 Pro: 7月第2週も Vertex AI 限定プレビュー継続、GA 未発表",
+    "summary": "5月 I/O 発表以降 GA 目標を 2 回先延ばし。2M トークンコンテキストを擁するフラッグシップだが本日 JST 8:05 時点での GA アナウンスは確認されなかった。",
+    "url": "https://www.marketscale.com/industries/software-and-technology/gemini-3-5-pro-still-in-preview-what-enterprise-teams-evaluating-a-model-should-do-now",
+    "related_date": "2026-07-05",
+    "importance": "minor",
+    "tags": [
+      "gemini",
+      "google",
+      "release-delay",
+      "vertex-ai"
+    ]
+  },
+  {
+    "date": "2026-07-07",
+    "id": "2026-07-07-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-07",
+    "id": "2026-07-07-meta-warn-wa",
+    "type": "followup",
+    "vendor": "Meta",
+    "section": "vendor",
+    "title": "[続報] Meta: ワシントン州 1,395 名の解雇 WARN 申告提出、7/22 開始",
+    "summary": "ベルビュー 699・シアトル 259・レドモンド 206・リモート 231 名が対象。同州雇用の約 20%。5 月発表 AI 再編の実施フェーズ。",
+    "url": "https://www.geekwire.com/2026/meta-cuts-nearly-1400-jobs-in-washington-state-20-of-local-workforce-in-sweeping-ai-revamp/",
+    "related_date": "2026-07-04",
+    "importance": "standard",
+    "tags": [
+      "meta",
+      "layoffs",
+      "restructuring",
+      "ai-investment",
+      "warn"
+    ]
+  },
+  {
+    "date": "2026-07-07",
+    "id": "2026-07-07-mistral-summer-model",
+    "type": "new",
+    "vendor": "Mistral",
+    "section": "vendor",
+    "title": "Mistral CEO: 今夏の新オープンウェイト旗艦モデルを正式確認、7 月早期アクセス開始",
+    "summary": "CEO Arthur Mensch が ARR $400M 超到達と同時に今夏フラッグシップモデルを確認。オープンウェイト・7 月早期アクセス以外の詳細は未公開。Leanstral 1.5 とは別物。",
+    "url": "https://aiweekly.co/alerts/mistral-confirms-open-weight-model-launch-as-arr-tops-400m",
+    "importance": "highlight",
+    "tags": [
+      "mistral",
+      "open-weight",
+      "model-release",
+      "eu-ai"
+    ]
+  },
+  {
+    "date": "2026-07-07",
+    "id": "2026-07-07-github-claude-video",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "bradautomates/claude-video — Claude Code で動画を解析するスキル (★4,178, +539 today)",
+    "summary": "YouTube・TikTok等のURLやローカルパスから動画をダウンロード・フレーム抽出・文字起こしして Claude に解析させる Claude Code スキル。v0.2.0 を 7/1 にリリース。",
+    "url": "https://github.com/bradautomates/claude-video",
+    "importance": "standard",
+    "tags": [
+      "claude-code",
+      "github-trending",
+      "video",
+      "skill"
+    ]
+  },
+  {
+    "date": "2026-07-07",
+    "id": "2026-07-07-github-awesome-claude-code",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "hesreallyhim/awesome-claude-code — Claude Code エコシステムのキュレーションリスト (★48,720, +562 today)",
+    "summary": "Claude Code のスキル・エージェント・開発ツール・リソースをコミュニティ厳選でまとめたリポジトリ。急拡大するエコシステムの全体像を把握できる。",
+    "url": "https://github.com/hesreallyhim/awesome-claude-code",
+    "importance": "standard",
+    "tags": [
+      "claude-code",
+      "github-trending",
+      "awesome-list",
+      "community"
+    ]
+  },
+  {
+    "date": "2026-07-07",
+    "id": "2026-07-07-github-trading-agents",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "TauricResearch/TradingAgents — マルチ LLM エージェント金融取引フレームワーク (★91,363, +321 today)",
+    "summary": "市場調査・基本分析・テクニカル分析・リスク管理を担うエージェントが並列動作し合議で売買判断を下す LLM 金融取引フレームワーク。",
+    "url": "https://github.com/TauricResearch/TradingAgents",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "trading",
+      "multi-agent",
+      "finance",
+      "llm"
+    ]
+  },
+  {
+    "date": "2026-07-07",
+    "id": "2026-07-07-github-firecrawl",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "firecrawl-dev/firecrawl — ウェブスクレイピング・検索 API (★146,177, +834 today)",
+    "summary": "Webサイトをクロール・スクレイプして AI 処理に適した Markdown に変換する API プラットフォーム。RAG パイプラインやエージェントのデータ収集基盤として広く採用。本日 +834★ の大幅急騰。",
+    "url": "https://github.com/firecrawl-dev/firecrawl",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "web-scraping",
+      "rag",
+      "api",
+      "data-collection"
+    ]
+  },
+  {
+    "date": "2026-07-07",
+    "id": "2026-07-07-github-terax",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "terax-ai/terax — 7MB ターミナルファースト AI 開発ワークスペース (★8,322, +136 today)",
+    "summary": "エディタ・エージェント実行・ターミナルを統合した超軽量 TUI の AI ネイティブ開発環境。バイナリサイズわずか 7MB。",
+    "url": "https://github.com/terax-ai/terax",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "tui",
+      "terminal",
+      "ai-ide",
+      "lightweight"
+    ]
+  },
+  {
+    "date": "2026-07-07",
+    "id": "2026-07-07-paper-ai-trader",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "AI-Trader — LLM 金融意思決定の初の自動ライブベンチマーク",
+    "summary": "複数の金融市場で LLM の実際の投資判断を継続自動評価する初のライブベンチマーク。実リターンと意思決定レイテンシの両軸で計測。HF Papers トレンド入り。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "benchmark",
+      "finance",
+      "llm",
+      "agent",
+      "evaluation"
+    ]
+  },
+  {
+    "date": "2026-07-07",
+    "id": "2026-07-07-un-dialogue-close",
+    "type": "followup",
+    "vendor": null,
+    "section": "governance",
+    "title": "[続報] UN AI ガバナンス政府間対話 (7/6〜7) が本日閉会、2027 年 5 月ニューヨーク第 2 セッション",
+    "summary": "193 ヶ国参加の史上初の政府間 AI ガバナンス対話が 2 日間で閉幕。次回は 2027/5 ニューヨーク。秘書長 Guterres「AI に未来を vibe-code させるな」と警告。",
+    "url": "https://news.un.org/en/story/2026/07/1167873",
+    "related_date": "2026-07-06",
+    "importance": "highlight",
+    "tags": [
+      "governance",
+      "un",
+      "ai-regulation",
+      "international",
+      "intergovernmental"
+    ]
+  },
+  {
+    "date": "2026-07-07",
+    "id": "2026-07-07-itu-summit-opens",
+    "type": "new",
+    "vendor": null,
+    "section": "media",
+    "title": "ITU AI for Good Global Summit 2026 — Day Zero in Geneva (7/7〜10)",
+    "summary": "ITU 主催の年次 AI サミットが本日ジュネーブで開幕。7/7 は Day Zero としてデモ・展示・スタートアップ競技を実施。UN AI Governance Dialogue 直後に同会場で続く構成。",
+    "url": "https://aiforgood.itu.int/summit26/",
+    "importance": "minor",
+    "tags": [
+      "itu",
+      "ai-for-good",
+      "summit",
+      "geneva",
+      "governance"
+    ]
+  },
+  {
+    "date": "2026-07-07",
+    "id": "2026-07-07-meta-warn-media",
+    "type": "followup",
+    "vendor": "Meta",
+    "section": "media",
+    "title": "[メディア] Meta: ワシントン州 1,395 名解雇 WARN 申告 — GeekWire 詳報",
+    "summary": "5 月全社再編の実施フェーズとして 7/22 からベルビュー・シアトル・レドモンドで解雇開始予定。州内雇用の約 20% に相当。",
+    "url": "https://www.geekwire.com/2026/meta-cuts-nearly-1400-jobs-in-washington-state-20-of-local-workforce-in-sweeping-ai-revamp/",
+    "related_date": "2026-07-04",
+    "importance": "minor",
+    "tags": [
+      "meta",
+      "layoffs",
+      "media",
+      "geekwire"
+    ]
+  },
+  {
     "date": "2026-07-06",
     "id": "2026-07-06-openai-dean-ball-strategic-futures",
     "type": "new",
