@@ -1,0 +1,184 @@
+{
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T08:15:00+09:00",
+  "sources_checked": 28,
+  "sources_failed": 24,
+  "items": [
+    {
+      "id": "2026-07-08-microsoft-mai-office",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "[補完] Microsoft: MAI モデルが Excel・Outlook の AI プロンプトを週数万件規模で内製代替 (7/7)",
+      "summary": "Excel・Outlook のAIプロンプトを週数万件単位で自社MAIモデルへ切り替え開始。Suleiman「Anthropicへの支出を最終的にゼロにしたい」と明言。OpenAI出資企業がOpenAIモデルも代替し始めた業界的転換点。",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-07/microsoft-replaces-openai-anthropic-with-own-ai-in-some-apps",
+      "importance": "highlight",
+      "tags": ["microsoft", "mai-model", "cost-reduction", "office", "excel", "outlook", "openai", "anthropic"]
+    },
+    {
+      "id": "2026-07-08-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-08-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-08-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-08-xai-grok-imagine",
+      "type": "new",
+      "vendor": "xAI",
+      "section": "vendor",
+      "title": "[補完] xAI: Grok Imagine アップデートを 7/7 に公開 — マルチモーダル画像・動画生成が正式稼働",
+      "summary": "7/5「開発完了」宣言の2日後、7/7にGrok Imagineアップデートを正式リリース。Auroraモデルベースのテキスト→画像・動画生成が正式稼働。",
+      "url": "https://x.ai/",
+      "importance": "standard",
+      "tags": ["xai", "grok", "grok-imagine", "image-generation", "video-generation", "multimodal", "aurora"]
+    },
+    {
+      "id": "2026-07-08-mistral-large-3",
+      "type": "followup",
+      "vendor": "Mistral",
+      "section": "vendor",
+      "title": "[続報] Mistral Large 3: 41B active / 675B total sparse MoE、Apache 2.0 で 7 月早期アクセス",
+      "summary": "7/7確認のMistral新旗艦の詳細が判明。Mistral Large 3 (41B active / 675B total パラメータのsparse MoE)、Apache 2.0ライセンス。7月早期アクセス開始予定。",
+      "url": "https://www.techtimes.com/articles/319798/20260706/mistral-ai-targets-frontier-gap-open-weight-model-entering-july-early-access.htm",
+      "related_date": "2026-07-07",
+      "importance": "standard",
+      "tags": ["mistral", "mistral-large-3", "open-weight", "moe", "apache-2.0", "model-release"]
+    },
+    {
+      "id": "2026-07-08-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-08-whitehouse-ai-standards",
+      "type": "followup",
+      "vendor": "Governance",
+      "section": "governance",
+      "title": "[続報] 米ホワイトハウス「自発的 AI 公開基準」: 閾値設定が最終交渉の焦点、発表は来週以降の見込み",
+      "summary": "7/7発表見込みだったが正式発表未確認。フロンティアモデル閾値設定が企業・政府間の摩擦点。発動時は30日間国家安全保障審査（差し止め権限なし）。GPT-5.6 GA条件として注目継続。",
+      "url": "https://faq.com.tw/en/policy/2026-07-04-white-house-voluntary-ai-release-standards-en/",
+      "related_date": "2026-07-06",
+      "importance": "standard",
+      "tags": ["white-house", "ai-governance", "voluntary-standards", "openai", "gpt-5-6", "policy"]
+    },
+    {
+      "id": "2026-07-08-github-ai-job-search",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "MadsLorentzen/ai-job-search — Claude Code ベースの就活自動化フレームワーク (+2,402★ today)",
+      "summary": "Claude Codeで求人評価・CV作成・カバーレター・面接準備を代行するフレームワーク。LaTeX PDF生成とATSスコアリングを内包。本日+2,402★と突出した急騰。",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "importance": "standard",
+      "tags": ["github-trending", "claude-code", "job-search", "ai-agent", "typescript"]
+    },
+    {
+      "id": "2026-07-08-github-tencent-agent-memory",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "TencentCloud/TencentDB-Agent-Memory — 4 層プログレッシブパイプライン長期記憶 (+567★ today)",
+      "summary": "AI エージェント向けのローカル動作長期記憶システム。タイプ付き意味論的な4層パイプラインでセッションをまたぐ状態保持を実現。",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "importance": "standard",
+      "tags": ["github-trending", "agent-memory", "long-term-memory", "tencent", "typescript"]
+    },
+    {
+      "id": "2026-07-08-github-nous-hermes-agent",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "NousResearch/hermes-agent — \"The agent that grows with you\" (+688★ today)",
+      "summary": "Nous Research製 AI エージェント。使うほど学習した文脈・嗜好・履歴を蓄積し個人最適化されていく設計。",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "importance": "standard",
+      "tags": ["github-trending", "ai-agent", "nous-research", "personalization", "python"]
+    },
+    {
+      "id": "2026-07-08-github-kyutai-pocket-tts",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "kyutai-labs/pocket-tts — CPU に収まるオンデバイス TTS (+510★ today)",
+      "summary": "Moshi開発元のフランスAIラボ Kyutai が公開。GPU不要でローカル動作し、エッジデバイス・省リソース環境で高品質音声合成を実現。",
+      "url": "https://github.com/kyutai-labs/pocket-tts",
+      "importance": "standard",
+      "tags": ["github-trending", "tts", "on-device", "edge-ai", "kyutai", "python"]
+    },
+    {
+      "id": "2026-07-08-github-anthropics-skills",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "anthropics/skills — Anthropic 公式 Agent Skills 公開リポジトリ (+426★ today)",
+      "summary": "Claude CodeやAIエージェントが呼び出せるスキルの仕様と参照実装を集約するAnthropicの公式リポジトリ。エコシステム標準化を担う中核リポジトリ。",
+      "url": "https://github.com/anthropics/skills",
+      "importance": "standard",
+      "tags": ["github-trending", "anthropic", "claude-code", "agent-skills", "official", "python"]
+    },
+    {
+      "id": "2026-07-08-paper-monotonic-inference",
+      "type": "new",
+      "vendor": "Research",
+      "section": "papers",
+      "title": "The Mirage of Optimizing Training Policies: Monotonic Inference Policies as the Real Objective for LLM RL",
+      "summary": "LLM強化学習の「学習ポリシー最適化」は本来の目標ではなく、真の目標は「推論ポリシーの単調改善」だという理論的主張。RL崩壊・不安定性がこの乖離から生じると指摘。HF Papersトレンド入り。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["paper", "reinforcement-learning", "llm", "rl-training", "inference", "hf-papers"]
+    },
+    {
+      "id": "2026-07-08-paper-embodied-cpp",
+      "type": "new",
+      "vendor": "Research",
+      "section": "papers",
+      "title": "Embodied.cpp: A Portable Inference Runtime of Embodied AI Models on Heterogeneous Robots",
+      "summary": "ロボティクス向けAIモデルを異種ハードウェア(CPU/GPU/エッジチップ)で統一的に動かせる移植性の高い推論ランタイム。特定プラットフォーム依存を排除しEmbodied AIのdeployment問題に取り組む。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["paper", "robotics", "embodied-ai", "inference-runtime", "edge-ai", "hf-papers"]
+    },
+    {
+      "id": "2026-07-08-media-bloomberg-microsoft-mai",
+      "type": "new",
+      "vendor": "Media",
+      "section": "media",
+      "title": "[Bloomberg] Microsoft Replaces OpenAI, Anthropic With Own AI in Some Apps",
+      "summary": "OpenAI出資企業がOpenAI/Anthropicモデルを内製MAIで代替し始めた業界的転換点の詳報。MAIがClaude Opus 4.6相当のコーディング性能をより低コストで実現できるとの判断。",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-07/microsoft-replaces-openai-anthropic-with-own-ai-in-some-apps",
+      "importance": "standard",
+      "tags": ["media", "bloomberg", "microsoft", "mai", "openai", "anthropic"]
+    },
+    {
+      "id": "2026-07-08-media-itu-summit",
+      "type": "followup",
+      "vendor": "Governance",
+      "section": "media",
+      "title": "ITU AI for Good Global Summit 2026 — Centre Stage 本日開幕 (7/8)",
+      "summary": "ジュネーブ4日間サミット(7/7-10)のCentre Stageが本日開幕。「RAISE」ドキュメンタリー(DiCaprio監修)世界初上映、エージェントAIセキュリティ・AI標準化政策対話、量子/BCIライブデモ。",
+      "url": "https://aiforgood.itu.int/summit26/",
+      "related_date": "2026-07-07",
+      "importance": "minor",
+      "tags": ["media", "itu", "ai-governance", "summit", "geneva", "policy"]
+    },
+    {
+      "id": "2026-07-08-hacker-news-no-update",
+      "type": "no-update",
+      "vendor": "HackerNews",
+      "section": "community"
+    }
+  ]
+}
