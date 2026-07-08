@@ -1,5 +1,321 @@
 [
   {
+    "date": "2026-07-09",
+    "id": "2026-07-09-openai-gpt56-launch",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "GPT-5.6 Sol / Terra / Luna が全世界一般公開 (7/9)",
+    "summary": "米商務省の追加審査完了後に全世界一般公開。Sol は Ultra モード (サブエージェント) と Terminal-Bench 2.1 で 91.9%。Sol $5/$30・Terra $2.5/$15・Luna $1/$6 per Mtok。",
+    "url": "https://www.neowin.net/news/openai-to-release-gpt-56-sol-terra-and-luna-on-july-9/",
+    "importance": "highlight",
+    "tags": [
+      "model-release",
+      "openai",
+      "gpt-5.6",
+      "sol",
+      "terra",
+      "luna",
+      "general-availability"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "id": "2026-07-09-xai-grok45-public",
+    "type": "followup",
+    "vendor": "xAI",
+    "section": "vendor",
+    "title": "[続報] Grok 4.5 がパブリックローンチ — V9 1.5T・Cursor 統合・$2/$6 per Mtok",
+    "summary": "SpaceX・Tesla 向け private beta (7/4) から全公開へ。Cursor 全プランのデフォルトモデルとなり、SWE-Bench Pro でのトークン消費は Opus 4.8 比 4.2 倍効率。",
+    "url": "https://explainx.ai/blog/grok-4-5-public-launch-spacexai-july-2026",
+    "importance": "highlight",
+    "related_date": "2026-07-04",
+    "tags": [
+      "model-release",
+      "xai",
+      "grok-4.5",
+      "cursor",
+      "general-availability"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "id": "2026-07-09-mistral3-launch",
+    "type": "followup",
+    "vendor": "Mistral",
+    "section": "vendor",
+    "title": "[続報] Mistral 3 正式ローンチ: Large 3 (675B MoE) + Ministral 3 小型シリーズ、Apache 2.0 全公開",
+    "summary": "Ministral 3 シリーズ (14B/8B/3B) が Large 3 と同時展開。NVIDIA Blackwell NVL72 向け最適化チェックポイントも提供。10 以上のクラウドプラットフォームで同時提供。",
+    "url": "https://mistral.ai/news/mistral-3/",
+    "importance": "highlight",
+    "related_date": "2026-07-08",
+    "tags": [
+      "model-release",
+      "mistral",
+      "mistral-3",
+      "open-weight",
+      "apache-2.0",
+      "moe"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "id": "2026-07-09-anthropic-cowork-web",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[補完] Claude Cowork が Web・モバイルに拡張 (7/7 発表・補完掲載)",
+    "summary": "バックグラウンド実行・スケジュール実行・M365 書き込み連携 (メール・カレンダー・OneDrive/SharePoint) を追加。Max プランから順次展開中。",
+    "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/",
+    "importance": "highlight",
+    "tags": [
+      "anthropic",
+      "cowork",
+      "mobile",
+      "web",
+      "microsoft-365",
+      "agent"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "id": "2026-07-09-anthropic-terawulf",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[補完] Anthropic × TeraWulf: 20 年・$190 億の Kentucky データセンター契約 (7/6 発表・補完掲載)",
+    "summary": "Kentucky 州 Hawesville に建設中の Justified Data Campus で 401 MW を確保。2027 年後半に初期稼働、2028 年初頭に全 401 MW 展開予定。",
+    "url": "https://www.datacenterdynamics.com/en/news/anthropic-signs-19bn-20-year-lease-for-kentucky-data-center-with-terawulf/",
+    "importance": "standard",
+    "tags": [
+      "anthropic",
+      "datacenter",
+      "infrastructure",
+      "terawulf",
+      "kentucky"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "id": "2026-07-09-google-gemini35pro-delay",
+    "type": "new",
+    "vendor": "Google / Google DeepMind",
+    "section": "vendor",
+    "title": "Gemini 3.5 Pro の GA を 7/17 に再延期 — アーキテクチャを全面再設計",
+    "summary": "Gemini 2.5 Pro アーキテクチャを破棄し、Gemini 3 基盤から再訓練。2M トークンコンテキスト・Deep Think 推論レイヤーを新機能として追加予定。",
+    "url": "https://www.techtimes.com/articles/319877/20260708/gemini-35-pro-targets-july-17-deepseeks-july-24-deadline-hits-developers-now.htm",
+    "importance": "standard",
+    "tags": [
+      "google",
+      "deepmind",
+      "gemini-3.5-pro",
+      "delay",
+      "architecture"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "id": "2026-07-09-microsoft-copilot-watermarks",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "Microsoft Copilot: AI コンテンツ透かし機能を全プラットフォームで有効化",
+    "summary": "AI 生成コンテンツへの視覚・音声ウォーターマークを Android・Windows・iOS・Mac・Web で標準有効化。組織ポリシーで管理者が制御可能。",
+    "url": "https://deadsimplecomputing.co.uk/insights/microsoft-copilot-changes-july-2026",
+    "importance": "standard",
+    "tags": [
+      "microsoft",
+      "copilot",
+      "watermark",
+      "ai-transparency",
+      "m365"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "id": "2026-07-09-microsoft-dynamics365-agents-ga",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "Microsoft: Dynamics 365 Sales Agent / Service Agent が GA",
+    "summary": "M365 Copilot + Dynamics 365 のクロスアプリ統合として Sales Agent と Service Agent が一般提供開始。Outlook・Teams からケース管理・顧客コミュニケーションを自律実行。",
+    "url": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/06/30/service-agent-general-availability/",
+    "importance": "standard",
+    "tags": [
+      "microsoft",
+      "dynamics-365",
+      "sales-agent",
+      "service-agent",
+      "copilot",
+      "ga"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "id": "2026-07-09-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-09",
+    "id": "2026-07-09-whitehouse-ai-standards-update",
+    "type": "followup",
+    "vendor": "US Government",
+    "section": "governance",
+    "title": "[続報] 米ホワイトハウス「自発的 AI 公開基準」: WH が正式許可の存在を否定、交渉継続",
+    "summary": "ホワイトハウスは「政府の許可は不要。OpenAI が自主的に事前共有した」と強調。正式な文書化はまだ未了で GPT-5.6 は任意プロセス完了後に企業判断でローンチされた形。",
+    "url": "https://letsdatascience.com/news/white-house-denies-green-light-for-openai-release-a855d504",
+    "importance": "standard",
+    "related_date": "2026-07-08",
+    "tags": [
+      "us-government",
+      "ai-governance",
+      "openai",
+      "policy",
+      "voluntary-standards"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "id": "2026-07-09-github-graphify",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: Graphify — コードリポジトリを知識グラフへ変換 (+885★)",
+    "summary": "コードと文書を解析してクエリ可能な知識グラフを生成。Claude Code・Cursor・Copilot・Gemini CLI と統合し大規模コードベースの構造理解に活用される (★80,414, +885 today)。",
+    "url": "https://github.com/Graphify/graphify",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "knowledge-graph",
+      "code-analysis",
+      "ai-tools"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "id": "2026-07-09-github-skillopt",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: SkillOpt — 凍結 LM へのスキル学習オプティマイザ (+261★)",
+    "summary": "軌跡駆動の編集で凍結済み LM に自然言語スキルを学習させるフレームワーク。ファインチューニング不要でモデルの挙動をカスタマイズできる (★11,691, +261 today)。",
+    "url": "https://github.com/SkillOpt/skillopt",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "llm",
+      "skill-learning",
+      "optimization"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "id": "2026-07-09-github-understand-anything",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: Understand-Anything — コード/ドキュメントの対話型知識グラフ (+346★)",
+    "summary": "コードやドキュメントを視覚的・意味論的に探索可能な知識グラフへ変換するツール。Claude Code・Cursor・Copilot・Gemini CLI と互換 (TypeScript, ★72,026, +346 today)。",
+    "url": "https://github.com/Egonex-AI/Understand-Anything",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "knowledge-graph",
+      "code-understanding",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "id": "2026-07-09-paper-alayaworld",
+    "type": "new",
+    "vendor": "Research",
+    "section": "papers",
+    "title": "AlayaWorld: Long-Horizon and Playable Video World Generation",
+    "summary": "長時間の時系列を維持しながらユーザーが介入・操作できる「プレイアブルな動画世界」をリアルタイム生成するフルスタック・オープンソースフレームワーク。",
+    "url": "https://huggingface.co/papers/trending",
+    "importance": "standard",
+    "tags": [
+      "paper",
+      "video-generation",
+      "world-model",
+      "generative-ai",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "id": "2026-07-09-paper-rag-anything",
+    "type": "new",
+    "vendor": "Research",
+    "section": "papers",
+    "title": "RAG-Anything: All-in-One RAG Framework",
+    "summary": "テキスト・画像・音声・動画など複数モダリティを統一的に扱う RAG フレームワーク。クロスモーダルな関係性と意味論的マッチングを統合し複合ベンチマークで既存手法を上回る。",
+    "url": "https://huggingface.co/papers/trending",
+    "importance": "standard",
+    "tags": [
+      "paper",
+      "rag",
+      "multimodal",
+      "retrieval",
+      "framework"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "id": "2026-07-09-media-openai-launch",
+    "type": "new",
+    "vendor": "Media",
+    "section": "media",
+    "title": "[Engadget] OpenAI GPT-5.6 ローンチの全経緯 — 商務省審査完了後に企業判断で公開",
+    "summary": "政府の要請で一時制限下に置かれたプレビューが、商務省の追加審査完了後に企業側の自主判断で一般公開へ移行した経緯を整理。",
+    "url": "https://www.engadget.com/2210308/openai-rolls-out-gpt5-6-july-9/",
+    "importance": "minor",
+    "tags": [
+      "media",
+      "openai",
+      "gpt-5.6",
+      "us-government"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "id": "2026-07-09-media-gemini-delay",
+    "type": "new",
+    "vendor": "Media",
+    "section": "media",
+    "title": "[TechTimes] Gemini 3.5 Pro 延期 + DeepSeek 7/24 移行期限が開発者に迫る",
+    "summary": "同一週に GPT-5.6・Grok 4.5・Mistral 3・Gemini 3.5 が集中した競争環境を俯瞰。DeepSeek の API 移行期限 (7/24) が与える影響も同時分析。",
+    "url": "https://www.techtimes.com/articles/319877/20260708/gemini-35-pro-targets-july-17-deepseeks-july-24-deadline-hits-developers-now.htm",
+    "importance": "minor",
+    "tags": [
+      "media",
+      "google",
+      "gemini",
+      "deepseek",
+      "ai-competition"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "id": "2026-07-09-media-terawulf",
+    "type": "new",
+    "vendor": "Media",
+    "section": "media",
+    "title": "[Data Center Dynamics] Anthropic × TeraWulf $190 億 Kentucky 契約の技術・財務詳報",
+    "summary": "AI ラボがクラウドから自社専用施設へ移行する先端事例として分析。元ビットコインマイナーの AI インフラ転身という TeraWulf の戦略転換にも注目。",
+    "url": "https://www.datacenterdynamics.com/en/news/anthropic-signs-19bn-20-year-lease-for-kentucky-data-center-with-terawulf/",
+    "importance": "minor",
+    "tags": [
+      "media",
+      "anthropic",
+      "infrastructure",
+      "datacenter"
+    ]
+  },
+  {
     "date": "2026-07-08",
     "id": "2026-07-08-microsoft-mai-office",
     "type": "new",
