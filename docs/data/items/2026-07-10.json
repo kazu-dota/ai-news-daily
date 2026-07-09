@@ -1,0 +1,132 @@
+{
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T08:15:00+09:00",
+  "sources_checked": 28,
+  "sources_failed": 24,
+  "items": [
+    {
+      "id": "2026-07-10-anthropic-reflect",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[補完] Claude Reflect ベータ公開 — AI 利用パターン可視化ダッシュボード",
+      "summary": "設定画面から参照できる AI 利用振り返りダッシュボード。過去 1〜12 か月の会話傾向・主要トピック・ピーク利用時間を可視化。Free/Pro/Max 全ユーザー向けベータ (メモリ有効化が必要)。7/9 発表・補完掲載。",
+      "url": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/",
+      "importance": "highlight",
+      "tags": ["feature", "anthropic", "ux", "reflect"]
+    },
+    {
+      "id": "2026-07-10-openai-gpt56-plus",
+      "type": "followup",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "[続報] GPT-5.6 が ChatGPT Plus に展開 + Team プラン 1.5M コンテキスト",
+      "summary": "7/9 GA に続き本日 7/10 より ChatGPT Plus でも Sol/Terra/Luna 全モデルが選択可能に。Team・Enterprise プランは 1.5M トークンコンテキスト窓を提供 (GPT-5.5 上限の約 3.75 倍)。",
+      "url": "https://www.axios.com/2026/07/09/ai-openai-gpt-release",
+      "related_date": "2026-07-09",
+      "importance": "highlight",
+      "tags": ["model-release", "openai", "gpt-5.6", "chatgpt"]
+    },
+    {
+      "id": "2026-07-10-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-10-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-10-microsoft-research-aurora",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "[補完] Microsoft Research: Aurora 1.5 — 気象・地球システム AI 基盤モデルを大幅拡張",
+      "summary": "22 の新変数追加・時間単位の時間解像度・確率的アンサンブル予測に対応。気象予報・気候変動モニタリング・農業分野向けの実用化改善。7/9 発表・補完掲載。",
+      "url": "https://www.microsoft.com/en-us/research/blog/aurora-1-5-extending-open-foundation-models-for-weather-and-earth-system-applications/",
+      "importance": "standard",
+      "tags": ["research", "microsoft", "weather-ai", "earth-system", "aurora"]
+    },
+    {
+      "id": "2026-07-10-meta-muse-image",
+      "type": "new",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "[補完] Meta: Muse Image — Meta Superintelligence Labs 初の画像生成モデル",
+      "summary": "プロンプトからの画像生成・編集に対応するエージェント型画像モデル。Meta AI・Instagram Stories (米国)・WhatsApp (一部国) から提供開始。Alexandr Wang 率いる Meta Superintelligence Labs の初成果。7/7 発表・補完掲載。",
+      "url": "https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/",
+      "importance": "highlight",
+      "tags": ["model-release", "meta", "image-generation", "muse-image", "superintelligence-labs"]
+    },
+    {
+      "id": "2026-07-10-xai-grok-voice",
+      "type": "new",
+      "vendor": "xAI",
+      "section": "vendor",
+      "title": "[補完] xAI: Grok Voice Agent Builder ベータ + 21 新フラグシップ音声",
+      "summary": "ノーコードで生産向け音声エージェントを構築できるプラットフォームのベータ公開。テレフォニー・RAG・MCP・音声クローンを一体提供。合わせて 21 の新多言語フラグシップ音声を追加。$0.05/分。7/6 発表・補完掲載。",
+      "url": "https://x.ai/news/grok-voice-agent-builder",
+      "importance": "highlight",
+      "tags": ["platform", "xai", "voice", "agent", "no-code", "grok-voice"]
+    },
+    {
+      "id": "2026-07-10-mistral-no-update",
+      "type": "no-update",
+      "vendor": "Mistral",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-10-github-voicebox",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "jamiepine/voicebox — ローカル AI 音声クローン・生成スタジオ (+993★ today)",
+      "summary": "数秒のサンプルからボイスクローンを生成し 7 種の TTS エンジンで 23 言語対応。グローバルホットキーで音声入力・MCP エージェントへの音声付与が可能。MIT ライセンス、macOS/Windows 対応。",
+      "url": "https://github.com/jamiepine/voicebox",
+      "importance": "standard",
+      "tags": ["github-trending", "voice", "tts", "open-source", "local-ai"]
+    },
+    {
+      "id": "2026-07-10-github-deerflow",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "bytedance/deer-flow — ByteDance 製オープンソース SuperAgent ハーネス (+148★ today)",
+      "summary": "リード AI エージェントがサブエージェントを管理し研究・コーディング・創造タスクを長時間実行。Docker 分離実行・永続メモリ・スキルシステム・Slack/Telegram 統合を標準装備。",
+      "url": "https://github.com/bytedance/deer-flow",
+      "importance": "minor",
+      "tags": ["github-trending", "agent", "open-source", "bytedance", "multi-agent"]
+    },
+    {
+      "id": "2026-07-10-github-skillopt",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "community",
+      "title": "microsoft/SkillOpt — 凍結 LLM エージェント向けスキル最適化ツール (+273★ today)",
+      "summary": "軌跡駆動編集で再利用可能なスキルを学習させ、ファインチューニング不要でモデル挙動をカスタマイズ。Microsoft Research 発表 (6/30)、今日 GitHub Trending 急騰。",
+      "url": "https://github.com/microsoft/SkillOpt",
+      "importance": "minor",
+      "tags": ["github-trending", "microsoft", "skill-learning", "agent", "research"]
+    },
+    {
+      "id": "2026-07-10-microsoft-investor-lawsuit",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "governance",
+      "title": "Microsoft: Copilot 普及度過大開示をめぐる投資家集団訴訟 (7/7 提起)",
+      "summary": "有料 M365 Copilot シート転換率が 3.3% にとどまるにもかかわらず過大な期待を抱かせたこと、Azure AI インフラコスト増大の開示が不十分だったことが争点。7/7 提起・補完掲載。",
+      "url": "https://www.windowscentral.com/artificial-intelligence/investors-say-microsoft-inflated-copilots-success-and-openai-partnership",
+      "importance": "standard",
+      "tags": ["governance", "microsoft", "copilot", "lawsuit"]
+    },
+    {
+      "id": "2026-07-10-papers-none",
+      "type": "no-update",
+      "vendor": null,
+      "section": "papers"
+    }
+  ]
+}
