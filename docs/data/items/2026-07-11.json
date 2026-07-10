@@ -1,0 +1,185 @@
+{
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T08:06:39+09:00",
+  "sources_checked": 28,
+  "sources_failed": 24,
+  "items": [
+    {
+      "id": "2026-07-11-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-11-openai-gpt-live",
+      "type": "followup",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "[補完] GPT-Live フルデュプレックス音声モデル公開 (7/8)",
+      "summary": "GPT-Live-1 (有料) と GPT-Live-1 mini (無料) が ChatGPT Voice を刷新。フルデュプレックスで同時送受信・自然な割り込み・あいづちが可能。GPT-5.5 をバックエンドで活用。",
+      "url": "https://openai.com/index/introducing-gpt-live/",
+      "related_date": "2026-07-08",
+      "importance": "highlight",
+      "tags": ["voice", "gpt-live", "openai", "full-duplex", "chatgpt"]
+    },
+    {
+      "id": "2026-07-11-openai-chatgpt-work",
+      "type": "followup",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "[補完] ChatGPT Work エージェント + Codex 統合デスクトップアプリ (7/9)",
+      "summary": "長時間タスクを担うエージェント ChatGPT Work と Codex が単一デスクトップアプリに統合。文書・スプレッドシート・プレゼンを完成物として出力。全プラン (Free 含む) 対象。",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+      "related_date": "2026-07-09",
+      "importance": "highlight",
+      "tags": ["chatgpt-work", "codex", "agent", "openai", "desktop"]
+    },
+    {
+      "id": "2026-07-11-google-gemini35-preview",
+      "type": "followup",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "[続報] Gemini 3.5 Pro — 7/11 時点も限定プレビュー継続",
+      "summary": "7 月第 2 週に入っても GA 日・ベンチマーク・価格の公式確認なし。7/17 GA 目標は第三者報道ベースで変更なし。",
+      "url": "https://www.marketscale.com/industries/software-and-technology/gemini-3-5-pro-still-in-preview-what-enterprise-teams-evaluating-a-model-should-do-now",
+      "related_date": "2026-07-09",
+      "importance": "standard",
+      "tags": ["gemini", "google", "preview", "delay"]
+    },
+    {
+      "id": "2026-07-11-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-11-meta-muse-spark-11",
+      "type": "followup",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "[補完] Muse Spark 1.1 + Meta Model API 公開 — Meta 初の有料 AI モデル (7/9)",
+      "summary": "Meta Superintelligence Labs 初の有料モデル。1M トークンコンテキスト・MCP・コンピュータ使用対応。$1.25/$4.25 per Mtok (競合比約 4 分の 1)。米国開発者向け公開プレビュー。",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+      "related_date": "2026-07-09",
+      "importance": "highlight",
+      "tags": ["meta", "muse-spark", "model-release", "api", "paid"]
+    },
+    {
+      "id": "2026-07-11-spacexai-rebrand",
+      "type": "followup",
+      "vendor": "SpaceXAI",
+      "section": "vendor",
+      "title": "[補完] SpaceXAI: xAI がリブランド完了 (7/6-7/7)",
+      "summary": "xAI が SpaceXAI に正式改名。SpaceX による xAI 買収・統合の完結として新ロゴ発表。Grok も SpaceXAI ブランドへ。",
+      "url": "https://gizmodo.com/xai-is-dead-long-live-spacexai-2000782034",
+      "related_date": "2026-07-06",
+      "importance": "highlight",
+      "tags": ["spacexai", "xai", "rebrand", "grok", "spacex"]
+    },
+    {
+      "id": "2026-07-11-mistral-no-update",
+      "type": "no-update",
+      "vendor": "Mistral",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-11-github-desktopcommandermcp",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "wonderwhy-er/DesktopCommanderMCP — Claude 用 ターミナル制御・差分編集 MCP サーバー",
+      "summary": "Claude にターミナル制御・ファイルシステム検索・差分ファイル編集能力を付与する MCP サーバー。本日 +349★ でトップ急騰。",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "importance": "highlight",
+      "tags": ["github-trending", "mcp", "claude", "typescript", "terminal"]
+    },
+    {
+      "id": "2026-07-11-github-compound-engineering",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "EveryInc/compound-engineering-plugin — コーディングエージェント向け公式プラグイン",
+      "summary": "Claude Code・Codex・Cursor 対応の Compound Engineering 公式プラグイン。+130★。",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "importance": "standard",
+      "tags": ["github-trending", "typescript", "claude-code", "codex", "cursor"]
+    },
+    {
+      "id": "2026-07-11-github-stitch-skills",
+      "type": "new",
+      "vendor": "Google",
+      "section": "community",
+      "title": "google-labs-code/stitch-skills — Stitch MCP 向けエージェントスキルライブラリ",
+      "summary": "Stitch MCP サーバー向けスキルライブラリ。Gemini CLI・Claude Code・Cursor と互換。+101★。",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "importance": "standard",
+      "tags": ["github-trending", "typescript", "mcp", "stitch", "google"]
+    },
+    {
+      "id": "2026-07-11-github-speech-to-speech",
+      "type": "new",
+      "vendor": "Hugging Face",
+      "section": "community",
+      "title": "huggingface/speech-to-speech — ローカル音声エージェント構築フレームワーク",
+      "summary": "オープンソースモデルのみでローカル動作する音声エージェント。Whisper → LLM → TTS パイプライン。+190★。",
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "speech", "voice", "local", "tts"]
+    },
+    {
+      "id": "2026-07-11-github-claude-code-templates",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "davila7/claude-code-templates — Claude Code 設定・モニタリング CLI",
+      "summary": "Claude Code のプロジェクト設定テンプレートとリアルタイムモニタリングダッシュボード。+104★。",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "claude-code", "templates"]
+    },
+    {
+      "id": "2026-07-11-github-lmcache",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "LMCache/LMCache — LLM 推論向け高速 KV キャッシュレイヤー",
+      "summary": "LLM 推論エンジン向けの共有 KV キャッシュ最適化ライブラリ。TTFT 短縮とスループット改善。+101★。",
+      "url": "https://github.com/LMCache/LMCache",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "llm", "inference", "kv-cache"]
+    },
+    {
+      "id": "2026-07-11-github-agent-governance-toolkit",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "community",
+      "title": "microsoft/agent-governance-toolkit — AI エージェントガバナンスツールキット",
+      "summary": "自律 AI エージェントのポリシー施行とサンドボックス実行を提供。OWASP Agentic Top 10 対応。+81★。",
+      "url": "https://github.com/microsoft/agent-governance-toolkit",
+      "importance": "minor",
+      "tags": ["github-trending", "python", "microsoft", "governance", "security", "agent"]
+    },
+    {
+      "id": "2026-07-11-paper-orbitquant",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "OrbitQuant: Data-Agnostic Quantization for Image and Video Diffusion Transformers",
+      "summary": "拡散トランスフォーマー (DiT) 向けのデータ非依存量子化手法。RPBH 変換で低ビット量子化を実現、FLUX.1・Wan 2.1 等で SOTA。HF Papers トレンド。",
+      "url": "https://arxiv.org/abs/2607.02461",
+      "importance": "standard",
+      "tags": ["quantization", "diffusion", "image-generation", "video-generation", "efficient-inference"]
+    },
+    {
+      "id": "2026-07-11-paper-pixworld",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "PixWorld: Pixel-Space Diffusion for Unified 3D Reconstruction and Generation",
+      "summary": "3D 再構成と 3D 生成を単一ピクセル空間拡散モデルで統合するフレームワーク。ゲーム・アバター・ロボットシミュレーション向け。HF Papers トレンド。",
+      "url": "https://huggingface.co/papers/trending",
+      "importance": "standard",
+      "tags": ["3d", "diffusion", "reconstruction", "generation", "robotics"]
+    }
+  ]
+}
