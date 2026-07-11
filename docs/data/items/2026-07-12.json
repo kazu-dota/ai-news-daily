@@ -1,0 +1,123 @@
+{
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T08:06:00+09:00",
+  "sources_checked": 26,
+  "sources_failed": 24,
+  "items": [
+    {
+      "id": "2026-07-12-anthropic-fable5-deadline",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Fable 5 サブスクプラン含算アクセスが本日 (7/12 PT) 終了",
+      "summary": "Pro・Max・Team プランへの Fable 5 含算アクセスが7月12日 23:59:59 PT で終了。翌日からは入力 $10 / 出力 $50 per Mtok のクレジット制のみに移行。再びサブスク含算に戻る時期は未定。",
+      "url": "https://www.digitalapplied.com/blog/anthropic-fable-5-access-extended-july-12-2026",
+      "related_date": "2026-07-07",
+      "importance": "highlight",
+      "tags": ["fable5", "anthropic", "pricing", "subscription"]
+    },
+    {
+      "id": "2026-07-12-openai-cdc-conjecture",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "[補完] GPT-5.6 Sol Ultra が Cycle Double Cover 予想を証明 (7/10発表)",
+      "summary": "64並列サブエージェントを用いて1時間以内に50年未解決の数学問題「Cycle Double Cover 予想」の証明を生成。証明PDFとプロンプトを公開。正式査読は進行中。",
+      "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
+      "importance": "highlight",
+      "tags": ["gpt-5.6", "openai", "math", "research", "multi-agent"]
+    },
+    {
+      "id": "2026-07-12-google-gemini35pro-preview",
+      "type": "followup",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "[続報] Gemini 3.5 Pro — 7/12 時点もプレビュー継続、GA は 7/17 目標",
+      "summary": "7/12時点でも限定Vertex AIプレビューの段階。GA目標日7/17に変更なし。モデルカード・API価格の公式確認は未了。",
+      "url": "https://finance.biggo.com/news/6f0c6bb2-795f-4c57-9d09-6db691d7638a",
+      "related_date": "2026-07-11",
+      "importance": "standard",
+      "tags": ["gemini", "google", "gemini-3.5-pro", "preview"]
+    },
+    {
+      "id": "2026-07-12-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-12-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-12-spacexai-no-update",
+      "type": "no-update",
+      "vendor": "SpaceXAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-12-mistral-no-update",
+      "type": "no-update",
+      "vendor": "Mistral",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-12-github-desktopcommandermcp",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: DesktopCommanderMCP が +900★/日 へ急加速",
+      "summary": "昨日+349★から本日+900★へ急加速。Claude のターミナル・ファイル・diff編集 MCP サーバー。合計★7,757。",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "related_date": "2026-07-11",
+      "importance": "standard",
+      "tags": ["github-trending", "mcp", "claude", "typescript"]
+    },
+    {
+      "id": "2026-07-12-github-orca",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: stablyai/Orca — 複数AIエージェントを並列管理するIDE (+527★)",
+      "summary": "Claude Code・Codex・Cursorなど複数コーディングエージェントをフリート管理できる新興IDE。ユーザーが各サービスのサブスクを持ち寄って接続し、並列エージェント群を1画面で監視できる。★16,350。",
+      "url": "https://github.com/stablyai/orca",
+      "importance": "standard",
+      "tags": ["github-trending", "agent", "ide", "coding-agent", "typescript"]
+    },
+    {
+      "id": "2026-07-12-github-rowboat",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: rowboatlabs/rowboat — 永続メモリ付き自律エージェントコワーカー (+129★)",
+      "summary": "永続メモリを備えたオープンソースの自律エージェントAIコワーカー。自律タスクをワークフローとして定義しバックグラウンドで継続実行できる設計。★16,151。",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "importance": "minor",
+      "tags": ["github-trending", "agent", "memory", "typescript"]
+    },
+    {
+      "id": "2026-07-12-github-awesome-llm-apps",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: awesome-llm-apps — 100種以上のAIエージェント・RAGアプリ集 (+519★)",
+      "summary": "100種類以上のAIエージェント・RAGアプリを実際に動かせるキュレーテッドコレクション。主要モデルAPIとローカルLLMの両方をサポート。★117,996。",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "importance": "standard",
+      "tags": ["github-trending", "llm", "rag", "agent", "python"]
+    },
+    {
+      "id": "2026-07-12-github-openmanus",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: FoundationAgents/OpenManus — マルチエージェント自律フレームワーク (+217★)",
+      "summary": "複数サブエージェントによる調査・コーディング・創造タスクの長時間実行を設計の中心に置くマルチエージェント自律作業フレームワーク。★57,165。",
+      "url": "https://github.com/FoundationAgents/OpenManus",
+      "importance": "minor",
+      "tags": ["github-trending", "multi-agent", "automation", "python"]
+    }
+  ]
+}
