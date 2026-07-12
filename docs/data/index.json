@@ -1,5 +1,234 @@
 [
   {
+    "date": "2026-07-13",
+    "id": "2026-07-13-anthropic-fable5-credit",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[続報] Fable 5 本日から全面クレジット制に移行完了",
+    "summary": "7/12 23:59:59 PT の延長期限終了により、本日 7/13 からすべての Fable 5 利用が $10/$50 per Mtok の従量課金のみとなった。サブスク含算アクセス完全終了。",
+    "url": "https://www.digitalapplied.com/blog/anthropic-fable-5-access-extended-july-12-2026",
+    "related_date": "2026-07-12",
+    "importance": "standard",
+    "tags": [
+      "fable-5",
+      "pricing",
+      "subscription",
+      "anthropic"
+    ]
+  },
+  {
+    "date": "2026-07-13",
+    "id": "2026-07-13-openai-build-week",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "Build Week 開幕 — Codex 中心のグローバルハッカソン (7/13〜7/21)",
+    "summary": "本日 10:00 PDT 開幕。Greg Brockman・Thibault Sottiaux が登壇。世界 40 超のイベント並行開催。提出締め切り 7/21、受賞発表 8/12。賞品: 現金・OpenAI クレジット・DevDay パス。",
+    "url": "https://openai.com/build-week/",
+    "importance": "highlight",
+    "tags": [
+      "build-week",
+      "codex",
+      "hackathon",
+      "developer",
+      "openai"
+    ]
+  },
+  {
+    "date": "2026-07-13",
+    "id": "2026-07-13-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-13",
+    "id": "2026-07-13-google-gemini35pro-preview",
+    "type": "followup",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "[続報] Gemini 3.5 Pro — 7/13 時点も依然プレビュー継続 (GA まであと4日)",
+    "summary": "7/17 GA 目標まで4日。モデルカード・API ドキュメント・価格の公式確認は未了のまま。2M トークンコンテキスト・Deep Think 推論レイヤー等も正式発表待ち。",
+    "url": "https://finance.biggo.com/news/6f0c6bb2-795f-4c57-9d09-6db691d7638a",
+    "related_date": "2026-07-09",
+    "importance": "standard",
+    "tags": [
+      "gemini-3-5-pro",
+      "google",
+      "preview",
+      "delay"
+    ]
+  },
+  {
+    "date": "2026-07-13",
+    "id": "2026-07-13-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-13",
+    "id": "2026-07-13-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-13",
+    "id": "2026-07-13-spacexai-no-update",
+    "type": "no-update",
+    "vendor": "SpaceXAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-13",
+    "id": "2026-07-13-mistral-no-update",
+    "type": "no-update",
+    "vendor": "Mistral",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-13",
+    "id": "2026-07-13-github-vibe-trading",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: vibetrading/vibe-trading (+776★)",
+    "summary": "AI トレーディングエージェント。LLM を中核に自動売買戦略の生成・バックテスト・実行を自然言語で操作。コーディングエージェントブームと金融 AI 需要が合流。",
+    "url": "https://github.com/vibetrading/vibe-trading",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "trading",
+      "agent",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-07-13",
+    "id": "2026-07-13-github-ruflo",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: ruflo/ruflo (+156★)",
+    "summary": "マルチエージェント swarm デプロイ・管理フレームワーク。自律ワークフローを複数エージェントの協調で実行。OpenAI Build Week 開幕で需要増。",
+    "url": "https://github.com/ruflo/ruflo",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "multi-agent",
+      "swarm",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-07-13",
+    "id": "2026-07-13-github-hyperframes",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: hyperframes/hyperframes (+157★)",
+    "summary": "HTML テンプレートから動画をレンダリングするエージェント向けエンジン。コーディングエージェントが動画コンテンツを出力するユースケースに対応。",
+    "url": "https://github.com/hyperframes/hyperframes",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "video-generation",
+      "agents",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-07-13",
+    "id": "2026-07-13-github-project-nomad",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: project-nomad/project-nomad (+122★)",
+    "summary": "オフライン動作のサバイバルコンピュータ。ローカル LLM・地図・医療情報・無線通信ツールを統合した非常事態対応設計。",
+    "url": "https://github.com/project-nomad/project-nomad",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "local-llm",
+      "offline",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-07-13",
+    "id": "2026-07-13-github-desktopcommandermcp",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] GitHub Trending: DesktopCommanderMCP (+207★ 7日連続)",
+    "summary": "Claude にターミナル制御・ファイルシステム検索・差分ファイル編集能力を付与する MCP サーバー。本日も +207★ で急騰継続。合計 ★7,968。",
+    "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+    "related_date": "2026-07-11",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "mcp",
+      "claude-code",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-07-13",
+    "id": "2026-07-13-paper-longcat-video",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "LongCat-Video: Efficient Long Video Generation with Diffusion Transformer",
+    "summary": "13.6B パラメータ DiT ベースの長時間動画生成モデル。粗から細へのコース-ファイン生成とブロックスパースアテンションを組み合わせ、複数タスクを単一モデルで高品質・高効率処理。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "video-generation",
+      "diffusion-transformer",
+      "dit",
+      "papers"
+    ]
+  },
+  {
+    "date": "2026-07-13",
+    "id": "2026-07-13-paper-memslides",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "MemSlides: Hierarchical Memory for Personalized Presentation Agents",
+    "summary": "プレゼンテーション生成エージェント向け階層的メモリフレームワーク。長期ユーザープロファイル・作業メモリ・ツールメモリを3層に分離し安定したパーソナライゼーションを実現。",
+    "url": "https://huggingface.co/papers",
+    "importance": "minor",
+    "tags": [
+      "agent",
+      "memory",
+      "presentation",
+      "personalization",
+      "papers"
+    ]
+  },
+  {
+    "date": "2026-07-13",
+    "id": "2026-07-13-china-ai-companion-regulation",
+    "type": "new",
+    "vendor": null,
+    "section": "governance",
+    "title": "中国: AI コンパニオン規制が 7/15 施行 — ByteDance Doubao・Alibaba Qwen が対象機能を停止",
+    "summary": "中国初の AI 感情インタラクション規制が 7/15 施行。未成年提供禁止・自傷コンテンツ生成禁止・情動的操作禁止を規定。ByteDance と Alibaba が事前に対象機能を停止中。",
+    "url": "https://www.licentium.io/post/china-regulates-ai-companion-services-banning-minor-access-effective-15-july-2026",
+    "importance": "highlight",
+    "tags": [
+      "regulation",
+      "china",
+      "companion",
+      "bytedance",
+      "alibaba",
+      "governance"
+    ]
+  },
+  {
     "date": "2026-07-12",
     "id": "2026-07-12-anthropic-fable5-deadline",
     "type": "followup",
