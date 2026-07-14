@@ -1,5 +1,250 @@
 [
   {
+    "date": "2026-07-15",
+    "id": "2026-07-15-anthropic-artifacts-multiplayer",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Artifacts に公開共有・マルチプレイヤー編集・Claude Tag (Slack) 統合を追加",
+    "summary": "公開リンク共有 (Claude アカウント不要)・チームによるリアルタイム共同編集・Slack @Claude から Artifact 直接生成が可能に。7/14 発表。",
+    "url": "https://cryptobriefing.com/anthropic-claude-sharing-team-editing-features/",
+    "importance": "highlight",
+    "tags": [
+      "artifacts",
+      "collaboration",
+      "slack",
+      "multiplayer",
+      "anthropic"
+    ]
+  },
+  {
+    "date": "2026-07-15",
+    "id": "2026-07-15-openai-build-week-day3",
+    "type": "followup",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "[続報] Build Week 3 日目 (7/15) — 本日 10:00 PDT コミュニティイベント",
+    "summary": "7/13〜7/21 の Build Week が 3 日目を迎えた。本日のイベントで Codex プロジェクト提出が進行中。新モデル発表なし。",
+    "url": "https://openai.com/build-week/",
+    "related_date": "2026-07-13",
+    "importance": "minor",
+    "tags": [
+      "build-week",
+      "codex",
+      "hackathon",
+      "openai"
+    ]
+  },
+  {
+    "date": "2026-07-15",
+    "id": "2026-07-15-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-15",
+    "id": "2026-07-15-google-gemini35pro-2days",
+    "type": "followup",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "[続報] Gemini 3.5 Pro — 7/17 GA まで 2 日、全スペック依然未確認",
+    "summary": "GA 目標日 7/17 まで 2 日。2M コンテキスト・Deep Think・$15/$60 per Mtok は第三者報道のみで Google 公式確認なし。",
+    "url": "https://www.techtimes.com/articles/320308/20260713/gemini-35-pro-targets-july-17-after-full-rebuild-every-spec-remains-unconfirmed.htm",
+    "related_date": "2026-07-13",
+    "importance": "standard",
+    "tags": [
+      "gemini",
+      "google",
+      "model-release",
+      "preview"
+    ]
+  },
+  {
+    "date": "2026-07-15",
+    "id": "2026-07-15-google-workspace-gemini-limits",
+    "type": "new",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "Google Workspace AI Expanded Access プロモ上限が本日 (7/15) 終了",
+    "summary": "Sheets の Fill with Gemini・AI function 等の高上限プロモが本日終了。AI Expanded Access ライセンス保有ユーザーは通常 per-user 上限に移行。",
+    "importance": "minor",
+    "tags": [
+      "google-workspace",
+      "gemini",
+      "limits",
+      "google"
+    ]
+  },
+  {
+    "date": "2026-07-15",
+    "id": "2026-07-15-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-15",
+    "id": "2026-07-15-meta-muse-image-removed",
+    "type": "followup",
+    "vendor": "Meta",
+    "section": "vendor",
+    "title": "[続報] Muse Image — Instagram の「他ユーザー写真参照」機能を SAG-AFTRA 反発で撤去",
+    "summary": "SAG-AFTRA・CAA・俳優らの強い反発を受け Meta が \"missed the mark\" と認め削除。本人同意なしの自動 opt-in が問題に。Muse Image 自体は継続。",
+    "url": "https://deadline.com/2026/07/meta-removes-muse-image-ai-feature-backlash-1236979605/",
+    "related_date": "2026-07-10",
+    "importance": "highlight",
+    "tags": [
+      "muse-image",
+      "instagram",
+      "privacy",
+      "consent",
+      "meta"
+    ]
+  },
+  {
+    "date": "2026-07-15",
+    "id": "2026-07-15-spacexai-no-update",
+    "type": "no-update",
+    "vendor": "SpaceXAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-15",
+    "id": "2026-07-15-mistral-no-update",
+    "type": "no-update",
+    "vendor": "Mistral",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-15",
+    "id": "2026-07-15-china-ai-companion-enforcement",
+    "type": "followup",
+    "vendor": "governance",
+    "section": "governance",
+    "title": "[続報] 中国 AI コンパニオン規制、本日 7/15 正式施行 — Doubao エージェント機能オフライン",
+    "summary": "「インターネット仮想コンパニオンサービス管理暫定弁法」が本日発効。ByteDance Doubao がエージェント機能停止、上海当局が事前に 14,000 件超の非適合ボットを削除。",
+    "url": "https://www.techtimes.com/articles/319703/20260704/china-ai-companion-law-arrives-july-15-doubao-qwen-agent-data-will-deleted.htm",
+    "related_date": "2026-07-13",
+    "importance": "highlight",
+    "tags": [
+      "china",
+      "regulation",
+      "ai-companion",
+      "bytedance",
+      "alibaba",
+      "governance"
+    ]
+  },
+  {
+    "date": "2026-07-15",
+    "id": "2026-07-15-cloudflare-precursor",
+    "type": "new",
+    "vendor": "Cloudflare",
+    "section": "community",
+    "title": "Cloudflare Precursor GA: 全セッション行動分析でエージェント型ボット検出",
+    "summary": "ウェブリクエストの 57% がボット由来となった現状を背景に、JS インジェクションでセッション全体の行動をリアルタイム評価する新ボット管理エンジンが 7/13 GA。",
+    "url": "https://siliconangle.com/2026/07/13/cloudflare-launches-precursor-catch-bots-watching-entire-sessions/",
+    "importance": "highlight",
+    "tags": [
+      "cloudflare",
+      "bot-management",
+      "agentic-ai",
+      "security",
+      "infrastructure"
+    ]
+  },
+  {
+    "date": "2026-07-15",
+    "id": "2026-07-15-waic-2026-preview",
+    "type": "new",
+    "vendor": "governance",
+    "section": "governance",
+    "title": "WAIC 2026 が 7/17 上海で開幕 — Xi Jinping が同会議史上初キーノート、WAICO 設置提案",
+    "summary": "7/17〜20 に上海で開催。Xi が初めて直接出席しキーノート。世界 AI 協力機構 (WAICO) の上海設置が正式化される見通し。同日 Gemini 3.5 Pro GA 目標とも重なる。",
+    "url": "https://www.scmp.com/tech/article/3360404/xi-jinping-attend-world-ai-conference-first-time-china-elevates-tech-push",
+    "importance": "highlight",
+    "tags": [
+      "waic",
+      "china",
+      "governance",
+      "xi-jinping",
+      "waico",
+      "shanghai"
+    ]
+  },
+  {
+    "date": "2026-07-15",
+    "id": "2026-07-15-github-pi",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "GitHub Trending: earendil-works/pi — 統合 LLM API・エージェントループ・TUI 付き AI ツールキット",
+    "summary": "主要 LLM プロバイダ API を単一インタフェースに統合した汎用エージェント開発フレームワーク。TUI・コーディングエージェント CLI も同梱。",
+    "url": "https://github.com/earendil-works/pi",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "llm",
+      "agent",
+      "toolkit",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-07-15",
+    "id": "2026-07-15-github-airi",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "GitHub Trending: moeru-ai/airi — セルフホスト型 AI コンパニオン (音声・ゲーム対応)",
+    "summary": "ローカル動作の AI コンパニオンフレームワーク。リアルタイム音声・ゲームプレイ対応。中国コンパニオン規制施行と同日にトレンド入り。",
+    "url": "https://github.com/moeru-ai/airi",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "ai-companion",
+      "self-hosted",
+      "voice",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-07-15",
+    "id": "2026-07-15-github-opencode",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "GitHub Trending: anomalyco/opencode — オープンソースコーディングエージェント",
+    "summary": "OpenAI Codex の OSS 代替として急伸。複数プロバイダ対応でコーディングエージェント市場に参入。Build Week 期間中にコミュニティの支持を拡大。",
+    "url": "https://github.com/anomalyco/opencode",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "coding-agent",
+      "open-source",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-07-15",
+    "id": "2026-07-15-github-google-skills",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "GitHub Trending: google/skills — Google 製品・サービス向けエージェントスキルライブラリ",
+    "summary": "Gemini ベースのエージェントが Gmail・Calendar・Drive 等を操作するためのリファレンス実装を集約したオープンソースライブラリ。",
+    "url": "https://github.com/google/skills",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "google",
+      "skills",
+      "agent",
+      "python"
+    ]
+  },
+  {
     "date": "2026-07-13",
     "id": "2026-07-13-anthropic-fable5-credit",
     "type": "followup",
