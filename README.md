@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-07-16](summaries/2026/07/2026-07-16.md) — [補完] Anthropic: Claude for Teachers 発表 (米K-12教員に1年間無料・全50州基準準拠) / [続報] Fable 5 含算アクセスを7/19まで3回目延長 / [続報] Gemini 3.5 Pro GA 明日目標 (7/17, 公式未確認) / TSMC Q2 過去最高 $39.6B (+36%) / GitHub: BrowserOS・nanobot 急騰
 - [2026-07-15](summaries/2026/07/2026-07-15.md) — Anthropic: Artifacts 公開共有・マルチプレイヤー編集・Claude Tag Slack 統合 (7/14) / [続報] 中国 AI コンパニオン規制本日施行・Doubao エージェントオフライン / [続報] Meta: Muse Image Instagram 参照機能を撤去 ("missed the mark") / Cloudflare Precursor GA (ボット 57%) / WAIC 2026 が 7/17 上海開幕・Xi 初キーノート
 - [2026-07-13](summaries/2026/07/2026-07-13.md) — OpenAI: Build Week 開幕 (7/13〜7/21 Codex グローバルハッカソン) / 中国: AI コンパニオン規制 7/15 施行・ByteDance Doubao・Alibaba Qwen が対象機能を停止中 / [続報] Anthropic: Fable 5 本日から全面クレジット制に移行 / GitHub 急騰: Vibe-Trading (+776★)・ruflo (+156★)・hyperframes (+157★)
 - [2026-07-12](summaries/2026/07/2026-07-12.md) — [補完] OpenAI: GPT-5.6 Sol Ultra が50年未解決の Cycle Double Cover 予想を証明 (64並列サブエージェント・1時間以内) / Anthropic: Fable 5 含算アクセス本日 (7/12 PT) 最終日・明日からクレジット制のみ / GitHub 急騰: DesktopCommanderMCP (+900★)・stablyai/Orca (+527★)
 - [2026-07-11](summaries/2026/07/2026-07-11.md) — [補完] OpenAI: GPT-Live フルデュプレックス音声モデル公開 (7/8) / [補完] Meta: Muse Spark 1.1 + Meta Model API — Meta 初の有料 AI モデル ($1.25/$4.25 per Mtok) / [補完] OpenAI: ChatGPT Work エージェント + Codex 統合デスクトップ (7/9) / [補完] SpaceXAI リブランド完了 (xAI → SpaceXAI) / GitHub 急騰: DesktopCommanderMCP (+349★)
 - [2026-07-10](summaries/2026/07/2026-07-10.md) — [補完] Meta: Muse Image が Meta AI・Instagram・WhatsApp に展開 (Meta Superintelligence Labs 初の画像生成モデル) / [補完] Anthropic: Claude Reflect ベータ (AI 使用パターン可視化ダッシュボード) / [続報] GPT-5.6 が本日 ChatGPT Plus に展開 (Team プラン 1.5M コンテキスト) / [補完] xAI: Grok Voice Agent Builder ベータ + 21 新フラグシップ音声 (7/6 発表)
 - [2026-07-09](summaries/2026/07/2026-07-09.md) — OpenAI: GPT-5.6 Sol/Terra/Luna が全世界 GA (Ultra モード・サブエージェント駆動・Sol $5/$30 per Mtok) / xAI: Grok 4.5 パブリックローンチ (V9 1.5T・Cursor 統合・$2/$6 per Mtok) / Mistral 3 正式ローンチ (Large 3 675B MoE + Ministral 3 小型シリーズ Apache 2.0) / [補完] Anthropic: Claude Cowork が Web・モバイルに拡張 (バックグラウンド実行・M365 書き込み連携)
-- [2026-07-08](summaries/2026/07/2026-07-08.md) — [補完] Microsoft: MAI モデルが Excel・Outlook の AI プロンプトを週数万件規模で内製代替 (Suleiman「Anthropic 支出をゼロにしたい」) / [補完] xAI: Grok Imagine アップデート 7/7 公開 / [続報] Mistral Large 3 詳細: 41B active / 675B total sparse MoE・Apache 2.0 / GitHub 急騰: ai-job-search (+2,402★ Claude Code 就活フレームワーク)
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。

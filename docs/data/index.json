@@ -1,5 +1,255 @@
 [
   {
+    "date": "2026-07-16",
+    "id": "2026-07-16-anthropic-claude-for-teachers",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[補完] Claude for Teachers 発表 (7/14) — 米国K-12教員に1年間無料でPremium Claude提供",
+    "summary": "米国K-12認定教員に全50州学習基準準拠の授業計画生成・学生データ分析・Claude Code/Coworkを1年間無料提供。2027年6月まで申請受付。",
+    "url": "https://www.anthropic.com/news/claude-for-teachers",
+    "importance": "highlight",
+    "tags": [
+      "education",
+      "anthropic",
+      "claude-for-teachers",
+      "k12"
+    ]
+  },
+  {
+    "date": "2026-07-16",
+    "id": "2026-07-16-anthropic-fable5-july19-ext",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[続報] Fable 5 含算アクセスを7/19まで3回目の延長",
+    "summary": "Pro/Max/Team/Enterprise向けFable 5含算アクセスを7/19 23:59:59 PTまで再延長(3回目)。Claude Codeレート上限50%増も同期間継続。GPT-5.6 Sol競争への対応が背景。",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/",
+    "related_date": "2026-07-13",
+    "importance": "standard",
+    "tags": [
+      "fable-5",
+      "anthropic",
+      "pricing",
+      "subscription"
+    ]
+  },
+  {
+    "date": "2026-07-16",
+    "id": "2026-07-16-openai-build-week-day4",
+    "type": "followup",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "[続報] OpenAI Build Week 4日目 (7/16)",
+    "summary": "Build Week(7/13-7/21)4日目。7/16 12:00 PDTにセッション予定。新モデル・製品の発表なし。",
+    "url": "https://openai.com/build-week/",
+    "related_date": "2026-07-13",
+    "importance": "minor",
+    "tags": [
+      "openai",
+      "build-week",
+      "developer",
+      "codex"
+    ]
+  },
+  {
+    "date": "2026-07-16",
+    "id": "2026-07-16-google-gemini35pro-tomorrow",
+    "type": "followup",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "[続報] Gemini 3.5 Pro — GA目標まで残り1日 (7/17)",
+    "summary": "第三者報道ベースのGA目標日7/17まで24時間。公式モデルカード・価格・APIドキュメントは7/16 JST 8:05時点で未確認。同日はWAIC 2026も開幕。",
+    "url": "https://www.techtimes.com/articles/320308/20260713/gemini-35-pro-targets-july-17-after-full-rebuild-every-spec-remains-unconfirmed.htm",
+    "related_date": "2026-07-15",
+    "importance": "standard",
+    "tags": [
+      "google",
+      "gemini-3-5-pro",
+      "model-release",
+      "deepmind"
+    ]
+  },
+  {
+    "date": "2026-07-16",
+    "id": "2026-07-16-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-16",
+    "id": "2026-07-16-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-16",
+    "id": "2026-07-16-spacexai-grok45-eu-pending",
+    "type": "followup",
+    "vendor": "SpaceXAI",
+    "section": "vendor",
+    "title": "[続報] Grok 4.5 EU向けアクセス — 7/16も未提供",
+    "summary": "7/8世界ローンチ時にEUのみ除外されたGrok 4.5。EU AI Act準拠のコンプライアンスレビュー継続中で7/16時点でもアクセス不可。",
+    "url": "https://www.heise.de/en/news/SpaceXAI-introduces-AI-model-Grok-4-5-EU-users-must-wait-11359422.html",
+    "related_date": "2026-07-09",
+    "importance": "minor",
+    "tags": [
+      "spacexai",
+      "grok-4-5",
+      "eu",
+      "regulation"
+    ]
+  },
+  {
+    "date": "2026-07-16",
+    "id": "2026-07-16-mistral-no-update",
+    "type": "no-update",
+    "vendor": "Mistral",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-16",
+    "id": "2026-07-16-github-nanobot",
+    "type": "new",
+    "vendor": "HKUDS",
+    "section": "community",
+    "title": "GitHub Trending: HKUDS/nanobot — 軽量オープンソースAIエージェント",
+    "summary": "ツール連携・チャット・ワークフローを統合する軽量マルチツールAIエージェントフレームワーク(★45,663, +120 today)。",
+    "url": "https://github.com/HKUDS/nanobot",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "ai-agent",
+      "open-source",
+      "workflow"
+    ]
+  },
+  {
+    "date": "2026-07-16",
+    "id": "2026-07-16-github-deeptutor",
+    "type": "new",
+    "vendor": "HKUDS",
+    "section": "community",
+    "title": "GitHub Trending: HKUDS/DeepTutor — 生涯学習型パーソナライズドAIチューター",
+    "summary": "学習者の長期履歴と理解度を追跡し最適化した個別指導を生成するAIチューター(★26,229, +128 today)。",
+    "url": "https://github.com/HKUDS/DeepTutor",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "education",
+      "ai-tutor",
+      "personalization"
+    ]
+  },
+  {
+    "date": "2026-07-16",
+    "id": "2026-07-16-github-hello-agents",
+    "type": "new",
+    "vendor": "datawhalechina",
+    "section": "community",
+    "title": "GitHub Trending: datawhalechina/hello-agents — AIエージェント構築チュートリアル",
+    "summary": "ゼロからマルチエージェントシステムを構築する中英バイリンガルの体系的入門コース(★66,432, +275 today)。Build Week期間中の学習需要と連動。",
+    "url": "https://github.com/datawhalechina/hello-agents",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "tutorial",
+      "multi-agent",
+      "education"
+    ]
+  },
+  {
+    "date": "2026-07-16",
+    "id": "2026-07-16-github-browseros",
+    "type": "new",
+    "vendor": "browseros-ai",
+    "section": "community",
+    "title": "GitHub Trending: browseros-ai/BrowserOS — オープンソースのエージェント型ブラウザ",
+    "summary": "ChatGPT Atlas・Perplexity Cometへの OSS 代替。LLMをブラウザのネイティブコンポーネントとして組み込みWebナビゲーション・フォーム入力を自律実行(★12,210)。",
+    "url": "https://github.com/browseros-ai/BrowserOS",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "browser",
+      "ai-agent",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-07-16",
+    "id": "2026-07-16-github-stripe-ai",
+    "type": "new",
+    "vendor": "Stripe",
+    "section": "community",
+    "title": "GitHub Trending: stripe/ai — AI製品構築向けStripe公式ツールキット",
+    "summary": "決済・サブスクリプション・利用量課金を組み込んだAIプロダクト向けの公式ライブラリ。AIスタートアップの課金基盤としてStripeがエコシステム整備(★1,676, 今日公開)。",
+    "url": "https://github.com/stripe/ai",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "stripe",
+      "payments",
+      "ai-product"
+    ]
+  },
+  {
+    "date": "2026-07-16",
+    "id": "2026-07-16-paper-long-horizon-terminal-bench",
+    "type": "new",
+    "vendor": "research",
+    "section": "papers",
+    "title": "Long-Horizon-Terminal-Bench: 長時間ターミナルタスクでのエージェント評価ベンチマーク",
+    "summary": "46タスク・9カテゴリの長時間ターミナルタスクベンチマーク。最上位モデルでもpass率28.3%・平均9.9Mトークン消費で現行モデルの限界を定量化。",
+    "url": "https://arxiv.org/abs/2607.08964",
+    "importance": "standard",
+    "tags": [
+      "benchmark",
+      "agents",
+      "terminal",
+      "evaluation",
+      "arxiv"
+    ]
+  },
+  {
+    "date": "2026-07-16",
+    "id": "2026-07-16-media-tsmc-q2-record",
+    "type": "new",
+    "vendor": "TSMC",
+    "section": "media",
+    "title": "TSMC Q2 2026: 過去最高売上 $39.6B — AI チップ需要+36%",
+    "summary": "Q2売上$39.6B(前年比+36%)、6月単月+67.9%。N3ノードは年内売り切れ。AI GPU/CPU向け先端ノードへの需要がTSMCの記録更新を牽引。",
+    "url": "https://www.techtimes.com/articles/320348/20260713/tsmc-sets-all-time-revenue-record-ai-demand-has-rewritten-its-calendar.htm",
+    "importance": "highlight",
+    "tags": [
+      "tsmc",
+      "semiconductor",
+      "ai-chip",
+      "infrastructure",
+      "revenue"
+    ]
+  },
+  {
+    "date": "2026-07-16",
+    "id": "2026-07-16-media-waic2026-eve",
+    "type": "followup",
+    "vendor": "China",
+    "section": "media",
+    "title": "[続報] WAIC 2026 — 明日 (7/17) 上海開幕: 108チップ・261大規模モデル展示",
+    "summary": "明日開幕のWAIC 2026直前プレビュー。108種AIチップ・261大規模モデル・300超の世界初公開製品。Huawei Atlas 950・ZTE AI Agentスマートフォン・Baidu AIマトリクスが注目。",
+    "url": "https://eu.36kr.com/en/p/3896827901200259",
+    "related_date": "2026-07-15",
+    "importance": "standard",
+    "tags": [
+      "waic",
+      "china",
+      "conference",
+      "ai-governance",
+      "huawei"
+    ]
+  },
+  {
     "date": "2026-07-15",
     "id": "2026-07-15-anthropic-artifacts-multiplayer",
     "type": "new",
