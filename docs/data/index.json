@@ -1,5 +1,142 @@
 [
   {
+    "date": "2026-07-17",
+    "id": "2026-07-17-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-17",
+    "id": "2026-07-17-openai-build-week-day5",
+    "type": "followup",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "[続報] OpenAI Build Week 5日目 (7/17)",
+    "summary": "OpenAI Build Week (7/13〜7/21) 5日目。新製品・新モデル発表は確認されず。",
+    "url": "https://openai.com/build-week/",
+    "related_date": "2026-07-13",
+    "importance": "minor",
+    "tags": [
+      "openai",
+      "build-week",
+      "codex",
+      "developer"
+    ]
+  },
+  {
+    "date": "2026-07-17",
+    "id": "2026-07-17-google-gemini35-delayed3rd",
+    "type": "followup",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "[続報] Gemini 3.5 Pro が3回目の延期 — Gemini 3.6 Flash ストップギャップ浮上",
+    "summary": "本日 (7/17) 目標日を実質未達成。Gemini 3.6 Flash・3.5 Flash Lightをストップギャップとして準備中。予測市場は7/31 (81%) または8/7 (73%) に移行。",
+    "url": "https://www.techtimes.com/articles/320736/20260716/rebuilt-gemini-35-pro-misses-third-deadline-google-eyes-stopgap-release.htm",
+    "related_date": "2026-07-16",
+    "importance": "highlight",
+    "tags": [
+      "google",
+      "gemini-3.5-pro",
+      "delay",
+      "gemini-3.6-flash"
+    ]
+  },
+  {
+    "date": "2026-07-17",
+    "id": "2026-07-17-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-17",
+    "id": "2026-07-17-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-17",
+    "id": "2026-07-17-spacexai-grok45-eu-no-update",
+    "type": "followup",
+    "vendor": "SpaceXAI",
+    "section": "vendor",
+    "title": "Grok 4.5 EU 向けロールアウト — 本日も未提供",
+    "summary": "「7月中旬」予告のGrok 4.5 EU向け提供が本日も公式発表なし。EU AI法コンプライアンスレビュー継続中。",
+    "url": "",
+    "related_date": "2026-07-16",
+    "importance": "minor",
+    "tags": [
+      "spacexai",
+      "grok-4.5",
+      "eu",
+      "regulation"
+    ]
+  },
+  {
+    "date": "2026-07-17",
+    "id": "2026-07-17-mistral-no-update",
+    "type": "no-update",
+    "vendor": "Mistral",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-17",
+    "id": "2026-07-17-github-nousresearch-hermes-agent",
+    "type": "new",
+    "vendor": "NousResearch",
+    "section": "community",
+    "title": "GitHub Trending: NousResearch/hermes-agent (+578★)",
+    "summary": "NousResearchの適応型エージェントフレームワーク。ユーザー要件の変化に追従する設計でHermes系モデルとの統合を想定。",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "agent",
+      "open-source",
+      "nousresearch"
+    ]
+  },
+  {
+    "date": "2026-07-17",
+    "id": "2026-07-17-github-maths-cs-ai-compendium",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: HenryNdubuaku/maths-cs-ai-compendium (+530★)",
+    "summary": "AI/MLリサーチエンジニア向けの数学・CS・AI基礎の包括的学習リソース。WAIC 2026開幕で注目度上昇。",
+    "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "education",
+      "ai-ml",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-07-17",
+    "id": "2026-07-17-waic2026-opening",
+    "type": "followup",
+    "vendor": "China",
+    "section": "governance",
+    "title": "[続報] WAIC 2026 本日開幕 — Xi Jinping 初キーノート・WAICO 創設・Huawei Atlas 950・ZTE AI スマートフォン",
+    "summary": "WAIC 2026 (上海、7/17〜20) 開幕。Xi Jinping初キーノート。WAICO設立提案、パキスタンが創設メンバー参加表明。Huawei Atlas 950とZTE Nubia AIエージェントスマートフォン (世界初) が発表。",
+    "url": "https://www.scmp.com/tech/article/3360404/xi-jinping-attend-world-ai-conference-first-time-china-elevates-tech-push",
+    "related_date": "2026-07-15",
+    "importance": "highlight",
+    "tags": [
+      "waic",
+      "china",
+      "xi-jinping",
+      "waico",
+      "huawei",
+      "zte",
+      "governance"
+    ]
+  },
+  {
     "date": "2026-07-16",
     "id": "2026-07-16-anthropic-claude-for-teachers",
     "type": "new",
