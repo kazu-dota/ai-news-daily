@@ -1,5 +1,208 @@
 [
   {
+    "date": "2026-07-18",
+    "id": "2026-07-18-moonshot-kimi-k3",
+    "type": "new",
+    "vendor": "Moonshot AI",
+    "section": "vendor",
+    "title": "Kimi K3 — 世界最大オープンウェイト AI モデルとして正式リリース",
+    "summary": "2.8 兆パラメータの MoE モデル。896 エキスパート・1M コンテキスト・ネイティブ視覚理解。GDPval-AA v2 で 3 位 (Fable 5 Max・GPT-5.6 Sol Max に次ぐ)。全ウェイトは 7/27 公開予定。",
+    "url": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
+    "importance": "highlight",
+    "tags": [
+      "model-release",
+      "open-source",
+      "moonshot",
+      "kimi",
+      "moe",
+      "china-ai"
+    ]
+  },
+  {
+    "date": "2026-07-18",
+    "id": "2026-07-18-waic2026-day2",
+    "type": "followup",
+    "vendor": "WAIC",
+    "section": "media",
+    "title": "[続報] WAIC 2026 Day 2 — WAICA 学術カンファレンス開幕・Hinton/Bengio 登壇",
+    "summary": "7/18 WAIC 2 日目。WAIC 初の公式学術カンファレンス WAICA が開幕し、初の Best Paper Award 授与も実施。Hinton・Bengio・Sutton・Yao ら Turing/Nobel 賞受賞者 9 名が登壇予定。",
+    "url": "https://waica2026.worldaic.com.cn/",
+    "related_date": "2026-07-17",
+    "importance": "highlight",
+    "tags": [
+      "waic2026",
+      "china-ai",
+      "academic",
+      "hinton",
+      "bengio",
+      "sutton"
+    ]
+  },
+  {
+    "date": "2026-07-18",
+    "id": "2026-07-18-meta-layoff-lawsuit",
+    "type": "followup",
+    "vendor": "Meta",
+    "section": "vendor",
+    "title": "[続報] Meta: AI 主導の解雇差別訴訟 — 7/22 から分離開始",
+    "summary": "26 名の Meta 従業員が AI によるレイオフ選定が医療・育児休暇中社員を標的にしたと提訴。FMLA/ADA 違反主張。7/22 から解雇分離が開始予定。Meta は主張を否定。",
+    "url": "https://www.techtimes.com/articles/320647/20260715/meta-faces-first-ai-layoff-discrimination-suit-july-22-deadline-looms.htm",
+    "related_date": "2026-07-15",
+    "importance": "highlight",
+    "tags": [
+      "meta",
+      "layoffs",
+      "lawsuit",
+      "ai-discrimination",
+      "hr-ai"
+    ]
+  },
+  {
+    "date": "2026-07-18",
+    "id": "2026-07-18-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-18",
+    "id": "2026-07-18-openai-build-week-day6",
+    "type": "followup",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "[続報] OpenAI Build Week 6 日目 (7/18)",
+    "summary": "Build Week (7/13〜7/21) 6 日目。$100K Codex ハッカソンが継続中。本日 JST 8:06 時点で新製品・新モデル発表なし。",
+    "url": "https://openai.com/build-week/",
+    "related_date": "2026-07-17",
+    "importance": "minor",
+    "tags": [
+      "openai",
+      "build-week",
+      "hackathon",
+      "codex"
+    ]
+  },
+  {
+    "date": "2026-07-18",
+    "id": "2026-07-18-google-gemini35-still-unreleased",
+    "type": "followup",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "[続報] Google / Google DeepMind: Gemini 3.5 Pro — 7/18 時点も未リリース",
+    "summary": "7/17 目標日を過ぎた 7/18 時点でもモデルカード・API ドキュメント・価格表の公式確認なし。予測市場では次の有力 GA 目標日が 7/31 (81%) または 8/7 (73%)。",
+    "url": "https://www.techtimes.com/articles/320736/20260716/rebuilt-gemini-35-pro-misses-third-deadline-google-eyes-stopgap-release.htm",
+    "related_date": "2026-07-17",
+    "importance": "standard",
+    "tags": [
+      "google",
+      "gemini",
+      "gemini-3-5-pro",
+      "delay"
+    ]
+  },
+  {
+    "date": "2026-07-18",
+    "id": "2026-07-18-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-18",
+    "id": "2026-07-18-spacexai-no-update",
+    "type": "followup",
+    "vendor": "SpaceXAI",
+    "section": "vendor",
+    "title": "[続報] SpaceXAI: Grok 4.5 EU 向け — 本日も未提供",
+    "summary": "「7 月中旬」目標の Grok 4.5 EU 向けロールアウトが 7/18 も公式アナウンスなし。EU AI 法のコンプライアンスレビュー継続中とみられる。",
+    "url": "https://x.ai/news",
+    "related_date": "2026-07-17",
+    "importance": "minor",
+    "tags": [
+      "spacexai",
+      "xai",
+      "grok",
+      "eu-ai-act",
+      "grok-4-5"
+    ]
+  },
+  {
+    "date": "2026-07-18",
+    "id": "2026-07-18-mistral-no-update",
+    "type": "no-update",
+    "vendor": "Mistral",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-18",
+    "id": "2026-07-18-github-trending-hallmark",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: Nutlope/hallmark — Anti-AI-slop デザインスキル",
+    "summary": "Claude Code・Cursor・Codex 向けの「AI スロップ」防止デザインスキル定義ファイル。AI コーディングツールが生成するスタイルの均質化を防ぎ、独自デザイン言語を維持するための仕組み。",
+    "url": "https://github.com/Nutlope/hallmark",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "ai-tools",
+      "design",
+      "claude-code",
+      "cursor"
+    ]
+  },
+  {
+    "date": "2026-07-18",
+    "id": "2026-07-18-github-trending-openinterpreter",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: openinterpreter/openinterpreter — Kimi K3 対応コーディングエージェント",
+    "summary": "Kimi K3 リリースを受けコミュニティでの活用が急増した汎用コーディングエージェント (Rust 版)。オープンモデルへの対応で注目を集め本日急騰。",
+    "url": "https://github.com/openinterpreter/openinterpreter",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "coding-agent",
+      "open-source",
+      "kimi-k3"
+    ]
+  },
+  {
+    "date": "2026-07-18",
+    "id": "2026-07-18-research-videochat3",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "VideoChat3: Fully Open Video MLLM for Efficient and Generalist Video Understanding",
+    "summary": "7/17 時点 HF Papers 週間 1 位。完全オープンな動画マルチモーダル LLM として汎用動画理解と推論効率の両立を目指した研究。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "video-understanding",
+      "multimodal",
+      "open-source",
+      "llm"
+    ]
+  },
+  {
+    "date": "2026-07-18",
+    "id": "2026-07-18-research-seed",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning",
+    "summary": "エージェント型 RL において蒸留と自己進化を組み合わせたオンポリシー学習手法。エージェント能力の継続的な自己改善を可能にするフレームワーク。HF Papers 上位にランクイン。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "reinforcement-learning",
+      "agentic-ai",
+      "self-evolving",
+      "distillation"
+    ]
+  },
+  {
     "date": "2026-07-17",
     "id": "2026-07-17-anthropic-no-update",
     "type": "no-update",
