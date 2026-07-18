@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-07-19](summaries/2026/07/2026-07-19.md) — [続報] Anthropic: Fable 5 含算アクセス本日 (7/19 PT) 終了・7/20 から Max/Team Premium に永続含算確定 / GitHub 新規急騰: lingbot-map (+827★・3D シーン再構築基盤モデル)・code-review-graph (+356★・MCP/CLI AI コードレビュー)・SigNoz (+425★・AI 可観測性) / [続報] WAIC 2026 Day 3 (最終日前日)
 - [2026-07-18](summaries/2026/07/2026-07-18.md) — Moonshot AI: Kimi K3 正式リリース (2.8T param MoE、世界最大オープンウェイト・GDPval-AA v2 で 3 位) / [続報] WAIC 2026 Day 2・WAICA 学術カンファレンス開幕 (Hinton/Bengio/Sutton 登壇) / [続報] Meta: AI 主導の解雇差別訴訟・7/22 から分離開始 / GitHub: Nutlope/hallmark (+1,486★・Anti-AI-slop デザインスキル) 急騰
 - [2026-07-17](summaries/2026/07/2026-07-17.md) — [続報] Google: Gemini 3.5 Pro が3回目の延期 (7/17 目標日未達、Gemini 3.6 Flash ストップギャップ浮上・予測市場7/31が81%) / [続報] WAIC 2026 本日開幕・Xi Jinping 初キーノート・WAICO 設立提案・Huawei Atlas 950・ZTE AI スマートフォン発表 / GitHub: NousResearch/hermes-agent 急騰
 - [2026-07-16](summaries/2026/07/2026-07-16.md) — [補完] Anthropic: Claude for Teachers 発表 (米K-12教員に1年間無料・全50州基準準拠) / [続報] Fable 5 含算アクセスを7/19まで3回目延長 / [続報] Gemini 3.5 Pro GA 明日目標 (7/17, 公式未確認) / TSMC Q2 過去最高 $39.6B (+36%) / GitHub: BrowserOS・nanobot 急騰
 - [2026-07-15](summaries/2026/07/2026-07-15.md) — Anthropic: Artifacts 公開共有・マルチプレイヤー編集・Claude Tag Slack 統合 (7/14) / [続報] 中国 AI コンパニオン規制本日施行・Doubao エージェントオフライン / [続報] Meta: Muse Image Instagram 参照機能を撤去 ("missed the mark") / Cloudflare Precursor GA (ボット 57%) / WAIC 2026 が 7/17 上海開幕・Xi 初キーノート
 - [2026-07-13](summaries/2026/07/2026-07-13.md) — OpenAI: Build Week 開幕 (7/13〜7/21 Codex グローバルハッカソン) / 中国: AI コンパニオン規制 7/15 施行・ByteDance Doubao・Alibaba Qwen が対象機能を停止中 / [続報] Anthropic: Fable 5 本日から全面クレジット制に移行 / GitHub 急騰: Vibe-Trading (+776★)・ruflo (+156★)・hyperframes (+157★)
 - [2026-07-12](summaries/2026/07/2026-07-12.md) — [補完] OpenAI: GPT-5.6 Sol Ultra が50年未解決の Cycle Double Cover 予想を証明 (64並列サブエージェント・1時間以内) / Anthropic: Fable 5 含算アクセス本日 (7/12 PT) 最終日・明日からクレジット制のみ / GitHub 急騰: DesktopCommanderMCP (+900★)・stablyai/Orca (+527★)
-- [2026-07-11](summaries/2026/07/2026-07-11.md) — [補完] OpenAI: GPT-Live フルデュプレックス音声モデル公開 (7/8) / [補完] Meta: Muse Spark 1.1 + Meta Model API — Meta 初の有料 AI モデル ($1.25/$4.25 per Mtok) / [補完] OpenAI: ChatGPT Work エージェント + Codex 統合デスクトップ (7/9) / [補完] SpaceXAI リブランド完了 (xAI → SpaceXAI) / GitHub 急騰: DesktopCommanderMCP (+349★)
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
