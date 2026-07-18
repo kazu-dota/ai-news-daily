@@ -1,0 +1,137 @@
+{
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T08:05:00+09:00",
+  "sources_checked": 27,
+  "sources_failed": 21,
+  "items": [
+    {
+      "id": "2026-07-19-anthropic-fable5-final",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[続報] Fable 5 含算アクセス本日終了 — 7/20 から Max/Team Premium 永続含算・Pro は $100 クレジット後 API 課金",
+      "summary": "本日 7/19 PT 23:59 で現行プロモーション終了。7/20 から Max/Team Premium は 50% 制限で永続含算、Pro/Team Standard は一回限り $100 クレジット付与後 $10/$50 per Mtok の API 課金に移行確定。",
+      "url": "https://www.techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only-pro.htm",
+      "importance": "highlight",
+      "related_date": "2026-07-18",
+      "tags": ["fable5", "pricing", "subscription", "anthropic"]
+    },
+    {
+      "id": "2026-07-19-openai-build-week-day7",
+      "type": "followup",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "[続報] Build Week 7 日目 — 締め切り (7/21) まで 2 日",
+      "summary": "OpenAI Build Week (7/13〜7/21) 7 日目。提出締め切りまで 48 時間。新製品・モデル発表は本日確認されず。",
+      "url": "https://openai.com/build-week/",
+      "importance": "standard",
+      "related_date": "2026-07-18",
+      "tags": ["openai", "build-week", "codex", "hackathon"]
+    },
+    {
+      "id": "2026-07-19-google-gemini35-delayed",
+      "type": "followup",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "[続報] Gemini 3.5 Pro — 7/19 も公式リリースなし (次目標 7/31)",
+      "summary": "7/17 目標日未達後も未リリース継続。予測市場は 7/31 (81%) を最有力視。Gemini 3.6 Flash がストップギャップとしてモデルレジストリに登録済み。",
+      "url": "https://aitoolsrecap.com/Blog/gemini-3-6-flash-what-we-know-july-2026",
+      "importance": "standard",
+      "related_date": "2026-07-18",
+      "tags": ["google", "gemini", "delay", "gemini-3-5-pro"]
+    },
+    {
+      "id": "2026-07-19-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-19-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-19-spacexai-grok-eu-delayed",
+      "type": "followup",
+      "vendor": "SpaceXAI",
+      "section": "vendor",
+      "title": "[続報] Grok 4.5 EU 向け — 本日も未提供継続",
+      "summary": "「7 月中旬」目標だった EU 向けロールアウトは本日も未達。EU AI 法のコンプライアンスレビューが継続中とみられる。",
+      "url": "https://theplanettools.ai/blog/spacexai-grok-4-5-half-price-eu-blocked-2026",
+      "importance": "minor",
+      "related_date": "2026-07-18",
+      "tags": ["spacexai", "grok", "eu", "regulation"]
+    },
+    {
+      "id": "2026-07-19-mistral-no-update",
+      "type": "no-update",
+      "vendor": "Mistral",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-19-github-lingbot-map",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: lingbot-map — ストリーミング映像からシーンを再構築する 3D 基盤モデル",
+      "summary": "フィードフォワード型 3D 基盤モデル。ストリーミングデータからリアルタイムにシーン再構築を行う研究実装。本日 +827★ (★12,890)。",
+      "url": "https://github.com/lingbot/lingbot-map",
+      "importance": "standard",
+      "tags": ["github-trending", "3d", "foundation-model", "scene-reconstruction"]
+    },
+    {
+      "id": "2026-07-19-github-code-review-graph",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: code-review-graph — MCP/CLI 向けローカルファーストのコードインテリジェンスグラフ",
+      "summary": "コードベースをグラフ化して MCP サーバー・CLI から AI エージェントが参照できる設計。Claude Code や Cursor との連携ユースケースで注目。本日 +356★ (★20,143)。",
+      "url": "https://github.com/code-review-graph/code-review-graph",
+      "importance": "standard",
+      "tags": ["github-trending", "mcp", "code-review", "ai-coding"]
+    },
+    {
+      "id": "2026-07-19-github-signoz",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: SigNoz/signoz — MCP 連携 AI エージェント対応の OSS 可観測性プラットフォーム",
+      "summary": "ログ・メトリクス・トレースを統合するオープンソース可観測性プラットフォーム。MCP 経由で AI エージェントがインシデント分析を自律実施する「AI teammate」機能を搭載。本日 +425★ (★30,776)。",
+      "url": "https://github.com/SigNoz/signoz",
+      "importance": "standard",
+      "tags": ["github-trending", "observability", "mcp", "ai-ops"]
+    },
+    {
+      "id": "2026-07-19-github-opencode-followup",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] anomalyco/opencode — Build Week 終盤も +334★",
+      "summary": "OSS コーディングエージェント。Build Week 終盤も +334★ (★187,221) と高水準を維持。7/15 掲載済み。",
+      "url": "https://github.com/anomalyco/opencode",
+      "importance": "minor",
+      "related_date": "2026-07-15",
+      "tags": ["github-trending", "coding-agent", "open-source"]
+    },
+    {
+      "id": "2026-07-19-waic2026-day3",
+      "type": "followup",
+      "vendor": null,
+      "section": "media",
+      "title": "[続報] WAIC 2026 Day 3 (7/19) — 産業実装セッション中心、明日が最終日",
+      "summary": "上海 WAIC 2026 の Day 3。産業実装・エコシステム展開セッションが中心。明日 7/20 に閉幕予定。",
+      "url": "https://www.wokeey.com/events/waic-2026/",
+      "importance": "minor",
+      "related_date": "2026-07-18",
+      "tags": ["waic", "conference", "china", "ai-governance"]
+    },
+    {
+      "id": "2026-07-19-papers-none",
+      "type": "no-update",
+      "vendor": null,
+      "section": "papers"
+    }
+  ]
+}
