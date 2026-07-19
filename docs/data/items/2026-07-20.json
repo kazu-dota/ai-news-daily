@@ -1,0 +1,182 @@
+{
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T08:10:00+09:00",
+  "sources_checked": 27,
+  "sources_failed": 22,
+  "items": [
+    {
+      "id": "2026-07-20-anthropic-fable5-active",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[続報] Fable 5 プラン別新構造が本日 7/20 より正式発動",
+      "summary": "7/20 より Max/Team Premium は週次上限 50% で永続含算、Pro は $100 クレジット後 API 課金のみに移行完了。",
+      "url": "https://www.techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only-pro.htm",
+      "related_date": "2026-07-19",
+      "importance": "highlight",
+      "tags": ["fable5", "pricing", "subscription", "anthropic"]
+    },
+    {
+      "id": "2026-07-20-anthropic-opus47-fastmode",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Opus 4.7 fast mode 削除まで残り4日 (7/24 削除)",
+      "summary": "7/24 に Opus 4.7 fast mode が削除。移行先は Opus 4.8 fast mode ($10/$50/Mtok、Opus 4.7 比 67% 削減)。",
+      "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "related_date": "2026-07-24",
+      "importance": "minor",
+      "tags": ["deprecation", "opus-4-7", "fast-mode", "developer", "anthropic"]
+    },
+    {
+      "id": "2026-07-20-openai-buildweek-day8",
+      "type": "followup",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "[続報] Build Week 8 日目 — 明日 7/21 が最終提出期限",
+      "summary": "OpenAI Build Week 最終盤。7/21 17:00 PDT が Codex ハッカソン提出締め切り。新製品発表なし。",
+      "url": "https://openai.com/build-week/",
+      "related_date": "2026-07-19",
+      "importance": "standard",
+      "tags": ["build-week", "codex", "hackathon", "openai"]
+    },
+    {
+      "id": "2026-07-20-google-gemini35-delayed",
+      "type": "followup",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "[続報] Gemini 3.5 Pro — 本日 7/20 も未リリース",
+      "summary": "4 回目の延期確定。予測市場は 7/31 (81%) が最有力。Gemini 3.6 Flash ストップギャップも未公開。",
+      "url": "https://www.techtimes.com/articles/320736/20260716/rebuilt-gemini-35-pro-misses-third-deadline-google-eyes-stopgap-release.htm",
+      "related_date": "2026-07-19",
+      "importance": "standard",
+      "tags": ["gemini-3-5-pro", "delay", "google", "deepmind"]
+    },
+    {
+      "id": "2026-07-20-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-20-meta-lawsuit-ruling",
+      "type": "followup",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "[続報] 連邦地裁が AI 解雇差別訴訟の緊急差し止め申請を棄却 (7/17 判決)",
+      "summary": "Orrick 判事が「回復不能な損害」要件未達として棄却。7/22 の解雇分離は予定通り進行。裁判官は AI 使用の追加証拠で判断再考を示唆。",
+      "url": "https://gvwire.com/2026/07/17/us-judge-wont-block-meta-from-laying-off-workers-who-filed-ai-discrimination-lawsuit/",
+      "related_date": "2026-07-18",
+      "importance": "highlight",
+      "tags": ["lawsuit", "layoffs", "ai-discrimination", "meta", "legal"]
+    },
+    {
+      "id": "2026-07-20-spacexai-grok45-eu",
+      "type": "followup",
+      "vendor": "xAI",
+      "section": "vendor",
+      "title": "[続報] Grok 4.5 EU 向け — 本日 7/20 も未提供",
+      "summary": "EU AI 法コンプライアンスレビュー継続中。「7 月中旬」目標は未達のまま。",
+      "url": "https://x.ai/news/grok-4-5",
+      "related_date": "2026-07-19",
+      "importance": "minor",
+      "tags": ["grok-4-5", "eu", "ai-act", "spacexai", "xai"]
+    },
+    {
+      "id": "2026-07-20-moonshot-kimi-k3",
+      "type": "followup",
+      "vendor": "Moonshot AI",
+      "section": "vendor",
+      "title": "[続報] Kimi K3 — ウェイト公開まで残り 7 日 (7/27 予定)",
+      "summary": "2.8T MoE モデルのフルウェイトは 7/27 に Hugging Face 公開予定。現時点は API のみ ($3/$15/Mtok)。",
+      "url": "https://howaiworks.ai/blog/moonshot-kimi-k3-release-announcement",
+      "related_date": "2026-07-18",
+      "importance": "minor",
+      "tags": ["kimi-k3", "open-weights", "moonshot", "moe"]
+    },
+    {
+      "id": "2026-07-20-mistral-no-update",
+      "type": "no-update",
+      "vendor": "Mistral",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-20-github-bojieli-ai-agent-book",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending Python 首位: bojieli/ai-agent-book (+1,734★)",
+      "summary": "「深入理解 AI Agent」中国語 AI エージェント実践書が一日で急騰。設計原理・工程実践の全文 PDF・章別コード収録。",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "importance": "highlight",
+      "tags": ["github-trending", "ai-agent", "book", "python", "chinese"]
+    },
+    {
+      "id": "2026-07-20-github-omniroute",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending TypeScript 首位: OmniRoute (+1,007★)",
+      "summary": "268+ プロバイダー・500+ モデル対応の無料 AI ゲートウェイ。Claude/GPT/Gemini をトークン最適化しながら統合管理。",
+      "url": "https://github.com/OmniRoute/omniroute",
+      "importance": "highlight",
+      "tags": ["github-trending", "ai-gateway", "typescript", "multi-provider"]
+    },
+    {
+      "id": "2026-07-20-github-voicebox",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending TypeScript: voicebox (+629★)",
+      "summary": "音声クローニング・入力・コンテンツ作成を統合したオープンソース AI 音声スタジオ。コンテンツクリエイター向け。",
+      "url": "https://github.com/voicebox-ai/voicebox",
+      "importance": "standard",
+      "tags": ["github-trending", "voice", "tts", "typescript", "open-source"]
+    },
+    {
+      "id": "2026-07-20-github-wigolo",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending TypeScript: wigolo (+605★)",
+      "summary": "AI コーディングエージェント向けローカルファースト Web 検索・クロールツール。MCP 経由で Claude Code・Cursor に接続。",
+      "url": "https://github.com/wigolo-ai/wigolo",
+      "importance": "standard",
+      "tags": ["github-trending", "mcp", "ai-agent", "typescript", "search"]
+    },
+    {
+      "id": "2026-07-20-github-ai-engineering",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending Python: rohitg00/ai-engineering-from-scratch (+507★)",
+      "summary": "基礎から本番デプロイまでをカバーする AI エンジニアリング実践カリキュラム。",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "importance": "standard",
+      "tags": ["github-trending", "ai-engineering", "education", "python"]
+    },
+    {
+      "id": "2026-07-20-github-ktransformers",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending Python: kvcache-ai/ktransformers (+328★)",
+      "summary": "異種ハードウェア向け LLM 推論・ファインチューニング最適化フレームワーク。KV キャッシュ効率改善に特化。",
+      "url": "https://github.com/kvcache-ai/ktransformers",
+      "importance": "minor",
+      "tags": ["github-trending", "llm-inference", "kv-cache", "optimization", "python"]
+    },
+    {
+      "id": "2026-07-20-waic2026-closing",
+      "type": "followup",
+      "vendor": null,
+      "section": "media",
+      "title": "[続報] WAIC 2026 本日閉幕 — SAIL Award 最優秀賞発表・業界6トレンド総括",
+      "summary": "WAIC 2026 (7/17〜20 上海) が閉幕。最終日に SAIL Award を発表。「モデルからシステムへのシフト」が今大会の主テーマ。",
+      "url": "https://pandaily.com/waic-2026-six-trends-jul2026",
+      "related_date": "2026-07-19",
+      "importance": "highlight",
+      "tags": ["waic-2026", "sail-award", "china", "ai-governance", "conference"]
+    }
+  ]
+}
