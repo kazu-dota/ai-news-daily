@@ -1,0 +1,167 @@
+{
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T08:06:00+09:00",
+  "sources_checked": 27,
+  "sources_failed": 21,
+  "items": [
+    {
+      "id": "2026-07-21-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-21-openai-build-week-final",
+      "type": "followup",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "[続報] Build Week 最終日 — 本日 17:00 PDT 提出期限",
+      "summary": "OpenAI Build Week (7/13〜7/21) が最終日。8,600+ 参加者の提出期限は本日 17:00 PDT。judging 7/22〜8/5、受賞発表 8/12 予定。",
+      "url": "https://openai.com/build-week/",
+      "related_date": "2026-07-20",
+      "importance": "highlight",
+      "tags": ["hackathon", "openai", "codex", "build-week"]
+    },
+    {
+      "id": "2026-07-21-google-gemini35-pending",
+      "type": "followup",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "[続報] Gemini 3.5 Pro 本日も未リリース",
+      "summary": "本日 JST 8:06 時点でも公式リリース確認できず。予測市場は 7/31 (81%) が最有力目標日。",
+      "related_date": "2026-07-20",
+      "importance": "minor",
+      "tags": ["google", "gemini", "delay"]
+    },
+    {
+      "id": "2026-07-21-google-eu-dma",
+      "type": "new",
+      "vendor": "Google",
+      "section": "governance",
+      "title": "EU DMA: Google に Android AI 開放・検索データ共有命令",
+      "summary": "欧州委員会が DMA に基づき Google に 2 つの遵守命令。Android 18 (2027年8月) で AI 競合への同等アクセス付与、2027年1月から匿名化検索データ共有義務化。違反時は世界年間売上の最大 10%。",
+      "url": "https://digital-markets-act.ec.europa.eu/commission-provides-guidance-google-ai-interoperability-android-and-sharing-google-search-data-under-2026-07-16_en",
+      "importance": "highlight",
+      "tags": ["regulation", "eu", "dma", "google", "android", "competition"]
+    },
+    {
+      "id": "2026-07-21-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-21-meta-lawsuit-july22",
+      "type": "followup",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "[続報] 解雇差別訴訟 — 明日 7/22 から解雇分離開始",
+      "summary": "緊急差し止め申請棄却 (7/17) により、Meta は明日 7/22 から 8,000 名規模のレイオフを予定通り実施する見通し。原告 26 名含む対象者は依然在籍中。",
+      "related_date": "2026-07-20",
+      "importance": "standard",
+      "tags": ["meta", "lawsuit", "layoff", "ai-discrimination"]
+    },
+    {
+      "id": "2026-07-21-spacexai-grok45-eu",
+      "type": "followup",
+      "vendor": "SpaceXAI",
+      "section": "vendor",
+      "title": "[続報] Grok 4.5 EU 向け本日も未提供",
+      "summary": "EU AI 法コンプライアンスレビューが継続中とみられ、本日時点も EU 向けの公式提供は確認されず。「7 月中旬」目標は未達のまま。",
+      "related_date": "2026-07-20",
+      "importance": "minor",
+      "tags": ["xai", "grok", "eu", "eu-ai-act", "delay"]
+    },
+    {
+      "id": "2026-07-21-moonshot-kimi-k3-pause",
+      "type": "followup",
+      "vendor": "Moonshot AI",
+      "section": "vendor",
+      "title": "[続報] Kimi K3: GPU 需要過多で新規サブスク一時停止・専用コーディングプラン新設へ",
+      "summary": "7/19 発表。リリース後 48 時間でコンピュートキャパシティ限界に達し新規サブスクを一時停止。既存ユーザーは継続利用可。今後は標準・専用コーディングの 2 プランに分割予定。7/27 ウェイト公開は維持。",
+      "url": "https://thenextweb.com/news/moonshot-kimi-k3-subscriptions-paused-gpu-capacity",
+      "related_date": "2026-07-20",
+      "importance": "highlight",
+      "tags": ["moonshot", "kimi-k3", "capacity", "subscription", "china-ai"]
+    },
+    {
+      "id": "2026-07-21-mistral-no-update",
+      "type": "no-update",
+      "vendor": "Mistral",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-21-github-kimi-cli",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: MoonshotAI/kimi-cli (+405★・Kimi Code CLI エージェント)",
+      "summary": "Kimi K3 API に直接接続する公式 CLI エージェント。コーディング・ファイル操作・Web 検索を端末から実行可能。Kimi K3 新規サブスク停止で API アクセスが主要利用手段となりつつある中で急浮上。",
+      "url": "https://github.com/MoonshotAI/kimi-cli",
+      "importance": "standard",
+      "tags": ["github-trending", "cli", "moonshot", "kimi", "coding-agent"]
+    },
+    {
+      "id": "2026-07-21-github-cognee",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: topoteretes/cognee (+249★・AI memory platform)",
+      "summary": "エージェント向けオープンソースの AI 永続記憶プラットフォーム。知識グラフを構築してエージェントが長期にわたって文脈を保持できるよう設計。",
+      "url": "https://github.com/topoteretes/cognee",
+      "importance": "standard",
+      "tags": ["github-trending", "ai-memory", "knowledge-graph", "agent"]
+    },
+    {
+      "id": "2026-07-21-github-deepsec",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: vercel-labs/deepsec (+348★・security harness using coding agents)",
+      "summary": "AI コーディングエージェントを活用して脆弱性を自動探索するセキュリティテストハーネス。Claude Code・Codex などを Pentest エージェントとして運用するユースケースに対応。",
+      "url": "https://github.com/vercel-labs/deepsec",
+      "importance": "standard",
+      "tags": ["github-trending", "security", "coding-agent", "vulnerability", "vercel"]
+    },
+    {
+      "id": "2026-07-21-paper-causalds",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "CausalDS: Benchmarking Causal Reasoning in Data-Science Agents",
+      "summary": "データサイエンスエージェントの因果推論能力を評価する新ベンチマーク。Pearl の因果の梯子 3 段階 (連想・介入・反事実) に対応したタスクを合成データと自然言語ストーリーから生成。",
+      "url": "https://arxiv.org/abs/2607.08093",
+      "importance": "standard",
+      "tags": ["paper", "benchmark", "causal-reasoning", "agent", "data-science"]
+    },
+    {
+      "id": "2026-07-21-paper-searchos",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
+      "summary": "オープンドメインの情報探索で複数 AI エージェントが協調して検索・検証・回答生成を担う「SearchOS」フレームワークの初版。エージェント間通信プロトコルと段階的情報集約手法が特徴。",
+      "url": "https://arxiv.org/abs/2607.15257",
+      "importance": "standard",
+      "tags": ["paper", "agent-collaboration", "information-seeking", "search", "multi-agent"]
+    },
+    {
+      "id": "2026-07-21-media-fli-safety-index",
+      "type": "new",
+      "vendor": null,
+      "section": "media",
+      "title": "[FLI] AI Safety Index Summer 2026: 最高評価 Anthropic C+、全主要ラボが合格水準以下",
+      "summary": "Future of Life Institute が主要 9 AI ラボを 6 ドメインで採点。最高評価の Anthropic でも C+ (2.66点) にとどまり合格水準に達したラボはゼロ。実存的安全性ドメインでの最高評価は D+。",
+      "url": "https://futureoflife.org/ai-safety-index-summer-2026/",
+      "importance": "standard",
+      "tags": ["safety", "anthropic", "benchmark", "fli", "governance", "rating"]
+    },
+    {
+      "id": "2026-07-21-hacker-news-no-update",
+      "type": "no-update",
+      "vendor": null,
+      "section": "community",
+      "title": "Hacker News / Reddit: 本日該当なし"
+    }
+  ]
+}
