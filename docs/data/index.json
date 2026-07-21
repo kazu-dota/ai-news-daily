@@ -1,5 +1,282 @@
 [
   {
+    "date": "2026-07-22",
+    "id": "2026-07-22-anthropic-opus47-fast-mode-countdown",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Opus 4.7 fast mode 削除まで残り 2 日 (7/24)",
+    "summary": "7/24 に claude-opus-4-7 の fast mode が削除。移行先は Opus 4.8 fast mode ($10/$50 per Mtok)。",
+    "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+    "importance": "standard",
+    "tags": [
+      "deprecation",
+      "anthropic",
+      "opus",
+      "fast-mode",
+      "developer-alert"
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "id": "2026-07-22-openai-build-week-judging",
+    "type": "followup",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "[続報] OpenAI Build Week — 本日 7/22 から審査フェーズ開始",
+    "summary": "提出締め切り 7/21 完了、審査は 7/22〜8/5、受賞発表は 8/12。新製品発表なし。",
+    "url": "https://openai.com/build-week/",
+    "related_date": "2026-07-21",
+    "importance": "standard",
+    "tags": [
+      "hackathon",
+      "openai",
+      "build-week",
+      "codex"
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "id": "2026-07-22-google-gemini-flash-triple-release",
+    "type": "new",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "Gemini 3.6 Flash・3.5 Flash-Lite・3.5 Flash Cyber を一挙公開",
+    "summary": "Gemini 3.6 Flash ($1.50/$7.50 per Mtok、17% 少トークン)、3.5 Flash-Lite ($0.30 入力)、3.5 Flash Cyber (サイバーセキュリティ特化・政府限定)。Gemini 4 プリトレーニング開始も宣言。",
+    "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/",
+    "importance": "highlight",
+    "tags": [
+      "model-release",
+      "google",
+      "gemini",
+      "flash",
+      "pricing",
+      "gemini-4"
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "id": "2026-07-22-google-gemini35pro-partners",
+    "type": "followup",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "[続報] Gemini 3.5 Pro — パートナー限定テスト継続・一般公開未定",
+    "summary": "Flash 3 モデル公開と同日、Gemini 3.5 Pro はパートナーテスト中と確認。Logan Kilpatrick が Gemini 4 の「最高野心的プリトレーニング」開始を宣言。",
+    "url": "https://9to5google.com/2026/07/21/gemini-3-6-flash-launch/",
+    "related_date": "2026-07-21",
+    "importance": "standard",
+    "tags": [
+      "gemini",
+      "google",
+      "gemini-35-pro",
+      "gemini-4",
+      "pre-training"
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "id": "2026-07-22-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-22",
+    "id": "2026-07-22-meta-layoffs-begin",
+    "type": "followup",
+    "vendor": "Meta",
+    "section": "vendor",
+    "title": "[続報] Meta AI 解雇差別訴訟 — 本日 7/22 から 8,000 名の分離開始",
+    "summary": "連邦地裁が緊急差し止めを棄却した通り、本日から AI 解雇差別訴訟の原告を含む 8,000 名の分離手続きが開始。本案審理は継続中。",
+    "url": "https://gvwire.com/2026/07/17/us-judge-wont-block-meta-from-laying-off-workers-who-filed-ai-discrimination-lawsuit/",
+    "related_date": "2026-07-21",
+    "importance": "highlight",
+    "tags": [
+      "meta",
+      "layoffs",
+      "ai-discrimination",
+      "lawsuit",
+      "governance"
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "id": "2026-07-22-spacexai-grok45-eu-unavailable",
+    "type": "followup",
+    "vendor": "xAI",
+    "section": "vendor",
+    "title": "[続報] SpaceXAI: Grok 4.5 EU 向け — 本日 7/22 も未提供",
+    "summary": "EU AI 法コンプライアンスレビュー継続中。「7月中旬」目標は未達のまま。",
+    "related_date": "2026-07-21",
+    "importance": "minor",
+    "tags": [
+      "xai",
+      "grok",
+      "eu",
+      "ai-regulation",
+      "eu-ai-act"
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "id": "2026-07-22-moonshot-kimi-k3-countdown",
+    "type": "followup",
+    "vendor": "Moonshot AI",
+    "section": "vendor",
+    "title": "[続報] Moonshot AI: Kimi K3 ウェイト公開まで残り 5 日 (7/27)",
+    "summary": "7/27 Hugging Face 公開予定。K3·Max と K3 Cluster·Max の 2 バリアント存在が判明。新規サブスク停止継続中。",
+    "url": "https://localaimaster.com/models/kimi-k3",
+    "related_date": "2026-07-21",
+    "importance": "standard",
+    "tags": [
+      "moonshot",
+      "kimi-k3",
+      "open-weights",
+      "moe",
+      "china-ai"
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "id": "2026-07-22-mistral-no-update",
+    "type": "no-update",
+    "vendor": "Mistral",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-22",
+    "id": "2026-07-22-nvidia-siggraph-cosmos3-dlss5",
+    "type": "new",
+    "vendor": "NVIDIA",
+    "section": "vendor",
+    "title": "NVIDIA SIGGRAPH 2026: Cosmos 3 Edge (4B・オープンウェイト) と DLSS 5 を発表",
+    "summary": "Cosmos 3 Edge はデバイス上リアルタイム動作の 4B ワールドモデル (オープンウェイト公開済み)。DLSS 5 は秋 2026 シップ。Cosmos Dreams で 1 枚画像からフル仮想環境を生成。",
+    "url": "https://blogs.nvidia.com/blog/siggraph-news-2026/",
+    "importance": "highlight",
+    "tags": [
+      "nvidia",
+      "cosmos",
+      "dlss",
+      "physical-ai",
+      "open-weights",
+      "siggraph",
+      "edge-ai"
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "id": "2026-07-22-github-trending-astrobot",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: AstrBot — AI Agent Assistant & development framework",
+    "summary": "複数 IM プラットフォーム・LLM・プラグインを統合した AI エージェントフレームワーク。汎用基盤として支持 (★37,440)。",
+    "url": "https://github.com/Soulter/AstrBot",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "ai-agent",
+      "framework",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "id": "2026-07-22-github-trending-open-deep-research",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: langchain-ai/open_deep_research — 多段階リサーチエージェント",
+    "summary": "LangChain が公開するオープンソース深度リサーチ AI。複数情報源を横断した自律調査フローの参照実装 (★12,213)。",
+    "url": "https://github.com/langchain-ai/open_deep_research",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "langchain",
+      "research-agent",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "id": "2026-07-22-github-trending-worldmonitor",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: koala73/worldmonitor — AI 駆動リアルタイムグローバル情報ダッシュボード",
+    "summary": "AI ニュース集約・地政学モニタリング・インフラ追跡を統合したリアルタイムダッシュボード (★65,199, +1,167 today)。",
+    "url": "https://github.com/koala73/worldmonitor",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "dashboard",
+      "news-aggregation",
+      "geopolitics"
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "id": "2026-07-22-github-trending-pi",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: earendil-works/pi — 統合 LLM API・エージェントループ・TUI の AI ツールキット",
+    "summary": "統合 LLM API・エージェントループ・TUI・コーディング CLI を備えたオールインワン AI エージェントツールキット (★74,599, +1,222 today)。",
+    "url": "https://github.com/earendil-works/pi",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "ai-agent",
+      "toolkit",
+      "llm",
+      "tui",
+      "cli"
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "id": "2026-07-22-github-trending-orca",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: stablyai/orca — 並列エージェントフリート ADE",
+    "summary": "並列エージェントフリートを統括するエージェント開発環境。任意のコーディングエージェントをサブスク経由で横断実行 (★24,874, +1,384 today)。",
+    "url": "https://github.com/stablyai/orca",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "multi-agent",
+      "ade",
+      "parallel-agents",
+      "orchestration"
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "id": "2026-07-22-papers-no-update",
+    "type": "no-update",
+    "vendor": null,
+    "section": "papers"
+  },
+  {
+    "date": "2026-07-22",
+    "id": "2026-07-22-media-claude-api-changes",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "media",
+    "title": "[byteiota] Claude API: レート制限引き上げ・API キー有効期限設定・7/24 対応必須の変更点",
+    "summary": "レート制限引き上げと API キー有効期限設定機能が追加。Opus 4.7 fast mode 削除 (7/24) を含む要対応変更点のまとめ記事。",
+    "url": "https://byteiota.com/claude-api-july-2026-rate-limits-key-expiry/",
+    "importance": "standard",
+    "tags": [
+      "media",
+      "anthropic",
+      "api",
+      "rate-limits",
+      "developer"
+    ]
+  },
+  {
     "date": "2026-07-21",
     "id": "2026-07-21-anthropic-no-update",
     "type": "no-update",
