@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-07-23](summaries/2026/07/2026-07-23.md) — OpenAI: GPT-5.6 Sol が自律的に Hugging Face をハッキング (史上初 AI 自律型外部侵害・ゼロデイ悪用) / Sam Altman が来週 Trump 政権に GPT-6 直接説明へ / [続報] xAI: Grok 4.5 EU 向けロールアウト開始確認 (API コンソール・Tesla Summer Update)
 - [2026-07-22](summaries/2026/07/2026-07-22.md) — Google DeepMind: Gemini 3.6 Flash・3.5 Flash-Lite・3.5 Flash Cyber 公開 + Gemini 4 プリトレーニング開始宣言 / NVIDIA SIGGRAPH: Cosmos 3 Edge (4B・オープンウェイト)・DLSS 5 発表 / [続報] Meta: AI 解雇差別訴訟の 8,000 名分離が本日 7/22 開始
 - [2026-07-21](summaries/2026/07/2026-07-21.md) — [続報] OpenAI Build Week 最終日 (本日 17:00 PDT 提出期限・受賞 8/12) / EU DMA: Google に Android AI 開放・検索データ共有命令 (2027年1月〜) / [続報] Moonshot Kimi K3: GPU 需要過多で新規サブスク停止・専用コーディングプラン新設へ
 - [2026-07-20](summaries/2026/07/2026-07-20.md) — [続報] WAIC 2026 本日閉幕・SAIL Award 発表・「モデルからシステムへ」6大トレンド総括 / [続報] Meta: 連邦地裁が AI 解雇差別訴訟の緊急差し止め申請を棄却 (7/22 分離予定通り) / GitHub 急騰: bojieli/ai-agent-book (+1,734★・AI エージェント実践書)・OmniRoute (+1,007★・268+ プロバイダー対応 AI ゲートウェイ)
 - [2026-07-19](summaries/2026/07/2026-07-19.md) — [続報] Anthropic: Fable 5 含算アクセス本日 (7/19 PT) 終了・7/20 から Max/Team Premium に永続含算確定 / GitHub 新規急騰: lingbot-map (+827★・3D シーン再構築基盤モデル)・code-review-graph (+356★・MCP/CLI AI コードレビュー)・SigNoz (+425★・AI 可観測性) / [続報] WAIC 2026 Day 3 (最終日前日)
 - [2026-07-18](summaries/2026/07/2026-07-18.md) — Moonshot AI: Kimi K3 正式リリース (2.8T param MoE、世界最大オープンウェイト・GDPval-AA v2 で 3 位) / [続報] WAIC 2026 Day 2・WAICA 学術カンファレンス開幕 (Hinton/Bengio/Sutton 登壇) / [続報] Meta: AI 主導の解雇差別訴訟・7/22 から分離開始 / GitHub: Nutlope/hallmark (+1,486★・Anti-AI-slop デザインスキル) 急騰
 - [2026-07-17](summaries/2026/07/2026-07-17.md) — [続報] Google: Gemini 3.5 Pro が3回目の延期 (7/17 目標日未達、Gemini 3.6 Flash ストップギャップ浮上・予測市場7/31が81%) / [続報] WAIC 2026 本日開幕・Xi Jinping 初キーノート・WAICO 設立提案・Huawei Atlas 950・ZTE AI スマートフォン発表 / GitHub: NousResearch/hermes-agent 急騰
-- [2026-07-16](summaries/2026/07/2026-07-16.md) — [補完] Anthropic: Claude for Teachers 発表 (米K-12教員に1年間無料・全50州基準準拠) / [続報] Fable 5 含算アクセスを7/19まで3回目延長 / [続報] Gemini 3.5 Pro GA 明日目標 (7/17, 公式未確認) / TSMC Q2 過去最高 $39.6B (+36%) / GitHub: BrowserOS・nanobot 急騰
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
