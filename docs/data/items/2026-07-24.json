@@ -1,0 +1,238 @@
+{
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T08:05:30+09:00",
+  "sources_checked": 26,
+  "sources_failed": 20,
+  "items": [
+    {
+      "id": "2026-07-24-anthropic-opus47-fast-removed",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[確定] Claude Opus 4.7 fast mode — 本日 7/24 削除完了",
+      "summary": "claude-opus-4-7 の speed:fast 指定が本日をもって正式削除。speed:fast 指定リクエストはエラーを返す。移行先は Opus 4.8 fast mode ($10/$50 per Mtok)。",
+      "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "importance": "standard",
+      "tags": ["deprecation", "anthropic", "opus"],
+      "related_date": "2026-07-20"
+    },
+    {
+      "id": "2026-07-24-anthropic-claude-voice-upgrade",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Claude ボイスモード大幅刷新 — Opus・Sonnet モデルに対応",
+      "summary": "ボイスモードが Opus/Sonnet に対応（従来は Haiku のみ）。自然なイントネーション・高速応答・多言語拡張・コネクタ連携も追加。",
+      "url": "https://9to5mac.com/2026/07/23/anthropic-upgrades-claude-voice-mode-with-more-powerful-models/",
+      "importance": "standard",
+      "tags": ["voice", "anthropic", "claude", "multimodal"]
+    },
+    {
+      "id": "2026-07-24-openai-health-chatgpt",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "Health in ChatGPT を米国全ユーザーに展開",
+      "summary": "Apple Health・医療記録連携で個別化した健康情報支援を提供。18歳以上の米国全プランで利用可能に。1月パイロットから6ヶ月で全面展開。",
+      "url": "https://openai.com/index/health-in-chatgpt/",
+      "importance": "highlight",
+      "tags": ["health", "openai", "chatgpt", "apple-health", "medical"]
+    },
+    {
+      "id": "2026-07-24-openai-gpt-live-desktop",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "GPT-Live デスクトップ版展開 — PC をハンズフリーで操作",
+      "summary": "フルデュプレックス音声モデル GPT-Live がデスクトップアプリに対応。画面参照しながら音声でタスク指示が可能。GPT-5.5 への 2 層委譲構造を採用。",
+      "url": "https://openai.com/index/introducing-gpt-live/",
+      "importance": "standard",
+      "tags": ["voice", "openai", "gpt-live", "desktop", "full-duplex"]
+    },
+    {
+      "id": "2026-07-24-openai-presence",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "OpenAI Presence 発表 — 企業向けリアルタイム音声・チャットエージェントプラットフォーム",
+      "summary": "カスタマーサポート・営業・IT/HR 向けエージェントを FDE 主導で展開するエンタープライズ製品。BBVA・SoftBank・IAG が採用。自社問い合わせ対応の 75% をすでに処理。",
+      "url": "https://openai.com/index/introducing-openai-presence/",
+      "importance": "standard",
+      "tags": ["enterprise", "openai", "agents", "voice", "customer-support"]
+    },
+    {
+      "id": "2026-07-24-google-alphabet-q2",
+      "type": "new",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "Alphabet Q2 決算 — Gemini 9.5 億 MAU、Google Cloud 82% 成長",
+      "summary": "Gemini が月間 9.5 億ユーザーで ChatGPT に迫る（前年比 3 倍）。Cloud 売上 $248 億（+82%）。年間 CapEx 最大 $2,050 億に引き上げ。",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q2-2026/",
+      "importance": "standard",
+      "tags": ["google", "gemini", "earnings", "cloud", "capex"]
+    },
+    {
+      "id": "2026-07-24-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-24-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-24-xai-grok45-everywhere",
+      "type": "followup",
+      "vendor": "xAI",
+      "section": "vendor",
+      "title": "[続報] Grok 4.5 — 全プラットフォーム展開完了 + EU ロールアウト確認済み",
+      "summary": "grok.com・X・iOS・Android 全チャネルへの展開完了を xAI が公式宣言。EU ロールアウトも確認済みでグローバル展開はほぼ完結。",
+      "url": "https://x.ai/news/grok-4-5-everywhere",
+      "importance": "minor",
+      "tags": ["xai", "grok", "rollout", "eu"],
+      "related_date": "2026-07-23"
+    },
+    {
+      "id": "2026-07-24-moonshot-kimi-k3-distillation",
+      "type": "new",
+      "vendor": "Moonshot AI",
+      "section": "vendor",
+      "title": "Kimi K3 蒸留疑惑 — 白宮 OSTP 長官が Anthropic Fable 蒸留を公式告発・財務省制裁も示唆",
+      "summary": "Kratsios OSTP 長官が「MoonshotはAnthropicのFableを産業規模で蒸留してK3を開発」と公式言及。証拠の詳細は未公開。米国高官による中国AIラボ名指し告発は初のケース。",
+      "url": "https://easternherald.com/2026/07/23/moonshot-ai-fable-distillation-sanctions/",
+      "importance": "highlight",
+      "tags": ["moonshot", "kimi-k3", "distillation", "geopolitics", "us-china", "governance", "sanctions"]
+    },
+    {
+      "id": "2026-07-24-moonshot-kimi-k3-countdown",
+      "type": "followup",
+      "vendor": "Moonshot AI",
+      "section": "vendor",
+      "title": "[続報] Kimi K3 ウェイト公開まで残り 3 日 (7/27)",
+      "summary": "7/27 の Hugging Face 公開予定に変更なし。現時点は API アクセスのみ ($3/$15 per Mtok)。",
+      "url": "https://huggingface.co/moonshotai",
+      "importance": "minor",
+      "tags": ["moonshot", "kimi-k3", "open-weights"],
+      "related_date": "2026-07-18"
+    },
+    {
+      "id": "2026-07-24-bfl-flux-3",
+      "type": "new",
+      "vendor": "Black Forest Labs",
+      "section": "vendor",
+      "title": "FLUX 3 発表 — 画像・映像・音声・ロボティクス統合マルチモーダルモデル",
+      "summary": "単一ネットワークで画像・最大20秒音声付き動画・ロボティクスアクションを生成。Early Access 限定公開。Audi でロボティクス試験運用中。",
+      "url": "https://bfl.ai/blog/flux-3",
+      "importance": "highlight",
+      "tags": ["bfl", "flux", "multimodal", "video", "audio", "robotics", "image-gen"]
+    },
+    {
+      "id": "2026-07-24-mistral-no-update",
+      "type": "no-update",
+      "vendor": "Mistral",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-24-github-awesome-claude-skills",
+      "type": "new",
+      "vendor": "ComposioHQ",
+      "section": "community",
+      "title": "GitHub Trending: awesome-claude-skills (+637★)",
+      "summary": "Claude AI ワークフロー向けスキル・ツールのキュレーションリスト。★69,392 (+637 today)。",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "importance": "minor",
+      "tags": ["github-trending", "claude", "tools", "workflow"]
+    },
+    {
+      "id": "2026-07-24-github-kronos",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "GitHub Trending: Kronos — 金融市場向けファウンデーションモデル (+398★)",
+      "summary": "時系列金融データ向けファウンデーションモデル論文実装。★33,019 (+398 today)。",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "importance": "minor",
+      "tags": ["github-trending", "finance", "foundation-model", "time-series"]
+    },
+    {
+      "id": "2026-07-24-github-pi-web",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "GitHub Trending: pi-web — pi コーディングエージェント向け Web UI (+315★)",
+      "summary": "earendil-works/pi エージェントのブラウザ UI フロントエンド。★2,342 (+315 today)。",
+      "url": "https://github.com/agegr/pi-web",
+      "importance": "minor",
+      "tags": ["github-trending", "coding-agent", "ui", "browser"]
+    },
+    {
+      "id": "2026-07-24-github-openspec",
+      "type": "new",
+      "vendor": "Fission-AI",
+      "section": "community",
+      "title": "GitHub Trending: OpenSpec — 仕様駆動 AI 開発フレームワーク (+202★)",
+      "summary": "自然言語仕様書から実装・テスト・ドキュメントを AI で自律生成するフレームワーク。★62,314 (+202 today)。",
+      "url": "https://github.com/Fission-AI/OpenSpec",
+      "importance": "minor",
+      "tags": ["github-trending", "spec-driven", "agents", "development"]
+    },
+    {
+      "id": "2026-07-24-paper-slai-trex",
+      "type": "new",
+      "vendor": "Huawei",
+      "section": "papers",
+      "title": "SLAI T-Rex: Full-Parameter Post-training of the DeepSeek-V4 Family on Ascend SuperPOD",
+      "summary": "Ascend SuperPOD 上での DeepSeek-V4 完全パラメータ後学習手法。7/23 HF Papers 首位。中国製ハードウェアでの独立学習エコシステム確立の試み。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["paper", "deepseek", "post-training", "huawei", "ascend", "open-weights"]
+    },
+    {
+      "id": "2026-07-24-paper-activation-steering-geometry",
+      "type": "new",
+      "vendor": "Community",
+      "section": "papers",
+      "title": "A Geometric Account of Activation Steering through Angle-Norm Decomposition",
+      "summary": "アクティベーションステアリングを角度・ノルム分解で幾何学的に解釈。モデル制御・インタープリタビリティ研究に新視点。",
+      "url": "https://arxiv.org/abs/2606.06735",
+      "importance": "standard",
+      "tags": ["paper", "interpretability", "activation-steering", "mechanistic"]
+    },
+    {
+      "id": "2026-07-24-etched-series-c",
+      "type": "new",
+      "vendor": "Etched",
+      "section": "media",
+      "title": "AI チップ新興 Etched が $300M 調達、評価額 $10.3B",
+      "summary": "Sequoia 主導、a16z・SK Hynix 参加の Series C。GPU フリー推論カスタムシリコンで NVIDIA に対抗。$10B の受注残も開示。",
+      "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+      "importance": "standard",
+      "tags": ["funding", "ai-chip", "inference", "hardware", "sequoia"]
+    },
+    {
+      "id": "2026-07-24-runway-model-router",
+      "type": "new",
+      "vendor": "Runway",
+      "section": "media",
+      "title": "Runway: AI Model Router 発表 — 品質/速度/コストで最適モデルを自動選択",
+      "summary": "複数の画像・動画・音声生成モデルを自動選択する API ルーター機能。FLUX 3 等サードパーティも対応し、単一プロバイダー依存を排除。",
+      "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+      "importance": "minor",
+      "tags": ["runway", "model-router", "generative-media", "api"]
+    },
+    {
+      "id": "2026-07-24-alphabet-gemini-mau",
+      "type": "new",
+      "vendor": "Google",
+      "section": "media",
+      "title": "Google Gemini が月間 9.5 億 MAU を達成 — ChatGPT に迫る勢い",
+      "summary": "Alphabet Q2 決算で Gemini アプリの MAU が 9.5 億人に達したと発表。前年比 3 倍成長。Cloud 収益 82% 増とあわせ AI 収益化が本格化。",
+      "url": "https://www.forbes.com/sites/tylerroush/2026/07/22/950-million-people-now-use-gemini-each-month-as-alphabet-posts-earnings-beat/",
+      "importance": "standard",
+      "tags": ["google", "gemini", "mau", "earnings", "alphabet"]
+    }
+  ]
+}
