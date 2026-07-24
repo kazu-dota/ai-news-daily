@@ -1,5 +1,180 @@
 [
   {
+    "date": "2026-07-25",
+    "id": "2026-07-25-anthropic-opus-5",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Claude Opus 5 発表 — Fable 5超えのコーディング性能を半値で実現",
+    "summary": "Frontier-Bench 43.3%・ARC-AGI-3 30.2%でFable 5を上回る。価格は$5/$25 per Mtok (Fable 5の半値)。Claude Max・Proのデフォルトに昇格。",
+    "url": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
+    "importance": "highlight",
+    "tags": [
+      "model-release",
+      "anthropic",
+      "opus",
+      "benchmark",
+      "coding"
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "id": "2026-07-25-moonshot-kimi-k3-hallucination",
+    "type": "followup",
+    "vendor": "Moonshot AI",
+    "section": "vendor",
+    "title": "[続報] Kimi K3 ウェイト公開2日前 — ハルシネーション率51%の懸念報告",
+    "summary": "Artificial Analysisの独立評価でK3のハルシネーション率が51%と計測 (前世代K2.6は39%)。Moonshot公式ベンチに未掲載。7/27のHugging Face公開まで2日。",
+    "url": "https://www.techtimes.com/articles/321499/20260724/kimi-k3-open-weights-drop-july-27-near-frontier-coding-undisclosed-hallucination-risk.htm",
+    "related_date": "2026-07-24",
+    "importance": "standard",
+    "tags": [
+      "open-weights",
+      "moonshot",
+      "kimi",
+      "hallucination",
+      "evaluation"
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "id": "2026-07-25-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-25",
+    "id": "2026-07-25-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-25",
+    "id": "2026-07-25-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-25",
+    "id": "2026-07-25-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-25",
+    "id": "2026-07-25-xai-no-update",
+    "type": "no-update",
+    "vendor": "xAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-25",
+    "id": "2026-07-25-mistral-no-update",
+    "type": "no-update",
+    "vendor": "Mistral",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-25",
+    "id": "2026-07-25-github-agent-reach",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "Panniantong/Agent-Reach — AIエージェント向けインターネット読み取りツール (+488★)",
+    "summary": "単一CLIで複数インターネットプラットフォームを読み取り・検索できるAIエージェント向けツール。",
+    "url": "https://github.com/Panniantong/Agent-Reach",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "agents",
+      "cli",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "id": "2026-07-25-github-crawl4ai",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "unclecode/crawl4ai — LLMフレンドリーなオープンソースウェブクローラー (+462★)",
+    "summary": "LLMが処理しやすい形式でウェブコンテンツを取得するPythonライブラリ。AI エージェントのデータ収集基盤として普及。",
+    "url": "https://github.com/unclecode/crawl4ai",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "crawler",
+      "llm",
+      "open-source",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "id": "2026-07-25-github-openmontage",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "calesthio/OpenMontage — オープンソースのAIエージェント型動画制作システム (+349★)",
+    "summary": "12の制作パイプラインと100以上のツールを備えた世界初のオープンソースアジェント型動画制作システム。",
+    "url": "https://github.com/calesthio/OpenMontage",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "video",
+      "agents",
+      "open-source",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "id": "2026-07-25-github-browser-use",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "browser-use/browser-use — AIエージェント向けウェブブラウザアクセスライブラリ (+270★)",
+    "summary": "AIエージェントが直接ウェブブラウザを操作してタスクを実行するPythonライブラリ。",
+    "url": "https://github.com/browser-use/browser-use",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "browser",
+      "agents",
+      "python",
+      "automation"
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "id": "2026-07-25-github-firecrawl",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "mendableai/firecrawl — AIアプリ向けスケーラブルなウェブスクレイピングAPI (+556★)",
+    "summary": "大規模にウェブを検索・スクレイプ・インタラクションするAIアプリ構築用API。",
+    "url": "https://github.com/mendableai/firecrawl",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "web-scraping",
+      "api",
+      "ai-apps",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "id": "2026-07-25-papers-no-update",
+    "type": "no-update",
+    "vendor": null,
+    "section": "papers"
+  },
+  {
     "date": "2026-07-24",
     "id": "2026-07-24-anthropic-opus47-fast-removed",
     "type": "followup",
