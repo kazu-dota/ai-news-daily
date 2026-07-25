@@ -1,5 +1,185 @@
 [
   {
+    "date": "2026-07-26",
+    "id": "2026-07-26-anthropic-opus5-community",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[続報] Claude Opus 5 — コミュニティ評価で effort toggle・追加ベンチ確認",
+    "summary": "OSWorld 2.0 (70.6%)・AutomationBench (26.0%) 等の追加ベンチが判明。effort toggle (low/medium/high) でリクエスト単位のコスト調整が可能。Opus 4.8 と価格同等なため実質ゼロコストで移行可能。",
+    "url": "https://www.vellum.ai/blog/claude-opus-5-benchmarks-explained",
+    "related_date": "2026-07-25",
+    "importance": "highlight",
+    "tags": [
+      "model-release",
+      "anthropic",
+      "opus",
+      "benchmark",
+      "effort-toggle",
+      "community-eval"
+    ]
+  },
+  {
+    "date": "2026-07-26",
+    "id": "2026-07-26-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-26",
+    "id": "2026-07-26-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-26",
+    "id": "2026-07-26-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-26",
+    "id": "2026-07-26-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-26",
+    "id": "2026-07-26-moonshot-kimi-k3-countdown",
+    "type": "followup",
+    "vendor": "Moonshot AI",
+    "section": "vendor",
+    "title": "[続報] Kimi K3 ウェイト公開まで残り24時間 — 自己ホスティングで中国データリスクを解消",
+    "summary": "7/27 00:00 UTC (JST 09:00) に Modified MIT ライセンスで公開予定。594GB (BF16)・2.8T MoE。自己ホストでデータが組織内完結し中国サーバー経由を回避できる点が本日の焦点。",
+    "url": "https://www.techtimes.com/articles/321551/20260725/kimi-k3-open-weights-arrive-sunday-self-hosting-cuts-china-data-risk-api-never-can.htm",
+    "related_date": "2026-07-25",
+    "importance": "highlight",
+    "tags": [
+      "open-weights",
+      "moonshot",
+      "kimi",
+      "self-hosting",
+      "data-privacy",
+      "mit-license"
+    ]
+  },
+  {
+    "date": "2026-07-26",
+    "id": "2026-07-26-mistral-no-update",
+    "type": "no-update",
+    "vendor": "Mistral",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-26",
+    "id": "2026-07-26-github-free-claude-code",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: Alishahryar1/free-claude-code (+262★)",
+    "summary": "Claude Code の API に接続してターミナル・IDE から音声入力対応でコーディング支援を提供するオープンソースツール。Opus 5 リリースでコーディングエージェント関心が高まる中で急騰 (★42,283)。",
+    "url": "https://github.com/Alishahryar1/free-claude-code",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "claude",
+      "coding-agent",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-07-26",
+    "id": "2026-07-26-github-pageindex",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: VectifyAI/PageIndex (+222★)",
+    "summary": "ベクター埋め込み不要の推論ベース RAG 向けドキュメントインデックスシステム。大規模文書処理コストを削減する設計 (★34,555)。",
+    "url": "https://github.com/VectifyAI/PageIndex",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "rag",
+      "retrieval",
+      "llm",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-07-26",
+    "id": "2026-07-26-github-strix",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: usestrix/strix (+231★)",
+    "summary": "AI を活用したオープンソースのペネトレーションテストツール。GPT-5.6 自律ハッキング事案後の AI セキュリティ関心増で急騰 (★44,200)。",
+    "url": "https://github.com/usestrix/strix",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "security",
+      "penetration-testing",
+      "ai-security",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-07-26",
+    "id": "2026-07-26-github-hyperframes",
+    "type": "new",
+    "vendor": "HeyGen",
+    "section": "community",
+    "title": "GitHub Trending: heygen-com/hyperframes (+208★)",
+    "summary": "HTML からビデオをレンダリングするエージェント向け TypeScript ライブラリ。AI 動画生成ワークフローのインフラとして急浮上 (★37,629)。",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "video-generation",
+      "agents",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-07-26",
+    "id": "2026-07-26-paper-self-gradient-forcing",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "Self Gradient Forcing: Native Long Video Extrapolation",
+    "summary": "自己勾配強制により学習時間窓を超えた長尺動画の外挿生成を実現するフレームワーク。HF Papers トレンド入り。",
+    "url": "https://huggingface.co/papers/trending",
+    "importance": "standard",
+    "tags": [
+      "video-generation",
+      "extrapolation",
+      "research",
+      "hugging-face"
+    ]
+  },
+  {
+    "date": "2026-07-26",
+    "id": "2026-07-26-paper-rubric-oriented-retrieval",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "Beyond Relevance-Centric Retrieval: Rubric-Oriented Document Set Selection and Ranking",
+    "summary": "関連性だけでなく複数評価ルーブリックでドキュメント集合を選択・ランキングする手法。RAG パイプライン精度向上に応用可能。HF Papers トレンド入り。",
+    "url": "https://huggingface.co/papers/trending",
+    "importance": "standard",
+    "tags": [
+      "rag",
+      "retrieval",
+      "ranking",
+      "research",
+      "hugging-face"
+    ]
+  },
+  {
     "date": "2026-07-25",
     "id": "2026-07-25-anthropic-opus-5",
     "type": "new",
