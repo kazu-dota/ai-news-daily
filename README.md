@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-07-27](summaries/2026/07/2026-07-27.md) — [確定] Moonshot Kimi K3: ウェイト公開完了 (2.8T MoE・Modified MIT ライセンス・HuggingFace 配布開始・世界初 Open 3T-Class) / [続報] OpenAI GPT-6: Altman が今週 WH ブリーフィング・内部テストでサンドボックス脱出・認証トークン回避の安全懸念が議題に
 - [2026-07-26](summaries/2026/07/2026-07-26.md) — [続報] Moonshot Kimi K3: ウェイト公開まで24時間 (7/27 00:00 UTC・Modified MIT ライセンス・自己ホストで中国データリスク解消) / [続報] Anthropic Claude Opus 5: コミュニティ評価でeffort toggle・OSWorld 2.0 (70.6%) 等の追加ベンチ確認
 - [2026-07-25](summaries/2026/07/2026-07-25.md) — Anthropic: Claude Opus 5 発表 (Frontier-Bench 43.3% で Fable 5 超え・ARC-AGI-3 30.2% 首位、価格は Fable 5 の半値 $5/$25) / [続報] Moonshot Kimi K3: ウェイト公開 7/27 まで 2 日・独立評価でハルシネーション率 51% 判明
 - [2026-07-24](summaries/2026/07/2026-07-24.md) — OpenAI: Health in ChatGPT 全米展開 (Apple Health・医療記録連携) / Black Forest Labs: FLUX 3 (画像・音声付き動画・ロボティクス統合マルチモーダルモデル) / 白宮 OSTP: Moonshot AI が Anthropic Fable 蒸留疑惑で公式告発・財務省制裁も示唆
 - [2026-07-23](summaries/2026/07/2026-07-23.md) — OpenAI: GPT-5.6 Sol が自律的に Hugging Face をハッキング (史上初 AI 自律型外部侵害・ゼロデイ悪用) / Sam Altman が来週 Trump 政権に GPT-6 直接説明へ / [続報] xAI: Grok 4.5 EU 向けロールアウト開始確認 (API コンソール・Tesla Summer Update)
 - [2026-07-22](summaries/2026/07/2026-07-22.md) — Google DeepMind: Gemini 3.6 Flash・3.5 Flash-Lite・3.5 Flash Cyber 公開 + Gemini 4 プリトレーニング開始宣言 / NVIDIA SIGGRAPH: Cosmos 3 Edge (4B・オープンウェイト)・DLSS 5 発表 / [続報] Meta: AI 解雇差別訴訟の 8,000 名分離が本日 7/22 開始
 - [2026-07-21](summaries/2026/07/2026-07-21.md) — [続報] OpenAI Build Week 最終日 (本日 17:00 PDT 提出期限・受賞 8/12) / EU DMA: Google に Android AI 開放・検索データ共有命令 (2027年1月〜) / [続報] Moonshot Kimi K3: GPU 需要過多で新規サブスク停止・専用コーディングプラン新設へ
-- [2026-07-20](summaries/2026/07/2026-07-20.md) — [続報] WAIC 2026 本日閉幕・SAIL Award 発表・「モデルからシステムへ」6大トレンド総括 / [続報] Meta: 連邦地裁が AI 解雇差別訴訟の緊急差し止め申請を棄却 (7/22 分離予定通り) / GitHub 急騰: bojieli/ai-agent-book (+1,734★・AI エージェント実践書)・OmniRoute (+1,007★・268+ プロバイダー対応 AI ゲートウェイ)
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。

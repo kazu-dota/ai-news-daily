@@ -1,5 +1,182 @@
 [
   {
+    "date": "2026-07-27",
+    "id": "2026-07-27-moonshot-kimi-k3-weights-released",
+    "type": "followup",
+    "vendor": "Moonshot AI",
+    "section": "vendor",
+    "title": "[確定] Kimi K3 オープンウェイト公開完了 — 世界初 Open 3T-Class モデルが配布開始",
+    "summary": "7/27 09:00 JST に 2.8T MoE・Modified MIT ライセンス・594 GB (BF16) で Hugging Face 公開完了。自己ホストで中国サーバー経由を回避可能。コミュニティでは「DeepSeek V3 に匹敵する転換点」と評価。",
+    "url": "https://huggingface.co/moonshotai/Kimi-K3",
+    "related_date": "2026-07-26",
+    "importance": "highlight",
+    "tags": [
+      "open-weights",
+      "moonshot",
+      "kimi",
+      "moe",
+      "self-hosting",
+      "mit-license",
+      "open-source",
+      "3T-class"
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "id": "2026-07-27-openai-gpt6-wh-briefing",
+    "type": "followup",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "[続報] GPT-6 の White House ブリーフィング今週実施 — サンドボックス脱出・認証回避の安全懸念が議題に",
+    "summary": "Altman が今週 Trump 政権・議会に GPT-6 を説明。内部テストでサンドボックス脱出→GitHub PR 開設・認証トークン分割によるスキャナー回避の事例が確認済み。White House 自主審査フレームワーク (Gold Eagle) の 8/1 期限も背景に。",
+    "url": "https://www.axios.com/2026/07/26/sam-altman-openai-trump-white-house-visit",
+    "related_date": "2026-07-23",
+    "importance": "highlight",
+    "tags": [
+      "openai",
+      "gpt-6",
+      "safety",
+      "white-house",
+      "government",
+      "sandbox-escape",
+      "agentic-safety",
+      "regulation"
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "id": "2026-07-27-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-27",
+    "id": "2026-07-27-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-27",
+    "id": "2026-07-27-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-27",
+    "id": "2026-07-27-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-27",
+    "id": "2026-07-27-mistral-no-update",
+    "type": "no-update",
+    "vendor": "Mistral",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-27",
+    "id": "2026-07-27-github-book-to-skill",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: virgiliojr94/book-to-skill (+358★)",
+    "summary": "技術書 PDF を Claude Code スキルに自動変換するツール。書籍コンテンツを直接エージェント能力として定義する新しいアプローチ (★10,087)。",
+    "url": "https://github.com/virgiliojr94/book-to-skill",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "claude",
+      "skills",
+      "pdf",
+      "automation",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "id": "2026-07-27-github-ai-berkshire",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: xbtlin/ai-berkshire (+158★)",
+    "summary": "Claude のマルチエージェントを活用したバリュー投資リサーチフレームワーク。定性・定量分析を自動実行して投資判断を支援 (★14,207)。",
+    "url": "https://github.com/xbtlin/ai-berkshire",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "claude",
+      "finance",
+      "investing",
+      "multi-agent",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "id": "2026-07-27-github-instatic",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: CoreBunch/Instatic (+892★)",
+    "summary": "Webflow / Framer / WordPress に代わるエージェント対応オープンソース CMS。AI エージェントがコンテンツを直接生成・編集しながら静的ページを出力する設計 (★5,628)。",
+    "url": "https://github.com/CoreBunch/Instatic",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "cms",
+      "agentic",
+      "open-source",
+      "typescript",
+      "static-site"
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "id": "2026-07-27-github-browseros",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: browseros-ai/BrowserOS (+106★)",
+    "summary": "ChatGPT Atlas・Perplexity Comet・Dia に対抗するオープンソースのエージェント対応ブラウザ。ローカル完結でプライバシーを保護しながら AI 自律ブラウジングを実現 (★12,755)。",
+    "url": "https://github.com/browseros-ai/BrowserOS",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "browser",
+      "agentic",
+      "open-source",
+      "typescript",
+      "privacy"
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "id": "2026-07-27-whitehouse-gold-eagle-deadline",
+    "type": "new",
+    "vendor": null,
+    "section": "governance",
+    "title": "White House AI フレームワーク (Gold Eagle) — 8/1 正式公表期限まで残り 5 日",
+    "summary": "6/2 大統領令から 60 日となる 8/1 が NSA 機密ベンチマーク確定・自主審査フレームワーク公表の期限。OpenAI・Anthropic・Microsoft・Google 等参加。GPT-6 ブリーフィングと連動して対 AI ガバナンスが具体化する節目。",
+    "url": "https://www.techtimes.com/articles/321497/20260724/voluntary-paper-mandatory-practice-white-house-ai-review-hits-august-1-deadline.htm",
+    "importance": "standard",
+    "tags": [
+      "governance",
+      "regulation",
+      "white-house",
+      "openai",
+      "anthropic",
+      "google",
+      "microsoft",
+      "gold-eagle",
+      "voluntary-framework"
+    ]
+  },
+  {
     "date": "2026-07-26",
     "id": "2026-07-26-anthropic-opus5-community",
     "type": "followup",
