@@ -1,0 +1,117 @@
+{
+  "date": "2026-07-28",
+  "generated_at": "2026-07-28T08:11:00+09:00",
+  "sources_checked": 26,
+  "sources_failed": 18,
+  "items": [
+    {
+      "id": "2026-07-28-moonshot-kimi-k3-community-bench",
+      "type": "followup",
+      "vendor": "Moonshot AI",
+      "section": "vendor",
+      "title": "[続報] Kimi K3 — コミュニティ初期ベンチ：Frontend Code Arena 首位 (1679) を独立検証",
+      "summary": "ウェイト公開翌日。独立コミュニティが Arena 1679 を確認し Fable 5 (1631) を上回ったが、FrontierSWE では 81.2 と Fable 5 の 86.6 に差を残す。総合 #5/215。",
+      "url": "https://benchlm.ai/models/kimi-3",
+      "related_date": "2026-07-27",
+      "importance": "highlight",
+      "tags": ["open-weights", "moonshot", "kimi", "benchmark", "community", "frontend-code"]
+    },
+    {
+      "id": "2026-07-28-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-28-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-28-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-28-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-28-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-28-hf-ceo-radical-transparency",
+      "type": "followup",
+      "vendor": "OpenAI",
+      "section": "community",
+      "title": "[続報] HF CEO が OpenAI ハック後に「ラディカル透明性」を要求",
+      "summary": "Clem Delangue が OpenAI にエージェントトレースの全公開と防衛コミュニティへの $1億コンピュート提供を要求。OpenAI は未回答。",
+      "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
+      "related_date": "2026-07-23",
+      "importance": "standard",
+      "tags": ["security", "openai", "hugging-face", "ai-safety", "autonomous-agent", "transparency"]
+    },
+    {
+      "id": "2026-07-28-github-claude-video",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "claude-video: 動画をまるごと Claude に渡すツール (★+412 today)",
+      "summary": "ダウンロード・フレーム抽出・文字起こしを自動化し Claude に動画コンテキストを付与する Python OSSツール。",
+      "url": "https://github.com/bradautomates/claude-video",
+      "importance": "minor",
+      "tags": ["github-trending", "claude", "video", "open-source", "python"]
+    },
+    {
+      "id": "2026-07-28-github-moeru-airi",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "moeru-ai/airi: 自己ホスト型 AI コンパニオン (★+554 today)",
+      "summary": "リアルタイム音声チャットとゲームプレイ対応の TypeScript 製自己ホスト AI コンパニオン。43k 総スター。",
+      "url": "https://github.com/moeru-ai/airi",
+      "importance": "minor",
+      "tags": ["github-trending", "companion", "voice", "self-hosted", "typescript"]
+    },
+    {
+      "id": "2026-07-28-github-ruflo",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "ruvnet/ruflo: マルチエージェントスウォームのメタハーネス (★+174 today)",
+      "summary": "適応型メモリと RAG 統合でマルチエージェントスウォームを展開する TypeScript 製エージェントフレームワーク。",
+      "url": "https://github.com/ruvnet/ruflo",
+      "importance": "minor",
+      "tags": ["github-trending", "multi-agent", "rag", "framework", "typescript"]
+    },
+    {
+      "id": "2026-07-28-paper-molt",
+      "type": "new",
+      "vendor": "Research",
+      "section": "papers",
+      "title": "Molt: Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning",
+      "summary": "アジェンティック RL 向け PyTorch ネイティブ訓練フレームワーク。完全非同期で Megatron 相当のスループットを実現。HF 605★ trending。",
+      "url": "https://huggingface.co/collections/thaki-AI/ai-trends-2026-07",
+      "importance": "standard",
+      "tags": ["paper", "reinforcement-learning", "training", "pytorch", "agentic"]
+    },
+    {
+      "id": "2026-07-28-eu-ai-act-article50",
+      "type": "new",
+      "vendor": "Governance",
+      "section": "governance",
+      "title": "[新] EU AI 法 Article 50 — 8月2日施行：チャットボット開示・ディープフェイク標記が EU 全域で義務化",
+      "summary": "残り5日。違反は最大 €1,500 万または全世界売上高の 3%。対象組織の 78% が準備未着手との調査結果。",
+      "url": "https://www.thelocal.fr/20260727/explained-eus-new-rules-on-ai-deepfakes-and-chatbots",
+      "importance": "highlight",
+      "tags": ["regulation", "eu", "eu-ai-act", "compliance", "transparency", "deepfake", "governance"]
+    }
+  ]
+}
