@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-29",
+  "generated_at": "2026-07-29T08:06:00+09:00",
+  "sources_checked": 26,
+  "sources_failed": 18,
+  "items": [
+    {
+      "id": "2026-07-29-anthropic-mcp-2026-07-28",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "MCP 2026-07-28 仕様公開 — ステートレス化・OAuth 2.0/OIDC 認証強化",
+      "summary": "MCP ローンチ以来最大の改定。ステートレスコアへの移行でサーバーレス・エッジデプロイが可能に。OAuth 2.0/OIDC でエンタープライズ ID 管理と直接統合。",
+      "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
+      "importance": "highlight",
+      "tags": ["mcp", "protocol", "developer", "anthropic", "oauth", "stateless"]
+    },
+    {
+      "id": "2026-07-29-anthropic-amodei-opensource",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "CEO Dario Amodei: オープンウェイト AI バン反対・蒸留規制と安全テスト義務化を提言",
+      "summary": "バン反対・競合保護が目的でないと明言。中国チップ輸出規制強化・産業規模蒸留取り締まり・全モデルへの安全テスト義務化の三点を提言。",
+      "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+      "importance": "highlight",
+      "tags": ["policy", "open-source", "governance", "anthropic", "dario-amodei", "distillation"]
+    },
+    {
+      "id": "2026-07-29-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-29-nvidia-openai-ohio-datacenter",
+      "type": "new",
+      "vendor": "NVIDIA",
+      "section": "vendor",
+      "title": "NVIDIA が OpenAI の Ohio 10GW データセンターに $2,500 億財務保証を交渉中",
+      "summary": "史上最大規模のデータセンタープロジェクト (総額 $5,000 億超)。NVIDIA がリース・建設債務に $2,500 億バックストップ、別途チップ融資 $3,500 億も協議。OpenAI の自社インフラ独立への転換点。",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-explores-250-billion-guarantee-103204602.html",
+      "importance": "highlight",
+      "tags": ["infrastructure", "nvidia", "openai", "datacenter", "ohio", "financing"]
+    },
+    {
+      "id": "2026-07-29-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-29-microsoft-q4-earnings",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "Q4 FY2026 決算を米国時間 7/29 夜に発表予定 — Azure 39-40% 成長・Copilot 採用加速が焦点",
+      "summary": "予測売上 $877 億。Azure 39-40% 成長ガイダンス・$400 億超 CapEx・Copilot 有料席純増が三大焦点。Copilot 7 月アップデート (PowerPoint Agent Mode 等) も発表済み。",
+      "url": "https://inews.zoombangla.com/microsoft-q4-2026-earnings/",
+      "importance": "highlight",
+      "tags": ["earnings", "microsoft", "azure", "copilot", "fy2026-q4"]
+    },
+    {
+      "id": "2026-07-29-meta-q2-earnings",
+      "type": "new",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "Q2 2026 決算 & Meta Compute 正式発表を米国時間 7/29 夜に予定",
+      "summary": "予測売上 $60.22B (前年比+27%)。Meta Compute クラウドビジネスの正式発表と Iris AI チップ (9月製造開始) が最大の注目点。Anthropic へのコンピュートリース $100 億超も報道。",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262026010-meta-platforms-meta-stock-outlook-july-2026-meta-compute-iris-chip-tradingkey",
+      "importance": "highlight",
+      "tags": ["earnings", "meta", "meta-compute", "cloud", "iris-chip", "q2-2026"]
+    },
+    {
+      "id": "2026-07-29-nvidia-open-secure-ai-alliance",
+      "type": "new",
+      "vendor": "NVIDIA",
+      "section": "vendor",
+      "title": "Open Secure AI Alliance 発足 — NVIDIA主導37社超が防御的 AI セキュリティ連合を結成",
+      "summary": "GPT-5.6 HF 自律ハッキング事案への産業界の直接回答。NVIDIA・Microsoft・IBM・Cisco・Cloudflare・HuggingFace 等 37 社超が防御的 AI セキュリティのオープンソースツールを共同開発。NOOA フレームワークをオープンソース化。",
+      "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
+      "importance": "highlight",
+      "tags": ["security", "cybersecurity", "nvidia", "open-source", "alliance", "osaia"]
+    },
+    {
+      "id": "2026-07-29-mistral-no-update",
+      "type": "no-update",
+      "vendor": "Mistral",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-29-github-qwenpaw",
+      "type": "new",
+      "vendor": "Alibaba/AgentScope",
+      "section": "community",
+      "title": "GitHub Trending: agentscope-ai/QwenPaw — パーソナル AI エージェントアシスタント",
+      "summary": "ローカル/クラウド対応のパーソナル AI アシスタント。Qwen モデルを活用したマルチアプリ対応エージェント機能。★29,703 (+818 today)。",
+      "url": "https://github.com/agentscope-ai/QwenPaw",
+      "importance": "standard",
+      "tags": ["github-trending", "agent", "qwen", "personal-ai"]
+    },
+    {
+      "id": "2026-07-29-github-openviking",
+      "type": "new",
+      "vendor": "ByteDance",
+      "section": "community",
+      "title": "GitHub Trending: volcengine/OpenViking — エージェント向け自己進化型コンテキストDB",
+      "summary": "メモリ・知識・スキルを統合し、エージェントが経験から自律学習できる「自己進化型コンテキストデータベース」。★27,575 (+180 today)。",
+      "url": "https://github.com/volcengine/OpenViking",
+      "importance": "standard",
+      "tags": ["github-trending", "agent", "memory", "bytedance", "volcengine"]
+    },
+    {
+      "id": "2026-07-29-github-speech-to-speech",
+      "type": "new",
+      "vendor": "Hugging Face",
+      "section": "community",
+      "title": "GitHub Trending: huggingface/speech-to-speech — ローカル音声エージェントパイプライン",
+      "summary": "オープンソースモデルのみで外部 API 不要のローカル音声エージェントを構築。Whisper+LLM+TTS を統合。★7,191 (+177 today)。",
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "importance": "standard",
+      "tags": ["github-trending", "voice", "speech", "open-source", "huggingface"]
+    },
+    {
+      "id": "2026-07-29-github-flint-chart",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "community",
+      "title": "GitHub Trending: microsoft/flint-chart — AI エージェント向けビジュアライゼーション言語",
+      "summary": "AI エージェントが仕様記述から確実に表現力豊かなチャートを生成するための新ライブラリ。★2,404 (+218 today)。",
+      "url": "https://github.com/microsoft/flint-chart",
+      "importance": "standard",
+      "tags": ["github-trending", "visualization", "agent", "microsoft"]
+    },
+    {
+      "id": "2026-07-29-github-agent-native",
+      "type": "new",
+      "vendor": "BuilderIO",
+      "section": "community",
+      "title": "GitHub Trending: BuilderIO/agent-native — エージェントネイティブアプリフレームワーク",
+      "summary": "エージェントが UI コンポーネントを直接操作・生成できる「エージェントファースト」アーキテクチャの実装フレームワーク。★4,245 (+124 today)。",
+      "url": "https://github.com/BuilderIO/agent-native",
+      "importance": "standard",
+      "tags": ["github-trending", "agent", "framework", "ui"]
+    },
+    {
+      "id": "2026-07-29-paper-dataprep-bench",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "DataPrep-Bench: Benchmarking LLMs as Training Data Preparators",
+      "summary": "LLM をデータ前処理タスク (クリーニング・変換・統合) の実行者として評価する体系的ベンチマーク。HF Papers 7/28 トレンド首位。",
+      "url": "https://huggingface.co/papers/trending",
+      "importance": "standard",
+      "tags": ["paper", "benchmark", "data-preparation", "llm"]
+    },
+    {
+      "id": "2026-07-29-paper-skill-self-play",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
+      "summary": "LLM 同士がスキルを提案・評価し合うセルフプレイ手法で能力を拡張。人手評価なしにスキルが共進化するループを実現する継続学習アプローチ。",
+      "url": "https://huggingface.co/papers/trending",
+      "importance": "standard",
+      "tags": ["paper", "self-play", "llm", "skill-learning", "continual-learning"]
+    }
+  ]
+}
