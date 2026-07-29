@@ -1,0 +1,132 @@
+{
+  "date": "2026-07-30",
+  "generated_at": "2026-07-30T08:07:00+09:00",
+  "sources_checked": 26,
+  "sources_failed": 18,
+  "items": [
+    {
+      "id": "2026-07-30-microsoft-q4-fy2026",
+      "type": "followup",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "[続報] Q4 FY2026 決算発表 — Azure +43% で年間 $100B 突破・EPS 大幅ビート",
+      "summary": "Azure +43% (予想39-40%超え)・年間 $100B 初突破・Copilot 有料席 3,000 万超・EPS $4.74 adj (予想 $4.24 大幅超)。FY2027 CapEx ガイダンス $255-260B (FY2026 $115.9B から倍増超)。株価 +4% AH。",
+      "url": "https://news.microsoft.com/source/2026/07/29/microsoft-cloud-and-ai-strength-fuels-fourth-quarter-results-4/",
+      "related_date": "2026-07-29",
+      "importance": "highlight",
+      "tags": ["earnings", "microsoft", "azure", "copilot", "fy2026-q4", "cloud"]
+    },
+    {
+      "id": "2026-07-30-meta-q2-2026",
+      "type": "followup",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "[続報] Q2 2026 決算発表 — 売上 $60.8B (+28%) 予想超えも EPS ミス・Meta Compute 正式発表",
+      "summary": "EPS $6.18 (予想 $7.14) — $2.4B 法的費用 + $1.2B 人員削減費用がミスの要因。株価 -8% AH。Meta Compute 正式発表。Iris AI チップ 9 月製造開始確認。Anthropic との $10B コンピュートリース交渉継続中。",
+      "url": "https://www.prnewswire.com/news-releases/meta-reports-second-quarter-2026-results-302838214.html",
+      "related_date": "2026-07-29",
+      "importance": "highlight",
+      "tags": ["earnings", "meta", "meta-compute", "cloud", "iris-chip", "q2-2026", "anthropic"]
+    },
+    {
+      "id": "2026-07-30-pacing-the-frontier",
+      "type": "new",
+      "vendor": null,
+      "section": "governance",
+      "title": "\"Pacing the Frontier\" — 1,178 名署名で AI ペース制御ガバナンスツールの国際整備を米国に要請",
+      "summary": "Dario Amodei (Anthropic CEO)・Jakub Pachocki (OpenAI CSO)・Mark Chen (OpenAI CRO)・Shengjia Zhao (Meta AI CSO)・Anca Dragan (Google VP Safety) 等 1,178 名が 7/28 に連名公開書簡を発表。今すぐ停止要求でなく「将来ペース制御できる技術・ガバナンスツールの国際整備」を要求。OpenAI・Anthropic が会社として公式支持。",
+      "url": "https://www.pacingthefrontier.com/",
+      "importance": "highlight",
+      "tags": ["governance", "safety", "policy", "anthropic", "openai", "meta", "google", "ai-pacing", "letter"]
+    },
+    {
+      "id": "2026-07-30-anthropic-pacing-support",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "\"Pacing the Frontier\" レターへの会社支持表明 / 本日モデル発表なし",
+      "summary": "Dario Amodei CEO が個人署名し、会社としても公式支持。7/29 のオープンウェイト AI バン反対提言と矛盾せず「将来止められる体制を今から整備」という補完的政策スタンス。新モデル発表なし。",
+      "url": "https://www.unite.ai/openai-and-anthropic-back-employee-call-to-pace-ai-progress/",
+      "importance": "standard",
+      "tags": ["governance", "safety", "policy", "anthropic", "dario-amodei"]
+    },
+    {
+      "id": "2026-07-30-openai-pacing-support",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "\"Pacing the Frontier\" レターへの会社支持表明 / 本日モデル発表なし",
+      "summary": "Jakub Pachocki (CSO)・Mark Chen (CRO) が署名し、OpenAI 社として公式支持を表明。GPT-6 WH ブリーフィングは今週継続見込み。新モデル発表なし。",
+      "url": "https://www.unite.ai/openai-and-anthropic-back-employee-call-to-pace-ai-progress/",
+      "importance": "standard",
+      "tags": ["governance", "safety", "policy", "openai"]
+    },
+    {
+      "id": "2026-07-30-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-30-mistral-no-update",
+      "type": "no-update",
+      "vendor": "Mistral",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-07-30-github-agent-governance-toolkit",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "community",
+      "title": "GitHub Trending: microsoft/agent-governance-toolkit — AI エージェントランタイムガバナンスツールキット",
+      "summary": "OWASP エージェント AI リスク 10 項目対応のオープンソースツールキット (4月公開)。\"Pacing the Frontier\" 署名・OSAIA 発足でエージェントガバナンス関心高まり本日急騰。★5,458 (+443 today)。",
+      "url": "https://github.com/microsoft/agent-governance-toolkit",
+      "importance": "standard",
+      "tags": ["github-trending", "governance", "security", "agent", "microsoft", "open-source"]
+    },
+    {
+      "id": "2026-07-30-github-cangjie-skill",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: kangarooking/cangjie-skill — コンテンツを AI エージェントスキルに蒸留",
+      "summary": "コンテンツを AI エージェントが実行可能なスキルとして蒸留するツール。book-to-skill [7/27掲載] と同方向性の異実装。★5,213 (+196 today)。",
+      "url": "https://github.com/kangarooking/cangjie-skill",
+      "importance": "minor",
+      "tags": ["github-trending", "agent", "skill", "distillation"]
+    },
+    {
+      "id": "2026-07-30-github-openwork",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: different-ai/openwork — Claude Cowork のオープンソース代替",
+      "summary": "opencode を基盤に構築した Claude Cowork のオープンソース代替。AI エージェントとチームのコラボレーション機能をローカルで再現。★17,856 (+58 today)。",
+      "url": "https://github.com/different-ai/openwork",
+      "importance": "minor",
+      "tags": ["github-trending", "agent", "cowork", "open-source", "collaboration"]
+    },
+    {
+      "id": "2026-07-30-paper-aris",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "ARIS: Open Research Harness for Adversarial Collaboration Across AI Models",
+      "summary": "複数 AI モデルがクロスモデル敵対的協調で自律的に研究を進めるオープンリサーチハーネス。単一モデルでは見落とすバイアス・誤りをディベート形式で自動検出。HF Papers 7/29-30 トレンド。",
+      "url": "https://huggingface.co/papers/trending",
+      "importance": "standard",
+      "tags": ["paper", "adversarial", "multi-model", "research", "collaboration"]
+    },
+    {
+      "id": "2026-07-30-paper-abot-world-0",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "ABot-World-0: Action-Conditioned Video World Model for Real-Time Long-Horizon Closed-Loop Interaction",
+      "summary": "行動条件付き動画ワールドモデル。エージェントアクションでコンディションされた環境ダイナミクスをリアルタイム生成し長時間閉ループインタラクションを実現。ロボティクス訓練・エージェント評価への応用期待。",
+      "url": "https://huggingface.co/papers/trending",
+      "importance": "standard",
+      "tags": ["paper", "world-model", "video", "robotics", "agent", "closed-loop"]
+    }
+  ]
+}
