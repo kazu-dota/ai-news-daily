@@ -1,5 +1,204 @@
 [
   {
+    "date": "2026-07-31",
+    "id": "2026-07-31-amazon-q2-2026",
+    "type": "new",
+    "vendor": "Amazon",
+    "section": "vendor",
+    "title": "Q2 2026 決算発表 — AWS +37% YoY・総売上初の $200.6B・AI+Chips 年率各 $25B 超",
+    "summary": "AWS +37% YoY ($42.2B) で予想 $40.54B を大幅超過。2021年以来の最高成長率。単四半期総売上が初の $200B 突破。AWS 営業利益率 39.4%。Andy Jassy CEO が AI・チップ事業の年率が各 $25B 超と言及。2026年 CapEx 見通し $220B。",
+    "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx",
+    "importance": "highlight",
+    "tags": [
+      "earnings",
+      "amazon",
+      "aws",
+      "cloud",
+      "ai-revenue",
+      "q2-2026",
+      "capex"
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "id": "2026-07-31-google-gemini-robotics-2",
+    "type": "new",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "Gemini Robotics 2 発表 — 全身ヒューマノイド VLA + ER 2 + On-Device の 3 モデルスイート",
+    "summary": "7/30 発表。全身ヒューマノイド制御 VLA・Gemini 3.5 Flash ベースの高次推論 ER 2・エッジ向け On-Device 2 の 3 モデルを同時公開。ER 2 が思考と動作を並行実行し stop-and-think を排除。Motion Transfer で新ロボット形態に 200 デモ以下・数時間で適応。Apptronik Apollo 2 で実機確認済み。",
+    "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+    "importance": "highlight",
+    "tags": [
+      "robotics",
+      "google",
+      "deepmind",
+      "vla",
+      "humanoid",
+      "gemini-robotics",
+      "embodied-ai"
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "id": "2026-07-31-openai-gpt56-price-cut",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "GPT-5.6 価格改定 — Luna -80% / Terra -20% / Sol に Fast mode 導入",
+    "summary": "Luna: $1.00 → $0.20 (入力 per Mtok)、Terra: $2.50 → $2.00 (入力)。Sol は Fast mode (2.5倍速・2倍価格) で Priority Processing を置き換え。GPT-5.6 Sol が自社推論スタックを自己最適化した効率化を原資としていると説明。",
+    "url": "https://venturebeat.com/technology/ai-price-wars-openai-cuts-gpt-5-6-luna-prices-by-80-as-model-competition-shifts-toward-cost",
+    "importance": "highlight",
+    "tags": [
+      "pricing",
+      "openai",
+      "gpt-5-6",
+      "luna",
+      "terra",
+      "sol",
+      "developer",
+      "api"
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "id": "2026-07-31-openai-chatgpt-academic",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "ChatGPT for Academic Researchers — 初期 10,000 名にフロンティアモデル無料アクセス提供",
+    "summary": "7/29 発表。選ばれた学術研究者 10,000 名にフロンティアモデル・ツールへの無料アクセスを開始。2027年末までに 100,000 名に拡大目標。科学・数学・工学分野の研究加速を意図。",
+    "url": "https://www.axios.com/2026/07/29/openai-chatgpt-academic-researchers",
+    "importance": "standard",
+    "tags": [
+      "openai",
+      "academic",
+      "research",
+      "chatgpt",
+      "free-access",
+      "science"
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "id": "2026-07-31-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-31",
+    "id": "2026-07-31-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-31",
+    "id": "2026-07-31-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-31",
+    "id": "2026-07-31-mistral-no-update",
+    "type": "no-update",
+    "vendor": "Mistral",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-07-31",
+    "id": "2026-07-31-github-viubevoice",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "community",
+    "title": "GitHub Trending: microsoft/VibeVoice — オープンソース フロンティア音声 AI (TTS+ASR, +531★)",
+    "summary": "Microsoft がオープンソース公開したフロンティア音声 AI モデルファミリー。TTS + ASR 両対応。ASR-BitNet 版は GPU 不要・エッジ CPU 上でリアルタイム推論可能。",
+    "url": "https://github.com/microsoft/VibeVoice",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "microsoft",
+      "voice-ai",
+      "tts",
+      "asr",
+      "open-source",
+      "edge"
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "id": "2026-07-31-github-agent-reach",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: Agent-Reach — AI エージェント向けインターネットアクセスフレームワーク (+583★)",
+    "summary": "Twitter・Reddit・YouTube・GitHub 等を横断してエージェントが自律的に情報取得できるオープンフレームワーク。エージェントのリアルタイム情報収集能力を拡張。",
+    "url": "https://github.com/trending/python?since=daily",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "agent",
+      "internet-access",
+      "open-source",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "id": "2026-07-31-github-trellis2",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "community",
+    "title": "GitHub Trending: microsoft/TRELLIS.2 — Native Compact Structured Latents for 3D Generation (+412★)",
+    "summary": "Microsoft の 3D コンテンツ生成フレームワーク。構造化潜在表現をネイティブにコンパクトに保ちエージェントワークフローへの組み込みを容易にする設計。Gemini Robotics 2 発表で 3D AI への注目高まり急騰。",
+    "url": "https://github.com/topics/trellis-2",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "microsoft",
+      "3d-generation",
+      "python",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "id": "2026-07-31-media-amazon-q2",
+    "type": "new",
+    "vendor": "Amazon",
+    "section": "media",
+    "title": "[Yahoo Finance] Amazon Q2 2026: AWS +37% で沸騰・AI+Chips 年率各 $25B 超",
+    "summary": "AWS が四半期 $42.2B・年率 $169B に到達。Microsoft Azure に続きクラウド AI 収益の実証データが揃った形。",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-q2-2026-earnings-aws-204411872.html",
+    "importance": "standard",
+    "tags": [
+      "media",
+      "amazon",
+      "aws",
+      "earnings",
+      "cloud"
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "id": "2026-07-31-media-openai-price",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "media",
+    "title": "[VentureBeat] OpenAI Luna -80%: AI 価格戦争が本格化 — GPT-5.6 Sol の自己最適化が値下げを実現",
+    "summary": "Luna が Anthropic Sonnet 5 の半値以下に。「AI モデルが自らのコードを書き換えてコスト削減」という事例が実際の製品リリースとして初めて明言された。",
+    "url": "https://venturebeat.com/technology/ai-price-wars-openai-cuts-gpt-5-6-luna-prices-by-80-as-model-competition-shifts-toward-cost",
+    "importance": "standard",
+    "tags": [
+      "media",
+      "openai",
+      "pricing",
+      "ai-price-war"
+    ]
+  },
+  {
     "date": "2026-07-30",
     "id": "2026-07-30-microsoft-q4-fy2026",
     "type": "followup",
