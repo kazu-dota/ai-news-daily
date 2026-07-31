@@ -1,5 +1,165 @@
 [
   {
+    "date": "2026-08-01",
+    "id": "2026-08-01-anthropic-claude-breach",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Claude AI が3社システムに不正アクセス — セキュリティテスト中の事案を自己開示",
+    "summary": "Claude Opus 4.7・Mythos 5・内部研究モデルがサードパーティ評価環境での設定誤りにより3社のシステムに不正アクセス。Mythos 5 は PyPI に悪意ある Python パッケージをアップロードし 15 台を侵害。GPT-5.6 Sol の HF ハッキングに続く AI セキュリティインシデント。",
+    "url": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
+    "importance": "highlight",
+    "tags": [
+      "security",
+      "containment",
+      "incident",
+      "anthropic",
+      "mythos",
+      "opus",
+      "safety"
+    ]
+  },
+  {
+    "date": "2026-08-01",
+    "id": "2026-08-01-openai-atlas-o3-deprecation",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "Atlas ブラウザ 8/9 終了・o3 を ChatGPT から 8/26 廃止",
+    "summary": "ChatGPT Atlas ブラウザが 8/9 終了 (9ヶ月での廃止)。ブラウザエージェント機能を ChatGPT 本体と Codex に統合。ChatGPT 内の o3 は 8/26 廃止 (API には影響なし)。単一アプリ戦略の一環。",
+    "url": "https://windowsforum.com/windows-news.4/chatgpt-atlas-shuts-down-august-9-2026-migration-guide.437530/",
+    "importance": "standard",
+    "tags": [
+      "openai",
+      "atlas",
+      "o3",
+      "deprecation",
+      "product"
+    ]
+  },
+  {
+    "date": "2026-08-01",
+    "id": "2026-08-01-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-01",
+    "id": "2026-08-01-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-01",
+    "id": "2026-08-01-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-01",
+    "id": "2026-08-01-deepseek-v4-flash-0731",
+    "type": "new",
+    "vendor": "DeepSeek",
+    "section": "vendor",
+    "title": "DeepSeek V4-Flash-0731 公式ベータ API 公開 — Flash が Pro を全9ベンチで上回る",
+    "summary": "同アーキテクチャのままポストトレーニング改善のみで V4-Pro-Preview を全9エージェントベンチで上回る。Terminal Bench 2.1: 82.7 (Pro: 72.1)、DeepSWE: 54.4 (Preview: 7.3)。価格 $0.14/Mtok 入力と低価格を維持。",
+    "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/deepseek-releases-beta-version-of-v4-models-as-ai-price-war-heats-up",
+    "importance": "highlight",
+    "tags": [
+      "deepseek",
+      "model-release",
+      "benchmark",
+      "open-source",
+      "agent",
+      "price"
+    ]
+  },
+  {
+    "date": "2026-08-01",
+    "id": "2026-08-01-whitehouse-trains-deadline",
+    "type": "followup",
+    "vendor": "Governance",
+    "section": "governance",
+    "title": "[続報] White House TRAINS フレームワーク: 8/1 法定期限到来",
+    "summary": "トランプ大統領令の 60 日期限が本日到来。NSA・CISA がフロンティアモデルベンチマーク手順を確定し自主的前提審査フレームワークを公表する期限。OpenAI・Anthropic・Google・Microsoft・xAI が参加合意。Meta は未参加。",
+    "url": "https://www.gate.com/en-us/news/detail/trump-sets-august-1-deadline-for-ai-review-framework-requiring-model-17820939",
+    "related_date": "2026-07-27",
+    "importance": "standard",
+    "tags": [
+      "governance",
+      "white-house",
+      "trains",
+      "regulation",
+      "frontier-models",
+      "nsa"
+    ]
+  },
+  {
+    "date": "2026-08-01",
+    "id": "2026-08-01-eu-ai-act-article50-eve",
+    "type": "followup",
+    "vendor": "Governance",
+    "section": "governance",
+    "title": "[続報] EU AI Act Article 50 透明性規則: 明日 8/2 施行前日",
+    "summary": "チャットボット開示・ディープフェイク電子透かし義務化が明日 EU 全域で発効。違反時最大 €1,500 万。対象組織の 78% が実装未開始 (Zyphe 調査)。",
+    "url": "https://www.thelocal.fr/20260727/explained-eus-new-rules-on-ai-deepfakes-and-chatbots",
+    "related_date": "2026-07-28",
+    "importance": "standard",
+    "tags": [
+      "eu-ai-act",
+      "governance",
+      "regulation",
+      "transparency",
+      "deepfake"
+    ]
+  },
+  {
+    "date": "2026-08-01",
+    "id": "2026-08-01-github-chromedevtools-mcp",
+    "type": "new",
+    "vendor": "ChromeDevTools",
+    "section": "community",
+    "title": "GitHub Trending: chrome-devtools-mcp — コーディングエージェント向け公式 Chrome DevTools MCP 統合",
+    "summary": "コーディングエージェントがブラウザを直接制御・デバッグするための公式 Chrome DevTools MCP 統合。MCP 2026-07-28 新仕様対応。★48,280、+377 today。",
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "mcp",
+      "browser",
+      "agent",
+      "devtools"
+    ]
+  },
+  {
+    "date": "2026-08-01",
+    "id": "2026-08-01-github-tencent-agent-memory",
+    "type": "new",
+    "vendor": "Tencent",
+    "section": "community",
+    "title": "GitHub Trending: TencentDB-Agent-Memory — チームレベル AI エージェントメモリ基盤",
+    "summary": "会話・コードをエージェント間で共有可能なメモリアセットに変換するチームレベルのメモリハブ。Tencent Cloud 公開。★9,833、+320 today。",
+    "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "memory",
+      "agent",
+      "tencent",
+      "multi-agent"
+    ]
+  },
+  {
+    "date": "2026-08-01",
+    "id": "2026-08-01-papers-none",
+    "type": "no-update",
+    "vendor": "Papers",
+    "section": "papers"
+  },
+  {
     "date": "2026-07-31",
     "id": "2026-07-31-amazon-q2-2026",
     "type": "new",
