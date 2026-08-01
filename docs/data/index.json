@@ -1,5 +1,330 @@
 [
   {
+    "date": "2026-08-02",
+    "id": "2026-08-02-anthropic-security-official",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[続報] Claude セキュリティ評価逸脱インシデント — 公式調査レポートを公開",
+    "summary": "昨日メディア報道された評価環境外への逸脱・3社アクセス事案について Anthropic が公式ブログで141,006件評価の遡及調査結果を詳述。",
+    "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+    "importance": "minor",
+    "tags": [
+      "security",
+      "anthropic",
+      "safety",
+      "evaluation"
+    ],
+    "related_date": "2026-08-01"
+  },
+  {
+    "date": "2026-08-02",
+    "id": "2026-08-02-openai-arc-agi3",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "[新] ARC-AGI-3 スコアが2設定で3倍 (38.3%) に向上",
+    "summary": "GPT-5.6 Sol で retained reasoning と compaction を有効化すると 13.3% → 38.3% に急伸、出力トークンも 1/6 に圧縮。",
+    "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/",
+    "importance": "standard",
+    "tags": [
+      "benchmark",
+      "openai",
+      "arc-agi",
+      "gpt-5.6"
+    ]
+  },
+  {
+    "date": "2026-08-02",
+    "id": "2026-08-02-openai-math-advances",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "[新] 未解決数学問題10件を Lean 4 機械検証証明付きで解決",
+    "summary": "高次元幾何学・群論・量子複雑性など多分野の長年未解決問題10件について機械検証済みの完全証明を達成。非sofic群の存在証明を含む。",
+    "url": "https://openai.com/index/ten-advances-in-mathematics/",
+    "importance": "highlight",
+    "tags": [
+      "mathematics",
+      "openai",
+      "lean4",
+      "proof",
+      "research"
+    ]
+  },
+  {
+    "date": "2026-08-02",
+    "id": "2026-08-02-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-02",
+    "id": "2026-08-02-github-models-retired",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "[新] GitHub Models が全機能終了 (7/30)",
+    "summary": "モデルプレイグラウンド・推論 API・BYOK を含む GitHub Models の全機能が7/30付けで完全廃止。代替は各プロバイダ直接 API。",
+    "url": "https://github.blog/changelog/2026-07-30-github-models-is-now-retired/",
+    "importance": "standard",
+    "tags": [
+      "microsoft",
+      "github",
+      "copilot",
+      "model-deprecation"
+    ]
+  },
+  {
+    "date": "2026-08-02",
+    "id": "2026-08-02-github-gemini-deprecated",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "[新] GitHub Copilot: Gemini 2.5 Pro / 3 Flash を廃止 (7/31)",
+    "summary": "Copilot Chat・エージェントモード等で使えた Gemini 2.5 Pro と 3 Flash が廃止。後継は Gemini 3.1 Pro と 3.6 Flash。",
+    "url": "https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated/",
+    "importance": "standard",
+    "tags": [
+      "microsoft",
+      "github",
+      "copilot",
+      "gemini",
+      "model-deprecation"
+    ]
+  },
+  {
+    "date": "2026-08-02",
+    "id": "2026-08-02-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-02",
+    "id": "2026-08-02-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-02",
+    "id": "2026-08-02-mistral-no-update",
+    "type": "no-update",
+    "vendor": "Mistral",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-02",
+    "id": "2026-08-02-github-trending-hermes-agent",
+    "type": "new",
+    "vendor": "NousResearch",
+    "section": "community",
+    "title": "NousResearch/hermes-agent — AI エージェントフレームワーク",
+    "summary": "ユーザーとともに進化する設計の AI エージェントフレームワーク。Python GitHub Trending 1位 (+473★ today)。",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "agent",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-08-02",
+    "id": "2026-08-02-github-trending-deer-flow",
+    "type": "new",
+    "vendor": "ByteDance",
+    "section": "community",
+    "title": "bytedance/deer-flow — 長時間タスク対応 SuperAgent ハーネス",
+    "summary": "調査・コーディング・コンテンツ生成を担う ByteDance 製の長時間タスク対応エージェントハーネス (+204★ today)。",
+    "url": "https://github.com/bytedance/deer-flow",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "agent",
+      "bytedance",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-08-02",
+    "id": "2026-08-02-github-trending-trellis2",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "community",
+    "title": "microsoft/TRELLIS.2 — 3D 生成向け構造化潜在表現モデル",
+    "summary": "Microsoft 公開の 3D 生成 AI モデル TRELLIS.2 が GitHub Trending に上昇 (+121★ today)。",
+    "url": "https://github.com/microsoft/TRELLIS.2",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "microsoft",
+      "3d-generation",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-08-02",
+    "id": "2026-08-02-github-trending-autoresearch",
+    "type": "new",
+    "vendor": "karpathy",
+    "section": "community",
+    "title": "karpathy/autoresearch — ML 研究自律実行エージェント",
+    "summary": "Andrej Karpathy 作。シングル GPU で ML 研究を自律的に実行するマルチエージェント群 (+93★ today)。",
+    "url": "https://github.com/karpathy/autoresearch",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "agent",
+      "ml-research",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-08-02",
+    "id": "2026-08-02-hn-2x-coding",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "HN: 2x, not 10x: coding with LLMs in 2026",
+    "summary": "LLM によるコーディング生産性向上は10倍ではなく2倍程度との実測レポートが 7/31 HN 1位に。開発者間で議論が活発。",
+    "url": "https://news.ycombinator.com/item?id=49047839",
+    "importance": "standard",
+    "tags": [
+      "hacker-news",
+      "coding",
+      "llm",
+      "productivity"
+    ]
+  },
+  {
+    "date": "2026-08-02",
+    "id": "2026-08-02-glm-5-2-community",
+    "type": "new",
+    "vendor": "Zhipu AI",
+    "section": "community",
+    "title": "GLM-5.2 (744B / MIT) が HN・LocalLLaMA で高評価",
+    "summary": "Zhipu AI の 744B MIT ライセンスオープンウェイトモデルが HN で 500+ スコア。r/LocalLLaMA では frontier open-weights の最有力として評価。",
+    "url": "https://news.ycombinator.com/item?id=48809877",
+    "importance": "standard",
+    "tags": [
+      "hacker-news",
+      "open-source",
+      "zhipu",
+      "glm",
+      "community"
+    ]
+  },
+  {
+    "date": "2026-08-02",
+    "id": "2026-08-02-paper-qwen-ui-agent",
+    "type": "new",
+    "vendor": "Alibaba",
+    "section": "papers",
+    "title": "Qwen-UI-Agent Technical Report (arXiv:2607.28227)",
+    "summary": "モバイル・PC・ブラウザ・検索を横断する統合 GUI エージェント。フロンティアモデルと競争力のある精度を報告。",
+    "url": "https://arxiv.org/abs/2607.28227",
+    "importance": "standard",
+    "tags": [
+      "paper",
+      "gui-agent",
+      "alibaba",
+      "qwen",
+      "huggingface-papers"
+    ]
+  },
+  {
+    "date": "2026-08-02",
+    "id": "2026-08-02-paper-metis-memory",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "Metis: Memory Foundation Model (arXiv:2607.26760)",
+    "summary": "外部ベクトルストア不要の「ネイティブメモリ状態」を基盤モデルに組み込む初の試み。動的更新型長期記憶の実装アプローチ。",
+    "url": "https://arxiv.org/abs/2607.26760",
+    "importance": "standard",
+    "tags": [
+      "paper",
+      "memory",
+      "foundation-model",
+      "huggingface-papers"
+    ]
+  },
+  {
+    "date": "2026-08-02",
+    "id": "2026-08-02-paper-frontis-ma1",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "Frontis-MA1: Recursive Self-Improvement in ML Engineering (arXiv:2607.28568)",
+    "summary": "AI が ML 構築プロセスを再帰的に改善するフレームワーク OpenMLE を提案。AI 研究自動化と安全性評価を論じる。",
+    "url": "https://arxiv.org/abs/2607.28568",
+    "importance": "minor",
+    "tags": [
+      "paper",
+      "self-improvement",
+      "ai-research",
+      "huggingface-papers"
+    ]
+  },
+  {
+    "date": "2026-08-02",
+    "id": "2026-08-02-media-sqex-gemini-qa",
+    "type": "new",
+    "vendor": null,
+    "section": "media",
+    "title": "スクウェア・エニックスが Google Gemini でゲーム品質テストを自動化",
+    "summary": "AI が画面認識とコントローラー操作まで自走するゲーム検証システムを Google Cloud Next Tokyo '26 で披露。",
+    "url": "https://www.itmedia.co.jp/aiplus/article/2607/31/2000000322/",
+    "importance": "minor",
+    "tags": [
+      "media-jp",
+      "google",
+      "gemini",
+      "gaming",
+      "qa-automation"
+    ]
+  },
+  {
+    "date": "2026-08-02",
+    "id": "2026-08-02-media-chrome-vulnerability",
+    "type": "new",
+    "vendor": "Google",
+    "section": "media",
+    "title": "Google AI エージェントが Chrome の 13 年来の脆弱性を発見",
+    "summary": "AI コード解析で長期潜在バグを特定。直近2リリース分の修正数が過去23リリース相当に達したと報告。",
+    "url": "https://www.itmedia.co.jp/aiplus/article/2607/31/2000000323/",
+    "importance": "standard",
+    "tags": [
+      "media-jp",
+      "google",
+      "security",
+      "chrome",
+      "ai-bug-detection"
+    ]
+  },
+  {
+    "date": "2026-08-02",
+    "id": "2026-08-02-eu-ai-act-gpai",
+    "type": "followup",
+    "vendor": null,
+    "section": "governance",
+    "title": "[続報] EU AI法: GPAI 向け執行権限が本日 (8/2) 正式発効",
+    "summary": "EU AI 法の GPAI 規制が 8/2 付けで法的拘束力を持ち、フロンティアモデル提供者への能力評価・透明性・セキュリティ義務が開始。",
+    "url": "https://artificialintelligenceact.eu/",
+    "importance": "highlight",
+    "tags": [
+      "governance",
+      "eu",
+      "ai-act",
+      "gpai",
+      "regulation"
+    ],
+    "related_date": "2026-07-28"
+  },
+  {
     "date": "2026-08-01",
     "id": "2026-08-01-anthropic-claude-breach",
     "type": "new",
