@@ -1,0 +1,166 @@
+{
+  "date": "2026-08-03",
+  "generated_at": "2026-08-03T08:06:54+09:00",
+  "sources_checked": 24,
+  "sources_failed": 17,
+  "items": [
+    {
+      "id": "2026-08-03-anthropic-claude-code-boost",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Claude Code 50% 週間使用量ブーストを 8/19 まで延長",
+      "summary": "Pro・Max・Team・Enterprise 向け Claude Code 週間利用 +50% ブーストが 8/19 まで継続。新モデル発表なし。",
+      "importance": "minor",
+      "tags": ["claude-code", "anthropic", "usage-limits"]
+    },
+    {
+      "id": "2026-08-03-openai-astra",
+      "type": "followup",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "[続報] OpenAI: Astra — 次世代マルチエージェントモデルファミリー初公開",
+      "summary": "8/1 数学証明ブログに「埋め込まれた」形で次世代モデルファミリー Astra が初公開。複数エージェントが数時間〜数日規模のタスクを並行処理する設計。政府審査通過後に公開予定。",
+      "url": "https://gizmodo.com/openai-smuggled-the-announcement-of-astra-its-next-ai-model-into-a-blog-post-about-math-2000793689",
+      "importance": "highlight",
+      "tags": ["openai", "astra", "multi-agent", "model-release", "next-gen"],
+      "related_date": "2026-08-02"
+    },
+    {
+      "id": "2026-08-03-google-ai-studio-cancellation",
+      "type": "new",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "Google: AI Studio モバイルアプリを廃止し Gemini に統合",
+      "summary": "80万件超のプレオーダーにもかかわらず iOS/Android 版 AI Studio をキャンセル。アプリ作成機能を Gemini アプリに統合する方針に転換 (7/31 発表)。",
+      "url": "https://9to5google.com/2026/07/31/gemini-ai-studio-app/",
+      "importance": "highlight",
+      "tags": ["google", "gemini", "ai-studio", "product-change"]
+    },
+    {
+      "id": "2026-08-03-microsoft-project-perception",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "Microsoft (Azure AI): MAI-Cyber-1-Flash + Project Perception パブリックプレビュー開始",
+      "summary": "137B MoE のセキュリティ特化モデル MAI-Cyber-1-Flash と、Red/Blue/Green Team エージェントを統合した Project Perception が本日よりパブリックプレビュー。CyberGym 95.95%・コスト 50% 削減。",
+      "url": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
+      "importance": "highlight",
+      "tags": ["microsoft", "cybersecurity", "mai-cyber", "project-perception", "agentic", "azure-ai"]
+    },
+    {
+      "id": "2026-08-03-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-03-xai-grok-46",
+      "type": "new",
+      "vendor": "xAI",
+      "section": "vendor",
+      "title": "xAI: Grok 4.6 が 8/7 リリース予定 — 1.5T パラメータ / Grok Voice Think Fast 2.0 公開済み",
+      "summary": "Musk が 7/28 に Grok 4.6 の 8/7 リリースを確認 (1.5T params、SFT+RL 強化)。Grok 4.7 はその 2 週間後。7/29 公開の Grok Voice Think Fast 2.0 は 8/5 より grok-voice-latest に採用予定。",
+      "url": "https://www.kucoin.com/news/flash/musk-announces-grok-4-6-release-on-august-7-2026",
+      "importance": "highlight",
+      "tags": ["xai", "grok", "model-release", "voice-ai", "upcoming"]
+    },
+    {
+      "id": "2026-08-03-lg-k-exaone-20",
+      "type": "new",
+      "vendor": "LG AI Research",
+      "section": "vendor",
+      "title": "LG AI Research: K-EXAONE 2.0 (750B MoE, Apache 2.0) — 韓国最大のオープンウェイト AI",
+      "summary": "韓国政府主導の主権 AI プロジェクト成果。総 750B (アクティブ 37B) MoE、262K コンテキスト、10 言語対応、Apache 2.0 ライセンス。ベンチマーク 70.1 (前世代比 +10.7%)。",
+      "url": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+      "importance": "standard",
+      "tags": ["open-weight", "lg-ai-research", "korea", "moe", "model-release"]
+    },
+    {
+      "id": "2026-08-03-github-omniroute",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: diegosouzapw/OmniRoute — MIT 無料 AI ゲートウェイ",
+      "summary": "1 エンドポイントで 290+ プロバイダ・90+ 無料モデル・500+ モデルを統合、自動フォールバック付きの MIT ライセンス AI ゲートウェイ (TypeScript, +885 today)。",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "importance": "standard",
+      "tags": ["github-trending", "ai-gateway", "open-source", "typescript"]
+    },
+    {
+      "id": "2026-08-03-github-voicebox",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: jamiepine/voicebox — オープンソース AI ボイススタジオ",
+      "summary": "音声クローン・ディクテーション・コンテンツ生成を統合したオープンソース音声 AI スタジオ (TypeScript, +203 today)。",
+      "url": "https://github.com/jamiepine/voicebox",
+      "importance": "standard",
+      "tags": ["github-trending", "voice-ai", "open-source", "typescript"]
+    },
+    {
+      "id": "2026-08-03-github-voice-pro",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: abus-aikorea/voice-pro — TTS / 音声クローン Gradio WebUI",
+      "summary": "TTS・E2/F5-TTS ゼロショット音声クローン・Whisper・多言語翻訳を統合した Gradio WebUI (Python, +401 today)。",
+      "url": "https://github.com/abus-aikorea/voice-pro",
+      "importance": "minor",
+      "tags": ["github-trending", "voice-ai", "tts", "open-source", "python"]
+    },
+    {
+      "id": "2026-08-03-paper-askchem",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis",
+      "summary": "化学文献の主張を構造化クレームとして抽出・検証・統合するインフラ。LLM の化学文献レビュー信頼性向上を目指す。HF Papers 8/2 付け #1 トレンド。",
+      "importance": "standard",
+      "tags": ["chemistry", "llm", "scientific-ai", "papers"]
+    },
+    {
+      "id": "2026-08-03-paper-videococo",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "VideoCoCo: Blender コードを CoT 中間表現とした物理整合ビデオ生成",
+      "summary": "実行可能な Blender コードを CoT 表現として使い決定論的な時空間ドラフトを生成、動画エディタを誘導する手法で物理的整合性の高い AI 動画生成を実現。",
+      "importance": "standard",
+      "tags": ["video-generation", "code-as-cot", "multimodal", "papers"]
+    },
+    {
+      "id": "2026-08-03-paper-memory-decoder",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "Memory Decoder at Scale: 基盤モデルへのネイティブ長期記憶統合",
+      "summary": "外部ベクトルストア不要で基盤モデルパラメータに長期記憶を直接統合するアーキテクチャ。勾配フリーのフォワードパスのみで記憶を圧縮・維持。",
+      "importance": "standard",
+      "tags": ["memory", "llm-architecture", "papers"]
+    },
+    {
+      "id": "2026-08-03-media-sam-altman-decel",
+      "type": "new",
+      "vendor": null,
+      "section": "media",
+      "title": "[TechCrunch] Sam Altman の AI 減速発言と業界 decel 議論",
+      "summary": "Altman の「AI 開発ペースを落とす必要があるかもしれない」という発言とその文脈を TechCrunch Equity (8/2) が分析。2023年の「一時停止反対」からの立場転換として注目。",
+      "url": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+      "importance": "standard",
+      "tags": ["openai", "ai-safety", "governance", "decel", "sam-altman"]
+    },
+    {
+      "id": "2026-08-03-governance-whitehouse-trains",
+      "type": "followup",
+      "vendor": null,
+      "section": "governance",
+      "title": "[続報] White House TRAINS: 8/1 法定期限に公式 deliverables なく失効",
+      "summary": "EO 14409 の 8/1 期限内に NSA/CISA/NIST がフロンティアモデルベンチマーク手順・開示フレームワーク・人材計画の 3 成果物を未公表。フロンティアモデル定義が宙吊りのまま。",
+      "url": "https://finance.yahoo.com/technology/ai/articles/white-house-ai-framework-deadline-002011007.html",
+      "importance": "highlight",
+      "tags": ["governance", "whitehouse", "trains", "regulation", "frontier-model"],
+      "related_date": "2026-08-01"
+    }
+  ]
+}
