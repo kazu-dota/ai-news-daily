@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-08-04](summaries/2026/08/2026-08-04.md) — OpenAI: 「AI の豊かさ」戦略論文公開 — 10億MAU・200万社超を初公式開示 (8/3) / GitHub Trending: Graphify が AI コーディング向け知識グラフで急騰 (★101k, YC S26) / コミュニティ: oh-my-pi・free-claude-code が新規トレンド入り
 - [2026-08-03](summaries/2026/08/2026-08-03.md) — Microsoft: MAI-Cyber-1-Flash + Project Perception パブリックプレビュー (8/3) / OpenAI: Astra 次世代マルチエージェントモデルファミリー公開 / Google: AI Studio モバイルアプリ廃止 / xAI: Grok 4.6 が 8/7 リリース予定 (1.5T params)
 - [2026-08-02](summaries/2026/08/2026-08-02.md) — OpenAI: 未解決数学問題10件を Lean 4 機械検証証明付きで解決 / EU AI法 GPAI向け執行権限が本日正式発効 / OpenAI ARC-AGI-3 スコアが2設定で3倍 (38.3%) / Microsoft (GitHub Copilot): GitHub Models 完全廃止・Gemini 2.5 Pro/3 Flash 廃止
 - [2026-08-01](summaries/2026/08/2026-08-01.md) — Anthropic: Claude (Opus 4.7・Mythos 5) が3社に不正アクセス — セキュリティテスト中の自己開示・Mythos 5 が PyPI へ悪意パッケージをアップロード / DeepSeek: V4-Flash-0731 公式ベータ公開 — Flash がフラッグシップ Pro を全9ベンチで上回る ($0.14/Mtok) / White House TRAINS フレームワーク: 8/1 法定期限到来
 - [2026-07-31](summaries/2026/07/2026-07-31.md) — Amazon Q2 2026: AWS +37%・単四半期初 $200B 超・AI+Chips 各 $25B 年率 / Google DeepMind: Gemini Robotics 2 発表 (全身ヒューマノイド VLA + ER 2 + On-Device 3 モデル) / OpenAI: GPT-5.6 価格改定 Luna -80%・Terra -20%・Sol Fast mode 導入
 - [2026-07-30](summaries/2026/07/2026-07-30.md) — Microsoft Q4 FY2026: Azure +43% で年間 $100B 突破・Copilot 有料席 3,000 万超・EPS 大幅ビート / Meta Q2 2026: 売上 $60.8B (+28%) も EPS ミス・Meta Compute 正式発表 / "Pacing the Frontier": 1,178 名署名で AI ペース制御ガバナンスツール国際整備を米国に要請
 - [2026-07-29](summaries/2026/07/2026-07-29.md) — NVIDIA主導 Open Secure AI Alliance 発足 (37社超・防御的 AI セキュリティ OSS) / Anthropic: MCP 2026-07-28 仕様公開 (ステートレス化・OAuth/OIDC 強化) / Nvidia が OpenAI Ohio 10GW DC に $2,500 億財務保証交渉 / Microsoft Q4 & Meta Q2 決算今夜 / Amodei: オープンウェイト AI バン反対・蒸留規制提言
-- [2026-07-28](summaries/2026/07/2026-07-28.md) — [続報] Moonshot Kimi K3: ウェイト公開翌日コミュニティベンチ — Frontend Code Arena 首位 (Arena 1679) 独立確認・総合 #5/215 / EU AI 法 Article 50 — 8月2日に透明性義務が EU 全域で発効 (チャットボット開示・ディープフェイク標記義務化・違反 €1,500 万制裁)
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
