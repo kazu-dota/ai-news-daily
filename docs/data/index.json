@@ -1,5 +1,105 @@
 [
   {
+    "date": "2026-08-04",
+    "id": "2026-08-04-openai-abundant-intelligence",
+    "type": "followup",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "[続報] OpenAI: \"Building abundant intelligence\" — 10億MAU・200万社超を初公式開示 (8/3)",
+    "summary": "GPT-5.6 価格削減の戦略的背景を論じた公式論文。月間アクティブユーザー10億人超・API 利用企業200万社超を初開示。AI を水道・電力のような知的インフラと位置づけるビジョンを体系化。",
+    "url": "https://openai.com/index/building-abundant-intelligence/",
+    "importance": "highlight",
+    "tags": [
+      "openai",
+      "strategy",
+      "gpt-5.6",
+      "pricing",
+      "scale"
+    ],
+    "related_date": "2026-07-31"
+  },
+  {
+    "date": "2026-08-04",
+    "id": "2026-08-04-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-04",
+    "id": "2026-08-04-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-04",
+    "id": "2026-08-04-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-04",
+    "id": "2026-08-04-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-04",
+    "id": "2026-08-04-graphify-trending",
+    "type": "new",
+    "vendor": "Graphify-Labs",
+    "section": "community",
+    "title": "Graphify: コードベースを AI 向け知識グラフに変換する YC S26 ツールが急騰",
+    "summary": "コードベース・SQL スキーマをローカル AST パースして知識グラフ化。Claude Code・Cursor・Codex に /graphify スキルとして統合可能。ベクトルストア不要。★101,821 (+882 today)。",
+    "url": "https://github.com/Graphify-Labs/graphify",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "knowledge-graph",
+      "ai-coding",
+      "open-source",
+      "yc-s26"
+    ]
+  },
+  {
+    "date": "2026-08-04",
+    "id": "2026-08-04-oh-my-pi-trending",
+    "type": "new",
+    "vendor": "can1357",
+    "section": "community",
+    "title": "oh-my-pi: 50+ プロバイダ対応・ハッシュアンカー編集つきターミナル AI コーディングエージェント",
+    "summary": "Pi フォークのターミナルベース AI コーディングエージェント。50超プロバイダ対応、LSP 診断・DAP デバッガ統合・.claude/.cursor等自動読み込み。MIT ライセンス。★21,573 (+300 today)。",
+    "url": "https://github.com/can1357/oh-my-pi",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "ai-coding-agent",
+      "terminal",
+      "open-source",
+      "multi-provider"
+    ]
+  },
+  {
+    "date": "2026-08-04",
+    "id": "2026-08-04-free-claude-code-trending",
+    "type": "new",
+    "vendor": "Alishahryar1",
+    "section": "community",
+    "title": "free-claude-code: ターミナル・スマートフォンから Claude Code を無料利用するツール",
+    "summary": "Claude Code・Codex・Pi をターミナル・IDE・スマートフォンから無料で使えるラッパーツール。音声対応・システムトレイ常駐。★44,016 (+291 today)。",
+    "url": "https://github.com/Alishahryar1/free-claude-code",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "claude-code",
+      "open-source",
+      "free-tools"
+    ]
+  },
+  {
     "date": "2026-08-03",
     "id": "2026-08-03-anthropic-claude-code-boost",
     "type": "new",
