@@ -1,0 +1,121 @@
+{
+  "date": "2026-08-05",
+  "generated_at": "2026-08-05T08:06:10+09:00",
+  "sources_checked": 26,
+  "sources_failed": 18,
+  "items": [
+    {
+      "id": "2026-08-05-anthropic-claude-code-update",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Claude Code 8/4 アップデート — background /code-review・Focus View・サンドボックス強化",
+      "summary": "background /code-review でレビューがサブエージェント化、VS Code 向け Focus View、サンドボックス認証情報マスキング (mask モード)、Stats パネルのキャッシュトークン詳細表示、スクリーンリーダー対応強化。",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "importance": "standard",
+      "tags": ["claude-code", "developer-tools", "anthropic", "release"]
+    },
+    {
+      "id": "2026-08-05-anthropic-sonnet5-pricing",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Claude Sonnet 5 プロモーション価格が 8/31 終了 — 9/1 より $3/$15 per Mtok へ",
+      "summary": "Claude Sonnet 5 の導入価格 $2/$10 per Mtok が 8 月 31 日で終了し、9 月 1 日から通常価格 $3/$15 へ移行。月次コストが最大 50% 増加する可能性。",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "importance": "standard",
+      "tags": ["pricing", "sonnet-5", "anthropic", "api"]
+    },
+    {
+      "id": "2026-08-05-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-05-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-05-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-05-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-05-xai-grok-voice-routing",
+      "type": "followup",
+      "vendor": "xAI",
+      "section": "vendor",
+      "title": "[続報] grok-voice-latest が本日 (8/5) から Grok Voice Think Fast 2.0 へ切り替え",
+      "summary": "grok-voice-latest エイリアスが 8/5 より Think Fast 2.0 にルーティング切り替え。料金は $0.05/分 → $0.08/分 (60% 増)。24 言語で競合比 1.5〜2.0 倍の精度改善を報告。",
+      "url": "https://x.ai/news/grok-voice-think-fast-2",
+      "related_date": "2026-08-03",
+      "importance": "standard",
+      "tags": ["xai", "grok-voice", "api", "routing-change"]
+    },
+    {
+      "id": "2026-08-05-alibaba-qwen38max",
+      "type": "new",
+      "vendor": "Alibaba",
+      "section": "vendor",
+      "title": "Qwen3.8-Max — 2.4T 開放重み MoE、初の Max クラスオープンソース化 (8/3)",
+      "summary": "2.4T 総パラメータ (推論時 95B アクティブ) のスパース MoE・100 万トークンコンテキスト対応。Terminal-Bench 2.1 で 86.6、IFBench で GPT-5.6 Sol (72.7) を上回る 82.8 を達成。重みは 8/10 前後に HuggingFace・ModelScope で公開予定。",
+      "url": "https://dataconomy.com/2026/08/03/qwen3-8-max-ai-model/",
+      "importance": "highlight",
+      "tags": ["model-release", "alibaba", "open-weights", "qwen", "moe", "china-ai"]
+    },
+    {
+      "id": "2026-08-05-github-uber-adr",
+      "type": "new",
+      "vendor": "Uber",
+      "section": "community",
+      "title": "uber/ADR — Uber の本番 AI エージェントセキュリティフレームワークをオープンソース化",
+      "summary": "1 日 5 万セッション超を処理する Uber 本番環境で稼働中の AI エージェントセキュリティシステムを OSS 公開。観測・評価・脅威検出・防止の 4 層設計、ADR-Bench (300+ タスク・133 MCP サーバー) 付属。MLSys 2026 採録済み。(★662, +140 today)",
+      "url": "https://github.com/uber/ADR",
+      "importance": "standard",
+      "tags": ["github-trending", "security", "ai-agents", "mcp", "open-source"]
+    },
+    {
+      "id": "2026-08-05-github-livekit-agents",
+      "type": "new",
+      "vendor": "LiveKit",
+      "section": "community",
+      "title": "livekit/agents — リアルタイム音声 AI エージェント構築フレームワーク",
+      "summary": "STT・LLM・TTS・リアルタイム API を組み合わせてサーバー側でリアルタイム音声 AI エージェントを構築する Python フレームワーク。MCP ネイティブ対応・意味的ターン検出・WebRTC・テレフォニー統合。Apache-2.0。(★12,377, +432 today)",
+      "url": "https://github.com/livekit/agents",
+      "importance": "standard",
+      "tags": ["github-trending", "voice-ai", "realtime", "mcp", "open-source"]
+    },
+    {
+      "id": "2026-08-05-github-loopx",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "huangruiteng/loopx — 長時間タスク向けエージェントチーム管理カーネル",
+      "summary": "Claude Code・Codex など複数エージェントを横断する長期実行チーム向けの状態管理カーネル。ゴール永続化・クォータ対応オートウェイク・実行可能 TODO・証跡ログ・検証済みハンドオフを実装した「エージェント版 Kanban」。(★1,551, +618 today)",
+      "url": "https://github.com/huangruiteng/loopx",
+      "importance": "standard",
+      "tags": ["github-trending", "claude-code", "codex", "agent-management", "open-source"]
+    },
+    {
+      "id": "2026-08-05-github-kaneo",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "usekaneo/kaneo — AI エージェント開発チーム向けオープンソースプロジェクト管理",
+      "summary": "マルチエージェント環境での開発タスク追跡・スプリント計画・チームコラボレーションを統合したセルフホスティング可能なプロジェクト管理ツール。(★7,268, +565 today)",
+      "url": "https://github.com/usekaneo/kaneo",
+      "importance": "minor",
+      "tags": ["github-trending", "project-management", "open-source", "ai-tools"]
+    }
+  ]
+}
