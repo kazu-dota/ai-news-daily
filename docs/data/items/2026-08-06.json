@@ -1,0 +1,87 @@
+{
+  "date": "2026-08-06",
+  "generated_at": "2026-08-06T08:05:44+09:00",
+  "sources_checked": 26,
+  "sources_failed": 18,
+  "items": [
+    {
+      "id": "2026-08-06-anthropic-tino-cuellar",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Tino Cuéllar 氏が初代 Chief Global Affairs Officer に就任 (8/4)",
+      "summary": "元カリフォルニア州最高裁判事・カーネギー国際平和財団前理事長の Tino Cuéllar 氏が Anthropic 初の CGAO に就任。AI 政策・国際関係・政府対応を統括。",
+      "url": "https://www.anthropic.com/news/tino-cuellar",
+      "importance": "highlight",
+      "tags": ["governance", "policy", "anthropic", "leadership", "international"]
+    },
+    {
+      "id": "2026-08-06-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-06-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-06-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-06-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-06-cloudflare-computer-os",
+      "type": "new",
+      "vendor": "Cloudflare",
+      "section": "vendor",
+      "title": "@cloudflare/computer (8/3) + Cloudflare OS (8/5) — AI エージェント向け OSS を 2 本立て公開",
+      "summary": "エージェント専用コンピューティングランタイム (@cloudflare/computer) と企業向けセルフホスタブル AI ワークスペース (Cloudflare OS, Apache 2.0) を 8/3〜8/5 に相次いで公開。Isolate/コンテナ動的切り替え・監査ログ付き仮想 FS・per-user ガジェット隔離・ゼロトラスト Gatekeeper が特徴。",
+      "url": "https://blog.cloudflare.com/cloudflare-os/",
+      "importance": "highlight",
+      "tags": ["agent-framework", "cloudflare", "open-source", "enterprise", "self-hosted"]
+    },
+    {
+      "id": "2026-08-06-github-trending-strix",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "usestrix/strix — AI 自律型ペネトレーションテストツール (★+956 today)",
+      "summary": "AI エージェントが実際のハッカーのようにコードを動的実行して脆弱性を発見・PoC 検証するオープンソースツール。Docker + LLM API キーで動作、Apache 2.0。(★48,950, +956 today)",
+      "url": "https://github.com/usestrix/strix",
+      "importance": "standard",
+      "tags": ["github-trending", "security", "penetration-testing", "ai-agents", "open-source"]
+    },
+    {
+      "id": "2026-08-06-github-trending-cloudflare-computer",
+      "type": "new",
+      "vendor": "Cloudflare",
+      "section": "community",
+      "title": "cloudflare/computer — エージェント専用 OSS ランタイム (★+796 today)",
+      "summary": "Cloudflare がリリースした @cloudflare/computer の GitHub リポジトリ。エージェントに専用コンピュータを与える OSS ランタイムとして本日トレンド入り。(★2,780, +796 today)",
+      "url": "https://github.com/cloudflare/computer",
+      "importance": "standard",
+      "tags": ["github-trending", "agent-framework", "cloudflare", "open-source"]
+    },
+    {
+      "id": "2026-08-06-paper-interactive-world-proxies",
+      "type": "new",
+      "vendor": "ShanghaiAILab",
+      "section": "papers",
+      "title": "Quo Vadis, World Modeling? Towards Interactive World Proxies for Continually Improving Agents",
+      "summary": "World Model (物理状態予測) から Agent-Centric World Proxy (エージェントが必要とする情報遷移を返すインタフェース) へのパラダイム転換を提案。6 種のプロキシ関数と 3 段階エンパワーメントレベルで継続的なエージェント改善を実現するフレームワーク。HF Papers トレンド入り。",
+      "url": "https://arxiv.org/abs/2608.02713",
+      "importance": "standard",
+      "tags": ["world-model", "agents", "research-paper", "reinforcement-learning", "hugging-face-trending"]
+    }
+  ]
+}
