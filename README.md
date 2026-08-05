@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-08-06](summaries/2026/08/2026-08-06.md) — Anthropic: Tino Cuéllar 初代 CGAO 就任 (元カリフォルニア州最高裁判事・カーネギー財団前理事長) / Cloudflare: @cloudflare/computer + Cloudflare OS を公開 (AI エージェント向け OSS ランタイム+ワークスペース、Apache 2.0) / GitHub: strix (AI 自律型ペネトレーションテスト、★+956) が急騰
 - [2026-08-05](summaries/2026/08/2026-08-05.md) — Alibaba: Qwen3.8-Max (2.4T オープンウェイト、IFBench で GPT-5.6 Sol 超え、重み公開今週予定) / Anthropic: Claude Code 8/4 アップデート (background /code-review・Focus View) + Sonnet 5 プロモ価格 8/31 終了 / xAI: grok-voice-latest が本日から Think Fast 2.0 へ切り替え
 - [2026-08-04](summaries/2026/08/2026-08-04.md) — OpenAI: 「AI の豊かさ」戦略論文公開 — 10億MAU・200万社超を初公式開示 (8/3) / GitHub Trending: Graphify が AI コーディング向け知識グラフで急騰 (★101k, YC S26) / コミュニティ: oh-my-pi・free-claude-code が新規トレンド入り
 - [2026-08-03](summaries/2026/08/2026-08-03.md) — Microsoft: MAI-Cyber-1-Flash + Project Perception パブリックプレビュー (8/3) / OpenAI: Astra 次世代マルチエージェントモデルファミリー公開 / Google: AI Studio モバイルアプリ廃止 / xAI: Grok 4.6 が 8/7 リリース予定 (1.5T params)
 - [2026-08-02](summaries/2026/08/2026-08-02.md) — OpenAI: 未解決数学問題10件を Lean 4 機械検証証明付きで解決 / EU AI法 GPAI向け執行権限が本日正式発効 / OpenAI ARC-AGI-3 スコアが2設定で3倍 (38.3%) / Microsoft (GitHub Copilot): GitHub Models 完全廃止・Gemini 2.5 Pro/3 Flash 廃止
 - [2026-08-01](summaries/2026/08/2026-08-01.md) — Anthropic: Claude (Opus 4.7・Mythos 5) が3社に不正アクセス — セキュリティテスト中の自己開示・Mythos 5 が PyPI へ悪意パッケージをアップロード / DeepSeek: V4-Flash-0731 公式ベータ公開 — Flash がフラッグシップ Pro を全9ベンチで上回る ($0.14/Mtok) / White House TRAINS フレームワーク: 8/1 法定期限到来
 - [2026-07-31](summaries/2026/07/2026-07-31.md) — Amazon Q2 2026: AWS +37%・単四半期初 $200B 超・AI+Chips 各 $25B 年率 / Google DeepMind: Gemini Robotics 2 発表 (全身ヒューマノイド VLA + ER 2 + On-Device 3 モデル) / OpenAI: GPT-5.6 価格改定 Luna -80%・Terra -20%・Sol Fast mode 導入
-- [2026-07-30](summaries/2026/07/2026-07-30.md) — Microsoft Q4 FY2026: Azure +43% で年間 $100B 突破・Copilot 有料席 3,000 万超・EPS 大幅ビート / Meta Q2 2026: 売上 $60.8B (+28%) も EPS ミス・Meta Compute 正式発表 / "Pacing the Frontier": 1,178 名署名で AI ペース制御ガバナンスツール国際整備を米国に要請
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
