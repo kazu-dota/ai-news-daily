@@ -1,0 +1,120 @@
+{
+  "date": "2026-08-08",
+  "generated_at": "2026-08-08T08:05:39+09:00",
+  "sources_checked": 26,
+  "sources_failed": 18,
+  "items": [
+    {
+      "id": "2026-08-08-google-deepmind-leadership-shakeup",
+      "type": "new",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "Google DeepMind: Demis Hassabis CEO退任、Jeff Dean ら 4 名が Discovery Loop 設立 (8/5)",
+      "summary": "Hassabis が DeepMind 会長 + Alphabet 初代 Chief Scientist に転身。Kavukcuoglu が SVP 就任。Jeff Dean・Ghemawat・Vinyals・Quoc Le が Google を去り Discovery Loop (AI 科学研究自動化 PBC) を設立。Google 株 -4%。",
+      "url": "https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai",
+      "importance": "highlight",
+      "tags": ["leadership", "google", "deepmind", "jeff-dean", "discovery-loop", "organization"]
+    },
+    {
+      "id": "2026-08-08-xai-grok-46-launch",
+      "type": "followup",
+      "vendor": "xAI",
+      "section": "vendor",
+      "title": "[続報] Grok 4.6 が 8/7 に正式リリース — 1.5T V9、SFT+RL 強化",
+      "summary": "予告通り 8/7 に正式リリース。X Premium・SuperGrok・API で提供。リアルタイム翻訳と controversy scanner を X に統合予定。Grok 4.7 (2.1T) は数週間後に続く。",
+      "url": "https://kie.ai/blog/what-is-grok-4-6",
+      "importance": "highlight",
+      "related_date": "2026-08-03",
+      "tags": ["model-release", "xai", "grok", "post-training"]
+    },
+    {
+      "id": "2026-08-08-meta-muse-spark-12-muse-code",
+      "type": "new",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "Meta: Muse Spark 1.2 + Muse Code ターミナルコーディングエージェント (8/5)",
+      "summary": "Meta 初のターミナル型コーディングエージェント Muse Code (beta, macOS+Linux) と Muse Spark 1.2 (1M コンテキスト, TB2.1 82.9%) をリリース。API: $1.25/$4.25 per 1M input/output。",
+      "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+      "importance": "highlight",
+      "tags": ["model-release", "coding-agent", "meta", "muse", "terminal"]
+    },
+    {
+      "id": "2026-08-08-prime-agent-arc-agi3",
+      "type": "new",
+      "vendor": "PrimeIntellect",
+      "section": "community",
+      "title": "PrimeIntellect: Prime Agent — ARC-AGI-3 で 95.5% (人間専門家ベースライン超え) (8/5)",
+      "summary": "自己改善型 RLM ハーネス。Opus 5 と組み合わせて ARC-AGI-3 95.5%、人間専門家ベースラインを初めて超えたオープンソース (MIT) コーディングエージェント。",
+      "url": "https://www.primeintellect.ai/blog/prime-agent",
+      "importance": "highlight",
+      "tags": ["agent", "rlm", "arc-agi", "open-source", "benchmark", "self-improving"]
+    },
+    {
+      "id": "2026-08-08-anthropic-inference-hooks",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Anthropic: Enterprise 向け Inference Hooks (インライン DLP) ベータ開始 (8/5)",
+      "summary": "プロンプトが Claude に届く前に組織のセキュリティサーバーで allow/deny 判定する Enterprise 向け DLP ベータ。chat・Claude Code・Cowork を一元カバー。Standard Webhooks 仕様準拠。",
+      "url": "https://www.unite.ai/anthropic-puts-inline-data-loss-prevention-inside-claude-enterprise/",
+      "importance": "standard",
+      "tags": ["enterprise", "security", "dlp", "anthropic", "inference-hooks"]
+    },
+    {
+      "id": "2026-08-08-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-08-google-gemini-eap-evaluations-ga",
+      "type": "new",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "Google: Gemini Enterprise Agent Platform — agent・model 評価機能が GA (8/5-8/6)",
+      "summary": "Gemini Enterprise Agent Platform の agent 評価・モデル評価機能が一般提供開始。Gemini 3.6 Flash・3.5 Flash-Lite も GA に。Grok 4.1 ファミリーは 8/20 廃止予定。",
+      "url": "https://developers.googleblog.com/agent-and-model-evaluations-in-gemini-enterprise-agent-platform-are-now-ga/",
+      "importance": "minor",
+      "tags": ["google", "enterprise", "gemini", "agent-platform", "ga"]
+    },
+    {
+      "id": "2026-08-08-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-08-github-trending-prime-agent",
+      "type": "new",
+      "vendor": "PrimeIntellect",
+      "section": "community",
+      "title": "GitHub Trending: PrimeIntellect-ai/prime-agent (TypeScript, ★6,382, +2,271 today)",
+      "summary": "自己改善型 RLM コーディングエージェントハーネス。Opus 5 と組み合わせて ARC-AGI-3 95.5%。MIT ライセンス。",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "importance": "standard",
+      "tags": ["github-trending", "agent", "open-source", "typescript"]
+    },
+    {
+      "id": "2026-08-08-github-trending-pi",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: earendil-works/pi (TypeScript, ★85,282, +527 today)",
+      "summary": "統合 LLM API・エージェントループ・TUI・コーディングエージェント CLI を備えた AI エージェントツールキット。50 超の AI プロバイダに対応。",
+      "url": "https://github.com/earendil-works/pi",
+      "importance": "minor",
+      "tags": ["github-trending", "agent", "open-source", "typescript"]
+    },
+    {
+      "id": "2026-08-08-github-trending-google-skills",
+      "type": "new",
+      "vendor": "Google",
+      "section": "community",
+      "title": "GitHub Trending: google/skills (Python, ★16,220, +305 today)",
+      "summary": "Google 製品向けのエージェントスキル統合フレームワーク。AI エージェントが Google 各サービスと連携するためのスキルライブラリ。",
+      "url": "https://github.com/google/skills",
+      "importance": "minor",
+      "tags": ["github-trending", "google", "agent", "skills", "open-source", "python"]
+    }
+  ]
+}
