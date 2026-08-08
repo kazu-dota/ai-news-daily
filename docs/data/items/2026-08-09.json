@@ -1,0 +1,121 @@
+{
+  "date": "2026-08-09",
+  "generated_at": "2026-08-09T08:05:17+09:00",
+  "sources_checked": 26,
+  "sources_failed": 18,
+  "items": [
+    {
+      "id": "2026-08-09-anthropic-mid-conv-tools",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "ミッドコンバセーション・ツール変更ベータ (Fable 5 / Mythos 5 / Opus 4.8 / Opus 5)",
+      "summary": "会話の途中でプロンプトキャッシュを保持したままツールを動的追加・削除できる API ベータ。tool_addition/tool_removal ブロックを system メッセージに含める設計。",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages",
+      "importance": "standard",
+      "tags": ["api", "anthropic", "tool-use", "prompt-caching", "agentic"]
+    },
+    {
+      "id": "2026-08-09-openai-atlas-shutdown",
+      "type": "followup",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "[続報] ChatGPT Atlas ブラウザが本日 (8/9) 正式終了",
+      "summary": "8/1 既報の終了が本日実施。エージェント機能は ChatGPT Work・デスクトップアプリブラウザ・Chrome 拡張に移行。ブックマーク等の自動移行なし。",
+      "url": "https://www.techrepublic.com/article/news-chatgpt-atlas-shutdown-migration/",
+      "related_date": "2026-08-01",
+      "importance": "standard",
+      "tags": ["openai", "chatgpt", "browser", "deprecation"]
+    },
+    {
+      "id": "2026-08-09-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-09-microsoft-unified-copilot",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "統合 Copilot アプリ — GitHub Copilot・Chat・Cowork・AutoPilot を 1 本化 (8/2026)",
+      "summary": "GitHub Copilot・Copilot Chat・Cowork を統合した単一アプリが CSP 提供開始。AutoPilot は Teams/Outlook/OneDrive を監視して自律的に行動する背景エージェント機能。Copilot Podcasts・Copilot Labs は廃止。",
+      "url": "https://mlq.ai/news/microsoft-merges-consumer-and-enterprise-copilot-into-single-app-launches-paid-autopilot-agents/",
+      "importance": "highlight",
+      "tags": ["microsoft", "copilot", "github-copilot", "agents", "autopilot", "enterprise"]
+    },
+    {
+      "id": "2026-08-09-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-09-mistral-shieldstral",
+      "type": "new",
+      "vendor": "Mistral",
+      "section": "vendor",
+      "title": "Shieldstral 1.0 (3B) — オープンウェイト多言語マルチモーダル安全分類器 (8/7)",
+      "summary": "テキスト+画像を12言語で評価できる3Bオープン安全分類器。推論時に平易な言語でポリシーを記述して動的適用可能。HarmBench 99.4%、VLGuard 97.7%。16GB GPU 1枚で動作、Apache 2.0。",
+      "url": "https://mistral.ai/news/shieldstral/",
+      "importance": "highlight",
+      "tags": ["mistral", "safety", "open-weights", "multimodal", "content-moderation", "apache2"]
+    },
+    {
+      "id": "2026-08-09-xai-no-update",
+      "type": "no-update",
+      "vendor": "xAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-09-github-book-to-skill",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "GitHub Trending: virgiliojr94/book-to-skill — 技術書 PDF を Claude Code スキルへ変換 (+660 today)",
+      "summary": "PDF/EPUB/DOCX を Claude Code スキルに変換するツール。章単位分割でトークン消費を24〜51倍削減。GitHub Copilot CLI・Amp とも共通 SKILL.md フォーマットで動作。",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "importance": "standard",
+      "tags": ["github-trending", "claude-code", "skills", "pdf", "open-source"]
+    },
+    {
+      "id": "2026-08-09-github-mirofish",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "GitHub Trending: 666ghj/MiroFish — 群知能 × LLM 汎用予測エンジン (+441 today)",
+      "summary": "生物群の集合知アルゴリズムを LLM マルチエージェントに応用した予測エンジン。ファイナンシャル・気象・センサーデータに対応。",
+      "url": "https://github.com/666ghj/MiroFish",
+      "importance": "minor",
+      "tags": ["github-trending", "swarm-intelligence", "multi-agent", "open-source"]
+    },
+    {
+      "id": "2026-08-09-github-pocket-tts",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "GitHub Trending: kyutai-labs/pocket-tts — CPU のみで動作する軽量 TTS (+95 today)",
+      "summary": "GPU 不要で CPU だけで動く軽量 TTS。Moshi 開発元 Kyutai 製、オープンウェイト。",
+      "url": "https://github.com/kyutai-labs/pocket-tts",
+      "importance": "minor",
+      "tags": ["github-trending", "tts", "open-source", "edge-inference"]
+    },
+    {
+      "id": "2026-08-09-github-hyperframes",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "GitHub Trending: heygen-com/hyperframes — HTML を書いてエージェントが動画にレンダリング (+158 today)",
+      "summary": "HTML 記述だけで AI エージェントが動画生成するフレームワーク。HeyGen 製、エージェント向け動画生成基盤として設計。",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "importance": "minor",
+      "tags": ["github-trending", "video-generation", "agents", "open-source"]
+    },
+    {
+      "id": "2026-08-09-papers-none",
+      "type": "no-update",
+      "vendor": "Papers",
+      "section": "papers"
+    }
+  ]
+}
