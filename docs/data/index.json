@@ -1,5 +1,160 @@
 [
   {
+    "date": "2026-08-10",
+    "id": "2026-08-10-anthropic-custom-silicon",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "カスタムシリコンチーム設立を公式発表 (8/5)",
+    "summary": "推論コスト50%削減を目標に内製チップ設計チームを設立。Samsung 2nm プロセス協議中。給与最大 $485k でシリコンエンジニア採用中。",
+    "url": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/",
+    "importance": "highlight",
+    "tags": [
+      "chip",
+      "silicon",
+      "infrastructure",
+      "anthropic",
+      "samsung",
+      "inference-cost"
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "id": "2026-08-10-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-10",
+    "id": "2026-08-10-google-pixel11-preview",
+    "type": "new",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "Pixel 11 発表イベント (8/12) 直前 — Gemini Glow LED・Tensor G6 詳細が判明",
+    "summary": "8/12「Made by Google 2026」でPixel 11シリーズ発表予定。Tensor G6 (TSMC 2nm)・Gemini Glow LED・オンデバイス Gemini AI が目玉。",
+    "url": "https://finance.biggo.com/news/202608092050_Google-Pixel-11-event-Aug-12-launch",
+    "importance": "standard",
+    "tags": [
+      "google",
+      "pixel",
+      "gemini",
+      "hardware",
+      "on-device-ai"
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "id": "2026-08-10-microsoft-fy26-q4",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "FY26 Q4 決算 — Azure が年間 $1,000 億超え、M365 Copilot 3,000 万有料席 (7/29)",
+    "summary": "Q4 売上 $900 億 (+18%)・純利益 $358 億。Azure +43% で年間 $100B 初突破。M365 Copilot 3,000 万席 (前四半期比 +50% 超)。",
+    "url": "https://office365itpros.com/2026/07/30/fy26-q4-microsoft-results/",
+    "importance": "highlight",
+    "tags": [
+      "microsoft",
+      "earnings",
+      "azure",
+      "copilot",
+      "cloud",
+      "m365"
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "id": "2026-08-10-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-10",
+    "id": "2026-08-10-xai-imagine-image-2",
+    "type": "new",
+    "vendor": "xAI",
+    "section": "vendor",
+    "title": "Grok Imagine Image 2.0 リリース — テキスト→画像・画像編集で世界2位 (8/7)",
+    "summary": "領域指定編集・5画像マルチ参照・背景除去を新搭載。アリーナ両部門で世界2位。grok.com/imagine Quality Mode と iOS/Android で提供。API は近日予定。",
+    "url": "https://x.ai/news/grok-imagine-image-2",
+    "importance": "highlight",
+    "tags": [
+      "xai",
+      "image-generation",
+      "image-editing",
+      "grok",
+      "multimodal"
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "id": "2026-08-10-github-tradingagents",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: TauricResearch/TradingAgents (★+658)",
+    "summary": "金融トレーディング向けマルチエージェント LLM フレームワーク。複数エージェントが協調して株式・暗号資産・先物の分析・意思決定を行う。",
+    "url": "https://github.com/TauricResearch/TradingAgents",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "multi-agent",
+      "finance",
+      "trading",
+      "llm"
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "id": "2026-08-10-github-browseros",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: browseros-ai/BrowserOS (★+81)",
+    "summary": "ChatGPT Atlas 撤退後に注目されるエージェントブラウザの OSS 代替。自律的なブラウジング操作能力をエージェントに提供。",
+    "url": "https://github.com/browseros-ai/BrowserOS",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "browser-agent",
+      "agentic",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "id": "2026-08-10-prime-agent-followup",
+    "type": "followup",
+    "vendor": "Community",
+    "section": "community",
+    "title": "[続報] PrimeIntellect/prime-agent が継続急騰 (★+2,319 today)",
+    "summary": "8/8 掲載済み。ARC-AGI-3 95.5% の自己改善型 RLM エージェント。本日 TypeScript Trending で +2,319 と依然上位。",
+    "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+    "related_date": "2026-08-08",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "agent",
+      "rlm",
+      "arc-agi"
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "id": "2026-08-10-papers-no-update",
+    "type": "no-update",
+    "vendor": "Papers",
+    "section": "papers"
+  },
+  {
+    "date": "2026-08-10",
+    "id": "2026-08-10-media-no-update",
+    "type": "no-update",
+    "vendor": "Media",
+    "section": "media"
+  },
+  {
     "date": "2026-08-09",
     "id": "2026-08-09-anthropic-mid-conv-tools",
     "type": "new",
