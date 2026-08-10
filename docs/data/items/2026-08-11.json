@@ -1,0 +1,125 @@
+{
+  "date": "2026-08-11",
+  "generated_at": "2026-08-11T08:09:00+09:00",
+  "sources_checked": 26,
+  "sources_failed": 24,
+  "items": [
+    {
+      "id": "2026-08-11-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-11-openai-gpt56-sol-reasoning-slider",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "GPT-5.6 Sol 更新 + 推論スライダー追加 (8/6・未掲載)",
+      "summary": "事実誤り率を前世代比68%削減。Instant〜Highの推論深度スライダーをPlus/Proに提供。GPT-5.6 LunaはFreeユーザーのデフォルトに昇格し無制限テキストチャットを解放。",
+      "url": "https://dig.watch/updates/gpt-5-6-sol-update-chatgpt-free-users",
+      "importance": "standard",
+      "tags": ["openai", "gpt-5.6", "chatgpt", "reasoning", "model-update"]
+    },
+    {
+      "id": "2026-08-11-google-pixel11-eve",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "本日アップデートなし — Pixel 11 イベント (8/12) は明日",
+      "summary": "新規モデル・API発表なし。明日8/12のMade by Google 2026でPixel 11シリーズとGemini Intelligence機能群が正式発表予定。",
+      "importance": "minor",
+      "tags": ["google", "pixel-11", "gemini"]
+    },
+    {
+      "id": "2026-08-11-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-11-meta-muse-glimmer-30b",
+      "type": "new",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "Muse Glimmer 30B — コンシューマー GPU で動くオープンウェイトエージェントモデル (8/10)",
+      "summary": "Apache 2.0、24GB VRAMの単一GPU上で動作。SWE-Bench Pro 51.2、AIME 2026 94.7。量子化後<20GBでMac/Windows/Linuxに対応。同サイズ帯のGemma4-31B・Qwen3.6-27Bを上回る。",
+      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "importance": "highlight",
+      "tags": ["meta", "muse-glimmer", "open-weights", "local-llm", "agentic", "model-release"]
+    },
+    {
+      "id": "2026-08-11-xai-no-update",
+      "type": "no-update",
+      "vendor": "xAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-11-alibaba-qwen38-max-weights",
+      "type": "followup",
+      "vendor": "Alibaba",
+      "section": "vendor",
+      "title": "[続報] Qwen3.8-Max open weights — 今週公開見込みも 8/11 時点で未到着",
+      "summary": "8/3発表の2.4T MoEモデルの重みを今週中にHuggingFace/ModelScopeで公開すると表明済みだが、8/11 JST 8:09時点でまだ未公開。Qwen3.8-27Bも同時公開予定。",
+      "url": "https://byteiota.com/qwen3-8-open-weights-drop-this-week-read-before-you-download/",
+      "related_date": "2026-08-05",
+      "importance": "standard",
+      "tags": ["alibaba", "qwen", "open-weights", "moe"]
+    },
+    {
+      "id": "2026-08-11-github-semantica",
+      "type": "new",
+      "vendor": "semantica-agi",
+      "section": "community",
+      "title": "GitHub Trending: semantica-agi/semantica — グラフネイティブなAI説明責任基盤 (★+967)",
+      "summary": "AIエージェントの判断プロセスを知識グラフで追跡・監査するOSS基盤。全決定をソースまで遡れる監査証跡として記録。Palantir代替とも称される。",
+      "url": "https://github.com/semantica-agi/semantica",
+      "importance": "standard",
+      "tags": ["github-trending", "knowledge-graph", "ai-accountability", "open-source"]
+    },
+    {
+      "id": "2026-08-11-github-code-graph-rag",
+      "type": "new",
+      "vendor": "vitali87",
+      "section": "community",
+      "title": "GitHub Trending: vitali87/code-graph-rag — モノレポ向け知識グラフRAG (★+682)",
+      "summary": "大規模コードベースをグラフ化してAIがクロスファイルで理解・編集できるRAGフレームワーク。多言語対応。",
+      "url": "https://github.com/vitali87/code-graph-rag",
+      "importance": "standard",
+      "tags": ["github-trending", "rag", "code-graph", "open-source"]
+    },
+    {
+      "id": "2026-08-11-github-firecrawl",
+      "type": "new",
+      "vendor": "firecrawl",
+      "section": "community",
+      "title": "GitHub Trending: firecrawl/firecrawl — LLM向けWebスクレイピング/検索コンテキストAPI (★+815)",
+      "summary": "Web全体をLLMコンテキストとして扱うためのスクレイピング・検索APIライブラリ。Markdown/JSONで出力し大量URLの並列処理に対応。",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "importance": "standard",
+      "tags": ["github-trending", "web-scraping", "llm", "open-source"]
+    },
+    {
+      "id": "2026-08-11-paper-environment-scaling",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "Beyond Simply Environment Scaling: Designing Effective Environment Distributions for Multimodal Agent Learning",
+      "summary": "環境数の増加よりも環境分布の設計がエージェント学習に決定的な影響を与えることを実験・理論で示した論文。HF Papersトレンド入り。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["paper", "multimodal-agent", "rl", "environment-design"]
+    },
+    {
+      "id": "2026-08-11-paper-sft-rl-multitask",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "SFT Conflicts, RL Coexists: A Theoretical and Empirical Analysis of Multi-Task Learning for LLMs",
+      "summary": "LLMのマルチタスク学習でSFTはタスク干渉を起こしやすいがRLは共存しやすいことを理論と実験で分析。HF Papersトレンド入り。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["paper", "sft", "rl", "multi-task-learning", "llm"]
+    }
+  ]
+}
