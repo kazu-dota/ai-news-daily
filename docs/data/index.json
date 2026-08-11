@@ -1,5 +1,234 @@
 [
   {
+    "date": "2026-08-12",
+    "id": "2026-08-12-openai-daybreak-cyber",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "Daybreak Blue / Red + GPT-5.6-Cyber — セキュリティ研究向け特化モデルを公開",
+    "summary": "Daybreak を2層化し、攻撃的セキュリティ研究向け GPT-5.6-Cyber を公開。Advanced Cybersecurity Completion Rate 95.0%。Chrome V8 のゼロデイ2件 (CVE-2026-15903) を実際に発見。",
+    "url": "https://datanorth.ai/news/openai-launches-gpt-5-6-cyber",
+    "importance": "highlight",
+    "tags": [
+      "cybersecurity",
+      "openai",
+      "daybreak",
+      "gpt-5-6-cyber",
+      "zero-day"
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "id": "2026-08-12-openai-chatgpt-business-premium",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "ChatGPT Business にプレミアム席を追加 — $125/月で使用制限撤廃",
+    "summary": "ChatGPT Business の料金体系を Standard ($25) / Premium ($125) / Enterprise の3層に再編。Premium は Standard 比5倍の使用枠と5時間上限の撤廃。",
+    "url": "https://openai.com/index/premium-seats-chatgpt-business/",
+    "importance": "standard",
+    "tags": [
+      "openai",
+      "chatgpt-business",
+      "pricing",
+      "enterprise"
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "id": "2026-08-12-anthropic-claude-teachers",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Claude for Teachers — 全米50州対応の教育者向け AI を無償公開",
+    "summary": "全米50州の学習基準を組み込み、認定教師に無償提供。教案作成・教材個別化・学習データ分析を支援。デトロイト公立学校区でパイロット実施。",
+    "url": "https://www.anthropic.com/news/claude-for-teachers",
+    "importance": "highlight",
+    "tags": [
+      "anthropic",
+      "education",
+      "claude-for-teachers",
+      "k12"
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "id": "2026-08-12-anthropic-code-selfhost",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[新・未掲載] Claude Code 自己ホスト実行環境をサポート (パブリックベータ、8/6)",
+    "summary": "claude self-hosted-runner コマンド1つで社内インフラ上でセッションを実行可能に。Team・Enterprise 向け。リポジトリ等は社内に留まるが推論は Anthropic 経由。v2.1.224 で提供。",
+    "url": "https://claude.com/blog/run-claude-code-sessions-on-your-own-compute",
+    "importance": "standard",
+    "tags": [
+      "anthropic",
+      "claude-code",
+      "self-hosted",
+      "enterprise",
+      "infrastructure"
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "id": "2026-08-12-google-pixel11-event",
+    "type": "new",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "Made by Google 2026 — 本日 (6pm ET / 明日 7am JST) Pixel 11 シリーズ正式発表予定",
+    "summary": "Tensor G6 (TSMC 2nm)・Gemini Intelligence・Pixel Glow LED搭載の Pixel 11 / 11 Pro / 11 Pro XL / 11 Pro Fold + Pixel Watch 5 を発表予定。価格 $899〜$1,899。発表内容は明日詳報。",
+    "url": "https://store.google.com/magazine/google_pixel_11",
+    "importance": "highlight",
+    "tags": [
+      "google",
+      "pixel-11",
+      "tensor-g6",
+      "gemini-intelligence",
+      "hardware"
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "id": "2026-08-12-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-12",
+    "id": "2026-08-12-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-12",
+    "id": "2026-08-12-xai-no-update",
+    "type": "no-update",
+    "vendor": "xAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-12",
+    "id": "2026-08-12-alibaba-qwen38-delay",
+    "type": "followup",
+    "vendor": "Alibaba",
+    "section": "vendor",
+    "title": "[続報] Qwen3.8-Max open weights — 約束の週が経過も未公開が続く",
+    "summary": "Alibaba が「8/10 週中」に公開すると告知した Qwen3.8-Max (2.4T MoE) および Qwen3.8-27B の重みは 8/12 時点でも未公開。新たなリリース日の告知もなし。",
+    "related_date": "2026-08-05",
+    "importance": "standard",
+    "tags": [
+      "alibaba",
+      "qwen",
+      "open-weights",
+      "delay"
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "id": "2026-08-12-github-stablyai-orca",
+    "type": "new",
+    "vendor": "stably.ai",
+    "section": "community",
+    "title": "GitHub Trending: stablyai/orca — 並列エージェントフリートの ADE",
+    "summary": "複数プラットフォームで並列エージェントを同時実行・管理する Agent Development Environment。+881 stars today。",
+    "url": "https://github.com/stablyai/orca",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "agent",
+      "ade",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "id": "2026-08-12-github-earendil-pi",
+    "type": "new",
+    "vendor": "earendil-works",
+    "section": "community",
+    "title": "GitHub Trending: earendil-works/pi — 統合型 AI エージェントツールキット",
+    "summary": "統一 LLM API・エージェントループ・TUI・CLI を1パッケージで提供するツールキット。+919 stars today。",
+    "url": "https://github.com/earendil-works/pi",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "agent",
+      "toolkit",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "id": "2026-08-12-github-corsairdev-corsair",
+    "type": "new",
+    "vendor": "corsairdev",
+    "section": "community",
+    "title": "GitHub Trending: corsairdev/corsair — エージェント統合レイヤー",
+    "summary": "複数 AI エージェントが外部ツール・API と通信する際の認証・ルーティング・レート制限を処理する中間プロキシ。+489 stars today。",
+    "url": "https://github.com/corsairdev/corsair",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "agent",
+      "integration",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "id": "2026-08-12-paper-bdh-cq",
+    "type": "new",
+    "vendor": "research",
+    "section": "papers",
+    "title": "BDH-CQ: In-Context Learning with Recurrent Latent Reasoning",
+    "summary": "入力がモデルの潜在メモリを反復更新し、言語化せず潜在空間内で推論を完結させる機構の研究。HF Papers 週間トレンド上位。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "paper",
+      "in-context-learning",
+      "latent-reasoning",
+      "llm"
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "id": "2026-08-12-paper-swe-bench-promax",
+    "type": "new",
+    "vendor": "research",
+    "section": "papers",
+    "title": "SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring",
+    "summary": "大規模モノレポでのマルチ言語コードリファクタリングにエージェントを評価する次世代ベンチマーク。HF Papers トレンド入り。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "paper",
+      "benchmark",
+      "code-refactoring",
+      "swe-bench",
+      "agents"
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "id": "2026-08-12-media-bloomberg-muse-glimmer",
+    "type": "new",
+    "vendor": "Bloomberg",
+    "section": "media",
+    "title": "[Bloomberg] Meta Releases Muse Glimmer AI Model People Can Run on Their Laptop (8/10)",
+    "summary": "Muse Glimmer 30B の Bloomberg 詳報。ペイウォール記事。",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-10/meta-releases-muse-glimmer-ai-model-people-can-run-on-their-laptop",
+    "importance": "minor",
+    "tags": [
+      "media",
+      "meta",
+      "muse-glimmer",
+      "bloomberg"
+    ]
+  },
+  {
     "date": "2026-08-11",
     "id": "2026-08-11-anthropic-no-update",
     "type": "no-update",
