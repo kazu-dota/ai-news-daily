@@ -1,0 +1,154 @@
+{
+  "date": "2026-08-13",
+  "generated_at": "2026-08-13T08:06:22+09:00",
+  "sources_checked": 26,
+  "sources_failed": 23,
+  "items": [
+    {
+      "id": "2026-08-13-google-pixel11-announced",
+      "type": "followup",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "[続報] Made by Google 2026 — Pixel 11 シリーズ正式発表",
+      "summary": "Tensor G6 (TSMC 2nm) 搭載の 4 モデル (Pixel 11 $899〜Pro Fold $1,899) + Pixel Watch 5 + Pixel Tag を正式発表。Android 17 + Gemini Intelligence 標準搭載。8/20 一般発売。",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/new-pixel-devices-2026/",
+      "related_date": "2026-08-12",
+      "importance": "highlight",
+      "tags": ["hardware", "google", "pixel", "gemini", "android"]
+    },
+    {
+      "id": "2026-08-13-anthropic-watermark",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Claude 生成テキストへの不可視透かし (watermark) を全世界適用",
+      "summary": "EU AI Act Article 50 (8/2 施行) への準拠として、Claude 生成テキストに不可視の機械可読透かしを全世界で適用。ファイルは C2PA 標準でデジタル署名。コピペ後も伝搬する設計。",
+      "url": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/",
+      "importance": "highlight",
+      "tags": ["regulation", "eu-ai-act", "watermark", "anthropic", "transparency"]
+    },
+    {
+      "id": "2026-08-13-openai-restaurant-reservation",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "ChatGPT にレストラン予約機能追加 — OpenTable・Resy・Yelp と連携",
+      "summary": "ChatGPT 会話内から空席確認・予約まで完結できる機能を全プランで展開。OpenTable はグローバル、Resy は米国、Yelp は米国・カナダ対応。",
+      "url": "https://www.androidheadlines.com/2026/08/chatgpt-restaurant-reservations-yelp-opentable-resy.html",
+      "importance": "standard",
+      "tags": ["chatgpt", "openai", "product-feature", "agent"]
+    },
+    {
+      "id": "2026-08-13-openai-1billion-users",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "[未掲載] ChatGPT 週間アクティブユーザー 10 億人突破 (7/31 発表)",
+      "summary": "OpenAI が 7/31 に発表。ChatGPT + Codex + ChatGPT Work 合算で週間 10 億人超。2022 年 ChatGPT 開始から 4 年未満での達成。合わせて GPT-5.6 Luna API が 80% 値下げ。",
+      "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/07/31/openai-says-has-more-than-1-billion-active-users/",
+      "importance": "standard",
+      "tags": ["openai", "chatgpt", "milestone", "pricing"]
+    },
+    {
+      "id": "2026-08-13-microsoft-copilot-aug2026",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "Microsoft 365 Copilot 8 月大型アップデート — GPT-5.6 + Claude 統合・Cowork・Notebooks 全展開",
+      "summary": "GPT-5.6 と Anthropic Claude をバックエンドに統合。Cowork (組織ワークフロー自動化タブ)・Copilot Notebooks (全ユーザー開放)・コネクタ並列クロール等を追加。",
+      "url": "https://www.geeky-gadgets.com/microsoft-365-copilot-features-august-2026/",
+      "importance": "standard",
+      "tags": ["microsoft", "copilot", "m365", "gpt-5-6", "claude", "workflow"]
+    },
+    {
+      "id": "2026-08-13-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-13-xai-no-update",
+      "type": "no-update",
+      "vendor": "xAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-13-alibaba-qwen38-still-absent",
+      "type": "followup",
+      "vendor": "Alibaba",
+      "section": "vendor",
+      "title": "[続報] Qwen3.8-Max open weights — 8/13 時点でも未公開継続",
+      "summary": "HuggingFace・ModelScope に 8/13 時点でも Qwen3.8-Max (2.4T) および Qwen3.8-27B の重みは未公開。新たな公開日告知なし。",
+      "url": "https://huggingface.co/Qwen",
+      "related_date": "2026-08-12",
+      "importance": "minor",
+      "tags": ["alibaba", "qwen", "open-weights"]
+    },
+    {
+      "id": "2026-08-13-github-trending-needle",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "cactus-compute/needle — 14MB 超軽量エッジ向けファウンデーションモデル",
+      "summary": "スマートフォン・ウェアラブル・スマートホームなど制約環境でのオンデバイス AI 推論向けに設計された 14MB の超軽量ファウンデーションモデル。★4,187, +346 today。",
+      "url": "https://github.com/cactus-compute/needle",
+      "importance": "standard",
+      "tags": ["github-trending", "edge-ai", "on-device", "foundation-model", "python"]
+    },
+    {
+      "id": "2026-08-13-github-trending-paperclip",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "paperclipai/paperclip — オープンソース AI エージェント管理アプリ",
+      "summary": "組織が複数 AI エージェントを一元管理・監視するオープンソースプラットフォーム。企業向け自律 AI ワークフローの可視化を目指す。★77,695, +573 today。",
+      "url": "https://github.com/paperclipai/paperclip",
+      "importance": "standard",
+      "tags": ["github-trending", "agent-management", "open-source", "typescript"]
+    },
+    {
+      "id": "2026-08-13-github-trending-holaOS",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "holaboss-ai/holaOS — MCP 対応 AI ファーストワークスペース",
+      "summary": "100+ サービスインテグレーションと MCP サポートを内包するオープンソース AI ワークスペース。複数エージェントが連携して業務タスクを実行する環境を提供。★6,030, +248 today。",
+      "url": "https://github.com/holaboss-ai/holaOS",
+      "importance": "minor",
+      "tags": ["github-trending", "mcp", "agent-workspace", "open-source", "typescript"]
+    },
+    {
+      "id": "2026-08-13-paper-matraix",
+      "type": "new",
+      "vendor": "community",
+      "section": "papers",
+      "title": "MatrAIx: Simulated-User Evaluation Framework for Interactive AI Systems",
+      "summary": "多様なペルソナと対話型環境を用いて AI システムを評価する大規模シミュレーションフレームワーク。通常ベンチマークでは測定困難なインタラクション品質を評価。HF Papers トレンド入り。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["paper", "evaluation", "benchmark", "interactive-ai"]
+    },
+    {
+      "id": "2026-08-13-paper-yolo26",
+      "type": "new",
+      "vendor": "community",
+      "section": "papers",
+      "title": "YOLO26: Unified Real-Time Vision with NMS-Free Inference",
+      "summary": "物体検知・セグメンテーション・姿勢推定を統合する YOLO 系モデルファミリー。NMS 排除でレイテンシ削減。HF Papers 急浮上。",
+      "url": "https://huggingface.co/papers",
+      "importance": "minor",
+      "tags": ["paper", "computer-vision", "yolo", "real-time"]
+    },
+    {
+      "id": "2026-08-13-paper-unlimited-ocr",
+      "type": "new",
+      "vendor": "community",
+      "section": "papers",
+      "title": "Unlimited OCR: Reference Sliding Window Attention for Long-Sequence Documents",
+      "summary": "長文書 OCR のメモリ爆発問題を参照スライディングウィンドウアテンションで解決。大判スキャン・書籍全体を固定メモリで処理可能に。",
+      "url": "https://huggingface.co/papers",
+      "importance": "minor",
+      "tags": ["paper", "ocr", "document-ai", "attention"]
+    }
+  ]
+}
