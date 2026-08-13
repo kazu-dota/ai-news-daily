@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-08-14](summaries/2026/08/2026-08-14.md) — Alibaba: Qwen3.8-Max (2.4T MoE) open weights がついに HuggingFace 公開 (Alibaba 初 Max クラス OSSリリース) / Anthropic: Claude Code auto mode が本日からデフォルトへ (分類器で危険コマンド 89% 検出) / OpenAI: GPT-5.6 Sol Ultrafast mode (14倍高速・750 tokens/sec・Cerebras 基盤) / Mistral: EU/US Regional Inference + Priority Tier 正式提供
 - [2026-08-13](summaries/2026/08/2026-08-13.md) — Google: Made by Google 2026 で Pixel 11 シリーズ正式発表 (Tensor G6 TSMC 2nm・Pixel Watch 5・Pixel Tag、8/20発売) / Anthropic: Claude テキスト透かし (watermark) 全世界適用 (EU AI Act準拠・C2PA) / OpenAI: ChatGPT 週間10億ユーザー突破 (7/31・未掲載) + レストラン予約機能追加 / Microsoft: M365 Copilot 8月大型アップデート (GPT-5.6 + Claude統合・Cowork)
 - [2026-08-12](summaries/2026/08/2026-08-12.md) — OpenAI: Daybreak Red / GPT-5.6-Cyber 公開 (セキュリティ特化、Chrome V8 ゼロデイ発見・CVE-2026-15903) / Anthropic: Claude for Teachers 発表 (全米50州対応、認定教師無償) / Google: Made by Google 2026 本日開催 — Pixel 11 シリーズ / ChatGPT Business にプレミアム席追加
 - [2026-08-11](summaries/2026/08/2026-08-11.md) — Meta: Muse Glimmer 30B 公開 (Apache 2.0、コンシューマー GPU 1枚で動くオープンウェイトエージェントモデル、SWE-Bench Pro 51.2) / OpenAI: GPT-5.6 Sol 更新 + 推論スライダー追加 (未掲載・8/6) / [続報] Alibaba: Qwen3.8-Max open weights 今週公開見込みも未到着
 - [2026-08-10](summaries/2026/08/2026-08-10.md) — Anthropic: カスタムシリコンチーム設立 (推論コスト50%削減目標・Samsung 2nm協議・最大$485k採用) / xAI: Grok Imagine Image 2.0 リリース (領域指定編集・5画像マルチ参照、アリーナ世界2位) / Microsoft: FY26 Q4決算 — Azure年間$100B超・M365 Copilot 3,000万有料席達成
 - [2026-08-09](summaries/2026/08/2026-08-09.md) — Mistral: Shieldstral 1.0 (3B オープンウェイト多言語マルチモーダル安全分類器、HarmBench 99.4%、Apache 2.0) / Microsoft: 統合 Copilot アプリ + AutoPilot エージェント層を CSP 提供開始 / Anthropic: ミッドコンバセーション・ツール変更ベータ / OpenAI: ChatGPT Atlas ブラウザが本日正式終了 (ChatGPT Work/Chrome 拡張に移行)
 - [2026-08-08](summaries/2026/08/2026-08-08.md) — Google DeepMind: Hassabis CEO退任・Jeff Dean ら 4 名が Discovery Loop 設立 (Google 株 -4%) / xAI: Grok 4.6 が 8/7 正式リリース (1.5T、SFT+RL 強化) / Meta: Muse Spark 1.2 + Muse Code (TB2.1 82.9%、Meta 初のターミナルコーディングエージェント) / PrimeIntellect: Prime Agent が ARC-AGI-3 で 95.5% (人間専門家ベースライン超え)
-- [2026-08-06](summaries/2026/08/2026-08-06.md) — Anthropic: Tino Cuéllar 初代 CGAO 就任 (元カリフォルニア州最高裁判事・カーネギー財団前理事長) / Cloudflare: @cloudflare/computer + Cloudflare OS を公開 (AI エージェント向け OSS ランタイム+ワークスペース、Apache 2.0) / GitHub: strix (AI 自律型ペネトレーションテスト、★+956) が急騰
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。

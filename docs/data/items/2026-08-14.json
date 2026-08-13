@@ -1,0 +1,145 @@
+{
+  "date": "2026-08-14",
+  "generated_at": "2026-08-14T08:12:13+09:00",
+  "sources_checked": 26,
+  "sources_failed": 21,
+  "items": [
+    {
+      "id": "2026-08-14-anthropic-claude-code-auto",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Claude Code の auto mode が本日からデフォルトへ (Pro/Max/Team)",
+      "summary": "8/14 より Pro・Max・Team の新セッションは auto mode がデフォルトに。分類器が各ツール呼び出しを審査し危険コマンドを 89% 検出 (人手 13.6% 比)。",
+      "url": "https://code.claude.com/docs/en/permission-modes",
+      "importance": "highlight",
+      "tags": ["claude-code", "anthropic", "safety", "auto-mode", "agents"]
+    },
+    {
+      "id": "2026-08-14-openai-ultrafast",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "GPT-5.6 Sol Ultrafast モード — Cerebras 基盤で 14 倍高速化",
+      "summary": "Cerebras Systems の推論インフラで GPT-5.6 Sol を最大 750 tokens/sec・14x 高速で提供。標準モードと同等精度。API で限定プレビュー開始。",
+      "url": "https://openai.com/index/previewing-ultrafast/",
+      "importance": "highlight",
+      "tags": ["openai", "gpt-5-6", "speed", "inference", "cerebras"]
+    },
+    {
+      "id": "2026-08-14-openai-cro-rajic",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "Dali Rajic を CRO (最高収益責任者) に任命",
+      "summary": "元 Wiz COO の Dali Rajic が CRO 就任。前任 Denise Dresser から 9 ヶ月での交代。7 月単月売上は前月比 20%+ 増。",
+      "url": "https://openai.com/index/dali-rajic-chief-revenue-officer/",
+      "importance": "minor",
+      "tags": ["openai", "executive", "cro", "revenue"]
+    },
+    {
+      "id": "2026-08-14-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-14-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-14-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-14-alibaba-qwen38-weights",
+      "type": "followup",
+      "vendor": "Alibaba",
+      "section": "vendor",
+      "title": "[続報] Qwen3.8-Max open weights — HuggingFace / ModelScope で公開 (8/13)",
+      "summary": "8/12・8/13 と「未公開」が続いていた Qwen3.8-Max (2.4T MoE) の weights が 8/13 に HuggingFace と ModelScope で公開。Alibaba 初の Max クラスオープンソース化。Qwen3.8-27B は依然未公開。",
+      "url": "https://huggingface.co/Qwen",
+      "related_date": "2026-08-12",
+      "importance": "highlight",
+      "tags": ["alibaba", "qwen", "open-weights", "open-source", "moe"]
+    },
+    {
+      "id": "2026-08-14-mistral-regional-inference",
+      "type": "new",
+      "vendor": "Mistral",
+      "section": "vendor",
+      "title": "EU/US Regional Inference + Priority Tier を提供開始 (8/12 発表)",
+      "summary": "EU・US 指定の地域別推論エンドポイント (10% プレミアム) と Priority Tier (1.75x、SLA 保証) を提供開始。2030 年 1GW EU コンピュートも発表。GLM-5.2 のサードパーティホスティングも開始。",
+      "url": "https://mistral.ai/news/regional-inference-open-models-new-compute/",
+      "importance": "standard",
+      "tags": ["mistral", "infrastructure", "sovereignty", "regional", "enterprise"]
+    },
+    {
+      "id": "2026-08-14-github-ppt-master",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending Python: ppt-master — AI が文書を PowerPoint に自動変換",
+      "summary": "ドキュメントをシェイプ・トランジション・チャート・音声ナレーション付きのネイティブ PPTX に自動変換する AI ツール (★46,493, +1,141 today)。",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "ai-tools", "powerpoint", "document-processing"]
+    },
+    {
+      "id": "2026-08-14-github-hermes-agent",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending Python: hermes-agent — 汎用コーディングエージェント",
+      "summary": "「あなたと共に成長するエージェント」230k+ スターの汎用コーディングエージェントフレームワーク (★230,104, +577 today)。",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "coding-agent", "llm"]
+    },
+    {
+      "id": "2026-08-14-github-anthropics-skills",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "GitHub Trending Python: anthropics/skills — Anthropic 公式 Agent Skills リポジトリ",
+      "summary": "Claude Code ルーティンで利用できる Agent Skills を公開・管理する Anthropic 公式リポジトリ。本日急伸 (★168,993, +383 today)。",
+      "url": "https://github.com/anthropics/skills",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "anthropic", "skills", "claude-code"]
+    },
+    {
+      "id": "2026-08-14-github-worldmonitor",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending TypeScript: worldmonitor — AI 地政学インテリジェンスダッシュボード",
+      "summary": "AI 駆動ニュース集約と地政学的モニタリングのリアルタイムダッシュボード。TypeScript製 (★81,577, +410 today)。",
+      "importance": "standard",
+      "tags": ["github-trending", "typescript", "ai-tools", "news-aggregation", "geopolitics"]
+    },
+    {
+      "id": "2026-08-14-paper-openart",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "OpenART: Scaling Agent Red Teaming via Open-Ended Environment Evolution",
+      "summary": "50 ドメイン・10,000 件以上のステートフルシナリオでエージェント安全性を評価する大規模フレームワーク。進化的マルコフ超グラフ攻撃 (EMHA) で長期ワークフローの累積リスクを評価。HF Papers #1 トレンド。",
+      "url": "https://arxiv.org/abs/2608.00677",
+      "importance": "standard",
+      "tags": ["research", "safety", "red-teaming", "agents", "arxiv"]
+    },
+    {
+      "id": "2026-08-14-paper-spark-to-paper",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "Spark-to-Paper: End-to-End Research Paper Generation as a Composable Skill",
+      "summary": "研究アイデアから完全な論文を Composable Skill として自動生成するシステム。HF Papers トレンド上位。",
+      "url": "https://huggingface.co/papers",
+      "importance": "minor",
+      "tags": ["research", "paper-generation", "llm", "automation"]
+    }
+  ]
+}
