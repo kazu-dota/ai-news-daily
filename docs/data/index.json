@@ -1,5 +1,219 @@
 [
   {
+    "date": "2026-08-15",
+    "id": "2026-08-15-anthropic-claude-code-v2-1-232",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Claude Code v2.1.232 — サブエージェントフォーキングがデフォルト ON (8/14)",
+    "summary": "fork 型サブエージェントが親セッションのキャッシュを継承可能に。クロスセッション @メンション、GitLab 強化、Remote Control バグ修正。",
+    "url": "https://releasebot.io/updates/anthropic/claude-code",
+    "importance": "standard",
+    "tags": [
+      "claude-code",
+      "anthropic",
+      "agents",
+      "subagent",
+      "release"
+    ]
+  },
+  {
+    "date": "2026-08-15",
+    "id": "2026-08-15-openai-computer-history",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "ChatGPT for Mac — Computer History 機能追加 (8/13-14)",
+    "summary": "macOS アクセシビリティ API でクリック・キー入力・アプリ切り替えを記録するタイムライン機能。デフォルト OFF、旧 Chronicle を置き換え。",
+    "url": "https://9to5mac.com/2026/08/13/chatgpt-for-mac-adds-opt-in-computer-history-feature-replacing-chronicle/",
+    "importance": "standard",
+    "tags": [
+      "openai",
+      "chatgpt",
+      "mac",
+      "computer-use",
+      "privacy"
+    ]
+  },
+  {
+    "date": "2026-08-15",
+    "id": "2026-08-15-openai-google-drive-library",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "ChatGPT Library から Google Drive ファイルを直接参照可能に (8/14)",
+    "summary": "Library タブから Google Drive ファイル・フォルダを直接ブラウズしチャットに引き込み可能。Docs/Sheets/Slides のサイドバイサイド操作対応。",
+    "url": "https://releasebot.io/updates/openai/chatgpt",
+    "importance": "minor",
+    "tags": [
+      "openai",
+      "chatgpt",
+      "google-drive",
+      "integration",
+      "productivity"
+    ]
+  },
+  {
+    "date": "2026-08-15",
+    "id": "2026-08-15-google-gemini-1b-mau",
+    "type": "new",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "[未掲載] Gemini アプリが月間 10 億ユーザー突破 — Google 史上最速成長 (8/11)",
+    "summary": "Sundar Pichai が 8/11 に発表。28 年の Google 製品史上最速。ユーザーの 63% が音声利用。1 日 1.5 億枚の画像生成。",
+    "url": "https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/",
+    "importance": "highlight",
+    "tags": [
+      "google",
+      "gemini",
+      "milestone",
+      "users",
+      "growth"
+    ]
+  },
+  {
+    "date": "2026-08-15",
+    "id": "2026-08-15-microsoft-copilot-deprecations",
+    "type": "followup",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "[続報] 統合 Copilot アプリ — 廃止機能の詳細判明 (8/13)",
+    "summary": "8/18 までにグループチャット・AI ポッドキャスト・Copilot Labs・Deep Research (Consumer)・Mico を廃止。Enterprise 版 Deep Research は維持。",
+    "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
+    "related_date": "2026-08-09",
+    "importance": "standard",
+    "tags": [
+      "microsoft",
+      "copilot",
+      "deprecation",
+      "product"
+    ]
+  },
+  {
+    "date": "2026-08-15",
+    "id": "2026-08-15-meta-manus-unwind",
+    "type": "new",
+    "vendor": "Meta",
+    "section": "vendor",
+    "title": "Manus AI が中国規制当局命令で Meta 買収から強制独立復帰 (8/11)",
+    "summary": "中国 NDRC の外資規制に基づく命令で $20B Meta 買収が解消。8/23-24 にユーザーデータ一部削除予定。米中 AI デカップリングが資本レベルでも進行。",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-11/manus-to-resume-independent-operations-in-unwind-of-meta-deal",
+    "importance": "highlight",
+    "tags": [
+      "meta",
+      "manus",
+      "china",
+      "regulation",
+      "geopolitics",
+      "ai-decoupling"
+    ]
+  },
+  {
+    "date": "2026-08-15",
+    "id": "2026-08-15-deepseek-v4-pro",
+    "type": "new",
+    "vendor": "DeepSeek",
+    "section": "vendor",
+    "title": "DeepSeek V4-Pro-0813 正式リリース — 1.6T MoE、1M コンテキスト (8/13)",
+    "summary": "エージェント能力に特化した GA 版。1M コンテキスト、384K 最大出力。8/16 UTC 16:00 に API 価格引き上げ・ピーク/オフピーク制移行予定。",
+    "url": "https://www.investing.com/news/economy-news/deepseek-releases-official-v4-pro-model-as-it-steps-up-expansion-4857986",
+    "importance": "highlight",
+    "tags": [
+      "deepseek",
+      "model-release",
+      "reasoning",
+      "agents",
+      "china",
+      "pricing"
+    ]
+  },
+  {
+    "date": "2026-08-15",
+    "id": "2026-08-15-xai-grok-47-delay",
+    "type": "followup",
+    "vendor": "xAI",
+    "section": "vendor",
+    "title": "[続報] Grok 4.7 — リリース遅延、9 月初旬見込みに後退",
+    "summary": "Musk「3-4 週後」の期限を超過。8/12 時点で xAI ドキュメント最新は grok-4.6 のまま。SpaceX エンジニアリングデータを補完学習中。",
+    "url": "https://www.orcarouter.ai/blog/grok-4-7-release-date",
+    "related_date": "2026-08-08",
+    "importance": "minor",
+    "tags": [
+      "xai",
+      "grok",
+      "model-release",
+      "delay"
+    ]
+  },
+  {
+    "date": "2026-08-15",
+    "id": "2026-08-15-github-trending-modly",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "lightningpixel/modly — プロンプト/画像から 3D モデルをローカル AI 生成 (+580 today)",
+    "summary": "GPU 不要でオンデバイス 3D 生成を実現する実験的デスクトップアプリ (TS)。",
+    "url": "https://github.com/lightningpixel/modly",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "3d-generation",
+      "local-ai",
+      "desktop-app"
+    ]
+  },
+  {
+    "date": "2026-08-15",
+    "id": "2026-08-15-github-trending-opencode",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "anomalyco/opencode — オープンソースコーディングエージェント (+502 today)",
+    "summary": "複数プロバイダ対応の自律コード生成・修正・テスト実行を提供するターミナル型エージェント基盤 (TS)。",
+    "url": "https://github.com/anomalyco/opencode",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "coding-agent",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-08-15",
+    "id": "2026-08-15-github-trending-scientific-agent-skills",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "K-Dense-AI/scientific-agent-skills — 科学者向け 161 スキルの AI エージェントライブラリ (+98 today)",
+    "summary": "材料科学・タンパク質設計・量子化学など専門領域での LLM エージェント活用を加速する検証済みスキル集 (Python)。",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "scientific-ai",
+      "agent-skills",
+      "research"
+    ]
+  },
+  {
+    "date": "2026-08-15",
+    "id": "2026-08-15-paper-150m-recurrent-latent-reasoning",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "150M パラメーター再帰潜在推論モデル — ARC-AGI-1 で新コスト・精度フロンティア",
+    "summary": "in-context learning と再帰的潜在推論を組み合わせた小型モデルが ARC-AGI-1 で大型モデルに比肩。モデル大型化なしに汎用推論能力を伸ばせることを実証。HF Papers トレンド入り。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "paper",
+      "reasoning",
+      "arc-agi",
+      "recurrent",
+      "efficient-ai"
+    ]
+  },
+  {
     "date": "2026-08-14",
     "id": "2026-08-14-anthropic-claude-code-auto",
     "type": "new",
