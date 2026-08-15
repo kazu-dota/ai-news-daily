@@ -1,0 +1,149 @@
+{
+  "date": "2026-08-16",
+  "generated_at": "2026-08-16T08:10:00+09:00",
+  "sources_checked": 26,
+  "sources_failed": 24,
+  "items": [
+    {
+      "id": "2026-08-16-anthropic-q2-profit",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Q2 2026 で初の営業黒字を達成 — 売上 $11.5B 超、営業利益 $559M 超",
+      "summary": "Claude Code 主導で Q2 売上が $11.5B 超に急拡大し初の営業黒字。2028 年予測より2年前倒し。ただし Q3 以降は黒字持続を見込まないと明言。",
+      "url": "https://cryptobriefing.com/preliminary-q2-2026-revenue-at-anthropic-exceeded-115-billion-company-reported/",
+      "importance": "highlight",
+      "tags": ["anthropic", "financials", "revenue", "profit", "ipo", "claude-code"]
+    },
+    {
+      "id": "2026-08-16-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-16-google-heir",
+      "type": "new",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "HEIR — 完全準同型暗号 (FHE) 対応 AI 推論コンパイラをオープンソース公開 (8/15)",
+      "summary": "MLIR ベースの FHE コンパイラ。Python の秘密変数アノテーションだけで暗号化データ上の AI 推論コードを自動生成。専門家不要で FHE 対応モデル構築が可能に。",
+      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+      "importance": "highlight",
+      "tags": ["google", "fhe", "privacy", "encryption", "open-source", "mlir", "security"]
+    },
+    {
+      "id": "2026-08-16-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-16-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-16-alibaba-qwen38-27b",
+      "type": "followup",
+      "vendor": "Alibaba",
+      "section": "vendor",
+      "title": "[続報] Qwen3.8-27B open weights が HuggingFace/ModelScope に公開 (8/14 UTC 15:00)",
+      "summary": "27.8B dense multimodal、Apache 2.0。262K コンテキスト (1M まで拡張可)。RTX 4090 で動作。前世代比 Terminal-Bench +15%、SWE-bench Pro +8pt。",
+      "url": "https://cryptobriefing.com/alibaba-qwen3-27b-open-weights-release/",
+      "related_date": "2026-08-14",
+      "importance": "highlight",
+      "tags": ["alibaba", "qwen", "open-weights", "multimodal", "model-release", "open-source", "local-ai"]
+    },
+    {
+      "id": "2026-08-16-deepseek-v4-price-increase",
+      "type": "followup",
+      "vendor": "DeepSeek",
+      "section": "vendor",
+      "title": "[続報] V4 Pro / V4 Flash API 価格改定が本日 UTC 16:00 に発動",
+      "summary": "V4-Pro 出力トークン (ピーク) $0.87 → $3.96/M (4.5x)。全体で 50〜1,100% 超の引き上げ。ピーク/オフピーク二段階制。",
+      "url": "https://qz.com/deepseek-api-price-increase-v4-peak-off-peak-081326",
+      "related_date": "2026-08-15",
+      "importance": "standard",
+      "tags": ["deepseek", "pricing", "api", "v4-pro", "v4-flash"]
+    },
+    {
+      "id": "2026-08-16-tldv-security-breach",
+      "type": "new",
+      "vendor": null,
+      "section": "governance",
+      "title": "tl;dv AI 会議ノートアプリ — 認可不備で 18 万件超の会議記録が公開状態に (8/15 公表)",
+      "summary": "セキュリティ研究者 bobdahacker が発見。181,874 件の会議記録・84,312 ユーザー分のデータが任意のログイン済みユーザーからクエリ可能な状態だった。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["security", "data-breach", "ai-tools", "enterprise", "privacy", "authorization"]
+    },
+    {
+      "id": "2026-08-16-github-trending-modlens",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "liustack/modlens — コーディングエージェント向けビジョンプラグイン (+536 today)",
+      "summary": "テキストのみのコーディングエージェント (DeepSeek 等) に画像解析能力を付加。UI スクリーンショットの直接入力・ビジュアルデバッグが可能 (TS)。",
+      "url": "https://github.com/liustack/modlens",
+      "importance": "minor",
+      "tags": ["github-trending", "vision", "coding-agent", "plugin", "deepseek"]
+    },
+    {
+      "id": "2026-08-16-github-trending-atlas",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "pacifio/atlas — エージェント向けソース管理ツール (+138 today)",
+      "summary": "複数コーディングエージェントの変更を追跡・クエリ可能にするソース管理。マルチエージェント開発フローの可視化を実現 (TS)。",
+      "url": "https://github.com/pacifio/atlas",
+      "importance": "minor",
+      "tags": ["github-trending", "agents", "source-control", "multi-agent", "devtools"]
+    },
+    {
+      "id": "2026-08-16-github-trending-unsloth",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "unslothai/unsloth — LLM・拡散モデルのローカル実行・ファインチューニング UI (+435 today)",
+      "summary": "Qwen3.8・Kimi K3・DeepSeek-V4・FLUX 等に対応したローカル LLM 実行・学習 UI (Python)。",
+      "url": "https://github.com/unslothai/unsloth",
+      "importance": "minor",
+      "tags": ["github-trending", "fine-tuning", "local-ai", "llm", "diffusion"]
+    },
+    {
+      "id": "2026-08-16-github-trending-soup",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "MakazhanAlpamys/Soup — 1 YAML で LLM を VRAM 4GB でファインチューン (+303 today)",
+      "summary": "レイヤーストリーミングにより 8B モデルを 4GB ノート PC GPU で訓練可能にするファインチューニングフレームワーク (Python)。",
+      "url": "https://github.com/MakazhanAlpamys/Soup",
+      "importance": "minor",
+      "tags": ["github-trending", "fine-tuning", "llm", "efficient-training", "local-ai"]
+    },
+    {
+      "id": "2026-08-16-paper-llmrouter",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "LLMRouter: Unified Infrastructure for Developing, Evaluating, and Deploying LLM Routers",
+      "summary": "タスク特性に応じてモデルを自動選択する LLM ルーターの開発・評価・デプロイを統合するインフラ提案。HF Papers で 2,350+ upvotes を獲得。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["paper", "llm-routing", "cost-optimization", "infrastructure", "model-selection"]
+    },
+    {
+      "id": "2026-08-16-paper-joyai-video-edit",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "JoyAI-Video-Edit — 16B 自己回帰拡散フレームワークによるリアルタイム動画編集",
+      "summary": "フレームベース手法より時間的一貫性と編集品質を向上させる 16B パラメータの自己回帰拡散モデル。HF Papers トレンド入り。",
+      "url": "https://huggingface.co/papers",
+      "importance": "minor",
+      "tags": ["paper", "video-editing", "diffusion", "autoregressive", "generative-ai"]
+    }
+  ]
+}
