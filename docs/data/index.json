@@ -1,5 +1,197 @@
 [
   {
+    "date": "2026-08-17",
+    "id": "2026-08-17-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-17",
+    "id": "2026-08-17-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-17",
+    "id": "2026-08-17-google-gemini-37-flash",
+    "type": "new",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "[未掲載] Gemini 3.7 Flash 公開 — コーディング・エージェント特化、3.6 Flash の半額 (8/13)",
+    "summary": "DeepSWE 49%→65.3%、AutomationBench 17%→30.4% と大幅改善。イントロ価格 $0.75/$3.75 per 1M tokens は 2027/1/1 まで。ベースモデルを再学習せずアルゴリズム改善で全面刷新。",
+    "url": "https://siliconangle.com/2026/08/13/google-launches-gemini-3-7-flash-coding-ai-agent-projects/",
+    "importance": "highlight",
+    "tags": [
+      "google",
+      "gemini",
+      "flash",
+      "model-release",
+      "coding",
+      "agent",
+      "price-cut"
+    ]
+  },
+  {
+    "date": "2026-08-17",
+    "id": "2026-08-17-google-imagen4-shutdown",
+    "type": "new",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "Imagen 4 API 廃止 — 本日 (8/17) よりハードエラー、Nano Banana への移行必須",
+    "summary": "imagen-4.0-generate-001 等3モデルが本日廃止。移行先は gemini-3.1-flash-image (Nano Banana)。6/15 告知済だが未移行コードは即日対応が必要。",
+    "url": "https://kingy.ai/ai-launch-tracker/google-will-shut-down-three-imagen-4-api-models-august-17/",
+    "importance": "highlight",
+    "tags": [
+      "google",
+      "imagen",
+      "deprecation",
+      "migration",
+      "image-generation",
+      "api"
+    ]
+  },
+  {
+    "date": "2026-08-17",
+    "id": "2026-08-17-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-17",
+    "id": "2026-08-17-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-17",
+    "id": "2026-08-17-xai-grok-bot",
+    "type": "new",
+    "vendor": "xAI",
+    "section": "vendor",
+    "title": "[未掲載] Grok Bot beta — 常時稼働 AI エージェントチーム、専用クラウドコンピュータ付き (8/11)",
+    "summary": "各ボットがブラウザ・ターミナル・ファイルアクセス付きのクラウドコンピュータを保有し、マルチステップ業務を自律実行。SuperGrok Heavy $300/月に同梱。ボット間連携・承認フロー付き。",
+    "url": "https://www.unite.ai/xai-launches-grok-bot-always-on-ai-teammates-with-their-own-cloud-computers/",
+    "importance": "highlight",
+    "tags": [
+      "xai",
+      "grok",
+      "agent",
+      "multi-agent",
+      "always-on",
+      "cloud-computer"
+    ]
+  },
+  {
+    "date": "2026-08-17",
+    "id": "2026-08-17-zai-glm53",
+    "type": "new",
+    "vendor": "Z.ai",
+    "section": "vendor",
+    "title": "GLM-5.3 リリース — オープンウェイト最強コーディングモデル、重みは2週間後 (8/14)",
+    "summary": "ベースモデル再学習なしでポストトレーニングのみにより Terminal-Bench 3.0 が 4.6→28.3 へ急伸。CyberGym 84.5% で Claude Mythos 5・GPT-5.6 Sol を上回る。ウェイトはサイバー安全審査後に公開予定。",
+    "url": "https://www.unite.ai/z-ai-launches-glm-5-3-with-frontier-coding-and-a-cyber-capability-that-outgrew-its-training/",
+    "importance": "highlight",
+    "tags": [
+      "z.ai",
+      "glm",
+      "coding",
+      "open-weights",
+      "cybersecurity",
+      "post-training"
+    ]
+  },
+  {
+    "date": "2026-08-17",
+    "id": "2026-08-17-github-strix",
+    "type": "new",
+    "vendor": "usestrix",
+    "section": "community",
+    "title": "GitHub Trending: usestrix/strix — AI 駆動侵入テストフレームワーク (+781 today)",
+    "summary": "アプリケーション脆弱性をスキャン・特定・検証する一連のセキュリティテストワークフローを自律実行。★53,364 で本日 +781。",
+    "url": "https://github.com/usestrix/strix",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "security",
+      "pentesting",
+      "agent",
+      "ai-security"
+    ]
+  },
+  {
+    "date": "2026-08-17",
+    "id": "2026-08-17-github-munder-difflin",
+    "type": "new",
+    "vendor": "chaitanyagiri",
+    "section": "community",
+    "title": "GitHub Trending: chaitanyagiri/munder-difflin — ローカル・マルチエージェントハーネス (+200 today)",
+    "summary": "複数の AI エージェントをローカル環境で協調実行するハーネス。★1,223 で本日 +200。",
+    "url": "https://github.com/chaitanyagiri/munder-difflin",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "multi-agent",
+      "local",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-08-17",
+    "id": "2026-08-17-paper-playworld",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "PlayWorld: Benchmarking Interactive Video World Models",
+    "summary": "幾何一貫性・インタラクション忠実度・状態進化の3軸で動画世界モデルを評価する新ベンチマーク。現行モデルの限界点を体系化。HF Papers トレンド入り。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "paper",
+      "video-world-model",
+      "benchmark",
+      "multimodal"
+    ]
+  },
+  {
+    "date": "2026-08-17",
+    "id": "2026-08-17-paper-abot-world-0",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "ABot-World-0: Real-Time Action-Conditioned Video World Model",
+    "summary": "プログレッシブ蒸留・長期整合・専用ストリーミングスタックで効率的な長期インタラクティブ動画生成を実現。HF Papers トレンド入り。",
+    "url": "https://huggingface.co/papers",
+    "importance": "minor",
+    "tags": [
+      "paper",
+      "video-world-model",
+      "distillation",
+      "streaming"
+    ]
+  },
+  {
+    "date": "2026-08-17",
+    "id": "2026-08-17-paper-aris",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "ARIS: Adversarial Research Intelligence System",
+    "summary": "クロスモデルの敵対的協調で長期研究の信頼性を担保するオープンソースハーネス。複数 LLM が互いの成果を検証しながら協調実行。HF Papers トレンド入り。",
+    "url": "https://huggingface.co/papers",
+    "importance": "minor",
+    "tags": [
+      "paper",
+      "multi-agent",
+      "adversarial",
+      "research",
+      "open-source"
+    ]
+  },
+  {
     "date": "2026-08-16",
     "id": "2026-08-16-anthropic-q2-profit",
     "type": "new",
