@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-08-17](summaries/2026/08/2026-08-17.md) — Google: Gemini 3.7 Flash 公開 (未掲載・8/13、コーディング/エージェント向け・半額イントロ価格) / Google: Imagen 4 API が本日廃止 (gemini-3.1-flash-image へ移行必須) / xAI: Grok Bot beta 公開 (未掲載・8/11、常時稼働 AI エージェントチーム) / Z.ai: GLM-5.3 リリース (オープンウェイト最強コーディングモデル、ウェイトは2週間後)
 - [2026-08-16](summaries/2026/08/2026-08-16.md) — Anthropic: Q2 2026 初の営業黒字 (売上 $11.5B 超・営業利益 $559M 超、2028年予測より2年前倒し) / Alibaba: Qwen3.8-27B open weights 公開 (27B multimodal・Apache 2.0・RTX 4090で動作) / Google: HEIR — 暗号化データ上で AI 推論を実現するオープンソース FHE コンパイラ (8/15) / DeepSeek: V4 Pro API 価格改定本日発動 (ピーク時最大 1,100% 超)
 - [2026-08-15](summaries/2026/08/2026-08-15.md) — Google: Gemini アプリが月間 10 億ユーザー突破 (未掲載・8/11、Google 史上最速成長) / Meta: Manus AI が中国 NDRC 命令で Meta 買収から強制独立復帰 (米中 AI デカップリング) / DeepSeek: V4-Pro-0813 正式 GA (1.6T MoE・1M コンテキスト・8/16 価格引き上げ) / Anthropic: Claude Code v2.1.232 (サブエージェントフォーキング デフォルト ON)
 - [2026-08-14](summaries/2026/08/2026-08-14.md) — Alibaba: Qwen3.8-Max (2.4T MoE) open weights がついに HuggingFace 公開 (Alibaba 初 Max クラス OSSリリース) / Anthropic: Claude Code auto mode が本日からデフォルトへ (分類器で危険コマンド 89% 検出) / OpenAI: GPT-5.6 Sol Ultrafast mode (14倍高速・750 tokens/sec・Cerebras 基盤) / Mistral: EU/US Regional Inference + Priority Tier 正式提供
 - [2026-08-13](summaries/2026/08/2026-08-13.md) — Google: Made by Google 2026 で Pixel 11 シリーズ正式発表 (Tensor G6 TSMC 2nm・Pixel Watch 5・Pixel Tag、8/20発売) / Anthropic: Claude テキスト透かし (watermark) 全世界適用 (EU AI Act準拠・C2PA) / OpenAI: ChatGPT 週間10億ユーザー突破 (7/31・未掲載) + レストラン予約機能追加 / Microsoft: M365 Copilot 8月大型アップデート (GPT-5.6 + Claude統合・Cowork)
 - [2026-08-12](summaries/2026/08/2026-08-12.md) — OpenAI: Daybreak Red / GPT-5.6-Cyber 公開 (セキュリティ特化、Chrome V8 ゼロデイ発見・CVE-2026-15903) / Anthropic: Claude for Teachers 発表 (全米50州対応、認定教師無償) / Google: Made by Google 2026 本日開催 — Pixel 11 シリーズ / ChatGPT Business にプレミアム席追加
 - [2026-08-11](summaries/2026/08/2026-08-11.md) — Meta: Muse Glimmer 30B 公開 (Apache 2.0、コンシューマー GPU 1枚で動くオープンウェイトエージェントモデル、SWE-Bench Pro 51.2) / OpenAI: GPT-5.6 Sol 更新 + 推論スライダー追加 (未掲載・8/6) / [続報] Alibaba: Qwen3.8-Max open weights 今週公開見込みも未到着
-- [2026-08-10](summaries/2026/08/2026-08-10.md) — Anthropic: カスタムシリコンチーム設立 (推論コスト50%削減目標・Samsung 2nm協議・最大$485k採用) / xAI: Grok Imagine Image 2.0 リリース (領域指定編集・5画像マルチ参照、アリーナ世界2位) / Microsoft: FY26 Q4決算 — Azure年間$100B超・M365 Copilot 3,000万有料席達成
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
