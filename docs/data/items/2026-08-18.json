@@ -1,0 +1,137 @@
+{
+  "date": "2026-08-18",
+  "generated_at": "2026-08-18T08:10:00+09:00",
+  "sources_checked": 26,
+  "sources_failed": 24,
+  "items": [
+    {
+      "id": "2026-08-18-anthropic-decart",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[未掲載] Decart を $60 億で買収交渉中 (8/13 報道)",
+      "summary": "Anthropic 史上最大の買収案件。チップ効率化ソフトと世界モデル技術を持つイスラエル系スタートアップ Decart との交渉を Bloomberg が報じた。合意未達、協議継続中。",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-13/anthropic-said-in-talks-to-buy-ai-startup-decart-for-6-billion",
+      "importance": "highlight",
+      "tags": ["acquisition", "anthropic", "infrastructure", "world-model"]
+    },
+    {
+      "id": "2026-08-18-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-18-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-18-microsoft-copilot-deprecation",
+      "type": "followup",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "[続報] Consumer 向け Copilot 廃止機能が 8/18 本日実施 + 統合 Copilot アプリ URL 移行開始",
+      "summary": "Podcasts・Deep Research (consumer)・グループチャット等が本日廃止。Web URL が copilot.cloud.microsoft へ移行開始。仕事/個人アカウントの視覚的分離機能を追加。",
+      "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/learning/changes-microsoft-copilot-app",
+      "related_date": "2026-08-15",
+      "importance": "highlight",
+      "tags": ["microsoft", "copilot", "deprecation", "consumer"]
+    },
+    {
+      "id": "2026-08-18-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-18-github-moneyprinterturbo",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "harry0703/MoneyPrinterTurbo — AI 動画全自動生成フレームワーク急伸 (+1,275 today)",
+      "summary": "テーマやキーワードから LLM と自動化ワークフローで高精細ショート動画を一括生成。本日 GitHub Python Trending 最上位。",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "importance": "standard",
+      "tags": ["github-trending", "video-generation", "automation", "python"]
+    },
+    {
+      "id": "2026-08-18-github-openviking",
+      "type": "new",
+      "vendor": "ByteDance",
+      "section": "community",
+      "title": "volcengine/OpenViking — AI エージェント向け自己進化型コンテキスト DB (+254 today)",
+      "summary": "メモリ・RAG・スキルを統合した ByteDance 製エージェント基盤。会話履歴と外部知識の横断管理を提供。",
+      "url": "https://github.com/volcengine/OpenViking",
+      "importance": "standard",
+      "tags": ["github-trending", "agents", "memory", "rag", "python"]
+    },
+    {
+      "id": "2026-08-18-github-defending-code-harness",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "anthropics/defending-code-reference-harness — Anthropic 公式セキュリティスキルハーネス (+176 today)",
+      "summary": "脅威モデリング・スキャン・トリアージ・パッチ適用を自律実行するエージェントハーネス。Anthropic 公式リポジトリ。",
+      "url": "https://github.com/anthropics/defending-code-reference-harness",
+      "importance": "standard",
+      "tags": ["github-trending", "security", "anthropic", "agents", "python"]
+    },
+    {
+      "id": "2026-08-18-github-modlens",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "liustack/modlens — DeepSeek Harness 向けビジョンプラグイン (TypeScript, +517 today)",
+      "summary": "テキストのみ対応エージェントに画像解析を付加する拡張プラグイン。構造化 JSON 出力でエージェントが画像内容を参照可能。",
+      "url": "https://github.com/liustack/modlens",
+      "importance": "standard",
+      "tags": ["github-trending", "vision", "deepseek", "typescript"]
+    },
+    {
+      "id": "2026-08-18-paper-autodesign",
+      "type": "new",
+      "vendor": "Research",
+      "section": "papers",
+      "title": "AutoDesign: Meta-Harness Optimizer for Structured Media Generation",
+      "summary": "論文からポスターへの合成タスクで SOTA 達成。コードエージェントを再帰的に改善するメタハーネス最適化手法。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["paper", "agents", "code-generation", "structured-output"]
+    },
+    {
+      "id": "2026-08-18-paper-lopsd",
+      "type": "new",
+      "vendor": "Research",
+      "section": "papers",
+      "title": "Latent On-Policy Self-Distillation (LOPSD)",
+      "summary": "経験から特権ティーチングコンテキストをエンドツーエンド学習し密なトークンレベル教師信号を生成。エージェント性能と効率を改善。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["paper", "distillation", "agents", "rl"]
+    },
+    {
+      "id": "2026-08-18-media-bloomberg-decart",
+      "type": "new",
+      "vendor": "Media",
+      "section": "media",
+      "title": "[Bloomberg] Anthropic in Talks to Buy AI Startup Decart for $6 Billion (8/13)",
+      "summary": "Bloomberg の Decart 買収報道。ペイウォール記事のため本文要約省略。",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-13/anthropic-said-in-talks-to-buy-ai-startup-decart-for-6-billion",
+      "importance": "minor",
+      "tags": ["media", "bloomberg", "anthropic", "acquisition"]
+    },
+    {
+      "id": "2026-08-18-media-techcrunch-copilot",
+      "type": "new",
+      "vendor": "Media",
+      "section": "media",
+      "title": "[TechCrunch] Microsoft kills off unsuccessful AI features while merging its separate Copilot apps (8/13)",
+      "summary": "廃止機能の背景と統合 Copilot 戦略の解説。",
+      "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
+      "importance": "minor",
+      "tags": ["media", "techcrunch", "microsoft", "copilot"]
+    }
+  ]
+}
