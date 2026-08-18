@@ -1,5 +1,218 @@
 [
   {
+    "date": "2026-08-19",
+    "id": "2026-08-19-anthropic-risk-report",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "8 月リスクレポート発表 — 未公開「Model 2」を開示、誤整合リスクを「低」に引き上げ",
+    "summary": "Mythos 5 を上回る内部モデル Model 2 を初開示。外部非公開。誤整合リスクを「非常に低」→「低」に改定。コントラクター 1.33 億件のやり取りが生物兵器分類器なしで処理されていたことも明らかに。",
+    "url": "https://www.anthropic.com/aug-2026-risk-report",
+    "importance": "highlight",
+    "tags": [
+      "safety",
+      "risk-report",
+      "alignment",
+      "anthropic",
+      "model-disclosure"
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "id": "2026-08-19-openai-chatgpt-teens",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "ChatGPT for Teens 発表 (8/18) — 13〜17 歳向け安全特化モード",
+    "summary": "有害コンテンツを自動ブロックし感情依存を抑制。Study Mode で段階的な問題解決を支援。年齢推定でティーンを自動振り分け。",
+    "url": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
+    "importance": "highlight",
+    "tags": [
+      "chatgpt",
+      "openai",
+      "safety",
+      "teen",
+      "product-launch"
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "id": "2026-08-19-openai-nvidia-ohio",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "Nvidia / OpenAI: オハイオ州 $1,050 億規模データセンター正式発表 (8/17)",
+    "summary": "Nvidia が SB Energy に最大 $1,050 億を財務保証、OpenAI が 20 年リースのアンカーテナント。PORTS-Pike キャンパス、4.25 GW (最大 8 GW)、2028 年稼働予定。",
+    "url": "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html",
+    "importance": "highlight",
+    "tags": [
+      "openai",
+      "nvidia",
+      "infrastructure",
+      "data-center",
+      "ohio",
+      "investment"
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "id": "2026-08-19-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-19",
+    "id": "2026-08-19-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-19",
+    "id": "2026-08-19-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-19",
+    "id": "2026-08-19-stripe-openrouter",
+    "type": "new",
+    "vendor": "Stripe",
+    "section": "vendor",
+    "title": "Stripe: OpenRouter を $70 億超で買収確定 (8/16〜17)",
+    "summary": "400 以上の AI モデルを 800 万人の開発者にルーティングする OpenRouter が Stripe に統合。May 2026 の Series B 評価額 $13 億から約 5.4 倍でのエグジット。",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
+    "importance": "highlight",
+    "tags": [
+      "stripe",
+      "openrouter",
+      "acquisition",
+      "infrastructure",
+      "model-routing"
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "id": "2026-08-19-github-anthropic-cybersecurity-skills",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: mukul975/Anthropic-Cybersecurity-Skills (+726 today)",
+    "summary": "6 フレームワーク (MITRE ATT&CK / OWASP 等) にマッピングされた 817 件の構造化サイバーセキュリティスキル集。AI エージェント向け参照ライブラリ。",
+    "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "cybersecurity",
+      "ai-agent",
+      "skills"
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "id": "2026-08-19-github-ai-agent-book",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: bojieli/ai-agent-book (+556 today)",
+    "summary": "AI エージェント設計の原則と実践工学を扱うオープンソース書籍。設計思想からマルチエージェント実装まで体系化。",
+    "url": "https://github.com/bojieli/ai-agent-book",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "ai-agent",
+      "learning",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "id": "2026-08-19-github-omlx",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending: jundot/omlx (+366 today)",
+    "summary": "Apple Silicon 向け LLM 推論サーバー。連続バッチ処理・Metal 最適化・OpenAI 互換 API。M4 Mac で高スループットを実現。",
+    "url": "https://github.com/jundot/omlx",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "llm-inference",
+      "apple-silicon",
+      "local-llm"
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "id": "2026-08-19-github-munder-difflin",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "GitHub Trending (TypeScript): chaitanyagiri/munder-difflin (+256 today)",
+    "summary": "ローカル実行対応のマルチエージェントハーネス。複数エージェントを並列調整し複雑タスクを分業処理。",
+    "url": "https://github.com/chaitanyagiri/munder-difflin",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "multi-agent",
+      "typescript",
+      "local-llm"
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "id": "2026-08-19-paper-harnesseval-w",
+    "type": "new",
+    "vendor": "Research",
+    "section": "papers",
+    "title": "HarnessEval-W: Agentifying the Evaluation of Visual Worlds",
+    "summary": "3D 視覚世界の品質評価を AI エージェントで自動化するフレームワーク。HF Papers 8/18 付け #1 トレンド。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "research",
+      "evaluation",
+      "visual-world",
+      "ai-agent",
+      "benchmark"
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "id": "2026-08-19-paper-vibeworlding",
+    "type": "new",
+    "vendor": "Research",
+    "section": "papers",
+    "title": "VibeWorlding: Can Multimodal Agents Construct 3D Open Worlds End-to-End?",
+    "summary": "マルチモーダルエージェントがテキスト・画像指示から 3D オープンワールドを構築できるかを検証するベンチマーク研究。HF Papers トレンド入り。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "research",
+      "multimodal",
+      "3d-generation",
+      "benchmark"
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "id": "2026-08-19-paper-large-discovery-models",
+    "type": "new",
+    "vendor": "Research",
+    "section": "papers",
+    "title": "Large Discovery Models: Empirically-grounded Model-Based Open-Ended Search",
+    "summary": "実験データから仮説を自動生成・検証するサイクルで科学的発見を加速するモデルベース探索手法。HF Papers トレンド入り。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "research",
+      "scientific-discovery",
+      "open-ended-search"
+    ]
+  },
+  {
     "date": "2026-08-18",
     "id": "2026-08-18-anthropic-decart",
     "type": "new",
