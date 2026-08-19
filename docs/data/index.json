@@ -1,5 +1,193 @@
 [
   {
+    "date": "2026-08-20",
+    "id": "2026-08-20-openai-chatgpt-ads-eu",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "ChatGPT 広告を欧州 31 か国に拡大 (8/19 発表・8/24 開始)",
+    "summary": "OpenAI が ChatGPT 広告を 8/24 から欧州 31 か国に展開。無料・Go プランユーザー対象、EU 全域への最大規模の広告展開。",
+    "url": "https://openai.com/index/chatgpt-ads-expands-across-europe/",
+    "importance": "highlight",
+    "tags": [
+      "chatgpt",
+      "ads",
+      "europe",
+      "monetization",
+      "openai"
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "id": "2026-08-20-anthropic-sonnet5-pricing",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Claude Sonnet 5 の導入価格を恒久適用に変更",
+    "summary": "8/31 終了予定だった Claude Sonnet 5 の $2/$10 per MTok 導入価格を永続価格として固定。9/1 からの値上げ計画を撤回。",
+    "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "importance": "standard",
+    "tags": [
+      "pricing",
+      "sonnet-5",
+      "anthropic",
+      "api"
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "id": "2026-08-20-anthropic-compliance-api",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Compliance API を Cowork・Claude Code 全体に拡大",
+    "summary": "セキュリティチーム向け Compliance API が Cowork と Claude Code (デスクトップ/ウェブ/モバイル/CLI) に対応。Enterprise ベータ。",
+    "importance": "minor",
+    "tags": [
+      "compliance",
+      "enterprise",
+      "claude-code",
+      "security",
+      "anthropic"
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "id": "2026-08-20-openai-o3-retirement",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "ChatGPT から o3 モデルが 8/26 に退場 (来週実施)",
+    "summary": "5/28 に予告済みの o3 退場が 8/26 に迫る。ChatGPT のみ終了、API は継続。DALL·E GPT も 8/30 退場。",
+    "url": "https://www.kucoin.com/news/flash/openai-to-retire-openai-o3-and-gpt-4-5-models-from-chatgpt",
+    "importance": "minor",
+    "tags": [
+      "o3",
+      "model-retirement",
+      "chatgpt",
+      "openai"
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "id": "2026-08-20-google-grok41-deprecation",
+    "type": "new",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "Gemini Enterprise Agent Platform 上の Grok 4.1 ファミリーを本日廃止",
+    "summary": "Google の Gemini Enterprise Agent Platform で提供していた Grok 4.1 MaaS が 8/20 にシャットダウン。API リクエストは 400 エラーへ。",
+    "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes",
+    "importance": "minor",
+    "tags": [
+      "gemini",
+      "google",
+      "model-deprecation",
+      "api"
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "id": "2026-08-20-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-20",
+    "id": "2026-08-20-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-20",
+    "id": "2026-08-20-github-graphify",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "Graphify-Labs/graphify — コードベースをナレッジグラフ化する AI エージェント基盤",
+    "summary": "ローカル AST 解析でコードベースをクエリ可能なナレッジグラフに変換。AI エージェントのコード理解精度を向上させるツール。★+454 today / 108K total。",
+    "url": "https://github.com/Graphify-Labs/graphify",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "knowledge-graph",
+      "code-analysis",
+      "ai-agent"
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "id": "2026-08-20-github-hermes-botmode",
+    "type": "new",
+    "vendor": "Nous Research",
+    "section": "community",
+    "title": "NousResearch/hermes-agent — Bot Mode 追加 (8/17)",
+    "summary": "Nous Research のオープンソース AI エージェント hermes-agent が Bot Mode を追加。エージェントプロファイルを独自ロール・メモリ・スキルを持つ名前付きボットとして定義し相互通信可能に。★+563 today / 233K total。",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "hermes-agent",
+      "multi-agent",
+      "nous-research",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "id": "2026-08-20-paper-harnesseval",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "HarnessEval-W: Agentifying the Evaluation of Visual Worlds (arXiv:2608.16859)",
+    "summary": "ワールドモデル評価にエージェントを導入。サブエージェントが評価質問を分解・証拠収集し根拠付き判定を返す。18 モデル×330 ケースで評価。",
+    "url": "https://arxiv.org/abs/2608.16859",
+    "importance": "standard",
+    "tags": [
+      "world-model",
+      "evaluation",
+      "benchmark",
+      "agent",
+      "arxiv"
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "id": "2026-08-20-paper-discovery-models",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "Large Discovery Models: Empirically-grounded Model-Based Open-Ended Search",
+    "summary": "モデルベースの開放的探索にスケールを与え、実験的根拠に基づく科学的発見プロセスを自動化する提案。HF Papers トレンド上位。",
+    "url": "https://huggingface.co/papers/trending",
+    "importance": "standard",
+    "tags": [
+      "open-ended-search",
+      "scientific-discovery",
+      "research",
+      "trending"
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "id": "2026-08-20-paper-vibeworlding",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "VibeWorlding: Can Multimodal Agents Construct 3D Open Worlds End-to-End?",
+    "summary": "マルチモーダルエージェントがエンドツーエンドで 3D オープンワールドを構築できるかを実証・検証した論文。HF Papers トレンド上位。",
+    "url": "https://huggingface.co/papers/trending",
+    "importance": "minor",
+    "tags": [
+      "multimodal",
+      "3d-world",
+      "agent",
+      "research",
+      "trending"
+    ]
+  },
+  {
     "date": "2026-08-19",
     "id": "2026-08-19-anthropic-risk-report",
     "type": "new",
