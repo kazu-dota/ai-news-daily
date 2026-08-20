@@ -1,5 +1,238 @@
 [
   {
+    "date": "2026-08-21",
+    "id": "2026-08-21-anthropic-ipo",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Anthropic IPO 計画 — SpaceX 超えを目標に $2T+ 評価で 10 月上場へ (8/20)",
+    "summary": "S-1 草稿を SEC に非公開提出済み。今月中にも公式版を提出する可能性。評価額 $2T+ を目標に SpaceX の $86B IPO 記録を狙う。",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-20/anthropic-expects-to-match-spacex-s-record-ipo-size-or-top-it",
+    "importance": "highlight",
+    "tags": [
+      "ipo",
+      "anthropic",
+      "fundraising",
+      "spacex",
+      "bloomberg"
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "id": "2026-08-21-anthropic-data-retention",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "エンタープライズ向けデータ保持ポリシー変更 — 自社クラウドで 30 日保持を可能に (8/20)",
+    "summary": "Anthropic が Mythos クラス以上の 30 日データ保持義務を修正。顧客が自社クラウドで保持できる選択肢を追加予定。Salesforce など 100 社以上と協調設計。",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-20/anthropic-plans-to-change-data-retention-policy-for-advanced-ai",
+    "importance": "standard",
+    "tags": [
+      "data-retention",
+      "enterprise",
+      "anthropic",
+      "privacy",
+      "compliance"
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "id": "2026-08-21-anthropic-claude-code-update",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Claude Code 8/20 アップデート — prompt caching 修正・Concise 出力スタイル追加",
+    "summary": "LLM ゲートウェイ/Custom Base URL 環境での prompt caching 不具合修正。新組み込みスタイル「Concise」追加で結果先出しに対応。",
+    "url": "https://code.claude.com/docs/en/changelog",
+    "importance": "minor",
+    "tags": [
+      "claude-code",
+      "anthropic",
+      "update",
+      "prompt-caching",
+      "changelog"
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "id": "2026-08-21-openai-rl-pause",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "Astra の Critical サイバー能力でフロンティア RL トレーニングを約 2 週間停止 (8/18)",
+    "summary": "OpenAI が次期モデル Astra の内部評価で Critical サイバー能力閾値に達したとして RL 学習を停止。Preparedness Framework が開発プロセスに初めて実効的に機能した公開事例。",
+    "url": "https://www.helpnetsecurity.com/2026/08/19/openai-model-safety-updates/",
+    "importance": "highlight",
+    "tags": [
+      "openai",
+      "safety",
+      "rl-training",
+      "astra",
+      "preparedness-framework",
+      "cybersecurity"
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "id": "2026-08-21-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-21",
+    "id": "2026-08-21-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-21",
+    "id": "2026-08-21-meta-smb-mac",
+    "type": "new",
+    "vendor": "Meta",
+    "section": "vendor",
+    "title": "Meta AI SMB ビジネスアシスタント公開 + Mac デスクトップアプリ (beta) リリース (8/19〜20)",
+    "summary": "Meta が Facebook/Instagram/Google Workspace 連携の SMB 向け AI ビジネスアシスタントと、画面共有・システムワイド音声入力対応の Mac アプリ (beta) を同時リリース。",
+    "url": "https://www.macrumors.com/2026/08/19/meta-ai-mac-app/",
+    "importance": "standard",
+    "tags": [
+      "meta-ai",
+      "smb",
+      "desktop-app",
+      "macos",
+      "business-tools",
+      "screen-sharing"
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "id": "2026-08-21-github-cursor-plugins",
+    "type": "new",
+    "vendor": "Cursor",
+    "section": "community",
+    "title": "cursor/plugins — Cursor IDE 公式プラグイン仕様とサンプル集",
+    "summary": "Cursor IDE のプラグイン仕様と公式プラグイン集。開発者によるエコシステム拡張を開放。TypeScript トレンド +473 today / 4.1K stars。",
+    "url": "https://github.com/cursor/plugins",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "cursor",
+      "ide",
+      "plugins",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "id": "2026-08-21-github-apache-maka",
+    "type": "new",
+    "vendor": "Apache",
+    "section": "community",
+    "title": "apache/maka — ローカルファースト AI エージェントワークスペース (Apache Incubating)",
+    "summary": "Apache Maka: オフライン完結で動作するローカルファースト AI エージェントワークスペース。TypeScript トレンド +364 today / 1.9K stars。",
+    "url": "https://github.com/apache/maka",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "apache",
+      "local-ai",
+      "agent-workspace",
+      "typescript",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "id": "2026-08-21-paper-demystify-skills",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "Demystifying Agent Skills: Why They Work—Until They Don't",
+    "summary": "AI エージェントのスキル挙動を条件別に分類し、汎化が崩壊するメカニズムを体系解析。HF Papers 8/19 #1 トレンド。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "agent-skills",
+      "generalization",
+      "evaluation",
+      "research",
+      "trending"
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "id": "2026-08-21-paper-asi-bench",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "ASI-Bench: At the Dawn of Artificial Superintelligence",
+    "summary": "フロンティアモデルの超知能水準への近接度を多次元評価する新ベンチマーク。HF Papers トップ 3 入り。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "agi",
+      "asi",
+      "benchmark",
+      "research",
+      "trending"
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "id": "2026-08-21-paper-agentic-esopt",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements",
+    "summary": "最小 GPU リソースで長期エージェントをファインチューニングする手法。進化的最適化で探索空間を絞り込む設計。HF Papers トップ 3 入り。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "llm-agent",
+      "fine-tuning",
+      "efficiency",
+      "research",
+      "trending"
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "id": "2026-08-21-paper-freetoken",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "FreeToken: Edge-Native Mixture-of-Experts Serving System",
+    "summary": "異種ローカルハードウェア上で大型 MoE モデルを動的マッピングして動かすサービングシステム。arXiv 8/17 公開。",
+    "url": "https://huggingface.co/papers",
+    "importance": "minor",
+    "tags": [
+      "moe",
+      "edge-computing",
+      "serving",
+      "research",
+      "arxiv"
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "id": "2026-08-21-paper-harmprofile",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "HarmProfile: Characterizing Frontier LLM Safety Failures",
+    "summary": "フロンティア LLM の安全失敗をコンテンツ分析で特徴付けるベンチマーク。能力向上につれ有害性と多様性が増すことを実証。",
+    "url": "https://huggingface.co/papers",
+    "importance": "minor",
+    "tags": [
+      "safety",
+      "benchmark",
+      "harm",
+      "evaluation",
+      "research"
+    ]
+  },
+  {
     "date": "2026-08-20",
     "id": "2026-08-20-openai-chatgpt-ads-eu",
     "type": "new",

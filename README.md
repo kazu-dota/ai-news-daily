@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-08-21](summaries/2026/08/2026-08-21.md) — Anthropic: SpaceX 超えの IPO を目標・評価額 $2T+ で 10 月上場へ (S-1 今月中にも提出) / OpenAI: Astra が Critical サイバー能力閾値に達しフロンティア RL 学習を停止 (Preparedness Framework 初の実効発動) / Meta: SMB 向け AI ビジネスアシスタント + Mac デスクトップアプリ (beta) 同時リリース
 - [2026-08-20](summaries/2026/08/2026-08-20.md) — OpenAI: ChatGPT 広告を欧州 31 か国に拡大 (8/19 発表・8/24 開始、無料/Goプランのみ) / Anthropic: Claude Sonnet 5 の $2/$10 導入価格を恒久化・9/1 値上げ撤回 / Nous Research hermes-agent Bot Mode 追加 / HF Papers: HarnessEval-W (ワールドモデル評価エージェント化)
 - [2026-08-19](summaries/2026/08/2026-08-19.md) — OpenAI: ChatGPT for Teens 発表 (8/18、13〜17 歳向け安全特化モード・Study Mode) / Stripe: OpenRouter を $70 億超で買収確定 (400 モデル・800 万開発者が決済インフラへ) / Nvidia/OpenAI: オハイオ州 $1,050 億規模データセンター正式発表 / Anthropic: 8 月リスクレポートで未発表「Model 2」を開示・誤整合リスク引き上げ
 - [2026-08-18](summaries/2026/08/2026-08-18.md) — Anthropic: Decart を $60 億で買収交渉中 (未掲載・8/13、チップ効率化＋世界モデル技術) / Microsoft: Consumer 向け Copilot 廃止機能が本日実施 (Podcasts・Deep Research 等終了) + 統合 Copilot アプリ URL 移行開始
 - [2026-08-17](summaries/2026/08/2026-08-17.md) — Google: Gemini 3.7 Flash 公開 (未掲載・8/13、コーディング/エージェント向け・半額イントロ価格) / Google: Imagen 4 API が本日廃止 (gemini-3.1-flash-image へ移行必須) / xAI: Grok Bot beta 公開 (未掲載・8/11、常時稼働 AI エージェントチーム) / Z.ai: GLM-5.3 リリース (オープンウェイト最強コーディングモデル、ウェイトは2週間後)
 - [2026-08-16](summaries/2026/08/2026-08-16.md) — Anthropic: Q2 2026 初の営業黒字 (売上 $11.5B 超・営業利益 $559M 超、2028年予測より2年前倒し) / Alibaba: Qwen3.8-27B open weights 公開 (27B multimodal・Apache 2.0・RTX 4090で動作) / Google: HEIR — 暗号化データ上で AI 推論を実現するオープンソース FHE コンパイラ (8/15) / DeepSeek: V4 Pro API 価格改定本日発動 (ピーク時最大 1,100% 超)
 - [2026-08-15](summaries/2026/08/2026-08-15.md) — Google: Gemini アプリが月間 10 億ユーザー突破 (未掲載・8/11、Google 史上最速成長) / Meta: Manus AI が中国 NDRC 命令で Meta 買収から強制独立復帰 (米中 AI デカップリング) / DeepSeek: V4-Pro-0813 正式 GA (1.6T MoE・1M コンテキスト・8/16 価格引き上げ) / Anthropic: Claude Code v2.1.232 (サブエージェントフォーキング デフォルト ON)
-- [2026-08-14](summaries/2026/08/2026-08-14.md) — Alibaba: Qwen3.8-Max (2.4T MoE) open weights がついに HuggingFace 公開 (Alibaba 初 Max クラス OSSリリース) / Anthropic: Claude Code auto mode が本日からデフォルトへ (分類器で危険コマンド 89% 検出) / OpenAI: GPT-5.6 Sol Ultrafast mode (14倍高速・750 tokens/sec・Cerebras 基盤) / Mistral: EU/US Regional Inference + Priority Tier 正式提供
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
