@@ -1,5 +1,206 @@
 [
   {
+    "date": "2026-08-22",
+    "id": "2026-08-22-anthropic-protein-design",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Claude が創薬ターゲット 15 件中 14 件でタンパク質結合体を自律設計",
+    "summary": "Claude (Mythos Preview + Opus 5) の自律エージェントが 1,320 件のタンパク質結合体を設計し 354 件がウェットラボ検証で有効。命中率 22〜35% と業界平均の 2 倍超。",
+    "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+    "importance": "highlight",
+    "tags": [
+      "protein-design",
+      "biology",
+      "research",
+      "anthropic",
+      "agent"
+    ]
+  },
+  {
+    "date": "2026-08-22",
+    "id": "2026-08-22-anthropic-claude-academy",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Claude Academy — 無料 AI 学習プラットフォームを公開",
+    "summary": "約 20 コース無料提供。Claude 101 から API 統合・コーディングツールまで対応。開発者・学生・教育者・専門家・非営利組織向けトラックを用意。",
+    "url": "https://cryptobriefing.com/anthropic-launches-claude-academy/",
+    "importance": "standard",
+    "tags": [
+      "education",
+      "learning",
+      "anthropic",
+      "claude-academy"
+    ]
+  },
+  {
+    "date": "2026-08-22",
+    "id": "2026-08-22-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-22",
+    "id": "2026-08-22-google-no-update",
+    "type": "no-update",
+    "vendor": "Google / Google DeepMind",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-22",
+    "id": "2026-08-22-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-22",
+    "id": "2026-08-22-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-22",
+    "id": "2026-08-22-nvidia-poolside",
+    "type": "new",
+    "vendor": "Nvidia",
+    "section": "vendor",
+    "title": "Nvidia が Poolside と $60 億ライセンス + Rebellions と買収協議",
+    "summary": "Poolside のモデル開発基盤「Model Factory」を $60 億で非独占ライセンス取得 + $10 億出資 (Poolside は独立維持)。韓国 AI チップ Rebellions (評価額 $23 億) とも買収・提携を協議中。",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-21/nvidia-in-talks-with-chip-startup-rebellions-for-potential-deal",
+    "importance": "highlight",
+    "tags": [
+      "nvidia",
+      "poolside",
+      "rebellions",
+      "acquisition",
+      "deal",
+      "ai-chip"
+    ]
+  },
+  {
+    "date": "2026-08-22",
+    "id": "2026-08-22-xai-grok46-bedrock",
+    "type": "new",
+    "vendor": "xAI",
+    "section": "vendor",
+    "title": "Grok 4.6 が Amazon Bedrock で一般提供開始",
+    "summary": "コンテキスト 50 万トークン、4 段階推論強度、クロスリージョン推論対応。$2/$6 per 100 万トークン。コーディング・エージェントタスク向け。",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-grok-4-6/",
+    "importance": "standard",
+    "tags": [
+      "xai",
+      "grok",
+      "bedrock",
+      "aws",
+      "model-availability"
+    ]
+  },
+  {
+    "date": "2026-08-22",
+    "id": "2026-08-22-github-ai-infra-guard",
+    "type": "new",
+    "vendor": "Tencent",
+    "section": "community",
+    "title": "GitHub Trending: Tencent/AI-Infra-Guard",
+    "summary": "フルスタック AI レッドチーミングプラットフォーム。エージェント・インフラ両面の脆弱性をスキャン。★ +435 today。",
+    "url": "https://github.com/Tencent/AI-Infra-Guard",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "security",
+      "red-teaming",
+      "tencent"
+    ]
+  },
+  {
+    "date": "2026-08-22",
+    "id": "2026-08-22-github-omniroute",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "GitHub Trending: diegosouzapw/OmniRoute",
+    "summary": "340+ AI プロバイダー・1,200+ モデル対応の MIT ライセンス無料 AI ゲートウェイ。クォータ対応自動フォールバック内蔵。★ +769 today。",
+    "url": "https://github.com/diegosouzapw/OmniRoute",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "ai-gateway",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-08-22",
+    "id": "2026-08-22-github-ruflo",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "GitHub Trending: ruvnet/ruflo",
+    "summary": "マルチエージェントスウォームと自律ワークフローのメタハーネス。アダプティブメモリ + RAG 統合。★ +140 today。",
+    "url": "https://github.com/ruvnet/ruflo",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "multi-agent",
+      "workflow"
+    ]
+  },
+  {
+    "date": "2026-08-22",
+    "id": "2026-08-22-paper-freetoken",
+    "type": "new",
+    "vendor": "UC Berkeley",
+    "section": "papers",
+    "title": "FreeToken: Edge-native Mixture-of-Experts Serving",
+    "summary": "MoE の計算・状態をヘテロジニアスなローカルハードウェアへ動的マッピングし、大型オープンウェイトモデルをパーソナルマシンで動作させる推論フレームワーク。",
+    "url": "https://arxiv.org/list/cs.LG/current",
+    "importance": "standard",
+    "tags": [
+      "papers",
+      "moe",
+      "edge-ai",
+      "inference",
+      "efficiency"
+    ]
+  },
+  {
+    "date": "2026-08-22",
+    "id": "2026-08-22-paper-joyai-video-edit",
+    "type": "new",
+    "vendor": "UC Berkeley",
+    "section": "papers",
+    "title": "JoyAI-Video-Edit: 16B Autoregressive Diffusion for Video Editing",
+    "summary": "単一 GPU でリアルタイム・オープンエンドな動画編集を実現する 16B パラメータ自己回帰拡散モデル。長期的時間一貫性を維持しつつ高いソース忠実度を達成。",
+    "url": "https://arxiv.org/list/cs.LG/current",
+    "importance": "standard",
+    "tags": [
+      "papers",
+      "video-generation",
+      "diffusion",
+      "multimodal"
+    ]
+  },
+  {
+    "date": "2026-08-22",
+    "id": "2026-08-22-paper-reconstruction",
+    "type": "new",
+    "vendor": "academic",
+    "section": "papers",
+    "title": "Reconstruction Benchmark: フロンティア LLM の仮説生成能力を定量評価",
+    "summary": "参考文献リストのみから論文アイデアを復元するベンチマーク。シングルモデルは 3〜15%、マルチエージェント Swiss-tournament でも 42% に留まり、現世代 LLM の仮説生成の上限を示した。",
+    "url": "https://arxiv.org/list/cs.LG/current",
+    "importance": "standard",
+    "tags": [
+      "papers",
+      "benchmark",
+      "scientific-reasoning",
+      "llm-evaluation"
+    ]
+  },
+  {
     "date": "2026-08-21",
     "id": "2026-08-21-anthropic-ipo",
     "type": "new",
