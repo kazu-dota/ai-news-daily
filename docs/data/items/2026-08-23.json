@@ -1,0 +1,137 @@
+{
+  "date": "2026-08-23",
+  "generated_at": "2026-08-23T08:05:25+09:00",
+  "sources_checked": 26,
+  "sources_failed": 18,
+  "items": [
+    {
+      "id": "2026-08-23-anthropic-agent-stack-ga",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[未掲載] computer use・browser use・Skills API・Files API が Claude Platform で一挙 GA (8/20)",
+      "summary": "computer use が GA (バッチアクション・ズームデフォルト)、browser use が DOM 構造を直接操作、Skills API でスキルをバージョン管理、Files API が 1TB ストレージ対応。Skills API・Files API は Microsoft Foundry でも提供開始。",
+      "url": "https://claude.com/blog/computer-use-skills-api-files-api",
+      "importance": "highlight",
+      "tags": ["computer-use", "browser-use", "skills-api", "files-api", "agents", "anthropic", "ga"]
+    },
+    {
+      "id": "2026-08-23-anthropic-claude-code-update",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[続報] Claude Code 8/22 アップデート — コスト見積もり改善・Bedrock 対応追加",
+      "summary": "コスト見積もり精度向上、Amazon Bedrock・Alpine 対応、Python 1.x アップグレードヘルパー、/resume・/goal 動作改善など。",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "related_date": "2026-08-21",
+      "importance": "minor",
+      "tags": ["claude-code", "changelog", "anthropic", "bedrock"]
+    },
+    {
+      "id": "2026-08-23-openai-gpt56-sol-price",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "GPT-5.6 Sol API 価格を 20%超引き下げ (8/21、3 か月限定)",
+      "summary": "入力 $5→$4/MTok、出力 $30→$20/MTok。API・Codex クレジット・ChatGPT Work に適用。11/21 まで期間限定。競合対抗の 1 か月内 2 度目の値下げ。",
+      "url": "https://community.openai.com/t/20-price-reduction-for-gpt-5-6-sol-api-codex-credits-and-chatgpt-work/1391726",
+      "importance": "highlight",
+      "tags": ["gpt-5.6-sol", "pricing", "openai", "api"]
+    },
+    {
+      "id": "2026-08-23-openai-zero-data-retention",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "[未掲載] Zero Data Retention for frontier models + Private Safety Processing (8/19)",
+      "summary": "対象 API 顧客のプロンプト・レスポンスをリクエスト処理後に保持しない ZDR を提供開始。Private Safety Processing で安全監視しながらコンテンツを OpenAI 側が参照しない設計。",
+      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models/",
+      "importance": "standard",
+      "tags": ["zero-data-retention", "privacy", "openai", "enterprise", "safety"]
+    },
+    {
+      "id": "2026-08-23-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-23-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-23-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-23-opencode-trending",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "anomalyco/opencode — オープンソースコーディングエージェント (TypeScript, +443 today)",
+      "summary": "自律的なソフトウェア開発タスクをエンドツーエンドで実行するオープンソースコーディングエージェント。★200,344。",
+      "url": "https://github.com/anomalyco/opencode",
+      "importance": "standard",
+      "tags": ["github-trending", "coding-agent", "open-source", "typescript"]
+    },
+    {
+      "id": "2026-08-23-oh-my-pi-trending",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "can1357/oh-my-pi — ターミナルベース AI コーディングエージェント (TypeScript, +217 today)",
+      "summary": "ハッシュアンカー付き差分編集・LSP サポート・ブラウザ統合を備えたターミナル AI コーディングエージェント。★26,520。",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "importance": "standard",
+      "tags": ["github-trending", "coding-agent", "terminal", "lsp", "typescript"]
+    },
+    {
+      "id": "2026-08-23-claude-plugins-community-trending",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "anthropics/claude-plugins-community — Claude コミュニティプラグインマーケットプレイス (Python, +141 today)",
+      "summary": "Claude 開発ツール・ワークフロー統合を集めた公式コミュニティプラグインハブ。★594。",
+      "url": "https://github.com/anthropics/claude-plugins-community",
+      "importance": "minor",
+      "tags": ["github-trending", "claude", "plugins", "community", "anthropic"]
+    },
+    {
+      "id": "2026-08-23-paper-4danyone",
+      "type": "new",
+      "vendor": "Other",
+      "section": "papers",
+      "title": "4DAnyone — 単一動画からの 4D 人物再構成 (Ant Research, 2026-08-20)",
+      "summary": "単一モノキュラー動画から動く人物を 4D 再構成。マルチビュー一貫動画生成 + 4D Gaussian Splatting の二段階アプローチ。コード公開済み。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["4d-reconstruction", "gaussian-splatting", "video", "hf-papers", "ant-research"]
+    },
+    {
+      "id": "2026-08-23-paper-llm-as-a-verifier",
+      "type": "new",
+      "vendor": "Other",
+      "section": "papers",
+      "title": "LLM-as-a-Verifier: A General-Purpose Verification Framework (Stanford/Berkeley/NVIDIA)",
+      "summary": "追加学習なしでエージェントタスクに細粒度フィードバックを与える汎用検証フレームワーク。スコアトークンのロジット分布から連続スコアを算出し、スコア粒度・反復評価・基準分解の 3 軸でスケール。",
+      "url": "https://arxiv.org/abs/2607.05391",
+      "importance": "standard",
+      "tags": ["verification", "agents", "llm-judge", "stanford", "hf-papers", "arXiv"]
+    },
+    {
+      "id": "2026-08-23-media-openai-price-cut",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "media",
+      "title": "[Reuters] OpenAI cuts developer pricing for frontier GPT-5.6 Sol model by more than 20%",
+      "summary": "競合対抗値下げの背景と 3 か月限定プロモーションの詳報。",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/08/22/openai-cuts-developer-pricing-for-frontier-gpt-56-sol-model-by-more-than-20",
+      "importance": "minor",
+      "tags": ["openai", "gpt-5.6-sol", "pricing", "media"]
+    }
+  ]
+}
