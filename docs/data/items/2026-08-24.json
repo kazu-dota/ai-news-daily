@@ -1,0 +1,93 @@
+{
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24T08:07:00+09:00",
+  "sources_checked": 26,
+  "sources_failed": 18,
+  "items": [
+    {
+      "id": "2026-08-24-openai-chatgpt-ads-eu-launch",
+      "type": "followup",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "[続報] ChatGPT 広告が欧州 31 か国で本日 (8/24) 正式ローンチ",
+      "summary": "EU 27 か国+4 か国で ChatGPT 広告が配信開始。GDPR 準拠の二層プライバシー構造を採用し、文脈型広告はオプトイン不要で配信。",
+      "url": "https://www.indexbox.io/blog/openai-rolls-out-chatgpt-ads-to-europe-what-it-means-for-users-and-marketers/",
+      "related_date": "2026-08-20",
+      "importance": "highlight",
+      "tags": ["openai", "chatgpt", "ads", "europe", "gdpr", "monetization"]
+    },
+    {
+      "id": "2026-08-24-anthropic-claude-code-aug23-bugfix",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[続報] Claude Code 8/23 マイナーバグ修正・信頼性改善",
+      "summary": "8 月 22 日の大型更新に続くマイナーパッチ。バグ修正と信頼性改善のみで新機能なし。",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "related_date": "2026-08-23",
+      "importance": "minor",
+      "tags": ["anthropic", "claude-code", "bugfix", "changelog"]
+    },
+    {
+      "id": "2026-08-24-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-24-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-24-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-24-github-free-claude-code",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "GitHub Trending: free-claude-code — Claude Code 等を月 1.3B+ 無料トークンで利用",
+      "summary": "49 のプロバイダー経由で Claude Code・Codex・OpenCode などを無料利用できるプロキシツール。+1,040 stars today。",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "importance": "standard",
+      "tags": ["github-trending", "claude-code", "free", "tool", "developer-tools"]
+    },
+    {
+      "id": "2026-08-24-github-book-to-skill",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "GitHub Trending: book-to-skill — 技術書 PDF を Claude Code スキルに変換",
+      "summary": "技術書を Claude Code が参照・利用できるスキル形式に自動変換するツール。+423 stars today。",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "importance": "standard",
+      "tags": ["github-trending", "claude-code", "skill", "book", "developer-tools"]
+    },
+    {
+      "id": "2026-08-24-ssi-model-speculation",
+      "type": "new",
+      "vendor": "SSI",
+      "section": "community",
+      "title": "Safe Superintelligence (SSI): 8 月中のモデルリリース計画、依然公式確認なし",
+      "summary": "投資家の podcast 発言から August モデルリリースの噂が広まっているが、SSI 公式サイトに発表なし。コミュニティで注目を集める。",
+      "url": "https://ssi.inc/",
+      "importance": "standard",
+      "tags": ["ssi", "ilya-sutskever", "safe-superintelligence", "model-release", "community", "speculation"]
+    },
+    {
+      "id": "2026-08-24-papers-no-update",
+      "type": "new",
+      "vendor": "Research",
+      "section": "papers",
+      "title": "本日バズった論文なし",
+      "summary": "Hugging Face Papers へのアクセス不能。WebSearch 補完でも本日以前未掲載の新規トレンド論文は確認されなかった。",
+      "importance": "minor",
+      "tags": ["papers", "no-update"]
+    }
+  ]
+}

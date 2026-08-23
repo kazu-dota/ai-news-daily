@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-08-24](summaries/2026/08/2026-08-24.md) — OpenAI: ChatGPT 広告が欧州 31 か国で本日正式ローンチ (GDPR 準拠二層プライバシー構造・文脈型広告はオプトイン不要) / GitHub Trending: free-claude-code (+1,040 today) / SSI 初モデル計画・依然公式確認なし
 - [2026-08-23](summaries/2026/08/2026-08-23.md) — Anthropic: computer use・Skills API・Files API が Claude Platform で一挙 GA (8/20 未掲載、Microsoft Foundry でも提供) / OpenAI: GPT-5.6 Sol API 価格 20%超引き下げ (3 か月限定) / OpenAI: Zero Data Retention for frontier models (8/19 未掲載)
 - [2026-08-22](summaries/2026/08/2026-08-22.md) — Anthropic: Claude が創薬 15 ターゲット中 14 件でタンパク質結合体を自律設計・業界平均 2 倍超の命中率をウェットラボで実証 / Nvidia: Poolside と $60 億ライセンス + 韓国 AI チップ Rebellions と買収協議 / xAI: Grok 4.6 が Amazon Bedrock で GA
 - [2026-08-21](summaries/2026/08/2026-08-21.md) — Anthropic: SpaceX 超えの IPO を目標・評価額 $2T+ で 10 月上場へ (S-1 今月中にも提出) / OpenAI: Astra が Critical サイバー能力閾値に達しフロンティア RL 学習を停止 (Preparedness Framework 初の実効発動) / Meta: SMB 向け AI ビジネスアシスタント + Mac デスクトップアプリ (beta) 同時リリース
 - [2026-08-20](summaries/2026/08/2026-08-20.md) — OpenAI: ChatGPT 広告を欧州 31 か国に拡大 (8/19 発表・8/24 開始、無料/Goプランのみ) / Anthropic: Claude Sonnet 5 の $2/$10 導入価格を恒久化・9/1 値上げ撤回 / Nous Research hermes-agent Bot Mode 追加 / HF Papers: HarnessEval-W (ワールドモデル評価エージェント化)
 - [2026-08-19](summaries/2026/08/2026-08-19.md) — OpenAI: ChatGPT for Teens 発表 (8/18、13〜17 歳向け安全特化モード・Study Mode) / Stripe: OpenRouter を $70 億超で買収確定 (400 モデル・800 万開発者が決済インフラへ) / Nvidia/OpenAI: オハイオ州 $1,050 億規模データセンター正式発表 / Anthropic: 8 月リスクレポートで未発表「Model 2」を開示・誤整合リスク引き上げ
 - [2026-08-18](summaries/2026/08/2026-08-18.md) — Anthropic: Decart を $60 億で買収交渉中 (未掲載・8/13、チップ効率化＋世界モデル技術) / Microsoft: Consumer 向け Copilot 廃止機能が本日実施 (Podcasts・Deep Research 等終了) + 統合 Copilot アプリ URL 移行開始
-- [2026-08-17](summaries/2026/08/2026-08-17.md) — Google: Gemini 3.7 Flash 公開 (未掲載・8/13、コーディング/エージェント向け・半額イントロ価格) / Google: Imagen 4 API が本日廃止 (gemini-3.1-flash-image へ移行必須) / xAI: Grok Bot beta 公開 (未掲載・8/11、常時稼働 AI エージェントチーム) / Z.ai: GLM-5.3 リリース (オープンウェイト最強コーディングモデル、ウェイトは2週間後)
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
