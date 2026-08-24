@@ -1,0 +1,122 @@
+{
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T08:30:00+09:00",
+  "sources_checked": 26,
+  "sources_failed": 20,
+  "items": [
+    {
+      "id": "2026-08-25-anthropic-amir-salek-chip",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[未掲載] Google TPU チーフ Amir Salek を採用 — 自社チップ開発部門を本格始動",
+      "summary": "Anthropic が Google TPU 創設者 Amir Salek を compute team に採用。Fractile との $2.5 億初期発注とあわせ、独自シリコン事業の立ち上げが本格化。",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-21/anthropic-taps-google-chip-veteran-as-part-of-push-into-hardware",
+      "importance": "highlight",
+      "tags": ["hardware", "chip", "anthropic", "ipo-prep", "compute"]
+    },
+    {
+      "id": "2026-08-25-anthropic-ipo-citigroup",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[続報] Anthropic IPO — Citigroup が 4 番目のリード銀行に追加、月内 S-1 正式提出を検討",
+      "summary": "Morgan Stanley・Goldman Sachs・JPMorgan に続き Citigroup が参画。8 月末 S-1 提出・10 月上場のシナリオが視野に。",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-20/anthropic-set-to-add-citigroup-to-top-ipo-banks-on-mega-listing",
+      "related_date": "2026-08-21",
+      "importance": "standard",
+      "tags": ["ipo", "anthropic", "citigroup", "finance"]
+    },
+    {
+      "id": "2026-08-25-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-25-openai-o3-retirement-reminder",
+      "type": "followup",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "[続報] o3 が明日 (8/26) ChatGPT から退場、DALL·E GPT は 8/30",
+      "summary": "予告通り o3 が 8/26 に ChatGPT から退場。API スナップショットは 12/11 まで継続。DALL·E GPT は 8/30 退場予定。",
+      "url": "https://www.orcarouter.ai/blog/o3-chatgpt-retirement-august-26",
+      "related_date": "2026-08-20",
+      "importance": "minor",
+      "tags": ["openai", "o3", "deprecation", "chatgpt"]
+    },
+    {
+      "id": "2026-08-25-google-no-update",
+      "type": "no-update",
+      "vendor": "Google / Google DeepMind",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-25-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-25-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-25-github-ai-job-search",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "MadsLorentzen/ai-job-search — Claude Code 求職自動化フレームワーク",
+      "summary": "Claude Code を活用した求職フレームワーク。求人評価・CV カスタマイズ・志望動機・面接準備を自動化。★34K, +378 today。",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "importance": "standard",
+      "tags": ["github-trending", "claude-code", "job-search", "automation"]
+    },
+    {
+      "id": "2026-08-25-github-openmontage",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "calesthio/OpenMontage — 世界初のオープンソース・エージェンティック動画制作システム",
+      "summary": "12 パイプライン・52 ツール・700+ エージェントスキルで台本から最終レンダリングまで自律実行。★50K, +352 today。",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "importance": "standard",
+      "tags": ["github-trending", "video-production", "agentic", "open-source"]
+    },
+    {
+      "id": "2026-08-25-github-agent-reach",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "Agent-Reach — ソーシャルメディア横断 AI エージェント (API 料金なし)",
+      "summary": "Twitter・Reddit・YouTube・GitHub 等を横断する AI エージェントツール。API 課金なしで各プラットフォームを操作。★74.8K, +365 today。",
+      "url": "https://github.com/trending/python?since=daily",
+      "importance": "standard",
+      "tags": ["github-trending", "social-media", "agent", "automation"]
+    },
+    {
+      "id": "2026-08-25-github-ai-engineering-from-scratch",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "ai-engineering-from-scratch — AI システム構築・デプロイ包括学習リソース",
+      "summary": "基礎から本番運用まで AI エンジニアリングを体系的にカバーする学習リファレンス。★48K, +330 today。",
+      "url": "https://github.com/trending/python?since=daily",
+      "importance": "standard",
+      "tags": ["github-trending", "learning", "ai-engineering", "resource"]
+    },
+    {
+      "id": "2026-08-25-paper-llmrouter",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "LLMRouter: Unified Infrastructure for Developing, Evaluating, and Deploying LLM Routers",
+      "summary": "LLM ルーティングを統一逐次決定として定式化。16+ ルーティング手法・xRouteBench を含むオープンソースフレームワーク。固定モデル基準比 14.6% 改善。",
+      "url": "https://arxiv.org/abs/2608.06867",
+      "importance": "standard",
+      "tags": ["paper", "llm-router", "benchmark", "inference-optimization"]
+    }
+  ]
+}
