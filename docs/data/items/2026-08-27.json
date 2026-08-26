@@ -1,0 +1,136 @@
+{
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27T08:15:00+09:00",
+  "sources_checked": 20,
+  "sources_failed": 7,
+  "items": [
+    {
+      "id": "2026-08-27-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-27-openai-jalapeno-chip",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "Jalapeño カスタム推論チップを Hot Chips 2026 で公開 — Nvidia GB200/GB300 比で最大 1.9 倍スループット",
+      "summary": "Broadcom 共同開発の推論専用 ASIC。電力効率 1.5〜1.9 倍・遅延 1.7〜3.6 倍改善。2026 年末に小規模展開、2027 年に本格展開。",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
+      "importance": "highlight",
+      "tags": ["chip", "hardware", "inference", "openai", "nvidia", "broadcom"]
+    },
+    {
+      "id": "2026-08-27-google-no-update",
+      "type": "no-update",
+      "vendor": "Google / Google DeepMind",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-27-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-27-meta-hatch-agent",
+      "type": "new",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "消費者向け AI エージェント「Hatch」を数週間以内に Instagram でローンチ — タスク代行と月額最大 $199.99 プレミアム tier を計画",
+      "summary": "Instagram 上で動作し外部サービスを横断タスク実行する AI エージェント。月額最大 $199.99 のプレミアム tier を検討。新モデル Watermelon も 10 月リリース予定。",
+      "url": "https://www.theinformation.com/articles/meta-plans-launch-hatch-ai-agent-platform-coming-weeks",
+      "importance": "highlight",
+      "tags": ["agent", "meta", "consumer-ai", "instagram", "monetization", "hatch"]
+    },
+    {
+      "id": "2026-08-27-github-tradingagents",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "TauricResearch/TradingAgents — マルチエージェント LLM 金融取引フレームワーク (+826 today)",
+      "summary": "複数エージェントが市場分析・戦略立案・注文執行を協調して担う自律取引フレームワーク。★100,737。",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "importance": "standard",
+      "tags": ["github-trending", "multi-agent", "finance", "llm"]
+    },
+    {
+      "id": "2026-08-27-github-spec-kit",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "github/spec-kit — Spec-Driven Development ツールキット (+316 today)",
+      "summary": "AI エージェントが仕様書を起点に実装・テスト・レビューを自律的に進めるワークフローを標準化した GitHub 製 OSS。★131,686。",
+      "url": "https://github.com/github/spec-kit",
+      "importance": "standard",
+      "tags": ["github-trending", "spec-driven", "agent", "development"]
+    },
+    {
+      "id": "2026-08-27-github-claude-plugins-official",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "anthropics/claude-plugins-official — Claude Code 向け公式プラグインディレクトリ (+307 today)",
+      "summary": "Anthropic 公式の Claude Code プラグインディレクトリ。開発者ツール・ワークフロー統合を厳選収録。★34,350。",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "importance": "standard",
+      "tags": ["github-trending", "anthropic", "claude-code", "plugins"]
+    },
+    {
+      "id": "2026-08-27-github-scientific-agent-skills",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "K-Dense-AI/scientific-agent-skills — 科学研究向けエージェントスキルライブラリ (+130 today)",
+      "summary": "163 以上の検証済みスキルを収録。仮説生成・文献調査・実験設計を AI エージェントで自動化。★34,709。",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "importance": "minor",
+      "tags": ["github-trending", "science", "agent-skills", "research"]
+    },
+    {
+      "id": "2026-08-27-paper-apodex",
+      "type": "new",
+      "vendor": "Research",
+      "section": "papers",
+      "title": "Apodex 1.1 — 長期複雑タスクに対するエージェント協調の実行環境スケール手法",
+      "summary": "実行環境のスケールと自動状態回復により、長期エージェントが持続的かつ検証可能な進捗を達成する手法。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["paper", "long-horizon", "agent", "execution"]
+    },
+    {
+      "id": "2026-08-27-paper-statem",
+      "type": "new",
+      "vendor": "Research",
+      "section": "papers",
+      "title": "StateM: Durable Long-Horizon Agent Execution のランタイムシステム",
+      "summary": "永続状態・リカバリブルなランブック・手続き制御をモデル重みの変更なしに提供し、長期エージェント実行の信頼性を向上。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["paper", "agent-runtime", "long-horizon", "state-management"]
+    },
+    {
+      "id": "2026-08-27-media-jalapeno-nvidia",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "media",
+      "title": "[CNBC] OpenAI's Jalapeño AI chip brings new 'threat' to Nvidia margins as custom silicon gains ground",
+      "summary": "カスタムシリコンが GPU 市場のマージン構造に与える中長期的な影響を分析。",
+      "url": "https://www.cnbc.com/2026/08/26/openai-jalapeno-ai-chip-nvidia.html",
+      "importance": "standard",
+      "tags": ["media", "openai", "chip", "nvidia", "market"]
+    },
+    {
+      "id": "2026-08-27-media-mturk-shutdown",
+      "type": "new",
+      "vendor": "Amazon",
+      "section": "media",
+      "title": "[Tech Startups] Amazon is shutting down Mechanical Turk after 21 years as AI reshapes crowdsourced work",
+      "summary": "AWS MTurk が 9/30 閉鎖。LLM が MTurk ワーカーの最大 46% のタスクを代替していた EPFL 調査も紹介。",
+      "url": "https://techstartups.com/2026/08/26/amazon-is-shutting-down-mechanical-turk-after-21-years-as-ai-reshapes-crowdsourced-work/",
+      "importance": "standard",
+      "tags": ["media", "amazon", "mturk", "ai-displacement", "crowdsourcing"]
+    }
+  ]
+}
