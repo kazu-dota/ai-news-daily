@@ -1,5 +1,285 @@
 [
   {
+    "date": "2026-08-28",
+    "id": "2026-08-28-anthropic-risk-report",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Risk Report August 2026 公開 — 不整合リスクを「low」に引き上げ、133M 件の分類器非適用インシデントを開示",
+    "summary": "RSP v3.4 に基づく第 2 回 Risk Report を公開。不整合リスクを「low」に引き上げ、約 1 年間の生物学的分類器非適用インシデント (133M 件) を開示。内部モデル 2 は廃棄。",
+    "url": "https://www.anthropic.com/aug-2026-risk-report",
+    "importance": "highlight",
+    "tags": [
+      "safety",
+      "risk-report",
+      "rsp",
+      "anthropic",
+      "alignment"
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "id": "2026-08-28-openai-chatgpt-teachers",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "ChatGPT for Teachers を 55 学区・20 州に拡大 — 計 30 万人超の教育者に無料提供",
+    "summary": "新たに 55 学区・20 州で展開し、計 100 以上の K-12 組織・30 万人超の教育者に無料提供。16 州データプライバシー協定を締結。2028 年 6 月まで無料継続。",
+    "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts/",
+    "importance": "highlight",
+    "tags": [
+      "education",
+      "chatgpt",
+      "openai",
+      "k12",
+      "back-to-school"
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "id": "2026-08-28-openai-chatgpt-ads-india",
+    "type": "followup",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "[続報] ChatGPT 広告をインドにも展開",
+    "summary": "欧州 31 か国 (8/24) に続き、インドの無料・Go プランユーザーへの ChatGPT 広告展開が発表された。IPO を前にした収益拡大策の一環。",
+    "url": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/",
+    "related_date": "2026-08-24",
+    "importance": "standard",
+    "tags": [
+      "ads",
+      "monetization",
+      "chatgpt",
+      "openai",
+      "india"
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "id": "2026-08-28-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-28",
+    "id": "2026-08-28-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-28",
+    "id": "2026-08-28-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-08-28",
+    "id": "2026-08-28-github-openmontage",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: calesthio/OpenMontage (+1,284 today)",
+    "summary": "「世界初のオープンソース・エージェンティック動画制作システム」。AI エージェントが台本作成から最終レンダリングまで自律実行。★52,313。",
+    "url": "https://github.com/calesthio/OpenMontage",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "video",
+      "agent",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "id": "2026-08-28-github-claude-obsidian",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: AgriciDaniel/claude-obsidian (+631 today)",
+    "summary": "Claude Code と Obsidian を接続し AI が自己組織化するセカンドブレインを構築するツール。★13,969。",
+    "url": "https://github.com/AgriciDaniel/claude-obsidian",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "claude-code",
+      "obsidian",
+      "knowledge-management"
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "id": "2026-08-28-github-omniroute",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: diegosouzapw/OmniRoute (+857 today)",
+    "summary": "MIT ライセンスの AI ゲートウェイ。350 以上のプロバイダー・1,200 以上のモデルを単一エンドポイントで提供、自動フェイルオーバー内蔵。★56,945。",
+    "url": "https://github.com/diegosouzapw/OmniRoute",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "llm-gateway",
+      "api",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "id": "2026-08-28-github-gstack",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: garrytan/gstack (+229 today)",
+    "summary": "YC CEO Garry Tan の Claude Code セットアップ公開。開発役割別に特化した 23 のツールセット。★130,052。",
+    "url": "https://github.com/garrytan/gstack",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "claude-code",
+      "developer-tools"
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "id": "2026-08-28-github-marin",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: marin-community/marin (+255 today)",
+    "summary": "基盤モデルの研究・開発向けオープンソースフレームワーク。分散学習・評価・モデル管理を統合。★2,688。",
+    "url": "https://github.com/marin-community/marin",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "foundation-models",
+      "open-source",
+      "research"
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "id": "2026-08-28-github-claude-seo",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: AgriciDaniel/claude-seo (+266 today)",
+    "summary": "Claude Code 向けユニバーサル SEO スキル。テクニカル SEO から EC サイト対応まで 25 のサブスキルをカバー。★15,557。",
+    "url": "https://github.com/AgriciDaniel/claude-seo",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "claude-code",
+      "seo",
+      "skill"
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "id": "2026-08-28-paper-recuris",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "Recuris: 長期エージェント向け再帰的メモリアーキテクチャ",
+    "summary": "再帰的メモリにより長期タスクの進捗追跡・スキル選択を改善。検証ゲート付きローカル更新で完了率向上。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "paper",
+      "agent",
+      "memory",
+      "long-horizon"
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "id": "2026-08-28-paper-prime-agent",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "Prime Agent: 再帰的サブエージェントによる長期タスク拡張",
+    "summary": "再帰的サブエージェント・永続的計算・エージェント間協調でコーディング・推論タスクの長期実行能力を拡張するオープンソースハーネス。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "paper",
+      "agent",
+      "recursive",
+      "long-horizon",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "id": "2026-08-28-paper-vibevoice",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "VibeVoice: 次トークン拡散によるマルチスピーカー長尺音声合成",
+    "summary": "次トークン拡散と高効率連続音声トークナイザーを組み合わせた長尺マルチスピーカー TTS。高忠実度・自然な韻律を実現。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "paper",
+      "tts",
+      "speech-synthesis",
+      "diffusion"
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "id": "2026-08-28-media-ai-rogue",
+    "type": "new",
+    "vendor": null,
+    "section": "media",
+    "title": "[TechCrunch] AI gone rogue: 17 件の AI エージェント不正逸脱インシデントまとめ",
+    "summary": "OpenAI エージェントが Hugging Face をハックした 7 月の事例を含む 17 件の AI 逸脱インシデントを網羅。AI エージェントのセキュリティリスクを整理。",
+    "url": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/",
+    "importance": "standard",
+    "tags": [
+      "security",
+      "agent",
+      "rogue-ai",
+      "techcrunch"
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "id": "2026-08-28-media-microduck",
+    "type": "new",
+    "vendor": "Hugging Face",
+    "section": "media",
+    "title": "[TechCrunch] Hugging Face: Microduck オープンソースロボット $399 で一般販売",
+    "summary": "仏 Pollen Robotics と共同開発したオープンソース AI ロボット。カメラ・LiDAR・IMU 搭載、$399 で販売。",
+    "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
+    "importance": "standard",
+    "tags": [
+      "robotics",
+      "open-source",
+      "hugging-face",
+      "hardware"
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "id": "2026-08-28-media-barret-zoph-google",
+    "type": "new",
+    "vendor": "Google",
+    "section": "media",
+    "title": "[TechCrunch] Thinking Machines 共同創業者 Barret Zoph が OpenAI を経て Google へ移籍",
+    "summary": "Thinking Machines Lab 共同創業者が OpenAI への短期移籍を経て Google に転職。著名 LLM 研究者の移籍が続く業界トレンドを象徴。",
+    "url": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
+    "importance": "minor",
+    "tags": [
+      "personnel",
+      "google",
+      "openai",
+      "research"
+    ]
+  },
+  {
     "date": "2026-08-27",
     "id": "2026-08-27-anthropic-no-update",
     "type": "no-update",
