@@ -1,0 +1,230 @@
+{
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T08:06:00+09:00",
+  "sources_checked": 26,
+  "sources_failed": 18,
+  "items": [
+    {
+      "id": "2026-08-29-anthropic-pentagon",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Pentagon の「サプライチェーンリスク」指定に連邦地裁が違法判決 — 第一修正条項違反と認定",
+      "summary": "カリフォルニア連邦地裁が DOD の Anthropic リスク指定を違法と裁定。自律兵器・大規模監視禁止という安全条件を守った企業への政府報復を初めて司法が否定した。",
+      "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+      "importance": "highlight",
+      "tags": ["legal", "pentagon", "safety", "anthropic", "first-amendment"]
+    },
+    {
+      "id": "2026-08-29-anthropic-nscale",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "英国 Nscale と 450 億ドル・6 年間のコンピュート調達契約を締結",
+      "summary": "ウェストバージニア州のデータセンターに 460 MW・Nvidia Vera Rubin チップを確保。2027 年後半稼働予定。IPO 前のコンピュート確保を積極化。",
+      "url": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
+      "importance": "highlight",
+      "tags": ["compute", "infrastructure", "nscale", "anthropic", "ipo", "nvidia"]
+    },
+    {
+      "id": "2026-08-29-anthropic-claude-code",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Claude Code v2.1.x — 制限モード・セッション間メッセージング等を追加",
+      "summary": "Restricted Mode (強力ツールを無効化する安全モード)、セッション間メッセージング (SendMessage/ListAgents)、Enterprise 向け利用クレジットを追加。",
+      "url": "https://www.explainx.ai/blog/claude-code-cross-session-messaging-list-agents-2026",
+      "importance": "standard",
+      "tags": ["claude-code", "restricted-mode", "multi-agent", "anthropic", "release"]
+    },
+    {
+      "id": "2026-08-29-openai-brazil",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "ブラジルに商業拠点を開設 — ChatGPT 週間 MAU 世界 3 位",
+      "summary": "サンパウロに現地法人を設立。ブラジルは 1 日 2.15 億メッセージを送信し、週間 MAU 世界 3 位。過去 1 年で利用者数はほぼ倍増。",
+      "url": "https://openai.com/index/expanding-our-presence-in-brazil/",
+      "importance": "standard",
+      "tags": ["openai", "brazil", "expansion", "chatgpt"]
+    },
+    {
+      "id": "2026-08-29-openai-dalle-retirement",
+      "type": "followup",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "[続報] 公式 DALL-E GPT が明日 8/30 に退場",
+      "summary": "ChatGPT 内の公式 DALL-E GPT が 8 月 30 日に退場。画像生成は ChatGPT Images へ移行。ユーザー作成 GPT は継続。",
+      "url": "https://windowsreport.com/openai-will-retire-the-official-dalle-gpt-on-august-30/",
+      "related_date": "2026-08-25",
+      "importance": "minor",
+      "tags": ["openai", "dall-e", "deprecation", "chatgpt"]
+    },
+    {
+      "id": "2026-08-29-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-29-microsoft-guild-copilots",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "業界特化型「Guild Copilots」を正式発表 — 金融・医療・製造など 6 業界",
+      "summary": "プロプライエタリデータセットで追加学習した業界特化型 Copilot の新ティア。金融サービス・医療・製造など 6 業界に展開。FY26 末に有料席 3,000 万超、大企業 7 倍成長。",
+      "url": "https://www.aguidetocloud.com/blog/microsoft-365-copilot-august-2026-updates/",
+      "importance": "highlight",
+      "tags": ["microsoft", "copilot", "guild", "industry", "enterprise"]
+    },
+    {
+      "id": "2026-08-29-nvidia-quarter",
+      "type": "new",
+      "vendor": "Nvidia",
+      "section": "vendor",
+      "title": "Q2 FY27 で売上 $96.2B・前年比 +106% の記録的決算 — クラウド収益分配プログラムを一時停止",
+      "summary": "過去最高の $96.2B 売上 (+106% YoY) を計上する一方、7 月開始のクラウド融資スキームを独占懸念で一時停止。最大 50% 収益分配条項が問題視された。",
+      "url": "https://americanbazaaronline.com/2026/08/28/nvidia-pauses-ai-cloud-financing-deals-487161/",
+      "importance": "highlight",
+      "tags": ["nvidia", "earnings", "cloud", "antitrust", "infrastructure"]
+    },
+    {
+      "id": "2026-08-29-meta-hatch-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-29-meta-smart-glasses",
+      "type": "new",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "AI スマートグラスの録画インジケーター迂回バグをファームウェア修正",
+      "summary": "インジケーターを覆っても録画継続できた問題を修正。覆われると録画が自動停止するよう対応。スマートグラスのプライバシー設計の信頼性が問われた。",
+      "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+      "importance": "minor",
+      "tags": ["meta", "smart-glasses", "privacy", "firmware"]
+    },
+    {
+      "id": "2026-08-29-github-livekit-agents",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "livekit/agents — リアルタイム音声 AI エージェント構築フレームワーク",
+      "summary": "マルチメディア対応でボイスエージェントの本番デプロイを効率化するフレームワーク。(★13,322)",
+      "url": "https://github.com/livekit/agents",
+      "importance": "standard",
+      "tags": ["github-trending", "voice-agent", "realtime", "python"]
+    },
+    {
+      "id": "2026-08-29-github-ai-trader",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "HKUDS/AI-Trader — AI 駆動のフルオート取引システム",
+      "summary": "エージェントネイティブ設計で市場分析・注文執行を自律実行するトレーディングシステム。(★21,773)",
+      "url": "https://github.com/HKUDS/AI-Trader",
+      "importance": "standard",
+      "tags": ["github-trending", "trading", "agent", "python"]
+    },
+    {
+      "id": "2026-08-29-github-graphify",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "Graphify-Labs/graphify — コードベースをクエリ可能な知識グラフに変換",
+      "summary": "Claude・Cursor・Gemini との統合を提供し、コードベース全体を Graph RAG で探索可能にするツール。(★111,993)",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "importance": "standard",
+      "tags": ["github-trending", "knowledge-graph", "rag", "code-search", "python"]
+    },
+    {
+      "id": "2026-08-29-github-screenshot-to-code",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "abi/screenshot-to-code — スクリーンショットを HTML/Tailwind/React/Vue コードに変換",
+      "summary": "スクリーンショットから実装コードを自動生成する定番ツール。(★75,529)",
+      "url": "https://github.com/abi/screenshot-to-code",
+      "importance": "minor",
+      "tags": ["github-trending", "code-generation", "ui", "python"]
+    },
+    {
+      "id": "2026-08-29-github-gitnexus",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitNexus — ブラウザ完結のクライアントサイド知識グラフ作成ツール",
+      "summary": "Graph RAG でコードベース・ドキュメントを探索可能なブラウザ内知識グラフツール。(★46,147)",
+      "url": "https://github.com/GitNexus",
+      "importance": "standard",
+      "tags": ["github-trending", "knowledge-graph", "browser", "typescript"]
+    },
+    {
+      "id": "2026-08-29-github-chrome-devtools-mcp",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "chrome-devtools-mcp — AI コーディングエージェント向け Chrome DevTools 統合 MCP",
+      "summary": "Chrome DevTools を AI コーディングエージェントから操作可能にする MCP サーバー。(★49,958)",
+      "url": "https://github.com/chrome-devtools-mcp",
+      "importance": "standard",
+      "tags": ["github-trending", "mcp", "devtools", "chrome", "typescript"]
+    },
+    {
+      "id": "2026-08-29-github-worldmonitor",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "worldmonitor — AI ニュース集約・地政学モニタリングのリアルタイムダッシュボード",
+      "summary": "AI を活用したニュース集約と地政学的モニタリングをリアルタイムで提供するインテリジェンスダッシュボード。(★84,683)",
+      "url": "https://github.com/worldmonitor",
+      "importance": "minor",
+      "tags": ["github-trending", "news-aggregation", "geopolitics", "typescript"]
+    },
+    {
+      "id": "2026-08-29-paper-voicemem",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "VoiceMem — デュアルブレイン・ストリーミングメモリアーキテクチャの音声言語モデル",
+      "summary": "感情パーソナライゼーションと長期対話での記憶保持精度を向上させ、リアルタイム効率も改善するストリーミングメモリ手法。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["paper", "speech", "memory", "personalization", "streaming"]
+    },
+    {
+      "id": "2026-08-29-paper-freetoken",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "FreeToken — エッジ特化型 Mixture-of-Experts サービングシステム",
+      "summary": "異種ローカルハードウェア上に計算とモデル状態を動的マッピングし、個人マシン上で大規模オープンウェイトモデルを稼働させる。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["paper", "moe", "edge", "local-llm", "inference"]
+    },
+    {
+      "id": "2026-08-29-paper-ai-infra-guard",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "AI-Infra-Guard — AI インフラセキュリティの多層的検出フレームワーク",
+      "summary": "インフラ・プロトコル・エージェント挙動・モデルの各レイヤーで横断的に脅威を検知するオープンソースセキュリティフレームワーク。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["paper", "security", "infrastructure", "agent", "open-source"]
+    },
+    {
+      "id": "2026-08-29-media-pew-health-ai",
+      "type": "new",
+      "vendor": null,
+      "section": "media",
+      "title": "[Pew Research] 34% の米成人が健康関連タスクに AI チャットボットを利用",
+      "summary": "3,488 人調査で健康情報取得 (28%)・症状把握 (25%)・低コスト情報アクセス (22%) が主な用途。医療周辺での AI 利用の急速な普及を示す。",
+      "url": "https://aiweekly.co/ai-news-today",
+      "importance": "standard",
+      "tags": ["media", "health", "survey", "pew-research", "adoption"]
+    }
+  ]
+}
