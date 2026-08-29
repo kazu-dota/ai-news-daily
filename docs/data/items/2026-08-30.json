@@ -1,0 +1,159 @@
+{
+  "date": "2026-08-30",
+  "generated_at": "2026-08-30T08:05:00+09:00",
+  "sources_checked": 26,
+  "sources_failed": 18,
+  "items": [
+    {
+      "id": "2026-08-30-anthropic-claudeforce",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[未掲載] Anthropic × Salesforce: 「Claudeforce」発表 — Claude が Salesforce エコシステムのデフォルト推論モデルに",
+      "summary": "Salesforce と Anthropic が戦略的提携「Claudeforce」を発表。Claude が Agentforce・Slack・開発者ツールを含む Salesforce 全体のデフォルト推論エンジンになり、37 の販売スキルを即日提供。9 月にオープンベータ。",
+      "url": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/",
+      "importance": "highlight",
+      "tags": ["partnership", "salesforce", "enterprise", "crm", "anthropic", "agentforce"]
+    },
+    {
+      "id": "2026-08-30-anthropic-mhs",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[未掲載] Anthropic: 物理デバイス制御標準「Model Hardware Standard (MHS)」研究プレビュー開始",
+      "summary": "AI エージェントが顕微鏡・ロボットアームなど物理機器を安全に操作するための共通仕様。統合コストを数日から数時間に短縮。将来オープンソース化予定・モデル非依存。",
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "importance": "highlight",
+      "tags": ["hardware", "robotics", "lab-automation", "standard", "open-source", "anthropic"]
+    },
+    {
+      "id": "2026-08-30-openai-dalle-gpt-retired",
+      "type": "followup",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "[続報] OpenAI: 公式 DALL-E GPT が本日 (8/30) 正式退場",
+      "summary": "8/25・8/29 で報じた退場が本日実行。画像生成は ChatGPT Images へ移行済み。ユーザー作成 GPT は継続利用可能。",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "related_date": "2026-08-25",
+      "importance": "minor",
+      "tags": ["dall-e", "openai", "chatgpt", "deprecation"]
+    },
+    {
+      "id": "2026-08-30-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-30-microsoft-copilot-aug-update",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "[未掲載] Microsoft (GitHub Copilot): 8 月大型アップデート — 組織カスタムエージェント・思考量コントロール・Git エージェント・MAI-Code-1-Flash",
+      "summary": "組織横断カスタムエージェント公開機能・推論思考量 Low/Medium/High 制御・PR 前のインライン Git レビューエージェント・Microsoft 製 MAI-Code-1-Flash がデフォルトモデルに。GitHub Copilot が 5,000 万ユーザー突破。",
+      "url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2/",
+      "importance": "highlight",
+      "tags": ["github-copilot", "microsoft", "agents", "model-default", "mai-code", "enterprise"]
+    },
+    {
+      "id": "2026-08-30-microsoft-other-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-30-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-30-community-openMAIC",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "THU-MAIC/OpenMAIC — マルチエージェント対話型学習プラットフォーム",
+      "summary": "清華大学 MAIC 発。複数エージェントが教師・学生役を担うワンクリック没入型授業体験 OSS。+907 today。",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "importance": "standard",
+      "tags": ["education", "multi-agent", "open-source", "github-trending"]
+    },
+    {
+      "id": "2026-08-30-community-cursor-plugins",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "cursor/plugins — Cursor 公式プラグイン仕様と公式プラグイン集",
+      "summary": "AI コーディングエージェント Cursor の拡張仕様を標準化した公式リポジトリ。+257 today。",
+      "url": "https://github.com/cursor/plugins",
+      "importance": "standard",
+      "tags": ["cursor", "plugins", "ai-coding", "github-trending"]
+    },
+    {
+      "id": "2026-08-30-community-google-skills",
+      "type": "new",
+      "vendor": "Google",
+      "section": "community",
+      "title": "google/skills — Google プロダクト向けエージェントスキルライブラリ (公式)",
+      "summary": "Google 製品・技術に対応したエージェントスキルを収録した Google 公式 OSS。AI エージェントと Google サービスの統合を加速。+57 today。",
+      "url": "https://github.com/google/skills",
+      "importance": "standard",
+      "tags": ["google", "skills", "agents", "open-source", "github-trending"]
+    },
+    {
+      "id": "2026-08-30-community-moneyprinterturbo",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "harry0703/MoneyPrinterTurbo — AI によるショート動画自動生成",
+      "summary": "トピックから HD ショート動画を AI が自動生成。スクリプト・素材・音声・字幕・BGM を一気通貫処理。+389 today。",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "importance": "minor",
+      "tags": ["video-generation", "ai-automation", "github-trending"]
+    },
+    {
+      "id": "2026-08-30-papers-phizero",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "PhiZero: 物理-言語表現を用いた世界ダイナミクス推論型動画生成モデル",
+      "summary": "ビデオから離散的な物理-言語表現を学習し、将来フレーム生成前に世界ダイナミクスを推論する手法。時間的整合性と対話的シミュレーション能力を向上。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["video-generation", "world-model", "physics", "research"]
+    },
+    {
+      "id": "2026-08-30-papers-zero-wam",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "Zero-WAM: 人間ビデオ in-context ガイダンスによるゼロショットロボット操作",
+      "summary": "因果的ビデオ-アクションモデルに人間ビデオを条件付けし、未知タスクのロボット操作をゼロショットで実現。自動生成データセットと未来チャンク予測で支持。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["robotics", "manipulation", "zero-shot", "video", "research"]
+    },
+    {
+      "id": "2026-08-30-media-claudeforce",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "media",
+      "title": "Salesforce's Claudeforce Deal With Anthropic Signals the End of Model-Agnostic Enterprise AI",
+      "summary": "大規模 SaaS が特定 LLM をデフォルトに据える動きを「モデル非依存時代の終焉」として分析。",
+      "url": "https://finance.yahoo.com/technology/ai/articles/salesforce-claudeforce-deal-anthropic-signals-102859998.html",
+      "importance": "standard",
+      "tags": ["enterprise", "anthropic", "salesforce", "media"]
+    },
+    {
+      "id": "2026-08-30-media-mhs",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "media",
+      "title": "Anthropic pushes into physical world with new standard to help AI agents operate machines",
+      "summary": "MHS の詳細と Anthropic の物理世界拡張戦略を解説。実験室機器統合の事例を紹介。",
+      "url": "https://www.cnbc.com/2026/08/27/anthropic-pushes-into-physical-world-with-new-standard-to-help-ai-agents-operate-machines.html",
+      "importance": "standard",
+      "tags": ["anthropic", "mhs", "hardware", "media", "cnbc"]
+    }
+  ]
+}

@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-08-30](summaries/2026/08/2026-08-30.md) — Anthropic × Salesforce「Claudeforce」— Claude が Salesforce エコシステムのデフォルト推論モデルに / Anthropic: 物理デバイス制御標準「MHS」研究プレビュー開始 / GitHub Copilot: 組織カスタムエージェント・思考量制御・MAI-Code-1-Flash デフォルト化
 - [2026-08-29](summaries/2026/08/2026-08-29.md) — Anthropic: Pentagon「サプライチェーンリスク」指定に連邦地裁が違法判決 (第一修正条項違反) / Anthropic: 英国 Nscale と 450 億ドル・6 年コンピュート調達契約 / Nvidia: $96.2B 記録的決算後にクラウド収益分配プログラムを一時停止
 - [2026-08-28](summaries/2026/08/2026-08-28.md) — Anthropic: Risk Report August 2026 公開・不整合リスクを「low」に引き上げ・生物学的分類器 133M 件非適用インシデントを開示 / OpenAI: ChatGPT for Teachers を 55 学区・20 州に拡大 (30 万人超) / GitHub Trending: OpenMontage (+1,284)・OmniRoute (+857)・claude-obsidian (+631)
 - [2026-08-27](summaries/2026/08/2026-08-27.md) — OpenAI: Jalapeño カスタム推論チップが Nvidia GB200/GB300 を上回る (Hot Chips 2026 / Broadcom 共同開発・電力効率最大 1.9 倍) / Meta: 消費者向け AI エージェント「Hatch」を Instagram で近日ローンチ・月額最大 $199.99 プレミアムプラン検討 / Amazon Mechanical Turk が 9/30 閉鎖 (21 年の歴史に幕)
 - [2026-08-25](summaries/2026/08/2026-08-25.md) — Anthropic: Google TPU チーフ Amir Salek を採用・自社チップ開発部門を本格始動 (8/21 未掲載) / Anthropic IPO: Citigroup が 4 番目のリード銀行に、月内 S-1 提出を検討 / GitHub Trending: OpenMontage (世界初オープンソース・エージェンティック動画制作) ほか
 - [2026-08-24](summaries/2026/08/2026-08-24.md) — OpenAI: ChatGPT 広告が欧州 31 か国で本日正式ローンチ (GDPR 準拠二層プライバシー構造・文脈型広告はオプトイン不要) / GitHub Trending: free-claude-code (+1,040 today) / SSI 初モデル計画・依然公式確認なし
 - [2026-08-23](summaries/2026/08/2026-08-23.md) — Anthropic: computer use・Skills API・Files API が Claude Platform で一挙 GA (8/20 未掲載、Microsoft Foundry でも提供) / OpenAI: GPT-5.6 Sol API 価格 20%超引き下げ (3 か月限定) / OpenAI: Zero Data Retention for frontier models (8/19 未掲載)
-- [2026-08-22](summaries/2026/08/2026-08-22.md) — Anthropic: Claude が創薬 15 ターゲット中 14 件でタンパク質結合体を自律設計・業界平均 2 倍超の命中率をウェットラボで実証 / Nvidia: Poolside と $60 億ライセンス + 韓国 AI チップ Rebellions と買収協議 / xAI: Grok 4.6 が Amazon Bedrock で GA
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
