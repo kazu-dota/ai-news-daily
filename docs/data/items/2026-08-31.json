@@ -1,0 +1,137 @@
+{
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T08:07:00+09:00",
+  "sources_checked": 26,
+  "sources_failed": 19,
+  "items": [
+    {
+      "id": "2026-08-31-xai-grok46-cloud",
+      "type": "new",
+      "vendor": "xAI",
+      "section": "vendor",
+      "title": "[未掲載] xAI: Grok 4.6 が Microsoft Foundry・Google Enterprise Agent Platform に展開 (8/26-27)",
+      "summary": "Grok 4.6 が Microsoft Foundry (8/26) と Google Enterprise Agent Platform (8/27) に展開完了。500k コンテキスト・設定可能な推論レベルでエンタープライズ利用可能に。マルチクラウド対応で B2B 収益基盤を強化。",
+      "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/grok-4-6-comes-to-microsoft-foundry-models-built-for-long-horizon-reasoning-and-/4547578",
+      "importance": "highlight",
+      "tags": ["xai", "grok", "microsoft-foundry", "google-cloud", "enterprise", "multicloud"]
+    },
+    {
+      "id": "2026-08-31-mistral-humain",
+      "type": "new",
+      "vendor": "Mistral",
+      "section": "vendor",
+      "title": "[未掲載] Mistral × HUMAIN: 数億ユーロのソブリン AI パートナーシップ — サウジアラビア向け独自 AI インフラ・モデル開発 (8/24)",
+      "summary": "Mistral と HUMAIN (サウジアラビア国家 AI 機関) が数億ユーロ規模の戦略的提携を締結。AI インフラ整備・モデル共同開発・中東地域展開の 3 本柱。欧州系 AI が中東ソブリン需要を先行取り込み。",
+      "url": "https://mistral.ai/news/mistral-x-humain/",
+      "importance": "highlight",
+      "tags": ["mistral", "humain", "sovereign-ai", "saudi-arabia", "middle-east", "partnership"]
+    },
+    {
+      "id": "2026-08-31-alibaba-cloud-brazil",
+      "type": "new",
+      "vendor": "Alibaba Cloud",
+      "section": "vendor",
+      "title": "[未掲載] Alibaba Cloud: ブラジルに初の南米クラウドリージョン開設 (8/28)",
+      "summary": "Alibaba Cloud がブラジルに 2 データセンター構成の初南米リージョンを開設。エンタープライズ AI エージェントサービスを展開予定。AWS・Azure・Google との競合に中国クラウド大手が本格参戦。",
+      "url": "https://www.datacenterdynamics.com/en/news/alibaba-brazil/",
+      "importance": "highlight",
+      "tags": ["alibaba-cloud", "brazil", "south-america", "cloud", "ai-services", "infrastructure"]
+    },
+    {
+      "id": "2026-08-31-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-31-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-31-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-31-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-31-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-08-31-github-crawl4ai",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "crawl4ai — LLM 最適化 web クローラー (★80k, +229 today)",
+      "summary": "LLM 消費に最適化されたオープンソース web クローラー。エージェントの外部情報取得をサポート。",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "importance": "minor",
+      "tags": ["github-trending", "web-crawling", "llm", "open-source", "python"]
+    },
+    {
+      "id": "2026-08-31-github-last30days-skill",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "last30days-skill — Reddit/X/YouTube/HN 横断の過去 30 日研究集約エージェントスキル (★60k, +271 today)",
+      "summary": "複数ソーシャルメディアから指定トピックの過去 30 日分の議論・研究を自動集約・要約するエージェントスキル。",
+      "url": "https://github.com/trending/python?since=daily",
+      "importance": "minor",
+      "tags": ["github-trending", "agent", "research", "skills", "python"]
+    },
+    {
+      "id": "2026-08-31-github-firecrawl",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "firecrawl/firecrawl — LLM 向け検索・スクレイピング・Web インタラクション API (★174k, +436 today)",
+      "summary": "LLM エージェントが大規模に Web 情報を取得・インタラクトするためのコンテキスト API。エージェント用 Web 標準ツールとして急速に普及中。",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "importance": "minor",
+      "tags": ["github-trending", "web-scraping", "llm", "api", "typescript"]
+    },
+    {
+      "id": "2026-08-31-paper-jit-agent",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "JIT-Agent — LLM 向けアダプティブエージェントハーネスを動的合成",
+      "summary": "学習可能なモデルがオフザシェルフ LLM に適応するエージェントハーネスをジャストインタイムで合成。多様なモデル・タスクをまたいで性能を向上させることを実証。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["paper", "agent", "llm", "adaptive", "harness"]
+    },
+    {
+      "id": "2026-08-31-paper-llm-verifier",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "LLM-as-a-Verifier — 確率的検証フレームワークでエージェント正確性を向上",
+      "summary": "確率的検証フレームワークを多次元にスケールし、解の正確性評価と各種ベンチマークでのエージェント性能を改善するアプローチ。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["paper", "verification", "llm", "agent", "benchmark"]
+    },
+    {
+      "id": "2026-08-31-paper-150m-reasoning",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "150M パラメータ推論モデル — 再帰的潜在推論で ARC-AGI-1 新フロンティア達成",
+      "summary": "再帰的潜在推論と in-context learning を組み合わせた 150M パラメータの小型モデルが、ARC-AGI-1 においてコスト精度で新フロンティアを開拓。小規模モデルの推論能力向上を示す成果。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["paper", "reasoning", "small-model", "arc-agi", "efficiency"]
+    }
+  ]
+}
