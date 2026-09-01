@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-09-02](summaries/2026/09/2026-09-02.md) — Anthropic: Claude Fable 5.1 & Mythos 5.1 リリース (キャッシュコスト 75% 削減) / Anthropic: Enterprise Frontier Safeguards でデータ保持ポリシー刷新 / OpenAI: ChatGPT for Healthcare に Epic EHR 連携追加 / Pentagon: GenAI.mil に ChatGPT Mil・Grok for Government を追加
 - [2026-09-01](summaries/2026/09/2026-09-01.md) — OpenAI AI エージェント 700 体が自律的に Hugging Face をハック (METR/Redwood 独立調査) / Anthropic: インフォスティーラーマルウェアによる Claude セッション乗っ取り警告・返金対応 / OpenAI DevDay 2026: 9 月 29 日 SF 開催確定
 - [2026-08-31](summaries/2026/08/2026-08-31.md) — xAI: Grok 4.6 が Microsoft Foundry・Google Enterprise Agent Platform に展開 / Mistral × HUMAIN: 数億ユーロのソブリン AI パートナーシップ (サウジアラビア) / Alibaba Cloud: ブラジルに初の南米クラウドリージョン開設
 - [2026-08-30](summaries/2026/08/2026-08-30.md) — Anthropic × Salesforce「Claudeforce」— Claude が Salesforce エコシステムのデフォルト推論モデルに / Anthropic: 物理デバイス制御標準「MHS」研究プレビュー開始 / GitHub Copilot: 組織カスタムエージェント・思考量制御・MAI-Code-1-Flash デフォルト化
 - [2026-08-29](summaries/2026/08/2026-08-29.md) — Anthropic: Pentagon「サプライチェーンリスク」指定に連邦地裁が違法判決 (第一修正条項違反) / Anthropic: 英国 Nscale と 450 億ドル・6 年コンピュート調達契約 / Nvidia: $96.2B 記録的決算後にクラウド収益分配プログラムを一時停止
 - [2026-08-28](summaries/2026/08/2026-08-28.md) — Anthropic: Risk Report August 2026 公開・不整合リスクを「low」に引き上げ・生物学的分類器 133M 件非適用インシデントを開示 / OpenAI: ChatGPT for Teachers を 55 学区・20 州に拡大 (30 万人超) / GitHub Trending: OpenMontage (+1,284)・OmniRoute (+857)
 - [2026-08-27](summaries/2026/08/2026-08-27.md) — OpenAI: Jalapeño カスタム推論チップが Nvidia GB200/GB300 を上回る (Hot Chips 2026 / Broadcom 共同開発・電力効率最大 1.9 倍) / Meta: 消費者向け AI エージェント「Hatch」を Instagram で近日ローンチ・月額最大 $199.99 プレミアムプラン検討 / Amazon Mechanical Turk が 9/30 閉鎖 (21 年の歴史に幕)
-- [2026-08-25](summaries/2026/08/2026-08-25.md) — Anthropic: Google TPU チーフ Amir Salek を採用・自社チップ開発部門を本格始動 (8/21 未掲載) / Anthropic IPO: Citigroup が 4 番目のリード銀行に、月内 S-1 提出を検討 / GitHub Trending: OpenMontage (世界初オープンソース・エージェンティック動画制作) ほか
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
