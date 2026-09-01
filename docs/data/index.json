@@ -1,5 +1,315 @@
 [
   {
+    "date": "2026-09-02",
+    "id": "2026-09-02-anthropic-fable51",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Claude Fable 5.1 & Mythos 5.1 正式リリース",
+    "summary": "コーディング・知識業務・長期タスクで向上。キャッシュリードコスト 75% 削減。1M コンテキスト / 128K 出力。価格は Fable 5 から据え置き。",
+    "url": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
+    "importance": "highlight",
+    "tags": [
+      "model-release",
+      "anthropic",
+      "fable",
+      "mythos",
+      "pricing"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "id": "2026-09-02-anthropic-efs",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Enterprise Frontier Safeguards 発表 — データ保持ポリシーを刷新",
+    "summary": "企業が自社クラウドでデータを管理しつつ安全監視を自律実行できる EFS を無料提供。Fable 5 導入時の 30 日保持要件への企業反発に対応。",
+    "url": "https://www.cnbc.com/2026/09/01/anthropic-data-retention.html",
+    "importance": "highlight",
+    "tags": [
+      "enterprise",
+      "data-policy",
+      "security",
+      "anthropic"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "id": "2026-09-02-openai-epic-ehr",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "ChatGPT for Healthcare に Epic EHR 連携を追加",
+    "summary": "認可臨床医が Epic の 3.25 億人分の患者記録 (読み取り専用) を ChatGPT 内で参照可能に。UCSF Health がパイロット。",
+    "url": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
+    "importance": "highlight",
+    "tags": [
+      "healthcare",
+      "openai",
+      "epic",
+      "ehr",
+      "chatgpt"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "id": "2026-09-02-openai-webmcp",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "Site Tools (WebMCP) — ChatGPT エージェントが Web と直接連携",
+    "summary": "共有ライブページとログインセッション経由で ChatGPT エージェントが対応 Web サービスと双方向通信できる新機能。",
+    "url": "https://releasebot.io/updates/openai",
+    "importance": "standard",
+    "tags": [
+      "openai",
+      "agents",
+      "webmcp",
+      "chatgpt"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "id": "2026-09-02-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-02",
+    "id": "2026-09-02-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-02",
+    "id": "2026-09-02-meta-hatch",
+    "type": "followup",
+    "vendor": "Meta",
+    "section": "vendor",
+    "title": "[続報] Meta: Hatch AI エージェントプラットフォーム — 正式ローンチを一部報道 (公式未確認)",
+    "summary": "一部メディアがローンチを報道しているが Meta 公式発表は未確認。Instagram・WhatsApp 内でマルチサービスタスクを自律実行するエージェント。",
+    "url": "https://intellectia.ai/news/stock/meta-launches-hatch-consumer-ai-platform",
+    "related_date": "2026-09-01",
+    "importance": "standard",
+    "tags": [
+      "meta",
+      "hatch",
+      "agents",
+      "instagram",
+      "whatsapp"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "id": "2026-09-02-dod-genaimil",
+    "type": "new",
+    "vendor": "Other",
+    "section": "governance",
+    "title": "[未掲載] Pentagon: GenAI.mil に ChatGPT Mil・Grok for Government を追加 (8/31)",
+    "summary": "DoD 300 万人超が ChatGPT Mil と Grok for Government に IL5 CUI 認定でアクセス可能に。Anthropic の Claude は不在。",
+    "url": "https://defensescoop.com/2026/08/31/grok-chatgpt-added-to-genai-mil/",
+    "importance": "highlight",
+    "tags": [
+      "government",
+      "dod",
+      "pentagon",
+      "openai",
+      "xai",
+      "grok",
+      "genaimil"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "id": "2026-09-02-github-ods",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: ODS — PC をオンプレミス AI サーバーに変換",
+    "summary": "LLM 推論・チャット・音声エージェント・RAG を手元のハードウェアで動かせるオープンソースツール (+581 today)。",
+    "url": "https://github.com/trending/python?since=daily",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "local-llm",
+      "self-hosted"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "id": "2026-09-02-github-soup",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: Soup — YAML でファインチューニングを完結",
+    "summary": "YAML 一枚で LLM のファインチューニングを完結。レイヤーストリーミングで 8B モデルを中スペックHW で学習可能 (+266 today)。",
+    "url": "https://github.com/trending/python?since=daily",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "fine-tuning",
+      "llm"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "id": "2026-09-02-github-skillspector",
+    "type": "new",
+    "vendor": "Nvidia",
+    "section": "community",
+    "title": "GitHub Trending: SkillSpector — NVIDIA の AI エージェントスキル安全スキャナー",
+    "summary": "AI エージェントスキルのインストール前に悪意あるコードや脆弱性を自動検出する NVIDIA 発のオープンソース安全ツール (+129 today)。",
+    "url": "https://github.com/trending/python?since=daily",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "security",
+      "nvidia",
+      "agents",
+      "skills"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "id": "2026-09-02-github-orca",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: stablyai/orca — 並列コーディングエージェント統合 IDE",
+    "summary": "複数の AI コーディングエージェントを並列で調整・監視するための統合開発環境。大規模コードベースへの並列変更を一元管理 (+896 today)。",
+    "url": "https://github.com/stablyai/orca",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "coding-agents",
+      "ide",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "id": "2026-09-02-github-dify",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: langgenius/dify — エージェントワークフロー・RAG プラットフォーム",
+    "summary": "エージェントワークフロー・RAG パイプライン・多様な AI モデルとツールを統合するコラボレーション型プラットフォーム。本日再急騰 (+114 today)。",
+    "url": "https://github.com/langgenius/dify",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "rag",
+      "agents",
+      "workflow",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "id": "2026-09-02-paper-llm-routing",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "LLM Routing を逐次意思決定として定式化",
+    "summary": "クエリに最適なモデルを自動選択する LLM ルーティング問題を逐次的意思決定プロセスとして定式化。統一ベンチマークとモジュラーインフラを提案。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "paper",
+      "routing",
+      "llm",
+      "benchmark"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "id": "2026-09-02-paper-unlimited-ocr",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "Unlimited OCR — Reference Sliding Window Attention で長文書を効率転写",
+    "summary": "長文書 OCR のメモリ増大問題を解消する Reference Sliding Window Attention を導入。複数ページを単一フォワードパスで処理可能。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "paper",
+      "ocr",
+      "attention",
+      "efficiency"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "id": "2026-09-02-paper-urbanground",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "UrbanGround — 実スケール都市をマルチモーダルエージェント用サンドボックスに",
+    "summary": "実スケールの都市環境を AI エージェントが探索・操作できるインタラクティブシミュレーション環境として変換するフレームワーク。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "paper",
+      "multimodal",
+      "agents",
+      "simulation",
+      "urban"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "id": "2026-09-02-media-venturebeat-fable51",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "media",
+    "title": "[VentureBeat] Claude Fable 5.1 — 75% キャッシュコスト削減で到来",
+    "summary": "Fable 5.1 と Mythos 5.1 の詳細を報道。価格据え置きでキャッシュコスト 75% 削減、コーディング・長期推論の向上ポイントを整理。",
+    "url": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
+    "importance": "minor",
+    "tags": [
+      "media",
+      "anthropic",
+      "model-release"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "id": "2026-09-02-media-techcrunch-epic",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "media",
+    "title": "[TechCrunch] ChatGPT Health に Epic EHR 連携を追加",
+    "summary": "Epic EHR 連携の仕組みと UCSF Health でのパイロット詳細を解説。読み取り専用設計の意図と医療 AI 展開の展望を紹介。",
+    "url": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
+    "importance": "minor",
+    "tags": [
+      "media",
+      "openai",
+      "healthcare",
+      "epic"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "id": "2026-09-02-media-defensescoop-genaimil",
+    "type": "new",
+    "vendor": "Other",
+    "section": "media",
+    "title": "[DefenseScoop] Grok と ChatGPT が Pentagon の GenAI.mil に参加",
+    "summary": "GenAI.mil の現況と 2 ツール追加の経緯を報道。Anthropic 不在の背景や IL5 認定取得プロセスについても触れている。",
+    "url": "https://defensescoop.com/2026/08/31/grok-chatgpt-added-to-genai-mil/",
+    "importance": "minor",
+    "tags": [
+      "media",
+      "government",
+      "dod",
+      "genaimil"
+    ]
+  },
+  {
     "date": "2026-09-01",
     "id": "2026-09-01-anthropic-malware",
     "type": "new",
