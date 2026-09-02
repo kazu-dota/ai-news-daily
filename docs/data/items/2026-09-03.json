@@ -1,0 +1,172 @@
+{
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03T08:07:00+09:00",
+  "sources_checked": 26,
+  "sources_failed": 8,
+  "items": [
+    {
+      "id": "2026-09-03-google-gemini38flash",
+      "type": "new",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "Gemini 3.8 Flash (\"Skimaki\") 正式リリース — コーディング特化・1M コンテキスト",
+      "summary": "コーディング能力を大幅強化した Flash モデル。導入価格 $0.75/$3.75/M トークン、1M コンテキスト。Gemini 3.8 Flash Cyber バリアントも同時投入。内部テストで Anthropic Opus を凌駕と報告。",
+      "url": "https://9to5google.com/2026/09/02/gemini-3-8-flash-launch/",
+      "importance": "highlight",
+      "tags": ["model-release", "google", "coding", "gemini", "flash"]
+    },
+    {
+      "id": "2026-09-03-openai-astra-critical",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "[未掲載] Astra が Preparedness Framework 初の「Critical」サイバーセキュリティ閾値に到達 (9/1)",
+      "summary": "ExploitBench 100%・実ゼロデイ 2 件発見。Daybreak Blue で段階展開。高度サイバー機能はセキュリティパートナーのみに制限。",
+      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+      "importance": "highlight",
+      "tags": ["safety", "cybersecurity", "openai", "astra", "preparedness-framework"]
+    },
+    {
+      "id": "2026-09-03-anthropic-copyright-suit",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Sony Music Publishing・Warner Chappell が著作権侵害で提訴 — 1曲あたり最大 $150,000",
+      "summary": "創業者個人も被告。AI 学習データへの楽曲無断使用を主張。IPO 前の法的リスクが増加。",
+      "url": "https://aiweekly.co/ai-news-today",
+      "importance": "highlight",
+      "tags": ["copyright", "lawsuit", "anthropic", "music", "sony", "warner"]
+    },
+    {
+      "id": "2026-09-03-anthropic-claude-code-limits",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Claude Code 週次利用上限の変更 — 9/14 から恒久的 25% 増加、実態は現在比 -17%",
+      "summary": "5 月からの 50% 一時増量が 9/14 終了。新恒久上限は元の 125% で現在の 150% より -17%。発表の透明性に批判。",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
+      "importance": "standard",
+      "tags": ["claude-code", "anthropic", "pricing", "usage-limits"]
+    },
+    {
+      "id": "2026-09-03-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-03-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-03-meta-hatch-followup",
+      "type": "followup",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "[続報] Meta: $18B 集団訴訟和解が Hatch 正式ローンチへの法的障壁を解消",
+      "summary": "$18B 集団訴訟和解が 9/2 成立。Morgan Stanley「AI 製品ラッシュにつながりうる」。Hatch の 9 月初旬ローンチが現実味。",
+      "url": "https://www.cnbc.com/2026/09/02/meta-18-billion-settlement-ai-products.html",
+      "related_date": "2026-09-02",
+      "importance": "standard",
+      "tags": ["meta", "hatch", "agent", "consumer-ai", "settlement"]
+    },
+    {
+      "id": "2026-09-03-dell-q2-fy27",
+      "type": "new",
+      "vendor": "Dell",
+      "section": "vendor",
+      "title": "Q2 FY27 で AI 関連バックログ $95B・通年売上見通しを $25B 引き上げ $192B へ",
+      "summary": "総売上 $46.97B (+58% YoY)。AI 受注 $60.9B、バックログ $95B。AI インフラ需要が収益に直結。",
+      "url": "https://llm-stats.com/llm-updates",
+      "importance": "standard",
+      "tags": ["dell", "earnings", "ai-infrastructure", "hardware"]
+    },
+    {
+      "id": "2026-09-03-crowdstrike-safemind",
+      "type": "new",
+      "vendor": "CrowdStrike",
+      "section": "vendor",
+      "title": "SafeMind: 攻撃・防御デュアルモデルの AI サイバーセキュリティシステムを発表",
+      "summary": "Red Tempest (攻撃) と Blue Solano (防御) が Nvidia デジタルツイン上でクローズドループ稼働。AI による自律攻防をリアルタイムで繰り返す。",
+      "url": "https://llm-stats.com/llm-updates",
+      "importance": "standard",
+      "tags": ["crowdstrike", "cybersecurity", "agentic-ai", "safemind"]
+    },
+    {
+      "id": "2026-09-03-github-trending-minimind",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: jingyaogong/minimind — 64M パラメータ LLM を 2 時間でゼロから学習",
+      "summary": "LLM の原理学習向け実装チュートリアル。2 時間でゼロから言語モデルを学習できる最小実装。",
+      "url": "https://github.com/jingyaogong/minimind",
+      "importance": "minor",
+      "tags": ["github-trending", "llm", "education", "python"]
+    },
+    {
+      "id": "2026-09-03-github-trending-video-use",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: browser-use/video-use — コーディングエージェントによる動画編集",
+      "summary": "自然言語指示でコーディングエージェントが動画編集を実行するフレームワーク。+803 stars today。",
+      "url": "https://github.com/browser-use/video-use",
+      "importance": "minor",
+      "tags": ["github-trending", "agent", "video", "python"]
+    },
+    {
+      "id": "2026-09-03-github-trending-academic-research-skills",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: Imbad0202/academic-research-skills — Claude Code 向け学術研究スキルセット",
+      "summary": "研究→執筆→レビュー→修正→完成の全フローを Claude Code スキルでカバー。",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "importance": "minor",
+      "tags": ["github-trending", "claude-code", "skills", "research"]
+    },
+    {
+      "id": "2026-09-03-github-trending-hermes-agent",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: NousResearch/hermes-agent — 対話履歴から自己改善するエージェントフレームワーク",
+      "summary": "\"The agent that grows with you\" — 継続的な対話を通じて自己強化する NousResearch 製フレームワーク。",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "importance": "minor",
+      "tags": ["github-trending", "agent", "llm", "python"]
+    },
+    {
+      "id": "2026-09-03-papers-no-update",
+      "type": "no-update",
+      "vendor": null,
+      "section": "papers",
+      "title": "本日バズった論文なし",
+      "summary": "HF Papers はネットワーク制限でアクセス不能。新規論文は確認できなかった。"
+    },
+    {
+      "id": "2026-09-03-media-gizmodo-gemini",
+      "type": "new",
+      "vendor": "Google",
+      "section": "media",
+      "title": "[Gizmodo] Google Is Reportedly on the Verge of Shipping a Coding-First AI Model",
+      "summary": "Gemini 3.8 Flash (Skimaki) の事前報道。コーディング競争でのキャッチアップ戦略を分析。",
+      "url": "https://gizmodo.com/right-on-cue-google-is-reportedly-on-the-verge-of-shipping-a-coding-first-ai-model-2000805941",
+      "importance": "minor",
+      "tags": ["media", "google", "gemini", "coding"]
+    },
+    {
+      "id": "2026-09-03-media-bleepingcomputer-claude-limits",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "media",
+      "title": "[BleepingComputer] Anthropic is cutting Claude Code's current weekly limits by 17%",
+      "summary": "「25% 恒久引き上げ」の実態を分析。50% 一時増量終了による実質 17% 削減を指摘。",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
+      "importance": "minor",
+      "tags": ["media", "anthropic", "claude-code", "pricing"]
+    }
+  ]
+}
