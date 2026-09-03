@@ -1,0 +1,130 @@
+{
+  "date": "2026-09-04",
+  "generated_at": "2026-09-04T08:10:00+09:00",
+  "sources_checked": 22,
+  "sources_failed": 8,
+  "items": [
+    {
+      "id": "2026-09-04-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-04-openai-astra-launch",
+      "type": "followup",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "[続報] GPT-6 Astra 正式ローンチ — Brockman「AGI 時代の幕開けかもしれない」",
+      "summary": "ARC-AGI-3 99.9%、世界最高水準のコンピュータ操作能力。Plus/Pro/Enterprise/Business で今週順次提供開始。入力$10/出力$50 per Mトークン。",
+      "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+      "importance": "highlight",
+      "tags": ["model-release", "openai", "gpt-6", "astra", "agi", "computer-use"],
+      "related_date": "2026-09-03"
+    },
+    {
+      "id": "2026-09-04-google-weathernext3",
+      "type": "new",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "WeatherNext 3 リリース — 5km 解像度・毎時更新 AI 気象モデル",
+      "summary": "前世代の25kmから5kmグリッドへ強化、毎時更新。降水予報精度最大50%向上。Google検索・Gemini・Maps・Earth Engineに統合。",
+      "url": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/",
+      "importance": "highlight",
+      "tags": ["model-release", "google", "deepmind", "weather", "forecasting", "science"]
+    },
+    {
+      "id": "2026-09-04-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-04-meta-ava",
+      "type": "new",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "コンピュータ操作型 AI エージェント「Ava」非公開テスト開始",
+      "summary": "Meta AI デスクトップアプリ向けのコンピュータ操作エージェント。アプリを個別に有効化して操作を委任する設計。非公開テスト中。",
+      "importance": "standard",
+      "tags": ["computer-use", "meta", "agent", "closed-beta", "desktop"]
+    },
+    {
+      "id": "2026-09-04-nvidia-hf-acquisition",
+      "type": "new",
+      "vendor": "Nvidia",
+      "section": "governance",
+      "title": "[未掲載] Nvidia: Hugging Face を $12.9B で正式買収合意",
+      "summary": "$11.9B株主払い+$1.0B従業員保持プログラム。300万モデル・1,800万開発者のプラットフォームを取得。2027 H1 クローズ予定。",
+      "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+      "importance": "highlight",
+      "tags": ["acquisition", "nvidia", "hugging-face", "open-source", "MA", "industry"]
+    },
+    {
+      "id": "2026-09-04-github-humanizer",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "blader/humanizer — AI生成テキスト痕跡除去エージェントスキル (+1,214)",
+      "summary": "AI生成テキストの特徴的なパターンを除去し自然な人間らしい文体に変換するエージェントスキル。",
+      "url": "https://github.com/blader/humanizer",
+      "importance": "standard",
+      "tags": ["github-trending", "text-processing", "skill", "python"]
+    },
+    {
+      "id": "2026-09-04-github-timesfm",
+      "type": "new",
+      "vendor": "Google",
+      "section": "community",
+      "title": "google-research/timesfm — 時系列予測基盤モデル (+1,626)",
+      "summary": "任意の時系列データをゼロショットで予測できるGoogle事前学習済み基盤モデル。ファインチューニング不要。",
+      "url": "https://github.com/google-research/timesfm",
+      "importance": "standard",
+      "tags": ["github-trending", "time-series", "forecasting", "google", "python"]
+    },
+    {
+      "id": "2026-09-04-github-graphify",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "Graphify-Labs/graphify — コードベースをナレッジグラフ化 (+425)",
+      "summary": "コードベース・ドキュメント・スキーマをClaude/Cursorが検索可能なナレッジグラフに変換するツール。",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "importance": "minor",
+      "tags": ["github-trending", "knowledge-graph", "code-search", "python"]
+    },
+    {
+      "id": "2026-09-04-github-openclaude",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "Gitlawb/openclaude — ポータブル Claude ランタイム (+453)",
+      "summary": "Claudeをどのプラットフォームでも任意のモデルと組み合わせて実行できる汎用ポータブルランタイム。",
+      "url": "https://github.com/Gitlawb/openclaude",
+      "importance": "minor",
+      "tags": ["github-trending", "claude", "runtime", "open-source", "typescript"]
+    },
+    {
+      "id": "2026-09-04-paper-papergym",
+      "type": "new",
+      "vendor": "community",
+      "section": "papers",
+      "title": "PaperGym — 科学論文をRLトレーニング環境に変換するフレームワーク",
+      "summary": "論文の研究課題と評価ルーブリックを分離してRL環境を構築。複数モデルサイズ横断で研究計画能力の向上を確認。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["research", "reinforcement-learning", "science", "benchmark"]
+    },
+    {
+      "id": "2026-09-04-paper-jitagent",
+      "type": "new",
+      "vendor": "community",
+      "section": "papers",
+      "title": "JIT-Agent — 汎用LLM向け適応型エージェントハーネス合成モデル",
+      "summary": "タスク別最適エージェント設計を動的合成。既成フレームワーク不要でオフザシェルフLLMに適用可能。",
+      "url": "https://huggingface.co/papers",
+      "importance": "minor",
+      "tags": ["research", "agent", "llm", "framework", "synthesis"]
+    }
+  ]
+}
