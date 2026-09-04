@@ -1,5 +1,176 @@
 [
   {
+    "date": "2026-09-05",
+    "id": "2026-09-05-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-05",
+    "id": "2026-09-05-openai-daybreak-defenders",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "Daybreak for Frontline Defenders — $1B でインフラ防衛者に Astra 提供",
+    "summary": "水道・電力・自治体など重要インフラ防衛者向けに $1B 相当の Astra アクセス・研修・技術支援を提供する補助プログラム。6 か月のパイロット開始。",
+    "url": "https://openai.com/index/daybreak-for-frontline-defenders/",
+    "importance": "highlight",
+    "tags": [
+      "cybersecurity",
+      "openai",
+      "astra",
+      "critical-infrastructure",
+      "daybreak"
+    ]
+  },
+  {
+    "date": "2026-09-05",
+    "id": "2026-09-05-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-05",
+    "id": "2026-09-05-microsoft-copilot-azure-repos",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "GitHub Copilot コードレビューが Azure Repos 全顧客に拡張",
+    "summary": "GitHub への移行不要で Azure DevOps 顧客が Copilot コードレビューを利用可能に。レビュー従量課金、Azure サブスクリプション経由。",
+    "url": "https://www.infoq.com/news/2026/09/copilot-code-review-azure-repos/",
+    "importance": "standard",
+    "tags": [
+      "microsoft",
+      "github-copilot",
+      "azure-devops",
+      "code-review"
+    ]
+  },
+  {
+    "date": "2026-09-05",
+    "id": "2026-09-05-meta-muse-spark-13",
+    "type": "new",
+    "vendor": "Meta",
+    "section": "vendor",
+    "title": "[未掲載] Muse Spark 1.3 リリース — クローズドマルチモーダル API、frontier 水準コーディング性能",
+    "summary": "9/2 リリース。1M コンテキスト・テキスト/画像/動画/PDF/音声対応。AA Intelligence Index 62 点で Fable 5.1 に次ぐ。DeepSWE 1.1 で 75.4%。$1.25/$4.25 per 1M トークン。",
+    "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+    "importance": "highlight",
+    "tags": [
+      "model-release",
+      "meta",
+      "multimodal",
+      "muse-spark",
+      "coding"
+    ]
+  },
+  {
+    "date": "2026-09-05",
+    "id": "2026-09-05-anthropic-ipo-s1",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "governance",
+    "title": "[続報] Anthropic IPO: 公開 S-1 提出が「9/7 以降」に迫る",
+    "summary": "機密 S-1 (6/1 提出) から 30 日超で公開提出が解禁。Goldman Sachs / JPMorgan / Morgan Stanley 主幹、$60B 超調達・10 月 Nasdaq 上場目標。バリュエーション $965B、ARR $47B 超。",
+    "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+    "related_date": "2026-09-01",
+    "importance": "highlight",
+    "tags": [
+      "ipo",
+      "anthropic",
+      "finance",
+      "s-1",
+      "nasdaq"
+    ]
+  },
+  {
+    "date": "2026-09-05",
+    "id": "2026-09-05-github-trending-sglang",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: sgl-project/sglang — LLM 高スループット推論フレームワーク (+664)",
+    "summary": "RadixAttention による KV キャッシュ最適化で高スループットを実現する LLM サービングフレームワーク。★35,476, +664 today。",
+    "url": "https://github.com/sgl-project/sglang",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "llm-serving",
+      "inference",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-09-05",
+    "id": "2026-09-05-github-trending-anthropics-skills",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "community",
+    "title": "GitHub Trending: anthropics/skills — Claude Code 公式エージェントスキル (+512)",
+    "summary": "Anthropic 公式のエージェントスキルパブリックリポジトリ。Claude Code スキル急拡充を受けてコミュニティ参照が急増。★174,112, +512 today。",
+    "url": "https://github.com/anthropics/skills",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "claude-code",
+      "anthropic",
+      "agent-skills"
+    ]
+  },
+  {
+    "date": "2026-09-05",
+    "id": "2026-09-05-github-trending-magnitude",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: magnitudedev/magnitude — ローカルモデル自動選択推論サーバー (+395)",
+    "summary": "コーディングエージェント統合を前提とした、手元ハードウェアに最適なローカルモデルを自動選択するオープンソース推論サーバー。★2,438, +395 today。",
+    "url": "https://github.com/magnitudedev/magnitude",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "local-llm",
+      "inference-server",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-09-05",
+    "id": "2026-09-05-github-trending-opencode",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: anomalyco/opencode — オープンソース向け自律コーディングエージェント (+314)",
+    "summary": "オープンソース開発ワークフロー向け自律型コーディングエージェント。★204,091, +314 today。",
+    "url": "https://github.com/anomalyco/opencode",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "coding-agent",
+      "open-source",
+      "autonomous"
+    ]
+  },
+  {
+    "date": "2026-09-05",
+    "id": "2026-09-05-disco-paper",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "DisCo — 操作知識を再利用可能スキルに蒸留する自律 ML 研究エージェント",
+    "summary": "過去の実験履歴からスキルを自動蒸留し、反復的な ML 研究サイクルを人間監督なしで遂行。複数ベンチマークで研究能力の大幅向上を実証。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "research",
+      "agent",
+      "ml-automation",
+      "skill-distillation"
+    ]
+  },
+  {
     "date": "2026-09-04",
     "id": "2026-09-04-anthropic-no-update",
     "type": "no-update",
