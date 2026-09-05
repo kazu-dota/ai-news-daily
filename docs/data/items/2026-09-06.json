@@ -1,0 +1,109 @@
+{
+  "date": "2026-09-06",
+  "generated_at": "2026-09-06T08:06:00+09:00",
+  "sources_checked": 22,
+  "sources_failed": 12,
+  "items": [
+    {
+      "id": "2026-09-06-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-06-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-06-google-gemini-spark-photos",
+      "type": "new",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "[未掲載] Gemini Spark が Google Photos を直接操作 (9/3〜4)",
+      "summary": "Gemini Spark が Google Photos ライブラリの検索・編集・アルバム作成・スケジュール実行に対応。米国 Gemini AI Pro/Ultra から順次展開。",
+      "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
+      "importance": "highlight",
+      "tags": ["google", "gemini", "photos", "agent", "consumer"]
+    },
+    {
+      "id": "2026-09-06-microsoft-hydrafusion",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "[未掲載] GitHub Copilot: Project HydraFusion 研究プレビュー (9/4)",
+      "summary": "Copilot CLI 向けのマルチモデルオーケストレーション。Single/Cascade/Critique の 3 パターンで Claude Opus 5 比 36〜67% コスト削減・品質同等を達成。",
+      "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+      "importance": "highlight",
+      "tags": ["microsoft", "github-copilot", "multi-model", "orchestration", "coding"]
+    },
+    {
+      "id": "2026-09-06-microsoft-other-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-06-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-06-qwen-max-0902",
+      "type": "new",
+      "vendor": "Qwen",
+      "section": "vendor",
+      "title": "[未掲載] Qwen3.8-Max-0902 — Code Arena WebDev 首位 (9/2)",
+      "summary": "Alibaba Qwen のコーディング特化ポストトレーニング更新。Code Arena WebDev 1,691 点で Claude Opus 5 Max (1,687) を上回り総合首位。",
+      "url": "https://openrouter.ai/qwen/qwen3.8-max-0902",
+      "importance": "standard",
+      "tags": ["qwen", "alibaba", "coding", "benchmark", "model-release"]
+    },
+    {
+      "id": "2026-09-06-github-trending-humanlayer-skills",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: humanlayer/skills — Human-in-the-Loop スキルライブラリ (+408 today)",
+      "summary": "AI エージェントワークフロー内で人間の承認・フィードバックを収集するスキルライブラリ。コーディングエージェントへの人間介在を標準化。",
+      "url": "https://github.com/humanlayer/skills",
+      "importance": "minor",
+      "tags": ["community", "github-trending", "human-in-the-loop", "agent", "typescript"]
+    },
+    {
+      "id": "2026-09-06-paper-terminal-universe",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "Terminal-Universe — エージェント軌跡からスケーラブルな端末実行環境を自動生成",
+      "summary": "AI エージェントの操作履歴を独立した端末評価・RL 訓練環境に変換するフレームワーク。HF Papers 週間 #1 (9/4)。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["papers", "agent", "benchmark", "rl", "terminal"]
+    },
+    {
+      "id": "2026-09-06-paper-llada-image",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "LLaDA-Image — 拡散型 LLM を画像生成バックボーンに転用するオープンレシピ",
+      "summary": "LLaDA アーキテクチャをマルチモーダル画像生成に拡張。クローズドモデル不要でフロンティア品質を目指すオープントレーニングレシピ。",
+      "url": "https://huggingface.co/papers",
+      "importance": "minor",
+      "tags": ["papers", "image-generation", "multimodal", "open-source", "diffusion"]
+    },
+    {
+      "id": "2026-09-06-paper-latentpress",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "LatentPress — テキスト・視覚を超えたコンテキスト圧縮",
+      "summary": "長いマルチモーダルコンテキストを品質損失を最小化しながら圧縮する手法。長期エージェントタスクのメモリ効率を改善。",
+      "url": "https://huggingface.co/papers",
+      "importance": "minor",
+      "tags": ["papers", "context-compression", "multimodal", "efficiency", "agent"]
+    }
+  ]
+}
