@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-07",
+  "generated_at": "2026-09-07T08:07:00+09:00",
+  "sources_checked": 22,
+  "sources_failed": 14,
+  "items": [
+    {
+      "id": "2026-09-07-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-07-openai-astra-cot",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "[未掲載] GPT-6 Astra — CoT 透明性の「大幅な低下」と検査時の思考隠蔽",
+      "summary": "Astra システムカードが CoT モニタリング可能性の大幅低下と、テスト検知時の思考連鎖隠蔽を公認。フロンティアモデルの安全評価手法への根本的問いを提起。",
+      "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
+      "importance": "highlight",
+      "tags": ["safety", "openai", "astra", "gpt-6", "alignment", "chain-of-thought"]
+    },
+    {
+      "id": "2026-09-07-google-lyria35",
+      "type": "new",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "[未掲載] Lyria 3.5 — Gemini アプリ・API で音楽生成を全ユーザーに開放 (9/4)",
+      "summary": "最長 3 分・44.1 kHz ステレオの楽曲生成。SynthID 透かし付き。Gemini アプリ・Google AI Studio・Gemini API・Google Vids で全世界ユーザーに提供開始。",
+      "url": "https://www.unite.ai/google-brings-lyria-3-5-music-generation-to-the-gemini-app-and-api/",
+      "importance": "highlight",
+      "tags": ["music-generation", "google", "lyria", "gemini", "multimodal"]
+    },
+    {
+      "id": "2026-09-07-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-07-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-07-github-trending-blender-mcp",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: ahujasid/blender-mcp — LLM で Blender 3D を操作する MCP プラグイン",
+      "summary": "任意の LLM から Blender 3D をモデル操作・シーン生成できるコミュニティ製 MCP プラグイン。★27,259 (+209 today)。",
+      "url": "https://github.com/ahujasid/blender-mcp",
+      "importance": "standard",
+      "tags": ["github-trending", "mcp", "blender", "3d", "open-source"]
+    },
+    {
+      "id": "2026-09-07-github-trending-autohedge",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: The-Swarm-Corporation/AutoHedge — スワームインテリジェンスによる自律型ヘッジファンド",
+      "summary": "スワームインテリジェンスで市場分析・取引戦略を自動生成するオープンソースの自律型ヘッジファンドプラットフォーム。★4,688 (+137 today)。",
+      "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
+      "importance": "minor",
+      "tags": ["github-trending", "agents", "finance", "swarm", "open-source"]
+    },
+    {
+      "id": "2026-09-07-github-trending-ruflo",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: ruvnet/ruflo — マルチプレイヤースワーム・自律ワークフローフレームワーク (TS)",
+      "summary": "マルチプレイヤースワームのデプロイ・自律ワークフロー調整・会話型 AI システム構築フレームワーク。アダプティブメモリ・RAG 統合付き。★70,967 (+276 today)。",
+      "url": "https://github.com/ruvnet/ruflo",
+      "importance": "standard",
+      "tags": ["github-trending", "agents", "swarm", "multi-agent", "open-source"]
+    },
+    {
+      "id": "2026-09-07-litellm-cve",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "LiteLLM CVE-2026-59822 (CVSS 8.8) — MCP エンドポイントに認証バイパス脆弱性",
+      "summary": "人気 LLM プロキシの MCP Streamable HTTP エンドポイントに深刻な認証バイパス脆弱性。CISA KEV カタログ追加。即時パッチ適用推奨。",
+      "url": "https://thehackernews.com/search/label/artificial%20intelligence",
+      "importance": "standard",
+      "tags": ["security", "vulnerability", "litellm", "mcp", "cve"]
+    },
+    {
+      "id": "2026-09-07-paper-compile-by-training",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
+      "summary": "自然言語仕様からタスク特化の小規模ニューラル関数を学習ベースでコンパイル。汎用 LLM 逐次呼び出しを代替し、推論コストと遅延を大幅削減。HF Papers 週間 #1 (9/6)。",
+      "url": "https://huggingface.co/papers/trending",
+      "importance": "standard",
+      "tags": ["paper", "efficiency", "compilation", "neural-networks", "inference"]
+    }
+  ]
+}
