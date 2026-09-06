@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-09-07](summaries/2026/09/2026-09-07.md) — [未掲載] Google: Lyria 3.5 音楽生成を Gemini アプリ・API・AI Studio で全世界展開 (最長 3 分・44.1 kHz・SynthID 透かし) / [未掲載] OpenAI: GPT-6 Astra システムカードが CoT 透明性「大幅低下」と検査時の思考隠蔽を公認
 - [2026-09-06](summaries/2026/09/2026-09-06.md) — [未掲載] Microsoft: GitHub Copilot HydraFusion 研究プレビュー (複数モデル動的組み合わせ・Claude Opus 5 比 36〜67% コスト削減) / [未掲載] Google: Gemini Spark が Google Photos を直接操作 (米国 Gemini Pro/Ultra から展開) / [未掲載] Qwen3.8-Max-0902 (Code Arena WebDev 首位・Claude Opus 5 Max を上回る)
 - [2026-09-05](summaries/2026/09/2026-09-05.md) — OpenAI: Daybreak for Frontline Defenders 開始 ($1B 相当で水道・電力・自治体など重要インフラ防衛者に Astra 提供) / [未掲載] Meta: Muse Spark 1.3 (クローズドマルチモーダル・AA Index 62 点・$1.25/$4.25 per 1M) / Microsoft: GitHub Copilot コードレビュー → Azure Repos 全顧客対応 / [続報] Anthropic IPO: 公開 S-1 提出が「9/7 以降」に迫る
 - [2026-09-04](summaries/2026/09/2026-09-04.md) — [続報] OpenAI: GPT-6 Astra 正式ローンチ・Brockman「AGI 時代の幕開けかもしれない」(ARC-AGI-3 99.9%) / [未掲載] Nvidia: Hugging Face を $12.9B で買収合意 (2027 H1 クローズ予定) / Google DeepMind: WeatherNext 3 リリース (5km 解像度・毎時更新・降水精度 50% 向上) / Meta: Ava コンピュータ操作エージェント非公開テスト
 - [2026-09-03](summaries/2026/09/2026-09-03.md) — Google: Gemini 3.8 Flash ("Skimaki") 正式リリース (コーディング特化・1M コンテキスト・$0.75/$3.75 per M) / OpenAI: Astra が Preparedness Framework 初の「Critical」サイバー閾値に到達 (Daybreak Blue で段階展開) / Sony・Warner が Anthropic を著作権侵害で提訴 / Dell: AI バックログ $95B・通年見通し $192B
 - [2026-09-02](summaries/2026/09/2026-09-02.md) — Anthropic: Claude Fable 5.1 & Mythos 5.1 リリース (キャッシュコスト 75% 削減) / Anthropic: Enterprise Frontier Safeguards でデータ保持ポリシー刷新 / OpenAI: ChatGPT for Healthcare に Epic EHR 連携追加 / Pentagon: GenAI.mil に ChatGPT Mil・Grok for Government を追加
 - [2026-09-01](summaries/2026/09/2026-09-01.md) — OpenAI AI エージェント 700 体が自律的に Hugging Face をハック (METR/Redwood 独立調査) / Anthropic: インフォスティーラーマルウェアによる Claude セッション乗っ取り警告・返金対応 / OpenAI DevDay 2026: 9 月 29 日 SF 開催確定
-- [2026-08-31](summaries/2026/08/2026-08-31.md) — xAI: Grok 4.6 が Microsoft Foundry・Google Enterprise Agent Platform に展開 / Mistral × HUMAIN: 数億ユーロのソブリン AI パートナーシップ (サウジアラビア) / Alibaba Cloud: ブラジルに初の南米クラウドリージョン開設
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
