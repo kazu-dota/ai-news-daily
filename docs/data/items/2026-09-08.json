@@ -1,0 +1,144 @@
+{
+  "date": "2026-09-08",
+  "generated_at": "2026-09-08T08:08:00+09:00",
+  "sources_checked": 26,
+  "sources_failed": 16,
+  "items": [
+    {
+      "id": "2026-09-08-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-08-openai-astra-plus",
+      "type": "followup",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "[続報] GPT-6 Astra — ChatGPT Plus ($20/月) への展開完了、全有料プランで利用可能に",
+      "summary": "GPT-6 Astra が Plus 層への展開を完了し、全有料プラン (Plus / Pro / Business / Enterprise) + API で利用可能になった。高度サイバー機能は Daybreak Blue 限定継続。",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/amp/",
+      "related_date": "2026-09-04",
+      "importance": "highlight",
+      "tags": ["openai", "astra", "gpt-6", "chatgpt", "rollout", "plus"]
+    },
+    {
+      "id": "2026-09-08-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-08-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-08-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-08-anthropic-ipo-delay",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "governance",
+      "title": "[続報] Anthropic IPO — 公開 S-1 が「9 月下旬」へ後退、ロードショーは「10 月中旬以降」",
+      "summary": "公開 S-1 は 9/7 に提出されず「9 月下旬」へ延期。ロードショーも「10 月中旬以降」に後退。$15B revolving credit facility 交渉が影響している模様。最終上場は 11 月中間選挙前後の見通し。",
+      "url": "https://valueaddvc.com/pulse/anthropic-ipo-timeline-shifts-mid-october-2026",
+      "related_date": "2026-09-05",
+      "importance": "highlight",
+      "tags": ["anthropic", "ipo", "s1", "nasdaq", "finance"]
+    },
+    {
+      "id": "2026-09-08-github-deer-flow",
+      "type": "new",
+      "vendor": "ByteDance",
+      "section": "community",
+      "title": "bytedance/deer-flow — 長期タスク対応オープンソース SuperAgent",
+      "summary": "研究・コーディング・コンテンツ生成を一貫処理するサンドボックス付きスーパーエージェント。ByteDance のオープンソース公開。(★81,828, +188 today)",
+      "url": "https://github.com/bytedance/deer-flow",
+      "importance": "standard",
+      "tags": ["github-trending", "agent", "bytedance", "open-source"]
+    },
+    {
+      "id": "2026-09-08-github-openai-skills",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "community",
+      "title": "openai/skills — Codex 向けスキルカタログ (公式)",
+      "summary": "OpenAI が公開した Codex エージェント向けスキル実装の公式カタログ。コミュニティ参照急増。(★26,017, +372 today)",
+      "url": "https://github.com/openai/skills",
+      "importance": "standard",
+      "tags": ["github-trending", "openai", "codex", "skills", "agent"]
+    },
+    {
+      "id": "2026-09-08-github-browser-use",
+      "type": "new",
+      "vendor": "browser-use",
+      "section": "community",
+      "title": "browser-use/browser-use — AI エージェント向けブラウザ自動化フレームワーク",
+      "summary": "AI エージェントがウェブサイトにアクセス・操作するためのオープンソースフレームワーク。タスク記述をブラウザ操作に変換。(★112,937, +330 today)",
+      "url": "https://github.com/browser-use/browser-use",
+      "importance": "standard",
+      "tags": ["github-trending", "browser", "agent", "automation"]
+    },
+    {
+      "id": "2026-09-08-github-omnivoice",
+      "type": "new",
+      "vendor": "k2-fsa",
+      "section": "community",
+      "title": "k2-fsa/OmniVoice — 600 言語対応高品質ボイスクローン TTS",
+      "summary": "少量音声サンプルから 600 言語以上でのボイスクローン音声合成を実現。(★10,440, +321 today)",
+      "url": "https://github.com/k2-fsa/OmniVoice",
+      "importance": "standard",
+      "tags": ["github-trending", "tts", "voice-cloning", "multilingual", "audio"]
+    },
+    {
+      "id": "2026-09-08-github-hyperframes",
+      "type": "new",
+      "vendor": "HeyGen",
+      "section": "community",
+      "title": "heygen-com/hyperframes — エージェント向け動画レンダリングフレームワーク",
+      "summary": "HeyGen が公開した「Write HTML. Render video.」設計のフレームワーク。AI エージェントによる動画コンテンツ自動生成を実現。(★45,782, +734 today)",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "importance": "standard",
+      "tags": ["github-trending", "video", "agent", "heygen", "html"]
+    },
+    {
+      "id": "2026-09-08-github-context-mode",
+      "type": "new",
+      "vendor": "mksglu",
+      "section": "community",
+      "title": "mksglu/context-mode — AI コーディングエージェント向けコンテキストウィンドウ最適化",
+      "summary": "17 プラットフォームに対応した AI コーディングエージェントのコンテキスト最適化ツール。ツール出力サンドボックスとセッションメモリ永続化を実装。(★20,795, +147 today)",
+      "url": "https://github.com/mksglu/context-mode",
+      "importance": "minor",
+      "tags": ["github-trending", "context-window", "coding-agent", "optimization"]
+    },
+    {
+      "id": "2026-09-08-paper-voicemem",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "VoiceMem — 音声 LM 向けデュアルブレーン型ストリーミングメモリアーキテクチャ",
+      "summary": "短期・長期の記憶経路を分離し、感情パーソナライゼーションとリアルタイム効率を同時改善する音声言語モデル用メモリ設計。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["paper", "speech", "memory", "llm", "personalization"]
+    },
+    {
+      "id": "2026-09-08-paper-freetoken",
+      "type": "new",
+      "vendor": null,
+      "section": "papers",
+      "title": "FreeToken — 個人PC向けエッジネイティブ MoE サービングシステム",
+      "summary": "異種ハードウェア上で大規模オープンウェイトモデルを動的マッピングで稼働させるエッジネイティブ MoE サービングシステム。",
+      "url": "https://huggingface.co/papers",
+      "importance": "standard",
+      "tags": ["paper", "inference", "moe", "edge", "local-llm"]
+    }
+  ]
+}
