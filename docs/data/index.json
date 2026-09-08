@@ -1,5 +1,169 @@
 [
   {
+    "date": "2026-09-09",
+    "id": "2026-09-09-anthropic-fermat",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[未掲載] Claude が Lean 4 でフェルマーの最終定理を形式証明 (9/5)",
+    "summary": "Claude エージェント群が 11 日間で Lean 4 による機械検証済み完全証明を生成。1,300 万行・30,300 補題・約 60 億トークンを費やし、数学史上初の AI 自律形式証明を達成した。",
+    "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+    "importance": "highlight",
+    "tags": [
+      "anthropic",
+      "math",
+      "lean",
+      "formal-verification",
+      "fermat",
+      "research"
+    ]
+  },
+  {
+    "date": "2026-09-09",
+    "id": "2026-09-09-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-09",
+    "id": "2026-09-09-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-09",
+    "id": "2026-09-09-microsoft-sharepoint-copilot",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "Microsoft (SharePoint Copilot): 9 月新機能 — 再利用可能スキル・Copilot Notebooks 強化・SharePoint Lists のエージェント知識源対応",
+    "summary": "個人スキルのクロスサイト共有、Copilot Notebooks への組織データ参照追加、SharePoint Lists の Copilot Studio エージェント知識源対応が September 2026 として公開された。",
+    "url": "https://techcommunity.microsoft.com/blog/spblog/whats-new-in-copilot-in-sharepoint-september-2026/4535422",
+    "importance": "standard",
+    "tags": [
+      "microsoft",
+      "copilot",
+      "sharepoint",
+      "m365",
+      "copilot-studio",
+      "enterprise"
+    ]
+  },
+  {
+    "date": "2026-09-09",
+    "id": "2026-09-09-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-09",
+    "id": "2026-09-09-github-trading-agents",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: TauricResearch/TradingAgents — LLM マルチエージェント金融トレーディング",
+    "summary": "複数の専門エージェントが協調して市場分析・取引戦略を自律構築する LLM ベースのフレームワーク。★103,413。",
+    "url": "https://github.com/TauricResearch/TradingAgents",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "multi-agent",
+      "finance",
+      "trading",
+      "llm"
+    ]
+  },
+  {
+    "date": "2026-09-09",
+    "id": "2026-09-09-github-learn-claude-code",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: shareAI-lab/learn-claude-code — Bash 製 Claude Code ライク軽量エージェント",
+    "summary": "Claude Code の動作原理を bash で再実装した教材兼軽量エージェントハーネス。★76,347。",
+    "url": "https://github.com/shareAI-lab/learn-claude-code",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "claude-code",
+      "agent",
+      "bash",
+      "educational"
+    ]
+  },
+  {
+    "date": "2026-09-09",
+    "id": "2026-09-09-github-adhd",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: ayghri/i-have-adhd — コーディングエージェントの答え埋め込みを防ぐスキル",
+    "summary": "コーディングエージェントが答えを長い出力の奥に埋めることを防ぎ、先に結論を提示させるスキル。★30,234。",
+    "url": "https://github.com/ayghri/i-have-adhd",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "coding-agent",
+      "ux",
+      "skill"
+    ]
+  },
+  {
+    "date": "2026-09-09",
+    "id": "2026-09-09-github-teamai-cli",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: Tencent/teamai-cli — チーム全体を AI ネイティブにする CLI (+1,215 today)",
+    "summary": "Tencent 公開の CLI ツール。LLM 選択・コンテキスト管理・チームワークフロー統合を一括管理し、チーム全体での AI 活用を標準化する。★2,312, +1,215 today。",
+    "url": "https://github.com/Tencent/teamai-cli",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "tencent",
+      "cli",
+      "team",
+      "ai-native"
+    ]
+  },
+  {
+    "date": "2026-09-09",
+    "id": "2026-09-09-github-feynman",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: advaitpaliwal/feynman — オープンソース AI リサーチエージェント",
+    "summary": "文献調査・要約・仮説生成を自動化するオープンソース研究エージェント。★9,233, +268 today。",
+    "url": "https://github.com/advaitpaliwal/feynman",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "research-agent",
+      "open-source",
+      "science"
+    ]
+  },
+  {
+    "date": "2026-09-09",
+    "id": "2026-09-09-hn-qwen-dflash",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "HN: Qwen3.8-27B-DFlash2 — 投機的デコーディングで 3.43× 高速化",
+    "summary": "Qwen3.8-27B を品質損失なしで 3.43 倍高速化する投機的デコーディングモデル。コスト重視・エッジ環境での実用性向上として注目。",
+    "url": "https://orangebot.ai/hacker-news-top-stories",
+    "importance": "minor",
+    "tags": [
+      "qwen",
+      "speculative-decoding",
+      "inference",
+      "efficiency"
+    ]
+  },
+  {
     "date": "2026-09-08",
     "id": "2026-09-08-anthropic-no-update",
     "type": "no-update",
