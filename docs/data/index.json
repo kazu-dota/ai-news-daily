@@ -1,5 +1,292 @@
 [
   {
+    "date": "2026-09-12",
+    "id": "2026-09-12-anthropic-dev-platform",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Developer Platform 大型更新 — ant apply CLI・Admin API GA・Managed Agents 強化",
+    "summary": "ant CLI v1.30.0 で ant apply コマンドを導入。エージェントを IaC として管理可能に。Admin API ユーザー管理エンドポイントが GA 化、Managed Agents にモデルエフォート設定・ウェブフック拡張を追加。",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "importance": "highlight",
+    "tags": [
+      "developer-platform",
+      "cli",
+      "managed-agents",
+      "admin-api",
+      "anthropic"
+    ]
+  },
+  {
+    "date": "2026-09-12",
+    "id": "2026-09-12-openai-agents-api",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "Agents API パブリックベータ公開 — Codex インフラを全開発者に解放",
+    "summary": "Codex・ChatGPT Work を支えるエージェントインフラを単一 API 呼び出しで利用可能に。コード実行・並列ツール呼び出し・サブエージェント委譲に対応。追加料金なし、トークン量のみで課金。",
+    "url": "https://openai.com/index/introducing-the-agents-api/",
+    "importance": "highlight",
+    "tags": [
+      "agents-api",
+      "codex",
+      "openai",
+      "developer"
+    ]
+  },
+  {
+    "date": "2026-09-12",
+    "id": "2026-09-12-openai-gpt-live-1",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "GPT-Live-1 Voice API リリース — 全二重音声モデルを $0.05/分で提供",
+    "summary": "9/10 に API 提供開始。入出力を単一モデルで同時処理する全二重アーキテクチャで従来の STT→LLM→TTS 連結より低遅延。$0.05/分で全開発者が利用可能。",
+    "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
+    "importance": "highlight",
+    "tags": [
+      "voice",
+      "audio",
+      "gpt-live-1",
+      "openai",
+      "api"
+    ]
+  },
+  {
+    "date": "2026-09-12",
+    "id": "2026-09-12-google-gemini-windows",
+    "type": "new",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "Gemini Windows 版デスクトップアプリ公開",
+    "summary": "Windows 10/11 向けネイティブアプリ。Alt+Space でオーバーレイ起動、Gemini Spark・Gmail・Drive と連携。RAM 8GB・ストレージ 200MB 以上が必要。",
+    "url": "https://9to5google.com/2026/09/10/gemini-windows-app/",
+    "importance": "highlight",
+    "tags": [
+      "gemini",
+      "windows",
+      "desktop-app",
+      "google"
+    ]
+  },
+  {
+    "date": "2026-09-12",
+    "id": "2026-09-12-microsoft-azure-copilot-observability",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "Azure Copilot Observability Agent が Log Analytics プラン拡張対応",
+    "summary": "大容量テレメトリを追加コストなく分析できる Log Analytics 複数プランへの対応が追加された。",
+    "url": "https://www.hubsite365.com/en-ww/crm-pages/azure-weekly-update-11th-september-2026.htm",
+    "importance": "standard",
+    "tags": [
+      "azure",
+      "copilot",
+      "observability",
+      "microsoft"
+    ]
+  },
+  {
+    "date": "2026-09-12",
+    "id": "2026-09-12-microsoft-foundry-fable5-astra",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "Microsoft Foundry に Claude Fable 5 / GPT-6 Astra が追加",
+    "summary": "Microsoft Foundry の Agent Service や GitHub Copilot を通じ、Claude Fable 5 と GPT-6 Astra が利用可能に。",
+    "url": "https://azure.microsoft.com/en-us/blog/announcing-azure-copilot-agents-and-ai-infrastructure-innovations/",
+    "importance": "standard",
+    "tags": [
+      "microsoft",
+      "foundry",
+      "claude",
+      "gpt-6",
+      "azure"
+    ]
+  },
+  {
+    "date": "2026-09-12",
+    "id": "2026-09-12-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-12",
+    "id": "2026-09-12-sakana-fugu",
+    "type": "new",
+    "vendor": "Sakana AI",
+    "section": "vendor",
+    "title": "Fugu Ultra v2・Fugu Max 同時リリース — プール型オーケストレーターが最前線モデルを超えると主張",
+    "summary": "Fugu は単一モデルでなく複数モデルプールへルーティングするオーケストレーター設計。Ultra v2 は Fable 5/Astra を含まないプールで Chartography 48.3 (Opus 5 比約 2 倍)、DeepSWE 74.3 を達成と主張。$5/$30 per MTok。",
+    "url": "https://sakana.ai/fugu-max-release/",
+    "importance": "highlight",
+    "tags": [
+      "sakana-ai",
+      "fugu",
+      "multi-agent",
+      "orchestration",
+      "model-release"
+    ]
+  },
+  {
+    "date": "2026-09-12",
+    "id": "2026-09-12-moonshot-kimi-revenue",
+    "type": "new",
+    "vendor": "Moonshot AI",
+    "section": "vendor",
+    "title": "Kimi 提供の Moonshot AI、ARR $1B 達成・$2B 目標を表明",
+    "summary": "中国 AI スタートアップ。Kimi K3 (2.7T パラメータ・オープンウェイト最大) の 7 月リリースを機に 8 月 ARR $1B 突破。2026 年末 $2B を目標とする。",
+    "url": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
+    "importance": "standard",
+    "tags": [
+      "moonshot-ai",
+      "kimi",
+      "revenue",
+      "chinese-ai"
+    ]
+  },
+  {
+    "date": "2026-09-12",
+    "id": "2026-09-12-community-hn-openai-agents",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "HN: OpenAI Agents API パブリックベータへの反響",
+    "summary": "Codex インフラの開放に「直接使えるエージェント基盤」と開発者の関心が高い。ホスティング先の選択肢 (OpenAI vs Cloudflare/Vercel) をめぐる議論が活発。",
+    "url": "https://news.ycombinator.com/",
+    "importance": "standard",
+    "tags": [
+      "hacker-news",
+      "openai",
+      "agents-api",
+      "community"
+    ]
+  },
+  {
+    "date": "2026-09-12",
+    "id": "2026-09-12-community-hn-deepseek-platform",
+    "type": "followup",
+    "vendor": "DeepSeek",
+    "section": "community",
+    "title": "[続報] DeepSeek V4.1 Flash — プラットフォーム依存リスク論争が HN で浮上",
+    "summary": "前日リリースの DeepSeek V4.1 Flash を巡り、Google の change-of-control 条項がモデル供給停止につながりうるとの懸念が HN で高スコアに。",
+    "url": "https://news.ycombinator.com/",
+    "related_date": "2026-09-10",
+    "importance": "minor",
+    "tags": [
+      "deepseek",
+      "hacker-news",
+      "platform-risk",
+      "community"
+    ]
+  },
+  {
+    "date": "2026-09-12",
+    "id": "2026-09-12-github-openai-skills",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "community",
+    "title": "GitHub Trending: openai/skills — Agents API 公開に伴い参照急増",
+    "summary": "OpenAI 公式の Codex 向けスキルカタログ。Agents API 公開を受けサンプル参照が急増。★26k+。",
+    "url": "https://github.com/openai/skills",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "openai",
+      "skills",
+      "codex"
+    ]
+  },
+  {
+    "date": "2026-09-12",
+    "id": "2026-09-12-paper-llada-image",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes",
+    "summary": "テキスト→画像生成モデルの学習レシピを完全公開。クローズドな拡散モデルと競争力のある品質を保ちつつ再現性を担保する手法。HF Papers 注目上位。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "image-generation",
+      "open-source",
+      "training",
+      "hugging-face-papers"
+    ]
+  },
+  {
+    "date": "2026-09-12",
+    "id": "2026-09-12-paper-terminal-universe",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments",
+    "summary": "エージェントの行動軌跡から大規模なターミナル実行環境を自動生成するフレームワーク。コーディングエージェント評価データセットの拡張に活用可能として HF Papers で注目。",
+    "url": "https://huggingface.co/papers",
+    "importance": "standard",
+    "tags": [
+      "coding-agent",
+      "evaluation",
+      "environments",
+      "hugging-face-papers"
+    ]
+  },
+  {
+    "date": "2026-09-12",
+    "id": "2026-09-12-media-moonshot-revenue",
+    "type": "new",
+    "vendor": "Moonshot AI",
+    "section": "media",
+    "title": "[TechCrunch] Kimi-maker Moonshot AI targets $2 billion in annual revenue",
+    "summary": "Kimi K3 が July に ARR $1B を突破させた経緯と $2B 目標の背景を解説。中国 AI 企業の急成長ぶりを示す数字として注目。",
+    "url": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
+    "importance": "standard",
+    "tags": [
+      "media",
+      "techcrunch",
+      "moonshot-ai",
+      "kimi",
+      "revenue"
+    ]
+  },
+  {
+    "date": "2026-09-12",
+    "id": "2026-09-12-media-gemini-windows",
+    "type": "new",
+    "vendor": "Google",
+    "section": "media",
+    "title": "[gHacks] Google Releases a Dedicated Gemini App for Windows",
+    "summary": "Gemini Windows 版の機能詳細・システム要件・配布経路を整理。ブラウザ依存からの脱却と Alt+Space 統合を評価。",
+    "url": "https://www.ghacks.net/2026/09/11/google-releases-a-dedicated-gemini-app-for-windows/",
+    "importance": "minor",
+    "tags": [
+      "media",
+      "ghacks",
+      "gemini",
+      "windows",
+      "google"
+    ]
+  },
+  {
+    "date": "2026-09-12",
+    "id": "2026-09-12-media-gpt-live-1",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "media",
+    "title": "[Unite.AI] OpenAI's GPT-Live-1 Arrives in the API at $0.05 Per Minute",
+    "summary": "GPT-Live-1 の API 仕様・過去の Realtime API との比較・PSTN 電話統合サポートについて開発者向けに詳述。",
+    "url": "https://www.unite.ai/openais-gpt-live-1-arrives-in-the-api-at-0-05-per-minute/",
+    "importance": "minor",
+    "tags": [
+      "media",
+      "unite-ai",
+      "gpt-live-1",
+      "voice",
+      "openai"
+    ]
+  },
+  {
     "date": "2026-09-10",
     "id": "2026-09-10-openai-navier-stokes",
     "type": "new",

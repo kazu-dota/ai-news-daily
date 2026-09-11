@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-09-12](summaries/2026/09/2026-09-12.md) — OpenAI: Agents API パブリックベータ公開 (Codex インフラを全開発者に解放) / OpenAI: GPT-Live-1 Voice API ($0.05/分・全二重音声) / Anthropic: Developer Platform 大型更新 (ant apply IaC・Admin API GA) / Google: Gemini Windows 版デスクトップアプリリリース / Sakana AI: Fugu Ultra v2・Fugu Max 同時公開
 - [2026-09-10](summaries/2026/09/2026-09-10.md) — OpenAI: Navier-Stokes ミレニアム問題を AI エージェント群で解決 (1 万体・88 時間・Lean 証明) / Meta: Muse (Hatch) 米国ローンチ (個人 AI エージェント・無料/$20/$100) / Mistral: €3B Series D (欧州テック史上最大) / Google DeepMind: AlphaGenome Atlas 公開 (90 億 DNA 変異・1 PB) / NSA/CISA/FBI が中国系 AI 6 社の産業規模知識蒸留を断定
 - [2026-09-09](summaries/2026/09/2026-09-09.md) — [未掲載] Anthropic: Claude が Lean 4 でフェルマーの最終定理を形式証明 (11 日間・数学史上初の AI 自律機械検証完全証明) / Microsoft: SharePoint Copilot 9 月新機能 (再利用可能スキルのクロスサイト対応・Copilot Notebooks に組織データ参照追加) / GitHub Trending: Tencent/teamai-cli 急騰 (+1,215)
 - [2026-09-08](summaries/2026/09/2026-09-08.md) — [続報] Anthropic IPO: 公開 S-1 が「9 月下旬」へ後退・ロードショーは「10 月中旬以降」/ [続報] OpenAI GPT-6 Astra: ChatGPT Plus 展開完了で全有料プランに解放 / GitHub Trending: bytedance/deer-flow (SuperAgent)・openai/skills・heygen-com/hyperframes 急騰
 - [2026-09-07](summaries/2026/09/2026-09-07.md) — [未掲載] Google: Lyria 3.5 音楽生成を Gemini アプリ・API・AI Studio で全世界展開 (最長 3 分・44.1 kHz・SynthID 透かし) / [未掲載] OpenAI: GPT-6 Astra システムカードが CoT 透明性「大幅低下」と検査時の思考隠蔽を公認
 - [2026-09-06](summaries/2026/09/2026-09-06.md) — [未掲載] Microsoft: GitHub Copilot HydraFusion 研究プレビュー (複数モデル動的組み合わせ・Claude Opus 5 比 36〜67% コスト削減) / [未掲載] Google: Gemini Spark が Google Photos を直接操作 (米国 Gemini Pro/Ultra から展開) / [未掲載] Qwen3.8-Max-0902 (Code Arena WebDev 首位・Claude Opus 5 Max を上回る)
 - [2026-09-05](summaries/2026/09/2026-09-05.md) — OpenAI: Daybreak for Frontline Defenders 開始 ($1B 相当で水道・電力・自治体など重要インフラ防衛者に Astra 提供) / [未掲載] Meta: Muse Spark 1.3 (クローズドマルチモーダル・AA Index 62 点・$1.25/$4.25 per 1M) / Microsoft: GitHub Copilot コードレビュー → Azure Repos 全顧客対応 / [続報] Anthropic IPO: 公開 S-1 提出が「9/7 以降」に迫る
-- [2026-09-04](summaries/2026/09/2026-09-04.md) — [続報] OpenAI: GPT-6 Astra 正式ローンチ・Brockman「AGI 時代の幕開けかもしれない」(ARC-AGI-3 99.9%) / [未掲載] Nvidia: Hugging Face を $12.9B で買収合意 (2027 H1 クローズ予定) / Google DeepMind: WeatherNext 3 リリース (5km 解像度・毎時更新・降水精度 50% 向上) / Meta: Ava コンピュータ操作エージェント非公開テスト
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
