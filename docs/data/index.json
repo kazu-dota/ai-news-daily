@@ -1,5 +1,252 @@
 [
   {
+    "date": "2026-09-13",
+    "id": "2026-09-13-anthropic-fetch-failed",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "ソース取得失敗（ネットワークポリシーによりアクセス不可）",
+    "summary": "egress proxy により www.anthropic.com へのアクセスがブロック。当日の発表を確認できず。"
+  },
+  {
+    "date": "2026-09-13",
+    "id": "2026-09-13-openai-fetch-failed",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "ソース取得失敗（ネットワークポリシーによりアクセス不可）",
+    "summary": "egress proxy により openai.com へのアクセスがブロック。当日の発表を確認できず。"
+  },
+  {
+    "date": "2026-09-13",
+    "id": "2026-09-13-google-fetch-failed",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "ソース取得失敗（ネットワークポリシーによりアクセス不可）",
+    "summary": "egress proxy により deepmind.google へのアクセスがブロック。当日の発表を確認できず。"
+  },
+  {
+    "date": "2026-09-13",
+    "id": "2026-09-13-microsoft-fetch-failed",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "ソース取得失敗（ネットワークポリシーによりアクセス不可）",
+    "summary": "egress proxy により blogs.microsoft.com / azure.microsoft.com / github.blog 等へのアクセスがブロック。当日の発表を確認できず。"
+  },
+  {
+    "date": "2026-09-13",
+    "id": "2026-09-13-meta-fetch-failed",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor",
+    "title": "ソース取得失敗（ネットワークポリシーによりアクセス不可）",
+    "summary": "egress proxy により ai.meta.com へのアクセスがブロック。当日の発表を確認できず。"
+  },
+  {
+    "date": "2026-09-13",
+    "id": "2026-09-13-adhd-followup",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] ayghri/i-have-adhd — 本日 +3,002 stars、今週最高の単日急騰",
+    "summary": "Claude・Gemini・Qwen 等対応のコーディングエージェント応答簡潔化スキル。本日 +3,002 は今週 GitHub Trending 単日最高値。",
+    "url": "https://github.com/ayghri/i-have-adhd",
+    "importance": "highlight",
+    "related_date": "2026-09-09",
+    "tags": [
+      "github-trending",
+      "coding-agent",
+      "skill",
+      "claude-code",
+      "viral"
+    ]
+  },
+  {
+    "date": "2026-09-13",
+    "id": "2026-09-13-orca-ade",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "stablyai/orca — 並列マルチエージェント ADE (+666 stars, ★67,285)",
+    "summary": "Claude Code・Codex・OpenCode など 40 超のコーディングエージェントを同一プロンプトで並走させる ADE。各エージェントが独立 git worktree で動作し結果比較・マージを支援。",
+    "url": "https://github.com/stablyai/orca",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "multi-agent",
+      "ade",
+      "coding-agent",
+      "orchestration"
+    ]
+  },
+  {
+    "date": "2026-09-13",
+    "id": "2026-09-13-spec-kit",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "github/spec-kit — 仕様駆動開発 (SDD) ツールキット (+457 stars, ★136,051)",
+    "summary": "GitHub 公式の Spec-Driven Development ツールキット。仕様を実行可能な形で記述し AI エージェントがコード実装へ橋渡しする。30 超エージェントインテグレーション対応。",
+    "url": "https://github.com/github/spec-kit",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "spec-driven-development",
+      "ai-agent",
+      "coding-workflow"
+    ]
+  },
+  {
+    "date": "2026-09-13",
+    "id": "2026-09-13-llm-wiki",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "nashsu/llm_wiki — ドキュメント自動 Wiki 化デスクトップアプリ (+525 stars, ★19,109)",
+    "summary": "PDF・Office・Web クリップ等を段階的に構造化 Wiki へ集積。ナレッジグラフ可視化・LanceDB ベクトル検索対応。OpenAI/Anthropic/Google/Ollama に対応。",
+    "url": "https://github.com/nashsu/llm_wiki",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "knowledge-base",
+      "rag",
+      "wiki",
+      "desktop-app"
+    ]
+  },
+  {
+    "date": "2026-09-13",
+    "id": "2026-09-13-omnivoice-followup",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] k2-fsa/OmniVoice — 600 言語 TTS が引き続き上位圏 (+546 stars, ★12,778)",
+    "summary": "高品質音声クローニング TTS が本日も +546 stars。2026-09-08 以来 GitHub Trending 上位を維持。",
+    "url": "https://github.com/k2-fsa/OmniVoice",
+    "importance": "standard",
+    "related_date": "2026-09-08",
+    "tags": [
+      "github-trending",
+      "tts",
+      "voice-cloning",
+      "multilingual"
+    ]
+  },
+  {
+    "date": "2026-09-13",
+    "id": "2026-09-13-yue-music",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "multimodal-art-projection/YuE — 記号的計画 + エージェント編集の楽曲生成 (+193 stars, ★7,263)",
+    "summary": "HKUST・NYU・Stanford 共同開発の音楽生成 YuE2。記号的メロディ計画 → 音声生成 → エージェント反復編集のパイプライン。SongBench で Suno v5/v6 と競合と主張。",
+    "url": "https://github.com/multimodal-art-projection/YuE",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "music-generation",
+      "multimodal",
+      "research"
+    ]
+  },
+  {
+    "date": "2026-09-13",
+    "id": "2026-09-13-mathmodel-agent",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "jihe520/MathModelAgent — 数学モデリング自動化エージェント (+264 stars, ★5,117)",
+    "summary": "数学的モデリングの解法立案から論文ドラフト生成まで自動遂行するエージェント+スキル群。",
+    "url": "https://github.com/jihe520/MathModelAgent",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "math",
+      "agent",
+      "modeling"
+    ]
+  },
+  {
+    "date": "2026-09-13",
+    "id": "2026-09-13-book-to-skill",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "virgiliojr94/book-to-skill — 技術書を Claude Code スキルへ変換 (+289 stars, ★30,265)",
+    "summary": "技術書 PDF を Claude Code スキル形式に変換して学習・参照用のスキルとして活用するツール。",
+    "url": "https://github.com/virgiliojr94/book-to-skill",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "claude-code",
+      "skill",
+      "learning"
+    ]
+  },
+  {
+    "date": "2026-09-13",
+    "id": "2026-09-13-no-ai-slop",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "petergyang/no-ai-slop — AI 冗長表現パターンを文章から除去 (+162 stars, ★8,649)",
+    "summary": "AI 生成文章に多い冗長パターン 20 種超を自動除去するツール。",
+    "url": "https://github.com/petergyang/no-ai-slop",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "writing",
+      "ai-output",
+      "tool"
+    ]
+  },
+  {
+    "date": "2026-09-13",
+    "id": "2026-09-13-deskcomm-crm",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "melgarafael/DeskcommCRM — ネイティブ AI エージェント搭載オープンソース CRM (+505 stars, ★1,781)",
+    "summary": "セルフホスト可能な AI 営業 OS。ネイティブ AI エージェントを組み込んだオープンソース CRM。",
+    "url": "https://github.com/melgarafael/DeskcommCRM",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "crm",
+      "ai-agent",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-09-13",
+    "id": "2026-09-13-claude-red",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "SnailSploit/Claude-Red — 認可レッドチーム向け Claude セキュリティスキル集 (+99 stars, ★3,572)",
+    "summary": "認可済みレッドチーム・セキュリティ教育用の SKILL.md 集。23 カテゴリ・78 スキル収録 (MIT)。",
+    "url": "https://github.com/SnailSploit/Claude-Red",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "security",
+      "red-team",
+      "claude",
+      "skill"
+    ]
+  },
+  {
+    "date": "2026-09-13",
+    "id": "2026-09-13-papers-fetch-failed",
+    "type": "no-update",
+    "vendor": null,
+    "section": "papers",
+    "title": "ソース取得失敗（ネットワークポリシーによりアクセス不可）",
+    "summary": "egress proxy により huggingface.co へのアクセスがブロック。当日のトレンド論文を確認できず。"
+  },
+  {
     "date": "2026-09-12",
     "id": "2026-09-12-anthropic-dev-platform",
     "type": "new",
