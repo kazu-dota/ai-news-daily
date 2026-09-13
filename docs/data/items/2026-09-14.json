@@ -1,0 +1,183 @@
+{
+  "date": "2026-09-14",
+  "generated_at": "2026-09-14T08:06:21+09:00",
+  "sources_checked": 26,
+  "sources_failed": 23,
+  "items": [
+    {
+      "id": "2026-09-14-anthropic-fail",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-14-openai-fail",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-14-google-fail",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-14-microsoft-fail",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-14-meta-fail",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-14-voicestudio",
+      "type": "new",
+      "vendor": "OSS",
+      "section": "community",
+      "title": "debpalash/VoiceStudio — 完全ローカルの ElevenLabs 代替、646 言語対応",
+      "summary": "ElevenLabs のクラウド依存を排し、ローカル環境で音声クローニング・声質設計・動画ダビング・文字起こしを実行できる Python 製ツール。646 言語対応で今日の AI カテゴリ最高急騰。",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "importance": "highlight",
+      "tags": ["voice-cloning", "local-ai", "speech", "open-source"]
+    },
+    {
+      "id": "2026-09-14-colibri",
+      "type": "new",
+      "vendor": "OSS",
+      "section": "community",
+      "title": "JustVugg/colibri — コンシューマー GPU でフロンティア MoE モデルを動かす推論ランタイム",
+      "summary": "C 実装のローカル MoE 推論ランタイム。フロンティアクラスの MoE モデルを手元のコンシューマー GPU で動かすことを目指す。",
+      "url": "https://github.com/JustVugg/colibri",
+      "importance": "highlight",
+      "tags": ["inference", "moe", "local-llm", "consumer-gpu"]
+    },
+    {
+      "id": "2026-09-14-crawl4ai",
+      "type": "new",
+      "vendor": "OSS",
+      "section": "community",
+      "title": "unclecode/crawl4ai — LLM フォーカスの Web クローラー",
+      "summary": "LLM パイプライン組み込みを意識した Web クローリング・スクレイピングフレームワーク。★83,174 の大型リポジトリが今日も +690 の安定した伸びを記録。",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "importance": "standard",
+      "tags": ["web-crawler", "llm", "rag", "data-collection"]
+    },
+    {
+      "id": "2026-09-14-pentagi",
+      "type": "new",
+      "vendor": "OSS",
+      "section": "community",
+      "title": "vxcontrol/pentagi — AI エージェントによるペネトレーションテスト自動化",
+      "summary": "ペネトレーションテストのタスクを自律 AI エージェントに委譲する Go 製フレームワーク。★23,940、+613 today。",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "importance": "standard",
+      "tags": ["pentesting", "security", "autonomous-agents", "go"]
+    },
+    {
+      "id": "2026-09-14-awesome-llm-apps",
+      "type": "new",
+      "vendor": "OSS",
+      "section": "community",
+      "title": "Shubhamsaboo/awesome-llm-apps — LLM アプリ・エージェント・RAG まとめ",
+      "summary": "100 以上の AI エージェント・スキル・RAG アプリをまとめたキュレーションリスト。★137,939、+501 today。",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "importance": "standard",
+      "tags": ["awesome-list", "llm", "agents", "rag"]
+    },
+    {
+      "id": "2026-09-14-yue-followup",
+      "type": "followup",
+      "vendor": "OSS",
+      "section": "community",
+      "title": "[続報] multimodal-art-projection/YuE — 翌日も +500 stars でトレンド継続",
+      "summary": "シンボリック計画によるフロンティア音楽生成リポジトリが 2 日連続でトレンド入り。★7,713、+500 today。",
+      "url": "https://github.com/multimodal-art-projection/YuE",
+      "related_date": "2026-09-13",
+      "importance": "standard",
+      "tags": ["music-generation", "ai-music", "symbolic-planning"]
+    },
+    {
+      "id": "2026-09-14-openmontage",
+      "type": "new",
+      "vendor": "OSS",
+      "section": "community",
+      "title": "calesthio/OpenMontage — エージェント型オープンソースビデオ制作システム",
+      "summary": "12 本の制作パイプライン・100 以上のツール・700 以上のエージェントスキルを備えたアジェンティックビデオ制作システム。★58,391、+383 today。",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "importance": "standard",
+      "tags": ["video-production", "agents", "open-source"]
+    },
+    {
+      "id": "2026-09-14-mathmodel-followup",
+      "type": "followup",
+      "vendor": "OSS",
+      "section": "community",
+      "title": "[続報] jihe520/MathModelAgent — 本日も +268 stars でトレンド継続",
+      "summary": "数学モデリング専用エージェントが 2 日連続でトレンド入り。★5,333、+268 today。",
+      "url": "https://github.com/jihe520/MathModelAgent",
+      "related_date": "2026-09-13",
+      "importance": "standard",
+      "tags": ["math-modeling", "agents", "automation"]
+    },
+    {
+      "id": "2026-09-14-freellmapi",
+      "type": "new",
+      "vendor": "OSS",
+      "section": "community",
+      "title": "tashfeenahmed/freellmapi — 無料 LLM API 34 プロバイダー統合",
+      "summary": "月 7.4 億トークンの無料枠を活用できる LLM API アグリゲーター。34 プロバイダーを統合。★25,983、+218 today。",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "importance": "standard",
+      "tags": ["llm-api", "free-tier", "aggregator", "typescript"]
+    },
+    {
+      "id": "2026-09-14-agent-skills",
+      "type": "new",
+      "vendor": "OSS",
+      "section": "community",
+      "title": "tech-leads-club/agent-skills — AI コーディングエージェント向け検証済みスキルレジストリ",
+      "summary": "プロフェッショナルな AI コーディングエージェント向けの、セキュリティ検証済みスキルレジストリ。★5,620、+215 today。",
+      "url": "https://github.com/tech-leads-club/agent-skills",
+      "importance": "standard",
+      "tags": ["agent-skills", "coding-agents", "skill-registry"]
+    },
+    {
+      "id": "2026-09-14-dictionary-of-ai-coding",
+      "type": "new",
+      "vendor": "OSS",
+      "section": "community",
+      "title": "mattpocock/dictionary-of-ai-coding — AI コーディング用語辞典",
+      "summary": "AI を活用したコーディングに関連する用語・概念を平易な言葉で解説した辞典リポジトリ。★4,567、+207 today。",
+      "url": "https://github.com/mattpocock/dictionary-of-ai-coding",
+      "importance": "standard",
+      "tags": ["ai-coding", "dictionary", "education"]
+    },
+    {
+      "id": "2026-09-14-hyperresearch",
+      "type": "new",
+      "vendor": "OSS",
+      "section": "community",
+      "title": "jordan-gibbs/hyperresearch — エージェント駆動型リサーチ知識ベース",
+      "summary": "Web 調査を自動で永続的な Wiki に統合するエージェント駆動型研究ナレッジベース。★3,209、+191 today。",
+      "url": "https://github.com/jordan-gibbs/hyperresearch",
+      "importance": "standard",
+      "tags": ["research", "knowledge-base", "agents"]
+    },
+    {
+      "id": "2026-09-14-tencentdb-agent-memory",
+      "type": "new",
+      "vendor": "Tencent",
+      "section": "community",
+      "title": "TencentCloud/TencentDB-Agent-Memory — AI エージェント向けチームレベルメモリハブ",
+      "summary": "AI エージェントのチーム横断的な記憶・文脈共有を実現するメモリハブ。TencentCloud 公式。★26,588、+148 today。",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "importance": "standard",
+      "tags": ["agent-memory", "team-ai", "tencent"]
+    }
+  ]
+}
