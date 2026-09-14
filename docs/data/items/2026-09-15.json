@@ -1,0 +1,187 @@
+{
+  "date": "2026-09-15",
+  "generated_at": "2026-09-15T08:10:27+09:00",
+  "sources_checked": 26,
+  "sources_failed": 24,
+  "items": [
+    {
+      "id": "2026-09-15-anthropic-fail",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-15-openai-fail",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-15-google-fail",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-15-microsoft-fail",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-15-meta-fail",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-15-agent-reach",
+      "type": "new",
+      "vendor": "OSS",
+      "section": "community",
+      "title": "Panniantong/Agent-Reach — AI エージェントに無料でインターネットアクセスを与える CLI",
+      "summary": "Twitter/Reddit/YouTube/GitHub/Bilibili/XiaoHongShu を API 費ゼロで横断参照できるエージェント用 CLI。★81,196、+640 today。",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "importance": "highlight",
+      "tags": ["agents", "internet-access", "cli", "no-api-cost"]
+    },
+    {
+      "id": "2026-09-15-ai-job-search",
+      "type": "new",
+      "vendor": "OSS",
+      "section": "community",
+      "title": "MadsLorentzen/ai-job-search — Claude 活用のローカル就活自動化エージェント",
+      "summary": "求人探索・CV 最適化・カバーレター生成・面接準備を Claude ベースのエージェントパイプラインでローカル処理。★42,708、+488 today。",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "importance": "highlight",
+      "tags": ["job-search", "claude", "automation", "agents", "local-ai"]
+    },
+    {
+      "id": "2026-09-15-mirofish",
+      "type": "new",
+      "vendor": "OSS",
+      "section": "community",
+      "title": "666ghj/MiroFish — 汎用予測分析のための群知能エンジン",
+      "summary": "大規模な群知能アーキテクチャで「普遍的な予測」を実現しようとする実験的エンジン。★73,104、+524 today。",
+      "url": "https://github.com/666ghj/MiroFish",
+      "importance": "highlight",
+      "tags": ["swarm-intelligence", "prediction", "distributed-ai"]
+    },
+    {
+      "id": "2026-09-15-voxcpm",
+      "type": "new",
+      "vendor": "OSS",
+      "section": "community",
+      "title": "OpenBMB/VoxCPM — トークナイザー不要の多言語 TTS",
+      "summary": "VoxCPM2: トークナイザーを使わない多言語音声生成・声質デザイン・リアリスティックな音声クローニング。OpenBMB 製。★37,344、+204 today。",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "importance": "standard",
+      "tags": ["tts", "multilingual", "voice-cloning", "openbmb"]
+    },
+    {
+      "id": "2026-09-15-moneyprinterturbo",
+      "type": "new",
+      "vendor": "OSS",
+      "section": "community",
+      "title": "harry0703/MoneyPrinterTurbo — キーワードから HD ショート動画を自動生成",
+      "summary": "トピック入力だけで高品質ショート動画を自動生成する AI ワークフロー。★123,653 の大型リポジトリが再び trending 圏に浮上。+499 today。",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "importance": "standard",
+      "tags": ["video-generation", "short-video", "ai-workflow"]
+    },
+    {
+      "id": "2026-09-15-ai-engineering-coach",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "community",
+      "title": "microsoft/AI-Engineering-Coach — エージェントエンジニアリング向け Microsoft 公式リソース",
+      "summary": "エージェント工学の実践と能力向上を目的とした Microsoft 公式 TypeScript リポジトリ。★4,120、+112 today。",
+      "url": "https://github.com/microsoft/AI-Engineering-Coach",
+      "importance": "standard",
+      "tags": ["microsoft", "agent-engineering", "best-practices"]
+    },
+    {
+      "id": "2026-09-15-librechat",
+      "type": "new",
+      "vendor": "OSS",
+      "section": "community",
+      "title": "danny-avila/LibreChat — エージェント・MCP・スキル対応オープンソース ChatGPT 代替",
+      "summary": "セルフホスト可能な ChatGPT 代替クライアント。エージェント機能・MCP・スキル・マルチモデルに対応。★43,527、+294 today。",
+      "url": "https://github.com/danny-avila/LibreChat",
+      "importance": "standard",
+      "tags": ["chatgpt-alternative", "self-hosted", "mcp", "agents"]
+    },
+    {
+      "id": "2026-09-15-voicestudio-followup",
+      "type": "followup",
+      "vendor": "OSS",
+      "section": "community",
+      "title": "[続報] debpalash/VoiceStudio — 3 日連続トレンド首位、本日 +2,774 stars",
+      "summary": "ローカル完結の音声クローニングプラットフォームが 9/13 以降 3 日連続トップ。★29,073、+2,774 today。",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "related_date": "2026-09-14",
+      "importance": "standard",
+      "tags": ["voice-cloning", "local-ai", "speech"]
+    },
+    {
+      "id": "2026-09-15-openmontage-followup",
+      "type": "followup",
+      "vendor": "OSS",
+      "section": "community",
+      "title": "[続報] calesthio/OpenMontage — 本日 +865 で加速、3 日連続急騰",
+      "summary": "エージェント型ビデオ制作システムが +865 と前日から倍増。★59,066、今日 2 位の急騰。",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "related_date": "2026-09-14",
+      "importance": "standard",
+      "tags": ["video-production", "agents"]
+    },
+    {
+      "id": "2026-09-15-tradingagents-followup",
+      "type": "followup",
+      "vendor": "OSS",
+      "section": "community",
+      "title": "[続報] TauricResearch/TradingAgents — 金融マルチエージェント LLM が再浮上、+756",
+      "summary": "約 1 週間ぶりに trending 上位に再浮上。★106,071、+756 today。",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "related_date": "2026-09-09",
+      "importance": "standard",
+      "tags": ["trading", "agents", "llm", "finance"]
+    },
+    {
+      "id": "2026-09-15-claude-red-followup",
+      "type": "followup",
+      "vendor": "OSS",
+      "section": "community",
+      "title": "[続報] SnailSploit/Claude-Red — 3 日連続で加速中、+606 today",
+      "summary": "認可済みレッドチーム・教育目的の Claude SKILL.md 集が 3 日連続で関心が高まり +606。★4,691。",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "related_date": "2026-09-13",
+      "importance": "standard",
+      "tags": ["security", "red-team", "claude-skills"]
+    },
+    {
+      "id": "2026-09-15-agent-skills-followup",
+      "type": "followup",
+      "vendor": "OSS",
+      "section": "community",
+      "title": "[続報] tech-leads-club/agent-skills — コーディングエージェントスキルレジストリが連日 top、+506",
+      "summary": "検証済みコーディングエージェントスキルレジストリが 2 日連続で trending 上位。★6,037、+506 today。",
+      "url": "https://github.com/tech-leads-club/agent-skills",
+      "related_date": "2026-09-14",
+      "importance": "standard",
+      "tags": ["agent-skills", "coding-agents"]
+    },
+    {
+      "id": "2026-09-15-yue-followup",
+      "type": "followup",
+      "vendor": "OSS",
+      "section": "community",
+      "title": "[続報] multimodal-art-projection/YuE — 音楽生成が 3 日連続トレンド入り、+578",
+      "summary": "シンボリック計画とエージェント編集による音楽生成システムが引き続き注目を集める。★8,297、+578 today。",
+      "url": "https://github.com/multimodal-art-projection/YuE",
+      "related_date": "2026-09-13",
+      "importance": "standard",
+      "tags": ["music-generation", "symbolic-planning"]
+    }
+  ]
+}
