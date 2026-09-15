@@ -1,5 +1,294 @@
 [
   {
+    "date": "2026-09-16",
+    "id": "2026-09-16-alibaba-open-code-review",
+    "type": "new",
+    "vendor": "Alibaba",
+    "section": "community",
+    "title": "alibaba/open-code-review — アリババ製ハイブリッド LLM コードレビューツール",
+    "summary": "決定論的パイプライン × LLM エージェントのハイブリッド設計。アリババ大規模本番で実証済み。本日 +2,751 で全言語 Trending 最高。",
+    "url": "https://github.com/alibaba/open-code-review",
+    "importance": "highlight",
+    "tags": [
+      "code-review",
+      "llm-agent",
+      "alibaba",
+      "open-source",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "id": "2026-09-16-anthropic-source-failed",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Anthropic: ソース取得失敗",
+    "summary": "ネットワークポリシーにより www.anthropic.com へのアクセスがブロックされた。",
+    "importance": "minor",
+    "tags": [
+      "network-blocked"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "id": "2026-09-16-openai-source-failed",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "OpenAI: ソース取得失敗",
+    "summary": "ネットワークポリシーにより openai.com へのアクセスがブロックされた。",
+    "importance": "minor",
+    "tags": [
+      "network-blocked"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "id": "2026-09-16-google-source-failed",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor",
+    "title": "Google / Google DeepMind: ソース取得失敗",
+    "summary": "ネットワークポリシーにより deepmind.google へのアクセスがブロックされた。",
+    "importance": "minor",
+    "tags": [
+      "network-blocked"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "id": "2026-09-16-microsoft-source-failed",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "Microsoft: ソース取得失敗",
+    "summary": "ネットワークポリシーにより Microsoft 関連ブログへのアクセスがすべてブロックされた。",
+    "importance": "minor",
+    "tags": [
+      "network-blocked"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "id": "2026-09-16-meta-source-failed",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor",
+    "title": "Meta: ソース取得失敗",
+    "summary": "ネットワークポリシーにより ai.meta.com へのアクセスがブロックされた。",
+    "importance": "minor",
+    "tags": [
+      "network-blocked"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "id": "2026-09-16-voicestudio-followup",
+    "type": "followup",
+    "vendor": "debpalash",
+    "section": "community",
+    "title": "[続報] debpalash/VoiceStudio — 4 日連続トレンド首位圏、本日 +2,081",
+    "summary": "ローカル完結の ElevenLabs 代替が 4 日連続で高い伸びを維持。9/14〜9/16 の 3 日合計で約 +7,400 stars。",
+    "url": "https://github.com/debpalash/VoiceStudio",
+    "related_date": "2026-09-14",
+    "importance": "highlight",
+    "tags": [
+      "voice-cloning",
+      "tts",
+      "local-ai",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "id": "2026-09-16-pi-toolkit",
+    "type": "new",
+    "vendor": "earendil-works",
+    "section": "community",
+    "title": "earendil-works/pi — 統合 LLM API・エージェントループ・TUI・コーディング CLI を持つ AI エージェントツールキット",
+    "summary": "複数 LLM プロバイダー統一 API・エージェントループ・TUI・コーディング CLI を一体化。★105k の大型リポジトリが本日 trending 初登場。",
+    "url": "https://github.com/earendil-works/pi",
+    "importance": "highlight",
+    "tags": [
+      "agent-toolkit",
+      "llm-api",
+      "cli",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "id": "2026-09-16-ai-agent-book",
+    "type": "new",
+    "vendor": "sontungexpt",
+    "section": "community",
+    "title": "sontungexpt/ai-agent-book — AI エージェントの設計原則・実装プラクティスを体系化した参照書",
+    "summary": "AI エージェントの設計思想から実装プラクティスまでを体系化。+693 stars で開発者コミュニティに広く共有されている。",
+    "url": "https://github.com/sontungexpt/ai-agent-book",
+    "importance": "standard",
+    "tags": [
+      "learning-resource",
+      "agent-design",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "id": "2026-09-16-flowsint",
+    "type": "new",
+    "vendor": "reconurge",
+    "section": "community",
+    "title": "reconurge/flowsint — サイバーセキュリティ向けビジュアル調査プラットフォーム",
+    "summary": "OSINT・脅威インテリジェンス分析にグラフ可視化と AI 分析を組み合わせた調査プラットフォーム。+395 stars。",
+    "url": "https://github.com/reconurge/flowsint",
+    "importance": "standard",
+    "tags": [
+      "security",
+      "osint",
+      "visualization",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "id": "2026-09-16-project-nomad",
+    "type": "new",
+    "vendor": "Crosstalk-Solutions",
+    "section": "community",
+    "title": "Crosstalk-Solutions/project-nomad — オフラインファースト・ローカル AI 搭載の教育・知識サーバー",
+    "summary": "インターネット接続なしで動作するオフライン教育・知識管理サーバー。ローカル AI 機能をオプション搭載。+365 stars。",
+    "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+    "importance": "standard",
+    "tags": [
+      "offline-ai",
+      "education",
+      "knowledge-base",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "id": "2026-09-16-openui",
+    "type": "new",
+    "vendor": "thesysdev",
+    "section": "community",
+    "title": "thesysdev/openui — 生成 UI のオープン標準仕様",
+    "summary": "LLM が直接操作・生成できる UI コンポーネントのオープン標準仕様。複数フレームワーク横断での活用を目指す。+268 stars。",
+    "url": "https://github.com/thesysdev/openui",
+    "importance": "standard",
+    "tags": [
+      "generative-ui",
+      "open-standard",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "id": "2026-09-16-claude-plugins-official",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "community",
+    "title": "anthropics/claude-plugins-official — Anthropic 管理の Claude Code 公式プラグインディレクトリ",
+    "summary": "Anthropic が管理する審査済み高品質 Claude Code プラグインの公式ディレクトリ。+62 stars。",
+    "url": "https://github.com/anthropics/claude-plugins-official",
+    "importance": "standard",
+    "tags": [
+      "claude-code",
+      "plugins",
+      "anthropic",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "id": "2026-09-16-agent-reach-followup",
+    "type": "followup",
+    "vendor": "Panniantong",
+    "section": "community",
+    "title": "[続報] Panniantong/Agent-Reach — API 費ゼロのエージェントインターネットアクセスが本日 +1,094",
+    "summary": "昨日の +640 から +1,094 へ加速。Twitter・Reddit・YouTube 等 6 プラットフォーム対応の API 不要エージェント CLI。",
+    "url": "https://github.com/Panniantong/Agent-Reach",
+    "related_date": "2026-09-15",
+    "importance": "standard",
+    "tags": [
+      "agent",
+      "internet-access",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "id": "2026-09-16-tradingagents-followup",
+    "type": "followup",
+    "vendor": "TauricResearch",
+    "section": "community",
+    "title": "[続報] TauricResearch/TradingAgents — 金融マルチエージェント LLM が +850 stars で高水準継続",
+    "summary": "★106k の金融 LLM フレームワークが本日も +850 の高い伸びを維持。",
+    "url": "https://github.com/TauricResearch/TradingAgents",
+    "related_date": "2026-09-15",
+    "importance": "standard",
+    "tags": [
+      "trading",
+      "finance",
+      "multi-agent",
+      "llm",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "id": "2026-09-16-yue-followup",
+    "type": "followup",
+    "vendor": "multimodal-art-projection",
+    "section": "community",
+    "title": "[続報] multimodal-art-projection/YuE — 音楽生成が 4 日連続トレンド入り (+759)",
+    "summary": "シンボリック計画 × エージェント編集の音楽生成システムが引き続き注目を集めている。",
+    "url": "https://github.com/multimodal-art-projection/YuE",
+    "related_date": "2026-09-13",
+    "importance": "minor",
+    "tags": [
+      "music-generation",
+      "audio-ai",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "id": "2026-09-16-claude-red-followup",
+    "type": "followup",
+    "vendor": "SnailSploit",
+    "section": "community",
+    "title": "[続報] SnailSploit/Claude-Red — Claude 向けオフェンシブセキュリティスキルが 4 日連続急伸 (+742)",
+    "summary": "認可済みレッドチーム・教育目的の Claude スキル集。本日 +742 は過去最高の単日増加数。4 日連続でトレンド入り。",
+    "url": "https://github.com/SnailSploit/Claude-Red",
+    "related_date": "2026-09-13",
+    "importance": "standard",
+    "tags": [
+      "security",
+      "red-team",
+      "claude-skills",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "id": "2026-09-16-cursor-plugins",
+    "type": "new",
+    "vendor": "Cursor",
+    "section": "community",
+    "title": "cursor/plugins — Cursor 公式プラグイン仕様と公式プラグイン集",
+    "summary": "Cursor 公式のプラグイン仕様定義と審査済みプラグインを収録。AI コーディングエディターエコシステムの拡張基盤。+122 stars。",
+    "url": "https://github.com/cursor/plugins",
+    "importance": "standard",
+    "tags": [
+      "cursor",
+      "plugins",
+      "ai-coding",
+      "github-trending"
+    ]
+  },
+  {
     "date": "2026-09-15",
     "id": "2026-09-15-anthropic-fail",
     "type": "no-update",
