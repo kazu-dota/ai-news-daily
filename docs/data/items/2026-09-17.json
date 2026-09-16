@@ -1,0 +1,216 @@
+{
+  "date": "2026-09-17",
+  "generated_at": "2026-09-17T08:05:00+09:00",
+  "sources_checked": 26,
+  "sources_failed": 24,
+  "items": [
+    {
+      "id": "2026-09-17-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Anthropic: ソース取得失敗 (ネットワーク制約)",
+      "summary": "www.anthropic.com へのアクセスがネットワークポリシーによりブロック。当日の発表を確認できなかった。",
+      "importance": "minor",
+      "tags": ["network-blocked", "anthropic"]
+    },
+    {
+      "id": "2026-09-17-anthropic-knowledge-work-plugins",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "anthropics/knowledge-work-plugins — Claude Cowork ナレッジワーカー向けプラグイン集",
+      "summary": "Claude Cowork でナレッジワーカーが使用するオープンソースプラグイン公式リポジトリ。本日 +96 stars。",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "importance": "standard",
+      "tags": ["anthropic", "claude", "plugins", "knowledge-work", "github-trending"]
+    },
+    {
+      "id": "2026-09-17-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "OpenAI: ソース取得失敗 (ネットワーク制約)",
+      "summary": "openai.com へのアクセスがネットワークポリシーによりブロック。当日の発表を確認できなかった。",
+      "importance": "minor",
+      "tags": ["network-blocked", "openai"]
+    },
+    {
+      "id": "2026-09-17-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "Google / Google DeepMind: ソース取得失敗 (ネットワーク制約)",
+      "summary": "deepmind.google へのアクセスがネットワークポリシーによりブロック。GitHub Trending にて google/skills が浮上。",
+      "importance": "minor",
+      "tags": ["network-blocked", "google"]
+    },
+    {
+      "id": "2026-09-17-google-skills",
+      "type": "new",
+      "vendor": "Google",
+      "section": "community",
+      "title": "google/skills — Google 製品向けエージェントスキル集",
+      "summary": "Google 製品・技術向けエージェントスキル集。anthropics/skills・openai/skills と並ぶ各社のスキルエコシステム整備。本日 +81 stars。",
+      "url": "https://github.com/google/skills",
+      "importance": "standard",
+      "tags": ["google", "agent-skills", "github-trending"]
+    },
+    {
+      "id": "2026-09-17-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "Microsoft: ソース取得失敗 (ネットワーク制約)",
+      "summary": "blogs.microsoft.com・azure.microsoft.com・github.blog 等 Microsoft 関連ブログへのアクセスがすべてブロック。",
+      "importance": "minor",
+      "tags": ["network-blocked", "microsoft"]
+    },
+    {
+      "id": "2026-09-17-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "Meta: ソース取得失敗 (ネットワーク制約)",
+      "summary": "ai.meta.com へのアクセスがネットワークポリシーによりブロック。当日の発表を確認できなかった。",
+      "importance": "minor",
+      "tags": ["network-blocked", "meta"]
+    },
+    {
+      "id": "2026-09-17-cloudflare-security-audit",
+      "type": "new",
+      "vendor": "Cloudflare",
+      "section": "community",
+      "title": "cloudflare/security-audit-skill — 多段階セキュリティ監査コーディングエージェントスキル",
+      "summary": "Cloudflare がコーディングエージェント向けに公開した多段階セキュリティ監査ツール。誤検知削減のため検出候補を二次確認するフェーズ構成を採用。本日 +1,249 stars で新規浮上。",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "importance": "highlight",
+      "tags": ["cloudflare", "security", "agent-skills", "github-trending"]
+    },
+    {
+      "id": "2026-09-17-tencent-weknora",
+      "type": "new",
+      "vendor": "Tencent",
+      "section": "community",
+      "title": "Tencent/WeKnora — LLM 知識管理プラットフォーム (RAG)",
+      "summary": "Tencent が社内ドキュメントを RAG システムへ変換するナレッジ管理基盤をオープンソース化。Go 製・自己ホスト対応。本日 +1,201 stars で初のトレンド入り。",
+      "url": "https://github.com/Tencent/WeKnora",
+      "importance": "highlight",
+      "tags": ["tencent", "rag", "knowledge-management", "github-trending"]
+    },
+    {
+      "id": "2026-09-17-alphaXiv-openresearch",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "alphaXiv/OpenResearch — コーディングエージェント → リサーチエージェント変換フレームワーク",
+      "summary": "コーディングエージェントをリサーチエージェントとして活用するフレームワーク。arXiv インテグレーションを中核に論文検索・仮説生成・実験設計ループをエージェントが担う。Rust 製。本日 +1,036 stars。",
+      "url": "https://github.com/alphaXiv/OpenResearch",
+      "importance": "highlight",
+      "tags": ["research-agent", "arxiv", "rust", "github-trending"]
+    },
+    {
+      "id": "2026-09-17-addy-agent-skills",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "addyosmani/agent-skills — AI コーディングエージェント向けプロダクション品質スキル集",
+      "summary": "Chrome DevTools エンジニア Addy Osmani 氏が公開するプロダクション品質エージェントスキル集 (95k+ stars)。Claude Code・Codex・Cursor 等で利用可能。本日 +656 stars。",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "importance": "highlight",
+      "tags": ["agent-skills", "claude-code", "cursor", "github-trending"]
+    },
+    {
+      "id": "2026-09-17-tencent-octop",
+      "type": "new",
+      "vendor": "Tencent",
+      "section": "community",
+      "title": "TencentCloud/Octop — マルチユーザー・マルチエージェント対応 AI アシスタント",
+      "summary": "Tencent Cloud がリリースしたセルフホスト型のマルチユーザー・マルチエージェント AI アシスタント。本日 +419 stars で新規トレンド入り。",
+      "url": "https://github.com/TencentCloud/Octop",
+      "importance": "standard",
+      "tags": ["tencent", "multi-agent", "self-hosted", "github-trending"]
+    },
+    {
+      "id": "2026-09-17-volcengine-openviking",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "volcengine/OpenViking — AI エージェント向け自己進化型コンテキストデータベース",
+      "summary": "ByteDance VolcEngine 製のエージェント向けコンテキスト管理基盤。エージェントメモリ・知識 RAG・スキルを統合。本日 +286 stars。",
+      "url": "https://github.com/volcengine/OpenViking",
+      "importance": "standard",
+      "tags": ["bytedance", "agent-memory", "rag", "context-db", "github-trending"]
+    },
+    {
+      "id": "2026-09-17-roboflow-supervision",
+      "type": "new",
+      "vendor": "Roboflow",
+      "section": "community",
+      "title": "roboflow/supervision — 再利用可能なコンピュータビジョンツールライブラリ",
+      "summary": "Roboflow の CV ツール集。アノテーション・検出結果可視化・トラッキング等を統一 API で提供。本日 +292 stars。",
+      "url": "https://github.com/roboflow/supervision",
+      "importance": "standard",
+      "tags": ["roboflow", "computer-vision", "github-trending"]
+    },
+    {
+      "id": "2026-09-17-soup-finetune",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "MakazhanAlpamys/Soup — YAML 1 ファイルで LLM ファインチューニング",
+      "summary": "YAML 設定1枚で LLM SFT を完結させるツール。4GB GPU ラップトップで 8B モデルをストリーミング学習可能と謳う。本日 +119 stars。",
+      "url": "https://github.com/MakazhanAlpamys/Soup",
+      "importance": "standard",
+      "tags": ["fine-tuning", "llm", "github-trending"]
+    },
+    {
+      "id": "2026-09-17-alibaba-code-review-followup",
+      "type": "followup",
+      "vendor": "Alibaba",
+      "section": "community",
+      "title": "[続報] alibaba/open-code-review — 2日連続トレンド首位、本日 +3,215 stars",
+      "summary": "前日から連続でトレンド首位を維持。今日は全言語 Trending 1位で単日 +3,215 と増加傾向。",
+      "url": "https://github.com/alibaba/open-code-review",
+      "related_date": "2026-09-16",
+      "importance": "standard",
+      "tags": ["alibaba", "code-review", "llm-agent", "github-trending"]
+    },
+    {
+      "id": "2026-09-17-colibri-followup",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] JustVugg/colibri — +1,532 stars、継続してトレンド上位",
+      "summary": "2026-09-14 から継続トレンド入り。既存ハードウェアでフロンティア MoE モデルを動かす C 製ランタイム。",
+      "url": "https://github.com/JustVugg/colibri",
+      "related_date": "2026-09-14",
+      "importance": "standard",
+      "tags": ["moe", "inference", "c", "github-trending"]
+    },
+    {
+      "id": "2026-09-17-voicestudio-followup",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] debpalash/VoiceStudio — +1,510 stars、5日連続トレンド継続",
+      "summary": "2026-09-13 から5日連続トレンド入り。ローカル完結の音声クローニング・TTS・動画吹き替えツール。今日も +1,510 で高水準。",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "related_date": "2026-09-16",
+      "importance": "standard",
+      "tags": ["voice-cloning", "tts", "local-ai", "github-trending"]
+    },
+    {
+      "id": "2026-09-17-yue-followup",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] multimodal-art-projection/YuE — +370 stars、5日連続",
+      "summary": "2026-09-13 から5日連続トレンド入り。シンボリックプランニングと zero-shot カバーを統合した YuE2 音楽生成モデル。",
+      "url": "https://github.com/multimodal-art-projection/YuE",
+      "related_date": "2026-09-16",
+      "importance": "minor",
+      "tags": ["music-generation", "multimodal", "github-trending"]
+    }
+  ]
+}
