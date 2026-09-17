@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-09-18](summaries/2026/09/2026-09-18.md) — GitHub Trending: cloudflare/security-audit-skill (+3,606 グローバル2位へ急加速) / Tencent/BrowserSkill (ログイン済みブラウザをエージェントに開放, +1,350 新規) / affaan-m/ECC (マルチプラットフォームエージェント性能最適化, +1,173 新規) / alibaba/open-code-review (3日連続首位 +3,290) — ベンダーニュースはネットワーク制約により取得不可
 - [2026-09-17](summaries/2026/09/2026-09-17.md) — GitHub Trending: cloudflare/security-audit-skill (多段階セキュリティ監査エージェント, +1,249) / Tencent/WeKnora (LLM 知識管理 RAG, +1,201) / alphaXiv/OpenResearch (コーディング→リサーチエージェント変換, +1,036) / addyosmani/agent-skills (プロダクション品質スキル集 95k+ stars, +656) — ベンダーニュースはネットワーク制約により取得不可
 - [2026-09-16](summaries/2026/09/2026-09-16.md) — GitHub Trending: alibaba/open-code-review (LLM エージェント × 決定論的パイプラインのハイブリッドコードレビュー, +2,751 全言語最高) / VoiceStudio (4 日連続首位 +2,081) / earendil-works/pi (統合 AI エージェントツールキット, +437) / ai-agent-book (設計原則参照書, +693) — ベンダーニュースはネットワーク制約により取得不可
 - [2026-09-15](summaries/2026/09/2026-09-15.md) — GitHub Trending: Agent-Reach (AI エージェントに API 費ゼロでインターネットアクセス, +640) / ai-job-search (Claude 活用の就活自動化エージェント, +488) / MiroFish (群知能予測エンジン, +524) / VoiceStudio (3 日連続首位 +2,774) — ベンダーニュースはネットワーク制約により取得不可
 - [2026-09-14](summaries/2026/09/2026-09-14.md) — GitHub Trending: VoiceStudio (ローカル音声クローニング 646 言語, +2,546 今日最大急騰) / colibri (コンシューマー GPU で MoE フロンティアモデル, +960) / crawl4ai (LLM 向け Web クローラー, +690) / pentagi (AI ペンテスト自動化, +613) — ベンダーニュースはネットワーク制約により取得不可
 - [2026-09-13](summaries/2026/09/2026-09-13.md) — GitHub Trending: orca (並列マルチエージェント ADE, +666) / i-have-adhd (+3,002, 今週最高単日急騰) / spec-kit (+457, 仕様駆動開発) / llm_wiki (+525) — ベンダーニュースはネットワーク制約により取得不可
 - [2026-09-12](summaries/2026/09/2026-09-12.md) — OpenAI: Agents API パブリックベータ公開 (Codex インフラを全開発者に解放) / OpenAI: GPT-Live-1 Voice API ($0.05/分・全二重音声) / Anthropic: Developer Platform 大型更新 (ant apply IaC・Admin API GA) / Google: Gemini Windows 版デスクトップアプリリリース / Sakana AI: Fugu Ultra v2・Fugu Max 同時公開
-- [2026-09-10](summaries/2026/09/2026-09-10.md) — OpenAI: Navier-Stokes ミレニアム問題を AI エージェント群で解決 (1 万体・88 時間・Lean 証明) / Meta: Muse (Hatch) 米国ローンチ (個人 AI エージェント・無料/$20/$100) / Mistral: €3B Series D (欧州テック史上最大) / Google DeepMind: AlphaGenome Atlas 公開 (90 億 DNA 変異・1 PB) / NSA/CISA/FBI が中国系 AI 6 社の産業規模知識蒸留を断定
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。

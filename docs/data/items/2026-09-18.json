@@ -1,0 +1,234 @@
+{
+  "date": "2026-09-18",
+  "generated_at": "2026-09-18T08:08:17+09:00",
+  "sources_checked": 26,
+  "sources_failed": 23,
+  "items": [
+    {
+      "id": "2026-09-18-tencent-browserskill",
+      "type": "new",
+      "vendor": "Tencent",
+      "section": "community",
+      "title": "Tencent/BrowserSkill — ログイン済みブラウザを AI エージェントに開放",
+      "summary": "ログイン済みの実ブラウザセッションを AI エージェントに引き渡す TypeScript ツール。CLI とブラウザ拡張を組み合わせ認証問題をバイパスする設計。本日新規 +1,350 stars。",
+      "url": "https://github.com/Tencent/BrowserSkill",
+      "importance": "highlight",
+      "tags": ["browser-automation", "ai-agent", "tencent", "typescript"]
+    },
+    {
+      "id": "2026-09-18-affaan-ecc",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "affaan-m/ECC — 複数コーディング AI プラットフォームのエージェント性能最適化",
+      "summary": "Claude Code・Codex・Cursor 等の複数 AI コーディングツールにまたがるエージェント性能を最適化するシステム。★261k の大型リポジトリが本日 +1,173 stars で Trending 入り。",
+      "url": "https://github.com/affaan-m/ECC",
+      "importance": "highlight",
+      "tags": ["agent-optimization", "coding-agent", "multi-platform", "javascript"]
+    },
+    {
+      "id": "2026-09-18-jamiepine-voicebox",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "jamiepine/voicebox — オープンソース AI ボイススタジオ",
+      "summary": "音声クローニング・口述・創作を統合したオープンソース AI ボイスアプリ (TypeScript)。★54k のリポジトリが本日 +665 stars で TypeScript Trending 入り。",
+      "url": "https://github.com/jamiepine/voicebox",
+      "importance": "highlight",
+      "tags": ["voice-cloning", "tts", "audio", "typescript", "open-source"]
+    },
+    {
+      "id": "2026-09-18-anthropics-claude-code",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "anthropics/claude-code — グローバル Trending 入り (+538)",
+      "summary": "Anthropic 公式ターミナルネイティブ AI コーディング CLI。★145k のリポジトリが本日グローバル Trending に登場。",
+      "url": "https://github.com/anthropics/claude-code",
+      "importance": "standard",
+      "tags": ["claude-code", "coding-agent", "anthropic", "typescript"]
+    },
+    {
+      "id": "2026-09-18-cline",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "cline/cline — 自律型コーディングエージェント SDK・IDE 拡張・CLI",
+      "summary": "SDK・IDE 拡張・CLI を一体化した自律型コーディングエージェント。★68k のリポジトリが本日グローバル Trending に初登場 (+381)。",
+      "url": "https://github.com/cline/cline",
+      "importance": "standard",
+      "tags": ["coding-agent", "ide-extension", "autonomous", "typescript"]
+    },
+    {
+      "id": "2026-09-18-arnegiacomo-fugleramme",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "arnegiacomo/fugleramme — Raspberry Pi × ローカル AI による E-ink 野鳥識別フレーム",
+      "summary": "庭を訪れた野鳥をローカル AI がリアルタイム識別して E-ink ディスプレイに表示するプロジェクト。本日新規 +712 stars でホビイストコミュニティに急拡散。",
+      "url": "https://github.com/arnegiacomo/fugleramme",
+      "importance": "standard",
+      "tags": ["local-ai", "raspberry-pi", "computer-vision", "python", "hobby"]
+    },
+    {
+      "id": "2026-09-18-n8n",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "n8n-io/n8n — ネイティブ AI 機能搭載ワークフロー自動化 (+319)",
+      "summary": "400 以上のインテグレーションとネイティブ AI 機能を持つワークフロー自動化プラットフォーム。★204k が本日 TypeScript Trending 入り。",
+      "url": "https://github.com/n8n-io/n8n",
+      "importance": "minor",
+      "tags": ["workflow-automation", "ai-integration", "typescript", "no-code"]
+    },
+    {
+      "id": "2026-09-18-google-timesfm",
+      "type": "new",
+      "vendor": "Google",
+      "section": "community",
+      "title": "google-research/timesfm — Google Research 製時系列予測基盤モデル (+272)",
+      "summary": "汎用時系列予測向け基盤モデル。Google Research 製で ★33k のリポジトリが本日 Python Trending に再浮上。",
+      "url": "https://github.com/google-research/timesfm",
+      "importance": "minor",
+      "tags": ["time-series", "forecasting", "foundation-model", "google", "python"]
+    },
+    {
+      "id": "2026-09-18-cloudflare-security-audit-followup",
+      "type": "followup",
+      "vendor": "Cloudflare",
+      "section": "community",
+      "title": "[続報] cloudflare/security-audit-skill — +3,606 でグローバル 2 位へ急加速",
+      "summary": "昨日 (09-17) の +1,249 から本日は +3,606 と約 3 倍に急加速。グローバル Trending 2 位を記録した。多段階セキュリティ監査スキルが SNS 上でのさらなる拡散を受け勢いが増した。",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "related_date": "2026-09-17",
+      "importance": "highlight",
+      "tags": ["security", "audit", "ai-agent", "cloudflare", "javascript"]
+    },
+    {
+      "id": "2026-09-18-alibaba-open-code-review-followup",
+      "type": "followup",
+      "vendor": "Alibaba",
+      "section": "community",
+      "title": "[続報] alibaba/open-code-review — +3,290 stars、3 日連続グローバル首位",
+      "summary": "09-16 の初登場から3日連続でグローバル Trending 首位を維持。本日も +3,290 と高水準を継続。",
+      "url": "https://github.com/alibaba/open-code-review",
+      "related_date": "2026-09-16",
+      "importance": "highlight",
+      "tags": ["code-review", "llm", "hybrid-architecture", "go", "alibaba"]
+    },
+    {
+      "id": "2026-09-18-tencent-weknora-followup",
+      "type": "followup",
+      "vendor": "Tencent",
+      "section": "community",
+      "title": "[続報] Tencent/WeKnora — +1,123 stars、2 日連続",
+      "summary": "昨日の新規浮上 (+1,201) から本日も +1,123 と高水準を維持。LLM 知識管理 RAG プラットフォームへの継続的な関心。",
+      "url": "https://github.com/Tencent/WeKnora",
+      "related_date": "2026-09-17",
+      "importance": "standard",
+      "tags": ["rag", "knowledge-management", "llm", "tencent", "go"]
+    },
+    {
+      "id": "2026-09-18-alphaxiv-openresearch-followup",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] alphaXiv/OpenResearch — +940 stars、2 日連続",
+      "summary": "昨日の初登場 (+1,036) から本日も +940 の高い勢い。コーディングエージェントをリサーチエージェントへ転換するフレームワーク。",
+      "url": "https://github.com/alphaXiv/OpenResearch",
+      "related_date": "2026-09-17",
+      "importance": "standard",
+      "tags": ["research-agent", "coding-agent", "arxiv", "rust"]
+    },
+    {
+      "id": "2026-09-18-justvugg-colibri-followup",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] JustVugg/colibri — +872 stars、5 日連続トレンド入り",
+      "summary": "09-14 の初登場から5日連続のトレンド入り。コンシューマー GPU でフロンティア MoE モデルを動かす C 製ランタイム。",
+      "url": "https://github.com/JustVugg/colibri",
+      "related_date": "2026-09-14",
+      "importance": "standard",
+      "tags": ["local-llm", "moe", "inference", "c", "consumer-hardware"]
+    },
+    {
+      "id": "2026-09-18-addyosmani-agent-skills-followup",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] addyosmani/agent-skills — +680 stars、2 日連続",
+      "summary": "昨日の初登場 (+656) から本日も +680 で安定したトレンド継続。AI コーディングエージェント向けプロダクション品質スキル集。",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "related_date": "2026-09-17",
+      "importance": "standard",
+      "tags": ["agent-skills", "coding-agent", "javascript"]
+    },
+    {
+      "id": "2026-09-18-snailsploit-claude-red-followup",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] SnailSploit/Claude-Red — +489 stars、6 日連続トレンド入り",
+      "summary": "09-13 の初登場から6日連続のトレンド入り継続。Claude のスキルシステム向けオフェンシブセキュリティスキルライブラリ。",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "related_date": "2026-09-13",
+      "importance": "minor",
+      "tags": ["security", "offensive-security", "claude", "python"]
+    },
+    {
+      "id": "2026-09-18-tencentcloud-octop-followup",
+      "type": "followup",
+      "vendor": "Tencent",
+      "section": "community",
+      "title": "[続報] TencentCloud/Octop — +386 stars、2 日連続",
+      "summary": "昨日の初登場 (+419) から本日も +386 で継続。マルチユーザー・マルチエージェント対応の自己ホスト型 AI アシスタント。",
+      "url": "https://github.com/TencentCloud/Octop",
+      "related_date": "2026-09-17",
+      "importance": "minor",
+      "tags": ["ai-assistant", "multi-agent", "self-hosted", "tencent", "python"]
+    },
+    {
+      "id": "2026-09-18-roboflow-supervision-followup",
+      "type": "followup",
+      "vendor": "Roboflow",
+      "section": "community",
+      "title": "[続報] roboflow/supervision — +327 stars、2 日連続",
+      "summary": "昨日に続き安定したトレンド入り。再利用可能なコンピュータビジョンツールライブラリ。",
+      "url": "https://github.com/roboflow/supervision",
+      "related_date": "2026-09-17",
+      "importance": "minor",
+      "tags": ["computer-vision", "annotation", "tracking", "python"]
+    },
+    {
+      "id": "2026-09-18-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-18-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-18-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-18-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-18-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    }
+  ]
+}
