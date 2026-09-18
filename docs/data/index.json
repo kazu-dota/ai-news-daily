@@ -1,5 +1,368 @@
 [
   {
+    "date": "2026-09-19",
+    "id": "2026-09-19-nvidia-skillspector",
+    "type": "new",
+    "vendor": "NVIDIA",
+    "section": "community",
+    "title": "NVIDIA/SkillSpector — AI エージェントスキル向けセキュリティスキャナー",
+    "summary": "プロンプトインジェクション・データ漏洩・悪意あるパターンを自動検出する NVIDIA 製静的スキャンツール。エージェントスキルのサプライチェーンセキュリティ強化を目的とする。",
+    "url": "https://github.com/NVIDIA/SkillSpector",
+    "importance": "highlight",
+    "tags": [
+      "security",
+      "agent-skills",
+      "nvidia",
+      "prompt-injection"
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "id": "2026-09-19-stablyai-orca",
+    "type": "new",
+    "vendor": "stablyai",
+    "section": "community",
+    "title": "stablyai/orca — 並列エージェント向け Agent Development Environment",
+    "summary": "コーディングエージェントを並列実行する ADE。自身の AI サブスクリプションで複数エージェントを同時稼働できる設計で、★7.2万の大型リポジトリが本日浮上。",
+    "url": "https://github.com/stablyai/orca",
+    "importance": "highlight",
+    "tags": [
+      "agent",
+      "parallel-agents",
+      "ade",
+      "coding-agent"
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "id": "2026-09-19-graphify-labs-graphify",
+    "type": "new",
+    "vendor": "Graphify-Labs",
+    "section": "community",
+    "title": "Graphify-Labs/graphify — コードベース・ドキュメント・SQL・PDF を知識グラフ化",
+    "summary": "多様なアーティファクトをクエリ可能な知識グラフへ変換するツール。★11.9万の大型リポジトリが本日 Python Trending に浮上。",
+    "url": "https://github.com/Graphify-Labs/graphify",
+    "importance": "highlight",
+    "tags": [
+      "knowledge-graph",
+      "rag",
+      "codebase",
+      "agent"
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "id": "2026-09-19-cloudflare-security-audit-followup",
+    "type": "followup",
+    "vendor": "Cloudflare",
+    "section": "community",
+    "title": "[続報] cloudflare/security-audit-skill — 3日連続グローバル Trending 1位、+3,019 stars",
+    "summary": "09-17 新規浮上以来3日連続の首位。本日は +3,019 (昨日 +3,606 からやや減速も高水準継続)。",
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "related_date": "2026-09-17",
+    "importance": "highlight",
+    "tags": [
+      "security",
+      "agent-skills",
+      "cloudflare",
+      "trending"
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "id": "2026-09-19-alibaba-open-code-review-followup",
+    "type": "followup",
+    "vendor": "Alibaba",
+    "section": "community",
+    "title": "[続報] alibaba/open-code-review — 4日連続グローバル Trending 上位、+2,724 stars",
+    "summary": "09-16 初登場以来4日連続の上位維持。本日 +2,724。ハイブリッドコードレビューへの関心が1週間近く継続。",
+    "url": "https://github.com/alibaba/open-code-review",
+    "related_date": "2026-09-16",
+    "importance": "highlight",
+    "tags": [
+      "code-review",
+      "llm-agent",
+      "alibaba",
+      "trending"
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "id": "2026-09-19-fission-ai-openspec",
+    "type": "new",
+    "vendor": "Fission-AI",
+    "section": "community",
+    "title": "Fission-AI/OpenSpec — AI コーディングアシスタント向けスペック駆動開発フレームワーク",
+    "summary": "仕様を先に定義して AI コーディングツールに従わせる SDD フレームワーク。Claude Code・Codex・Cursor 等と連携。★6.9万のリポジトリが本日グローバル Trending に初登場。",
+    "url": "https://github.com/Fission-AI/OpenSpec",
+    "importance": "standard",
+    "tags": [
+      "spec-driven-development",
+      "coding-agent",
+      "ai-coding"
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "id": "2026-09-19-heygen-hyperframes",
+    "type": "new",
+    "vendor": "HeyGen",
+    "section": "community",
+    "title": "heygen-com/hyperframes — HTML を書いてビデオをレンダリング、エージェント向け動画生成",
+    "summary": "AI エージェントが HTML を記述することで動画を生成できるフレームワーク。HeyGen 製、★5.1万のリポジトリが本日初浮上。",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "importance": "standard",
+    "tags": [
+      "video-generation",
+      "agent",
+      "heygen",
+      "html-to-video"
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "id": "2026-09-19-supermemoryai-supermemory",
+    "type": "new",
+    "vendor": "supermemoryai",
+    "section": "community",
+    "title": "supermemoryai/supermemory — 高速・スケーラブルなエージェント向けメモリ & コンテキストエンジン",
+    "summary": "フルローカル動作対応の AI エージェント向けメモリ・コンテキストエンジン。★3.0万のリポジトリが本日 TypeScript Trending に浮上。",
+    "url": "https://github.com/supermemoryai/supermemory",
+    "importance": "standard",
+    "tags": [
+      "memory",
+      "context-engine",
+      "agent",
+      "local-ai"
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "id": "2026-09-19-tashfeenahmed-freellmapi",
+    "type": "new",
+    "vendor": "tashfeenahmed",
+    "section": "community",
+    "title": "tashfeenahmed/freellmapi — 34プロバイダーの無料 LLM を 1エンドポイントに統合",
+    "summary": "月 74 億トークンを上限に 34 の無料 LLM プロバイダーをスマートルーティングで統合する OpenAI 互換 API。★2.7万のリポジトリが本日浮上。",
+    "url": "https://github.com/tashfeenahmed/freellmapi",
+    "importance": "standard",
+    "tags": [
+      "llm-api",
+      "free-api",
+      "routing",
+      "openai-compatible"
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "id": "2026-09-19-shiyu-coder-kronos",
+    "type": "new",
+    "vendor": "shiyu-coder",
+    "section": "community",
+    "title": "shiyu-coder/Kronos — 金融市場言語に特化した基盤モデル",
+    "summary": "時系列データ・ティッカー・マーケットイベントを処理する専用アーキテクチャの金融特化 Foundation Model。★3.9万のリポジトリが本日 Python Trending に登場。",
+    "url": "https://github.com/shiyu-coder/Kronos",
+    "importance": "standard",
+    "tags": [
+      "foundation-model",
+      "finance",
+      "time-series"
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "id": "2026-09-19-microsoft-agent-lightning",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "community",
+    "title": "microsoft/agent-lightning — Microsoft 製 AI エージェントトレーニングフレームワーク",
+    "summary": "Microsoft 公開の AI エージェントトレーニング効率化フレームワーク。★1.8万のリポジトリが本日 Python Trending に浮上。",
+    "url": "https://github.com/microsoft/agent-lightning",
+    "importance": "standard",
+    "tags": [
+      "agent",
+      "training",
+      "microsoft"
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "id": "2026-09-19-tencent-browserskill-followup",
+    "type": "followup",
+    "vendor": "Tencent",
+    "section": "community",
+    "title": "[続報] Tencent/BrowserSkill — +1,319 stars、2日連続",
+    "summary": "09-18 新規浮上以来2日連続で +1,319 stars。ログイン済みブラウザを AI エージェントに引き渡すツールへの関心が継続。",
+    "url": "https://github.com/Tencent/BrowserSkill",
+    "related_date": "2026-09-18",
+    "importance": "standard",
+    "tags": [
+      "browser",
+      "agent",
+      "tencent",
+      "trending"
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "id": "2026-09-19-affaan-ecc-followup",
+    "type": "followup",
+    "vendor": "affaan-m",
+    "section": "community",
+    "title": "[続報] affaan-m/ECC — +965 stars、2日連続",
+    "summary": "09-18 新規浮上 (+1,173) から本日も +965 と高水準維持。複数 AI コーディングプラットフォームのエージェント性能最適化システム。",
+    "url": "https://github.com/affaan-m/ECC",
+    "related_date": "2026-09-18",
+    "importance": "standard",
+    "tags": [
+      "agent",
+      "coding-agent",
+      "optimization",
+      "trending"
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "id": "2026-09-19-addyosmani-agent-skills-followup",
+    "type": "followup",
+    "vendor": "addyosmani",
+    "section": "community",
+    "title": "[続報] addyosmani/agent-skills — +677 stars、3日連続",
+    "summary": "09-17 以来3日連続のトレンド入り。AI コーディングエージェント向けプロダクション品質スキル集として開発者コミュニティへの浸透が続く。",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "related_date": "2026-09-17",
+    "importance": "minor",
+    "tags": [
+      "agent-skills",
+      "coding-agent",
+      "trending"
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "id": "2026-09-19-n8n-io-n8n-followup",
+    "type": "followup",
+    "vendor": "n8n-io",
+    "section": "community",
+    "title": "[続報] n8n-io/n8n — +611 stars",
+    "summary": "昨日に続き TypeScript Trending 入り。ネイティブ AI 機能を持つワークフロー自動化プラットフォームとして安定した関心を維持。",
+    "url": "https://github.com/n8n-io/n8n",
+    "related_date": "2026-09-18",
+    "importance": "minor",
+    "tags": [
+      "workflow-automation",
+      "ai",
+      "n8n",
+      "trending"
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "id": "2026-09-19-tencentcloud-octop-followup",
+    "type": "followup",
+    "vendor": "Tencent",
+    "section": "community",
+    "title": "[続報] TencentCloud/Octop — +571 stars、3日連続",
+    "summary": "09-17 から3日連続のトレンド入り。マルチユーザー・マルチエージェント対応の自己ホスト型 AI アシスタント。",
+    "url": "https://github.com/TencentCloud/Octop",
+    "related_date": "2026-09-17",
+    "importance": "minor",
+    "tags": [
+      "ai-assistant",
+      "multi-agent",
+      "tencent",
+      "trending"
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "id": "2026-09-19-jamiepine-voicebox-followup",
+    "type": "followup",
+    "vendor": "jamiepine",
+    "section": "community",
+    "title": "[続報] jamiepine/voicebox — +458 stars、2日連続",
+    "summary": "09-18 の新規浮上以来2日連続のトレンド入り。オープンソース AI ボイススタジオとして引き続き関心を集めている。",
+    "url": "https://github.com/jamiepine/voicebox",
+    "related_date": "2026-09-18",
+    "importance": "minor",
+    "tags": [
+      "voice",
+      "ai-studio",
+      "cloning",
+      "trending"
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "id": "2026-09-19-cline-cline-followup",
+    "type": "followup",
+    "vendor": "cline",
+    "section": "community",
+    "title": "[続報] cline/cline — +288 stars",
+    "summary": "昨日に続き TypeScript Trending 入り。自律型コーディングエージェントの SDK・IDE 拡張・CLI 統合ツールとして継続的な関心を維持。",
+    "url": "https://github.com/cline/cline",
+    "related_date": "2026-09-18",
+    "importance": "minor",
+    "tags": [
+      "coding-agent",
+      "ide",
+      "sdk",
+      "trending"
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "id": "2026-09-19-roboflow-supervision-followup",
+    "type": "followup",
+    "vendor": "Roboflow",
+    "section": "community",
+    "title": "[続報] roboflow/supervision — +229 stars",
+    "summary": "3日連続のトレンド入り。再利用可能なコンピュータビジョンツールライブラリとして開発者コミュニティに定着。",
+    "url": "https://github.com/roboflow/supervision",
+    "related_date": "2026-09-17",
+    "importance": "minor",
+    "tags": [
+      "computer-vision",
+      "roboflow",
+      "trending"
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "id": "2026-09-19-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-19",
+    "id": "2026-09-19-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-19",
+    "id": "2026-09-19-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-19",
+    "id": "2026-09-19-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-19",
+    "id": "2026-09-19-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
     "date": "2026-09-18",
     "id": "2026-09-18-tencent-browserskill",
     "type": "new",
