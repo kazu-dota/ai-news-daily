@@ -1,0 +1,246 @@
+{
+  "date": "2026-09-20",
+  "generated_at": "2026-09-20T08:03:00+09:00",
+  "sources_checked": 26,
+  "sources_failed": 23,
+  "items": [
+    {
+      "id": "2026-09-20-trycua-cua",
+      "type": "new",
+      "vendor": "trycua",
+      "section": "community",
+      "title": "trycua/cua — \"Computer-Use 2.0\" AI エージェント向けクロス OS 運用基盤",
+      "summary": "クロス OS フリート管理・専用モデル CUA-S1・ベンチマーク環境を一体提供する Computer-Use 2.0 プラットフォーム。本日グローバル Trending 2位に急浮上 (+1,124 stars)。",
+      "url": "https://github.com/trycua/cua",
+      "importance": "highlight",
+      "tags": ["computer-use", "agent", "cross-os", "model", "benchmark"]
+    },
+    {
+      "id": "2026-09-20-vercel-json-render",
+      "type": "new",
+      "vendor": "Vercel",
+      "section": "community",
+      "title": "vercel-labs/json-render — Vercel 製 Generative UI Framework",
+      "summary": "AI がユーザー定義コンポーネントカタログ内でのみ UI を生成できる guardrail 機構を持つフレームワーク。React/Vue/Svelte 等に対応しストリーミングでリアルタイム描画。本日 TypeScript Trending 4位に初登場 (+468 stars)。",
+      "url": "https://github.com/vercel-labs/json-render",
+      "importance": "highlight",
+      "tags": ["generative-ui", "vercel", "react", "streaming", "guardrails"]
+    },
+    {
+      "id": "2026-09-20-cloudflare-security-audit-followup",
+      "type": "followup",
+      "vendor": "Cloudflare",
+      "section": "community",
+      "title": "[続報] cloudflare/security-audit-skill — 4日連続グローバル Trending 首位圏、+3,162 stars",
+      "summary": "09-17 の新規浮上から4日連続の首位圏維持 (累計 ★16,218)。本日 +3,162 は昨日 +3,019 とほぼ横ばいで高水準継続。",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "related_date": "2026-09-17",
+      "importance": "highlight",
+      "tags": ["security", "agent-skills", "cloudflare", "trending"]
+    },
+    {
+      "id": "2026-09-20-tencent-browserskill-followup",
+      "type": "followup",
+      "vendor": "Tencent",
+      "section": "community",
+      "title": "[続報] Tencent/BrowserSkill — +744 stars、3日連続、v0.3.0 リリース",
+      "summary": "09-18 の新規浮上から3日連続 (★5,719)。v0.3.0 でブラウザ拡張設定を権威あるソースとして統一、プライバシー制御を強化。",
+      "url": "https://github.com/Tencent/BrowserSkill",
+      "related_date": "2026-09-18",
+      "importance": "highlight",
+      "tags": ["browser", "agent", "tencent", "trending", "privacy"]
+    },
+    {
+      "id": "2026-09-20-cactus-needle",
+      "type": "new",
+      "vendor": "cactus-compute",
+      "section": "community",
+      "title": "cactus-compute/needle — 8〜29MB のエッジ AI 基盤モデル",
+      "summary": "2ビット精度・8〜29MB の超軽量基盤モデル。ツールコール・構造化抽出・テキスト埋め込みを単一モデルで担い、スマートウォッチ・マイコンなどのエッジデバイスで動作。",
+      "url": "https://github.com/cactus-compute/needle",
+      "importance": "highlight",
+      "tags": ["edge-ai", "foundation-model", "tool-calling", "embedded", "tiny-model"]
+    },
+    {
+      "id": "2026-09-20-higgsfield-ai",
+      "type": "new",
+      "vendor": "higgsfield-ai",
+      "section": "community",
+      "title": "higgsfield-ai/higgsfield — 数兆パラメータ LLM 向けフォールトトレラント分散訓練基盤",
+      "summary": "PyTorch FSDP + DeepSpeed ZeRO-3 を YAML なし・Python だけで管理できる分散 GPU 訓練フレームワーク。GitHub Actions 連携で ML の CI/CD 化も可能。本日グローバル Trending 初登場 (+314 stars)。",
+      "url": "https://github.com/higgsfield-ai/higgsfield",
+      "importance": "standard",
+      "tags": ["distributed-training", "gpu", "llm-training", "fault-tolerant", "pytorch"]
+    },
+    {
+      "id": "2026-09-20-coder-coder",
+      "type": "new",
+      "vendor": "Coder",
+      "section": "community",
+      "title": "coder/coder — AI エージェントも利用できる安全なリモート開発環境",
+      "summary": "開発者と AI エージェントが共用できる隔離済みリモート開発環境プラットフォーム。エージェントの動作範囲を制御するセキュリティ境界として機能。本日グローバル Trending 4位 (+406 stars)。",
+      "url": "https://github.com/coder/coder",
+      "importance": "standard",
+      "tags": ["remote-dev", "agent", "security", "sandbox"]
+    },
+    {
+      "id": "2026-09-20-browser-use",
+      "type": "new",
+      "vendor": "browser-use",
+      "section": "community",
+      "title": "browser-use/browser-use — AI エージェント向けブラウザ操作ライブラリ",
+      "summary": "Playwright ベースの AI エージェント向けブラウザ自動化ライブラリ。★11.5万超の大型リポジトリが本日 Python Trending に再浮上 (+197 stars)。",
+      "url": "https://github.com/browser-use/browser-use",
+      "importance": "minor",
+      "tags": ["browser", "agent", "playwright", "automation"]
+    },
+    {
+      "id": "2026-09-20-chrome-devtools-mcp",
+      "type": "new",
+      "vendor": "ChromeDevTools",
+      "section": "community",
+      "title": "ChromeDevTools/chrome-devtools-mcp — Chrome DevTools を AI コーディングエージェントへ MCP 経由で開放",
+      "summary": "Claude・Cursor・Copilot 等のコーディングエージェントが Chrome DevTools のパフォーマンストレース・ネットワーク検査・コンソールログを MCP サーバー経由で利用できるようにするツール。本日 TypeScript Trending 入り (+50 stars)。",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "importance": "standard",
+      "tags": ["chrome-devtools", "mcp", "coding-agent", "debugging", "performance"]
+    },
+    {
+      "id": "2026-09-20-google-stitch-skills",
+      "type": "new",
+      "vendor": "Google",
+      "section": "community",
+      "title": "google-labs-code/stitch-skills — Google Labs 製 AI コーディングエージェント向けスキルライブラリ",
+      "summary": "Claude Code・Cursor など主要 AI コーディングエージェント対応のスキルライブラリ。各社のエージェントスキルエコシステム整備が加速する流れを体現。本日 TypeScript Trending 入り (+10 stars)。",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "importance": "minor",
+      "tags": ["agent-skills", "google", "coding-agent", "claude-code"]
+    },
+    {
+      "id": "2026-09-20-addyosmani-agent-skills-followup",
+      "type": "followup",
+      "vendor": "addyosmani",
+      "section": "community",
+      "title": "[続報] addyosmani/agent-skills — +547 stars、4日連続",
+      "summary": "09-17 から4日連続のトレンド入り (★96,988)。AI コーディングエージェント向けプロダクション品質スキル集として安定した関心を継続。",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "related_date": "2026-09-17",
+      "importance": "minor",
+      "tags": ["agent-skills", "coding-agent", "trending"]
+    },
+    {
+      "id": "2026-09-20-fission-openspec-followup",
+      "type": "followup",
+      "vendor": "Fission-AI",
+      "section": "community",
+      "title": "[続報] Fission-AI/OpenSpec — +464 stars、2日連続",
+      "summary": "09-19 の初登場から2日連続 (★69,560)。スペック駆動開発 (SDD) フレームワークとして AI コーディングツールとの連携を前提に設計。",
+      "url": "https://github.com/Fission-AI/OpenSpec",
+      "related_date": "2026-09-19",
+      "importance": "standard",
+      "tags": ["spec-driven-development", "coding-agent", "ai-coding", "trending"]
+    },
+    {
+      "id": "2026-09-20-supermemory-followup",
+      "type": "followup",
+      "vendor": "supermemoryai",
+      "section": "community",
+      "title": "[続報] supermemoryai/supermemory — +460 stars、2日連続",
+      "summary": "09-19 の初登場から2日連続 (★30,578)。フルローカル動作対応の AI エージェント向けメモリ・コンテキストエンジン。",
+      "url": "https://github.com/supermemoryai/supermemory",
+      "related_date": "2026-09-19",
+      "importance": "standard",
+      "tags": ["memory", "context-engine", "agent", "local-ai", "trending"]
+    },
+    {
+      "id": "2026-09-20-tencentcloud-octop-followup",
+      "type": "followup",
+      "vendor": "Tencent",
+      "section": "community",
+      "title": "[続報] TencentCloud/Octop — +335 stars、4日連続",
+      "summary": "09-17 から4日連続のトレンド入り (★4,153)。マルチユーザー・マルチエージェント対応の自己ホスト型 AI アシスタント。",
+      "url": "https://github.com/TencentCloud/Octop",
+      "related_date": "2026-09-17",
+      "importance": "minor",
+      "tags": ["ai-assistant", "multi-agent", "tencent", "trending"]
+    },
+    {
+      "id": "2026-09-20-shiyu-kronos-followup",
+      "type": "followup",
+      "vendor": "shiyu-coder",
+      "section": "community",
+      "title": "[続報] shiyu-coder/Kronos — +67 stars、2日連続",
+      "summary": "09-19 の初登場から本日も継続 (★39,242)。金融市場言語に特化した基盤モデル。",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "related_date": "2026-09-19",
+      "importance": "minor",
+      "tags": ["foundation-model", "finance", "time-series", "trending"]
+    },
+    {
+      "id": "2026-09-20-n8n-io-n8n-followup",
+      "type": "followup",
+      "vendor": "n8n-io",
+      "section": "community",
+      "title": "[続報] n8n-io/n8n — +130 stars",
+      "summary": "継続トレンド入り (★205,382)。ネイティブ AI 機能を持つワークフロー自動化プラットフォームとして安定した関心を維持。",
+      "url": "https://github.com/n8n-io/n8n",
+      "related_date": "2026-09-18",
+      "importance": "minor",
+      "tags": ["workflow-automation", "ai", "n8n", "trending"]
+    },
+    {
+      "id": "2026-09-20-anthropics-claude-code-followup",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "[続報] anthropics/claude-code — +482 stars",
+      "summary": "継続トレンド入り (★146,688)。グローバル Trending 5位に位置し、AI コーディング CLI への持続的な関心を示している。",
+      "url": "https://github.com/anthropics/claude-code",
+      "related_date": "2026-09-18",
+      "importance": "minor",
+      "tags": ["claude-code", "anthropic", "coding-agent", "trending"]
+    },
+    {
+      "id": "2026-09-20-anthropics-knowledge-work-plugins-followup",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "[続報] anthropics/knowledge-work-plugins — +280 stars",
+      "summary": "継続トレンド入り (★25,111)。Claude Cowork 向けナレッジワーカー用プラグイン公式リポジトリとして継続的な関心を集めている。",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "related_date": "2026-09-17",
+      "importance": "minor",
+      "tags": ["plugins", "anthropic", "knowledge-work", "trending"]
+    },
+    {
+      "id": "2026-09-20-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-20-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-20-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-20-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-20-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    }
+  ]
+}
