@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-09-20](summaries/2026/09/2026-09-20.md) — GitHub Trending: trycua/cua (Computer-Use 2.0 クロス OS 運用基盤 +1,124 新規) / vercel-labs/json-render (Generative UI Framework, +468 新規) / cloudflare/security-audit-skill (4日連続首位圏 +3,162) / Tencent/BrowserSkill (v0.3.0 リリース +744 3日連続) / cactus-compute/needle (8-29MB エッジ AI 基盤モデル +207 新規) — ベンダーニュースはネットワーク制約により取得不可
 - [2026-09-19](summaries/2026/09/2026-09-19.md) — GitHub Trending: NVIDIA/SkillSpector (AIエージェントスキル向けセキュリティスキャナー, 新規) / stablyai/orca (並列エージェント ADE, +858 新規) / Graphify-Labs/graphify (コードベース→知識グラフ, ★11.9万) / cloudflare/security-audit-skill (3日連続首位 +3,019) / alibaba/open-code-review (4日連続 +2,724) — ベンダーニュースはネットワーク制約により取得不可
 - [2026-09-18](summaries/2026/09/2026-09-18.md) — GitHub Trending: cloudflare/security-audit-skill (+3,606 グローバル2位へ急加速) / Tencent/BrowserSkill (ログイン済みブラウザをエージェントに開放, +1,350 新規) / affaan-m/ECC (マルチプラットフォームエージェント性能最適化, +1,173 新規) / alibaba/open-code-review (3日連続首位 +3,290) — ベンダーニュースはネットワーク制約により取得不可
 - [2026-09-17](summaries/2026/09/2026-09-17.md) — GitHub Trending: cloudflare/security-audit-skill (多段階セキュリティ監査エージェント, +1,249) / Tencent/WeKnora (LLM 知識管理 RAG, +1,201) / alphaXiv/OpenResearch (コーディング→リサーチエージェント変換, +1,036) / addyosmani/agent-skills (プロダクション品質スキル集 95k+ stars, +656) — ベンダーニュースはネットワーク制約により取得不可
 - [2026-09-16](summaries/2026/09/2026-09-16.md) — GitHub Trending: alibaba/open-code-review (LLM エージェント × 決定論的パイプラインのハイブリッドコードレビュー, +2,751 全言語最高) / VoiceStudio (4 日連続首位 +2,081) / earendil-works/pi (統合 AI エージェントツールキット, +437) / ai-agent-book (設計原則参照書, +693) — ベンダーニュースはネットワーク制約により取得不可
 - [2026-09-15](summaries/2026/09/2026-09-15.md) — GitHub Trending: Agent-Reach (AI エージェントに API 費ゼロでインターネットアクセス, +640) / ai-job-search (Claude 活用の就活自動化エージェント, +488) / MiroFish (群知能予測エンジン, +524) / VoiceStudio (3 日連続首位 +2,774) — ベンダーニュースはネットワーク制約により取得不可
 - [2026-09-14](summaries/2026/09/2026-09-14.md) — GitHub Trending: VoiceStudio (ローカル音声クローニング 646 言語, +2,546 今日最大急騰) / colibri (コンシューマー GPU で MoE フロンティアモデル, +960) / crawl4ai (LLM 向け Web クローラー, +690) / pentagi (AI ペンテスト自動化, +613) — ベンダーニュースはネットワーク制約により取得不可
-- [2026-09-13](summaries/2026/09/2026-09-13.md) — GitHub Trending: orca (並列マルチエージェント ADE, +666) / i-have-adhd (+3,002, 今週最高単日急騰) / spec-kit (+457, 仕様駆動開発) / llm_wiki (+525) — ベンダーニュースはネットワーク制約により取得不可
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
