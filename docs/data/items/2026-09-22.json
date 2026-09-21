@@ -1,0 +1,241 @@
+{
+  "date": "2026-09-22",
+  "generated_at": "2026-09-22T08:03:00+09:00",
+  "sources_checked": 26,
+  "sources_failed": 23,
+  "items": [
+    {
+      "id": "2026-09-22-anthropics-financial-services",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "anthropics/financial-services — Anthropic 製金融業務向け Python ツールキット",
+      "summary": "Anthropic が公開した金融サービス向け Python ツールキット。★35,793 の大型リポジトリが本日グローバル・Python Trending に新規登場 (+425 stars)。",
+      "url": "https://github.com/anthropics/financial-services",
+      "importance": "highlight",
+      "tags": ["anthropic", "financial-services", "python", "toolkit"]
+    },
+    {
+      "id": "2026-09-22-builderio-agent-native",
+      "type": "new",
+      "vendor": "BuilderIO",
+      "section": "community",
+      "title": "BuilderIO/agent-native — エージェントアプリ向け軽量フレームワーク",
+      "summary": "Builder.io 製のエージェントアプリ開発フレームワーク。本日 TypeScript Trending 首位 (+607 stars) およびグローバル Trending 1位に初登場。",
+      "url": "https://github.com/BuilderIO/agent-native",
+      "importance": "highlight",
+      "tags": ["agent", "framework", "typescript", "agentic-apps"]
+    },
+    {
+      "id": "2026-09-22-earendil-pi",
+      "type": "new",
+      "vendor": "earendil-works",
+      "section": "community",
+      "title": "earendil-works/pi — 統合 LLM API・エージェントツールキット",
+      "summary": "unified LLM API・エージェントループ・TUI・コーディングエージェント CLI を一体提供する TypeScript 製ツールキット。★108,106 の大型リポジトリが本日 TypeScript Trending 4位 (+438 stars)。",
+      "url": "https://github.com/earendil-works/pi",
+      "importance": "highlight",
+      "tags": ["llm", "agent", "typescript", "unified-api", "cli"]
+    },
+    {
+      "id": "2026-09-22-vercel-json-render-followup",
+      "type": "followup",
+      "vendor": "Vercel",
+      "section": "community",
+      "title": "[続報] vercel-labs/json-render — +787 stars、前日比 +68% に加速",
+      "summary": "Vercel 製 Generative UI フレームワークが2日連続トレンド入り。前日 +468 から本日 +787 と加速している。",
+      "url": "https://github.com/vercel-labs/json-render",
+      "related_date": "2026-09-20",
+      "importance": "highlight",
+      "tags": ["generative-ui", "vercel", "typescript", "framework"]
+    },
+    {
+      "id": "2026-09-22-akitaonrails-ai-memory",
+      "type": "new",
+      "vendor": "akitaonrails",
+      "section": "community",
+      "title": "akitaonrails/ai-memory — エージェント CLI 向け長期記憶・ベンダー引き継ぎ対応",
+      "summary": "AI エージェント CLI に長期記憶機能を付与し、異なる AI プロバイダー間でのシームレスな引き継ぎを実現する Rust 製ツール。本日グローバル Trending 4位に初登場 (+217 stars)。",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "importance": "highlight",
+      "tags": ["agent", "memory", "rust", "cli", "vendor-handoff"]
+    },
+    {
+      "id": "2026-09-22-anthropic-vendor-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-22-openai-vendor-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-22-google-vendor-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-22-microsoft-vendor-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-22-meta-vendor-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-22-virgiliojr94-book-to-skill",
+      "type": "new",
+      "vendor": "virgiliojr94",
+      "section": "community",
+      "title": "virgiliojr94/book-to-skill — 技術書 PDF を Claude Code スキルへ変換",
+      "summary": "技術書 PDF を Claude Code スキルとして自動整形・出力する Python ツール。★31,820 の大型リポジトリが本日 Python Trending に初登場 (+242 stars)。",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "importance": "standard",
+      "tags": ["claude-code", "skill", "pdf", "python", "productivity"]
+    },
+    {
+      "id": "2026-09-22-zhouxiaoka-autoclip",
+      "type": "new",
+      "vendor": "zhouxiaoka",
+      "section": "community",
+      "title": "zhouxiaoka/autoclip — AI 自動動画クリッピング・ハイライト生成",
+      "summary": "長尺動画から AI がハイライトを自動抽出する Python ツール。本日 Python Trending 3位に初登場 (+266 stars)。",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "importance": "standard",
+      "tags": ["video", "ai", "python", "highlight-generation"]
+    },
+    {
+      "id": "2026-09-22-crosstalk-project-nomad",
+      "type": "new",
+      "vendor": "Crosstalk-Solutions",
+      "section": "community",
+      "title": "Crosstalk-Solutions/project-nomad — オフラインファースト知識サーバー with ローカル AI",
+      "summary": "Wikipedia・書籍・コース・地図とオプションのローカル AI を束ねたオフラインファースト知識・教育サーバー。本日 TypeScript Trending 3位 (+360 stars)。",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "importance": "standard",
+      "tags": ["offline", "local-ai", "education", "typescript", "knowledge"]
+    },
+    {
+      "id": "2026-09-22-bendlang-bend",
+      "type": "new",
+      "vendor": "bendlang",
+      "section": "community",
+      "title": "bendlang/bend — AI ミスをプルーフで阻止する高速言語 Bend 2",
+      "summary": "型証明により AI 生成コードの誤りを静的に排除するプログラミング言語 Bend 2。本日 TypeScript Trending に初登場 (+188 stars)。",
+      "url": "https://github.com/bendlang/bend",
+      "importance": "standard",
+      "tags": ["programming-language", "proof", "ai-safety", "typescript"]
+    },
+    {
+      "id": "2026-09-22-krillinai-opencreator",
+      "type": "new",
+      "vendor": "krillinai",
+      "section": "community",
+      "title": "krillinai/OpenCreator — Codex 基盤の AI コンテンツ制作ワークスペース",
+      "summary": "OpenAI Codex を基盤に動画・画像・音声・アバター・動画翻訳を統合したオープンソースコンテンツ制作 TypeScript アプリ。本日 Trending 初登場 (+134 stars)。",
+      "url": "https://github.com/krillinai/OpenCreator",
+      "importance": "standard",
+      "tags": ["codex", "content-creation", "video", "image", "typescript"]
+    },
+    {
+      "id": "2026-09-22-aipoch-open-science",
+      "type": "new",
+      "vendor": "aipoch",
+      "section": "community",
+      "title": "aipoch/open-science — ローカルファースト・モデル非依存 AI 科学研究ワークベンチ",
+      "summary": "ローカルファーストでモデル非依存の科学研究・エージェントワークフロー向けオープンソース TypeScript デスクトップアプリ。本日 Trending 初登場 (+90 stars)。",
+      "url": "https://github.com/aipoch/open-science",
+      "importance": "standard",
+      "tags": ["research", "agent-workflow", "local-first", "model-agnostic", "typescript"]
+    },
+    {
+      "id": "2026-09-22-docling-docling",
+      "type": "new",
+      "vendor": "docling-project",
+      "section": "community",
+      "title": "docling-project/docling — GenAI 向けドキュメント準備ツール",
+      "summary": "PDF・Word・PowerPoint 等のドキュメントを GenAI パイプライン入力用に変換する Python ツール。★67,531 の大型リポジトリが本日 Python Trending に浮上 (+135 stars)。",
+      "url": "https://github.com/docling-project/docling",
+      "importance": "standard",
+      "tags": ["document", "genai", "pdf", "python", "preprocessing"]
+    },
+    {
+      "id": "2026-09-22-jakubantalik-thinking-orbs",
+      "type": "new",
+      "vendor": "Jakubantalik",
+      "section": "community",
+      "title": "Jakubantalik/thinking-orbs — AI/エージェント UI 向けローディングインジケーター",
+      "summary": "AI・エージェント UI に特化したドットオーブ型ローディングアニメーションライブラリ。9種のアニメーション・2サイズ・ダーク/ライト自動切換え対応。本日 TypeScript Trending 初登場 (+203 stars)。",
+      "url": "https://github.com/Jakubantalik/thinking-orbs",
+      "importance": "minor",
+      "tags": ["ui", "loading", "animation", "typescript", "agent-ui"]
+    },
+    {
+      "id": "2026-09-22-yynxxxxx-codex-x",
+      "type": "new",
+      "vendor": "yynxxxxx",
+      "section": "community",
+      "title": "yynxxxxx/Codex-X — OpenAI Codex デスクトップ/CLI ビジュアライゼーションツール",
+      "summary": "OpenAI Codex のデスクトップ/CLI ビジュアライゼーションツール。プロバイダー切り替えとクロスプラットフォーム管理に対応する Rust 製アプリ。本日グローバル Trending 初登場 (+79 stars)。",
+      "url": "https://github.com/yynxxxxx/Codex-X",
+      "importance": "minor",
+      "tags": ["codex", "openai", "desktop", "cli", "rust"]
+    },
+    {
+      "id": "2026-09-22-trycua-cua",
+      "type": "followup",
+      "vendor": "trycua",
+      "section": "community",
+      "title": "[続報] trycua/cua — +609 stars、2日連続",
+      "summary": "Computer-Use 2.0 プラットフォームが2日連続のトレンド入り。前日 +1,124 から +609 に落ち着いたが持続的な関心を維持。",
+      "url": "https://github.com/trycua/cua",
+      "related_date": "2026-09-20",
+      "importance": "standard",
+      "tags": ["computer-use", "agent", "cross-os"]
+    },
+    {
+      "id": "2026-09-22-coder-coder",
+      "type": "followup",
+      "vendor": "coder",
+      "section": "community",
+      "title": "[続報] coder/coder — +461 stars、2日連続",
+      "summary": "AI エージェントも利用できる安全なリモート開発環境が2日連続のトレンド入り (+461 stars)。",
+      "url": "https://github.com/coder/coder",
+      "related_date": "2026-09-20",
+      "importance": "standard",
+      "tags": ["remote-dev", "agent", "security", "go"]
+    },
+    {
+      "id": "2026-09-22-browser-use-browser-use",
+      "type": "followup",
+      "vendor": "browser-use",
+      "section": "community",
+      "title": "[続報] browser-use/browser-use — +253 stars 継続",
+      "summary": "AI エージェント向けブラウザ操作ライブラリが継続してトレンド入り (+253 stars)。",
+      "url": "https://github.com/browser-use/browser-use",
+      "related_date": "2026-09-20",
+      "importance": "minor",
+      "tags": ["browser", "agent", "playwright", "python"]
+    },
+    {
+      "id": "2026-09-22-anthropics-claude-code",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "[続報] anthropics/claude-code — +504 stars 継続",
+      "summary": "Claude Code 本体が継続してトレンド入り。TypeScript Trending に本日も登場 (+504 stars, ★147,463)。",
+      "url": "https://github.com/anthropics/claude-code",
+      "related_date": "2026-09-20",
+      "importance": "minor",
+      "tags": ["anthropic", "claude-code", "typescript", "agent"]
+    }
+  ]
+}
