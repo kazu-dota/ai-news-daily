@@ -1,0 +1,227 @@
+{
+  "date": "2026-09-23",
+  "generated_at": "2026-09-23T08:15:00+09:00",
+  "sources_checked": 11,
+  "sources_failed": 7,
+  "items": [
+    {
+      "id": "2026-09-23-anthropic-claude-opus-55",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Claude Opus 5.5 発表",
+      "summary": "Fable 5.1 水準の性能を Opus 5 比 40% 低コストで提供。Terminal-Bench 4.0 で 66.4%、OSWorld 2.0 で 81.8%。出力速度 30% 以上向上、封じ込め回避試行が Opus 5 比 85% 減。",
+      "url": "https://www.anthropic.com/news/claude-opus-5-5",
+      "importance": "highlight",
+      "tags": ["model-release", "anthropic", "opus", "cost-reduction"]
+    },
+    {
+      "id": "2026-09-23-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-23-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-23-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-23-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-23-google-ax",
+      "type": "new",
+      "vendor": "Google",
+      "section": "community",
+      "title": "`google/ax` — Google 製オープンソースエージェント実行基盤",
+      "summary": "Kubernetes スタイル YAML でエージェントのサンドボックス化・ネットワーク制御・スケールアウトを管理する Go 製ランタイム。本日 +2,324 stars でグローバル Trending 首位に初登場。",
+      "url": "https://github.com/google/ax",
+      "importance": "highlight",
+      "tags": ["agent", "orchestration", "google", "go", "github-trending", "open-source"]
+    },
+    {
+      "id": "2026-09-23-openstock",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "`Open-Dev-Society/OpenStock` — AI 機能搭載オープンソース株式市場プラットフォーム",
+      "summary": "リアルタイム株価追跡・ウォッチリスト・企業分析を無料提供するオープンソースプラットフォーム。AI パーソナライズ機能付きで30以上の国際取引所対応。本日 +945 stars。",
+      "url": "https://github.com/Open-Dev-Society/OpenStock",
+      "importance": "highlight",
+      "tags": ["fintech", "ai", "open-source", "typescript", "github-trending"]
+    },
+    {
+      "id": "2026-09-23-stablyai-orca",
+      "type": "followup",
+      "vendor": "Other",
+      "section": "community",
+      "title": "[続報] `stablyai/orca` — +985 stars、TypeScript Trending 首位に再浮上",
+      "summary": "Sep 19 初登場から4日ぶりの再登場で前回比 +15% に加速。複数 AI コーディングエージェント並列実行・比較管理できる ADE として TypeScript Trending 首位獲得。",
+      "url": "https://github.com/stablyai/orca",
+      "related_date": "2026-09-19",
+      "importance": "highlight",
+      "tags": ["agent", "coding-agent", "ide", "parallel", "github-trending"]
+    },
+    {
+      "id": "2026-09-23-builderio-agent-native",
+      "type": "followup",
+      "vendor": "Other",
+      "section": "community",
+      "title": "[続報] `BuilderIO/agent-native` — +712 stars、2日連続",
+      "summary": "Sep 22 初登場から2日連続。Builder.io 製エージェントアプリ開発フレームワークへの継続的な関心。",
+      "url": "https://github.com/BuilderIO/agent-native",
+      "related_date": "2026-09-22",
+      "importance": "standard",
+      "tags": ["agent", "framework", "typescript", "github-trending"]
+    },
+    {
+      "id": "2026-09-23-agent-substrate-substrate",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "`agent-substrate/substrate` — AI エージェント向け高密度実行インフラ",
+      "summary": "Kubernetes ベースで標準比 10x 密度でエージェントを収容。500ms 以下のサスペンド/レジューム対応。gVisor・microVM によるカーネル隔離。本日 +301 stars。",
+      "url": "https://github.com/agent-substrate/substrate",
+      "importance": "standard",
+      "tags": ["agent", "infrastructure", "kubernetes", "go", "github-trending"]
+    },
+    {
+      "id": "2026-09-23-dream-num-univer",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "`dream-num/univer` — AI エージェント向けオフィスハーネス",
+      "summary": "スプレッドシート・ドキュメント・スライド・PDF を単一ランタイムで統合。AI エージェントが業務資料を横断操作できる設計。本日 +202 stars。",
+      "url": "https://github.com/dream-num/univer",
+      "importance": "standard",
+      "tags": ["agent", "office", "productivity", "typescript", "github-trending"]
+    },
+    {
+      "id": "2026-09-23-superdesigndev-treg",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "`superdesigndev/treg` — エージェントツールレジストリ",
+      "summary": "60+プロバイダー・3,000+エンドポイントを単一トークンで利用可能なツールプロキシ。OpenRouter for agent tools。本日 +197 stars。",
+      "url": "https://github.com/superdesigndev/treg",
+      "importance": "standard",
+      "tags": ["agent", "tools", "api", "proxy", "python", "github-trending"]
+    },
+    {
+      "id": "2026-09-23-fareedkhan-train-llm",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "`FareedKhan-dev/train-llm-from-scratch` — LLM をゼロから訓練する実践チュートリアル",
+      "summary": "データダウンロードからテキスト生成まで LLM 自作の全工程を解説する Python 教材。本日 +220 stars。",
+      "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+      "importance": "standard",
+      "tags": ["llm", "tutorial", "training", "python", "github-trending"]
+    },
+    {
+      "id": "2026-09-23-browser-use-video-use",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "`browser-use/video-use` — AI コーディングエージェントで動画編集",
+      "summary": "素材を置くだけで AI エージェントが編集・字幕・カラーグレーディングまで自動完結する Python ツール。本日 +155 stars。",
+      "url": "https://github.com/browser-use/video-use",
+      "importance": "standard",
+      "tags": ["video", "agent", "automation", "python", "github-trending"]
+    },
+    {
+      "id": "2026-09-23-zhouxiaoka-autoclip",
+      "type": "followup",
+      "vendor": "Other",
+      "section": "community",
+      "title": "[続報] `zhouxiaoka/autoclip` — +654 stars、前日比 2.5倍に加速",
+      "summary": "Sep 22 初登場から2日連続。本日は Python Trending 中最大の伸び +654 と前日比 2.5倍に加速。AI 動画クリッピングへの関心が急拡大。",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "related_date": "2026-09-22",
+      "importance": "standard",
+      "tags": ["video", "ai", "python", "github-trending"]
+    },
+    {
+      "id": "2026-09-23-crosstalk-project-nomad",
+      "type": "followup",
+      "vendor": "Other",
+      "section": "community",
+      "title": "[続報] `Crosstalk-Solutions/project-nomad` — +543 stars、2日連続",
+      "summary": "Sep 22 初登場から2日連続。オフライン・ローカル AI 対応知識サーバーへの関心が継続。",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "related_date": "2026-09-22",
+      "importance": "standard",
+      "tags": ["offline", "local-ai", "education", "typescript", "github-trending"]
+    },
+    {
+      "id": "2026-09-23-anthropics-financial-services",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "[続報] `anthropics/financial-services` — +436 stars、2日連続",
+      "summary": "Sep 22 初登場から2日連続。Anthropic 製金融業務向けツールキットへの継続的な関心。",
+      "url": "https://github.com/anthropics/financial-services",
+      "related_date": "2026-09-22",
+      "importance": "minor",
+      "tags": ["anthropic", "financial", "python", "github-trending"]
+    },
+    {
+      "id": "2026-09-23-vercel-json-render",
+      "type": "followup",
+      "vendor": "Other",
+      "section": "community",
+      "title": "[続報] `vercel-labs/json-render` — +206 stars、継続",
+      "summary": "Sep 20 初登場以来継続トレンド入り (初日 +468 → Sep 22 +787 → 本日 +206)。Generative UI フレームワークとして安定した関心を維持。",
+      "url": "https://github.com/vercel-labs/json-render",
+      "related_date": "2026-09-20",
+      "importance": "minor",
+      "tags": ["ui", "generative", "vercel", "typescript", "github-trending"]
+    },
+    {
+      "id": "2026-09-23-anthropics-claude-code",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "[続報] `anthropics/claude-code` — +193 stars 継続",
+      "summary": "複数日連続のトレンド入りが続く。Claude Code への持続的なコミュニティ関心。",
+      "url": "https://github.com/anthropics/claude-code",
+      "related_date": "2026-09-22",
+      "importance": "minor",
+      "tags": ["anthropic", "claude-code", "typescript", "github-trending"]
+    },
+    {
+      "id": "2026-09-23-krillinai-opencreator",
+      "type": "followup",
+      "vendor": "Other",
+      "section": "community",
+      "title": "[続報] `krillinai/OpenCreator` — +161 stars、2日連続",
+      "summary": "Sep 22 初登場から2日連続。Codex 基盤の AI コンテンツ制作ワークスペースへの関心が継続。",
+      "url": "https://github.com/krillinai/OpenCreator",
+      "related_date": "2026-09-22",
+      "importance": "minor",
+      "tags": ["content", "ai", "codex", "typescript", "github-trending"]
+    },
+    {
+      "id": "2026-09-23-tnt-panwatch",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "`TNT-Likely/PanWatch` — マルチエージェント AI 投資モニタリングアシスタント",
+      "summary": "マルチエージェント構成で市場動向を監視し投資判断を支援する自己ホスト型アシスタント。本日 +174 stars。",
+      "url": "https://github.com/TNT-Likely/PanWatch",
+      "importance": "minor",
+      "tags": ["finance", "agent", "monitoring", "python", "github-trending"]
+    }
+  ]
+}
