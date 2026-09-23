@@ -1,5 +1,319 @@
 [
   {
+    "date": "2026-09-24",
+    "id": "2026-09-24-anthropic-enzyme-arts",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Claude が CRISPR 類似の新規酵素システム (ARTs) を自律発見",
+    "summary": "950エージェントを21時間稼働させ20万件超の逆転写酵素を解析し、未知の酵素システム ARTs をバクテリオファージ内で独自発見。",
+    "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+    "importance": "highlight",
+    "tags": [
+      "science",
+      "research",
+      "life-sciences",
+      "autonomous-agents",
+      "anthropic"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "id": "2026-09-24-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-24",
+    "id": "2026-09-24-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-24",
+    "id": "2026-09-24-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-24",
+    "id": "2026-09-24-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-24",
+    "id": "2026-09-24-davila7-claude-code-templates",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "`davila7/claude-code-templates` が新規浮上 +393 stars — Claude Code 設定・監視 CLI ツール",
+    "summary": "Claude Code の機能拡張用エージェント・コマンド・MCP統合・フック等100+コンポーネントを一括インストール可能な ★31k CLI ツール。",
+    "url": "https://github.com/davila7/claude-code-templates",
+    "importance": "highlight",
+    "tags": [
+      "claude-code",
+      "cli",
+      "templates",
+      "anthropic",
+      "community"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "id": "2026-09-24-obra-superpowers",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "`obra/superpowers` が新規浮上 +485 stars — ★29万超エージェントスキルフレームワーク",
+    "summary": "Claude Code・Cursor 等17+ツール対応、TDD・コードレビュー・並列サブエージェント開発を構造化するスキルフレームワーク。",
+    "url": "https://github.com/obra/superpowers",
+    "importance": "highlight",
+    "tags": [
+      "agent-skills",
+      "methodology",
+      "tdd",
+      "multi-agent",
+      "community"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "id": "2026-09-24-can1357-oh-my-pi",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "`can1357/oh-my-pi` が新規浮上 +405 stars — LSP/DAP 統合コーディングエージェント",
+    "summary": "60+プロバイダー対応、Language Server と Debugger Adapter を内蔵した IDE 統合コーディングエージェント by Stencil Labs。",
+    "url": "https://github.com/can1357/oh-my-pi",
+    "importance": "highlight",
+    "tags": [
+      "coding-agent",
+      "lsp",
+      "dap",
+      "ide",
+      "multi-provider",
+      "community"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "id": "2026-09-24-pbakaus-impeccable",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "`pbakaus/impeccable` が新規浮上 +287 stars — AI エージェント向けデザインガイダンス",
+    "summary": "61の決定論的ルールで AI 生成 UI アンチパターンを検出し、17+ツール対応でデザイン品質を自動向上させるスキルシステム。",
+    "url": "https://github.com/pbakaus/impeccable",
+    "importance": "standard",
+    "tags": [
+      "ui-design",
+      "design-language",
+      "ai-agents",
+      "frontend",
+      "community"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "id": "2026-09-24-strands-agents-harness-sdk",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "`strands-agents/harness-sdk` が新規浮上 +96 stars — プロダクション AI エージェント SDK",
+    "summary": "Anthropic・OpenAI・Bedrock・Gemini 対応のマルチプロバイダーエージェント開発 SDK。ライフサイクル管理・メモリ・マルチエージェントパターンを内包。",
+    "url": "https://github.com/strands-agents/harness-sdk",
+    "importance": "standard",
+    "tags": [
+      "agent-sdk",
+      "multi-provider",
+      "python",
+      "typescript",
+      "community"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "id": "2026-09-24-deusdata-codebase-memory-mcp",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "`DeusData/codebase-memory-mcp` が新規浮上 +266 stars — 高性能コードインテリジェンス MCP サーバー",
+    "summary": "162言語対応、Linux カーネルを3分でインデックス化する知識グラフ型 MCP サーバー。Claude Code のトークン消費削減に特化。",
+    "url": "https://github.com/DeusData/codebase-memory-mcp",
+    "importance": "standard",
+    "tags": [
+      "mcp",
+      "code-intelligence",
+      "knowledge-graph",
+      "claude-code",
+      "community"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "id": "2026-09-24-dream-num-univer",
+    "type": "followup",
+    "vendor": "community",
+    "section": "community",
+    "title": "[続報] `dream-num/univer` — +1,140 stars、前日比 5.6 倍に急加速",
+    "summary": "AI エージェント向けオフィスハーネス。前日 +202 stars から +1,140 へ急加速し TypeScript Trending 首位を獲得。",
+    "url": "https://github.com/dream-num/univer",
+    "related_date": "2026-09-23",
+    "importance": "highlight",
+    "tags": [
+      "office-harness",
+      "ai-agents",
+      "typescript",
+      "community"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "id": "2026-09-24-google-ax",
+    "type": "followup",
+    "vendor": "Google",
+    "section": "community",
+    "title": "[続報] `google/ax` — +1,542 stars、2日連続グローバル Trending 2位",
+    "summary": "Google 製オープンソースエージェント実行基盤。前日の首位登場から2日連続で高関心を維持。",
+    "url": "https://github.com/google/ax",
+    "related_date": "2026-09-23",
+    "importance": "highlight",
+    "tags": [
+      "agent-runtime",
+      "google",
+      "go",
+      "orchestration",
+      "community"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "id": "2026-09-24-browser-use-video-use",
+    "type": "followup",
+    "vendor": "community",
+    "section": "community",
+    "title": "[続報] `browser-use/video-use` — +745 stars、前日比 4.8 倍",
+    "summary": "AI コーディングエージェントで動画編集する Python ツール。前日 +155 から +745 へ急加速。",
+    "url": "https://github.com/browser-use/video-use",
+    "related_date": "2026-09-23",
+    "importance": "standard",
+    "tags": [
+      "video-editing",
+      "coding-agent",
+      "python",
+      "community"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "id": "2026-09-24-anthropics-financial-services",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "community",
+    "title": "[続報] `anthropics/financial-services` — +665 stars、3日連続",
+    "summary": "Anthropic 製金融サービス向け Python ツールキット。3日連続のトレンド入りで関心が継続。",
+    "url": "https://github.com/anthropics/financial-services",
+    "related_date": "2026-09-22",
+    "importance": "standard",
+    "tags": [
+      "financial-services",
+      "python",
+      "anthropic",
+      "community"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "id": "2026-09-24-agent-substrate-substrate",
+    "type": "followup",
+    "vendor": "community",
+    "section": "community",
+    "title": "[続報] `agent-substrate/substrate` — +560 stars、2日連続",
+    "summary": "AI エージェント高密度実行基盤。前日 +301 から +560 へ加速。",
+    "url": "https://github.com/agent-substrate/substrate",
+    "related_date": "2026-09-23",
+    "importance": "standard",
+    "tags": [
+      "agent-runtime",
+      "kubernetes",
+      "go",
+      "community"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "id": "2026-09-24-superdesigndev-treg",
+    "type": "followup",
+    "vendor": "community",
+    "section": "community",
+    "title": "[続報] `superdesigndev/treg` — +502 stars、2.5 倍に加速",
+    "summary": "60+プロバイダー3,000超エンドポイントを単一 URL で利用できる \"OpenRouter for agent tools\"。",
+    "url": "https://github.com/superdesigndev/treg",
+    "related_date": "2026-09-23",
+    "importance": "minor",
+    "tags": [
+      "tool-registry",
+      "agent-tools",
+      "python",
+      "community"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "id": "2026-09-24-openstock",
+    "type": "followup",
+    "vendor": "community",
+    "section": "community",
+    "title": "[続報] `Open-Dev-Society/OpenStock` — +379 stars、2日連続",
+    "summary": "AI 機能搭載オープンソース株式市場プラットフォーム。関心が継続。",
+    "url": "https://github.com/Open-Dev-Society/OpenStock",
+    "related_date": "2026-09-23",
+    "importance": "minor",
+    "tags": [
+      "fintech",
+      "open-source",
+      "ai",
+      "community"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "id": "2026-09-24-builderio-agent-native",
+    "type": "followup",
+    "vendor": "community",
+    "section": "community",
+    "title": "[続報] `BuilderIO/agent-native` — +135 stars、3日連続",
+    "summary": "Builder.io 製エージェントアプリ開発フレームワーク。3日連続の安定したトレンド入り。",
+    "url": "https://github.com/BuilderIO/agent-native",
+    "related_date": "2026-09-22",
+    "importance": "minor",
+    "tags": [
+      "agent-framework",
+      "typescript",
+      "builderio",
+      "community"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "id": "2026-09-24-papers-no-update",
+    "type": "no-update",
+    "vendor": "papers",
+    "section": "papers"
+  },
+  {
+    "date": "2026-09-24",
+    "id": "2026-09-24-media-no-update",
+    "type": "no-update",
+    "vendor": "media",
+    "section": "media"
+  },
+  {
     "date": "2026-09-23",
     "id": "2026-09-23-anthropic-claude-opus-55",
     "type": "new",

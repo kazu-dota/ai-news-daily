@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-09-24](summaries/2026/09/2026-09-24.md) — **Anthropic: Claude が CRISPR 類似の新規酵素システム (ARTs) を自律発見** (950エージェント・21時間・20万件解析) / GitHub Trending: dream-num/univer (前日比5.6倍 +1,140 TypeScript首位) / google/ax (2日連続グローバル2位 +1,542) / davila7/claude-code-templates (Claude Code設定CLI ★31k 新規 +393) / obra/superpowers (★29万超エージェントフレームワーク 新規 +485)
 - [2026-09-23](summaries/2026/09/2026-09-23.md) — **Anthropic: Claude Opus 5.5 発表** (Fable 5.1 水準・Opus 5 比 40% 低コスト) / GitHub Trending: google/ax (Google 製エージェント実行基盤 +2,324 首位) / stablyai/orca (並列 ADE +985 TypeScript 首位) / OpenStock (AI 機能搭載株式市場 OSS +945) / BuilderIO/agent-native (2日連続 +712) — Anthropic ブログ本日復旧
 - [2026-09-22](summaries/2026/09/2026-09-22.md) — GitHub Trending: anthropics/financial-services (Anthropic 製金融業務向けツールキット +425 新規) / BuilderIO/agent-native (エージェントアプリフレームワーク Trending 首位 +607 新規) / earendil-works/pi (統合 LLM API・エージェントツールキット ★108k, +438 新規) / akitaonrails/ai-memory (エージェント CLI 長期記憶 Rust, +217 新規) / vercel-labs/json-render (Generative UI +787 2日連続) — ベンダーニュースはネットワーク制約により取得不可
 - [2026-09-20](summaries/2026/09/2026-09-20.md) — GitHub Trending: trycua/cua (Computer-Use 2.0 クロス OS 運用基盤 +1,124 新規) / vercel-labs/json-render (Generative UI Framework, +468 新規) / cloudflare/security-audit-skill (4日連続首位圏 +3,162) / Tencent/BrowserSkill (v0.3.0 リリース +744 3日連続) / cactus-compute/needle (8-29MB エッジ AI 基盤モデル +207 新規) — ベンダーニュースはネットワーク制約により取得不可
 - [2026-09-19](summaries/2026/09/2026-09-19.md) — GitHub Trending: NVIDIA/SkillSpector (AIエージェントスキル向けセキュリティスキャナー, 新規) / stablyai/orca (並列エージェント ADE, +858 新規) / Graphify-Labs/graphify (コードベース→知識グラフ, ★11.9万) / cloudflare/security-audit-skill (3日連続首位 +3,019) / alibaba/open-code-review (4日連続 +2,724) — ベンダーニュースはネットワーク制約により取得不可
 - [2026-09-18](summaries/2026/09/2026-09-18.md) — GitHub Trending: cloudflare/security-audit-skill (+3,606 グローバル2位へ急加速) / Tencent/BrowserSkill (ログイン済みブラウザをエージェントに開放, +1,350 新規) / affaan-m/ECC (マルチプラットフォームエージェント性能最適化, +1,173 新規) / alibaba/open-code-review (3日連続首位 +3,290) — ベンダーニュースはネットワーク制約により取得不可
 - [2026-09-17](summaries/2026/09/2026-09-17.md) — GitHub Trending: cloudflare/security-audit-skill (多段階セキュリティ監査エージェント, +1,249) / Tencent/WeKnora (LLM 知識管理 RAG, +1,201) / alphaXiv/OpenResearch (コーディング→リサーチエージェント変換, +1,036) / addyosmani/agent-skills (プロダクション品質スキル集 95k+ stars, +656) — ベンダーニュースはネットワーク制約により取得不可
-- [2026-09-16](summaries/2026/09/2026-09-16.md) — GitHub Trending: alibaba/open-code-review (LLM エージェント × 決定論的パイプラインのハイブリッドコードレビュー, +2,751 全言語最高) / VoiceStudio (4 日連続首位 +2,081) / earendil-works/pi (統合 AI エージェントツールキット, +437) / ai-agent-book (設計原則参照書, +693) — ベンダーニュースはネットワーク制約により取得不可
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
