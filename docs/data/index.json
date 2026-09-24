@@ -1,5 +1,360 @@
 [
   {
+    "date": "2026-09-25",
+    "id": "2026-09-25-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-25",
+    "id": "2026-09-25-openai-failed",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-25",
+    "id": "2026-09-25-google-failed",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-25",
+    "id": "2026-09-25-microsoft-failed",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-25",
+    "id": "2026-09-25-meta-failed",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-25",
+    "id": "2026-09-25-vectorize-io-hindsight",
+    "type": "new",
+    "vendor": "vectorize-io",
+    "section": "community",
+    "title": "vectorize-io/hindsight — 学習し続けるエージェントメモリ基盤",
+    "summary": "過去のエージェント実行履歴からパターンを学習し、次回の行動判断に反映させるメモリシステム。本日 Python Trending 首位に新規登場、+1,607 stars で全言語最大の伸び。",
+    "url": "https://github.com/vectorize-io/hindsight",
+    "importance": "highlight",
+    "tags": [
+      "agent-memory",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "id": "2026-09-25-experientiallabs-experiential",
+    "type": "new",
+    "vendor": "experientiallabs",
+    "section": "community",
+    "title": "experientiallabs/experiential — マルチモデル AI ゲートウェイ",
+    "summary": "複数の AI プロバイダーを統合し、リクエスト実績からコスト効率の高いモデルへ自動ルーティングする学習機能を備えたオープンソース AI ゲートウェイ。+774 stars 新規登場。",
+    "url": "https://github.com/experientiallabs/experiential",
+    "importance": "highlight",
+    "tags": [
+      "ai-gateway",
+      "multi-model",
+      "cost-optimization",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "id": "2026-09-25-HKUDS-CLI-Anything",
+    "type": "new",
+    "vendor": "HKUDS",
+    "section": "community",
+    "title": "HKUDS/CLI-Anything — 全ソフトウェアをエージェントネイティブ化する CLI ハブ",
+    "summary": "任意のコマンドラインツールを AI エージェントから呼び出せるインターフェースに変換するブリッジ基盤。★50k 超の大型リポジトリが +415 stars で Python Trending に初登場。",
+    "url": "https://github.com/HKUDS/CLI-Anything",
+    "importance": "highlight",
+    "tags": [
+      "agent-native",
+      "cli",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "id": "2026-09-25-rohitg00-ai-engineering",
+    "type": "new",
+    "vendor": "rohitg00",
+    "section": "community",
+    "title": "rohitg00/ai-engineering-from-scratch — AI エンジニアリング実践教材",
+    "summary": "AI エンジニアリングの全工程を体系的にカバーする実践チュートリアル。★56k 超の大型リポジトリが +310 stars で Python Trending に初登場。",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "importance": "standard",
+    "tags": [
+      "tutorial",
+      "ai-engineering",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "id": "2026-09-25-weave-os-router",
+    "type": "new",
+    "vendor": "weave-os",
+    "section": "community",
+    "title": "weave-os/router — エージェント向けモデルルーター",
+    "summary": "プロンプトの内容・コスト・レイテンシ要件に応じて 50ms 未満で最適モデルにルーティングする Go 製ルーター。エンドポイント変更だけで 40〜70% コスト削減を標榜。+154 stars 新規登場。",
+    "url": "https://github.com/weave-os/router",
+    "importance": "standard",
+    "tags": [
+      "model-router",
+      "cost-optimization",
+      "go",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "id": "2026-09-25-op7418-Humanizer-zh",
+    "type": "new",
+    "vendor": "op7418",
+    "section": "community",
+    "title": "op7418/Humanizer-zh — AI 痕跡除去ツール中国語版",
+    "summary": "AI 生成テキストの統計的パターンを除去して自然な文体に変換する Python ツールの中国語ローカライズ版。+290 stars 新規登場。",
+    "url": "https://github.com/op7418/Humanizer-zh",
+    "importance": "minor",
+    "tags": [
+      "text-humanizer",
+      "chinese",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "id": "2026-09-25-google-ax",
+    "type": "followup",
+    "vendor": "Google",
+    "section": "community",
+    "title": "[続報] google/ax — グローバル Trending 4位 3日連続 (+1,376 stars)",
+    "summary": "2026-09-23 の首位急浮上以来3日連続でグローバル Trending 上位を維持。+1,376 stars で Go, ★10,345。Google 製エージェントオーケストレーション基盤への継続的な関心。",
+    "url": "https://github.com/google/ax",
+    "related_date": "2026-09-23",
+    "importance": "highlight",
+    "tags": [
+      "agent-orchestration",
+      "go",
+      "google",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "id": "2026-09-25-dream-num-univer",
+    "type": "followup",
+    "vendor": "dream-num",
+    "section": "community",
+    "title": "[続報] dream-num/univer — TypeScript Trending 3日連続 (+1,060 stars)",
+    "summary": "9/23 初登場 (+202) → 9/24 (+1,140) → 本日 +1,060 と3日連続の高水準。AI エージェント向けオフィスハーネスへの継続的な関心。TypeScript, ★17,536。",
+    "url": "https://github.com/dream-num/univer",
+    "related_date": "2026-09-23",
+    "importance": "standard",
+    "tags": [
+      "office-harness",
+      "typescript",
+      "agent",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "id": "2026-09-25-stablyai-orca",
+    "type": "followup",
+    "vendor": "stablyai",
+    "section": "community",
+    "title": "[続報] stablyai/orca — TypeScript Trending 再浮上 (+942 stars)",
+    "summary": "9/19 初登場・9/23 続報に続き、本日 +942 stars で TypeScript Trending 9位に再浮上。並列 AI コーディングエージェント管理 ADE への高い関心が継続。TypeScript, ★77,503。",
+    "url": "https://github.com/stablyai/orca",
+    "related_date": "2026-09-19",
+    "importance": "highlight",
+    "tags": [
+      "ade",
+      "parallel-agents",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "id": "2026-09-25-anthropics-financial-services",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "community",
+    "title": "[続報] anthropics/financial-services — 4日連続 (+510 stars)",
+    "summary": "9/22 初登場から4日連続のトレンド入り。Anthropic 製金融業務向け Python ツールキットへの持続的な関心。Python, ★37,340。",
+    "url": "https://github.com/anthropics/financial-services",
+    "related_date": "2026-09-22",
+    "importance": "standard",
+    "tags": [
+      "financial-services",
+      "anthropic",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "id": "2026-09-25-agent-substrate-substrate",
+    "type": "followup",
+    "vendor": "agent-substrate",
+    "section": "community",
+    "title": "[続報] agent-substrate/substrate — 3日連続 (+439 stars)",
+    "summary": "9/23 初登場から3日連続。Kubernetes ベースで高密度にエージェントを実行するランタイムへの関心が継続。Go, ★3,719。",
+    "url": "https://github.com/agent-substrate/substrate",
+    "related_date": "2026-09-23",
+    "importance": "standard",
+    "tags": [
+      "agent-runtime",
+      "kubernetes",
+      "go",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "id": "2026-09-25-superdesigndev-treg",
+    "type": "followup",
+    "vendor": "superdesigndev",
+    "section": "community",
+    "title": "[続報] superdesigndev/treg — 3日連続 (+470 stars)",
+    "summary": "9/23 初登場から3日連続の高水準トレンド維持。60+プロバイダー 3,000 超エンドポイントを単一 URL で利用できるエージェントツール版 OpenRouter。Python, ★3,141。",
+    "url": "https://github.com/superdesigndev/treg",
+    "related_date": "2026-09-23",
+    "importance": "standard",
+    "tags": [
+      "tool-registry",
+      "agent-tools",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "id": "2026-09-25-strands-agents-harness-sdk",
+    "type": "followup",
+    "vendor": "strands-agents",
+    "section": "community",
+    "title": "[続報] strands-agents/harness-sdk — 2日連続・急加速 (+463 stars)",
+    "summary": "9/24 初登場 (+96) から本日 +463 と約 5 倍に急加速。マルチクラウド・マルチモデル対応のプロダクション AI エージェント SDK への関心が急拡大。Python, ★8,232。",
+    "url": "https://github.com/strands-agents/harness-sdk",
+    "related_date": "2026-09-24",
+    "importance": "standard",
+    "tags": [
+      "agent-sdk",
+      "multi-cloud",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "id": "2026-09-25-obra-superpowers",
+    "type": "followup",
+    "vendor": "obra",
+    "section": "community",
+    "title": "[続報] obra/superpowers — 2日連続・加速 (+606 stars)",
+    "summary": "9/24 初登場 (+485) から本日 +606 に加速。Claude Code・Cursor 等17+ツール向けエージェントスキルフレームワーク。Shell, ★291,213。",
+    "url": "https://github.com/obra/superpowers",
+    "related_date": "2026-09-24",
+    "importance": "standard",
+    "tags": [
+      "skills-framework",
+      "agent",
+      "shell",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "id": "2026-09-25-davila7-claude-code-templates",
+    "type": "followup",
+    "vendor": "davila7",
+    "section": "community",
+    "title": "[続報] davila7/claude-code-templates — 2日連続 (+382 stars)",
+    "summary": "9/24 初登場 (+393) から2日連続のトレンド入り。Claude Code 向け 100+ コンポーネント収録 CLI ツール。Python, ★31,726。",
+    "url": "https://github.com/davila7/claude-code-templates",
+    "related_date": "2026-09-24",
+    "importance": "standard",
+    "tags": [
+      "claude-code",
+      "templates",
+      "mcp",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "id": "2026-09-25-TNT-Likely-PanWatch",
+    "type": "followup",
+    "vendor": "TNT-Likely",
+    "section": "community",
+    "title": "[続報] TNT-Likely/PanWatch — 再浮上 (+386 stars)",
+    "summary": "9/23 初登場 (+174) から再浮上。マルチエージェント構成の AI 投資モニタリングアシスタント。Python, ★1,764。",
+    "url": "https://github.com/TNT-Likely/PanWatch",
+    "related_date": "2026-09-23",
+    "importance": "minor",
+    "tags": [
+      "investment",
+      "multi-agent",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "id": "2026-09-25-can1357-oh-my-pi",
+    "type": "followup",
+    "vendor": "can1357",
+    "section": "community",
+    "title": "[続報] can1357/oh-my-pi — 2日連続 (+210 stars)",
+    "summary": "9/24 初登場 (+405) から2日連続。60+プロバイダー対応 LSP/DAP 統合コーディングエージェント。TypeScript, ★33,183。",
+    "url": "https://github.com/can1357/oh-my-pi",
+    "related_date": "2026-09-24",
+    "importance": "minor",
+    "tags": [
+      "coding-agent",
+      "lsp",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "id": "2026-09-25-cactus-compute-needle",
+    "type": "followup",
+    "vendor": "cactus-compute",
+    "section": "community",
+    "title": "[続報] cactus-compute/needle — 再浮上 (+161 stars)",
+    "summary": "9/20 初登場 (+207) 以来の再浮上。2〜8ビット量子化で 8〜29MB のエッジデバイス向け AI 基盤モデル。Python, ★12,532。",
+    "url": "https://github.com/cactus-compute/needle",
+    "related_date": "2026-09-20",
+    "importance": "minor",
+    "tags": [
+      "edge-ai",
+      "quantization",
+      "tiny-model",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
     "date": "2026-09-24",
     "id": "2026-09-24-anthropic-enzyme-arts",
     "type": "new",
