@@ -1,5 +1,179 @@
 [
   {
+    "date": "2026-09-27",
+    "id": "2026-09-27-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-27",
+    "id": "2026-09-27-openai-source-failed",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-27",
+    "id": "2026-09-27-google-source-failed",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-27",
+    "id": "2026-09-27-microsoft-source-failed",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-27",
+    "id": "2026-09-27-meta-source-failed",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-27",
+    "id": "2026-09-27-paperclipai-paperclip",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "paperclipai/paperclip — 職場でエージェントを管理する OSS アプリ",
+    "summary": "「職場で誰もが使うエージェント管理アプリ」を掲げる TypeScript OSS。★87k のリポジトリが本日グローバル・TypeScript Trending 首位に初登場、+2,589 stars は本日全言語最大の伸び。",
+    "url": "https://github.com/paperclipai/paperclip",
+    "importance": "highlight",
+    "tags": [
+      "agent",
+      "workspace",
+      "typescript",
+      "trending"
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "id": "2026-09-27-vectorize-io-hindsight",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] vectorize-io/hindsight — Agent Memory That Learns",
+    "summary": "前日比 +34% 加速の +2,152 stars で Python Trending 首位を3日連続維持。累計 ★32,096 に到達。",
+    "url": "https://github.com/vectorize-io/hindsight",
+    "related_date": "2026-09-25",
+    "importance": "highlight",
+    "tags": [
+      "agent-memory",
+      "python",
+      "trending"
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "id": "2026-09-27-rohitg00-ai-engineering",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "rohitg00/ai-engineering-from-scratch — AI エンジニアリング入門リソース",
+    "summary": "「Learn it. Build it. Ship it for others.」を掲げる AI エンジニアリング入門教材。★58k が本日 Python Trending 3位・Global 6位に初登場、+828 stars。",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "importance": "highlight",
+    "tags": [
+      "education",
+      "ai-engineering",
+      "python",
+      "trending"
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "id": "2026-09-27-nvidia-model-optimizer",
+    "type": "new",
+    "vendor": "NVIDIA",
+    "section": "community",
+    "title": "NVIDIA/Model-Optimizer — NVIDIA 製モデル最適化統合ライブラリ",
+    "summary": "量子化・知識蒸留・プルーニングを統合する NVIDIA 製 LLM 推論最適化ツールキット。本日 Python Trending 2位・Global 3位に初登場、+354 stars。",
+    "url": "https://github.com/NVIDIA/Model-Optimizer",
+    "importance": "highlight",
+    "tags": [
+      "model-optimization",
+      "quantization",
+      "distillation",
+      "pruning",
+      "nvidia",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "id": "2026-09-27-dream-num-univer",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] dream-num/univer — AI エージェント向けオフィスハーネス",
+    "summary": "+845 stars で TypeScript Trending 2位を維持。前日比鈍化も2日連続上位圏をキープ。",
+    "url": "https://github.com/dream-num/univer",
+    "related_date": "2026-09-24",
+    "importance": "highlight",
+    "tags": [
+      "office",
+      "agent",
+      "typescript",
+      "trending"
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "id": "2026-09-27-openclaw",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "openclaw/openclaw — The AI that really does things",
+    "summary": "「Any OS. Any Platform. The lobster way」を掲げる ★390k の大型 AI エージェント/OS アプリ。TypeScript Trending 15位。",
+    "url": "https://github.com/openclaw/openclaw",
+    "importance": "standard",
+    "tags": [
+      "agent",
+      "cross-platform",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "id": "2026-09-27-mobile-next-mcp",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "mobile-next/mobile-mcp — モバイル自動化 MCP サーバー",
+    "summary": "iOS / Android / エミュレーター対応のモバイル自動化・スクレイピング用 MCP サーバー。TypeScript Trending 5位に新規登場、+143 stars。",
+    "url": "https://github.com/mobile-next/mobile-mcp",
+    "importance": "minor",
+    "tags": [
+      "mcp",
+      "mobile",
+      "ios",
+      "android",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "id": "2026-09-27-anthropics-claude-plugins-official",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "community",
+    "title": "anthropics/claude-plugins-official — 公式 Claude Code プラグインディレクトリ",
+    "summary": "Anthropic 公式の高品質 Claude Code プラグインディレクトリ。★37k、+283 stars で Python Trending 5位に登場。",
+    "url": "https://github.com/anthropics/claude-plugins-official",
+    "importance": "minor",
+    "tags": [
+      "claude-code",
+      "plugins",
+      "anthropic",
+      "python"
+    ]
+  },
+  {
     "date": "2026-09-25",
     "id": "2026-09-25-anthropic-no-update",
     "type": "no-update",
