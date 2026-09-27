@@ -1,0 +1,169 @@
+{
+  "date": "2026-09-28",
+  "generated_at": "2026-09-28T08:10:00+09:00",
+  "sources_checked": 14,
+  "sources_failed": 10,
+  "items": [
+    {
+      "id": "2026-09-28-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-28-openai-source-failed",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "OpenAI: ソース取得失敗"
+    },
+    {
+      "id": "2026-09-28-google-source-failed",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "Google / Google DeepMind: ソース取得失敗"
+    },
+    {
+      "id": "2026-09-28-microsoft-source-failed",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "Microsoft: ソース取得失敗"
+    },
+    {
+      "id": "2026-09-28-meta-source-failed",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "Meta: ソース取得失敗"
+    },
+    {
+      "id": "2026-09-28-vectorize-hindsight",
+      "type": "followup",
+      "vendor": "vectorize-io",
+      "section": "community",
+      "title": "[続報] vectorize-io/hindsight — +4,463 stars、Python 首位4日連続・過去最大の伸び",
+      "summary": "4日連続Python Trending首位。+4,463 starsは過去最大の伸びでグローバルTrending 2位に浮上。エージェントメモリの自律学習基盤への関心が加速中。",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "importance": "highlight",
+      "tags": ["agent-memory", "python", "trending"],
+      "related_date": "2026-09-25"
+    },
+    {
+      "id": "2026-09-28-debpalash-voicestudio",
+      "type": "new",
+      "vendor": "debpalash",
+      "section": "community",
+      "title": "debpalash/VoiceStudio — ローカル動作 ElevenLabs 代替 OSS、646言語対応",
+      "summary": "音声クローニング・動画吹き替え・文字起こし等をすべてローカルで実行できるオープンソース音声AIスイート。Electron + MCP エージェント統合対応。+3,060 starsでグローバルTrending 3位に初登場。",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "importance": "highlight",
+      "tags": ["voice-ai", "open-source", "elevenlabs-alternative", "python", "mcp", "local-ai"]
+    },
+    {
+      "id": "2026-09-28-pacifio-atlas",
+      "type": "new",
+      "vendor": "pacifio",
+      "section": "community",
+      "title": "pacifio/atlas — AI コーディングエージェント向けバージョン管理",
+      "summary": "エージェントセッションをコミットと並列の一級市民として扱うRust製VCS。セッションチェックポイント・複数エージェント同時実行・セマンティック検索統合。+490 starsで初登場。",
+      "url": "https://github.com/pacifio/atlas",
+      "importance": "highlight",
+      "tags": ["agent-tooling", "version-control", "rust", "claude-code", "codex"]
+    },
+    {
+      "id": "2026-09-28-heygen-hyperframes",
+      "type": "new",
+      "vendor": "heygen-com",
+      "section": "community",
+      "title": "heygen-com/hyperframes — HTML→動画 エージェント向けフレームワーク",
+      "summary": "HTML/CSS/アニメーションを決定論的MP4に変換するHeyGen製OSS。エージェントスキル21本同梱、React不要。+306 starsでTypeScript Trending初登場。",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "importance": "highlight",
+      "tags": ["video-generation", "agents", "typescript", "heygen", "html-to-video"]
+    },
+    {
+      "id": "2026-09-28-mvschwarz-openrig",
+      "type": "new",
+      "vendor": "mvschwarz",
+      "section": "community",
+      "title": "mvschwarz/openrig — Claude Code + Codex 協調エージェントハーネス",
+      "summary": "RigSpec (YAML) でエージェントチームを宣言し、Claude CodeとCodexを同一環境で協調稼働させるOSS。TUI + tmux統合、エージェント間通信機能付き。初登場。",
+      "url": "https://github.com/mvschwarz/openrig",
+      "importance": "highlight",
+      "tags": ["multi-agent", "claude-code", "codex", "orchestration", "typescript"]
+    },
+    {
+      "id": "2026-09-28-paperclipai-paperclip",
+      "type": "followup",
+      "vendor": "paperclipai",
+      "section": "community",
+      "title": "[続報] paperclipai/paperclip — +2,527 stars、TypeScript 首位 2日連続",
+      "summary": "職場エージェント管理OSSが2日連続TypeScript Trending首位。★89,723に到達。",
+      "url": "https://github.com/paperclipai/paperclip",
+      "importance": "standard",
+      "tags": ["agent-management", "typescript", "trending"],
+      "related_date": "2026-09-27"
+    },
+    {
+      "id": "2026-09-28-dream-num-univer",
+      "type": "followup",
+      "vendor": "dream-num",
+      "section": "community",
+      "title": "[続報] dream-num/univer — +920 stars、TypeScript Trending 5日連続圏内",
+      "summary": "AIエージェント向けオフィスハーネスが5日連続のTrending入り。★20,130に到達。",
+      "url": "https://github.com/dream-num/univer",
+      "importance": "standard",
+      "tags": ["office", "agents", "typescript"],
+      "related_date": "2026-09-23"
+    },
+    {
+      "id": "2026-09-28-mobile-next-mcp",
+      "type": "followup",
+      "vendor": "mobile-next",
+      "section": "community",
+      "title": "[続報] mobile-next/mobile-mcp — +573 stars、前日比4倍加速",
+      "summary": "iOS/Android自動化MCP ServerがTypeScript Trending継続。+573は前日(+143)の4倍。★7,889に到達。",
+      "url": "https://github.com/mobile-next/mobile-mcp",
+      "importance": "standard",
+      "tags": ["mcp", "mobile", "automation", "typescript"],
+      "related_date": "2026-09-27"
+    },
+    {
+      "id": "2026-09-28-microsoft-data-formulator",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "community",
+      "title": "microsoft/data-formulator — Microsoft製 インタラクティブ AI データ探索ツール",
+      "summary": "AI駆動でデータ接続・探索・可視化を行うMicrosoft製Pythonツール。Python Trending初登場。★17,434 +111 today。",
+      "url": "https://github.com/microsoft/data-formulator",
+      "importance": "minor",
+      "tags": ["microsoft", "data-viz", "ai-tools", "python"]
+    },
+    {
+      "id": "2026-09-28-rohitg00-ai-engineering",
+      "type": "followup",
+      "vendor": "rohitg00",
+      "section": "community",
+      "title": "[続報] rohitg00/ai-engineering-from-scratch — +848 stars、3日連続",
+      "summary": "AI エンジニアリング実践チュートリアルが3日連続のTrending入り。★59,222に到達。",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "importance": "minor",
+      "tags": ["ai-education", "python"],
+      "related_date": "2026-09-27"
+    },
+    {
+      "id": "2026-09-28-nvidia-model-optimizer",
+      "type": "followup",
+      "vendor": "NVIDIA",
+      "section": "community",
+      "title": "[続報] NVIDIA/Model-Optimizer — +301 stars、2日連続",
+      "summary": "量子化・蒸留・プルーニング統合ライブラリが2日連続のTrending入り。★4,934に到達。",
+      "url": "https://github.com/NVIDIA/Model-Optimizer",
+      "importance": "minor",
+      "tags": ["model-optimization", "quantization", "python", "nvidia"],
+      "related_date": "2026-09-27"
+    }
+  ]
+}
