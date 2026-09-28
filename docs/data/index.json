@@ -1,5 +1,271 @@
 [
   {
+    "date": "2026-09-29",
+    "id": "2026-09-29-anthropic-sonnet-55",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Claude Sonnet 5.5 発表",
+    "summary": "Sonnet 5 比 30%+ 高速・タスク当たりコスト最大 30% 削減。Terminal-Bench 4.0: 70.6%（Sonnet 5: 10.3%）。GDPval-AA 1844 は Opus 5.5 の 1846 と拮抗。Preserved Thinking によるセキュリティ強化。AWS/GCP/Azure で提供。",
+    "url": "https://www.anthropic.com/claude-sonnet-5-5",
+    "importance": "highlight",
+    "tags": [
+      "model-release",
+      "anthropic",
+      "sonnet"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "id": "2026-09-29-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-29",
+    "id": "2026-09-29-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-29",
+    "id": "2026-09-29-microsoft-skillopt-trending",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "microsoft/SkillOpt が Python Trending 初登場",
+    "summary": "フリーズ済み LLM 向けテキスト空間スキル最適化フレームワーク。GPT-5.5 精度を +23 ポイント改善。Claude Code・Codex・GitHub Copilot 対応。",
+    "url": "https://github.com/microsoft/SkillOpt",
+    "importance": "standard",
+    "tags": [
+      "microsoft",
+      "llm-optimization",
+      "github-trending",
+      "skills"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "id": "2026-09-29-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-09-29",
+    "id": "2026-09-29-microsoft-skillopt",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "community",
+    "title": "microsoft/SkillOpt — フリーズ済み LLM 向けスキル最適化 (Python Trending 初登場)",
+    "summary": "モデル重み変更なしで自然言語スキルを最適化するMicrosoft製フレームワーク。GPT-5.5 で +23.5 ポイント改善。学習済みスキルはモデル・環境をまたいで転用可能。",
+    "url": "https://github.com/microsoft/SkillOpt",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "microsoft",
+      "llm",
+      "skills",
+      "optimization"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "id": "2026-09-29-vercel-labs-scriptc",
+    "type": "new",
+    "vendor": "Vercel",
+    "section": "community",
+    "title": "vercel-labs/scriptc — TypeScript→ネイティブバイナリコンパイラ (TypeScript Trending 初登場)",
+    "summary": "LLVM 経由で TypeScript/JS をネイティブ実行ファイルや WASM に変換。Node.js 不要のスタンドアロンバイナリを生成。Vercel Labs 製実験的プロジェクト。",
+    "url": "https://github.com/vercel-labs/scriptc",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "typescript",
+      "compiler",
+      "native",
+      "vercel"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "id": "2026-09-29-alirezarezvani-claude-skills",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "alirezarezvani/claude-skills — Claude Code 用スキル 380+ 件コレクション (Python Trending 初登場)",
+    "summary": "Claude Code・Codex・Gemini CLI・Cursor 向けのエージェントスキル・プラグインを 380 件以上収録したコミュニティリポジトリ。",
+    "url": "https://github.com/alirezarezvani/claude-skills",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "claude",
+      "skills",
+      "agents"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "id": "2026-09-29-moeru-ai-airi",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "moeru-ai/airi — セルフホスト型 AI コンパニオン (TypeScript Trending 初登場)",
+    "summary": "音声チャット・Minecraft・Factorio プレイ対応のセルフホスト型 AI コンパニオン。★49k の大型リポジトリが新規登場。",
+    "url": "https://github.com/moeru-ai/airi",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "ai-companion",
+      "self-hosted",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "id": "2026-09-29-vectorize-io-hindsight",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] vectorize-io/hindsight — +4,413 stars、Python 首位5日連続",
+    "summary": "+4,413 で累計 ★40,896 に到達。学習し続けるエージェントメモリへの高水準の関心が5日間継続。グローバル Trending 3位維持。",
+    "url": "https://github.com/vectorize-io/hindsight",
+    "related_date": "2026-09-25",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "agent-memory",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "id": "2026-09-29-paperclipai-paperclip",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] paperclipai/paperclip — +3,185 stars、TypeScript 首位3日連続",
+    "summary": "前日比 25% 増に再加速、累計 ★92,671。職場エージェント管理 OSS への持続的な高水準の需要。",
+    "url": "https://github.com/paperclipai/paperclip",
+    "related_date": "2026-09-27",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "agent-management",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "id": "2026-09-29-debpalash-voicestudio",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] debpalash/VoiceStudio — +3,274 stars、Python 首位2日連続",
+    "summary": "前日比微増でグローバル Trending 1位・Python 首位に浮上、累計 ★43,870。",
+    "url": "https://github.com/debpalash/VoiceStudio",
+    "related_date": "2026-09-28",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "voice-ai",
+      "tts",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "id": "2026-09-29-dream-num-univer",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] dream-num/univer — +1,105 stars、TypeScript 6日連続",
+    "summary": "TypeScript Trending 3位を維持、累計 ★21,214。AI エージェント向けオフィスハーネスへの継続需要。",
+    "url": "https://github.com/dream-num/univer",
+    "related_date": "2026-09-23",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "office-suite",
+      "agents",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "id": "2026-09-29-mvschwarz-openrig",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] mvschwarz/openrig — +781 stars、前日比約 7 倍に急加速",
+    "summary": "TypeScript Trending 2位に浮上、累計 ★1,677。Claude Code + Codex 協調ハーネスへの関心が急拡大。",
+    "url": "https://github.com/mvschwarz/openrig",
+    "related_date": "2026-09-28",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "multi-agent",
+      "claude-code",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "id": "2026-09-29-rohitg00-ai-engineering",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] rohitg00/ai-engineering-from-scratch — +1,329 stars、3日連続",
+    "summary": "前日比 56% 増に加速、累計 ★60,356。AI エンジニアリング実践教材への需要が高まり続けている。",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "related_date": "2026-09-27",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "ai-engineering",
+      "education",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "id": "2026-09-29-mobile-next-mobile-mcp",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] mobile-next/mobile-mcp — +446 stars、TypeScript 3日連続",
+    "summary": "前日比やや鈍化しつつも TypeScript 10位を維持。iOS/Android 向け MCP サーバーへの安定した関心。",
+    "url": "https://github.com/mobile-next/mobile-mcp",
+    "related_date": "2026-09-27",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "mobile",
+      "mcp",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "id": "2026-09-29-pacifio-atlas",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] pacifio/atlas — +285 stars、2日連続",
+    "summary": "Rust Trending 3位を維持、累計 ★8,206。エージェントセッション対応バージョン管理への継続的な関心。",
+    "url": "https://github.com/pacifio/atlas",
+    "related_date": "2026-09-28",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "version-control",
+      "agents",
+      "rust"
+    ]
+  },
+  {
     "date": "2026-09-28",
     "id": "2026-09-28-anthropic-no-update",
     "type": "no-update",
