@@ -1,0 +1,212 @@
+{
+  "date": "2026-09-30",
+  "generated_at": "2026-09-30T08:05:00+09:00",
+  "sources_checked": 11,
+  "sources_failed": 15,
+  "items": [
+    {
+      "id": "2026-09-30-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-30-openai-failed",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-30-google-failed",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-30-microsoft-failed",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-30-meta-failed",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-09-30-nvidia-openShell",
+      "type": "new",
+      "vendor": "NVIDIA",
+      "section": "community",
+      "title": "NVIDIA/OpenShell — 自律 AI エージェント向け安全プライベートランタイム",
+      "summary": "NVIDIA 製の自律 AI エージェント専用実行ランタイム。Rust 実装でプライバシー保護とサンドボックス機能を提供。Rust Trending 首位・グローバル 2 位に初登場 (+978 stars)。",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "importance": "highlight",
+      "tags": ["agent-runtime", "nvidia", "rust", "security"]
+    },
+    {
+      "id": "2026-09-30-vectifyai-pageindex",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "VectifyAI/PageIndex — ベクトル DB 不要の推論ベース RAG",
+      "summary": "ベクトルデータベースを使わず推論によってドキュメントをインデックス化する RAG ライブラリ。Python Trending 初登場 (+822 stars)。",
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "importance": "highlight",
+      "tags": ["rag", "retrieval", "python", "vectorless"]
+    },
+    {
+      "id": "2026-09-30-t8y2-dbx",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "t8y2/dbx — AI/MCP 内蔵クロスプラットフォーム DB クライアント",
+      "summary": "100 以上のデータベースに対応し MCP Server 機能を内蔵した Rust 製データベースクライアント。Rust Trending 初登場 (+349 stars)。",
+      "url": "https://github.com/t8y2/dbx",
+      "importance": "minor",
+      "tags": ["database", "mcp", "rust", "tools"]
+    },
+    {
+      "id": "2026-09-30-mem0ai-mem0",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "mem0ai/mem0 — AI エージェント向けプロダクションメモリ基盤",
+      "summary": "プロダクション AI エージェント向けの持続的メモリインフラ。★66k の大型リポジトリが Python Trending に再浮上 (+119 stars)。",
+      "url": "https://github.com/mem0ai/mem0",
+      "importance": "minor",
+      "tags": ["agent-memory", "python", "production"]
+    },
+    {
+      "id": "2026-09-30-bytedance-deer-flow",
+      "type": "new",
+      "vendor": "ByteDance",
+      "section": "community",
+      "title": "bytedance/deer-flow — ByteDance 製長期エージェントハーネス",
+      "summary": "リサーチ・コーディング・コンテンツ生成対応の SuperAgent ハーネス。★83k が Python Trending に登場 (+79 stars)。",
+      "url": "https://github.com/bytedance/deer-flow",
+      "importance": "minor",
+      "tags": ["agent-harness", "bytedance", "python", "superagent"]
+    },
+    {
+      "id": "2026-09-30-magnitudedev-magnitude",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "magnitudedev/magnitude — 所有ハードウェア向けオープンソース推論エンジン",
+      "summary": "Apple Silicon/NVIDIA/AMD/CPU に対応するマシン最適化型推論エンジン。Rust Trending 初登場 (+138 stars)。",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "importance": "minor",
+      "tags": ["inference", "rust", "hardware-optimization"]
+    },
+    {
+      "id": "2026-09-30-debpalash-voicestudio",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] debpalash/VoiceStudio — +4,712 stars、Python 首位・グローバル 1 位に再加速",
+      "summary": "3日間で最大の伸び (+4,712) を記録し全言語グローバル 1 位・Python 首位に浮上。累計 ★47,970。",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "related_date": "2026-09-28",
+      "importance": "highlight",
+      "tags": ["voice-ai", "python", "local-ai", "trending"]
+    },
+    {
+      "id": "2026-09-30-vectorize-io-hindsight",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] vectorize-io/hindsight — +2,541 stars、6 日連続 Python Trending 圏内",
+      "summary": "6日連続で Python Trending 圏内を維持。累計 ★42,784。エージェントメモリ基盤への持続的な関心が続く。",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "related_date": "2026-09-25",
+      "importance": "highlight",
+      "tags": ["agent-memory", "python", "trending"]
+    },
+    {
+      "id": "2026-09-30-paperclipai-paperclip",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] paperclipai/paperclip — +2,412 stars、TypeScript 首位 4 日連続",
+      "summary": "TypeScript Trending 首位 4 日連続維持。累計 ★94,405 と ★10 万に迫る規模に成長。",
+      "url": "https://github.com/paperclipai/paperclip",
+      "related_date": "2026-09-27",
+      "importance": "highlight",
+      "tags": ["agent-management", "typescript", "workplace", "trending"]
+    },
+    {
+      "id": "2026-09-30-mvschwarz-openrig",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] mvschwarz/openrig — +733 stars、TypeScript Trending 3 日連続",
+      "summary": "前日とほぼ同水準の +733 で TypeScript Trending 3日連続。Claude Code+Codex 協調ハーネスへの安定した需要。",
+      "url": "https://github.com/mvschwarz/openrig",
+      "related_date": "2026-09-28",
+      "importance": "standard",
+      "tags": ["multi-agent", "typescript", "claude-code", "codex"]
+    },
+    {
+      "id": "2026-09-30-dream-num-univer",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] dream-num/univer — +692 stars、TypeScript Trending 7 回連続",
+      "summary": "9月23日以来 7 回連続で TypeScript Trending 圏内。累計 ★21,827。AI エージェント向けオフィスハーネスへの長期需要。",
+      "url": "https://github.com/dream-num/univer",
+      "related_date": "2026-09-23",
+      "importance": "standard",
+      "tags": ["office-harness", "typescript", "spreadsheet", "trending"]
+    },
+    {
+      "id": "2026-09-30-rohitg00-ai-engineering",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] rohitg00/ai-engineering-from-scratch — +855 stars、4 日連続",
+      "summary": "4日連続 Python Trending 圏内。累計 ★61,290。AI エンジニアリング実践教材への安定した需要。",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "related_date": "2026-09-27",
+      "importance": "standard",
+      "tags": ["education", "python", "ai-engineering"]
+    },
+    {
+      "id": "2026-09-30-heygen-com-hyperframes",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] heygen-com/hyperframes — +312 stars、TypeScript Trending 3 日連続",
+      "summary": "3日連続 TypeScript Trending 圏内を維持。HTML→動画エージェント向けレンダリングフレームワーク。",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "related_date": "2026-09-28",
+      "importance": "minor",
+      "tags": ["video", "html", "agent", "typescript"]
+    },
+    {
+      "id": "2026-09-30-microsoft-skillopt",
+      "type": "followup",
+      "vendor": "Microsoft",
+      "section": "community",
+      "title": "[続報] microsoft/SkillOpt — +92 stars、2 日連続 Python Trending 圏内",
+      "summary": "前日の新規登場 (+111) から2日連続 Python Trending 圏内を維持。フリーズ済み LLM 向けスキル最適化フレームワーク。",
+      "url": "https://github.com/microsoft/SkillOpt",
+      "related_date": "2026-09-29",
+      "importance": "minor",
+      "tags": ["llm", "skill-optimization", "microsoft", "python"]
+    },
+    {
+      "id": "2026-09-30-moeru-ai-airi",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] moeru-ai/airi — +109 stars、2 日連続 TypeScript Trending",
+      "summary": "前日の新規登場 (+216) から2日連続 TypeScript Trending 圏内を維持。セルフホスト型 AI コンパニオン。",
+      "url": "https://github.com/moeru-ai/airi",
+      "related_date": "2026-09-29",
+      "importance": "minor",
+      "tags": ["companion", "typescript", "self-hosted"]
+    }
+  ]
+}
