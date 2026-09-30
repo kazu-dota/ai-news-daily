@@ -1,5 +1,197 @@
 [
   {
+    "date": "2026-10-01",
+    "id": "2026-10-01-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-01",
+    "id": "2026-10-01-openai-source-failed",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-01",
+    "id": "2026-10-01-google-source-failed",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-01",
+    "id": "2026-10-01-microsoft-quine",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "Microsoft Research: Quine — 生物学 AI 研究システム発表",
+    "summary": "複数の生物学的スケール・異種データを統合する多モーダル生物モデルを構築する早期段階の研究イニシアチブ。",
+    "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
+    "importance": "highlight",
+    "tags": [
+      "research",
+      "biology",
+      "multimodal",
+      "microsoft"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "id": "2026-10-01-microsoft-space-weather",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "Microsoft Research: 宇宙天気による電力網被害を予測する ML システム",
+    "summary": "地磁気嵐が電力インフラに与えるダメージを嵐の到来 30〜60 分前に予測する ML モデル。インフラ保護への AI 活用事例。",
+    "url": "https://www.microsoft.com/en-us/research/blog/forecasting-space-weather-risks-on-power-grids/",
+    "importance": "standard",
+    "tags": [
+      "research",
+      "ml",
+      "infrastructure",
+      "microsoft"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "id": "2026-10-01-microsoft-copilot-source-failed",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-01",
+    "id": "2026-10-01-meta-source-failed",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-01",
+    "id": "2026-10-01-ponytail-new",
+    "type": "new",
+    "vendor": "DietrichGebert",
+    "section": "community",
+    "title": "DietrichGebert/ponytail — コード効率重視の AI エージェントフレームワーク (JavaScript)",
+    "summary": "★14.9万超の大型リポジトリがグローバル Trending に初登場。コード実行効率化に特化した AI エージェントフレームワーク (+865 today)。",
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "importance": "standard",
+    "tags": [
+      "agent-framework",
+      "javascript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "id": "2026-10-01-voicestudio-followup",
+    "type": "followup",
+    "vendor": "debpalash",
+    "section": "community",
+    "title": "[続報] debpalash/VoiceStudio — +3,481 stars、4日連続 Python 首位圏 (Python, ★50,362)",
+    "summary": "ローカル動作 ElevenLabs 代替 OSS が累計 ★5万超に到達。4日連続でトップ圏に留まる。",
+    "url": "https://github.com/debpalash/VoiceStudio",
+    "related_date": "2026-09-30",
+    "importance": "highlight",
+    "tags": [
+      "voice",
+      "tts",
+      "open-source",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "id": "2026-10-01-nvidia-openshell-followup",
+    "type": "followup",
+    "vendor": "NVIDIA",
+    "section": "community",
+    "title": "[続報] NVIDIA/OpenShell — +1,280 stars、2日連続グローバル Trending 圏内 (Rust, ★12,541)",
+    "summary": "前日 +978 から +1,280 へ加速。自律 AI エージェント向け安全プライベートランタイム。",
+    "url": "https://github.com/NVIDIA/OpenShell",
+    "related_date": "2026-09-30",
+    "importance": "standard",
+    "tags": [
+      "agent-runtime",
+      "rust",
+      "nvidia",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "id": "2026-10-01-dbx-followup",
+    "type": "followup",
+    "vendor": "t8y2",
+    "section": "community",
+    "title": "[続報] t8y2/dbx — +1,133 stars、前日比 3.2 倍に急加速 (Rust, ★23,145)",
+    "summary": "前日 +349 から +1,133 へ約3.2倍に急加速。AI / MCP 内蔵のクロスプラットフォーム DB クライアント。",
+    "url": "https://github.com/t8y2/dbx",
+    "related_date": "2026-09-30",
+    "importance": "standard",
+    "tags": [
+      "database",
+      "mcp",
+      "rust",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "id": "2026-10-01-pageindex-followup",
+    "type": "followup",
+    "vendor": "VectifyAI",
+    "section": "community",
+    "title": "[続報] VectifyAI/PageIndex — +1,095 stars、2日連続 Python Trending 圏内 (Python, ★38,099)",
+    "summary": "前日 +822 から +1,095 へ増加。ベクトル DB 不要の推論ベース RAG として注目継続。",
+    "url": "https://github.com/VectifyAI/PageIndex",
+    "related_date": "2026-09-30",
+    "importance": "standard",
+    "tags": [
+      "rag",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "id": "2026-10-01-ai-engineering-followup",
+    "type": "followup",
+    "vendor": "rohitg00",
+    "section": "community",
+    "title": "[続報] rohitg00/ai-engineering-from-scratch — +1,203 stars、5日連続圏内 (Python, ★62,117)",
+    "summary": "前日 +1,329 からやや減速しつつも依然として高水準を維持。AI エンジニアリング実践チュートリアルが5日連続トレンド入り。",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "related_date": "2026-09-29",
+    "importance": "minor",
+    "tags": [
+      "tutorial",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "id": "2026-10-01-openrig-followup",
+    "type": "followup",
+    "vendor": "mvschwarz",
+    "section": "community",
+    "title": "[続報] mvschwarz/openrig — +622 stars、4日連続 TypeScript Trending 圏内 (TypeScript, ★2,988)",
+    "summary": "Claude Code + Codex 協調マルチエージェントハーネスとして4日連続トレンド入りを継続。",
+    "url": "https://github.com/mvschwarz/openrig",
+    "related_date": "2026-09-30",
+    "importance": "minor",
+    "tags": [
+      "agent",
+      "typescript",
+      "claude-code",
+      "github-trending"
+    ]
+  },
+  {
     "date": "2026-09-30",
     "id": "2026-09-30-anthropic-no-update",
     "type": "no-update",
