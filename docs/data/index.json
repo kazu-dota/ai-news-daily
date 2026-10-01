@@ -1,5 +1,331 @@
 [
   {
+    "date": "2026-10-02",
+    "id": "2026-10-02-anthropic-barclays",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Barclays、Claude を大規模展開 — 業務効率化・顧客体験向上に活用",
+    "summary": "英国大手金融グループ Barclays が業務プロセス自動化と顧客サービス向上のため Claude を本番スケールで展開。金融業界のコンプライアンス・セキュリティ要件を満たした大規模エンタープライズ導入事例。",
+    "url": "https://www.anthropic.com/news/barclays-scales-claude",
+    "importance": "highlight",
+    "tags": [
+      "enterprise",
+      "anthropic",
+      "deployment",
+      "finance"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "id": "2026-10-02-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-02",
+    "id": "2026-10-02-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-02",
+    "id": "2026-10-02-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-02",
+    "id": "2026-10-02-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-02",
+    "id": "2026-10-02-nvidia-openShell-followup",
+    "type": "followup",
+    "vendor": "NVIDIA",
+    "section": "community",
+    "title": "[続報] NVIDIA/OpenShell — +2,503 stars で急加速、3日連続グローバル Trending",
+    "summary": "前日 +1,280 から本日 +2,503 と約2倍に急加速。自律 AI エージェント向け安全プライベートランタイム (Rust) が今日が最大サージ。累計 ★13,982。",
+    "url": "https://github.com/NVIDIA/OpenShell",
+    "related_date": "2026-09-30",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "agents",
+      "nvidia",
+      "rust",
+      "runtime"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "id": "2026-10-02-ponytail-followup",
+    "type": "followup",
+    "vendor": "その他",
+    "section": "community",
+    "title": "[続報] DietrichGebert/ponytail — +1,179 stars に加速、グローバル Trending 首位",
+    "summary": "前日 +865 から +1,179 と約 36% 増に加速。「最も怠惰なシニア開発者」的推論の JS AI エージェントフレームワーク。累計 ★150,436。",
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "related_date": "2026-10-01",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "agents",
+      "javascript",
+      "agent-framework"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "id": "2026-10-02-voicestudio-followup",
+    "type": "followup",
+    "vendor": "その他",
+    "section": "community",
+    "title": "[続報] debpalash/VoiceStudio — +1,395 stars (鈍化)、Python Trending 継続",
+    "summary": "前日 +3,481 から +1,395 と鈍化。ローカル動作 ElevenLabs 代替 OSS。累計 ★51,342。",
+    "url": "https://github.com/debpalash/VoiceStudio",
+    "related_date": "2026-09-28",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "voice",
+      "open-source",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "id": "2026-10-02-openrig-followup",
+    "type": "followup",
+    "vendor": "その他",
+    "section": "community",
+    "title": "[続報] mvschwarz/openrig — +640 stars、5日連続 TypeScript Trending 圏内",
+    "summary": "安定した +640 stars を維持。Claude Code + Codex 協調マルチエージェントハーネス。累計 ★3,682。",
+    "url": "https://github.com/mvschwarz/openrig",
+    "related_date": "2026-09-28",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "agents",
+      "typescript",
+      "orchestration"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "id": "2026-10-02-hyperframes-followup",
+    "type": "followup",
+    "vendor": "HeyGen",
+    "section": "community",
+    "title": "[続報] heygen-com/hyperframes — +624 stars、TypeScript Trending 再浮上",
+    "summary": "+624 stars で TypeScript Trending 再浮上。HTML→動画エージェント向けレンダリングフレームワーク。累計 ★55,308。",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "related_date": "2026-09-28",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "video",
+      "typescript",
+      "agents"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "id": "2026-10-02-pageindex-followup",
+    "type": "followup",
+    "vendor": "VectifyAI",
+    "section": "community",
+    "title": "[続報] VectifyAI/PageIndex — +543 stars、継続",
+    "summary": "+543 stars (前日 +1,095 から鈍化)。ベクトル DB 不要の推論ベース RAG。累計 ★38,429。",
+    "url": "https://github.com/VectifyAI/PageIndex",
+    "related_date": "2026-09-30",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "rag",
+      "python",
+      "inference"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "id": "2026-10-02-magnitude-followup",
+    "type": "followup",
+    "vendor": "magnitudedev",
+    "section": "community",
+    "title": "[続報] magnitudedev/magnitude — +427 stars で急加速、Rust Trending 2位",
+    "summary": "前回 +138 (2026-09-30) から +427 と急加速。Apple Silicon 上で llama.cpp 比最大 2x の推論高速化。累計 ★6,130。",
+    "url": "https://github.com/magnitudedev/magnitude",
+    "related_date": "2026-09-30",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "inference",
+      "rust",
+      "performance"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "id": "2026-10-02-earendil-works-pi",
+    "type": "new",
+    "vendor": "その他",
+    "section": "community",
+    "title": "earendil-works/pi — 統合 LLM API・エージェントループ・TUI・CLI の AI エージェントツールキット",
+    "summary": "TypeScript 製 AI エージェントツールキット。★111k 大型リポジトリが TypeScript Trending 首位・グローバル 4位に初登場 (+294 stars)。統合 LLM API・エージェントループ・TUI・コーディングエージェント CLI を包含。",
+    "url": "https://github.com/earendil-works/pi",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "agents",
+      "typescript",
+      "llm",
+      "cli"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "id": "2026-10-02-mksglu-context-mode",
+    "type": "new",
+    "vendor": "その他",
+    "section": "community",
+    "title": "mksglu/context-mode — AI コーディングエージェントのコンテキスト消費を 98% 削減",
+    "summary": "AI コーディングエージェント向けコンテキスト最適化ツール。TypeScript Trending 5位に初登場 (+357 stars, ★24k)。コンテキストウィンドウ使用量の 98% 削減を掲げる。",
+    "url": "https://github.com/mksglu/context-mode",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "context",
+      "typescript",
+      "optimization",
+      "coding-agents"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "id": "2026-10-02-omniroute",
+    "type": "new",
+    "vendor": "その他",
+    "section": "community",
+    "title": "diegosouzapw/OmniRoute — 359 プロバイダー・1,200+ モデル対応 AI ゲートウェイ",
+    "summary": "TypeScript 製統合 AI ゲートウェイ。★72k の大型リポジトリが TypeScript Trending 4位に初登場 (+332 stars)。自動フォールバック機能で 359 プロバイダー・1,200+ モデルに対応。",
+    "url": "https://github.com/diegosouzapw/OmniRoute",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "gateway",
+      "typescript",
+      "llm",
+      "routing"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "id": "2026-10-02-moneyprinterturbo",
+    "type": "new",
+    "vendor": "その他",
+    "section": "community",
+    "title": "harry0403/MoneyPrinterTurbo — AI 搭載 HD ショート動画自動生成",
+    "summary": "テキスト・トピックから HD ショート動画を全自動生成する Python ツール。★127k 大型リポジトリが Python Trending 6位に登場 (+598 stars)。",
+    "url": "https://github.com/harry0403/MoneyPrinterTurbo",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "video-generation",
+      "python",
+      "automation"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "id": "2026-10-02-mcp-servers",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "community",
+    "title": "modelcontextprotocol/servers — MCP 公式サーバーコレクション",
+    "summary": "MCP 公式リファレンスサーバー実装コレクション。★90k 公式リポジトリが TypeScript Trending 3位に浮上 (+216 stars)。エコシステムの広がりを反映。",
+    "url": "https://github.com/modelcontextprotocol/servers",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "mcp",
+      "typescript",
+      "anthropic"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "id": "2026-10-02-openhuman",
+    "type": "new",
+    "vendor": "その他",
+    "section": "community",
+    "title": "tinyhumansai/openhuman — Rust 製オープンソース AI エージェントフレームワーク",
+    "summary": "Rust 製 AI エージェントフレームワーク。★40k 大型リポジトリが Rust Trending 5位に登場 (+184 stars)。",
+    "url": "https://github.com/tinyhumansai/openhuman",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "agents",
+      "rust",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "id": "2026-10-02-tilelang",
+    "type": "new",
+    "vendor": "tile-ai",
+    "section": "community",
+    "title": "tile-ai/tilelang — GPU/CPU 高性能カーネル向け DSL",
+    "summary": "GPU・CPU 高性能カーネル開発に特化した DSL。Python Trending 1位に初登場 (+157 stars, ★8k)。深層学習推論の低レイヤー最適化向け。",
+    "url": "https://github.com/tile-ai/tilelang",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "gpu",
+      "kernel",
+      "python",
+      "performance"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "id": "2026-10-02-soup",
+    "type": "new",
+    "vendor": "その他",
+    "section": "community",
+    "title": "MakazhanAlpamys/Soup — YAML 1ファイルで LLM ファインチューニングを完結",
+    "summary": "単一 YAML 設定から LLM ファインチューニングを実行できる Python ライブラリ。Python Trending 初登場 (+142 stars, ★7k)。",
+    "url": "https://github.com/MakazhanAlpamys/Soup",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "fine-tuning",
+      "python",
+      "llm"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "id": "2026-10-02-papers-no-update",
+    "type": "no-update",
+    "vendor": "HuggingFace",
+    "section": "papers"
+  },
+  {
+    "date": "2026-10-02",
+    "id": "2026-10-02-media-no-update",
+    "type": "no-update",
+    "vendor": "media",
+    "section": "media"
+  },
+  {
     "date": "2026-10-01",
     "id": "2026-10-01-anthropic-no-update",
     "type": "no-update",
