@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-10-03](summaries/2026/10/2026-10-03.md) — **Anthropic: Claude Frontier Academy 発表 — $100M 投資で 1万人 FDE 育成プログラム** / GitHub Trending Skills ブーム: obra/superpowers (★294k +561) / mattpocock/skills (★274k +955) / Panniantong/Agent-Reach (Python首位 +683 新規) / NVIDIA/SkillSpector (スキルセキュリティスキャナー 新規) / DietrichGebert/ponytail (+1,429 続報・3日間最大)
 - [2026-10-02](summaries/2026/10/2026-10-02.md) — **Anthropic: Barclays との大規模 Claude エンタープライズ展開を発表** / GitHub Trending: NVIDIA/OpenShell (Rust +2,503 急加速・3日連続グローバル Trending 続報) / earendil-works/pi (統合 LLM API+エージェントツールキット ★111k +294 新規) / mksglu/context-mode (コンテキスト98%削減 +357 新規) / DietrichGebert/ponytail (グローバル首位 +1,179 続報)
 - [2026-10-01](summaries/2026/10/2026-10-01.md) — **Microsoft Research: Quine — 生物学 AI 研究システム発表** / GitHub Trending: DietrichGebert/ponytail (AI エージェントフレームワーク ★149k +865 新規) / debpalash/VoiceStudio (Python首位4日連続 +3,481 続報) / NVIDIA/OpenShell (Rust +1,280 続報) / t8y2/dbx (前日比3.2倍加速 +1,133 続報) — Anthropic 本日アップデートなし
 - [2026-09-30](summaries/2026/09/2026-09-30.md) — GitHub Trending: NVIDIA/OpenShell (自律 AI エージェント向け安全プライベートランタイム Rust +978 新規) / VectifyAI/PageIndex (ベクトル DB 不要推論ベース RAG +822 新規) / debpalash/VoiceStudio (Python首位・グローバル1位 +4,712 続報) / vectorize-io/hindsight (6日連続 Python Trending +2,541 続報) / paperclipai/paperclip (TypeScript首位4日連続 +2,412 続報) — Anthropic 本日アップデートなし
 - [2026-09-29](summaries/2026/09/2026-09-29.md) — **Anthropic: Claude Sonnet 5.5 発表** (Sonnet 5 比 30%+ 高速・タスクコスト最大 30% 削減・Terminal-Bench 70.6%) / GitHub Trending: vectorize-io/hindsight (Python首位5日連続 +4,413 続報) / paperclipai/paperclip (TypeScript首位3日連続 +3,185 続報) / microsoft/SkillOpt (LLM スキル最適化フレームワーク +111 新規) / vercel-labs/scriptc (TS→ネイティブコンパイラ +369 新規)
 - [2026-09-28](summaries/2026/09/2026-09-28.md) — GitHub Trending: vectorize-io/hindsight (学習エージェントメモリ +4,463 過去最大・Python首位4日連続 続報) / debpalash/VoiceStudio (ローカル ElevenLabs 代替 OSS ★40k +3,060 新規) / pacifio/atlas (エージェント向け VCS +490 新規) / heygen-com/hyperframes (HTML→動画 for agents +306 新規) / mvschwarz/openrig (Claude Code + Codex 協調ハーネス 新規) — Anthropic 本日アップデートなし
 - [2026-09-27](summaries/2026/09/2026-09-27.md) — GitHub Trending: paperclipai/paperclip (職場エージェント管理 OSS ★87k +2,589 Global首位 新規) / vectorize-io/hindsight (学習するエージェントメモリ +2,152 Python首位 続報) / dream-num/univer (AI エージェント向けオフィスハーネス +845 TypeScript2位 続報) / rohitg00/ai-engineering-from-scratch (AI エンジニアリング入門 ★58k +828 新規) / NVIDIA/Model-Optimizer (量子化・蒸留・プルーニング統合ライブラリ +354 新規) — Anthropic 本日アップデートなし
-- [2026-09-25](summaries/2026/09/2026-09-25.md) — GitHub Trending: vectorize-io/hindsight (学習するエージェントメモリ +1,607 Python首位 新規) / experientiallabs/experiential (マルチモデル AI ゲートウェイ +774 新規) / HKUDS/CLI-Anything (全SW エージェントネイティブ化 ★50k +415 新規) / google/ax (3日連続グローバル4位 +1,376 続報) / stablyai/orca (TypeScript再浮上 +942 続報) — Anthropic 本日アップデートなし
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
