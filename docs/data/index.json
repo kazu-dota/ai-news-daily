@@ -1,5 +1,400 @@
 [
   {
+    "date": "2026-10-03",
+    "id": "2026-10-03-anthropic-frontier-academy",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Claude Frontier Academy 発表 — $100M で AI エンジニア 1万人育成",
+    "summary": "$100M 投資で 2027年末までに Frontier Deployed Engineer 1万人を育成するプログラム。Accenture・Bain・Deloitte・McKinsey 等が初期コホートとして参加。医学教育モデルを採用した研修設計。",
+    "url": "https://www.anthropic.com/news/claude-frontier-academy",
+    "importance": "highlight",
+    "tags": [
+      "enterprise",
+      "training",
+      "anthropic",
+      "talent"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "id": "2026-10-03-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-03",
+    "id": "2026-10-03-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-03",
+    "id": "2026-10-03-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-03",
+    "id": "2026-10-03-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-03",
+    "id": "2026-10-03-panniantong-agent-reach",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "Panniantong/Agent-Reach — AI エージェントにインターネット全体の「目」を付与するツール",
+    "summary": "Twitter・Reddit・YouTube・GitHub・Bilibili・XiaoHongShu を横断し API 費用不要でデータ収集。Python Trending 首位・+683 today (★88,561)。",
+    "url": "https://github.com/Panniantong/Agent-Reach",
+    "importance": "highlight",
+    "tags": [
+      "agent",
+      "search",
+      "social-media",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "id": "2026-10-03-obra-superpowers",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "obra/superpowers — Agentic Skills フレームワークと開発手法論",
+    "summary": "エージェントスキルフレームワークとソフトウェア開発手法論。★294,435・グローバル Trending 3位・+561 today。「Skills ブーム」を牽引する中核リポジトリ。",
+    "url": "https://github.com/obra/superpowers",
+    "importance": "highlight",
+    "tags": [
+      "agent-skills",
+      "framework",
+      "shell",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "id": "2026-10-03-mattpocock-skills",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "mattpocock/skills — 実践的エンジニア向けエージェントスキル集",
+    "summary": "「Real Engineers」向けの .agents ディレクトリから抽出したスキルコレクション。★274,673・グローバル Trending 6位・+955 today。",
+    "url": "https://github.com/mattpocock/skills",
+    "importance": "highlight",
+    "tags": [
+      "agent-skills",
+      "shell",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "id": "2026-10-03-julius-caveman",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "JuliusBrussee/caveman — コーディングエージェント向けトークン削減スキル",
+    "summary": "シンプル化した言語でトークン消費 65% 削減。グローバル Trending 2位・+271 today (★109,076)。",
+    "url": "https://github.com/JuliusBrussee/caveman",
+    "importance": "standard",
+    "tags": [
+      "token-optimization",
+      "agent-skills",
+      "go",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "id": "2026-10-03-pbakaus-impeccable",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "pbakaus/impeccable — AI ハーネス最適化のためのデザイン言語",
+    "summary": "AI ハーネス最適化用デザイン言語。グローバル Trending 5位・+717 today (★74,284)。",
+    "url": "https://github.com/pbakaus/impeccable",
+    "importance": "standard",
+    "tags": [
+      "design-language",
+      "harness",
+      "javascript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "id": "2026-10-03-nvidia-skillspector",
+    "type": "new",
+    "vendor": "NVIDIA",
+    "section": "community",
+    "title": "NVIDIA/SkillSpector — AI エージェントスキルのセキュリティスキャナー",
+    "summary": "AI エージェントスキルの脆弱性・サプライチェーンリスクを検出するセキュリティスキャナー。Python Trending 7位・+167 today (★19,104)。",
+    "url": "https://github.com/NVIDIA/SkillSpector",
+    "importance": "highlight",
+    "tags": [
+      "security",
+      "agent-skills",
+      "supply-chain",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "id": "2026-10-03-ayghri-i-have-adhd",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "ayghri/i-have-adhd — コーディングエージェントの冗長出力を制御するスキル",
+    "summary": "ADHD フレンドリーな出力形式を強制し、エージェントが回答をテキストに埋没させないようにするスキル。+277 today (★52,934)。",
+    "url": "https://github.com/ayghri/i-have-adhd",
+    "importance": "standard",
+    "tags": [
+      "agent-skills",
+      "output-control",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "id": "2026-10-03-google-skills",
+    "type": "new",
+    "vendor": "Google",
+    "section": "community",
+    "title": "google/skills — Google 製品・技術向けエージェントスキル公式集",
+    "summary": "Google 公式のエージェントスキルコレクション。Python Trending 2位・+78 today (★20,728)。Google がエージェントスキルエコシステムに公式参入。",
+    "url": "https://github.com/google/skills",
+    "importance": "standard",
+    "tags": [
+      "agent-skills",
+      "google",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "id": "2026-10-03-thedotmack-claude-mem",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "thedotmack/claude-mem — エージェント向けセッション横断コンテキスト永続化",
+    "summary": "セッションをまたいで関連過去データを圧縮・注入するコンテキスト永続化ツール。TypeScript Trending 10位・+113 today (★95,196)。",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "importance": "standard",
+    "tags": [
+      "context",
+      "memory",
+      "agent",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "id": "2026-10-03-vercel-labs-skills",
+    "type": "new",
+    "vendor": "Vercel",
+    "section": "community",
+    "title": "vercel-labs/skills — npx で即利用できるオープンエージェントスキルツール",
+    "summary": "npx skills で即時利用可能な Vercel Labs 製エージェントスキルツール。TypeScript Trending 14位・+84 today (★32,990)。",
+    "url": "https://github.com/vercel-labs/skills",
+    "importance": "standard",
+    "tags": [
+      "agent-skills",
+      "vercel",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "id": "2026-10-03-falkordb",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "FalkorDB/FalkorDB — 知識グラフ・LLM アプリ最適化グラフデータベース",
+    "summary": "ナレッジグラフと LLM アプリケーションに最適化された Rust 製グラフデータベース。Rust Trending 11位・+200 today (★6,647)。",
+    "url": "https://github.com/FalkorDB/FalkorDB",
+    "importance": "standard",
+    "tags": [
+      "graph-db",
+      "knowledge-graph",
+      "llm",
+      "rust",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "id": "2026-10-03-unimate",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "Friedrich-M/UniMate — [SIGGRAPH Asia 2026] 異種スケルトン統合アニメーション AI モデル",
+    "summary": "多様なスケルトン構造を単一モデルで統合的にアニメーション化。SIGGRAPH Asia 2026 採択。+240 today (★1,200)。",
+    "url": "https://github.com/Friedrich-M/UniMate",
+    "importance": "standard",
+    "tags": [
+      "animation",
+      "research",
+      "siggraph",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "id": "2026-10-03-cursor-plugins",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "cursor/plugins — Cursor 公式プラグイン仕様とオフィシャルプラグイン集",
+    "summary": "AI コードエディタ「Cursor」の公式プラグイン仕様と公式プラグイン。TypeScript Trending 3位・+168 today (★9,491)。",
+    "url": "https://github.com/cursor/plugins",
+    "importance": "standard",
+    "tags": [
+      "cursor",
+      "plugins",
+      "ide",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "id": "2026-10-03-ponytail-followup",
+    "type": "followup",
+    "vendor": "community",
+    "section": "community",
+    "title": "[続報] DietrichGebert/ponytail — +1,429 stars にさらに加速、グローバル Trending 4位",
+    "summary": "3日間で最大の単日サージ。累計 ★151,733。JS エージェントフレームワークへの関心が持続拡大。",
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "related_date": "2026-10-01",
+    "importance": "highlight",
+    "tags": [
+      "agent",
+      "javascript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "id": "2026-10-03-openShell-followup",
+    "type": "followup",
+    "vendor": "NVIDIA",
+    "section": "community",
+    "title": "[続報] NVIDIA/OpenShell — +584 stars、4日連続グローバル Trending 圏内",
+    "summary": "+584 と前日比大幅鈍化。Rust Trending 1位。累計 ★14,414。",
+    "url": "https://github.com/NVIDIA/OpenShell",
+    "related_date": "2026-09-30",
+    "importance": "standard",
+    "tags": [
+      "agent-runtime",
+      "rust",
+      "nvidia",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "id": "2026-10-03-hyperframes-followup",
+    "type": "followup",
+    "vendor": "HeyGen",
+    "section": "community",
+    "title": "[続報] heygen-com/hyperframes — +584 stars、TypeScript Trending 継続",
+    "summary": "前日とほぼ同水準 (+584)。TypeScript Trending 1位。HTML→動画エージェント向けフレームワーク。",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "related_date": "2026-09-28",
+    "importance": "minor",
+    "tags": [
+      "video",
+      "html",
+      "agent",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "id": "2026-10-03-openrig-followup",
+    "type": "followup",
+    "vendor": "community",
+    "section": "community",
+    "title": "[続報] mvschwarz/openrig — +691 stars に微加速、5日連続 TypeScript Trending 圏内",
+    "summary": "+691 と前日比微増。エージェントチームネットワーク構築ハーネスとして安定継続。",
+    "url": "https://github.com/mvschwarz/openrig",
+    "related_date": "2026-09-28",
+    "importance": "minor",
+    "tags": [
+      "multi-agent",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "id": "2026-10-03-magnitude-followup",
+    "type": "followup",
+    "vendor": "community",
+    "section": "community",
+    "title": "[続報] magnitudedev/magnitude — +245 stars、Rust Trending 継続",
+    "summary": "+245 と前日比 43% 減に鈍化。Rust Trending 2位。",
+    "url": "https://github.com/magnitudedev/magnitude",
+    "related_date": "2026-09-30",
+    "importance": "minor",
+    "tags": [
+      "inference",
+      "rust",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "id": "2026-10-03-tilelang-followup",
+    "type": "followup",
+    "vendor": "community",
+    "section": "community",
+    "title": "[続報] tile-ai/tilelang — +237 stars、Python Trending 継続",
+    "summary": "+237 と前日比 51% 増に加速。2日連続 Python Trending 圏内。GPU/CPU 高性能カーネル DSL。",
+    "url": "https://github.com/tile-ai/tilelang",
+    "related_date": "2026-10-02",
+    "importance": "minor",
+    "tags": [
+      "dsl",
+      "gpu",
+      "inference",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "id": "2026-10-03-context-mode-followup",
+    "type": "followup",
+    "vendor": "community",
+    "section": "community",
+    "title": "[続報] mksglu/context-mode — +276 stars、TypeScript Trending 継続",
+    "summary": "+276 と前日比 23% 減。17 プラットフォーム対応コンテキスト最適化ツールとして2日連続。",
+    "url": "https://github.com/mksglu/context-mode",
+    "related_date": "2026-10-02",
+    "importance": "minor",
+    "tags": [
+      "context-optimization",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
     "date": "2026-10-02",
     "id": "2026-10-02-anthropic-barclays",
     "type": "new",
