@@ -1,5 +1,151 @@
 [
   {
+    "date": "2026-10-04",
+    "id": "2026-10-04-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-04",
+    "id": "2026-10-04-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-04",
+    "id": "2026-10-04-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-04",
+    "id": "2026-10-04-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-04",
+    "id": "2026-10-04-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-04",
+    "id": "2026-10-04-affaan-m-ecc",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "affaan-m/ECC v2.2.3 — 68 エージェント・293 スキルのコーディングハーネス急騰",
+    "summary": "Claude Code・Codex・Cursor 対応の統合エージェントフレームワーク。v2.2.3 (Oct 1 リリース) でマニフェスト駆動セットアップと統合メモリーボルトを追加。272k stars、+954 today。",
+    "url": "https://github.com/affaan-m/ECC",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "agent-framework",
+      "claude-code",
+      "coding-agent",
+      "skills"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "id": "2026-10-04-pbakaus-impeccable",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "pbakaus/impeccable — AI コーディングエージェント向けデザインガイダンスシステム",
+    "summary": "24 コマンド・61 検出ルールでフロントエンドデザイン品質を自動チェック。Claude Code・Cursor・GitHub Copilot など 11 以上の環境対応。API キー不要 CLI あり。75.3k stars、+705 today。",
+    "url": "https://github.com/pbakaus/impeccable",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "design-system",
+      "claude-code",
+      "frontend",
+      "coding-agent"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "id": "2026-10-04-calesthio-openMontage",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "calesthio/OpenMontage — エージェント型オープンソース動画制作システム (GitHub Trending 本日1位)",
+    "summary": "自然言語から映像生成・音声・音楽・字幕まで一気通貫で制作するエージェントシステム。12 パイプライン・100 以上のツール・60 以上のプロバイダー統合。AGPLv3。62.7k stars、+328 today。",
+    "url": "https://github.com/calesthio/OpenMontage",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "video-generation",
+      "agentic",
+      "open-source",
+      "multimodal"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "id": "2026-10-04-p-e-w-heretic",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "p-e-w/heretic — LLM 安全制限の自動除去ツール (AI 安全研究コミュニティで注目)",
+    "summary": "差分平均分析と直交化でファインチューニングなしにモデル安全制限を除去するツール。Gemma・Qwen 等対応。AI 安全研究で議論中。33.1k stars、+233 today。MIT ライセンス。",
+    "url": "https://github.com/p-e-w/heretic",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "llm-safety",
+      "alignment",
+      "research",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "id": "2026-10-04-jamwithai-production-agentic-rag-course",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "jamwithai/production-agentic-rag-course — 本番グレード Agentic RAG コース",
+    "summary": "本番環境での RAG システム構築に特化した実践的学習リソース。9.4k stars、+192 today。",
+    "url": "https://github.com/jamwithai/production-agentic-rag-course",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "rag",
+      "agentic",
+      "course",
+      "education"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "id": "2026-10-04-hn-reddit-no-update",
+    "type": "no-update",
+    "vendor": "Community",
+    "section": "community"
+  },
+  {
+    "date": "2026-10-04",
+    "id": "2026-10-04-papers-no-update",
+    "type": "no-update",
+    "vendor": "Research",
+    "section": "papers"
+  },
+  {
+    "date": "2026-10-04",
+    "id": "2026-10-04-media-no-update",
+    "type": "no-update",
+    "vendor": "Media",
+    "section": "media"
+  },
+  {
     "date": "2026-10-03",
     "id": "2026-10-03-anthropic-frontier-academy",
     "type": "new",
