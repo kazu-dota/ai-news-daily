@@ -1,0 +1,267 @@
+{
+  "date": "2026-10-05",
+  "generated_at": "2026-10-05T08:05:00+09:00",
+  "sources_checked": 6,
+  "sources_failed": 20,
+  "items": [
+    {
+      "id": "2026-10-05-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-05-openai-failed",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-05-google-failed",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-05-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-05-meta-failed",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-05-ponytail-day5",
+      "type": "followup",
+      "vendor": "DietrichGebert",
+      "section": "community",
+      "title": "[続報] DietrichGebert/ponytail — +1,894 stars で5日連続・単日過去最大サージ",
+      "summary": "5日連続グローバル Trending でついに +1,894 と過去最大サージを記録。累計 ★154,808。AI エージェントフレームワーク。",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "related_date": "2026-10-01",
+      "importance": "highlight",
+      "tags": ["github-trending", "ai-agent", "javascript", "framework"]
+    },
+    {
+      "id": "2026-10-05-impeccable-day3",
+      "type": "followup",
+      "vendor": "pbakaus",
+      "section": "community",
+      "title": "[続報] pbakaus/impeccable — +1,170 stars で3日連続・過去最高サージ",
+      "summary": "AI エージェント向けデザイン品質保証ツールが前日比 +66% 急加速、グローバル Trending 2位に浮上。累計 ★76,248。",
+      "url": "https://github.com/pbakaus/impeccable",
+      "related_date": "2026-10-03",
+      "importance": "highlight",
+      "tags": ["github-trending", "ai-agent", "design", "javascript"]
+    },
+    {
+      "id": "2026-10-05-ifixai",
+      "type": "new",
+      "vendor": "ifixai-ai",
+      "section": "community",
+      "title": "ifixai-ai/iFixAi — AI エージェント独立監査ツール +753 stars",
+      "summary": "AI エージェントの挙動を独立した立場から検証・監査するオープンソースフレームワーク。Python Trending 7位に初登場 +753。",
+      "url": "https://github.com/ifixai-ai/iFixAi",
+      "importance": "highlight",
+      "tags": ["github-trending", "ai-agent", "audit", "python"]
+    },
+    {
+      "id": "2026-10-05-agent-reach-day2",
+      "type": "followup",
+      "vendor": "Panniantong",
+      "section": "community",
+      "title": "[続報] Panniantong/Agent-Reach — +979 stars にさらに加速、2日連続",
+      "summary": "インターネット横断 AI エージェントデータ収集ツールが前日比 +43% に加速。Python Trending 2位。累計 ★90,828。",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "related_date": "2026-10-03",
+      "importance": "highlight",
+      "tags": ["github-trending", "ai-agent", "data-collection", "python"]
+    },
+    {
+      "id": "2026-10-05-addyosmani-agent-skills",
+      "type": "new",
+      "vendor": "addyosmani",
+      "section": "community",
+      "title": "addyosmani/agent-skills — 本番グレード AI コーディングスキル集 +336 stars",
+      "summary": "Addy Osmani 製、AI コーディングエージェント向け本番グレードエンジニアリングスキルコレクション。グローバル Trending 11位 ★101k。",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "importance": "highlight",
+      "tags": ["github-trending", "ai-agent", "skills", "javascript"]
+    },
+    {
+      "id": "2026-10-05-experiential",
+      "type": "new",
+      "vendor": "experientiallabs",
+      "section": "community",
+      "title": "experientiallabs/experiential — BYOK ゼロマークアップ AI ゲートウェイ +570 stars",
+      "summary": "Bring Your Own Key で 1,000+ モデルにゼロマークアップアクセスするセルフホスト型 AI ゲートウェイ。Python Trending 13位に初登場 +570。",
+      "url": "https://github.com/experientiallabs/experiential",
+      "importance": "standard",
+      "tags": ["github-trending", "ai-gateway", "byok", "python"]
+    },
+    {
+      "id": "2026-10-05-cloudflare-os",
+      "type": "new",
+      "vendor": "Cloudflare",
+      "section": "community",
+      "title": "cloudflare/cloudflare-os — Cloudflare 製エージェントワークスペース +336 stars",
+      "summary": "文書作成・アプリ構築・エージェント実行を統合した Cloudflare 製エージェントワークスペース。TypeScript Trending 12位に初登場 +336。",
+      "url": "https://github.com/cloudflare/cloudflare-os",
+      "importance": "standard",
+      "tags": ["github-trending", "ai-agent", "cloudflare", "typescript"]
+    },
+    {
+      "id": "2026-10-05-claude-code-trending",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "anthropics/claude-code — TypeScript Trending 14位に再浮上 +336 stars",
+      "summary": "Claude Code 公式リポジトリが TypeScript Trending 14位に再浮上。エージェントスキルブームを背景に関心が継続。★149,419。",
+      "url": "https://github.com/anthropics/claude-code",
+      "importance": "standard",
+      "tags": ["github-trending", "claude-code", "anthropic", "typescript"]
+    },
+    {
+      "id": "2026-10-05-antirez-ds4",
+      "type": "new",
+      "vendor": "antirez",
+      "section": "community",
+      "title": "antirez/ds4 — DeepSeek 4 ローカル推論エンジン +211 stars",
+      "summary": "Redis 作者 antirez 製の DeepSeek 4 Flash/PRO 向けローカル推論エンジン。Metal/CUDA/ROCm 対応。グローバル Trending 15位に初登場 +211。",
+      "url": "https://github.com/antirez/ds4",
+      "importance": "standard",
+      "tags": ["github-trending", "deepseek", "inference", "c"]
+    },
+    {
+      "id": "2026-10-05-marketingskills",
+      "type": "new",
+      "vendor": "coreyhaines31",
+      "section": "community",
+      "title": "coreyhaines31/marketingskills — AI エージェント向けマーケティングスキル集 +270 stars",
+      "summary": "CRO・SEO・コピーライティング・グロースエンジニアリングをカバーする AI コーディングエージェント向けマーケティングスキルコレクション。グローバル Trending 3位。",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "importance": "standard",
+      "tags": ["github-trending", "ai-agent", "marketing", "skills", "javascript"]
+    },
+    {
+      "id": "2026-10-05-gstack",
+      "type": "new",
+      "vendor": "garrytan",
+      "section": "community",
+      "title": "garrytan/gstack — Y Combinator CEO の Claude Code セットアップ公開 +121 stars",
+      "summary": "Y Combinator CEO Garry Tan が公開した Claude Code 設定・23 ツール集。デザイン・エンジニアリング・QA 統合。TypeScript Trending 4位 ★135k。",
+      "url": "https://github.com/garrytan/gstack",
+      "importance": "standard",
+      "tags": ["github-trending", "claude-code", "skills", "typescript"]
+    },
+    {
+      "id": "2026-10-05-text-to-cad",
+      "type": "new",
+      "vendor": "earthtojake",
+      "section": "community",
+      "title": "earthtojake/text-to-cad — テキストから CAD データを生成するエージェントツール +75 stars",
+      "summary": "自然言語から 3D CAD データを生成する AI エージェント向け Python ツール。Python Trending 首位に初登場 +75。",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "importance": "minor",
+      "tags": ["github-trending", "ai-agent", "cad", "python"]
+    },
+    {
+      "id": "2026-10-05-llmfit",
+      "type": "new",
+      "vendor": "AlexsJones",
+      "section": "community",
+      "title": "AlexsJones/llmfit — ハードウェア最適 LLM モデル選択ツール +99 stars",
+      "summary": "数百のモデルとプロバイダーを横断してハードウェアに最適な選択肢を探索する Rust 製ツール。Rust Trending 4位に初登場 +99。",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "importance": "minor",
+      "tags": ["github-trending", "llm", "rust", "hardware"]
+    },
+    {
+      "id": "2026-10-05-zeron",
+      "type": "new",
+      "vendor": "zeronsh",
+      "section": "community",
+      "title": "zeronsh/zeron — Claude Code 向けコントロールプレーン +86 stars",
+      "summary": "Claude Code などコーディングエージェントの実行制御・監視を担うコントロールプレーン。Rust Trending 6位に初登場 +86。",
+      "url": "https://github.com/zeronsh/zeron",
+      "importance": "minor",
+      "tags": ["github-trending", "claude-code", "control-plane", "rust"]
+    },
+    {
+      "id": "2026-10-05-claude-mem-followup",
+      "type": "followup",
+      "vendor": "thedotmack",
+      "section": "community",
+      "title": "[続報] thedotmack/claude-mem — +627 stars に急加速、TypeScript Trending 3位",
+      "summary": "セッション横断コンテキスト永続化ツールが前日比約 5.5 倍に急加速。TypeScript Trending 3位に浮上。累計 ★96,104。",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "related_date": "2026-10-03",
+      "importance": "standard",
+      "tags": ["github-trending", "ai-agent", "memory", "typescript"]
+    },
+    {
+      "id": "2026-10-05-pi-followup",
+      "type": "followup",
+      "vendor": "earendil-works",
+      "section": "community",
+      "title": "[続報] earendil-works/pi — +400 stars に加速、TypeScript Trending 16位継続",
+      "summary": "統合 LLM API・エージェントループ・TUI を内包する大型ツールキットが2日連続 TypeScript Trending。+400 と前日比加速。累計 ★112,438。",
+      "url": "https://github.com/earendil-works/pi",
+      "related_date": "2026-10-02",
+      "importance": "standard",
+      "tags": ["github-trending", "ai-agent", "toolkit", "typescript"]
+    },
+    {
+      "id": "2026-10-05-hyperframes-followup",
+      "type": "followup",
+      "vendor": "heygen-com",
+      "section": "community",
+      "title": "[続報] heygen-com/hyperframes — +410 stars、TypeScript Trending 15位継続",
+      "summary": "エージェント向け HTML→動画フレームワークが TypeScript Trending 圏内を維持。前日比わずかに鈍化。累計 ★56,742。",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "related_date": "2026-10-02",
+      "importance": "standard",
+      "tags": ["github-trending", "ai-agent", "video", "typescript"]
+    },
+    {
+      "id": "2026-10-05-openmontage-followup",
+      "type": "followup",
+      "vendor": "calesthio",
+      "section": "community",
+      "title": "[続報] calesthio/OpenMontage — +361 stars、Python Trending 4位継続",
+      "summary": "エージェント型オープンソース動画制作システムが2日連続 Python Trending 圏内を維持。+361 と前日同水準。累計 ★63,174。",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "related_date": "2026-10-04",
+      "importance": "standard",
+      "tags": ["github-trending", "ai-agent", "video", "python"]
+    },
+    {
+      "id": "2026-10-05-context-mode-followup",
+      "type": "followup",
+      "vendor": "mksglu",
+      "section": "community",
+      "title": "[続報] mksglu/context-mode — +189 stars、3日連続 TypeScript Trending",
+      "summary": "AI エージェントのコンテキスト消費 98% 削減ツールが3日連続 TypeScript Trending。+189 と鈍化傾向。累計 ★25,392。",
+      "url": "https://github.com/mksglu/context-mode",
+      "related_date": "2026-10-02",
+      "importance": "minor",
+      "tags": ["github-trending", "ai-agent", "context", "typescript"]
+    },
+    {
+      "id": "2026-10-05-falkordb-followup",
+      "type": "followup",
+      "vendor": "FalkorDB",
+      "section": "community",
+      "title": "[続報] FalkorDB/FalkorDB — +159 stars、Rust Trending 7位継続",
+      "summary": "知識グラフ・LLM アプリ向けグラフデータベースが Rust Trending 7位を維持。+159 と前日比若干鈍化。累計 ★6,982。",
+      "url": "https://github.com/FalkorDB/FalkorDB",
+      "related_date": "2026-10-03",
+      "importance": "minor",
+      "tags": ["github-trending", "graph-db", "llm", "rust"]
+    }
+  ]
+}
