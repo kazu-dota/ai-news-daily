@@ -1,0 +1,201 @@
+{
+  "date": "2026-10-06",
+  "generated_at": "2026-10-06T08:03:00+09:00",
+  "sources_checked": 9,
+  "sources_failed": 4,
+  "items": [
+    {
+      "id": "2026-10-06-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-06-openai-fetch-failed",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor",
+      "title": "ソース取得失敗",
+      "summary": "ネットワークポリシーにより openai.com へのアクセスがブロック。",
+      "importance": "minor",
+      "tags": ["fetch-failed"]
+    },
+    {
+      "id": "2026-10-06-google-fetch-failed",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor",
+      "title": "ソース取得失敗",
+      "summary": "ネットワークポリシーにより deepmind.google へのアクセスがブロック。",
+      "importance": "minor",
+      "tags": ["fetch-failed"]
+    },
+    {
+      "id": "2026-10-06-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "本日アップデートなし",
+      "summary": "Microsoft Research ブログに 2026-10-06 付新規投稿なし。他 MS ブログはブロック継続。",
+      "importance": "minor",
+      "tags": ["no-update"]
+    },
+    {
+      "id": "2026-10-06-meta-fetch-failed",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor",
+      "title": "ソース取得失敗",
+      "summary": "ネットワークポリシーにより ai.meta.com へのアクセスがブロック。",
+      "importance": "minor",
+      "tags": ["fetch-failed"]
+    },
+    {
+      "id": "2026-10-06-github-ts-claude-mem",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "thedotmack/claude-mem — AI エージェントのセッション間記憶圧縮・再注入システム",
+      "summary": "Claude Code・Cursor・Codex 対応の永続メモリシステム。セッション活動を SQLite に記録し、AI 圧縮+ハイブリッド検索で次セッションへ自動再注入。+534 stars today。",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "importance": "highlight",
+      "tags": ["github-trending", "typescript", "ai-agent", "memory", "claude-code"]
+    },
+    {
+      "id": "2026-10-06-github-shell-agency-agents",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "msitarzewski/agency-agents — 230以上の専門 AI エージェントを内包するフルスタック仮想エージェンシー",
+      "summary": "18以上の分野をカバーする 230+ AI エージェントパーソナリティのフレームワーク。Claude Code・Cursor 等に自動変換・インストール対応。+687 stars today。",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "importance": "highlight",
+      "tags": ["github-trending", "shell", "ai-agent", "framework", "multi-agent"]
+    },
+    {
+      "id": "2026-10-06-github-ts-t3code",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "pingdotgg/t3code — マルチエージェントハーネスのオープンソース制御パネル",
+      "summary": "Claude Code・Cursor・Codex 等を Electron/Web/モバイルから一元管理するローカルファースト設計のコントロールサーフェス。+487 stars today。",
+      "url": "https://github.com/pingdotgg/t3code",
+      "importance": "standard",
+      "tags": ["github-trending", "typescript", "ai-agent", "claude-code", "control-panel"]
+    },
+    {
+      "id": "2026-10-06-github-ts-freellmapi",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "tashfeenahmed/freellmapi — 34 プロバイダー・7.4B トークン/月を統合する無料 LLM API ゲートウェイ",
+      "summary": "Google・Groq・Mistral 等 34 プロバイダーを OpenAI 互換 API に統合するセルフホスト型ルーター。自動フェイルオーバー付き。+300 stars today。",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "importance": "standard",
+      "tags": ["github-trending", "typescript", "llm", "free", "api-gateway"]
+    },
+    {
+      "id": "2026-10-06-github-python-mirofish",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "666ghj/MiroFish — 群知能エンジンによる予測 AI プラットフォーム",
+      "summary": "数千のエージェントが相互作用するデジタル並行世界で社会・金融・政治イベントを予測。CAMEL-AI ベース、Shanda Group インキュベーション。+429 stars today。",
+      "url": "https://github.com/666ghj/MiroFish",
+      "importance": "highlight",
+      "tags": ["github-trending", "python", "swarm-intelligence", "prediction", "simulation"]
+    },
+    {
+      "id": "2026-10-06-github-python-optmem",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "VictorTaelin/OptMem — 426 トークンのプロンプトで AI エージェントに永続記憶を付与",
+      "summary": "外部サービス不要、426 トークンのシステムプロンプトを組み込むだけで任意 AI エージェントにセッション間記憶を付与する超軽量アプローチ。+106 stars today。",
+      "url": "https://github.com/VictorTaelin/OptMem",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "ai-agent", "memory", "lightweight"]
+    },
+    {
+      "id": "2026-10-06-github-python-free-claude-code",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "Alishahryar1/free-claude-code — Claude Code を無料利用できるアクセス方法集",
+      "summary": "Claude Code および類似ツールへの無料アクセス方法まとめ。1.3B 以上の無料トークン活用を掲げる。+146 stars today。",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "importance": "minor",
+      "tags": ["github-trending", "python", "claude-code", "free", "community"]
+    },
+    {
+      "id": "2026-10-06-github-python-longcat-video",
+      "type": "new",
+      "vendor": "Meituan",
+      "section": "community",
+      "title": "meituan-longcat/LongCat-Video — Meituan の 136 億パラメータ動画生成モデル Python Trending 初登場",
+      "summary": "Meituan が開発した 13.6B パラメータの動画生成基盤モデル。720p/30fps 動画を数分で生成。MIT ライセンス公開済み。+63 stars today。",
+      "url": "https://github.com/meituan-longcat/LongCat-Video",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "video-generation", "meituan", "open-source"]
+    },
+    {
+      "id": "2026-10-06-github-python-agent-reach-day3",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] Panniantong/Agent-Reach — +1,156 stars で3日間最大サージ",
+      "summary": "Python Trending 2位。3日間で最大の単日伸び (+1,156, 前日比+18%)。API 費用ゼロで主要 SNS を横断できるエージェント向けデータ収集ツール。",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "related_date": "2026-10-03",
+      "importance": "highlight",
+      "tags": ["github-trending", "python", "ai-agent", "data-collection", "followup"]
+    },
+    {
+      "id": "2026-10-06-github-python-openmontage-followup",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] calesthio/OpenMontage — +758 stars で前日比 2.3 倍に加速",
+      "summary": "エージェント型オープンソース動画制作システム。初登場 (+328, 2026-10-04) から本日 +758 と大幅加速。",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "related_date": "2026-10-04",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "video", "ai-agent", "followup"]
+    },
+    {
+      "id": "2026-10-06-github-python-text-to-cad-followup",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] earthtojake/text-to-cad — +456 stars で前日比 6 倍に急拡大",
+      "summary": "自然言語から 3D CAD データを生成するエージェント向けツール。前日 +75 → 本日 +456 と急拡大。",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "related_date": "2026-10-05",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "cad", "ai-agent", "followup"]
+    },
+    {
+      "id": "2026-10-06-github-ts-gstack-followup",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] garrytan/gstack — +320 stars で2日連続 TypeScript Trending 圏内",
+      "summary": "Y Combinator CEO Garry Tan の Claude Code セットアップ集。前日 +121 → 本日 +320 と加速。",
+      "url": "https://github.com/garrytan/gstack",
+      "related_date": "2026-10-05",
+      "importance": "minor",
+      "tags": ["github-trending", "typescript", "claude-code", "followup"]
+    },
+    {
+      "id": "2026-10-06-github-ts-tester-e2e",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "tester-army/e2e — 次世代 E2E テストフレームワーク、本日最大 +1,430 stars",
+      "summary": "Web・モバイル向け次世代エンドツーエンドテストフレームワーク。AI コーディングエージェントを用いたテスト生成への応用が示唆され本日 TypeScript Trending 首位。",
+      "url": "https://github.com/tester-army/e2e",
+      "importance": "minor",
+      "tags": ["github-trending", "typescript", "testing", "e2e"]
+    }
+  ]
+}
