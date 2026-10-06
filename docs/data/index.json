@@ -1,5 +1,316 @@
 [
   {
+    "date": "2026-10-07",
+    "id": "2026-10-07-anthropic-cvp",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "サイバー検証プログラム (CVP) を3段階体制に拡張",
+    "summary": "Defense・Red Team・Specialized の3ティアに再編。4ヶ月で約13万件の脆弱性発見。Claude Mythos 5.1 も提供開始。",
+    "url": "https://www.anthropic.com/news/cyber-verification-program",
+    "importance": "highlight",
+    "tags": [
+      "security",
+      "anthropic",
+      "cvp",
+      "vulnerability",
+      "claude-mythos"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "id": "2026-10-07-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-07",
+    "id": "2026-10-07-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-07",
+    "id": "2026-10-07-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-07",
+    "id": "2026-10-07-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-07",
+    "id": "2026-10-07-morluto-rea",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: morluto/rea — エージェントでバイナリを含む任意コードをリバースエンジニアリング",
+    "summary": "TypeScript, ★9,125, +2,963 today。バイナリ〜アプリ動作の逆解析をエージェントで自動化。本日グローバル最大サージ。",
+    "url": "https://github.com/morluto/rea",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "agent",
+      "reverse-engineering",
+      "typescript",
+      "security"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "id": "2026-10-07-rohitg00-ai-engineering",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: rohitg00/ai-engineering-from-scratch — AI エンジニアリング実践学習リポジトリ",
+    "summary": "Python, ★65,282, +783 today。LLM アプリ構築の基礎から本番デプロイまでをカバーする学習カリキュラム。",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "education",
+      "llm",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "id": "2026-10-07-earthtojake-text-to-cad",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: earthtojake/text-to-cad — エージェントに 3D CAD 設計能力を付与",
+    "summary": "Python, ★17,948, +620 today。自然言語・エージェント指示から 3D CAD モデルを生成・編集するツールキット。",
+    "url": "https://github.com/earthtojake/text-to-cad",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "agent",
+      "cad",
+      "python",
+      "design"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "id": "2026-10-07-heygen-com-hyperframes",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: heygen-com/hyperframes — HTML を書くだけで動画を生成、エージェント向け設計",
+    "summary": "TypeScript, ★57,917, +582 today。HTML/CSS で記述したレイアウトを高品質動画にレンダリング。HeyGen 製。",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "video",
+      "agent",
+      "typescript",
+      "heygen"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "id": "2026-10-07-mattpocock-skills-followup",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: [続報] mattpocock/skills — +972 stars、Shell グローバル Trending 2位",
+    "summary": "Shell, ★278,078, +972 today。前回 10-03 登場後3日のブランクを経て再浮上。Matt Pocock 製エンジニア向けスキル集。",
+    "url": "https://github.com/mattpocock/skills",
+    "related_date": "2026-10-03",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "agent-skills",
+      "shell"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "id": "2026-10-07-anthropics-knowledge-work-plugins",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "community",
+    "title": "GitHub Trending: anthropics/knowledge-work-plugins — Anthropic 公式 Claude Cowork 向けプラグイン集",
+    "summary": "Python, ★26,373, +124 today。ナレッジワーカー向けオープンソースプラグインの公式リポジトリが Trending 初登場。",
+    "url": "https://github.com/anthropics/knowledge-work-plugins",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "anthropic",
+      "claude-cowork",
+      "plugins",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "id": "2026-10-07-msitarzewski-agency-agents-followup",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: [続報] msitarzewski/agency-agents — +621 stars、2日連続 Shell Trending",
+    "summary": "Shell, ★157,789, +621 today。230以上の専門エージェントパーソナリティ内包フレームワーク。前日比ほぼ横ばい継続。",
+    "url": "https://github.com/msitarzewski/agency-agents",
+    "related_date": "2026-10-06",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "agent",
+      "shell"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "id": "2026-10-07-pbakaus-impeccable-followup",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: [続報] pbakaus/impeccable — +609 stars、4日連続グローバル Trending",
+    "summary": "JavaScript, ★77,656, +609 today。AI エージェント向けデザイン品質向上ツール。4日連続グローバル Trending に在籍。",
+    "url": "https://github.com/pbakaus/impeccable",
+    "related_date": "2026-10-04",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "design",
+      "agent",
+      "javascript"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "id": "2026-10-07-thedotmack-claude-mem-followup",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: [続報] thedotmack/claude-mem — +536 stars、2日連続 TypeScript Trending",
+    "summary": "TypeScript, ★97,137, +536 today。AI エージェントのセッション間記憶を圧縮・再注入する永続メモリシステム。前日とほぼ同水準継続。",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "related_date": "2026-10-06",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "agent-memory",
+      "typescript",
+      "claude"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "id": "2026-10-07-ayghri-i-have-adhd",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: ayghri/i-have-adhd — コーディングエージェントの回答を ADHD フレンドリーに整形",
+    "summary": "Python, ★54,370, +318 today。重要情報が長文に埋没する問題を解消し要点を冒頭提示するスキル。アクセシビリティ改善の観点で注目。",
+    "url": "https://github.com/ayghri/i-have-adhd",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "agent-skill",
+      "accessibility",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "id": "2026-10-07-deepseek-ai-deepgemm",
+    "type": "new",
+    "vendor": "DeepSeek",
+    "section": "community",
+    "title": "GitHub Trending: deepseek-ai/DeepGEMM — GPU 向け高効率 BLAS カーネルライブラリ",
+    "summary": "CUDA, ★8,676, +363 today。LLM 推論・学習の行列演算を最適化する DeepSeek 製カーネルライブラリ。グローバル Trending 新規登場。",
+    "url": "https://github.com/deepseek-ai/DeepGEMM",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "deepseek",
+      "cuda",
+      "performance",
+      "llm-infra"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "id": "2026-10-07-cathrynlavery-diagram-design",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: cathrynlavery/diagram-design — AI コーダー向け 42 種の図解デザインテンプレート",
+    "summary": "HTML, ★43,989, +227 today。Claude Code / Codex / GitHub Copilot 対応の 42 種類のエディトリアル図表セット。",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "agent-skill",
+      "diagram",
+      "design",
+      "html"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "id": "2026-10-07-cursor-plugins",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: cursor/plugins — Cursor 公式プラグイン仕様とリファレンス実装",
+    "summary": "TypeScript, ★10,097, +164 today。Cursor 公式のプラグイン API 仕様＋公式実装。サードパーティエコシステムの開放を示す。",
+    "url": "https://github.com/cursor/plugins",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "cursor",
+      "plugins",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "id": "2026-10-07-panniantong-agent-reach-day5",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: [続報] Panniantong/Agent-Reach — +977 stars、5日連続 Python Trending",
+    "summary": "Python, ★92,612, +977 today。Twitter・Reddit・YouTube・GitHub等を横断するゼロ API 費用データ収集エージェント。5日連続継続。",
+    "url": "https://github.com/Panniantong/Agent-Reach",
+    "related_date": "2026-10-03",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "agent",
+      "data-collection",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "id": "2026-10-07-calesthio-openmontage-followup",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "GitHub Trending: [続報] calesthio/OpenMontage — +973 stars、4日連続 Python Trending",
+    "summary": "Python, ★64,674, +973 today。エージェント型オープンソース動画制作システム。4日連続継続。",
+    "url": "https://github.com/calesthio/OpenMontage",
+    "related_date": "2026-10-04",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "agent",
+      "video",
+      "python"
+    ]
+  },
+  {
     "date": "2026-10-06",
     "id": "2026-10-06-anthropic-no-update",
     "type": "no-update",
