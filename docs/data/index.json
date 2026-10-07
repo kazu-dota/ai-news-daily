@@ -1,5 +1,245 @@
 [
   {
+    "date": "2026-10-08",
+    "id": "2026-10-08-anthropic-haiku-55",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Claude Haiku 5.5 発表",
+    "summary": "Haiku 4.5 比平均 75% コスト削減。入力 $0.10/M、出力 $0.50/M。エフォート設定対応、最速・最安小型モデル。Sonnet 5.5 のキャッシュ読み取り価格も半額に。",
+    "url": "https://www.anthropic.com/claude-haiku-5-5",
+    "importance": "highlight",
+    "tags": [
+      "model-release",
+      "anthropic",
+      "haiku",
+      "pricing",
+      "cost-reduction"
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "id": "2026-10-08-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-08",
+    "id": "2026-10-08-google-no-update",
+    "type": "no-update",
+    "vendor": "Google / Google DeepMind",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-08",
+    "id": "2026-10-08-msft-agent-lightning",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "Microsoft Research: Agent Lightning v1.0 公開",
+    "summary": "実デプロイハーネスで直接 RL 訓練できる 3,500 行の軽量 OSS フレームワーク。SWE-bench Verified Pass@1 を 41.8% → 56.4% (+14.6 pp) に改善。Kubernetes ネイティブ。",
+    "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
+    "importance": "highlight",
+    "tags": [
+      "research",
+      "microsoft",
+      "reinforcement-learning",
+      "agent",
+      "open-source",
+      "swe-bench"
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "id": "2026-10-08-microsoft-copilot-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-08",
+    "id": "2026-10-08-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-08",
+    "id": "2026-10-08-cloudflare-security-audit-skill",
+    "type": "new",
+    "vendor": "Cloudflare",
+    "section": "community",
+    "title": "cloudflare/security-audit-skill (+617 stars today)",
+    "summary": "Cloudflare 製 6 段階セキュリティ監査エージェントスキル。発見と検証を別エージェントが担う敵対的バリデーション。JSON 形式の機械可読出力。MIT ライセンス、26k stars。",
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "security",
+      "agent-skill",
+      "cloudflare",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "id": "2026-10-08-superdesigndev-treg",
+    "type": "new",
+    "vendor": "Superdesign",
+    "section": "community",
+    "title": "superdesigndev/treg (+407 stars today)",
+    "summary": "\"OpenRouter for agent tools\" を標榜するエージェントツール統合プロキシ。Claude Code プラグイン・MCP 対応、OAuth 自動リフレッシュ、チームアクセス制御を備える。4.7k stars。",
+    "url": "https://github.com/superdesigndev/treg",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "agent-tools",
+      "mcp",
+      "claude-code",
+      "proxy"
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "id": "2026-10-08-trycua-cua",
+    "type": "new",
+    "vendor": "trycua",
+    "section": "community",
+    "title": "trycua/cua (+229 stars today)",
+    "summary": "コンピュータを操作する AI エージェント向けインフラ基盤。macOS VM / Linux エージェントデスクトップ、ネイティブ GUI ドライバ、特化モデル CUA-S1 等を統合。28.7k stars。",
+    "url": "https://github.com/trycua/cua",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "computer-use",
+      "agent",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "id": "2026-10-08-morluto-rea-day2",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] morluto/rea — +4,666 stars でグローバル Trending 首位継続 (2日連続)",
+    "summary": "前日の +2,963 stars に続き +4,666 stars を追加。2 日合計 7,600 stars 超。エージェントによるバイナリリバースエンジニアリングリポジトリ。",
+    "url": "https://github.com/morluto/rea",
+    "related_date": "2026-10-07",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "reverse-engineering",
+      "agent",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "id": "2026-10-08-mattpocock-skills-day2",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] mattpocock/skills — +1,406 stars (グローバル Trending 2 位継続)",
+    "summary": "エージェントスキル集が引き続き Trending 上位。本日 +1,406 stars、累計 279k stars 超。",
+    "url": "https://github.com/mattpocock/skills",
+    "related_date": "2026-10-07",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "agent-skill",
+      "shell"
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "id": "2026-10-08-anthropics-knowledge-work-plugins",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "community",
+    "title": "[続報] anthropics/knowledge-work-plugins — +764 today",
+    "summary": "Claude Cowork 向け知識ワーカープラグイン集が引き続きトレンド上位。前回記載からの新情報なし。",
+    "url": "https://github.com/anthropics/knowledge-work-plugins",
+    "related_date": "2026-10-07",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "claude",
+      "plugins",
+      "knowledge-work"
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "id": "2026-10-08-cathrynlavery-diagram-design",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] cathrynlavery/diagram-design — +828 today",
+    "summary": "42 種類のダイアグラム設計スキルが引き続きトレンド上位。前回記載からの新情報なし。",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "related_date": "2026-10-07",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "diagram",
+      "agent-skill"
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "id": "2026-10-08-addyosmani-agent-skills",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] addyosmani/agent-skills — +693 today",
+    "summary": "プロダクションレベルのエンジニアリングエージェントスキル集。引き続きトレンド上位を維持。",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "related_date": "2026-10-05",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "agent-skill",
+      "javascript"
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "id": "2026-10-08-ayghri-i-have-adhd",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] ayghri/i-have-adhd — +620 today",
+    "summary": "コーディングエージェントの回答を埋もれさせないための ADHD フレンドリースキル。引き続きトレンド上位。",
+    "url": "https://github.com/ayghri/i-have-adhd",
+    "related_date": "2026-10-07",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "agent-skill",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "id": "2026-10-08-thedotmack-claude-mem",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] thedotmack/claude-mem — +578 today",
+    "summary": "エージェントのセッション間永続メモリ。引き続きトレンド上位。",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "related_date": "2026-10-07",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "memory",
+      "agent",
+      "typescript"
+    ]
+  },
+  {
     "date": "2026-10-07",
     "id": "2026-10-07-anthropic-cvp",
     "type": "new",
