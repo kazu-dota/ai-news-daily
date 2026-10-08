@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09T08:03:59+09:00",
+  "sources_checked": 18,
+  "sources_failed": 13,
+  "items": [
+    {
+      "id": "2026-10-09-anthropic-cyber-mission",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Cyber Mission を正式発足",
+      "summary": "電力網・水道・交通インフラ向け CIDP (CrowdStrike・Palo Alto 等9社が創設パートナー)、OSS 脆弱性無償スキャンサービス、Defender Advantage Fund の3柱で構成する包括的サイバー支援プログラム。",
+      "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "importance": "highlight",
+      "tags": ["cybersecurity", "anthropic", "critical-infrastructure", "oss", "cidp"]
+    },
+    {
+      "id": "2026-10-09-anthropic-genesis-mission",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Genesis Mission に3年 $150M — 連邦機関 15 社以上に Claude を提供",
+      "summary": "White House OSTP サミットで発表。NASA・NIH・NSF など 15 以上の連邦機関に Claude・Claude Code・API クレジットを提供。学術研究者向け 1 万席の無償シートや Model Hardware Standard も発表。",
+      "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+      "importance": "highlight",
+      "tags": ["anthropic", "science", "government", "genesis-mission", "nasa", "nih"]
+    },
+    {
+      "id": "2026-10-09-anthropic-usage-policy-2026",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "2026 年利用規約を改定 — 11 月 12 日発効",
+      "summary": "ドローン兵装禁止・物理ハードウェア安全要件・監視禁止の強化・選挙ルール合理化・モデル虐待禁止など 7 項目を更新。",
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "importance": "highlight",
+      "tags": ["anthropic", "policy", "usage-policy", "governance"]
+    },
+    {
+      "id": "2026-10-09-openai-fetch-failed",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-09-google-fetch-failed",
+      "type": "no-update",
+      "vendor": "Google / Google DeepMind",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-09-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-09-meta-fetch-failed",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-09-cursortouch-windows-mcp",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "CursorTouch/Windows-MCP — Windows を MCP 経由で操作する AI エージェント向けサーバ",
+      "summary": "AI エージェントが Windows のウィンドウ操作・クリック・テキスト入力などを MCP プロトコルで実行できる Python サーバ。Python Trending 初登場 +411 stars。",
+      "url": "https://github.com/CursorTouch/Windows-MCP",
+      "importance": "highlight",
+      "tags": ["mcp", "windows", "computer-use", "agent"]
+    },
+    {
+      "id": "2026-10-09-tracer-cloud-opensre",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "Tracer-Cloud/opensre — AI SRE エージェント構築のオープンソースツールキット",
+      "summary": "アラート対応・根本原因分析・ランブック実行などのオペレーション自動化基盤を提供する OSS フレームワーク。Python Trending 初登場 +107 stars。",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "importance": "standard",
+      "tags": ["sre", "agent", "infrastructure", "operations"]
+    },
+    {
+      "id": "2026-10-09-vincentwei1021-video-shotcraft",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "Vincentwei1021/video-shotcraft — Claude Code / Codex 向け AI 動画制作スキル",
+      "summary": "Remotion を活用してプロダクト動画をコーディングエージェントが自律生成するスキル。TypeScript Trending 初登場 +264 stars。",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "importance": "standard",
+      "tags": ["video", "claude-code", "codex", "skill", "remotion"]
+    },
+    {
+      "id": "2026-10-09-morluto-rea-day3",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] morluto/rea — +7,744 stars で3日連続グローバル Trending 首位",
+      "summary": "3日合計で約 15,370 stars を超え、前日比 66% 増で加速継続。エージェントでバイナリを含む任意コードをリバースエンジニアリングするフレームワーク。",
+      "url": "https://github.com/morluto/rea",
+      "related_date": "2026-10-07",
+      "importance": "highlight",
+      "tags": ["reverse-engineering", "agent", "typescript", "trending"]
+    },
+    {
+      "id": "2026-10-09-mattpocock-skills-followup",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] mattpocock/skills — +1,770 stars でグローバル Trending 4 位",
+      "summary": "3日連続で加速中 (10/07: +972 → 10/08: +1,406 → 本日: +1,770)。累計 ★281k。",
+      "url": "https://github.com/mattpocock/skills",
+      "related_date": "2026-10-07",
+      "importance": "standard",
+      "tags": ["skills", "shell", "trending"]
+    },
+    {
+      "id": "2026-10-09-cathrynlavery-diagram-design-followup",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] cathrynlavery/diagram-design — +1,163 stars でグローバル Trending 2 位",
+      "summary": "3日で急加速 (10/07: +227 → 10/08: +828 → 本日: +1,163)。AI コーダー向け 42 種の図解デザインテンプレート。累計 ★46k。",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "related_date": "2026-10-07",
+      "importance": "standard",
+      "tags": ["diagram", "design", "html", "trending"]
+    },
+    {
+      "id": "2026-10-09-ayghri-i-have-adhd-followup",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] ayghri/i-have-adhd — +915 stars で Python Trending 3 位",
+      "summary": "3日連続加速 (10/07: +318 → 10/08: +620 → 本日: +915)。コーディングエージェントの出力を ADHD フレンドリーに整形するスキル。累計 ★55.8k。",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "related_date": "2026-10-07",
+      "importance": "standard",
+      "tags": ["adhd", "skill", "python", "accessibility", "trending"]
+    },
+    {
+      "id": "2026-10-09-thedotmack-claude-mem-followup",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] thedotmack/claude-mem — +662 today (4日連続)",
+      "summary": "AI エージェントのセッション間記憶を圧縮・再注入するシステム。累計 ★98.4k。",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "related_date": "2026-10-06",
+      "importance": "minor",
+      "tags": ["memory", "claude", "agent", "typescript", "trending"]
+    },
+    {
+      "id": "2026-10-09-anthropics-knowledge-work-plugins-followup",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "[続報] anthropics/knowledge-work-plugins — +309 today (3日連続)",
+      "summary": "Anthropic 公式 Claude Cowork 向けナレッジワーカー向けプラグイン集。累計 ★27.5k。",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "related_date": "2026-10-07",
+      "importance": "minor",
+      "tags": ["anthropic", "cowork", "plugins", "python", "trending"]
+    },
+    {
+      "id": "2026-10-09-freellmapi-followup",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] tashfeenahmed/freellmapi — +508 today (10/06 以来再登場)",
+      "summary": "34 プロバイダー・474 モデルを統合する無料 LLM API ゲートウェイ。累計 ★32.1k。",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "related_date": "2026-10-06",
+      "importance": "minor",
+      "tags": ["llm", "api", "gateway", "typescript", "trending"]
+    },
+    {
+      "id": "2026-10-09-hn-reddit-no-update",
+      "type": "no-update",
+      "vendor": null,
+      "section": "community"
+    },
+    {
+      "id": "2026-10-09-hf-papers-no-update",
+      "type": "no-update",
+      "vendor": null,
+      "section": "papers"
+    },
+    {
+      "id": "2026-10-09-media-no-update",
+      "type": "no-update",
+      "vendor": null,
+      "section": "media"
+    }
+  ]
+}
