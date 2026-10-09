@@ -1,5 +1,308 @@
 [
   {
+    "date": "2026-10-10",
+    "id": "2026-10-10-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-10",
+    "id": "2026-10-10-openai-fetch-failed",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-10",
+    "id": "2026-10-10-google-fetch-failed",
+    "type": "no-update",
+    "vendor": "Google / Google DeepMind",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-10",
+    "id": "2026-10-10-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-10",
+    "id": "2026-10-10-meta-fetch-failed",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-10",
+    "id": "2026-10-10-morluto-rea-day4",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] morluto/rea — +15,335 stars で4日連続グローバル Trending 首位 (TypeScript, ★44,534)",
+    "summary": "4日累計 30,700 stars 超。単日 +15,335 は前日比 +98% で過去最大の急騰。AI エージェントでアプリ動作からネイティブバイナリまでリバースエンジニアリングするフレームワーク。",
+    "url": "https://github.com/morluto/rea",
+    "related_date": "2026-10-07",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "reverse-engineering",
+      "agent",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "id": "2026-10-10-alibaba-open-code-review",
+    "type": "new",
+    "vendor": "Alibaba",
+    "section": "community",
+    "title": "alibaba/open-code-review — Alibaba 社内 LLM コードレビューシステムを OSS 化 (Go, ★45,159)",
+    "summary": "確定的パイプライン+LLM エージェントのハイブリッド設計で行レベルレビューを実現。Claude Code・Codex・Cursor 等のプラグイン、CI/CD 連携、MCP サーバ対応。Apache-2.0。Go Trending 初登場 +323 stars。",
+    "url": "https://github.com/alibaba/open-code-review",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "code-review",
+      "llm-agent",
+      "alibaba",
+      "mcp"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "id": "2026-10-10-thesysdev-openui",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "thesysdev/openui — LLM 生成 UI のオープンスタンダード (TypeScript, ★10,568)",
+    "summary": "コンポーネントライブラリから自動生成したシステムプロンプトで LLM の出力を制約し、OpenUI Lang でストリーミング UI 生成。従来 JSON 比 67% トークン削減を主張。React/Vue/Svelte/Angular 対応。MIT。TypeScript Trending +363 stars。",
+    "url": "https://github.com/thesysdev/openui",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "generative-ui",
+      "llm",
+      "open-standard",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "id": "2026-10-10-headroomlabs-headroom",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "headroomlabs-ai/headroom — AI エージェント向けコンテキスト圧縮ツール (Python, ★74,840)",
+    "summary": "ツール出力・ログ・RAG チャンクを LLM 到達前に可逆圧縮。MCP サーバ・HTTP プロキシ・SDK の3形態。SRE デバッグシナリオで 57%、コード検索で 21% のトークン削減を公表。Apache-2.0。Python Trending +120 stars。",
+    "url": "https://github.com/headroomlabs-ai/headroom",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "context-compression",
+      "mcp",
+      "agent",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "id": "2026-10-10-cathrynlavery-diagram-design",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] cathrynlavery/diagram-design — +1,744 stars で4日間の最高値更新 (HTML, ★47,813)",
+    "summary": "10/07 (+227) → 10/08 (+828) → 10/09 (+1,163) → 本日 +1,744 と4日連続単調増加。AI コーダー向け 42 種ダイアグラムテンプレート集。50k stars 到達が射程に入ってきた。",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "related_date": "2026-10-07",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "diagrams",
+      "design",
+      "agent-skill",
+      "html"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "id": "2026-10-10-twostraws-swiftui-skill",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "twostraws/SwiftUI-Agent-Skill — Claude Code・Codex 向け SwiftUI 開発スキル (★5,397)",
+    "summary": "Swift 著名教育者 Paul Hudson 作。AI コーディングエージェントが SwiftUI で高品質コードを生成するためのスキル。Trending 初登場 +88 stars。",
+    "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "swiftui",
+      "agent-skill",
+      "apple"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "id": "2026-10-10-hugohe3-ppt-master",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "hugohe3/ppt-master — ドキュメント・トピックからネイティブ PowerPoint を生成 (Python, ★58,713)",
+    "summary": "チャート・ナレーション付きの PPTX ファイルを AI で自動生成。エージェントが直接 PowerPoint 形式で出力できる設計。Python Trending +308 stars。",
+    "url": "https://github.com/hugohe3/ppt-master",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "powerpoint",
+      "document-generation",
+      "agent"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "id": "2026-10-10-k-dense-scientific-skills",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "K-Dense-AI/scientific-agent-skills — 177 本の検証済み科学スキルと 100+ 科学 DB 連携 (Python, ★48,164)",
+    "summary": "AI エージェント向け科学データ取得・解析スキルを 177 本収録。100 以上の科学データベースに対応。研究支援エージェントの基盤として Python Trending 初登場 +134 stars。",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "science",
+      "agent-skills",
+      "research",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "id": "2026-10-10-mattpocock-skills",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] mattpocock/skills — +1,696 stars でグローバル Trending 継続 (Shell, ★282,600)",
+    "summary": "4日連続 Trending。本日 +1,696 stars、累計 ★282.6k。",
+    "url": "https://github.com/mattpocock/skills",
+    "related_date": "2026-10-07",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "skills",
+      "agent",
+      "shell"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "id": "2026-10-10-addyosmani-agent-skills",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] addyosmani/agent-skills — +523 stars・100k 突破 (JavaScript, ★103,951)",
+    "summary": "本日 ★100k を突破し ★103.9k に到達。本番グレードの AI コーディングエージェント向けスキル集。",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "related_date": "2026-10-05",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "agent-skills",
+      "javascript"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "id": "2026-10-10-thedotmack-claude-mem",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] thedotmack/claude-mem — +838 stars で TypeScript Trending 継続 (TypeScript, ★98,974)",
+    "summary": "4日連続 Trending。本日 +838 で ★98.9k、100k 到達が近い。AI エージェントのセッション間メモリ圧縮・再注入システム。",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "related_date": "2026-10-07",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "memory",
+      "agent",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "id": "2026-10-10-anthropics-knowledge-work-plugins",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "community",
+    "title": "[続報] anthropics/knowledge-work-plugins — +714 stars で Python Trending 継続 (Python, ★28,217)",
+    "summary": "4日連続 Trending。Anthropic 公式 Claude Cowork 向けプラグイン集。本日 +714 stars。",
+    "url": "https://github.com/anthropics/knowledge-work-plugins",
+    "related_date": "2026-10-07",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "anthropic",
+      "cowork",
+      "plugins"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "id": "2026-10-10-ayghri-i-have-adhd",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] ayghri/i-have-adhd — +388 stars で Python Trending 継続 (Python, ★56,114)",
+    "summary": "4日連続 Trending。コーディングエージェントの出力を ADHD フレンドリーに整形するスキル。本日 +388 stars とやや落ち着き。",
+    "url": "https://github.com/ayghri/i-have-adhd",
+    "related_date": "2026-10-07",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "accessibility",
+      "agent-skill",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "id": "2026-10-10-vincentwei1021-video-shotcraft",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] Vincentwei1021/video-shotcraft — +161 stars で TypeScript Trending 継続 (TypeScript, ★11,035)",
+    "summary": "2日連続 Trending。Claude Code / Codex 向け AI 動画制作スキル。本日 +161 stars。",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft",
+    "related_date": "2026-10-09",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "video",
+      "agent-skill",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "id": "2026-10-10-robbyant-lingbot-map",
+    "type": "new",
+    "vendor": null,
+    "section": "papers",
+    "title": "Robbyant/lingbot-map — ECCV 2026 Best Paper 候補の幾何コンテキストトランスフォーマーを使ったストリーミング 3D 再構成",
+    "summary": "ECCV 2026 Best Paper 候補。幾何コンテキストトランスフォーマーによるリアルタイム 3D 再構成モデルの実装を公開。Python Trending +109 stars。",
+    "url": "https://github.com/Robbyant/lingbot-map",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "3d-reconstruction",
+      "computer-vision",
+      "eccv",
+      "python"
+    ]
+  },
+  {
     "date": "2026-10-09",
     "id": "2026-10-09-anthropic-cyber-mission",
     "type": "new",
