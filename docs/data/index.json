@@ -1,5 +1,287 @@
 [
   {
+    "date": "2026-10-11",
+    "id": "2026-10-11-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-11",
+    "id": "2026-10-11-openai-fetch-failed",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-11",
+    "id": "2026-10-11-google-fetch-failed",
+    "type": "no-update",
+    "vendor": "Google / Google DeepMind",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-11",
+    "id": "2026-10-11-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-11",
+    "id": "2026-10-11-meta-fetch-failed",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-11",
+    "id": "2026-10-11-morluto-rea-day5",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] morluto/rea — +25,784 stars で5日連続グローバル Trending 首位 (TypeScript, ★71,111)",
+    "summary": "5日累計 56,500 stars 超、前日比 +68% で今週最大サージを更新。AI エージェントによるバイナリ・コードリバースエンジニアリングへの関心が継続。",
+    "url": "https://github.com/morluto/rea",
+    "related_date": "2026-10-07",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "reverse-engineering",
+      "agent",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-10-11",
+    "id": "2026-10-11-debpalash-voicestudio",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "debpalash/VoiceStudio — ElevenLabs 代替のローカル AI 音声ツール (Python, ★57,260)",
+    "summary": "音声クローン・吹替・文字起こし・オーディオブックを 646 言語でローカル完結。MCP サーバ対応。Python Trending 首位 +1,066 stars で初登場。",
+    "url": "https://github.com/debpalash/VoiceStudio",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "voice-ai",
+      "local-ai",
+      "mcp",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-11",
+    "id": "2026-10-11-multica-ai-karpathy-skills",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "multica-ai/andrej-karpathy-skills — Karpathy 観察に基づく Claude Code 向け CLAUDE.md (★218,227)",
+    "summary": "LLM コーディング失敗パターンを4原則の CLAUDE.md に集約。★218k のメガリポジトリが新規 Trending 入り。Claude Code・Cursor 対応。",
+    "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "claude-code",
+      "prompting",
+      "karpathy",
+      "skills"
+    ]
+  },
+  {
+    "date": "2026-10-11",
+    "id": "2026-10-11-mksglu-context-mode",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "mksglu/context-mode — AI コーディングエージェントのコンテキスト最適化 (TypeScript, ★26,293)",
+    "summary": "ツール出力をサンドボックス化し、セッション間メモリを永続化。コンテキスト枯渇対策。TypeScript Trending +178 stars で初登場。",
+    "url": "https://github.com/mksglu/context-mode",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "context-management",
+      "ai-agents",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-10-11",
+    "id": "2026-10-11-cathrynlavery-diagram-design-day5",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] cathrynlavery/diagram-design — +1,189 stars で5日連続グローバル Trending (HTML, ★48,888)",
+    "summary": "AI コーダー向け 44 種ダイアグラムテンプレート。5日連続 Trending 維持、★48,888 と 50k 到達が目前。",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "related_date": "2026-10-07",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "diagrams",
+      "ai-tools",
+      "html"
+    ]
+  },
+  {
+    "date": "2026-10-11",
+    "id": "2026-10-11-microsoft-trellis2",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "community",
+    "title": "microsoft/TRELLIS.2 — Microsoft Research の 3D 生成モデル第2弾 (Python, ★11,788)",
+    "summary": "構造化潜在表現による 3D 生成の改良版。テキスト・画像から高品質 3D アセットを生成。Python Trending +207 stars で登場。",
+    "url": "https://github.com/microsoft/TRELLIS.2",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "3d-generation",
+      "microsoft",
+      "research"
+    ]
+  },
+  {
+    "date": "2026-10-11",
+    "id": "2026-10-11-datawhalechina-hello-agents",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "datawhalechina/hello-agents — AI エージェント構築入門チュートリアル (Python, ★82,450)",
+    "summary": "原則から実装・デプロイまで段階的にカバーする学習リポジトリ。Datawhale コミュニティ製。Python Trending +202 stars で登場。",
+    "url": "https://github.com/datawhalechina/hello-agents",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "ai-agents",
+      "tutorial",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-11",
+    "id": "2026-10-11-bittersecurity-decepticon",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "BitterSecurity/Decepticon — 自律型 AI レッドチームエージェント (Python, ★5,837)",
+    "summary": "自律的に脆弱性を探索・検証するペネトレーションテスト向け AI エージェント。Python Trending +80 stars で初登場。",
+    "url": "https://github.com/BitterSecurity/Decepticon",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "security",
+      "red-team",
+      "ai-agents",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-11",
+    "id": "2026-10-11-yeachan-heo-oh-my-claudecode",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "Yeachan-Heo/oh-my-claudecode — Claude Code 向けマルチエージェントオーケストレーション (TypeScript, ★39,773)",
+    "summary": "チーム向け Claude Code マルチエージェント連携フレームワーク。TypeScript Trending +44 stars で登場。",
+    "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "claude-code",
+      "multi-agent",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-10-11",
+    "id": "2026-10-11-mattpocock-skills-cont",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] mattpocock/skills — +1,737 stars で継続 (Shell, ★284,396)",
+    "summary": "エンジニア向けエージェントスキル集が継続。★284,396。",
+    "url": "https://github.com/mattpocock/skills",
+    "related_date": "2026-10-07",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "skills",
+      "shell"
+    ]
+  },
+  {
+    "date": "2026-10-11",
+    "id": "2026-10-11-anthropics-knowledge-work-plugins-cont",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "community",
+    "title": "[続報] anthropics/knowledge-work-plugins — +626 stars で継続 (Python, ★28,789)",
+    "summary": "Anthropic 公式 Claude Cowork 向けプラグイン集が継続。★28,789。",
+    "url": "https://github.com/anthropics/knowledge-work-plugins",
+    "related_date": "2026-10-07",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "anthropic",
+      "plugins",
+      "cowork"
+    ]
+  },
+  {
+    "date": "2026-10-11",
+    "id": "2026-10-11-hugohe3-ppt-master-day2",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] hugohe3/ppt-master — +515 stars で2日目継続 (Python, ★59,385)",
+    "summary": "ドキュメントからネイティブ PPTX を生成するツールが2日連続 Trending。★59,385。",
+    "url": "https://github.com/hugohe3/ppt-master",
+    "related_date": "2026-10-10",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "presentations",
+      "ai-tools",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-11",
+    "id": "2026-10-11-robbyant-lingbot-map-day2",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] Robbyant/lingbot-map — +392 stars で2日目 (Python, ★17,950)",
+    "summary": "ECCV 2026 Best Paper 候補のストリーミング 3D 再構成モデルが2日連続 Python Trending。★17,950。",
+    "url": "https://github.com/Robbyant/lingbot-map",
+    "related_date": "2026-10-10",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "3d-reconstruction",
+      "research",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-11",
+    "id": "2026-10-11-vincentwei1021-video-shotcraft-day3",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] Vincentwei1021/video-shotcraft — +143 stars で3日目継続 (TypeScript, ★11,173)",
+    "summary": "Claude Code / Codex 向け AI 動画制作スキルが3日連続 Trending。★11,173。",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft",
+    "related_date": "2026-10-09",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "video",
+      "claude-code",
+      "typescript"
+    ]
+  },
+  {
     "date": "2026-10-10",
     "id": "2026-10-10-anthropic-no-update",
     "type": "no-update",
