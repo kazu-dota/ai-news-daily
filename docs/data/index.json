@@ -1,5 +1,202 @@
 [
   {
+    "date": "2026-10-12",
+    "id": "2026-10-12-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-12",
+    "id": "2026-10-12-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-12",
+    "id": "2026-10-12-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-12",
+    "id": "2026-10-12-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-12",
+    "id": "2026-10-12-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-12",
+    "id": "2026-10-12-morluto-rea-day6",
+    "type": "followup",
+    "vendor": "community",
+    "section": "community",
+    "title": "[続報] morluto/rea — 6日連続グローバル Trending 首位、累計 100K stars 突破",
+    "summary": "6日連続グローバル Trending 首位、本日 +25,585 stars で累計 100K突破。AI エージェントによるリバースエンジニアリングツール。",
+    "url": "https://github.com/morluto/rea",
+    "related_date": "2026-10-07",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "ai-agent",
+      "reverse-engineering",
+      "typescript",
+      "100k-stars"
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "id": "2026-10-12-storytold-artcraft",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "storytold/artcraft — AI 創作統合 IDE がグローバル Trending 初登場",
+    "summary": "アーティスト向け AI 創作エンジン。画像・動画・音楽・3D を統合し複数 AI モデル (Grok/Midjourney/Sora) を切り替えられる。Rust 製 OSS。",
+    "url": "https://github.com/storytold/artcraft",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "ai-creative",
+      "generative-ai",
+      "rust",
+      "multimodal"
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "id": "2026-10-12-cathrynlavery-diagram-design-day6",
+    "type": "followup",
+    "vendor": "community",
+    "section": "community",
+    "title": "[続報] cathrynlavery/diagram-design — +1,083 stars で6日連続グローバル Trending",
+    "summary": "44種の図解テンプレートを収録した AI コーディングアシスタント向けスキル。累計 50K stars 超え。",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "related_date": "2026-10-07",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "diagram",
+      "ai-coding",
+      "html"
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "id": "2026-10-12-debpalash-voicestudio-day2",
+    "type": "followup",
+    "vendor": "community",
+    "section": "community",
+    "title": "[続報] debpalash/VoiceStudio — 2日目、+1,215 stars",
+    "summary": "ElevenLabs 代替を謳うローカル AI 音声ツール。音声クローン・吹き替え・文字起こしをローカル完結。",
+    "url": "https://github.com/debpalash/VoiceStudio",
+    "related_date": "2026-10-11",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "voice-cloning",
+      "local-ai",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "id": "2026-10-12-hugohe3-ppt-master-day3",
+    "type": "followup",
+    "vendor": "community",
+    "section": "community",
+    "title": "[続報] hugohe3/ppt-master — +1,097 stars で Python Trending 継続",
+    "summary": "ドキュメントやトピックからネイティブ PowerPoint を自動生成するツール。60K stars 突破。",
+    "url": "https://github.com/hugohe3/ppt-master",
+    "related_date": "2026-10-10",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "powerpoint",
+      "ai-generation",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "id": "2026-10-12-lyogavin-airllm",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "lyogavin/airllm — 4GB GPU で 70B LLM 動作、Python Trending に再浮上",
+    "summary": "単一 GPU に 1 レイヤーずつロードする手法で 4GB VRAM で 70B モデルを動かせるライブラリ。125B MoE のトレーニング対応も追加。",
+    "url": "https://github.com/lyogavin/airllm",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "local-llm",
+      "low-vram",
+      "inference",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "id": "2026-10-12-madslorentzen-ai-job-search",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "MadsLorentzen/ai-job-search — Claude Code ベース AI 求人探索フレームワーク",
+    "summary": "Claude Code を使い求人票評価・履歴書カスタマイズ・面接対策を自動化するジョブサーチフレームワーク。",
+    "url": "https://github.com/MadsLorentzen/ai-job-search",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "claude-code",
+      "job-search",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "id": "2026-10-12-mksglu-context-mode-day2",
+    "type": "followup",
+    "vendor": "community",
+    "section": "community",
+    "title": "[続報] mksglu/context-mode — +526 stars で2日連続 TypeScript Trending",
+    "summary": "AI コーディングエージェントのコンテキストウィンドウ最適化とセッション間記憶を実現するツール。",
+    "url": "https://github.com/mksglu/context-mode",
+    "related_date": "2026-10-11",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "context-management",
+      "ai-coding",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "id": "2026-10-12-copilotkit-openintelligentui",
+    "type": "new",
+    "vendor": "community",
+    "section": "community",
+    "title": "CopilotKit/OpenIntelligentUI — Open-Source Generative UI Framework 初登場",
+    "summary": "LLM が構造化 UI を動的に生成・更新するオープンソースフレームワーク。CopilotKit による新リポジトリ。",
+    "url": "https://github.com/CopilotKit/OpenIntelligentUI",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "generative-ui",
+      "llm",
+      "copilotkit",
+      "typescript"
+    ]
+  },
+  {
     "date": "2026-10-11",
     "id": "2026-10-11-anthropic-no-update",
     "type": "no-update",
