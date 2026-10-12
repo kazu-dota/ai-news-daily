@@ -1,5 +1,330 @@
 [
   {
+    "date": "2026-10-13",
+    "id": "2026-10-13-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-13",
+    "id": "2026-10-13-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-13",
+    "id": "2026-10-13-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-13",
+    "id": "2026-10-13-msft-studentsim",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "Microsoft Research: StudentSim — AI チューター評価向け生徒シミュレーション",
+    "summary": "公開済みの匿名学習記録を2段階で学習させ個別生徒の行動をシミュレートするシステム。チェス・英語・数学の3領域で評価し、RL 実験でチューター精度 90.5% を達成。",
+    "url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/",
+    "importance": "highlight",
+    "tags": [
+      "microsoft",
+      "research",
+      "ai-tutoring",
+      "reinforcement-learning",
+      "education"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "id": "2026-10-13-msft-copilot-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-13",
+    "id": "2026-10-13-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-13",
+    "id": "2026-10-13-morluto-rea-day7",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 7日目] morluto/rea — 7日連続グローバル Trending 首位・単日 +45,495 stars (★154,288)",
+    "summary": "7日連続首位。本日は +45,495 stars と週間最大サージを更新し、累計 154,288 stars に達した。",
+    "url": "https://github.com/morluto/rea",
+    "related_date": "2026-10-07",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "reverse-engineering",
+      "ai-agent",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "id": "2026-10-13-storytold-artcraft-day2",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 2日目] storytold/artcraft — グローバル Trending 継続・+4,106 stars (★21,784)",
+    "summary": "Rust 製 AI 創作統合エンジン。2日目で +4,106 stars と昨日より加速。",
+    "url": "https://github.com/storytold/artcraft",
+    "related_date": "2026-10-12",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "ai-creative",
+      "rust",
+      "multimodal"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "id": "2026-10-13-cathrynlavery-diagram-design-day7",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 7日目] cathrynlavery/diagram-design — +2,100 stars で7日連続グローバル Trending (★52,499)",
+    "summary": "AI コーディングツール向け44種の図解テンプレート集。7日間 Trending 継続。",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "related_date": "2026-10-07",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "diagram",
+      "ai-coding",
+      "html"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "id": "2026-10-13-lyogavin-airllm-day2",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 2日目] lyogavin/airllm — +886 stars でグローバル Trending 継続 (★37,489)",
+    "summary": "4GB VRAM の単一 GPU で 70B LLM を動作させるライブラリ。2日連続 Trending。",
+    "url": "https://github.com/lyogavin/airllm",
+    "related_date": "2026-10-12",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "llm",
+      "inference",
+      "low-resource"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "id": "2026-10-13-calesthio-openmontagee",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "calesthio/OpenMontage — エージェントが動画制作全工程を担う OSS (★67,534, +737)",
+    "summary": "自然言語の指示でエージェントが調査・脚本・素材生成・編集・書き出しを完結させる動画制作システム。AGPL-3.0。",
+    "url": "https://github.com/calesthio/OpenMontage",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "ai-agent",
+      "video-production",
+      "python",
+      "agentic"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "id": "2026-10-13-openbmb-voxcpm",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "OpenBMB/VoxCPM — 2B パラメータ・30 言語対応トークナイザーフリー TTS (★39,170, +370)",
+    "summary": "清華大 / ModelBest チームが公開した 2B 規模の TTS モデル。離散トークン化なし、Voice Design・音声クローン対応、Apache 2.0。",
+    "url": "https://github.com/OpenBMB/VoxCPM",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "tts",
+      "speech-synthesis",
+      "multilingual",
+      "python",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "id": "2026-10-13-google-skills",
+    "type": "new",
+    "vendor": "Google",
+    "section": "community",
+    "title": "google/skills — Google 公式 AI エージェント向けスキル集 (★21,216, +66)",
+    "summary": "Google Cloud 各サービスと Gemini API・Genkit など AI/ML 向けスキルを収録した公式リポジトリ。Apache 2.0。",
+    "url": "https://github.com/google/skills",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "google",
+      "agent-skills",
+      "google-cloud",
+      "gemini"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "id": "2026-10-13-multimodal-art-projection-yue2",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "multimodal-art-projection/YuE — シンボリックプランニング方式の音楽生成モデル YuE2 (★11,794, +318)",
+    "summary": "メロディ・コードのプランを先生成してから音声に変換する方式。ゼロショットカバー・楽譜編集・エージェントスキルも同梱。CC BY-NC 4.0 + Apache 2.0。",
+    "url": "https://github.com/multimodal-art-projection/YuE",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "music-generation",
+      "tts",
+      "python",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "id": "2026-10-13-paperclipai-paperclip",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "paperclipai/paperclip — チーム向け AI エージェント組織管理プラットフォーム (★100,937, +652)",
+    "summary": "複数のAIエージェントを組織の業務プロセスに統合するセルフホスト型 OSS。組織図・承認フロー・コスト管理・定期スケジュール実行を一元化。MIT。",
+    "url": "https://github.com/paperclipai/paperclip",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "ai-agent",
+      "orchestration",
+      "typescript",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "id": "2026-10-13-openclaw-openclaw",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "openclaw/openclaw — ローカル優先のオープンソース AI アシスタント (★391,800, +182)",
+    "summary": "Discord・Slack・WhatsApp 等に接続するローカル優先 AI アシスタント。OpenClaw Foundation 運営の 391k stars OSS。",
+    "url": "https://github.com/openclaw/openclaw",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "ai-assistant",
+      "local-ai",
+      "typescript",
+      "privacy"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "id": "2026-10-13-ranxianglei-billion-context",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "ranxianglei/billion-context — 小コンテキスト環境向けコンテキスト圧縮プラグイン (★1,089, +219)",
+    "summary": "コンテキストウィンドウが小さいエージェント環境でのトークン消費を圧縮するプラグイン。MIT ライセンス。",
+    "url": "https://github.com/ranxianglei/billion-context",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "context-compression",
+      "typescript",
+      "ai-agent"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "id": "2026-10-13-debpalash-voicestudio-day3",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 3日目] debpalash/VoiceStudio — +1,688 stars で Python Trending 継続 (★60,333)",
+    "summary": "ローカル AI 音声ツール。3日連続 Trending で本日 +1,688 stars と加速。",
+    "url": "https://github.com/debpalash/VoiceStudio",
+    "related_date": "2026-10-11",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "voice-cloning",
+      "tts",
+      "python",
+      "local-ai"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "id": "2026-10-13-hugohe3-ppt-master-day4",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 4日目] hugohe3/ppt-master — +772 stars で Python Trending 継続 (★61,073)",
+    "summary": "ドキュメントからネイティブ PowerPoint を自動生成するツール。4日連続 Trending、本日 61k stars 突破。",
+    "url": "https://github.com/hugohe3/ppt-master",
+    "related_date": "2026-10-10",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "presentation",
+      "powerpoint",
+      "python",
+      "ai-agent"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "id": "2026-10-13-madslorentzen-ai-job-search-day2",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 2日目] MadsLorentzen/ai-job-search — +309 stars で Python Trending 継続 (★46,367)",
+    "summary": "Claude Code ベースの求人探索・履歴書カスタマイズフレームワーク。2日連続 Trending。",
+    "url": "https://github.com/MadsLorentzen/ai-job-search",
+    "related_date": "2026-10-12",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "job-search",
+      "claude-code",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "id": "2026-10-13-mksglu-context-mode-day3",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 3日目] mksglu/context-mode — +394 stars で TypeScript Trending 継続 (★27,241)",
+    "summary": "AI コーディングエージェントのコンテキスト最適化ツール。3日連続 Trending。",
+    "url": "https://github.com/mksglu/context-mode",
+    "related_date": "2026-10-11",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "context-window",
+      "ai-agent",
+      "typescript"
+    ]
+  },
+  {
     "date": "2026-10-12",
     "id": "2026-10-12-anthropic-no-update",
     "type": "no-update",
