@@ -1,0 +1,165 @@
+{
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T08:05:00+09:00",
+  "sources_checked": 26,
+  "sources_failed": 22,
+  "items": [
+    {
+      "id": "2026-10-14-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-14-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-14-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-14-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-14-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-14-morluto-rea-day8",
+      "type": "followup",
+      "vendor": "morluto",
+      "section": "community",
+      "title": "[続報 8日目] morluto/rea — 8日連続 TypeScript Trending 首位・単日 +54,706 stars (★205,437)",
+      "summary": "8日連続グローバル Trending トップ。本日 +54,706 stars と8日間で最大のサージ。週間累計 200k stars 超という前例のない成長。",
+      "url": "https://github.com/morluto/rea",
+      "related_date": "2026-10-07",
+      "importance": "highlight",
+      "tags": ["github-trending", "reverse-engineering", "ai-agent", "typescript"]
+    },
+    {
+      "id": "2026-10-14-heygen-com-hyperframes",
+      "type": "new",
+      "vendor": "HeyGen",
+      "section": "community",
+      "title": "heygen-com/hyperframes — エージェント向け HTML→動画レンダリングフレームワーク",
+      "summary": "Write HTML, render MP4。ヘッドレス Chrome + FFmpeg で確定論的動画生成。Claude Code/Codex/Cursor 向けスキル同梱。Apache 2.0。",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "importance": "highlight",
+      "tags": ["github-trending", "video-generation", "ai-agent", "typescript"]
+    },
+    {
+      "id": "2026-10-14-tashfeenahmed-freellmapi",
+      "type": "new",
+      "vendor": "tashfeenahmed",
+      "section": "community",
+      "title": "tashfeenahmed/freellmapi — 34社フリー LLM ティアを統合した OpenAI 互換 API ルーター",
+      "summary": "月間 74 億トークン相当のフリー枠を持つ 34 プロバイダーを1エンドポイントに集約。フェイルオーバー・枠トラッキング機能付き。MIT。",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "importance": "highlight",
+      "tags": ["github-trending", "llm-api", "free-tier", "typescript"]
+    },
+    {
+      "id": "2026-10-14-debpalash-voicestudio-day4",
+      "type": "followup",
+      "vendor": "debpalash",
+      "section": "community",
+      "title": "[続報 4日目] debpalash/VoiceStudio — +2,277 stars で4日連続 Python Trending (★63,096)",
+      "summary": "ElevenLabs 代替のローカル完結型 AI 音声ツール。本日 +2,277 stars と4日間で最大の伸び。",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "related_date": "2026-10-11",
+      "importance": "highlight",
+      "tags": ["github-trending", "voice-ai", "tts", "python"]
+    },
+    {
+      "id": "2026-10-14-alishahryar1-free-claude-code",
+      "type": "new",
+      "vendor": "Alishahryar1",
+      "section": "community",
+      "title": "Alishahryar1/free-claude-code — Claude Code 等 11 コーディングエージェントを 61 プロバイダーで無料利用",
+      "summary": "独立 OSS。11 種コーディングエージェント×61 プロバイダーのフリーアクセス基盤。フォールバック・音声入力・トークン節約オプション付き。AGPL-3.0。",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "importance": "highlight",
+      "tags": ["github-trending", "claude-code", "coding-agent", "python"]
+    },
+    {
+      "id": "2026-10-14-open-webui",
+      "type": "new",
+      "vendor": "open-webui",
+      "section": "community",
+      "title": "open-webui/open-webui — Ollama・OpenAI API 対応 AI フロントエンド、今週 Python Trending 上位に浮上",
+      "summary": "155k stars の大型 OSS。今週の AI アクセス系ツール人気の高まりとともに Python Trending 上位に再浮上。",
+      "url": "https://github.com/open-webui/open-webui",
+      "importance": "standard",
+      "tags": ["github-trending", "ai-interface", "open-source", "python"]
+    },
+    {
+      "id": "2026-10-14-mksglu-context-mode-day4",
+      "type": "followup",
+      "vendor": "mksglu",
+      "section": "community",
+      "title": "[続報 4日目] mksglu/context-mode — +978 stars で4日連続 TypeScript Trending (★28,182)",
+      "summary": "AI コーディングエージェントのコンテキスト最適化ツール。本日は +978 stars と3日間で最大の伸び。",
+      "url": "https://github.com/mksglu/context-mode",
+      "related_date": "2026-10-11",
+      "importance": "standard",
+      "tags": ["github-trending", "context-window", "ai-agent", "typescript"]
+    },
+    {
+      "id": "2026-10-14-copilotkit-openintelligentui",
+      "type": "followup",
+      "vendor": "CopilotKit",
+      "section": "community",
+      "title": "CopilotKit/OpenIntelligentUI — 生成 UI フレームワーク、TypeScript Trending に再浮上 (★3,052, +174)",
+      "summary": "LLM が UI を動的生成するオープンソースフレームワーク。10月12日初登場後、本日再浮上。",
+      "url": "https://github.com/CopilotKit/OpenIntelligentUI",
+      "related_date": "2026-10-12",
+      "importance": "minor",
+      "tags": ["github-trending", "generative-ui", "typescript"]
+    },
+    {
+      "id": "2026-10-14-hugohe3-ppt-master-day5",
+      "type": "followup",
+      "vendor": "hugohe3",
+      "section": "community",
+      "title": "[続報 5日目] hugohe3/ppt-master — +618 stars で5日連続 Python Trending (★61,648)",
+      "summary": "ドキュメントやトピックから PowerPoint を自動生成するツール。5日連続 Trending で 61k stars 超。",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "related_date": "2026-10-10",
+      "importance": "minor",
+      "tags": ["github-trending", "powerpoint", "ai-generation", "python"]
+    },
+    {
+      "id": "2026-10-14-nvidia-personaplex",
+      "type": "new",
+      "vendor": "NVIDIA",
+      "section": "community",
+      "title": "NVIDIA/personaplex — NVIDIA Research のリアルタイム全二重音声対話 AI、Python Trending 初登場",
+      "summary": "Moshi アーキテクチャ + Helium LLM。テキストロールと音声サンプルでペルソナ制御。14 プリセット音声。MIT + NVIDIA Open Model。",
+      "url": "https://github.com/NVIDIA/personaplex",
+      "importance": "standard",
+      "tags": ["github-trending", "speech-ai", "nvidia", "python"]
+    },
+    {
+      "id": "2026-10-14-madslorentzen-ai-job-search-day3",
+      "type": "followup",
+      "vendor": "MadsLorentzen",
+      "section": "community",
+      "title": "[続報 3日目] MadsLorentzen/ai-job-search — +195 stars で3日連続 Python Trending (★46,598)",
+      "summary": "Claude Code ベースの求人探索・CV カスタマイズフレームワーク。3日連続 Trending 維持。",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "related_date": "2026-10-12",
+      "importance": "minor",
+      "tags": ["github-trending", "claude-code", "career", "python"]
+    }
+  ]
+}
