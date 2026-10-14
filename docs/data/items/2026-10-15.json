@@ -1,0 +1,179 @@
+{
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T08:03:54+09:00",
+  "sources_checked": 9,
+  "sources_failed": 15,
+  "items": [
+    {
+      "id": "2026-10-15-anthropic-singapore-office",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "シンガポール事務所開設 + シンガポール政府との MOU 締結",
+      "summary": "アジア太平洋5拠点目のシンガポールオフィスを開設し、シンガポール情報通信省と AI 安全・安全保障・AI 普及研究に関する MOU を締結。GovTech に 1,500 人超のエンジニアが Claude Code を活用中。",
+      "url": "https://www.anthropic.com/news/singapore-office-opening",
+      "importance": "highlight",
+      "tags": ["expansion", "policy", "asia-pacific", "singapore", "anthropic"]
+    },
+    {
+      "id": "2026-10-15-anthropic-us-midterms",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "2026年米中間選挙への取り組みを詳報",
+      "summary": "選挙関連利用を分析し、TurboVote バナー・政治均衡性 99% 達成・多段階悪用防止分類器の追加・外国工作アカウントの凍結など、具体的な選挙保護施策を公開。",
+      "url": "https://www.anthropic.com/news/2026-us-midterms",
+      "importance": "highlight",
+      "tags": ["policy", "election-integrity", "safety", "anthropic"]
+    },
+    {
+      "id": "2026-10-15-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-15-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-15-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-15-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-15-morluto-rea-day9",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 9日目] morluto/rea — 9日連続グローバル Trending 首位・単日 +41,187 stars (★240,328)",
+      "summary": "9日間累計で ★240K 超に到達。ソフトウェアのふるまいからバイナリを逆エンジニアリングする AI エージェントツール。単日 +41K の記録的増加。",
+      "url": "https://github.com/morluto/rea",
+      "related_date": "2026-10-07",
+      "importance": "standard",
+      "tags": ["github-trending", "agent", "reverse-engineering", "typescript"]
+    },
+    {
+      "id": "2026-10-15-stablyai-orca",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "stablyai/orca — コーディングエージェント群を並列管理する実行環境",
+      "summary": "デスクトップ・モバイル・リモートランタイム上で複数コーディングエージェントを並列起動・調整できる実行基盤。Claude Code・Codex 統合対応。TypeScript Trending 初登場 (+962, ★92,465)。",
+      "url": "https://github.com/stablyai/orca",
+      "importance": "standard",
+      "tags": ["github-trending", "agent", "orchestration", "typescript"]
+    },
+    {
+      "id": "2026-10-15-vercel-labs-skills",
+      "type": "new",
+      "vendor": "Vercel",
+      "section": "community",
+      "title": "vercel-labs/skills — npx skills でオープンエージェントスキルを管理",
+      "summary": "`npx skills` コマンドでオープンエージェントスキルのインストール・管理を行う Vercel 製ツール。スキルエコシステムのパッケージマネージャーとして機能。TypeScript Trending 初登場 (+732, ★34,939)。",
+      "url": "https://github.com/vercel-labs/skills",
+      "importance": "standard",
+      "tags": ["github-trending", "agent-skills", "vercel", "typescript"]
+    },
+    {
+      "id": "2026-10-15-mksglu-context-mode-day5",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 5日目] mksglu/context-mode — +946 stars で5日連続 TypeScript Trending (★29,066)",
+      "summary": "AI コーディングエージェントのコンテキスト使用量を削減するツール。5日連続で Trending 継続。",
+      "url": "https://github.com/mksglu/context-mode",
+      "related_date": "2026-10-11",
+      "importance": "minor",
+      "tags": ["github-trending", "context", "agent", "typescript"]
+    },
+    {
+      "id": "2026-10-15-heygen-com-hyperframes-day2",
+      "type": "followup",
+      "vendor": "HeyGen",
+      "section": "community",
+      "title": "[続報 2日目] heygen-com/hyperframes — +1,059 stars で2日連続 TypeScript Trending (★63,664)",
+      "summary": "エージェント向け HTML→動画レンダリングフレームワーク。2日連続 Trending で累計 ★63K 超。",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "related_date": "2026-10-14",
+      "importance": "minor",
+      "tags": ["github-trending", "video", "agent", "typescript"]
+    },
+    {
+      "id": "2026-10-15-ifixai-iFixAi",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "ifixai-ai/iFixAi — AIエージェントの実動作を自律監査するツール",
+      "summary": "AI エージェントが仕様通りに動作しているかを独立検証・監査する OSS フレームワーク。エージェントの信頼性・説明可能性の課題に応えるツールとして急浮上。Python Trending 初登場 (+2,143, ★27,317)。",
+      "url": "https://github.com/ifixai-ai/iFixAi",
+      "importance": "highlight",
+      "tags": ["github-trending", "agent-audit", "ai-safety", "python"]
+    },
+    {
+      "id": "2026-10-15-debpalash-voicestudio-day5",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 5日目] debpalash/VoiceStudio — +3,547 stars で5日連続 Python Trending (★66,176)",
+      "summary": "ローカル AI 音声ツール (音声クローン・動画吹き替え・646言語対応)。5日連続で Python Trending 首位圏をキープ。",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "related_date": "2026-10-11",
+      "importance": "minor",
+      "tags": ["github-trending", "voice", "tts", "python"]
+    },
+    {
+      "id": "2026-10-15-makazhan-soup",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "MakazhanAlpamys/Soup — YAML 設定1つで LLM ファインチューニング、4GB GPU で 8B モデル対応",
+      "summary": "単一 YAML ファイルからレイヤーストリーミングを使って LLM をファインチューニングするフレームワーク。4GB GPU でも 8B モデルに対応。Python Trending 初登場 (+281, ★9,022)。",
+      "url": "https://github.com/MakazhanAlpamys/Soup",
+      "importance": "minor",
+      "tags": ["github-trending", "fine-tuning", "llm", "python"]
+    },
+    {
+      "id": "2026-10-15-hkuds-cli-anything",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "HKUDS/CLI-Anything — ソフトウェアを AI エージェントから CLI 経由で操作可能にする",
+      "summary": "あらゆるソフトウェアを AI エージェント対応にするコマンドラインインタフェース汎用ブリッジ。Python Trending 初登場 (+94, ★52,451)。",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "importance": "minor",
+      "tags": ["github-trending", "agent", "cli", "python"]
+    },
+    {
+      "id": "2026-10-15-anthropics-claude-plugins-official",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "anthropics/claude-plugins-official — Anthropic 公式 Claude Code プラグインディレクトリ",
+      "summary": "Anthropic 管理の公式 Claude Code プラグイン集。Python Trending に登場 (+158, ★38,065)。",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "importance": "minor",
+      "tags": ["github-trending", "claude-code", "plugins", "anthropic", "python"]
+    },
+    {
+      "id": "2026-10-15-vxcontrol-pentagi",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "vxcontrol/pentagi — 自律型 AI ペネトレーションテストエージェント",
+      "summary": "自律的に脆弱性の探索・検証・報告を行う AI エージェントシステム。セキュリティ研究・レッドチーム向け OSS。グローバル Trending 初登場 (Go, +1,070, ★29,378)。",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "importance": "standard",
+      "tags": ["github-trending", "security", "penetration-testing", "agent", "go"]
+    }
+  ]
+}
