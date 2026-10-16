@@ -1,5 +1,293 @@
 [
   {
+    "date": "2026-10-17",
+    "id": "2026-10-17-anthropic-independent-evaluators",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "独立評価機関への「従業員同等アクセス」付与を発表 (METR Tier 3)",
+    "summary": "METR の担当チーム6名に Tier 3（従業員同等）アクセスを付与。Anthropic の承認なしに評価報告書を公開可能。SecureBio・Accenture・Faculty との評価体制も整備中。",
+    "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+    "importance": "highlight",
+    "tags": [
+      "safety",
+      "evaluation",
+      "metr",
+      "policy",
+      "anthropic"
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "id": "2026-10-17-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-17",
+    "id": "2026-10-17-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-17",
+    "id": "2026-10-17-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-17",
+    "id": "2026-10-17-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-17",
+    "id": "2026-10-17-morluto-rea-day10",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 10日目] morluto/rea — 10日連続首位・累計 ★290,380",
+    "summary": "初登場から10日目。累計 ★290,380 で 300k 目前。AI エージェントによるリバースエンジニアリングツール。",
+    "url": "https://github.com/morluto/rea",
+    "related_date": "2026-10-07",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "reverse-engineering",
+      "typescript",
+      "agents"
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "id": "2026-10-17-xerj-org-xerj",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "xerj-org/xerj — AI エージェント向けコード・ドキュメント横断検索エンジン",
+    "summary": "コード・ドキュメント・ログ・PDF を横断インデックス化し、grep より少ないトークンで検索できる Rust 製エンジン。Elasticsearch 互換 API 付き。初日 +1,647 stars。",
+    "url": "https://github.com/xerj-org/xerj",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "search",
+      "agents",
+      "rust",
+      "infrastructure"
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "id": "2026-10-17-obra-superpowers",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "obra/superpowers — ★300k超・エージェントスキルフレームワーク",
+    "summary": "スキル・メモリ・自律開発フローを扱うエージェントスキルフレームワーク。★300k 超の大型プロジェクトが本日 Trending 急浮上。",
+    "url": "https://github.com/obra/superpowers",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "agents",
+      "skills",
+      "shell"
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "id": "2026-10-17-affaan-m-ecc",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "affaan-m/ECC — ★281k・AIコーディングエージェント性能最適化",
+    "summary": "スキル・メモリ・セキュリティ・リサーチファースト開発の4領域でAIコーディングエージェントを最適化するシステム。★281k の大型プロジェクトが急浮上。",
+    "url": "https://github.com/affaan-m/ECC",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "agents",
+      "optimization",
+      "javascript"
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "id": "2026-10-17-cursor-plugins",
+    "type": "new",
+    "vendor": "Cursor",
+    "section": "community",
+    "title": "cursor/plugins — Cursor 公式プラグイン仕様・公式プラグイン集",
+    "summary": "Cursor が公式リポジトリとして公開したプラグイン仕様とファーストパーティプラグイン集。エコシステム標準化の動き。",
+    "url": "https://github.com/cursor/plugins",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "cursor",
+      "plugins",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "id": "2026-10-17-stablyai-orca-followup",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報] stablyai/orca — ★100k 目前 (★94,453, +1,089)",
+    "summary": "並列コーディングエージェント実行環境。★94,453 で ★100k 目前。",
+    "url": "https://github.com/stablyai/orca",
+    "related_date": "2026-10-15",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "agents",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "id": "2026-10-17-heygen-hyperframes-day3",
+    "type": "followup",
+    "vendor": "HeyGen",
+    "section": "community",
+    "title": "[続報 3日目] heygen-com/hyperframes — HTML→MP4 エージェント向けフレームワーク (★65,285, +826)",
+    "summary": "HTML・CSS・アニメーションから MP4 動画を生成する OSS。3日連続 Trending。",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "related_date": "2026-10-14",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "video",
+      "agents",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "id": "2026-10-17-debpalash-voicestudio-day7",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 7日目] debpalash/VoiceStudio — ローカル AI 音声ツール (★71,046, +2,301)",
+    "summary": "ElevenLabs の完全ローカル代替。7日連続 Trending、累計 ★71k。",
+    "url": "https://github.com/debpalash/VoiceStudio",
+    "related_date": "2026-10-11",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "voice",
+      "tts",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "id": "2026-10-17-anthropics-claude-plugins-official",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "community",
+    "title": "[続報] anthropics/claude-plugins-official — 本日 +1,552 stars で急浮上 (★40,482)",
+    "summary": "Anthropic 公式 Claude Code プラグインディレクトリ。前回比約10倍の star 伸びで Trending 再浮上。",
+    "url": "https://github.com/anthropics/claude-plugins-official",
+    "related_date": "2026-10-15",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "claude-code",
+      "plugins",
+      "anthropic"
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "id": "2026-10-17-lightseekorg-tokenspeed",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "lightseekorg/tokenspeed — LLM 推論エンジン",
+    "summary": "新登場の LLM 推論エンジン。初日 +374 stars。",
+    "url": "https://github.com/lightseekorg/tokenspeed",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "inference",
+      "llm",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "id": "2026-10-17-google-artemis",
+    "type": "new",
+    "vendor": "Google",
+    "section": "community",
+    "title": "google/artemis — 自然言語指示を Android 操作に変換するエージェント",
+    "summary": "Google 製 OSS。自然言語の指示から Android 操作を自動生成するエージェントフレームワーク。初日 +221 stars。",
+    "url": "https://github.com/google/artemis",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "android",
+      "agents",
+      "google",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "id": "2026-10-17-earthtojake-text-to-cad",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "earthtojake/text-to-cad — AI エージェントに CAD 機能を付与",
+    "summary": "テキスト入力から CAD モデルを生成する機能を AI エージェントに組み込むフレームワーク。初日 +307 stars。",
+    "url": "https://github.com/earthtojake/text-to-cad",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "cad",
+      "agents",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "id": "2026-10-17-mksglu-context-mode-day7",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 7日目] mksglu/context-mode — コンテキスト最適化 17プラットフォーム対応 (★30,209, +449)",
+    "summary": "AIコーディングエージェントのコンテキストウィンドウを最適化するツール。7日連続 Trending。",
+    "url": "https://github.com/mksglu/context-mode",
+    "related_date": "2026-10-11",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "context",
+      "agents",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "id": "2026-10-17-papers-no-update",
+    "type": "no-update",
+    "vendor": null,
+    "section": "papers"
+  },
+  {
+    "date": "2026-10-17",
+    "id": "2026-10-17-media-no-update",
+    "type": "no-update",
+    "vendor": null,
+    "section": "media"
+  },
+  {
     "date": "2026-10-15",
     "id": "2026-10-15-anthropic-singapore-office",
     "type": "new",
