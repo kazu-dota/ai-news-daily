@@ -1,0 +1,45 @@
+name: Validate
+
+# リポジトリのスキーマ/フォーマット不変条件を CI で守る。
+# 検証ロジックは `scripts/validate.py` に集約 (DRY: スキーマ定数の単一の正規の場所)。
+# 本 workflow はランナーセットアップとレポートのみを担う (SRP)。
+#
+# 本番 routine も dev-test routine も最終的にここの不変条件を破ると CI が落ちるため、
+# routine 側の仕様 (ROUTINE.md) と scripts/validate.py は表裏一体で更新する。
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  push:
+    branches: [dev]
+
+concurrency:
+  group: validate-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  actionlint:
+    name: GitHub Actions workflows
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run actionlint
+        run: |
+          bash <(curl -sSf https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash)
+          ./actionlint -color
+
+  schema:
+    name: Repository schema (sources / data / summaries)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install pyyaml
+      - name: Validate all
+        run: python3 scripts/validate.py all

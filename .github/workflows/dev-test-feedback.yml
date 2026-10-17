@@ -1,0 +1,86 @@
+name: dev-test feedback
+
+# dev-test routine が `dev-test` ブランチに force push したタイミングで起動し、
+# 現在 open の dev → main PR にレビュー用コメントを投稿してフィードバックループを閉じる。
+#
+# dev-test-trigger.yml で webhook を投げた後の「routine 完了の合図」をここで拾う。
+
+on:
+  push:
+    branches: [dev-test]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Gather dev-test diff
+        id: gather
+        run: |
+          set -euo pipefail
+          git fetch origin main --depth=1
+          subject=$(git log -1 --format='%s')
+          short_sha=$(git rev-parse --short HEAD)
+          # main からの差分のうちサマリー/構造化データの追加・更新のみを抜粋
+          mapfile -t files < <(git diff --name-only origin/main...HEAD \
+            | grep -E '^(summaries/|docs/data/)' || true)
+          {
+            echo "subject=${subject}"
+            echo "short_sha=${short_sha}"
+            echo "files<<EOF"
+            if [ "${#files[@]}" -eq 0 ]; then
+              echo "(no summary / data files changed vs main)"
+            else
+              printf '%s\n' "${files[@]}"
+            fi
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - uses: actions/github-script@v7
+        env:
+          SUBJECT: ${{ steps.gather.outputs.subject }}
+          SHORT_SHA: ${{ steps.gather.outputs.short_sha }}
+          FILES: ${{ steps.gather.outputs.files }}
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const prs = await github.rest.pulls.list({
+              owner,
+              repo,
+              base: 'main',
+              head: `${owner}:dev`,
+              state: 'open',
+            });
+            if (prs.data.length === 0) {
+              core.info('No open dev → main PR; nothing to comment on.');
+              return;
+            }
+            const { SUBJECT, SHORT_SHA, FILES } = process.env;
+            const body = [
+              `✅ **dev-test routine 完了** (\`${SHORT_SHA}\`)`,
+              '',
+              `> ${SUBJECT}`,
+              '',
+              '生成/更新されたファイル (vs main):',
+              '```',
+              FILES,
+              '```',
+              '',
+              `- 当日 md: https://github.com/${owner}/${repo}/tree/dev-test/summaries`,
+              `- main との差分: https://github.com/${owner}/${repo}/compare/main...dev-test`,
+            ].join('\n');
+            for (const pr of prs.data) {
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number: pr.number,
+                body,
+              });
+            }
