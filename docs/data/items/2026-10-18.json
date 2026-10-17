@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T08:14:22+09:00",
+  "sources_checked": 24,
+  "sources_failed": 17,
+  "items": [
+    {
+      "id": "2026-10-18-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-18-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-18-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-18-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-18-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-18-morluto-rea-end",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[終幕] morluto/rea — 10日連続首位ののちトレンドから姿を消す（最終累計 ★290,380+）",
+      "summary": "10日連続グローバル Trending 首位を維持してきた morluto/rea が本日ランクから外れた。最終確認スター数 ★290,380。GitHub トレンド史上でも異例の10日間サージに幕。",
+      "url": "https://github.com/morluto/rea",
+      "related_date": "2026-10-07",
+      "importance": "highlight",
+      "tags": ["github-trending", "reverse-engineering", "ai-agent", "streak-end"]
+    },
+    {
+      "id": "2026-10-18-stablyai-orca-100k",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報] stablyai/orca — ★100k 目前 (★95,354, +829)",
+      "summary": "複数コーディングエージェント並列管理ツール。★100k の大台突破が射程内に。",
+      "url": "https://github.com/stablyai/orca",
+      "related_date": "2026-10-15",
+      "importance": "highlight",
+      "tags": ["github-trending", "coding-agent", "typescript", "100k-milestone"]
+    },
+    {
+      "id": "2026-10-18-elie222-rakazo",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "elie222/rakazo 初登場 — Grok Bot のモデル自由選択型 OSS 代替",
+      "summary": "自前の LLM バックエンドを選択できる Grok Bot の独立 OSS 実装。TypeScript, ★4,461, +146 today。",
+      "url": "https://github.com/elie222/rakazo",
+      "importance": "highlight",
+      "tags": ["github-trending", "grok-alternative", "typescript", "open-source"]
+    },
+    {
+      "id": "2026-10-18-thesysdev-openui",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "thesysdev/openui — 生成 UI のオープン標準・参照実装",
+      "summary": "LLM が動的に UI コンポーネントを生成するための OpenUI 仕様と参照実装。TypeScript, ★11,574, +190。",
+      "url": "https://github.com/thesysdev/openui",
+      "importance": "standard",
+      "tags": ["github-trending", "generative-ui", "typescript", "open-standard"]
+    },
+    {
+      "id": "2026-10-18-debpalash-voicestudio-day8",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 8回目] debpalash/VoiceStudio — +2,135 stars で ★73k 突破",
+      "summary": "ローカル完結型 AI 音声ツール。8度目の Trending 入りで累計 ★73k を突破。Python, +2,135。",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "related_date": "2026-10-11",
+      "importance": "highlight",
+      "tags": ["github-trending", "voice-ai", "python", "local-ai"]
+    },
+    {
+      "id": "2026-10-18-madslorentzen-ai-job-search",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報] MadsLorentzen/ai-job-search — Claude Code ベース求人探索フレームワーク",
+      "summary": "Python, ★50,304, +1,397。前回比 +1,865 stars 増加し引き続き高い関心を維持。",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "related_date": "2026-10-12",
+      "importance": "standard",
+      "tags": ["github-trending", "claude-code", "job-search", "python"]
+    },
+    {
+      "id": "2026-10-18-anthropics-claude-plugins-official",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "[続報] anthropics/claude-plugins-official — 公式 Claude Code プラグインディレクトリ",
+      "summary": "Python, ★41,691, +1,383。前回比 +1,209 stars 増加。",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "related_date": "2026-10-15",
+      "importance": "standard",
+      "tags": ["github-trending", "claude-code", "plugins", "anthropic", "python"]
+    },
+    {
+      "id": "2026-10-18-k-dense-ai-scientific-agent-skills",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報] K-Dense-AI/scientific-agent-skills",
+      "summary": "科学研究向けエージェントスキル集。Python, ★52,215, +879。",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "related_date": "2026-10-15",
+      "importance": "minor",
+      "tags": ["github-trending", "scientific-research", "agent-skills", "python"]
+    },
+    {
+      "id": "2026-10-18-hkuds-cli-anything",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報] HKUDS/CLI-Anything — ソフトウェアをエージェントネイティブ化",
+      "summary": "Python, ★54,033, +580。ソフトウェアを AI エージェントから CLI 経由で操作可能にする汎用ブリッジ。",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "related_date": "2026-10-15",
+      "importance": "minor",
+      "tags": ["github-trending", "cli", "agent-native", "python"]
+    },
+    {
+      "id": "2026-10-18-xerj-org-xerj-day2",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 2日目] xerj-org/xerj — AI エージェント向け検索エンジン",
+      "summary": "Rust 製コード・ドキュメント横断検索エンジン。★7,761, +1,102。前日比継続高水準。",
+      "url": "https://github.com/xerj-org/xerj",
+      "related_date": "2026-10-17",
+      "importance": "standard",
+      "tags": ["github-trending", "search-engine", "rust", "ai-agent", "rag"]
+    },
+    {
+      "id": "2026-10-18-affaan-m-ecc-day2",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 2日目] affaan-m/ECC — AIコーディングエージェント性能最適化システム",
+      "summary": "JavaScript, ★282,457, +1,145。4領域でエージェント性能を最適化するシステム。",
+      "url": "https://github.com/affaan-m/ECC",
+      "related_date": "2026-10-17",
+      "importance": "standard",
+      "tags": ["github-trending", "coding-agent", "javascript", "optimization"]
+    },
+    {
+      "id": "2026-10-18-anomalyco-opencode",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報] anomalyco/opencode — OSS コーディングエージェント",
+      "summary": "TypeScript, ★215,239, +576。",
+      "url": "https://github.com/anomalyco/opencode",
+      "related_date": "2026-10-11",
+      "importance": "minor",
+      "tags": ["github-trending", "coding-agent", "typescript", "open-source"]
+    },
+    {
+      "id": "2026-10-18-hn-reddit-no-data",
+      "type": "no-update",
+      "vendor": "community",
+      "section": "community",
+      "title": "Hacker News / Reddit: 本日データ取得不可",
+      "summary": "DNS エラー / アクセス不可のため取得できず。"
+    },
+    {
+      "id": "2026-10-18-papers-no-update",
+      "type": "no-update",
+      "vendor": "papers",
+      "section": "papers"
+    },
+    {
+      "id": "2026-10-18-media-no-update",
+      "type": "no-update",
+      "vendor": "media",
+      "section": "media"
+    }
+  ]
+}
