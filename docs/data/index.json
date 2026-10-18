@@ -1,5 +1,272 @@
 [
   {
+    "date": "2026-10-19",
+    "id": "2026-10-19-anthropic-public-benefit-fund",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "Anthropic Public Benefit Fund 設立 — 株式5%を公益充当、合計約20%",
+    "summary": "Anthropic が LLC 形式の公益基金を設立。株式5%を初期拠出し、企業価値が50%増加するごとに2%追加可。共同創業者らの既存コミットと合わせ約20%が公益目的に充てられる。",
+    "url": "https://www.anthropic.com/news/public-benefit-fund",
+    "importance": "highlight",
+    "tags": [
+      "corporate-governance",
+      "public-benefit",
+      "anthropic",
+      "philanthropy"
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "id": "2026-10-19-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-19",
+    "id": "2026-10-19-google-no-update",
+    "type": "no-update",
+    "vendor": "Google / Google DeepMind",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-19",
+    "id": "2026-10-19-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-19",
+    "id": "2026-10-19-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-19",
+    "id": "2026-10-19-stablyai-orca",
+    "type": "followup",
+    "vendor": "stablyai",
+    "section": "community",
+    "title": "[続報 4日目] stablyai/orca — ★100k 目前 (★96,571, +1,146)",
+    "summary": "複数コーディングエージェント並列管理環境。初登場から4日連続 Trending。★100k まであと3,430 stars。",
+    "url": "https://github.com/stablyai/orca",
+    "related_date": "2026-10-15",
+    "importance": "highlight",
+    "tags": [
+      "coding-agent",
+      "typescript",
+      "github-trending",
+      "agent-orchestration"
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "id": "2026-10-19-anthropics-claude-quickstarts",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "community",
+    "title": "anthropics/claude-quickstarts — Anthropic 公式 Claude API スターターキット集 (★18,621, +453)",
+    "summary": "Claude API で15種以上のデプロイ可能なアプリを構築するための Anthropic 公式スターターキット。カスタマーサポート・金融分析・コーディングエージェント等を収録。MIT ライセンス。",
+    "url": "https://github.com/anthropics/claude-quickstarts",
+    "importance": "standard",
+    "tags": [
+      "claude-api",
+      "typescript",
+      "github-trending",
+      "anthropic",
+      "starter-kit"
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "id": "2026-10-19-diegosouzapw-omniroute",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "diegosouzapw/OmniRoute — 375プロバイダー対応AIゲートウェイ (★78,134, +411)",
+    "summary": "1エンドポイントで375プロバイダーを束ねる自己ホスト型 OpenAI 互換ゲートウェイ。20種ルーティング戦略・トークン圧縮・Claude Code 等との互換あり。MIT ライセンス。",
+    "url": "https://github.com/diegosouzapw/OmniRoute",
+    "importance": "standard",
+    "tags": [
+      "ai-gateway",
+      "typescript",
+      "github-trending",
+      "multi-provider",
+      "llm-routing"
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "id": "2026-10-19-earendil-works-pi",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "earendil-works/pi — 統合 LLM API・エージェントループ・TUI 搭載ツールキット (★116,143, +206)",
+    "summary": "統一 LLM API・エージェントループ・ターミナル UI・コーディング CLI を一体化した AI エージェント開発ツールキット。TypeScript 製で ★116k。",
+    "url": "https://github.com/earendil-works/pi",
+    "importance": "standard",
+    "tags": [
+      "agent-toolkit",
+      "typescript",
+      "github-trending",
+      "llm-api",
+      "tui"
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "id": "2026-10-19-anomalyco-opencode",
+    "type": "followup",
+    "vendor": "anomalyco",
+    "section": "community",
+    "title": "[続報] anomalyco/opencode — OSS コーディングエージェント (★216,524, +1,417)",
+    "summary": "OSSコーディングエージェント。引き続き TypeScript Trending で高い伸びを見せる。",
+    "url": "https://github.com/anomalyco/opencode",
+    "related_date": "2026-10-13",
+    "importance": "minor",
+    "tags": [
+      "coding-agent",
+      "typescript",
+      "github-trending",
+      "open-source"
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "id": "2026-10-19-graphify-labs-graphify",
+    "type": "new",
+    "vendor": "Graphify-Labs",
+    "section": "community",
+    "title": "Graphify-Labs/graphify — コードベース・ドキュメントをナレッジグラフに変換 (★128,394, +592)",
+    "summary": "コードベースとドキュメントを取り込み、クエリ可能なナレッジグラフとして構造化するツール。エージェントがリポジトリを横断的に理解・検索できるよう依存関係と意味的なつながりをグラフ表現する。",
+    "url": "https://github.com/Graphify-Labs/graphify",
+    "importance": "highlight",
+    "tags": [
+      "knowledge-graph",
+      "python",
+      "github-trending",
+      "code-analysis",
+      "rag"
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "id": "2026-10-19-tauricresearch-tradingagents",
+    "type": "new",
+    "vendor": "TauricResearch",
+    "section": "community",
+    "title": "TauricResearch/TradingAgents — マルチエージェント LLM 金融取引研究フレームワーク (★111,906, +242)",
+    "summary": "LangGraph ベースで取引会社の組織構造を模したマルチエージェント金融取引フレームワーク。研究目的のツールで金融アドバイスではない。Apache-2.0 ライセンス。",
+    "url": "https://github.com/TauricResearch/TradingAgents",
+    "importance": "standard",
+    "tags": [
+      "trading",
+      "multi-agent",
+      "python",
+      "github-trending",
+      "langgraph",
+      "finance"
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "id": "2026-10-19-debpalash-voicestudio",
+    "type": "followup",
+    "vendor": "debpalash",
+    "section": "community",
+    "title": "[続報 9日目] debpalash/VoiceStudio — ★75k 突破 (+2,098, Python)",
+    "summary": "ローカル完結型 AI 音声ツール。9日連続 Python Trending で ★75k 突破。",
+    "url": "https://github.com/debpalash/VoiceStudio",
+    "related_date": "2026-10-11",
+    "importance": "standard",
+    "tags": [
+      "voice-ai",
+      "python",
+      "github-trending",
+      "local-llm",
+      "audio"
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "id": "2026-10-19-akitaonrails-ai-memory",
+    "type": "new",
+    "vendor": "akitaonrails",
+    "section": "community",
+    "title": "akitaonrails/ai-memory — クロスエージェント長期記憶システム (Rust, ★10,450, +513)",
+    "summary": "20+ AI コーディングエージェントハーネス間でプロジェクト記憶を共有する Rust 製長期記憶システム。git バックアップの .md wiki を情報源とし、LLM 不要でも動作。MIT ライセンス。",
+    "url": "https://github.com/akitaonrails/ai-memory",
+    "importance": "highlight",
+    "tags": [
+      "memory",
+      "rust",
+      "github-trending",
+      "cross-agent",
+      "coding-agent"
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "id": "2026-10-19-madslorentzen-ai-job-search",
+    "type": "followup",
+    "vendor": "MadsLorentzen",
+    "section": "community",
+    "title": "[続報] MadsLorentzen/ai-job-search — Claude Code ベース求人支援フレームワーク (★52,993, +2,213)",
+    "summary": "求人評価・CV カスタマイズ・面接対策を自動化するローカルフレームワーク。引き続き高い伸びを維持。",
+    "url": "https://github.com/MadsLorentzen/ai-job-search",
+    "related_date": "2026-10-12",
+    "importance": "minor",
+    "tags": [
+      "claude-code",
+      "python",
+      "github-trending",
+      "job-search"
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "id": "2026-10-19-anthropics-claude-plugins-official",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "community",
+    "title": "[続報] anthropics/claude-plugins-official — Anthropic 公式 Claude Code プラグインディレクトリ (★42,643, +1,187)",
+    "summary": "Anthropic が管理する Claude Code プラグインの公式ディレクトリ。引き続き Python Trending で高い伸びを維持。",
+    "url": "https://github.com/anthropics/claude-plugins-official",
+    "related_date": "2026-10-15",
+    "importance": "minor",
+    "tags": [
+      "claude-code",
+      "python",
+      "github-trending",
+      "anthropic",
+      "plugins"
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "id": "2026-10-19-papers-no-update",
+    "type": "no-update",
+    "vendor": "Hugging Face Papers",
+    "section": "papers"
+  },
+  {
+    "date": "2026-10-19",
+    "id": "2026-10-19-hn-reddit-no-update",
+    "type": "no-update",
+    "vendor": "Hacker News / Reddit",
+    "section": "community"
+  },
+  {
+    "date": "2026-10-19",
+    "id": "2026-10-19-media-no-update",
+    "type": "no-update",
+    "vendor": "Media",
+    "section": "media"
+  },
+  {
     "date": "2026-10-18",
     "id": "2026-10-18-anthropic-no-update",
     "type": "no-update",
