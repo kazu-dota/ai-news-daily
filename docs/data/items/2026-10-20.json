@@ -1,0 +1,301 @@
+{
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T08:14:57+09:00",
+  "sources_checked": 26,
+  "sources_failed": 18,
+  "items": [
+    {
+      "id": "2026-10-20-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-20-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-20-google-no-update",
+      "type": "no-update",
+      "vendor": "Google / Google DeepMind",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-20-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-20-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-20-stablyai-orca",
+      "type": "followup",
+      "vendor": "stablyai",
+      "section": "community",
+      "title": "[続報 5日目] stablyai/orca — ★98k 突破・★100k まであと 1,797 stars (★98,203, +1,591)",
+      "summary": "複数コーディングエージェント並列管理環境。初登場から5日連続 Trending。★100k 大台まであと 1,797 stars。",
+      "url": "https://github.com/stablyai/orca",
+      "related_date": "2026-10-15",
+      "importance": "highlight",
+      "tags": ["coding-agent", "typescript", "github-trending", "agent-orchestration"]
+    },
+    {
+      "id": "2026-10-20-anomalyco-opencode",
+      "type": "followup",
+      "vendor": "anomalyco",
+      "section": "community",
+      "title": "[続報] anomalyco/opencode — オープンソース コーディングエージェント (★217,751, +1,310)",
+      "summary": "オープンソースのコーディングエージェント。高水準を安定維持。",
+      "url": "https://github.com/anomalyco/opencode",
+      "related_date": "2026-10-18",
+      "importance": "standard",
+      "tags": ["coding-agent", "typescript", "github-trending"]
+    },
+    {
+      "id": "2026-10-20-ruvnet-ruflo",
+      "type": "followup",
+      "vendor": "ruvnet",
+      "section": "community",
+      "title": "[続報] ruvnet/ruflo — マルチエージェントオーケストレーション (★77,156, +564)",
+      "summary": "アダプティブメモリとベクター RAG を持つエージェントスウォーム。継続成長。",
+      "url": "https://github.com/ruvnet/ruflo",
+      "related_date": "2026-10-19",
+      "importance": "standard",
+      "tags": ["agent-orchestration", "typescript", "github-trending", "rag"]
+    },
+    {
+      "id": "2026-10-20-ranxianglei-billion-context",
+      "type": "new",
+      "vendor": "ranxianglei",
+      "section": "community",
+      "title": "ranxianglei/billion-context — 小コンテキストウィンドウ向けトークン圧縮プラグイン (★2,008, +137)",
+      "summary": "長期セッションや小コンテキストウィンドウ向けのトークン節約プラグイン。最大5倍削減を主張。",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "importance": "minor",
+      "tags": ["token-compression", "context-window", "typescript", "github-trending"]
+    },
+    {
+      "id": "2026-10-20-diegosouzapw-omniroute",
+      "type": "followup",
+      "vendor": "diegosouzapw",
+      "section": "community",
+      "title": "[続報] diegosouzapw/OmniRoute — 375プロバイダー対応 AIゲートウェイ (★78,536, +427)",
+      "summary": "単一エンドポイントで375プロバイダーを束ねる自己ホスト型 AI ゲートウェイ。",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "related_date": "2026-10-19",
+      "importance": "standard",
+      "tags": ["ai-gateway", "typescript", "github-trending", "llm-router"]
+    },
+    {
+      "id": "2026-10-20-cursor-plugins",
+      "type": "followup",
+      "vendor": "cursor",
+      "section": "community",
+      "title": "[続報] cursor/plugins — Cursor 公式プラグイン仕様 (★13,040, +441)",
+      "summary": "Cursor 公式プラグイン仕様とファーストパーティプラグイン集。継続成長。",
+      "url": "https://github.com/cursor/plugins",
+      "related_date": "2026-10-17",
+      "importance": "minor",
+      "tags": ["cursor", "plugins", "typescript", "github-trending"]
+    },
+    {
+      "id": "2026-10-20-thesysdev-openui",
+      "type": "followup",
+      "vendor": "thesysdev",
+      "section": "community",
+      "title": "[続報] thesysdev/openui — 生成 UI オープン標準 (★12,197, +399)",
+      "summary": "LLM が動的に UI コンポーネントを生成するための OpenUI 仕様と参照実装。",
+      "url": "https://github.com/thesysdev/openui",
+      "related_date": "2026-10-18",
+      "importance": "minor",
+      "tags": ["generative-ui", "typescript", "github-trending", "open-standard"]
+    },
+    {
+      "id": "2026-10-20-anthropics-claude-quickstarts",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "[続報] anthropics/claude-quickstarts — Claude API スターターキット集 (★18,840, +233)",
+      "summary": "Claude API でデプロイ可能なアプリを素早く構築するための Anthropic 公式スターターキット集。",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "related_date": "2026-10-19",
+      "importance": "minor",
+      "tags": ["claude", "anthropic", "typescript", "github-trending", "starter-kit"]
+    },
+    {
+      "id": "2026-10-20-madslorentzen-ai-job-search",
+      "type": "followup",
+      "vendor": "MadsLorentzen",
+      "section": "community",
+      "title": "[続報] MadsLorentzen/ai-job-search — 本日 +3,860 stars で急騰 (★57,081)",
+      "summary": "Claude Code ベースの求人評価・CV カスタマイズ・面接対策自動化フレームワーク。直近最高水準の急騰。",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "related_date": "2026-10-17",
+      "importance": "highlight",
+      "tags": ["job-search", "claude-code", "python", "github-trending", "agent"]
+    },
+    {
+      "id": "2026-10-20-comfy-org-comfyui",
+      "type": "new",
+      "vendor": "Comfy-Org",
+      "section": "community",
+      "title": "Comfy-Org/ComfyUI — 拡散モデル向けノードグラフ GUI・API の定番が急浮上 (★139,673, +1,011)",
+      "summary": "拡散モデルをノードグラフで操作できる GUI・API・バックエンドを統合した定番 OSS。★139k がグローバル Trending に急浮上。",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "importance": "highlight",
+      "tags": ["diffusion-model", "stable-diffusion", "python", "github-trending", "gui"]
+    },
+    {
+      "id": "2026-10-20-headroomlabs-ai-headroom",
+      "type": "new",
+      "vendor": "headroomlabs-ai",
+      "section": "community",
+      "title": "headroomlabs-ai/headroom — LLM 送信前にコンテキストを自動圧縮するトークン節約ライブラリ (★76,209, +317)",
+      "summary": "ツール出力・ログ・ファイル・RAG チャンクを LLM 送信前に自動圧縮し、コンテキスト消費を削減する Python ライブラリ。",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "importance": "highlight",
+      "tags": ["token-compression", "context-compression", "python", "github-trending", "llm"]
+    },
+    {
+      "id": "2026-10-20-usestrix-strix",
+      "type": "new",
+      "vendor": "usestrix",
+      "section": "community",
+      "title": "usestrix/strix — AI 活用のオープンソース ペネトレーションテストツール (★70,064, +476)",
+      "summary": "AI エージェントを活用した脆弱性探索・検証に特化した OSS ペネトレーションテストフレームワーク。",
+      "url": "https://github.com/usestrix/strix",
+      "importance": "standard",
+      "tags": ["penetration-testing", "security", "ai-agent", "python", "github-trending"]
+    },
+    {
+      "id": "2026-10-20-shiyu-coder-kronos",
+      "type": "new",
+      "vendor": "shiyu-coder",
+      "section": "community",
+      "title": "shiyu-coder/Kronos — 金融市場データ専用 Foundation モデル (★41,617, +355)",
+      "summary": "株価・為替など金融市場データの時系列パターンと相関を学習した専用 Foundation モデル。",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "importance": "standard",
+      "tags": ["foundation-model", "finance", "time-series", "python", "github-trending"]
+    },
+    {
+      "id": "2026-10-20-666ghj-mirofish",
+      "type": "new",
+      "vendor": "666ghj",
+      "section": "community",
+      "title": "666ghj/MiroFish — 群知能ベースの予測エンジン (★80,651, +394)",
+      "summary": "群知能アルゴリズムを応用した予測エンジン。★80k の大型プロジェクトが本日 Python Trending に初浮上。",
+      "url": "https://github.com/666ghj/MiroFish",
+      "importance": "standard",
+      "tags": ["swarm-intelligence", "prediction", "python", "github-trending"]
+    },
+    {
+      "id": "2026-10-20-imbad0202-academic-research-skills",
+      "type": "new",
+      "vendor": "Imbad0202",
+      "section": "community",
+      "title": "Imbad0202/academic-research-skills — Claude Code 向け学術研究・論文執筆スキル集 (★52,980, +282)",
+      "summary": "調査・執筆・査読・改訂ワークフローを自動化する Claude Code スキル集。学術研究者向け。",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "importance": "standard",
+      "tags": ["academic-research", "claude-code", "skills", "python", "github-trending"]
+    },
+    {
+      "id": "2026-10-20-anthropics-claude-plugins-official",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "[続報] anthropics/claude-plugins-official — Anthropic 公式プラグインディレクトリ (★43,168, +814)",
+      "summary": "Anthropic 管理の Claude Code プラグイン公式ディレクトリ。高水準継続。",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "related_date": "2026-10-17",
+      "importance": "standard",
+      "tags": ["claude-code", "plugins", "anthropic", "python", "github-trending"]
+    },
+    {
+      "id": "2026-10-20-graphify-labs-graphify",
+      "type": "followup",
+      "vendor": "Graphify-Labs",
+      "section": "community",
+      "title": "[続報] Graphify-Labs/graphify — コードベース→クエリ可能なナレッジグラフ (★129,140, +751)",
+      "summary": "コードベースとドキュメントをクエリ可能なナレッジグラフに変換するツール。前日比 +746 stars。",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "related_date": "2026-10-19",
+      "importance": "standard",
+      "tags": ["knowledge-graph", "code-analysis", "python", "github-trending"]
+    },
+    {
+      "id": "2026-10-20-hkuds-cli-anything",
+      "type": "followup",
+      "vendor": "HKUDS",
+      "section": "community",
+      "title": "[続報] HKUDS/CLI-Anything — ソフトウェアのエージェントネイティブ化 (★55,202, +607)",
+      "summary": "ソフトウェアを CLI 経由で AI エージェントから操作可能にする汎用ブリッジ。継続成長。",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "related_date": "2026-10-15",
+      "importance": "standard",
+      "tags": ["cli", "agent-native", "python", "github-trending"]
+    },
+    {
+      "id": "2026-10-20-google-artemis",
+      "type": "followup",
+      "vendor": "Google",
+      "section": "community",
+      "title": "[続報] google/artemis — 自然言語→Android 操作変換エージェント (★12,972, +526)",
+      "summary": "Google 製の自然言語指示から Android 操作を自動生成するエージェントフレームワーク。前回比 +808 stars 増加。",
+      "url": "https://github.com/google/artemis",
+      "related_date": "2026-10-17",
+      "importance": "standard",
+      "tags": ["android", "natural-language", "automation", "google", "python", "github-trending"]
+    },
+    {
+      "id": "2026-10-20-akitaonrails-ai-memory",
+      "type": "followup",
+      "vendor": "akitaonrails",
+      "section": "community",
+      "title": "[続報 2日目] akitaonrails/ai-memory — クロスエージェント長期記憶システム (Rust, ★11,290, +666)",
+      "summary": "20+ のコーディングエージェントハーネス間でプロジェクト記憶を共有する Rust 製ツール。2日連続 Trending。",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "related_date": "2026-10-19",
+      "importance": "standard",
+      "tags": ["agent-memory", "rust", "github-trending", "long-term-memory"]
+    },
+    {
+      "id": "2026-10-20-debpalash-voicestudio-end",
+      "type": "followup",
+      "vendor": "debpalash",
+      "section": "community",
+      "title": "[終幕] debpalash/VoiceStudio — 9日連続 Python Trending から姿を消す（最終確認 ★75,233）",
+      "summary": "ElevenLabs ローカル代替 AI 音声ツール。9日連続 Trending の大型サージに幕。累計 ★75k 超を達成。",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "related_date": "2026-10-11",
+      "importance": "standard",
+      "tags": ["voice-ai", "text-to-speech", "python", "github-trending"]
+    },
+    {
+      "id": "2026-10-20-hn-reddit-no-data",
+      "type": "no-update",
+      "vendor": "Hacker News / Reddit",
+      "section": "community"
+    },
+    {
+      "id": "2026-10-20-papers-no-data",
+      "type": "no-update",
+      "vendor": "Hugging Face Papers",
+      "section": "papers"
+    },
+    {
+      "id": "2026-10-20-media-no-data",
+      "type": "no-update",
+      "vendor": "メディア記事",
+      "section": "media"
+    }
+  ]
+}
