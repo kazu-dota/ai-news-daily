@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T08:14:57+09:00",
+  "sources_checked": 26,
+  "sources_failed": 17,
+  "items": [
+    {
+      "id": "2026-10-21-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-21-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-21-google-no-update",
+      "type": "no-update",
+      "vendor": "Google / Google DeepMind",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-21-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-21-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-21-stablyai-orca-99k",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 7日目] stablyai/orca — ★100k まで残り 324 stars (TypeScript, ★99,676, +1,559)",
+      "summary": "コーディングエージェント管理ツールが7日連続 Trending。★100k 大台達成まで残り 324 stars、今日中にも突破の見通し。",
+      "url": "https://github.com/stablyai/orca",
+      "importance": "highlight",
+      "tags": ["github-trending", "coding-agent", "typescript"],
+      "related_date": "2026-10-15"
+    },
+    {
+      "id": "2026-10-21-cloudflare-security-audit-skill",
+      "type": "new",
+      "vendor": "Cloudflare",
+      "section": "community",
+      "title": "cloudflare/security-audit-skill 初登場 — Cloudflare 製コーディングエージェント向けセキュリティ監査スキル (JavaScript, ★34k, +1,680)",
+      "summary": "多フェーズのセキュリティ監査を実行し検証済み機械可読レポートを生成する OSS スキル。Cloudflare 公式。初日 +1,680 stars。",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "importance": "highlight",
+      "tags": ["github-trending", "security", "cloudflare", "coding-agent", "javascript"]
+    },
+    {
+      "id": "2026-10-21-ponytail",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "DietrichGebert/ponytail 初登場 — 「コードを書かない原則」AI エージェントフレームワーク (JavaScript, ★169k, +1,396)",
+      "summary": "最良のコードは書かないコードという哲学を AI エージェントに適用するフレームワーク。★169k 大型プロジェクトが急浮上。",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "importance": "highlight",
+      "tags": ["github-trending", "ai-agent", "javascript", "philosophy"]
+    },
+    {
+      "id": "2026-10-21-anthropics-knowledge-work-plugins",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "anthropics/knowledge-work-plugins 初登場 — Anthropic 公式 Claude Cowork 向け知識労働者プラグイン集 (Python, ★30k, +262)",
+      "summary": "Claude Cowork 向け知識労働者用 OSS プラグイン集。Anthropic 公式管理。ドキュメント処理・調査・執筆を自動化。",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "importance": "highlight",
+      "tags": ["github-trending", "anthropic", "claude-cowork", "plugins", "python"]
+    },
+    {
+      "id": "2026-10-21-openclaw-openclaw",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "openclaw/openclaw 初登場 — OS・プラットフォーム横断汎用 AI アシスタント (TypeScript, ★392k, +568)",
+      "summary": "デスクトップ・モバイル・Webを横断する汎用 AI アシスタント。★392k 超大型プロジェクトが TypeScript Trending に急浮上。",
+      "url": "https://github.com/openclaw/openclaw",
+      "importance": "highlight",
+      "tags": ["github-trending", "ai-assistant", "typescript", "cross-platform"]
+    },
+    {
+      "id": "2026-10-21-anomalyco-opencode",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] anomalyco/opencode — OSS コーディングエージェント (TypeScript, ★218,868, +1,256)",
+      "summary": "高水準を安定維持。前回比 +1,117 stars 増加。",
+      "url": "https://github.com/anomalyco/opencode",
+      "importance": "standard",
+      "tags": ["github-trending", "coding-agent", "typescript"],
+      "related_date": "2026-10-19"
+    },
+    {
+      "id": "2026-10-21-ruvnet-ruflo",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] ruvnet/ruflo — マルチエージェントオーケストレーション (TypeScript, ★77,811, +683)",
+      "summary": "アダプティブメモリ・ベクター RAG 持つエージェントスウォーム。前回から継続成長。",
+      "url": "https://github.com/ruvnet/ruflo",
+      "importance": "standard",
+      "tags": ["github-trending", "multi-agent", "typescript"],
+      "related_date": "2026-10-19"
+    },
+    {
+      "id": "2026-10-21-madslorentzen-ai-job-search",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] MadsLorentzen/ai-job-search — +3,890 stars で急騰継続 (Python, ★60,434)",
+      "summary": "Claude Code ベース求職フレームワーク。本日 +3,890 は前回比さらに加速。",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "importance": "standard",
+      "tags": ["github-trending", "claude-code", "python", "job-search"],
+      "related_date": "2026-10-17"
+    },
+    {
+      "id": "2026-10-21-comfy-org-comfyui",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 2日目] Comfy-Org/ComfyUI — 拡散モデル GUI +1,201 (Python, ★140,722)",
+      "summary": "+1,000 超を2日連続維持。",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "importance": "standard",
+      "tags": ["github-trending", "diffusion-model", "python"],
+      "related_date": "2026-10-20"
+    },
+    {
+      "id": "2026-10-21-graphify-labs-graphify",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 3日目] Graphify-Labs/graphify — コードベース→ナレッジグラフ +906 (Python, ★130,180)",
+      "summary": "前回比成長加速、+1,040 増加。",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "importance": "standard",
+      "tags": ["github-trending", "knowledge-graph", "python"],
+      "related_date": "2026-10-19"
+    },
+    {
+      "id": "2026-10-21-shiyu-coder-kronos",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 2日目] shiyu-coder/Kronos — 金融 Foundation モデル +719 (Python, ★42,330)",
+      "summary": "前回比倍増のペース。",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "importance": "standard",
+      "tags": ["github-trending", "finance", "foundation-model", "python"],
+      "related_date": "2026-10-20"
+    },
+    {
+      "id": "2026-10-21-msitarzewski-agency-agents",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "msitarzewski/agency-agents 初登場 — 専門特化型 AI エージェントコレクション (Shell, ★162k, +590)",
+      "summary": "固有のペルソナ・プロセス・成果物を持つ専門特化型 AI エージェントのコレクション。★162k 大型プロジェクトが Trending 入り。",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "importance": "standard",
+      "tags": ["github-trending", "ai-agent", "shell"]
+    }
+  ]
+}
