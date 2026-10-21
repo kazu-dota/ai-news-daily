@@ -1,5 +1,247 @@
 [
   {
+    "date": "2026-10-22",
+    "id": "2026-10-22-anthropic-christopher-stubbs",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "物理学者 Christopher Stubbs が Long-Term Benefit Trust に就任",
+    "summary": "Harvard 元理学部長・JASON メンバーが Anthropic の独立ガバナンス機関 LTBT に加入。初の Public Benefit Report 公開と同時発表。",
+    "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+    "importance": "highlight",
+    "tags": [
+      "anthropic",
+      "governance",
+      "ltbt",
+      "public-benefit"
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "id": "2026-10-22-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-22",
+    "id": "2026-10-22-google-no-update",
+    "type": "no-update",
+    "vendor": "Google / Google DeepMind",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-22",
+    "id": "2026-10-22-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-22",
+    "id": "2026-10-22-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-10-22",
+    "id": "2026-10-22-panniantong-agent-reach",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "Panniantong/Agent-Reach — AI エージェントに SNS・プラットフォーム CLI を付与",
+    "summary": "Twitter / Reddit / YouTube / GitHub 等への CLI アクセスを AI エージェントに提供。★100,637、本日 +461。",
+    "url": "https://github.com/Panniantong/Agent-Reach",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "ai-agent",
+      "tools",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "id": "2026-10-22-vllm-project-vllm",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "vllm-project/vllm — LLM 推論エンジン Trending 入り",
+    "summary": "PagedAttention ベースの高スループット・省メモリ LLM 推論・サービングエンジン。★94,843、本日 +439。",
+    "url": "https://github.com/vllm-project/vllm",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "llm",
+      "inference",
+      "serving",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "id": "2026-10-22-luongnv89-claude-howto",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "luongnv89/claude-howto — Claude Code 視覚ガイド",
+    "summary": "Claude Code をビジュアル・実例中心で解説するガイドリポジトリ。テンプレートと高度なエージェント例を収録。★42,484、+429。",
+    "url": "https://github.com/luongnv89/claude-howto",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "claude-code",
+      "guide",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "id": "2026-10-22-k2-fsa-omnivoice",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "k2-fsa/OmniVoice — 600 言語対応音声クローン TTS",
+    "summary": "600 以上の言語に対応した音声クローン型テキスト読み上げツール。★15,444、+204。",
+    "url": "https://github.com/k2-fsa/OmniVoice",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "tts",
+      "voice-cloning",
+      "multilingual",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "id": "2026-10-22-anthropics-knowledge-work-plugins-followup",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "community",
+    "title": "[続報] anthropics/knowledge-work-plugins — Python Trending 2日目継続",
+    "summary": "昨日初登場した Anthropic 公式 Claude Cowork 向けプラグイン集が引き続きトレンド入り。★31,165、+382。",
+    "url": "https://github.com/anthropics/knowledge-work-plugins",
+    "related_date": "2026-10-21",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "anthropic",
+      "claude-cowork",
+      "plugins",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "id": "2026-10-22-tashfeenahmed-freellmapi",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "tashfeenahmed/freellmapi — 無料 LLM API 統合ルーター",
+    "summary": "多数の無料 LLM プロバイダーへの単一 /v1 エンドポイント。フェイルオーバー・暗号化キー対応。★38,936、+684。",
+    "url": "https://github.com/tashfeenahmed/freellmapi",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "llm",
+      "api",
+      "router",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "id": "2026-10-22-cline-cline",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "cline/cline — 自律型コーディングエージェント",
+    "summary": "SDK・IDE 拡張・CLI 形態で提供される自律型コーディングエージェント。★70,729、+410。",
+    "url": "https://github.com/cline/cline",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "coding-agent",
+      "sdk",
+      "ide",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "id": "2026-10-22-koala73-worldmonitor",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "koala73/worldmonitor — AI ニュース集約・地政学モニタリング",
+    "summary": "AI による地政学ニュース集約とリアルタイムグローバルダッシュボード。★89,092、+141。",
+    "url": "https://github.com/koala73/worldmonitor",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "ai-news",
+      "geopolitical",
+      "dashboard",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "id": "2026-10-22-itzcrazykns-vane",
+    "type": "new",
+    "vendor": "Community",
+    "section": "community",
+    "title": "ItzCrazyKns/Vane — AI 搭載型回答エンジン",
+    "summary": "AI 搭載型回答エンジン。★37,604、+107。",
+    "url": "https://github.com/ItzCrazyKns/Vane",
+    "importance": "minor",
+    "tags": [
+      "github-trending",
+      "ai-answer-engine",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "id": "2026-10-22-stablyai-orca-100k",
+    "type": "followup",
+    "vendor": "Community",
+    "section": "community",
+    "title": "[続報 8日目] stablyai/orca — ★100k 大台突破 (★101,180)",
+    "summary": "昨日 99,676 star から本日 +1,543 で ★100k を突破 (★101,180)。TypeScript Trending 首位継続 8日目。",
+    "url": "https://github.com/stablyai/orca",
+    "related_date": "2026-10-15",
+    "importance": "highlight",
+    "tags": [
+      "github-trending",
+      "coding-agent",
+      "milestone",
+      "100k-stars",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "id": "2026-10-22-graphify-labs-graphify",
+    "type": "followup",
+    "vendor": "Community",
+    "section": "community",
+    "title": "[続報] Graphify-Labs/graphify — Python Trending 高水準継続",
+    "summary": "コードベースを知識グラフ化するツール。本日 +1,434 stars (★131,573) と高水準を継続。",
+    "url": "https://github.com/Graphify-Labs/graphify",
+    "related_date": "2026-10-19",
+    "importance": "standard",
+    "tags": [
+      "github-trending",
+      "knowledge-graph",
+      "code-tools",
+      "ai-agent",
+      "python"
+    ]
+  },
+  {
     "date": "2026-10-21",
     "id": "2026-10-21-anthropic-no-update",
     "type": "no-update",
