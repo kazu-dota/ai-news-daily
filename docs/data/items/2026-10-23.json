@@ -1,0 +1,192 @@
+{
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T08:15:42+09:00",
+  "sources_checked": 26,
+  "sources_failed": 20,
+  "items": [
+    {
+      "id": "2026-10-23-anthropic-agent-skills-aaif",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Agent Skills 標準を Agentic AI Foundation (AAIF) に寄贈",
+      "summary": "MCP に続く2本目のオープン標準寄贈。70+プラットフォーム統合・累計約2億8,000万インストール済みの標準が Linux Foundation 傘下でオープンガバナンスへ移行。",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "importance": "highlight",
+      "tags": ["agent-skills", "aaif", "open-standard", "linux-foundation", "anthropic", "mcp"]
+    },
+    {
+      "id": "2026-10-23-anthropic-life-sciences-program",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "ライフサイエンス向け招待研究者プログラム (Guest Investigators) 公募開始",
+      "summary": "学術・非営利・政府研究者を対象に8〜12週間の共同研究。創薬・計算分子生物学・臨床科学などが対象。Claude 無償利用・成果物はオープン公開。",
+      "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+      "importance": "highlight",
+      "tags": ["life-sciences", "research", "anthropic", "academic", "drug-discovery"]
+    },
+    {
+      "id": "2026-10-23-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-23-google-no-update",
+      "type": "no-update",
+      "vendor": "Google / Google DeepMind",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-23-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-23-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-23-stablyai-orca-day9",
+      "type": "followup",
+      "vendor": "stablyai",
+      "section": "community",
+      "title": "[続報 Day 9] stablyai/orca — ★100k 突破後も成長継続 (★102,709, +1,694)",
+      "summary": "9日連続 TypeScript Trending 首位をキープ。★100k 突破翌日も +1,694 stars と高水準を維持。",
+      "url": "https://github.com/stablyai/orca",
+      "related_date": "2026-10-15",
+      "importance": "standard",
+      "tags": ["github-trending", "typescript", "coding-agent", "fleet-management"]
+    },
+    {
+      "id": "2026-10-23-firecrawl-firecrawl",
+      "type": "new",
+      "vendor": "firecrawl",
+      "section": "community",
+      "title": "firecrawl/firecrawl — AI エージェント向け Web データ供給 OSS が Trending 2位 (★194,293, +455)",
+      "summary": "AI エージェントの調査・情報収集フェーズに必要な Web データを構造化して供給する大型 OSS。",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "importance": "standard",
+      "tags": ["github-trending", "typescript", "web-data", "ai-agent", "rag"]
+    },
+    {
+      "id": "2026-10-23-genspark-ai-genoffice",
+      "type": "new",
+      "vendor": "Genspark",
+      "section": "community",
+      "title": "genspark-ai/genoffice 初登場 — Genspark が AI 組み込みオフィスソフトを OSS 公開 (★10,529, +191)",
+      "summary": "Claude Code / Codex / Cursor 対応 CLI スキル付きの AI オフィスソフト OSS。Word/Excel 代替として agent から直接 Office ファイルを編集可能。",
+      "url": "https://github.com/genspark-ai/genoffice",
+      "importance": "highlight",
+      "tags": ["github-trending", "typescript", "office-suite", "ai-agent", "genspark"]
+    },
+    {
+      "id": "2026-10-23-twentyhq-twenty",
+      "type": "new",
+      "vendor": "twenty",
+      "section": "community",
+      "title": "twentyhq/twenty — AI 対応オープンソース Salesforce 代替 CRM (★59,534, +713)",
+      "summary": "AI 活用を前提に設計された OSS CRM。Salesforce 代替として ★59k に成長、本日 TypeScript Trending 初登場。",
+      "url": "https://github.com/twentyhq/twenty",
+      "importance": "standard",
+      "tags": ["github-trending", "typescript", "crm", "salesforce-alternative", "ai"]
+    },
+    {
+      "id": "2026-10-23-tashfeenahmed-freellmapi",
+      "type": "followup",
+      "vendor": "tashfeenahmed",
+      "section": "community",
+      "title": "[続報 Day 2] tashfeenahmed/freellmapi — 無料 LLM API 統合ルーター (★39,576, +632)",
+      "summary": "多数の無料 LLM プロバイダーへの単一 /v1 エンドポイント。前日(+684)から連続 Trending。",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "related_date": "2026-10-22",
+      "importance": "minor",
+      "tags": ["github-trending", "typescript", "llm-router", "free-llm"]
+    },
+    {
+      "id": "2026-10-23-bowenliang123-dsh-context",
+      "type": "new",
+      "vendor": "bowenliang123",
+      "section": "community",
+      "title": "bowenliang123/dsh-context — DeepSeek Harness コンテキスト可視化プラグイン (★3,396, +321)",
+      "summary": "AI コンテキストの構成・変化・マルチエージェント間コンテキストを可視化・管理する DeepSeek Harness プラグイン。",
+      "url": "https://github.com/bowenliang123/dsh-context",
+      "importance": "minor",
+      "tags": ["github-trending", "typescript", "deepseek", "context", "plugin"]
+    },
+    {
+      "id": "2026-10-23-graphify-labs-graphify-day5",
+      "type": "followup",
+      "vendor": "Graphify-Labs",
+      "section": "community",
+      "title": "[続報 Day 5] Graphify-Labs/graphify — コードベース→ナレッジグラフ変換 (★132,897, +1,407)",
+      "summary": "5日連続で +1,000 超を維持。Claude Code / Cursor / Codex / Gemini CLI 対応。",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "related_date": "2026-10-19",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "knowledge-graph", "codebase", "rag"]
+    },
+    {
+      "id": "2026-10-23-berriai-litellm",
+      "type": "new",
+      "vendor": "BerriAI",
+      "section": "community",
+      "title": "BerriAI/litellm — 100+ LLM API 対応統合ゲートウェイ (★61,836, +101)",
+      "summary": "100 以上の LLM プロバイダーを単一 Python SDK で呼び出せる AI ゲートウェイ。本日 Python Trending 初登場。",
+      "url": "https://github.com/BerriAI/litellm",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "llm-gateway", "api", "multi-provider"]
+    },
+    {
+      "id": "2026-10-23-cloudflare-security-audit-skill-day3",
+      "type": "followup",
+      "vendor": "Cloudflare",
+      "section": "community",
+      "title": "[続報 Day 3] cloudflare/security-audit-skill — +2,979 stars に急加速 (★39,451)",
+      "summary": "初登場(2026-10-21, +1,680)から3日で大幅増。コーディングエージェント向けセキュリティ監査スキルへの需要が加速している。",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "related_date": "2026-10-21",
+      "importance": "highlight",
+      "tags": ["github-trending", "javascript", "security", "audit", "cloudflare", "agent-skill"]
+    },
+    {
+      "id": "2026-10-23-dietrichgebert-ponytail-day3",
+      "type": "followup",
+      "vendor": "DietrichGebert",
+      "section": "community",
+      "title": "[続報 Day 3] DietrichGebert/ponytail — 「コードを書かない原則」AI エージェントフレームワーク (★173,397, +1,949)",
+      "summary": "3日連続で高水準の成長継続。AI エージェントが新コード生成前に既存コードで代替できないか検討する設計。",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "related_date": "2026-10-21",
+      "importance": "standard",
+      "tags": ["github-trending", "javascript", "no-code-principle", "ai-agent", "framework"]
+    },
+    {
+      "id": "2026-10-23-vllm-project-vllm-day2",
+      "type": "followup",
+      "vendor": "vllm-project",
+      "section": "community",
+      "title": "[続報 Day 2] vllm-project/vllm — 高スループット LLM 推論エンジン (★95,148, +469)",
+      "summary": "PagedAttention ベースの LLM 推論・サービングエンジン。前日(+439)から継続 Trending。",
+      "url": "https://github.com/vllm-project/vllm",
+      "related_date": "2026-10-22",
+      "importance": "minor",
+      "tags": ["github-trending", "python", "llm-inference", "vllm", "serving"]
+    },
+    {
+      "id": "2026-10-23-hkuds-vibe-trading",
+      "type": "new",
+      "vendor": "HKUDS",
+      "section": "community",
+      "title": "HKUDS/Vibe-Trading — AI 搭載個人取引エージェント (Python, ★36,331, +166)",
+      "summary": "AI を活用した個人向け取引エージェント。本日 Python Trending 初登場。",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "importance": "minor",
+      "tags": ["github-trending", "python", "trading", "ai-agent", "finance"]
+    }
+  ]
+}
