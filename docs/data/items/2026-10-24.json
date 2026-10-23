@@ -1,0 +1,222 @@
+{
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T08:14:58+09:00",
+  "sources_checked": 26,
+  "sources_failed": 19,
+  "items": [
+    {
+      "id": "2026-10-24-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-24-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-24-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-24-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-24-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-24-vincentwei1021-video-shotcraft",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "Vincentwei1021/video-shotcraft 初登場 — Claude Code/Codex 向け AI 動画制作スキル",
+      "summary": "Remotion を使い Claude Code/Codex 上で製品動画を自動生成するスキル。TypeScript Trending に初登場 (★13,235, +262 today)。",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "importance": "highlight",
+      "tags": ["github-trending", "claude-code", "video", "codex", "typescript"]
+    },
+    {
+      "id": "2026-10-24-snailsploit-claude-red",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "SnailSploit/Claude-Red 初登場 — Claude 向けオフェンシブセキュリティスキル集",
+      "summary": "ペネトレーションテスト・脆弱性調査向け Claude 専用セキュリティスキルコレクション。Python Trending 初登場 (★8,439, +209)。",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "importance": "highlight",
+      "tags": ["github-trending", "claude", "security", "offensive", "python"]
+    },
+    {
+      "id": "2026-10-24-graphify-labs-graphify-day6",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 6] Graphify-Labs/graphify — +1,328 stars 高成長6日目継続",
+      "summary": "コードベース・ドキュメントをナレッジグラフ化するツール。6日連続で高成長を維持 (★133,887, +1,328)。",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "related_date": "2026-10-19",
+      "importance": "highlight",
+      "tags": ["github-trending", "knowledge-graph", "python", "rag"]
+    },
+    {
+      "id": "2026-10-24-luongnv89-claude-howto-day3",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 3] luongnv89/claude-howto — +1,168 stars で Claude Code 実践ガイドへの高い関心継続",
+      "summary": "Claude Code の実例中心ガイドリポジトリが3日連続で高い注目を集める (★43,988, +1,168)。",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "related_date": "2026-10-22",
+      "importance": "highlight",
+      "tags": ["github-trending", "claude-code", "python", "guide"]
+    },
+    {
+      "id": "2026-10-24-stablyai-orca-day10",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 10] stablyai/orca — ★100k 突破後も成長継続",
+      "summary": "★100k 突破後も +1,085 stars と安定した需要が続き、10日連続 TypeScript Trending (★103,811)。",
+      "url": "https://github.com/stablyai/orca",
+      "related_date": "2026-10-15",
+      "importance": "standard",
+      "tags": ["github-trending", "typescript", "coding-agent", "fleet-management"]
+    },
+    {
+      "id": "2026-10-24-liguobao-ds-harness-remote",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "liguobao/ds-harness-remote 初登場 — DeepSeek Harness の暗号化 P2P リモートアクセス",
+      "summary": "DeepSeek Harness/CodeX にマルチデバイスから E2E 暗号化 P2P でリモートアクセスするツール。TypeScript Trending に初登場 (★798, +331)。",
+      "url": "https://github.com/liguobao/ds-harness-remote",
+      "importance": "standard",
+      "tags": ["github-trending", "typescript", "deepseek", "remote-access", "p2p"]
+    },
+    {
+      "id": "2026-10-24-firecrawl-firecrawl-day2",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 2] firecrawl/firecrawl — AI エージェント向け Web データ供給フレームワーク",
+      "summary": "AI エージェントが Web から構造化データを取得するためのツール。TypeScript Trending 2日目 (★194,672, +431)。",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "related_date": "2026-10-23",
+      "importance": "standard",
+      "tags": ["github-trending", "typescript", "web-scraping", "agent"]
+    },
+    {
+      "id": "2026-10-24-genspark-ai-genoffice-day2",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 2] genspark-ai/genoffice — AI 組み込みオフィスソフト OSS",
+      "summary": "Genspark の AI 組み込みオープンソースオフィスソフト。TypeScript Trending 2日目 (★10,655, +152)。",
+      "url": "https://github.com/genspark-ai/genoffice",
+      "related_date": "2026-10-23",
+      "importance": "standard",
+      "tags": ["github-trending", "typescript", "office", "ai", "open-source"]
+    },
+    {
+      "id": "2026-10-24-openhands-openhands",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "OpenHands/OpenHands — AI 駆動型ソフトウェア開発エージェント",
+      "summary": "AI がコード生成・テスト・デプロイを自律的に行うソフトウェア開発エージェント。TypeScript Trending にランクイン (★91,678, +102)。",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "importance": "standard",
+      "tags": ["github-trending", "typescript", "coding-agent", "software-development"]
+    },
+    {
+      "id": "2026-10-24-bowenliang123-dsh-context-day2",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 2] bowenliang123/dsh-context — DeepSeek Harness コンテキスト可視化プラグイン",
+      "summary": "DeepSeek Harness のコンテキスト状態を可視化・管理するプラグイン。TypeScript Trending 2日目 (★3,476, +83)。",
+      "url": "https://github.com/bowenliang123/dsh-context",
+      "related_date": "2026-10-23",
+      "importance": "minor",
+      "tags": ["github-trending", "typescript", "deepseek", "context"]
+    },
+    {
+      "id": "2026-10-24-openbmb-voxcpm",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "OpenBMB/VoxCPM 初登場 — トークナイザー不要・多言語 TTS",
+      "summary": "トークナイザーなしで 600+ 言語対応の音声合成を実現するモデル。声のデザイン・ボイスクローン対応 (★40,233, +144)。",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "tts", "voice-cloning", "multilingual"]
+    },
+    {
+      "id": "2026-10-24-virgiliojr94-book-to-skill",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "virgiliojr94/book-to-skill 初登場 — 技術書 PDF を Claude Code スキルに変換",
+      "summary": "技術書 PDF を自動解析して Claude Code スキルとして利用可能にするツール。Python Trending 初登場 (★35,873, +139)。",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "claude-code", "skills", "pdf"]
+    },
+    {
+      "id": "2026-10-24-baidu-unlimited-ocr",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "baidu/Unlimited-OCR 初登場 — 長文書の一撃 OCR 解析",
+      "summary": "長尺ドキュメントを一度のプロンプトで OCR 解析・構造化するツール。Baidu が公開し Python Trending に初登場 (★28,287, +93)。",
+      "url": "https://github.com/baidu/Unlimited-OCR",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "ocr", "document-parsing"]
+    },
+    {
+      "id": "2026-10-24-anil-matcha-open-duet",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "Anil-matcha/open-duet 初登場 — Claude Duet のセルフホスト型 OSS 代替",
+      "summary": "Claude Duet 相当の機能をセルフホストできるオープンソース実装。行動実行前に承認ステップ付き (★6,108, +68)。",
+      "url": "https://github.com/Anil-matcha/open-duet",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "claude", "open-source", "self-hosted"]
+    },
+    {
+      "id": "2026-10-24-anthropics-knowledge-work-plugins-day4",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "[続報 Day 4] anthropics/knowledge-work-plugins — Anthropic 公式 Cowork プラグイン集",
+      "summary": "Anthropic 公式の Claude Cowork 向け知識労働者用プラグイン集。4日目も +643 stars と高い需要継続 (★32,188)。",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "related_date": "2026-10-21",
+      "importance": "standard",
+      "tags": ["github-trending", "anthropic", "python", "plugins", "cowork"]
+    },
+    {
+      "id": "2026-10-24-vllm-project-vllm-day3",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 3] vllm-project/vllm — 高スループット LLM 推論エンジン",
+      "summary": "PagedAttention ベースの高スループット・省メモリ LLM 推論エンジン。Python Trending 3日目 (★95,246, +111)。",
+      "url": "https://github.com/vllm-project/vllm",
+      "related_date": "2026-10-22",
+      "importance": "minor",
+      "tags": ["github-trending", "python", "llm", "inference", "vllm"]
+    }
+  ]
+}
