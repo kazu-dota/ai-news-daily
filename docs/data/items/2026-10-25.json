@@ -1,0 +1,244 @@
+{
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T08:14:00+09:00",
+  "sources_checked": 13,
+  "sources_failed": 8,
+  "items": [
+    {
+      "id": "2026-10-25-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-25-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-25-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-25-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-25-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-25-nvidia-openShell",
+      "type": "new",
+      "vendor": "NVIDIA",
+      "section": "community",
+      "title": "NVIDIA/OpenShell 初登場 — 自律 AI エージェント向けセキュア Rust ランタイム",
+      "summary": "NVIDIA が自律 AI エージェント用のセキュアでプライベートな Rust 製実行環境を OSS 公開。グローバル Trending に初登場 (Rust, ★19,457, +893 today)。",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "importance": "highlight",
+      "tags": ["github-trending", "nvidia", "agent-runtime", "rust", "security"]
+    },
+    {
+      "id": "2026-10-25-anthropics-sandbox-runtime",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "anthropics/sandbox-runtime 初登場 — AI エージェント向け OS レベルサンドボックス",
+      "summary": "Anthropic が AI エージェントのファイルシステム・ネットワークアクセスをコンテナなしで制限する OS レベルサンドボックスを公開。TypeScript Trending 初登場 (★6,459, +592 today)。",
+      "url": "https://github.com/anthropics/sandbox-runtime",
+      "importance": "highlight",
+      "tags": ["github-trending", "anthropic", "sandbox", "agent-security", "typescript"]
+    },
+    {
+      "id": "2026-10-25-cloudflare-security-audit-skill-followup",
+      "type": "followup",
+      "vendor": "Cloudflare",
+      "section": "community",
+      "title": "[続報] cloudflare/security-audit-skill — +2,271 stars でグローバル Trending 首位に返り咲き",
+      "summary": "2026-10-21 初登場のコーディングエージェント向けセキュリティ監査スキルが本日 +2,271 stars と再加速し、グローバル Trending トップに返り咲き (JavaScript, ★44,451)。",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "related_date": "2026-10-21",
+      "importance": "highlight",
+      "tags": ["github-trending", "cloudflare", "security", "coding-agent", "javascript"]
+    },
+    {
+      "id": "2026-10-25-heygen-com-hyperframes",
+      "type": "new",
+      "vendor": "HeyGen",
+      "section": "community",
+      "title": "heygen-com/hyperframes 初登場 — AI エージェント向け HTML→動画変換ツール",
+      "summary": "HTML を書くと動画がレンダリングされる AI エージェント向けフレームワーク。HeyGen 製で ★71k の大型プロジェクトが TypeScript Trending に初登場 (★71,465, +777 today)。",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "importance": "highlight",
+      "tags": ["github-trending", "heygen", "video", "agent", "typescript"]
+    },
+    {
+      "id": "2026-10-25-snailsploit-claude-red-day2",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 2] SnailSploit/Claude-Red — star 増加が +209 → +770 に急加速",
+      "summary": "Claude 専用オフェンシブセキュリティスキル集。初登場翌日に 1日の star 増加が約3.7倍に急増 (Python, ★8,836, +770 today)。",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "related_date": "2026-10-24",
+      "importance": "highlight",
+      "tags": ["github-trending", "claude", "security", "offensive", "python"]
+    },
+    {
+      "id": "2026-10-25-thedotmack-claude-mem",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "thedotmack/claude-mem — AI エージェントのセッション間永続メモリ",
+      "summary": "AI エージェントが複数セッションにまたがってコンテキストを引き継ぐための持続的メモリシステム。★102k 超の大型プロジェクトが TypeScript Trending に初登場 (★102,815, +274 today)。",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "importance": "standard",
+      "tags": ["github-trending", "claude", "memory", "agent", "typescript"]
+    },
+    {
+      "id": "2026-10-25-basketikun-infinite-canvas",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "basketikun/infinite-canvas — AI アシスト付きオープンソース無限キャンバス",
+      "summary": "AI 支援による創作・設計作業向けのオープンソース無限キャンバス。TypeScript Trending 初登場 (★9,002, +549 today)。",
+      "url": "https://github.com/basketikun/infinite-canvas",
+      "importance": "standard",
+      "tags": ["github-trending", "ai-creative", "canvas", "typescript"]
+    },
+    {
+      "id": "2026-10-25-makecindy-cindy",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "makecindy/cindy — セットアップ不要のオープンソース AI エージェント",
+      "summary": "すぐに使える状態で配布される汎用オープンソース AI エージェント。TypeScript Trending 初登場 (★4,068, +471 today)。",
+      "url": "https://github.com/makecindy/cindy",
+      "importance": "standard",
+      "tags": ["github-trending", "ai-agent", "open-source", "typescript"]
+    },
+    {
+      "id": "2026-10-25-pbakaus-impeccable",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "pbakaus/impeccable — AI ツールのデザイン能力を引き上げるデザイン言語",
+      "summary": "AI ツールがデザインタスクをより正確にこなせるようにするための設計言語。Rust 製 ★86k 大型プロジェクトがグローバル Trending 初登場 (Rust, ★86,364, +733 today)。",
+      "url": "https://github.com/pbakaus/impeccable",
+      "importance": "standard",
+      "tags": ["github-trending", "design", "ai-tools", "rust"]
+    },
+    {
+      "id": "2026-10-25-tashfeenahmed-freellmapi-day4",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 4] tashfeenahmed/freellmapi — 無料 LLM API ルーター、4日連続高需要",
+      "summary": "多数の無料 LLM プロバイダーへの単一 /v1 エンドポイントルーター。4日連続でトレンド入り (TypeScript, ★40,934, +723 today)。",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "related_date": "2026-10-22",
+      "importance": "standard",
+      "tags": ["github-trending", "llm", "api", "free", "typescript"]
+    },
+    {
+      "id": "2026-10-25-nutlope-hallmark",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "Nutlope/hallmark — Claude Code・Cursor・Codex 向けデザインスキル",
+      "summary": "コーディングエージェントが視覚的成果物を生成するための設計指針スキル。グローバル Trending 初登場 (CSS, ★32,091, +570 today)。",
+      "url": "https://github.com/Nutlope/hallmark",
+      "importance": "standard",
+      "tags": ["github-trending", "design-skill", "claude-code", "cursor", "css"]
+    },
+    {
+      "id": "2026-10-25-vectorize-io-hindsight",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "vectorize-io/hindsight — 時間とともに学習するエージェント記憶システム",
+      "summary": "利用を重ねるごとに学習・精緻化されていくエージェント向け記憶システム。Python Trending 初登場 (Python, ★53,436, +342 today)。",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "importance": "standard",
+      "tags": ["github-trending", "agent-memory", "python", "rag"]
+    },
+    {
+      "id": "2026-10-25-bendlang-bend",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "bendlang/bend — AI 生成コードの誤りをプルーフで防ぐ Bend 2",
+      "summary": "AI が生成したコードの誤りを型システムのプルーフで自動ブロックすることを設計原則とした新言語。TypeScript Trending 初登場 (★24,113, +113 today)。",
+      "url": "https://github.com/bendlang/bend",
+      "importance": "minor",
+      "tags": ["github-trending", "programming-language", "ai-code-safety", "typescript"]
+    },
+    {
+      "id": "2026-10-25-anthropics-knowledge-work-plugins-day5",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "[続報 Day 5] anthropics/knowledge-work-plugins — 5日連続安定した需要",
+      "summary": "Anthropic 公式 Claude Cowork 向けナレッジワーカープラグイン集が5日連続でトレンド入り (Python, ★32,612, +598 today)。",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "related_date": "2026-10-21",
+      "importance": "minor",
+      "tags": ["github-trending", "anthropic", "claude-cowork", "plugins", "python"]
+    },
+    {
+      "id": "2026-10-25-luongnv89-claude-howto-day4",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 4] luongnv89/claude-howto — Claude Code ガイド4日連続",
+      "summary": "Claude Code の実例中心ガイド。4日連続でトレンド入り (Python, ★44,517, +442 today)。",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "related_date": "2026-10-22",
+      "importance": "minor",
+      "tags": ["github-trending", "claude-code", "guide", "python"]
+    },
+    {
+      "id": "2026-10-25-tauricresearch-tradingagents",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報] TauricResearch/TradingAgents — マルチエージェント金融取引フレームワーク継続",
+      "summary": "マルチエージェント LLM 金融取引研究フレームワーク。安定した需要が続く (Python, ★113,663, +307 today)。",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "related_date": "2026-10-19",
+      "importance": "minor",
+      "tags": ["github-trending", "trading", "multi-agent", "finance", "python"]
+    },
+    {
+      "id": "2026-10-25-vincentwei1021-video-shotcraft-day2",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 2] Vincentwei1021/video-shotcraft — Claude Code/Codex 向け AI 動画スキル継続",
+      "summary": "Claude Code / Codex 向け AI 動画制作スキル。2日目も TypeScript Trending 継続 (★13,422, +198 today)。",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "related_date": "2026-10-24",
+      "importance": "minor",
+      "tags": ["github-trending", "claude-code", "video", "codex", "typescript"]
+    },
+    {
+      "id": "2026-10-25-agentskills-agentskills",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "[続報] agentskills/agentskills — AAIF 寄贈後の Agent Skills 公式 OSS が Python Trending に",
+      "summary": "2026-10-23 に Anthropic が AAIF に寄贈した Agent Skills 標準の公式仕様リポジトリが Python Trending に登場 (★26,571, +64 today)。",
+      "url": "https://github.com/agentskills/agentskills",
+      "related_date": "2026-10-23",
+      "importance": "minor",
+      "tags": ["github-trending", "agent-skills", "aaif", "anthropic", "python"]
+    }
+  ]
+}
