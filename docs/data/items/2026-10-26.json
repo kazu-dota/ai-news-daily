@@ -1,0 +1,324 @@
+{
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T08:14:39+09:00",
+  "sources_checked": 8,
+  "sources_failed": 19,
+  "items": [
+    {
+      "id": "2026-10-26-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-26-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-26-google-no-update",
+      "type": "no-update",
+      "vendor": "Google / Google DeepMind",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-26-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-26-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-26-google-gemini-gemini-cli",
+      "type": "new",
+      "vendor": "Google",
+      "section": "community",
+      "title": "google-gemini/gemini-cli — Google 公式 Gemini ターミナル AI エージェント CLI 初登場",
+      "summary": "Google が Gemini をターミナルから操作するオープンソース AI エージェント CLI を公開。★108k の大型プロジェクトが TypeScript Trending 4位に初登場。",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "importance": "highlight",
+      "tags": ["gemini", "cli", "google", "agent", "terminal", "typescript"]
+    },
+    {
+      "id": "2026-10-26-cloudflare-security-audit-skill",
+      "type": "followup",
+      "vendor": "Cloudflare",
+      "section": "community",
+      "title": "[続報] cloudflare/security-audit-skill — +2,874 stars で再加速、★46,795 到達",
+      "summary": "初登場 (10-21) から1週間で +12,730 stars を超える急成長。コーディングエージェント向けセキュリティ監査スキルへの持続的な高関心。",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "related_date": "2026-10-21",
+      "importance": "highlight",
+      "tags": ["security", "cloudflare", "skills", "audit", "javascript"]
+    },
+    {
+      "id": "2026-10-26-experientiallabs-experiential",
+      "type": "new",
+      "vendor": "experientiallabs",
+      "section": "community",
+      "title": "experientiallabs/experiential — BYOK 対応・トラフィック自動学習 LLM ゲートウェイ 初登場",
+      "summary": "1000+ モデル対応のセルフホスト型 BYOK LLM ゲートウェイ。トラフィックから自動学習してコストを削減する機能が注目。+1,224 stars today。",
+      "url": "https://github.com/experientiallabs/experiential",
+      "importance": "highlight",
+      "tags": ["gateway", "byok", "llm", "self-hosted", "python", "cost-optimization"]
+    },
+    {
+      "id": "2026-10-26-aws-agent-toolkit-for-aws",
+      "type": "new",
+      "vendor": "AWS",
+      "section": "community",
+      "title": "aws/agent-toolkit-for-aws — AWS 公式 AI エージェント向け MCP サーバー・スキル・プラグインキット",
+      "summary": "AWS が AI エージェント向けの公式 MCP サーバー・スキル・プラグインを公開。Anthropic の Agent Skills エコシステムに AWS が正式参戦。",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "importance": "highlight",
+      "tags": ["aws", "mcp", "skills", "plugins", "python", "agent"]
+    },
+    {
+      "id": "2026-10-26-debpalash-voicestudio-return",
+      "type": "followup",
+      "vendor": "debpalash",
+      "section": "community",
+      "title": "[続報/復帰] debpalash/VoiceStudio — 6日間の圏外を経てグローバル Trending に復活",
+      "summary": "2026-10-20 に「終幕」と記録してから6日後に復活。圏外中も ★75k→★87k と+11k 伸長し、今日は +1,588 stars。",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "related_date": "2026-10-20",
+      "importance": "highlight",
+      "tags": ["voice", "tts", "local", "elevenlabs-alternative", "python"]
+    },
+    {
+      "id": "2026-10-26-moonshot-kimi-code",
+      "type": "new",
+      "vendor": "MoonshotAI",
+      "section": "community",
+      "title": "MoonshotAI/kimi-code — Moonshot AI の Kimi Code CLI 初登場",
+      "summary": "Moonshot AI が次世代エージェント向けコーディング CLI を公開。TypeScript Trending に初登場。",
+      "url": "https://github.com/MoonshotAI/kimi-code",
+      "importance": "standard",
+      "tags": ["moonshot", "kimi", "cli", "coding-agent", "typescript"]
+    },
+    {
+      "id": "2026-10-26-google-stitch-skills",
+      "type": "new",
+      "vendor": "Google",
+      "section": "community",
+      "title": "google-labs-code/stitch-skills — Google Stitch MCP サーバー向けエージェントスキルライブラリ",
+      "summary": "Google Labs が Stitch MCP サーバー向けのエージェントスキルライブラリを公開。スキルエコシステムが多ベンダー競争に発展。",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "importance": "standard",
+      "tags": ["google", "stitch", "mcp", "skills", "typescript"]
+    },
+    {
+      "id": "2026-10-26-jetbrains-thinkrail",
+      "type": "new",
+      "vendor": "JetBrains",
+      "section": "community",
+      "title": "JetBrains/thinkrail — JetBrains の vibe coding 向け軽量 IDE 初登場",
+      "summary": "JetBrains が pi エージェントと連携する vibe coding 向け軽量 IDE を公開。TypeScript Trending に初登場。",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "importance": "standard",
+      "tags": ["jetbrains", "ide", "vibe-coding", "typescript"]
+    },
+    {
+      "id": "2026-10-26-garrytan-gstack",
+      "type": "new",
+      "vendor": "garrytan",
+      "section": "community",
+      "title": "garrytan/gstack — 23ロールをカバーする Claude Code セットアップ集",
+      "summary": "CEO・デザイナー・QAなど23役割のツールを収録した大規模 Claude Code セットアップ。★137k のプロジェクトが TypeScript Trending に初登場。",
+      "url": "https://github.com/garrytan/gstack",
+      "importance": "standard",
+      "tags": ["claude-code", "setup", "agents", "typescript"]
+    },
+    {
+      "id": "2026-10-26-nightly-labs-openbot",
+      "type": "new",
+      "vendor": "nightly-labs",
+      "section": "community",
+      "title": "nightly-labs/openbot — Codex・Claude・Grok を束ねるローカルファースト AI ワークスペース",
+      "summary": "複数の AI チームメイト (Codex, Claude, Grok) を一元管理するローカルファーストのデスクトップアプリ。TypeScript Trending に初登場。",
+      "url": "https://github.com/nightly-labs/openbot",
+      "importance": "standard",
+      "tags": ["desktop", "local-first", "multi-agent", "typescript"]
+    },
+    {
+      "id": "2026-10-26-moeru-ai-airi",
+      "type": "new",
+      "vendor": "moeru-ai",
+      "section": "community",
+      "title": "moeru-ai/airi — 音声会話・ゲームプレイ対応セルフホスト AI コンパニオン",
+      "summary": "音声チャットと Minecraft などのゲームプレイに対応した ★50k のセルフホスト型 AI コンパニオン。TypeScript Trending 初登場。",
+      "url": "https://github.com/moeru-ai/airi",
+      "importance": "minor",
+      "tags": ["companion", "voice", "gaming", "self-hosted", "typescript"]
+    },
+    {
+      "id": "2026-10-26-makecindy-cindy-day2",
+      "type": "followup",
+      "vendor": "makecindy",
+      "section": "community",
+      "title": "[続報 Day 2] makecindy/cindy — 2日連続グローバル・TypeScript Trending",
+      "summary": "+677 stars で引き続き高い関心。すぐに使えるオープンソース AI エージェント。",
+      "url": "https://github.com/makecindy/cindy",
+      "related_date": "2026-10-25",
+      "importance": "minor",
+      "tags": ["agent", "open-source", "typescript"]
+    },
+    {
+      "id": "2026-10-26-anthropics-sandbox-runtime-day2",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "[続報 Day 2] anthropics/sandbox-runtime — 2日連続 TypeScript Trending",
+      "summary": "+199 stars で継続。Anthropic 製 OS レベルエージェントサンドボックス。",
+      "url": "https://github.com/anthropics/sandbox-runtime",
+      "related_date": "2026-10-25",
+      "importance": "minor",
+      "tags": ["sandbox", "anthropic", "typescript", "agent"]
+    },
+    {
+      "id": "2026-10-26-thedotmack-claude-mem-day2",
+      "type": "followup",
+      "vendor": "thedotmack",
+      "section": "community",
+      "title": "[続報 Day 2] thedotmack/claude-mem — 2日連続 TypeScript Trending",
+      "summary": "+302 stars で継続。セッション間コンテキスト永続化メモリシステム (★103k)。",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "related_date": "2026-10-25",
+      "importance": "minor",
+      "tags": ["memory", "context", "typescript", "agent"]
+    },
+    {
+      "id": "2026-10-26-tashfeenahmed-freellmapi-day5",
+      "type": "followup",
+      "vendor": "tashfeenahmed",
+      "section": "community",
+      "title": "[続報 Day 5] tashfeenahmed/freellmapi — 5日連続 TypeScript Trending",
+      "summary": "+670 stars (★41,566)。無料 LLM プロバイダー統合ルーター。",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "related_date": "2026-10-23",
+      "importance": "minor",
+      "tags": ["llm", "router", "free", "typescript"]
+    },
+    {
+      "id": "2026-10-26-basketikun-infinite-canvas-day2",
+      "type": "followup",
+      "vendor": "basketikun",
+      "section": "community",
+      "title": "[続報 Day 2] basketikun/infinite-canvas — 2日連続 TypeScript Trending",
+      "summary": "+148 stars。AI アシスト付き無限キャンバス。",
+      "url": "https://github.com/basketikun/infinite-canvas",
+      "related_date": "2026-10-25",
+      "importance": "minor",
+      "tags": ["canvas", "typescript", "ai-assisted"]
+    },
+    {
+      "id": "2026-10-26-agricidaniel-claude-seo",
+      "type": "new",
+      "vendor": "AgriciDaniel",
+      "section": "community",
+      "title": "AgriciDaniel/claude-seo — Claude Code 向け SEO 特化スキルセット",
+      "summary": "技術SEO・スキーマ・レポーティングをカバーするサブスキル/サブエージェント構成の Claude Code 向けSEOスキル集。Python Trending 初登場。",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "importance": "standard",
+      "tags": ["seo", "claude-code", "skills", "python"]
+    },
+    {
+      "id": "2026-10-26-browser-use-video-use",
+      "type": "new",
+      "vendor": "browser-use",
+      "section": "community",
+      "title": "browser-use/video-use — コーディングエージェントによる動画編集フレームワーク",
+      "summary": "コーディングエージェントを使った動画編集のための Python フレームワーク。Python Trending 初登場。",
+      "url": "https://github.com/browser-use/video-use",
+      "importance": "standard",
+      "tags": ["video", "coding-agent", "python"]
+    },
+    {
+      "id": "2026-10-26-hkuds-deeptutor",
+      "type": "new",
+      "vendor": "HKUDS",
+      "section": "community",
+      "title": "HKUDS/DeepTutor — 長期・個別化 AI チューター",
+      "summary": "利用を重ねるごとに個別化・深化していくパーソナライズド AI チューター。Python Trending 初登場。",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "importance": "standard",
+      "tags": ["education", "tutoring", "personalized", "python"]
+    },
+    {
+      "id": "2026-10-26-astrbotdevs-astrbot",
+      "type": "new",
+      "vendor": "AstrBotDevs",
+      "section": "community",
+      "title": "AstrBotDevs/AstrBot — IM プラットフォーム統合 AI エージェントフレームワーク",
+      "summary": "LINE・Discord などの IM プラットフォームと複数 LLM を統合する AI エージェント/アシスタントフレームワーク。Python Trending 初登場。",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "importance": "standard",
+      "tags": ["chatbot", "im", "agent", "python", "framework"]
+    },
+    {
+      "id": "2026-10-26-tauricresearch-tradingagents",
+      "type": "followup",
+      "vendor": "TauricResearch",
+      "section": "community",
+      "title": "[続報] TauricResearch/TradingAgents — 安定した成長を継続",
+      "summary": "+636 stars (★114,552)。マルチエージェント LLM 金融取引研究フレームワーク。",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "related_date": "2026-10-19",
+      "importance": "minor",
+      "tags": ["trading", "finance", "multi-agent", "python"]
+    },
+    {
+      "id": "2026-10-26-snailsploit-claude-red-day3",
+      "type": "followup",
+      "vendor": "SnailSploit",
+      "section": "community",
+      "title": "[続報 Day 3] SnailSploit/Claude-Red — 3日連続 Python Trending",
+      "summary": "+186 stars (★9,057)。Claude 向けオフェンシブセキュリティスキル集。",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "related_date": "2026-10-24",
+      "importance": "minor",
+      "tags": ["security", "offensive", "claude", "python"]
+    },
+    {
+      "id": "2026-10-26-nutlope-hallmark-day2",
+      "type": "followup",
+      "vendor": "Nutlope",
+      "section": "community",
+      "title": "[続報 Day 2] Nutlope/hallmark — +1,359 stars で2日連続グローバル Trending 2位",
+      "summary": "+1,359 stars (★33,667)。Claude Code・Cursor・Codex 向けデザインスキル。昨日から成長が加速。",
+      "url": "https://github.com/Nutlope/hallmark",
+      "related_date": "2026-10-25",
+      "importance": "standard",
+      "tags": ["design", "skills", "css", "claude-code"]
+    },
+    {
+      "id": "2026-10-26-pbakaus-impeccable-day2",
+      "type": "followup",
+      "vendor": "pbakaus",
+      "section": "community",
+      "title": "[続報 Day 2] pbakaus/impeccable — +1,113 stars で2日連続グローバル Trending",
+      "summary": "+1,113 stars (★87,629)。AI ツールの設計能力を引き上げるデザイン言語。",
+      "url": "https://github.com/pbakaus/impeccable",
+      "related_date": "2026-10-25",
+      "importance": "standard",
+      "tags": ["design", "language", "rust", "ai-tools"]
+    },
+    {
+      "id": "2026-10-26-pollen-robotics-microduck",
+      "type": "new",
+      "vendor": "pollen-robotics",
+      "section": "community",
+      "title": "pollen-robotics/microduck — Pollen Robotics 製ミニ二足歩行ダックロボット",
+      "summary": "小型二足歩行ロボット「microduck」のオープンソースコード。Rust 製で本日グローバル Trending 初登場 (+657 today)。",
+      "url": "https://github.com/pollen-robotics/microduck",
+      "importance": "minor",
+      "tags": ["robotics", "rust", "open-source"]
+    }
+  ]
+}
