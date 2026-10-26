@@ -1,0 +1,309 @@
+{
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T08:25:00+09:00",
+  "sources_checked": 7,
+  "sources_failed": 19,
+  "items": [
+    {
+      "id": "2026-10-27-anthropic-ipo-s1",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Anthropic、SEC に S-1 提出 — Nasdaq 上場 (ティッカー: ANT) を正式申請",
+      "summary": "Anthropic が Form S-1 を SEC に提出し IPO を申請。Nasdaq 上場予定、ティッカー \"ANT\"、主幹事は Goldman Sachs と Morgan Stanley。株式数・公開価格は未定。",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "importance": "highlight",
+      "tags": ["ipo", "anthropic", "stock", "nasdaq", "sec"]
+    },
+    {
+      "id": "2026-10-27-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-27-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-27-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-27-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-27-microsoft-skill-recorder",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "community",
+      "title": "microsoft/skill-recorder 初登場 — 作業セッション録画→スキル/オートメーション変換ツール",
+      "summary": "画面操作を録画し GitHub Copilot が解析して SKILL.md スキルまたはオートメーションを自動生成するデスクトップアプリ。Microsoft 製 Electron アプリとして OSS 公開。macOS / Windows 11 / Ubuntu 対応。",
+      "url": "https://github.com/microsoft/skill-recorder",
+      "importance": "highlight",
+      "tags": ["microsoft", "skill", "copilot", "automation", "electron", "typescript"]
+    },
+    {
+      "id": "2026-10-27-affaan-m-ecc",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "affaan-m/ECC 初登場 — 71 サブエージェント・311 スキル搭載エージェントハーネス最適化システム",
+      "summary": "Claude Code・Codex・Cursor 向けに 71 専門サブエージェント、311 スキル、97 スラッシュコマンドを統合。AgentShield セキュリティスキャナー内蔵。★289k +987 today。",
+      "url": "https://github.com/affaan-m/ECC",
+      "importance": "highlight",
+      "tags": ["agent", "claude-code", "codex", "cursor", "skills", "security", "optimization"]
+    },
+    {
+      "id": "2026-10-27-multica-ai-andrej-karpathy-skills",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "multica-ai/andrej-karpathy-skills 初登場 — Karpathy の LLM コーディング観察をもとにした CLAUDE.md",
+      "summary": "LLM の4つのコーディング落とし穴に対処する CLAUDE.md 一式。思い込み防止・最小限変更・外科的変更・検証可能な成功基準の4原則を実装。★224k +702 today。",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "importance": "highlight",
+      "tags": ["claude-code", "claude-md", "karpathy", "best-practices", "llm"]
+    },
+    {
+      "id": "2026-10-27-nvidia-skillspector",
+      "type": "new",
+      "vendor": "NVIDIA",
+      "section": "community",
+      "title": "NVIDIA/SkillSpector 初登場 — AI エージェントスキルのセキュリティスキャナー",
+      "summary": "Claude Code / Codex / MCP スキルを 17 カテゴリ・71 パターンで静的+LLM 解析検査。0〜100 リスクスコアと SAFE/CAUTION/DO NOT INSTALL を出力。MCP サーバーとして動作可能。",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "importance": "highlight",
+      "tags": ["security", "nvidia", "skills", "scanner", "mcp", "prompt-injection"]
+    },
+    {
+      "id": "2026-10-27-jetbrains-thinkrail",
+      "type": "followup",
+      "vendor": "JetBrains",
+      "section": "community",
+      "title": "[続報 Day 2] JetBrains/thinkrail — +1,156 stars で需要急拡大",
+      "summary": "前日 (+52) から大幅に増加し +1,156 stars。vibe coding 向け軽量 IDE への関心が急速に拡大。",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "related_date": "2026-10-26",
+      "importance": "standard",
+      "tags": ["ide", "jetbrains", "vibe-coding", "typescript"]
+    },
+    {
+      "id": "2026-10-27-makecindy-cindy",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 3] makecindy/cindy — +1,268 stars で3日連続トレンド",
+      "summary": "オープンソース AI エージェント、3日連続でグローバル&TypeScript Trending にランクイン。",
+      "url": "https://github.com/makecindy/cindy",
+      "related_date": "2026-10-25",
+      "importance": "standard",
+      "tags": ["agent", "open-source", "typescript"]
+    },
+    {
+      "id": "2026-10-27-ranxianglei-billion-context",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "ranxianglei/billion-context 初登場 — 長期セッション向けコンテキスト圧縮プラグイン",
+      "summary": "コンテキストウィンドウが小さいモデルの長期セッション向けにコンテキストを圧縮・再注入するプラグイン。",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "importance": "standard",
+      "tags": ["context", "compression", "plugin", "typescript"]
+    },
+    {
+      "id": "2026-10-27-thesysdev-openui",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "thesysdev/openui 初登場 — 生成 UI のオープン標準",
+      "summary": "AI による UI 生成のためのオープン標準仕様とリファレンス実装。コーディングエージェントの UI 出力品質向上を目的とする。",
+      "url": "https://github.com/thesysdev/openui",
+      "importance": "standard",
+      "tags": ["generative-ui", "open-standard", "typescript"]
+    },
+    {
+      "id": "2026-10-27-gitroomhq-postiz-app",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "gitroomhq/postiz-app 初登場 — エージェント駆動型 SNS 投稿スケジューラー",
+      "summary": "AI エージェントを組み込んだソーシャルメディア投稿スケジューリングツール。★38k +146 today。",
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "importance": "standard",
+      "tags": ["social-media", "scheduling", "agent", "typescript"]
+    },
+    {
+      "id": "2026-10-27-nightly-labs-openbot",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 2] nightly-labs/openbot — +312 stars で2日連続",
+      "summary": "Codex・Claude・Grok を束ねるローカルファースト AI チームデスクトップアプリ、2日連続トレンド。",
+      "url": "https://github.com/nightly-labs/openbot",
+      "related_date": "2026-10-26",
+      "importance": "minor",
+      "tags": ["desktop", "agent", "codex", "claude", "typescript"]
+    },
+    {
+      "id": "2026-10-27-thedotmack-claude-mem",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] thedotmack/claude-mem — +320 stars で継続",
+      "summary": "AI エージェントのセッション間永続メモリシステム、継続してトレンド入り。",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "related_date": "2026-10-25",
+      "importance": "minor",
+      "tags": ["memory", "persistence", "claude", "typescript"]
+    },
+    {
+      "id": "2026-10-27-garrytan-gstack",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] garrytan/gstack — +158 stars で継続",
+      "summary": "23ロールをカバーする Claude Code セットアップ集、継続してトレンド入り。",
+      "url": "https://github.com/garrytan/gstack",
+      "related_date": "2026-10-26",
+      "importance": "minor",
+      "tags": ["claude-code", "setup", "typescript"]
+    },
+    {
+      "id": "2026-10-27-panniantong-agent-reach",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] Panniantong/Agent-Reach — 5日ぶり復帰・+723 stars (★103k超)",
+      "summary": "API 費不要で SNS 等にアクセスできる AI エージェント CLI。★100k 超で5日ぶりにトレンド復帰。",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "related_date": "2026-10-22",
+      "importance": "standard",
+      "tags": ["agent", "social-media", "cli", "python"]
+    },
+    {
+      "id": "2026-10-27-alishahryar1-free-claude-code",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "Alishahryar1/free-claude-code 初登場 — Claude Code を無料で使う方法集",
+      "summary": "ターミナル・IDE・アプリ・スマートフォン・ブラウザで Claude Code 等を無料で使う方法をまとめた Python リポジトリ。★63k +358 today。",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "importance": "standard",
+      "tags": ["claude-code", "free", "guide", "python"]
+    },
+    {
+      "id": "2026-10-27-higgsfield-ai-skills",
+      "type": "new",
+      "vendor": "Higgsfield AI",
+      "section": "community",
+      "title": "higgsfield-ai/skills 初登場 — Higgsfield AI 公式スキルリポジトリ",
+      "summary": "Higgsfield AI が公開したスキルリポジトリ。+253 today で本日 Python Trending に初登場。",
+      "url": "https://github.com/higgsfield-ai/skills",
+      "importance": "minor",
+      "tags": ["skills", "higgsfield", "python"]
+    },
+    {
+      "id": "2026-10-27-tauricresearch-tradingagents",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] TauricResearch/TradingAgents — +1,376 stars で安定成長継続",
+      "summary": "マルチエージェント LLM 金融取引フレームワーク、★116k 超で安定した需要が続く。",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "related_date": "2026-10-20",
+      "importance": "minor",
+      "tags": ["trading", "finance", "multi-agent", "python"]
+    },
+    {
+      "id": "2026-10-27-debpalash-voicestudio",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] debpalash/VoiceStudio — +2,292 stars で復帰後も高水準継続",
+      "summary": "10-26 復帰後も +2,292 stars と高水準。ローカル音声クローン・文字起こし・吹き替えツール。★89k。",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "related_date": "2026-10-26",
+      "importance": "standard",
+      "tags": ["voice", "tts", "cloning", "python"]
+    },
+    {
+      "id": "2026-10-27-agrici-daniel-claude-seo",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 4] AgriciDaniel/claude-seo — +1,539 stars (4日連続)",
+      "summary": "Claude Code 向け SEO スキルセット、4日連続でトレンド入り。+1,539 today。",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "related_date": "2026-10-24",
+      "importance": "minor",
+      "tags": ["seo", "claude-code", "skills", "python"]
+    },
+    {
+      "id": "2026-10-27-astrbot-devs-astrbot",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 2] AstrBotDevs/AstrBot — +369 stars",
+      "summary": "IM + LLM 統合 AI エージェントフレームワーク、2日連続トレンド入り。",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "related_date": "2026-10-26",
+      "importance": "minor",
+      "tags": ["agent", "im", "llm", "python"]
+    },
+    {
+      "id": "2026-10-27-alchaincyf-huashu-design",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "alchaincyf/huashu-design 初登場 — HTML ネイティブな Claude Code / Codex 向けデザインスキル",
+      "summary": "Claude Code・Codex・Cursor 向け HTML ネイティブのデザインスキル。AI 出力の画質向上を目的とする。★26k +409 today。",
+      "url": "https://github.com/alchaincyf/huashu-design",
+      "importance": "standard",
+      "tags": ["design", "claude-code", "codex", "cursor", "html"]
+    },
+    {
+      "id": "2026-10-27-nutlope-hallmark",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 3] Nutlope/hallmark — +2,235 stars で3日連続グローバル Trending",
+      "summary": "コーディングエージェント向けデザインスキル、3日連続でグローバル Trending 上位。3日間累計 +4,109 stars。",
+      "url": "https://github.com/Nutlope/hallmark",
+      "related_date": "2026-10-25",
+      "importance": "standard",
+      "tags": ["design", "claude-code", "codex", "cursor", "css"]
+    },
+    {
+      "id": "2026-10-27-pbakaus-impeccable",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 3] pbakaus/impeccable — +1,551 stars で3日連続",
+      "summary": "AI ツールのデザイン能力を引き上げるデザイン言語・仕様、3日連続でグローバル Trending にランクイン。",
+      "url": "https://github.com/pbakaus/impeccable",
+      "related_date": "2026-10-25",
+      "importance": "standard",
+      "tags": ["design", "language", "rust"]
+    },
+    {
+      "id": "2026-10-27-pollen-robotics-microduck",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 2] pollen-robotics/microduck — +844 stars で2日連続",
+      "summary": "Pollen Robotics 製小型二足歩行ロボット microduck の OSS、2日連続グローバル Trending。",
+      "url": "https://github.com/pollen-robotics/microduck",
+      "related_date": "2026-10-26",
+      "importance": "minor",
+      "tags": ["robotics", "rust", "biped"]
+    }
+  ]
+}
