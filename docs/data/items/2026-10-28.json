@@ -1,0 +1,280 @@
+{
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T08:15:00+09:00",
+  "sources_checked": 8,
+  "sources_failed": 17,
+  "items": [
+    {
+      "id": "2026-10-28-anthropic-drug-dev",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Claude を薬剤開発に適用 — 6社との前臨床パートナーシップで具体的成果",
+      "summary": "CAR-T 部品70%短縮・文書審査89%削減・抗体結合力10倍向上などの前臨床成果。Mithril Medicine 買収も発表。",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "importance": "highlight",
+      "tags": ["life-sciences", "drug-development", "anthropic", "claude", "biotech"]
+    },
+    {
+      "id": "2026-10-28-anthropic-gsa",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "GSAとの連携拡大 — 米政府全レベルに40%割引、推定$10億削減",
+      "summary": "連邦・州・地方・部族・準州政府に40%割引。連邦機関利用が1年で20倍、既に500組織が活用中。",
+      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "importance": "highlight",
+      "tags": ["government", "partnership", "anthropic", "claude", "fedramp"]
+    },
+    {
+      "id": "2026-10-28-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-28-google-no-update",
+      "type": "no-update",
+      "vendor": "Google / Google DeepMind",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-28-microsoft-copilot-enterprise",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "200社超の調査: AI エージェント連携が企業の競争優位を生む",
+      "summary": "Microsoft Copilot ブログが企業の AI エージェント間知見共有に関する研究を公開。製品発表ではなく事例・調査報告。",
+      "url": "https://www.microsoft.com/en-us/copilot/blog/2026/10/27/the-ai-advantage-your-company-can-keep/",
+      "importance": "standard",
+      "tags": ["enterprise", "microsoft", "copilot", "agents", "research"]
+    },
+    {
+      "id": "2026-10-28-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-28-elayadesign-ai-design-skills",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "elayadesign/ai-design-skills 初登場 — グローバル Trending 首位のデザインスキル集",
+      "summary": "Claude Code・Cursor・Codex 等向けの再利用可能なデザインスキルコレクション。ランディングページ設計を中心に MIT ライセンスで公開。",
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "importance": "highlight",
+      "tags": ["design-skills", "github-trending", "claude-code", "cursor", "codex"]
+    },
+    {
+      "id": "2026-10-28-obra-superpowers",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "obra/superpowers 初登場 — Prime Radiant 作・★306k エージェントスキルフレームワーク",
+      "summary": "Jesse Vincent (Prime Radiant) が構築した TDD/仕様駆動のエージェントスキルフレームワーク。Claude Code・Codex・Cursor・Gemini CLI 等に対応。",
+      "url": "https://github.com/obra/superpowers",
+      "importance": "highlight",
+      "tags": ["agent-skills", "github-trending", "framework", "tdd", "claude-code"]
+    },
+    {
+      "id": "2026-10-28-cursor-plugins",
+      "type": "new",
+      "vendor": "Cursor",
+      "section": "community",
+      "title": "cursor/plugins 初登場 — Cursor 公式プラグイン仕様とマーケットプレイス",
+      "summary": "Cursor IDE の公式プラグイン仕様。SKILL.md・Cursor Rules・MCP サーバー定義を組み合わせた100以上のプラグインを収録。",
+      "url": "https://github.com/cursor/plugins",
+      "importance": "standard",
+      "tags": ["cursor", "plugins", "github-trending", "skills", "mcp"]
+    },
+    {
+      "id": "2026-10-28-video-db-call-md",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "video-db/call.md 初登場 — リアルタイム AI 会議録音・文字起こし・分析ツール",
+      "summary": "通話の前・中・後にリアルタイム AI を活用する会議管理ツール。",
+      "url": "https://github.com/video-db/call.md",
+      "importance": "minor",
+      "tags": ["meeting", "transcription", "github-trending", "typescript"]
+    },
+    {
+      "id": "2026-10-28-superdesigndev-treg",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "superdesigndev/treg 初登場 — エージェントツールのマーケットプレイス型ゲートウェイ",
+      "summary": "AI エージェントが利用するツールをマーケットプレイス形式で集中管理するゲートウェイ。",
+      "url": "https://github.com/superdesigndev/treg",
+      "importance": "standard",
+      "tags": ["agent-tools", "github-trending", "python", "marketplace"]
+    },
+    {
+      "id": "2026-10-28-rohitg00-ai-engineering",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "rohitg00/ai-engineering-from-scratch 初登場 — AI エンジニアリング入門リソース集",
+      "summary": "AI エンジニアリングをゼロから学ぶ包括的なリソース集。★74k の大型プロジェクトが初登場。",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "importance": "standard",
+      "tags": ["education", "ai-engineering", "github-trending", "python"]
+    },
+    {
+      "id": "2026-10-28-ayghri-i-have-adhd",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "ayghri/i-have-adhd 初登場 — ADHD フレンドリーな可読性最適化スキル",
+      "summary": "コーディングエージェントの出力を ADHD に配慮した読みやすさに最適化するスキル。★59k が初登場。",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "importance": "minor",
+      "tags": ["accessibility", "adhd", "skills", "github-trending", "python"]
+    },
+    {
+      "id": "2026-10-28-nutlope-hallmark-day4",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 4] Nutlope/hallmark — +2,859 stars で4日連続グローバル Trending 2位",
+      "summary": "4日目も +2,859 stars。初登場からの累計 +6,968 stars。AI コーディングツール向けデザインスキルへの持続的需要を示す。",
+      "url": "https://github.com/Nutlope/hallmark",
+      "related_date": "2026-10-25",
+      "importance": "standard",
+      "tags": ["design-skills", "github-trending", "css", "claude-code"]
+    },
+    {
+      "id": "2026-10-28-pbakaus-impeccable-day4",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 4] pbakaus/impeccable — +1,458 stars (Rust, ★90,453)",
+      "summary": "AI ツールのデザイン出力向上を目的としたデザイン言語・仕様。4日連続グローバル Trending。",
+      "url": "https://github.com/pbakaus/impeccable",
+      "related_date": "2026-10-25",
+      "importance": "minor",
+      "tags": ["design", "github-trending", "rust"]
+    },
+    {
+      "id": "2026-10-28-debpalash-voicestudio-return-day3",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 3 of return] debpalash/VoiceStudio — +2,601 stars、本日 Trending 最大の単日伸び",
+      "summary": "10/26 の復帰後3日連続で高成長。+2,601 は本日 Trending 全体での最大単日スター増加。",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "related_date": "2026-10-26",
+      "importance": "standard",
+      "tags": ["voice", "github-trending", "python", "open-source"]
+    },
+    {
+      "id": "2026-10-28-tauric-tradingagents",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] TauricResearch/TradingAgents — +1,702 stars、記録された単日最高を更新",
+      "summary": "マルチエージェント LLM 金融取引フレームワーク。本日の +1,702 は確認された中で最高の単日伸び。",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "related_date": "2026-10-22",
+      "importance": "standard",
+      "tags": ["finance", "trading", "agents", "github-trending", "python"]
+    },
+    {
+      "id": "2026-10-28-hkuds-deeptutor-day4",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 4] HKUDS/DeepTutor — +1,587 stars、初登場時の7倍超に急加速",
+      "summary": "個人化・長期 AI チューター。Day 1 +213 → Day 4 +1,587 と7倍以上の急加速を記録。",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "related_date": "2026-10-25",
+      "importance": "standard",
+      "tags": ["education", "ai-tutor", "github-trending", "python"]
+    },
+    {
+      "id": "2026-10-28-panniantong-agent-reach-day7",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 7] Panniantong/Agent-Reach — +1,623 stars で7日連続、記録更新",
+      "summary": "AI エージェント向け SNS/プラットフォームアクセス CLI。7日目で単日最高の +1,623 stars を記録。",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "related_date": "2026-10-22",
+      "importance": "standard",
+      "tags": ["agent-tools", "github-trending", "python"]
+    },
+    {
+      "id": "2026-10-28-nvidia-skillspector-day2",
+      "type": "followup",
+      "vendor": "NVIDIA",
+      "section": "community",
+      "title": "[続報 Day 2] NVIDIA/SkillSpector — +932 stars に急加速 (前日比4.6倍)",
+      "summary": "AI エージェントスキルのセキュリティスキャナー。前日 +203 → 本日 +932 と4.6倍の急加速。",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "related_date": "2026-10-27",
+      "importance": "standard",
+      "tags": ["security", "skills", "github-trending", "python", "nvidia"]
+    },
+    {
+      "id": "2026-10-28-makecindy-cindy-day4",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 4] makecindy/cindy — +1,446 stars (★7,433)",
+      "summary": "セットアップ不要のオープンソース AI エージェント。4日連続で高い成長が継続。",
+      "url": "https://github.com/makecindy/cindy",
+      "related_date": "2026-10-25",
+      "importance": "minor",
+      "tags": ["ai-agent", "github-trending", "typescript"]
+    },
+    {
+      "id": "2026-10-28-jetbrains-thinkrail-day3",
+      "type": "followup",
+      "vendor": "JetBrains",
+      "section": "community",
+      "title": "[続報 Day 3] JetBrains/thinkrail — +1,211 stars (★3,941)",
+      "summary": "vibe coding 向け軽量 IDE。3日連続で高い成長を維持。",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "related_date": "2026-10-26",
+      "importance": "minor",
+      "tags": ["ide", "vibe-coding", "github-trending", "typescript"]
+    },
+    {
+      "id": "2026-10-28-affaan-m-ecc-day2",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 2] affaan-m/ECC — +1,183 stars (★290,843)",
+      "summary": "71 サブエージェント・311 スキルのエージェントハーネス最適化システム。2日目も高成長継続。",
+      "url": "https://github.com/affaan-m/ECC",
+      "related_date": "2026-10-27",
+      "importance": "minor",
+      "tags": ["agent-harness", "github-trending", "javascript", "claude-code"]
+    },
+    {
+      "id": "2026-10-28-gitroomhq-postiz-day2",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 2] gitroomhq/postiz-app — +953 stars (★39,319)",
+      "summary": "エージェント駆動型 SNS スケジューラー。2日目も +953 stars と高水準を維持。",
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "related_date": "2026-10-27",
+      "importance": "minor",
+      "tags": ["social-media", "agents", "github-trending", "typescript"]
+    },
+    {
+      "id": "2026-10-28-papers-no-update",
+      "type": "no-update",
+      "vendor": null,
+      "section": "papers"
+    },
+    {
+      "id": "2026-10-28-media-no-update",
+      "type": "no-update",
+      "vendor": null,
+      "section": "media"
+    }
+  ]
+}
