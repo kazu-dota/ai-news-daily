@@ -1,0 +1,260 @@
+{
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T08:14:27+09:00",
+  "sources_checked": 21,
+  "sources_failed": 17,
+  "items": [
+    {
+      "id": "2026-10-30-anthropic-ai-for-science",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "AI for Science プログラムを大規模拡張 — 20以上の研究機関・財団と連携",
+      "summary": "米NSF・スローン財団など20以上の機関との連携で科学研究者への Claude 提供を機関規模に拡張。FlyWire・LEAP・gnomAD など著名プロジェクトが採択済み。",
+      "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+      "importance": "highlight",
+      "tags": ["science", "anthropic", "research", "program"]
+    },
+    {
+      "id": "2026-10-30-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-30-google-no-update",
+      "type": "no-update",
+      "vendor": "Google / Google DeepMind",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-30-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-30-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-30-github-pbakaus-impeccable",
+      "type": "followup",
+      "vendor": "Community",
+      "section": "community",
+      "title": "[続報 Day 6] pbakaus/impeccable — +2,881 stars で6日連続グローバル Trending 最上位",
+      "summary": "コーディングエージェント出力品質保証ツール。+2,881 stars で6日連続首位付近を維持 (Rust, ★95,229)。",
+      "url": "https://github.com/pbakaus/impeccable",
+      "importance": "highlight",
+      "related_date": "2026-10-25",
+      "tags": ["github-trending", "coding-agents", "design", "quality"]
+    },
+    {
+      "id": "2026-10-30-github-hkuds-deeptutor",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "HKUDS/DeepTutor — 生涯パーソナライズ型 AI 個別指導システム 初登場",
+      "summary": "継続学習アーキテクチャ採用の AI チューター（HKU 製）。+1,926 stars で急浮上 (Python, ★49,955)。",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "importance": "highlight",
+      "tags": ["github-trending", "education", "ai-tutor", "continual-learning"]
+    },
+    {
+      "id": "2026-10-30-github-obra-superpowers",
+      "type": "followup",
+      "vendor": "Community",
+      "section": "community",
+      "title": "[続報 Day 2] obra/superpowers — +1,037 stars",
+      "summary": "TDD 主導のエージェントスキルフレームワーク。2日連続 +1,000 超え (Shell, ★308,493)。",
+      "url": "https://github.com/obra/superpowers",
+      "importance": "standard",
+      "related_date": "2026-10-28",
+      "tags": ["github-trending", "agent-framework", "tdd"]
+    },
+    {
+      "id": "2026-10-30-github-milind-soni-openmausbot",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "milind-soni/OpenMausBot — Grok Bot のオープンソース代替・専用 VM 付き",
+      "summary": "Grok Bot 機能をセルフホストで再現。専用 VM でコード実行をサンドボックス化 (TypeScript, ★7,430, +1,190)。",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "importance": "standard",
+      "tags": ["github-trending", "grok", "bot", "open-source"]
+    },
+    {
+      "id": "2026-10-30-github-jetbrains-thinkrail",
+      "type": "followup",
+      "vendor": "Community",
+      "section": "community",
+      "title": "[続報 Day 5] JetBrains/thinkrail — vibe coding 向け軽量 IDE 5日連続",
+      "summary": "pi エージェント組み込み JetBrains 製軽量 IDE。+1,116 stars で5日連続トレンド入り (TypeScript, ★5,971)。",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "importance": "standard",
+      "related_date": "2026-10-26",
+      "tags": ["github-trending", "ide", "vibe-coding", "jetbrains"]
+    },
+    {
+      "id": "2026-10-30-github-elayadesign-ai-design-skills",
+      "type": "followup",
+      "vendor": "Community",
+      "section": "community",
+      "title": "[続報 Day 2] elayadesign/ai-design-skills — AI コーディングツール向けデザインスキル集",
+      "summary": "Claude Code・Cursor 向けデザイン指針スキル集。+1,178 stars で2日連続 +1,000 超え (★12,086)。",
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "importance": "standard",
+      "related_date": "2026-10-28",
+      "tags": ["github-trending", "design", "claude-code", "skills"]
+    },
+    {
+      "id": "2026-10-30-github-nightly-labs-openbot",
+      "type": "followup",
+      "vendor": "Community",
+      "section": "community",
+      "title": "[続報 Day 5] nightly-labs/openbot — ローカルファースト AI チームデスクトップ",
+      "summary": "Codex・Claude・Grok を一元管理するデスクトップ AI チームワーク環境。5日連続トレンド (TypeScript, ★3,847, +705)。",
+      "url": "https://github.com/nightly-labs/openbot",
+      "importance": "standard",
+      "related_date": "2026-10-26",
+      "tags": ["github-trending", "local-first", "ai-workspace", "desktop"]
+    },
+    {
+      "id": "2026-10-30-github-donchitos-game-studios",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "Donchitos/Claude-Code-Game-Studios — Claude Code で49エージェント・72スキルのゲーム開発スタジオ",
+      "summary": "Claude Code で AI エージェントチームがゲーム開発を自動化。49役割のサブエージェントと72スキルを搭載 (Shell, ★29,112, +538)。",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "importance": "standard",
+      "tags": ["github-trending", "claude-code", "game-dev", "agents"]
+    },
+    {
+      "id": "2026-10-30-github-rohitg00-ai-engineering",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "rohitg00/ai-engineering-from-scratch — AI エンジニアリング総合学習リソース",
+      "summary": "AI の学習・構築・デプロイを体系的に扱うリファレンス集 (Python, ★75,587, +607)。",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "importance": "standard",
+      "tags": ["github-trending", "education", "ai-engineering"]
+    },
+    {
+      "id": "2026-10-30-github-agrici-daniel-claude-seo",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "AgriciDaniel/claude-seo — Claude Code 向け SEO サブエージェント集",
+      "summary": "Claude Code に SEO 分析・最適化を追加するサブエージェントとスキルのセット (Python, ★23,973, +692)。",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "importance": "minor",
+      "tags": ["github-trending", "claude-code", "seo", "skills"]
+    },
+    {
+      "id": "2026-10-30-github-keygraphhq-shannon",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "KeygraphHQ/shannon — AI ペンテスター：ソースコード解析→実証エクスプロイト自動生成",
+      "summary": "ソースコードの脆弱性を AI が解析し、実証エクスプロイトを自動生成するセキュリティツール (TypeScript, ★50,396, +336)。",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "importance": "standard",
+      "tags": ["github-trending", "security", "pentesting", "ai"]
+    },
+    {
+      "id": "2026-10-30-github-beenuar-aisoc",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "beenuar/AiSOC — LLM エージェント搭載オープンソース SOC",
+      "summary": "LLM エージェントによるアラートトリアージと MCP サーバーを備えたオープンソース SOC 基盤 (Python, ★5,134, +318)。",
+      "url": "https://github.com/beenuar/AiSOC",
+      "importance": "standard",
+      "tags": ["github-trending", "security", "soc", "llm", "mcp"]
+    },
+    {
+      "id": "2026-10-30-github-rlaope-oh-my-hermes",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "rlaope/oh-my-hermes — Hermes Agent を IDE に統合するコーディングハーネス",
+      "summary": "Hermes エージェントを IDE に接続しコーディング補助・タスク自動化を実現するハーネス (Python, ★4,793, +327)。",
+      "url": "https://github.com/rlaope/oh-my-hermes",
+      "importance": "minor",
+      "tags": ["github-trending", "hermes", "ide", "coding-agent"]
+    },
+    {
+      "id": "2026-10-30-github-copilotkit-openbot",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "CopilotKit/OpenBot — AG-UI 準拠のオープンソース AI コワーカー",
+      "summary": "各 AI コワーカーが独自の環境を持ち AG-UI エージェントと連携する OSS (TypeScript, ★8,096, +240)。",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "importance": "minor",
+      "tags": ["github-trending", "copilotkit", "ag-ui", "coworker"]
+    },
+    {
+      "id": "2026-10-30-github-lfnovo-open-notebook",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "lfnovo/open-notebook — Google NotebookLM のオープンソース代替",
+      "summary": "NotebookLM 相当の機能をセルフホスト環境で動かせる OSS (TypeScript, ★40,926, +185)。",
+      "url": "https://github.com/lfnovo/open-notebook",
+      "importance": "minor",
+      "tags": ["github-trending", "notebooklm", "open-source", "rag"]
+    },
+    {
+      "id": "2026-10-30-github-p-e-w-heretic",
+      "type": "new",
+      "vendor": "Community",
+      "section": "community",
+      "title": "p-e-w/heretic — LLM の安全フィルタを自動除去するツール",
+      "summary": "言語モデルのコンテンツ制約・フィルタを自動除去するツール。研究目的とされるが悪用リスクで議論を呼ぶ (Python, ★37,110, +152)。",
+      "url": "https://github.com/p-e-w/heretic",
+      "importance": "minor",
+      "tags": ["github-trending", "llm", "safety", "jailbreak"]
+    },
+    {
+      "id": "2026-10-30-github-vectorize-hindsight",
+      "type": "followup",
+      "vendor": "Community",
+      "section": "community",
+      "title": "[続報] vectorize-io/hindsight — 時間とともに学習するエージェント記憶システム",
+      "summary": "エージェント記憶が時間と共に成長するシステム。+1,352 stars で再び急伸 (Python, ★56,186)。",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "importance": "standard",
+      "related_date": "2026-10-25",
+      "tags": ["github-trending", "agent-memory", "continual-learning"]
+    },
+    {
+      "id": "2026-10-30-github-thedotmack-claude-mem",
+      "type": "followup",
+      "vendor": "Community",
+      "section": "community",
+      "title": "[続報] thedotmack/claude-mem — Claude セッション間永続メモリシステム",
+      "summary": "Claude エージェントのセッション間コンテキスト圧縮・永続化メモリ。安定した関心継続 (TypeScript, ★104,726, +459)。",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "importance": "minor",
+      "related_date": "2026-10-25",
+      "tags": ["github-trending", "claude", "memory", "context"]
+    },
+    {
+      "id": "2026-10-30-github-baidu-unlimited-ocr",
+      "type": "followup",
+      "vendor": "Community",
+      "section": "community",
+      "title": "[続報] baidu/Unlimited-OCR — 長文書一撃解析 OCR",
+      "summary": "百度製の長文書 OCR ツール。継続してトレンド入り (Python, ★29,747, +248)。",
+      "url": "https://github.com/baidu/Unlimited-OCR",
+      "importance": "minor",
+      "related_date": "2026-10-24",
+      "tags": ["github-trending", "ocr", "baidu", "document"]
+    }
+  ]
+}
