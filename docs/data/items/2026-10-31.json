@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T08:14:40+09:00",
+  "sources_checked": 12,
+  "sources_failed": 6,
+  "items": [
+    {
+      "id": "2026-10-31-microsoft-copilot-for-finance",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "vendor",
+      "title": "Microsoft Copilot for Finance 発表 — 会計・資本市場向け25以上のスキル/プラグインをGA",
+      "summary": "財務部門向けに25以上のスキルとプラグインを提供。会計調整・仕訳・資本市場分析など複数ステップワークフローをカバー。7日間で44,000回超利用。",
+      "url": "https://www.microsoft.com/en-us/copilot/blog/2026/10/29/microsoft-copilot-for-finance-purpose-built-for-the-way-finance-teams-work/",
+      "importance": "highlight",
+      "tags": ["microsoft", "copilot", "finance", "enterprise", "product-launch"]
+    },
+    {
+      "id": "2026-10-31-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-31-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-31-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-31-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-10-31-lightpanda-io-browser",
+      "type": "new",
+      "vendor": "lightpanda-io",
+      "section": "community",
+      "title": "`lightpanda-io/browser` 初登場 — AI向け超軽量ヘッドレスブラウザ (Zig, ★38k, +652)",
+      "summary": "Zig製・Chromium非依存ヘッドレスブラウザ。Chrome比16倍低メモリ・9倍高速。MCP内蔵、自然言語エージェントモード搭載。",
+      "url": "https://github.com/lightpanda-io/browser",
+      "importance": "highlight",
+      "tags": ["browser", "zig", "mcp", "headless", "agent-infra", "github-trending"]
+    },
+    {
+      "id": "2026-10-31-mattpocock-skills",
+      "type": "new",
+      "vendor": "mattpocock",
+      "section": "community",
+      "title": "`mattpocock/skills` 初登場 — Matt Pocock のエンジニアリングスキル集 (Shell, ★307k, +889)",
+      "summary": "TypeScript教育者Matt PocockがTDD・ドメインモデリング等の原則に基づくエージェントスキルをOSS公開。Claude Code・Codex・Cursor等に対応。",
+      "url": "https://github.com/mattpocock/skills",
+      "importance": "highlight",
+      "tags": ["skills", "tdd", "engineering", "claude-code", "github-trending"]
+    },
+    {
+      "id": "2026-10-31-pingdotgg-t3code",
+      "type": "new",
+      "vendor": "pingdotgg",
+      "section": "community",
+      "title": "`pingdotgg/t3code` 初登場 — オープンソース・エージェントコントロールサーフェス (TypeScript, ★32k, +920)",
+      "summary": "Claude Code・Codex・Cursor等を一元操作するエージェントハーネス制御UI。iOS/Androidアプリ、Web、Electronに対応。",
+      "url": "https://github.com/pingdotgg/t3code",
+      "importance": "highlight",
+      "tags": ["agent-harness", "mobile", "open-source", "claude-code", "github-trending"]
+    },
+    {
+      "id": "2026-10-31-expo-skills",
+      "type": "new",
+      "vendor": "expo",
+      "section": "community",
+      "title": "`expo/skills` 初登場 — Expo 公式エージェントスキル集 (Shell, ★3.9k, +108)",
+      "summary": "React Native/Expoフレームワーク公式のエージェントスキルリポジトリ。EASビルド・OTAアップデート・アプリストア提出など20種以上のスキルを提供。",
+      "url": "https://github.com/expo/skills",
+      "importance": "standard",
+      "tags": ["expo", "react-native", "skills", "mobile", "github-trending"]
+    },
+    {
+      "id": "2026-10-31-macro-inc-macro",
+      "type": "new",
+      "vendor": "macro-inc",
+      "section": "community",
+      "title": "`macro-inc/macro` 初登場 — 共有AIメモリ付き統合チームワークスペース (Rust, ★5.9k, +117)",
+      "summary": "メール・チャット・ドキュメント・タスク・エージェント・通話・CRMを統合し、チーム共有AIメモリを基盤とするRust製ワークスペース。",
+      "url": "https://github.com/macro-inc/macro",
+      "importance": "minor",
+      "tags": ["workspace", "team", "memory", "rust", "github-trending"]
+    },
+    {
+      "id": "2026-10-31-pbakaus-impeccable-d7",
+      "type": "followup",
+      "vendor": "pbakaus",
+      "section": "community",
+      "title": "[続報 Day 7] `pbakaus/impeccable` — +2,299 stars で7日連続グローバル Trending (Rust, ★96,986)",
+      "summary": "コーディングエージェント向けデザインガイド。初登場(10-25)から7日連続でグローバルTrendingに登場、累計+11,900超え。",
+      "url": "https://github.com/pbakaus/impeccable",
+      "related_date": "2026-10-25",
+      "importance": "highlight",
+      "tags": ["design", "agent-quality", "rust", "github-trending"]
+    },
+    {
+      "id": "2026-10-31-obra-superpowers-d4",
+      "type": "followup",
+      "vendor": "obra",
+      "section": "community",
+      "title": "[続報 Day 4] `obra/superpowers` — +1,255 stars で4日連続 (Shell, ★309,397)",
+      "summary": "Prime Radiant製TDD主導エージェントスキルフレームワーク。4日連続グローバルTrending継続。",
+      "url": "https://github.com/obra/superpowers",
+      "related_date": "2026-10-28",
+      "importance": "standard",
+      "tags": ["skills", "tdd", "agent-framework", "github-trending"]
+    },
+    {
+      "id": "2026-10-31-thedotmack-claude-mem",
+      "type": "followup",
+      "vendor": "thedotmack",
+      "section": "community",
+      "title": "[続報] `thedotmack/claude-mem` — +1,145 stars (TypeScript, ★106,164)",
+      "summary": "セッション間コンテキスト永続化メモリシステム。★100k超えてなお高い関心が続く。",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "related_date": "2026-10-27",
+      "importance": "standard",
+      "tags": ["memory", "claude", "persistence", "github-trending"]
+    },
+    {
+      "id": "2026-10-31-milind-soni-openmausbot-d2",
+      "type": "followup",
+      "vendor": "milind-soni",
+      "section": "community",
+      "title": "[続報 Day 2] `milind-soni/OpenMausBot` — +899 stars (TypeScript, ★8,574)",
+      "summary": "専用VM内蔵Grok Bot OSS代替。初登場(10-30)の翌日も高水準維持。",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "related_date": "2026-10-30",
+      "importance": "standard",
+      "tags": ["bot", "grok", "open-source", "github-trending"]
+    },
+    {
+      "id": "2026-10-31-copilotkit-openbot-d2",
+      "type": "followup",
+      "vendor": "CopilotKit",
+      "section": "community",
+      "title": "[続報 Day 2] `CopilotKit/OpenBot` — +707 stars (TypeScript, ★8,753)",
+      "summary": "AG-UI準拠のオープンソースAIコワーカー。初登場(10-30)から2日連続トレンド。",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "related_date": "2026-10-30",
+      "importance": "standard",
+      "tags": ["ag-ui", "coworker", "open-source", "github-trending"]
+    },
+    {
+      "id": "2026-10-31-hkuds-deeptutor",
+      "type": "followup",
+      "vendor": "HKUDS",
+      "section": "community",
+      "title": "[続報] `HKUDS/DeepTutor` — +2,282 stars (Python, ★51,730)",
+      "summary": "継続学習アーキテクチャの生涯パーソナライズ型AI個別指導。10-26初登場以来高いペースで成長継続。",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "related_date": "2026-10-26",
+      "importance": "standard",
+      "tags": ["education", "personalization", "ai-tutor", "github-trending"]
+    },
+    {
+      "id": "2026-10-31-mempalace-mempalace",
+      "type": "new",
+      "vendor": "MemPalace",
+      "section": "community",
+      "title": "`MemPalace/mempalace` 初登場 — ローカルファースト・逐語保存 AI メモリシステム (Python, ★60k, +357)",
+      "summary": "原文のまま保存するverbarimストレージと96.6% R@5のLongMemEval結果を主張するOSS AIメモリ。MCP対応、LocalFirst。",
+      "url": "https://github.com/MemPalace/mempalace",
+      "importance": "standard",
+      "tags": ["memory", "local-first", "mcp", "verbatim", "github-trending"]
+    },
+    {
+      "id": "2026-10-31-ethanplusai-harvey",
+      "type": "new",
+      "vendor": "ethanplusai",
+      "section": "community",
+      "title": "`ethanplusai/harvey` 初登場 — Claude Code/Codex 駆動・API キー不要の自律営業エージェント (Python, ★3.5k, +248)",
+      "summary": "見込み客探索・コールドメール作成・商談予約をAPIキーなしで自律実行。Claude CodeまたはCodex CLIで動作。",
+      "url": "https://github.com/ethanplusai/harvey",
+      "importance": "standard",
+      "tags": ["sales", "autonomous", "agent", "claude-code", "github-trending"]
+    },
+    {
+      "id": "2026-10-31-anthropics-skills",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "[続報] `anthropics/skills` — Anthropic 公式 Agent Skills が Python Trending に登場 (★185k, +287)",
+      "summary": "Anthropic公式Agent Skillsリポジトリが本日Python Trendingに登場。",
+      "url": "https://github.com/anthropics/skills",
+      "related_date": "2026-10-25",
+      "importance": "minor",
+      "tags": ["anthropic", "skills", "agent-skills", "github-trending"]
+    },
+    {
+      "id": "2026-10-31-qwenlm-qwen-code",
+      "type": "new",
+      "vendor": "QwenLM",
+      "section": "community",
+      "title": "`QwenLM/qwen-code` 初登場 — Qwen ターミナル AI コーディングエージェント (TypeScript, ★28k, +40)",
+      "summary": "Alibaba CloudのQwenモデルを使ったターミナル型AIコーディングエージェントCLI。Claude CodeやGemini CLIと同様の体験を提供。",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "importance": "standard",
+      "tags": ["qwen", "coding-agent", "terminal", "cli", "github-trending"]
+    }
+  ]
+}
