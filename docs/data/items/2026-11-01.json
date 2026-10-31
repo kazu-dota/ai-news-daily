@@ -1,0 +1,164 @@
+{
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T08:14:30+09:00",
+  "sources_checked": 19,
+  "sources_failed": 16,
+  "items": [
+    {
+      "id": "2026-11-01-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-01-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-01-google-no-update",
+      "type": "no-update",
+      "vendor": "Google / Google DeepMind",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-01-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-01-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-01-anthropics-skills-d2",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "[続報] anthropics/skills — Anthropic 公式スキルリポジトリが +756 で前日比加速",
+      "summary": "前日 +287 から +756 へと約 2.6 倍に加速。Anthropic 公式エージェントスキル集がコミュニティへの普及を継続。",
+      "url": "https://github.com/anthropics/skills",
+      "importance": "highlight",
+      "related_date": "2026-10-31",
+      "tags": ["github-trending", "anthropic", "agent-skills", "python"]
+    },
+    {
+      "id": "2026-11-01-graphify-labs-graphify-return",
+      "type": "followup",
+      "vendor": "Graphify-Labs",
+      "section": "community",
+      "title": "[続報] Graphify-Labs/graphify — 7日ぶりに Trending 復帰 (+686, ★140k)",
+      "summary": "コードベース・ドキュメントを知識グラフに変換するツールが7日ぶりに再浮上。AI エージェントからのクエリに対応。",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "importance": "highlight",
+      "related_date": "2026-10-24",
+      "tags": ["github-trending", "knowledge-graph", "python", "agent-tool"]
+    },
+    {
+      "id": "2026-11-01-calesthio-openmontage-return",
+      "type": "new",
+      "vendor": "calesthio",
+      "section": "community",
+      "title": "calesthio/OpenMontage — エージェント型動画制作システムが約3週ぶり再登場 (+564, ★73k)",
+      "summary": "12パイプライン・100以上のツールを備えるエージェント型動画制作システム。スクリプト生成から編集・エンコードまで自律実行。",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "importance": "highlight",
+      "tags": ["github-trending", "video-ai", "agentic", "python"]
+    },
+    {
+      "id": "2026-11-01-github-spec-kit",
+      "type": "new",
+      "vendor": "GitHub",
+      "section": "community",
+      "title": "github/spec-kit — GitHub 公式スペック駆動開発ツールキット 初登場 (+166, ★144k)",
+      "summary": "実装前の仕様書生成・レビューを支援するスペック駆動開発 (SDD) ツールキット。AI エージェントが参照するスキル付き。",
+      "url": "https://github.com/github/spec-kit",
+      "importance": "highlight",
+      "tags": ["github-trending", "spec-driven", "sdd", "github-official", "python"]
+    },
+    {
+      "id": "2026-11-01-pr-agent-pr-agent",
+      "type": "new",
+      "vendor": "The-PR-Agent",
+      "section": "community",
+      "title": "The-PR-Agent/pr-agent — オリジナル OSS PR 自動レビューアー 初登場 (+118, ★13k)",
+      "summary": "AI によるコード品質・セキュリティ・テスト提案を含む PR 自動レビューツール。CI/CD 統合に対応。",
+      "url": "https://github.com/The-PR-Agent/pr-agent",
+      "importance": "highlight",
+      "tags": ["github-trending", "pr-review", "ai-dev-tools", "python"]
+    },
+    {
+      "id": "2026-11-01-superdesigndev-treg-d2",
+      "type": "followup",
+      "vendor": "superdesigndev",
+      "section": "community",
+      "title": "[続報] superdesigndev/treg — エージェントツール統合ゲートウェイが継続 (+276, ★6.8k)",
+      "summary": "「エージェントツールの OpenRouter」が前日に続き Trending 維持。複数AIツールプロバイダーを統合するプロキシ。",
+      "url": "https://github.com/superdesigndev/treg",
+      "importance": "standard",
+      "related_date": "2026-10-28",
+      "tags": ["github-trending", "agent-tools", "openrouter", "python"]
+    },
+    {
+      "id": "2026-11-01-thu-maic-openMAIC",
+      "type": "new",
+      "vendor": "THU-MAIC",
+      "section": "community",
+      "title": "THU-MAIC/OpenMAIC — 清華大発マルチエージェント対話型教室 初登場 (+115, ★42k)",
+      "summary": "複数エージェントが教師・学習者として役割分担する対話型教育プラットフォーム。清華大学 MAIC グループが公開。",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "importance": "standard",
+      "tags": ["github-trending", "education", "multi-agent", "typescript"]
+    },
+    {
+      "id": "2026-11-01-agent-sprite-forge",
+      "type": "new",
+      "vendor": "0x0funky",
+      "section": "community",
+      "title": "0x0funky/agent-sprite-forge — 2D スプライトシート生成エージェントスキル 初登場 (+51, ★4.7k)",
+      "summary": "プロンプトから 2D スプライトシート・透過 PNG・アニメーション GIF を生成するエージェントスキル。ゲーム開発向け。",
+      "url": "https://github.com/0x0funky/agent-sprite-forge",
+      "importance": "minor",
+      "tags": ["github-trending", "agent-skills", "game-dev", "sprite", "python"]
+    },
+    {
+      "id": "2026-11-01-yeachan-oh-my-claudecode",
+      "type": "new",
+      "vendor": "Yeachan-Heo",
+      "section": "community",
+      "title": "Yeachan-Heo/oh-my-claudecode — チーム向け Claude Code マルチエージェントオーケストレーション (★40k, +29)",
+      "summary": "Claude Code をチームで並列実行するオーケストレーションフレームワーク。役割分担・タスク分割・コンテキスト共有を管理。",
+      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "importance": "minor",
+      "tags": ["github-trending", "claude-code", "multi-agent", "orchestration", "typescript"]
+    },
+    {
+      "id": "2026-11-01-ethanplusai-harvey-d2",
+      "type": "followup",
+      "vendor": "ethanplusai",
+      "section": "community",
+      "title": "[続報] ethanplusai/harvey — 自律営業エージェントが連続 Trending (+213, ★3.7k)",
+      "summary": "見込み客探索・キャンペーン送信・会議予約を自律処理するセールスエージェント。API キー不要で利用開始可能。",
+      "url": "https://github.com/ethanplusai/harvey",
+      "importance": "standard",
+      "related_date": "2026-10-31",
+      "tags": ["github-trending", "sales-agent", "autonomous", "python"]
+    },
+    {
+      "id": "2026-11-01-mempalace-mempalace-d2",
+      "type": "followup",
+      "vendor": "MemPalace",
+      "section": "community",
+      "title": "[続報] MemPalace/mempalace — OSS AI メモリシステムが連続 Trending (+49, ★60k)",
+      "summary": "ローカルファーストで会話を逐語保存し、ベンチマーク最高性能を主張するオープンソースの AI メモリシステム。",
+      "url": "https://github.com/MemPalace/mempalace",
+      "importance": "standard",
+      "related_date": "2026-10-31",
+      "tags": ["github-trending", "memory", "open-source", "python"]
+    }
+  ]
+}
