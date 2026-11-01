@@ -1,0 +1,245 @@
+{
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T08:15:00+09:00",
+  "sources_checked": 19,
+  "sources_failed": 15,
+  "items": [
+    {
+      "id": "2026-11-02-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-02-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-02-google-no-update",
+      "type": "no-update",
+      "vendor": "Google / Google DeepMind",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-02-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-02-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-02-pingdotgg-t3code-d3",
+      "type": "followup",
+      "vendor": "pingdotgg",
+      "section": "community",
+      "title": "[続報 Day 3] pingdotgg/t3code — モバイル対応エージェントコントロールサーフェスが3日連続最大伸び",
+      "summary": "初登場 (10-31) から3日連続でグローバル Trending 最大伸びを更新。Claude Code・Codex 等を iOS/Android・Web・Electron から操作できるOSSハーネス。今日は+3,100 stars。",
+      "url": "https://github.com/pingdotgg/t3code",
+      "related_date": "2026-10-31",
+      "importance": "highlight",
+      "tags": ["agent-control", "mobile", "oss", "typescript", "github-trending"]
+    },
+    {
+      "id": "2026-11-02-ifixai-ai-ifixai",
+      "type": "new",
+      "vendor": "ifixai-ai",
+      "section": "community",
+      "title": "ifixai-ai/iFixAi — AIエージェント独立監査ツール 初登場",
+      "summary": "EU AI Act・ISO 42001・NIST AI RMF 準拠。61種テストでエージェントの振る舞いをA〜F評価。CI/CDゲート対応。120秒未満で完了。+1,654 stars。",
+      "url": "https://github.com/ifixai-ai/iFixAi",
+      "importance": "highlight",
+      "tags": ["ai-governance", "agent-audit", "eu-ai-act", "compliance", "python", "github-trending"]
+    },
+    {
+      "id": "2026-11-02-thedotmack-claude-mem",
+      "type": "followup",
+      "vendor": "thedotmack",
+      "section": "community",
+      "title": "[続報] thedotmack/claude-mem — セッション間永続メモリが継続急伸",
+      "summary": "AIエージェントのセッション活動を圧縮記録し次回セッションへ注入するメモリシステム。本日+1,527 stars で継続加速。",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "related_date": "2026-10-27",
+      "importance": "highlight",
+      "tags": ["memory", "agent", "typescript", "github-trending"]
+    },
+    {
+      "id": "2026-11-02-anomalyco-hex",
+      "type": "new",
+      "vendor": "anomalyco",
+      "section": "community",
+      "title": "anomalyco/hex — 完全オフライン音声ディクテーション 初登場",
+      "summary": "ショートカット+発話だけで完全オフライン音声入力を実現するRust製デスクトップアプリ。macOS/Windows/Linux対応。+1,329 stars。",
+      "url": "https://github.com/anomalyco/hex",
+      "importance": "highlight",
+      "tags": ["voice", "speech-to-text", "offline", "rust", "github-trending"]
+    },
+    {
+      "id": "2026-11-02-paperclipai-paperclip",
+      "type": "new",
+      "vendor": "paperclipai",
+      "section": "community",
+      "title": "paperclipai/paperclip — AIエージェント職場管理プラットフォーム 初登場",
+      "summary": "Claude Code・Codex等の既存エージェントを組織図・権限・承認・予算管理で運営するOSS管理基盤。★110k。+505 stars。",
+      "url": "https://github.com/paperclipai/paperclip",
+      "importance": "highlight",
+      "tags": ["agent-management", "orchestration", "governance", "typescript", "github-trending"]
+    },
+    {
+      "id": "2026-11-02-shiyu-coder-kronos",
+      "type": "new",
+      "vendor": "shiyu-coder",
+      "section": "community",
+      "title": "shiyu-coder/Kronos — 金融K線データ向けオープンソース基盤モデル 初登場",
+      "summary": "45以上の取引所データで事前学習した金融時系列基盤モデル。AAAI 2026採択。mini〜largeの4サイズ。+611 stars。",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "importance": "standard",
+      "tags": ["foundation-model", "finance", "time-series", "python", "aaai", "github-trending"]
+    },
+    {
+      "id": "2026-11-02-cjpais-handy",
+      "type": "new",
+      "vendor": "cjpais",
+      "section": "community",
+      "title": "cjpais/Handy — オープンソース完全オフライン音声入力アプリ 初登場",
+      "summary": "Whisper/Parakeet+Silero VADによるローカル音声認識。Rust/Tauri製。Windows/macOS/Linux対応。+383 stars。",
+      "url": "https://github.com/cjpais/Handy",
+      "importance": "standard",
+      "tags": ["voice", "speech-to-text", "whisper", "offline", "rust", "github-trending"]
+    },
+    {
+      "id": "2026-11-02-flashml-freetoken",
+      "type": "new",
+      "vendor": "FlashML-org",
+      "section": "community",
+      "title": "FlashML-org/FreeToken — コンシューマーPC で大規模 MoE を推論 初登場",
+      "summary": "RTX 30/40/50対応。DeepSeek-V4-Flash等を家庭PCでインタラクティブ速度で実行。Anthropic互換API搭載。+232 stars。",
+      "url": "https://github.com/FlashML-org/FreeToken",
+      "importance": "standard",
+      "tags": ["local-llm", "moe", "inference", "consumer-hardware", "python", "github-trending"]
+    },
+    {
+      "id": "2026-11-02-patchy631-ai-hub",
+      "type": "new",
+      "vendor": "patchy631",
+      "section": "community",
+      "title": "patchy631/ai-engineering-hub — 93以上のAIエンジニアリングチュートリアル集 初登場",
+      "summary": "LLM・RAG・エージェント・MCP等を網羅する入門〜上級93+のハンズオン集。★40k。+573 stars。",
+      "url": "https://github.com/patchy631/ai-engineering-hub",
+      "importance": "standard",
+      "tags": ["tutorial", "llm", "rag", "agent", "learning", "github-trending"]
+    },
+    {
+      "id": "2026-11-02-scenario-labs-skills",
+      "type": "new",
+      "vendor": "scenario-labs",
+      "section": "community",
+      "title": "scenario-labs/skills — 画像・動画・音声・3D 生成エージェントスキル集 初登場",
+      "summary": "AIエージェントから呼び出せる画像/動画/音声/3D生成スキルと3Dソフトウェア向けエキスパートチーム。+98 stars。",
+      "url": "https://github.com/scenario-labs/skills",
+      "importance": "minor",
+      "tags": ["skills", "image-generation", "video-generation", "3d", "python", "github-trending"]
+    },
+    {
+      "id": "2026-11-02-eneskirca-nodeterm",
+      "type": "new",
+      "vendor": "eneskirca",
+      "section": "community",
+      "title": "eneskirca/nodeterm — AIエージェント向けノードベースターミナル管理 初登場",
+      "summary": "tmuxバックのターミナルをパン/ズーム可能なノードキャンバスで管理。複数エージェントセッションの視覚的配置が可能。+49 stars。",
+      "url": "https://github.com/eneskirca/nodeterm",
+      "importance": "minor",
+      "tags": ["terminal", "agent", "tmux", "typescript", "github-trending"]
+    },
+    {
+      "id": "2026-11-02-lightpanda-io-browser-d2",
+      "type": "followup",
+      "vendor": "lightpanda-io",
+      "section": "community",
+      "title": "[続報 Day 2] lightpanda-io/browser — AI向け超軽量ヘッドレスブラウザが継続",
+      "summary": "Chrome比16倍低メモリ・MCP内蔵のZig製ヘッドレスブラウザ。+827 stars。",
+      "url": "https://github.com/lightpanda-io/browser",
+      "related_date": "2026-10-31",
+      "importance": "standard",
+      "tags": ["headless-browser", "mcp", "zig", "agent", "github-trending"]
+    },
+    {
+      "id": "2026-11-02-milind-soni-openmausbot-d3",
+      "type": "followup",
+      "vendor": "milind-soni",
+      "section": "community",
+      "title": "[続報 Day 3] milind-soni/OpenMausBot — Grok Bot OSS代替が3日連続",
+      "summary": "専用VM付きGrok BotのOSS代替。+919 stars。",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "related_date": "2026-10-30",
+      "importance": "minor",
+      "tags": ["grok", "bot", "typescript", "github-trending"]
+    },
+    {
+      "id": "2026-11-02-donchitos-game-studios-d3",
+      "type": "followup",
+      "vendor": "Donchitos",
+      "section": "community",
+      "title": "[続報] Donchitos/Claude-Code-Game-Studios — 49エージェントゲーム開発スタジオが復帰",
+      "summary": "2日圏外後に復帰。49エージェント・72スキルのゲーム開発フレームワーク。+970 stars。",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "related_date": "2026-10-30",
+      "importance": "minor",
+      "tags": ["game-dev", "agent", "shell", "github-trending"]
+    },
+    {
+      "id": "2026-11-02-beenuar-aisoc-d3",
+      "type": "followup",
+      "vendor": "beenuar",
+      "section": "community",
+      "title": "[続報 Day 3] beenuar/AiSOC — LLMエージェント搭載OSS SOCが継続",
+      "summary": "LLMエージェントのアラートトリアージとMCPサーバー搭載のオープンソースSOC。+436 stars。",
+      "url": "https://github.com/beenuar/AiSOC",
+      "related_date": "2026-10-30",
+      "importance": "minor",
+      "tags": ["security", "soc", "llm", "mcp", "python", "github-trending"]
+    },
+    {
+      "id": "2026-11-02-calesthio-openmontage",
+      "type": "followup",
+      "vendor": "calesthio",
+      "section": "community",
+      "title": "[続報] calesthio/OpenMontage — エージェント型動画制作システムが継続",
+      "summary": "12パイプライン・100以上ツールのエージェント型動画制作プラットフォーム。+461 stars。",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "related_date": "2026-11-01",
+      "importance": "minor",
+      "tags": ["video", "agent", "python", "github-trending"]
+    },
+    {
+      "id": "2026-11-02-ethanplusai-harvey-d3",
+      "type": "followup",
+      "vendor": "ethanplusai",
+      "section": "community",
+      "title": "[続報 Day 3] ethanplusai/harvey — 自律営業エージェントが3日連続",
+      "summary": "Claude Code/Codex駆動の自律営業エージェント。+237 stars。",
+      "url": "https://github.com/ethanplusai/harvey",
+      "related_date": "2026-10-31",
+      "importance": "minor",
+      "tags": ["sales-agent", "python", "github-trending"]
+    },
+    {
+      "id": "2026-11-02-anthropics-skills-d3",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "[続報 Day 3] anthropics/skills — Anthropic公式スキルリポジトリが継続",
+      "summary": "Anthropic公式エージェントスキル集。+438 stars。",
+      "url": "https://github.com/anthropics/skills",
+      "related_date": "2026-10-31",
+      "importance": "minor",
+      "tags": ["skills", "agent", "anthropic", "python", "github-trending"]
+    }
+  ]
+}
