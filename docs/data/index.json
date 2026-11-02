@@ -1,5 +1,321 @@
 [
   {
+    "date": "2026-11-03",
+    "id": "2026-11-03-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-03",
+    "id": "2026-11-03-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-03",
+    "id": "2026-11-03-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-03",
+    "id": "2026-11-03-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-03",
+    "id": "2026-11-03-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-03",
+    "id": "2026-11-03-p-e-w-heretic",
+    "type": "new",
+    "vendor": "Other",
+    "section": "community",
+    "title": "p-e-w/heretic — 再学習なしで LLM の振る舞いを変形するツール 初登場",
+    "summary": "既存 LLM をファインチューニング不要で拒否・スロップ・過剰同調を除去するオープンソースツール。対比プロンプトと数学的手法でモデルの傾向を書き換える。AGPL-3.0。",
+    "url": "https://github.com/p-e-w/heretic",
+    "importance": "highlight",
+    "tags": [
+      "llm-steering",
+      "open-source",
+      "python",
+      "github-trending",
+      "safety"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "id": "2026-11-03-karpathy-nanochat",
+    "type": "new",
+    "vendor": "Other",
+    "section": "community",
+    "title": "karpathy/nanochat — Karpathy の超軽量 LLM 訓練ハーネス 初登場",
+    "summary": "Andrej Karpathy の最小 LLM 学習ハーネス。約$48で GPT-2 相当を訓練可能。--depth パラメーター一つで規模を制御する設計。",
+    "url": "https://github.com/karpathy/nanochat",
+    "importance": "highlight",
+    "tags": [
+      "llm-training",
+      "open-source",
+      "python",
+      "github-trending",
+      "karpathy"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "id": "2026-11-03-pingdotgg-t3code-d4",
+    "type": "followup",
+    "vendor": "Other",
+    "section": "community",
+    "title": "[続報 Day 4] pingdotgg/t3code — TypeScript Trending 4日連続首位 (+3,216)",
+    "summary": "モバイル/Web/Electron からコーディングエージェントを遠隔操作するハーネスが4日連続首位。累計 ★41,760。",
+    "url": "https://github.com/pingdotgg/t3code",
+    "related_date": "2026-10-31",
+    "importance": "highlight",
+    "tags": [
+      "agent-control",
+      "typescript",
+      "github-trending",
+      "mobile"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "id": "2026-11-03-thedotmack-claude-mem-d4",
+    "type": "followup",
+    "vendor": "Other",
+    "section": "community",
+    "title": "[続報] thedotmack/claude-mem — +1,799 stars で継続急伸 (★110,696)",
+    "summary": "AIエージェントのセッション間永続メモリが +1,799 stars で高水準維持。",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "related_date": "2026-11-02",
+    "importance": "highlight",
+    "tags": [
+      "agent-memory",
+      "typescript",
+      "github-trending",
+      "claude-code"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "id": "2026-11-03-cheaper-inference-omniroute",
+    "type": "new",
+    "vendor": "Other",
+    "section": "community",
+    "title": "cheaper-inference/OmniRoute — 無料 AI ゲートウェイ 初登場",
+    "summary": "380+ プロバイダ・1,400+ モデルを1エンドポイントに集約する無料ゲートウェイ。月間推定16億トークン超を無料活用可能。",
+    "url": "https://github.com/cheaper-inference/OmniRoute",
+    "importance": "highlight",
+    "tags": [
+      "ai-gateway",
+      "typescript",
+      "github-trending",
+      "free-tier",
+      "routing"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "id": "2026-11-03-mvanhorn-last30days-skill",
+    "type": "new",
+    "vendor": "Other",
+    "section": "community",
+    "title": "mvanhorn/last30days-skill — 10 以上プラットフォーム横断 AI 調査スキル 初登場",
+    "summary": "Reddit・X・YouTube・HN・Polymarket などを並列検索しエンゲージメント重みで要旨合成するリサーチスキル。",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "importance": "standard",
+    "tags": [
+      "research-skill",
+      "python",
+      "github-trending",
+      "agent-skill"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "id": "2026-11-03-kgoedecke-doop",
+    "type": "new",
+    "vendor": "Other",
+    "section": "community",
+    "title": "kgoedecke/doop — AI エージェントと人間が同時編集できるデザインキャンバス 初登場",
+    "summary": "Paper.design の OSS 代替。Claude Code・Codex 等の MCP クライアントが人間と同じキャンバスをリアルタイム共同編集できる。AGPL-3.0。",
+    "url": "https://github.com/kgoedecke/doop",
+    "importance": "standard",
+    "tags": [
+      "design-tool",
+      "typescript",
+      "github-trending",
+      "mcp",
+      "collaboration"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "id": "2026-11-03-crosstalk-project-nomad",
+    "type": "new",
+    "vendor": "Other",
+    "section": "community",
+    "title": "Crosstalk-Solutions/project-nomad — オフラインファースト知識サーバー + ローカル AI 初登場",
+    "summary": "インターネット不要のセルフホスト型知識・教育サーバー。Ollama 経由のローカル AI と Qdrant セマンティック検索をオプションで追加可能。",
+    "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+    "importance": "standard",
+    "tags": [
+      "local-ai",
+      "typescript",
+      "github-trending",
+      "offline",
+      "self-hosted"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "id": "2026-11-03-mksglu-context-mode",
+    "type": "new",
+    "vendor": "Other",
+    "section": "community",
+    "title": "mksglu/context-mode — ツール出力をコンテキストから隔離する Claude Code プラグイン 初登場",
+    "summary": "ツール呼び出し出力をサンドボックスに退避し SQLite 全文検索で pull する設計。コンテキストウィンドウ消費を削減。",
+    "url": "https://github.com/mksglu/context-mode",
+    "importance": "standard",
+    "tags": [
+      "claude-code",
+      "typescript",
+      "github-trending",
+      "context-management"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "id": "2026-11-03-vercel-labs-skills",
+    "type": "new",
+    "vendor": "Other",
+    "section": "community",
+    "title": "vercel-labs/skills — Vercel Labs のオープンエージェントスキルツール 初登場",
+    "summary": "npx skills 一発で使える Vercel Labs 発のエージェントスキルツール。50以上のエージェントホストに対応。",
+    "url": "https://github.com/vercel-labs/skills",
+    "importance": "standard",
+    "tags": [
+      "agent-skill",
+      "typescript",
+      "github-trending",
+      "vercel"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "id": "2026-11-03-koala73-worldmonitor",
+    "type": "new",
+    "vendor": "Other",
+    "section": "community",
+    "title": "koala73/worldmonitor — AI 活用リアルタイム地政学インテリジェンスダッシュボード 初登場",
+    "summary": "ニュース集約・地政学モニタリング・インフラ追跡を AI で処理するリアルタイムダッシュボード。★90k。",
+    "url": "https://github.com/koala73/worldmonitor",
+    "importance": "minor",
+    "tags": [
+      "news-aggregation",
+      "typescript",
+      "github-trending",
+      "ai-dashboard"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "id": "2026-11-03-milind-soni-openmausbot-d4",
+    "type": "followup",
+    "vendor": "Other",
+    "section": "community",
+    "title": "[続報 Day 4] milind-soni/OpenMausBot — +910 stars で継続",
+    "summary": "Grok Bot OSS 代替が4日連続 TypeScript Trending。★11,198。",
+    "url": "https://github.com/milind-soni/OpenMausBot",
+    "related_date": "2026-10-30",
+    "importance": "minor",
+    "tags": [
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "id": "2026-11-03-paperclipai-paperclip-d2",
+    "type": "followup",
+    "vendor": "Other",
+    "section": "community",
+    "title": "[続報 Day 2] paperclipai/paperclip — +451 stars で継続",
+    "summary": "AI エージェント職場管理プラットフォームが継続。★110,357。",
+    "url": "https://github.com/paperclipai/paperclip",
+    "related_date": "2026-11-02",
+    "importance": "minor",
+    "tags": [
+      "typescript",
+      "github-trending",
+      "agent-management"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "id": "2026-11-03-shiyu-coder-kronos-d2",
+    "type": "followup",
+    "vendor": "Other",
+    "section": "community",
+    "title": "[続報 Day 2] shiyu-coder/Kronos — +855 stars で継続",
+    "summary": "AAAI 2026 採択の金融K線データ基盤モデルが2日連続 Trending。★45,989。",
+    "url": "https://github.com/shiyu-coder/Kronos",
+    "related_date": "2026-11-02",
+    "importance": "minor",
+    "tags": [
+      "python",
+      "github-trending",
+      "finance",
+      "time-series"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "id": "2026-11-03-beenuar-aisoc-d4",
+    "type": "followup",
+    "vendor": "Other",
+    "section": "community",
+    "title": "[続報 Day 4] beenuar/AiSOC — +714 stars で継続",
+    "summary": "LLM エージェント搭載 OSS SOC が4日連続 Trending。★6,670。",
+    "url": "https://github.com/beenuar/AiSOC",
+    "related_date": "2026-11-01",
+    "importance": "minor",
+    "tags": [
+      "python",
+      "github-trending",
+      "security",
+      "soc"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "id": "2026-11-03-flashml-freetoken-d2",
+    "type": "followup",
+    "vendor": "Other",
+    "section": "community",
+    "title": "[続報 Day 2] FlashML-org/FreeToken — +654 stars で継続",
+    "summary": "コンシューマー PC で大規模 MoE を実行するエンジンが継続。★16,015。",
+    "url": "https://github.com/FlashML-org/FreeToken",
+    "related_date": "2026-11-02",
+    "importance": "minor",
+    "tags": [
+      "python",
+      "github-trending",
+      "local-inference",
+      "moe"
+    ]
+  },
+  {
     "date": "2026-11-02",
     "id": "2026-11-02-anthropic-no-update",
     "type": "no-update",
