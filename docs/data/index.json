@@ -1,5 +1,270 @@
 [
   {
+    "date": "2026-11-04",
+    "id": "2026-11-04-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-04",
+    "id": "2026-11-04-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-04",
+    "id": "2026-11-04-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-04",
+    "id": "2026-11-04-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-04",
+    "id": "2026-11-04-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-04",
+    "id": "2026-11-04-vercel-labs-agent-desktop",
+    "type": "new",
+    "vendor": "Vercel",
+    "section": "community",
+    "title": "vercel-labs/agent-desktop 初登場 +3,792 stars",
+    "summary": "Vercel 製 Rust CLI でAIエージェントがターミナルからPCを直接操作。本日グローバル Trending AI 関連最高伸び率を記録。",
+    "url": "https://github.com/vercel-labs/agent-desktop",
+    "importance": "highlight",
+    "tags": [
+      "computer-use",
+      "agent",
+      "rust",
+      "vercel",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-04",
+    "id": "2026-11-04-donchitos-claude-code-game-studios",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "Donchitos/Claude-Code-Game-Studios 初登場 +1,181 stars",
+    "summary": "Claude Code を49エージェント・72ワークフロースキルのゲームスタジオ体制で動かすシェルスクリプト集。",
+    "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+    "importance": "highlight",
+    "tags": [
+      "claude-code",
+      "multi-agent",
+      "game-dev",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-04",
+    "id": "2026-11-04-justVugg-colibri",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "JustVugg/colibri 初登場 +803 stars",
+    "summary": "大規模 MoE モデルをGPU/RAM/NVMe の3層に分散させてコンシューマーPCで動かす C 製推論エンジン。",
+    "url": "https://github.com/JustVugg/colibri",
+    "importance": "highlight",
+    "tags": [
+      "moe",
+      "inference",
+      "local-llm",
+      "c",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-04",
+    "id": "2026-11-04-max-sixty-worktrunk",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "max-sixty/worktrunk 初登場 +437 stars",
+    "summary": "並列AIエージェントワークフロー向けに Git worktree を自動管理する Rust 製 CLI ツール。",
+    "url": "https://github.com/max-sixty/worktrunk",
+    "importance": "standard",
+    "tags": [
+      "git",
+      "worktree",
+      "agent",
+      "rust",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-04",
+    "id": "2026-11-04-shiyu-coder-kronos",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "shiyu-coder/Kronos 初登場 +503 stars",
+    "summary": "株式・為替・商品などの金融市場データで事前学習した時系列ファンデーションモデル。",
+    "url": "https://github.com/shiyu-coder/Kronos",
+    "importance": "standard",
+    "tags": [
+      "finance",
+      "foundation-model",
+      "time-series",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-04",
+    "id": "2026-11-04-blader-humanizer",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "blader/humanizer 初登場 +460 stars",
+    "summary": "LLM が生成したテキストから AI 特有のパターンを検出して除去するエージェントスキル。",
+    "url": "https://github.com/blader/humanizer",
+    "importance": "standard",
+    "tags": [
+      "agent-skill",
+      "writing",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-04",
+    "id": "2026-11-04-tashfeenahmed-freellmapi",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "tashfeenahmed/freellmapi 初登場 +689 stars",
+    "summary": "34 の無料 LLM プロバイダーを OpenAI 互換の単一エンドポイントに集約し、自動フェイルオーバーを提供するツール。",
+    "url": "https://github.com/tashfeenahmed/freellmapi",
+    "importance": "standard",
+    "tags": [
+      "llm-api",
+      "gateway",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-04",
+    "id": "2026-11-04-thedotmack-claude-mem-d5",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 Day 5] thedotmack/claude-mem — +1,138 stars で5日連続急伸 (★111,846)",
+    "summary": "AIエージェントのセッション間永続メモリツール。5日連続でグローバル・TypeScript Trending 双方にランクイン、週計 +6,000 超。",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "related_date": "2026-11-03",
+    "importance": "highlight",
+    "tags": [
+      "memory",
+      "agent",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-04",
+    "id": "2026-11-04-pingdotgg-t3code-d5",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 Day 5] pingdotgg/t3code — +3,387 stars で5日連続 TypeScript Trending 首位 (★44,286)",
+    "summary": "コーディングエージェントをモバイル・Web・デスクトップから操作するオープンソースハーネス。5日間累計 +13,000 超。",
+    "url": "https://github.com/pingdotgg/t3code",
+    "related_date": "2026-10-31",
+    "importance": "highlight",
+    "tags": [
+      "agent-control",
+      "mobile",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-04",
+    "id": "2026-11-04-p-e-w-heretic-d2",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 Day 2] p-e-w/heretic — +699 stars (★38,747)",
+    "summary": "再学習不要で LLM の振る舞いを変形するツール。2日連続でPython・グローバル Trending に継続。",
+    "url": "https://github.com/p-e-w/heretic",
+    "related_date": "2026-11-03",
+    "importance": "standard",
+    "tags": [
+      "llm-modification",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-04",
+    "id": "2026-11-04-karpathy-nanochat-d2",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 Day 2] karpathy/nanochat — +551 stars (★60,193)",
+    "summary": "Karpathy の超軽量 LLM 訓練ハーネス。2日連続で Python Trending に登場。",
+    "url": "https://github.com/karpathy/nanochat",
+    "related_date": "2026-11-03",
+    "importance": "standard",
+    "tags": [
+      "training",
+      "llm",
+      "python",
+      "karpathy",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-04",
+    "id": "2026-11-04-mattpocock-skills-d5",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 Day 5] mattpocock/skills — +1,164 stars (★311,394)",
+    "summary": "Matt Pocock による AI コーディングエージェント向けスキル集。5日連続グローバル Trending 継続。",
+    "url": "https://github.com/mattpocock/skills",
+    "related_date": "2026-10-31",
+    "importance": "standard",
+    "tags": [
+      "agent-skill",
+      "shell",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-04",
+    "id": "2026-11-04-calesthio-openmontage-d4",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 Day 4] calesthio/OpenMontage — +836 stars (★75,960)",
+    "summary": "12パイプライン・100以上のツールを備えたエージェント型動画制作システム。4日連続 Python Trending。",
+    "url": "https://github.com/calesthio/OpenMontage",
+    "related_date": "2026-11-01",
+    "importance": "minor",
+    "tags": [
+      "video",
+      "agent",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
     "date": "2026-11-03",
     "id": "2026-11-03-anthropic-no-update",
     "type": "no-update",

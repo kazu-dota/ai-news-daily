@@ -18,13 +18,12 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
-- [2026-11-03](summaries/2026/11/2026-11-03.md) — **p-e-w/heretic 初登場 (再学習不要 LLM 振る舞い変形ツール +404)** / **karpathy/nanochat 初登場 (Karpathy の超軽量 LLM 訓練ハーネス ★60k +325)** / **pingdotgg/t3code が +3,216 で4日連続首位** / **thedotmack/claude-mem +1,799 継続** / **cheaper-inference/OmniRoute 初登場 (380+ プロバイダ無料 AI ゲートウェイ +390)** — 主要 vendor 本日アップデートなし
-- [2026-11-02](summaries/2026/11/2026-11-02.md) — **ifixai-ai/iFixAi 初登場 (EU AI Act 対応 AI エージェント独立監査 +1,654)** / **pingdotgg/t3code が +3,100 で3日連続最大伸び** / **thedotmack/claude-mem +1,527 継続** / **anomalyco/hex 初登場 (完全オフライン音声ディクテーション Rust +1,329)** / **paperclipai/paperclip 初登場 (AI エージェント職場管理 OSS 基盤 ★110k)** — 主要 vendor 本日アップデートなし
-- [2026-11-01](summaries/2026/11/2026-11-01.md) — **anthropics/skills が +756 で前日比2.6倍に加速 (Anthropic 公式スキルリポジトリ ★185k)** / **Graphify-Labs/graphify が7日ぶり Trending 復帰 (+686, ★140k)** / **calesthio/OpenMontage 再登場 (エージェント型動画制作 +564, ★73k)** / **github/spec-kit 初登場 (GitHub公式 スペック駆動開発ツール ★144k +166)** / **The-PR-Agent/pr-agent 初登場 (OSS PR 自動レビューアー +118)** — 主要 vendor 本日アップデートなし
-- [2026-10-31](summaries/2026/10/2026-10-31.md) — **Microsoft Copilot for Finance GA (25以上のスキル・会計/資本市場ワークフロー・7日で44,000回超利用)** / **lightpanda-io/browser 初登場 (Zig製AI向けヘッドレスブラウザ・Chrome比16倍低メモリ・MCP内蔵 ★38k +652)** / **mattpocock/skills 初登場 (Matt Pocock のエンジニアリングスキル集 ★307k +889)** / **pingdotgg/t3code 初登場 (iOS/Androidからも使えるエージェントコントロールサーフェス ★32k +920)** / **pbakaus/impeccable 7日連続 +2,299**
-- [2026-10-30](summaries/2026/10/2026-10-30.md) — **Anthropic: AI for Science プログラム大規模拡張 (NSF・スローン財団など20以上の研究機関と連携)** / **pbakaus/impeccable +2,881 で6日連続首位 (コーディングエージェント品質ガイド Rust ★95k)** / **HKUDS/DeepTutor 初登場 (+1,926 生涯パーソナライズ型 AI 個別指導 Python ★50k)** / **milind-soni/OpenMausBot 初登場 (Grok Bot OSS 代替 TypeScript +1,190)** / **elayadesign/ai-design-skills 2日目 +1,178 継続**
-- [2026-10-28](summaries/2026/10/2026-10-28.md) — **Anthropic: Claude を薬剤開発6社に適用 (CAR-T 部品70%短縮・文書審査89%削減・Mithril Medicine 買収)** / **Anthropic: GSA 連携拡大 (米政府全レベル40%割引・$10億削減・連邦利用1年で20倍)** / **elayadesign/ai-design-skills 初登場 (グローバル Trending 首位 ★9k +1,395)** / **obra/superpowers 初登場 (Prime Radiant・★306k エージェントスキルフレームワーク Shell +608)** / **VoiceStudio +2,601 (本日最大の単日伸び)**
-- [2026-10-27](summaries/2026/10/2026-10-27.md) — **🚨 Anthropic、SEC に S-1 提出 — Nasdaq 上場 (ティッカー: ANT) を正式申請** / **microsoft/skill-recorder 初登場 (作業録画→スキル/オートメーション変換 TypeScript +257)** / **affaan-m/ECC 初登場 (71 subagents・311 skills のエージェントハーネス最適化 ★289k +987)** / **multica-ai/andrej-karpathy-skills 初登場 (Karpathy 観察由来の CLAUDE.md ★224k +702)** / **NVIDIA/SkillSpector 初登場 (AI スキルのセキュリティスキャナー Python +203)**
+- [2026-11-04](summaries/2026/11/2026-11-04.md) — vercel-labs/agent-desktop, Donchitos/Claude-Code-Game-Studios
+- [2026-11-03](summaries/2026/11/2026-11-03.md) — p-e-w/heretic, karpathy/nanochat
+- [2026-11-02](summaries/2026/11/2026-11-02.md) — pingdotgg/t3code, ifixai-ai/iFixAi
+- [2026-11-01](summaries/2026/11/2026-11-01.md) — anthropics/skills, Graphify-Labs/graphify
+- [2026-10-31](summaries/2026/10/2026-10-31.md) — Microsoft Copilot for Finance 発表, pingdotgg/t3code
+- [2026-10-30](summaries/2026/10/2026-10-30.md) — Anthropic AI for Science 拡張, pbakaus/impeccable
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
