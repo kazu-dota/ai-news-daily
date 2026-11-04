@@ -18,6 +18,7 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-11-05](summaries/2026/11/2026-11-05.md) — NVIDIA/auto-ontology, FareedKhan-dev/kimi-k3-in-c, garrytan/gstack
 - [2026-11-04](summaries/2026/11/2026-11-04.md) — vercel-labs/agent-desktop, Donchitos/Claude-Code-Game-Studios
 - [2026-11-03](summaries/2026/11/2026-11-03.md) — p-e-w/heretic, karpathy/nanochat
 - [2026-11-02](summaries/2026/11/2026-11-02.md) — pingdotgg/t3code, ifixai-ai/iFixAi
