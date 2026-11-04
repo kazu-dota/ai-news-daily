@@ -1,5 +1,331 @@
 [
   {
+    "date": "2026-11-05",
+    "id": "2026-11-05-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-05",
+    "id": "2026-11-05-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-05",
+    "id": "2026-11-05-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-05",
+    "id": "2026-11-05-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-05",
+    "id": "2026-11-05-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-05",
+    "id": "2026-11-05-nvidia-auto-ontology",
+    "type": "new",
+    "vendor": "NVIDIA",
+    "section": "community",
+    "title": "NVIDIA/auto-ontology — エンタープライズAIエージェント向けオントロジー自動生成フレームワーク 初登場",
+    "summary": "NVIDIAが公開したエージェント向けセマンティックコンテキスト層構築フレームワーク。企業データからオントロジーを自動生成し、自然言語クエリをSQL変換して出典系譜付きで返す。MCP・CLI・REST API経由で提供。グローバルTrendingトップへ初登場 (★4,838, +2,053)。",
+    "url": "https://github.com/NVIDIA/auto-ontology",
+    "importance": "highlight",
+    "tags": [
+      "ai-agent",
+      "ontology",
+      "knowledge-graph",
+      "enterprise-ai",
+      "nvidia",
+      "mcp",
+      "explainable-ai"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "id": "2026-11-05-vercel-labs-agent-desktop-d2",
+    "type": "followup",
+    "vendor": "Vercel",
+    "section": "community",
+    "title": "[続報 Day 2] vercel-labs/agent-desktop — +2,463 stars でグローバル最高水準継続",
+    "summary": "AIエージェントがPC上でファイル操作・スクリプト実行・UI操作を行うVercel製Rust製CLI。初登場 (11-04, +3,792) に続き2日目も +2,463 と高水準 (★14,958)。",
+    "url": "https://github.com/vercel-labs/agent-desktop",
+    "related_date": "2026-11-04",
+    "importance": "highlight",
+    "tags": [
+      "ai-agent",
+      "computer-use",
+      "rust",
+      "vercel",
+      "desktop-automation"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "id": "2026-11-05-kimi-k3-in-c",
+    "type": "new",
+    "vendor": "FareedKhan-dev",
+    "section": "community",
+    "title": "FareedKhan-dev/kimi-k3-in-c — Kimi K3 (2.78兆パラメーター) をCPU1台で推論するC99実装",
+    "summary": "GPU・外部ライブラリ不要でKimi K3 (2.78兆パラメーターMoE) をRAM 8.24GBのCPU1台から推論するC99ゼロ依存実装。MXFP4量子化・AVX2 SIMD最適化を採用 (★10,261, +351)。",
+    "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+    "importance": "highlight",
+    "tags": [
+      "local-llm",
+      "inference",
+      "c",
+      "moe",
+      "cpu-inference",
+      "kimi",
+      "quantization"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "id": "2026-11-05-garrytan-gstack",
+    "type": "new",
+    "vendor": "garrytan",
+    "section": "community",
+    "title": "garrytan/gstack — 23役割のClaude Codeスラッシュコマンド集「バーチャルエンジニアリングチーム」",
+    "summary": "CEO・EM・デザイナー・QAリード・リリースエンジニア等23役割をClaude Codeスラッシュコマンドとして実装したOSSツール集。スプリント順に連鎖させて使う設計 (★139,300, +285)。",
+    "url": "https://github.com/garrytan/gstack",
+    "importance": "highlight",
+    "tags": [
+      "claude-code",
+      "agent-skills",
+      "slash-commands",
+      "engineering-team",
+      "workflow"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "id": "2026-11-05-mattpocock-skills-d6",
+    "type": "followup",
+    "vendor": "mattpocock",
+    "section": "community",
+    "title": "[続報 Day 6] mattpocock/skills — +1,376 stars で6日連続グローバルTrending",
+    "summary": "TypeScript著名教育者のエージェントスキル集が6日連続でグローバルTrendingに登場。週計累計増加 +6,000超 (★313,247)。",
+    "url": "https://github.com/mattpocock/skills",
+    "related_date": "2026-11-04",
+    "importance": "highlight",
+    "tags": [
+      "agent-skills",
+      "typescript",
+      "claude-code"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "id": "2026-11-05-thedotmack-claude-mem-d6",
+    "type": "followup",
+    "vendor": "thedotmack",
+    "section": "community",
+    "title": "[続報 Day 6] thedotmack/claude-mem — +1,165 stars で6日連続",
+    "summary": "AIエージェントのセッション間永続メモリツール。6日連続でTrendingにランクイン、週計累計 +7,000超 (★112,801)。",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "related_date": "2026-11-04",
+    "importance": "standard",
+    "tags": [
+      "memory",
+      "agent",
+      "typescript",
+      "claude-code",
+      "persistent-memory"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "id": "2026-11-05-scrapling",
+    "type": "new",
+    "vendor": "D4Vinci",
+    "section": "community",
+    "title": "D4Vinci/Scrapling — AIエージェント対応の高性能Webスクレイピングフレームワーク",
+    "summary": "単一リクエストから大規模クロールまで扱うWebスクレイピングフレームワーク。AIエージェントからの利用に適した設計。本日グローバル2位の伸び (★96,455, +2,006)。",
+    "url": "https://github.com/D4Vinci/Scrapling",
+    "importance": "standard",
+    "tags": [
+      "web-scraping",
+      "python",
+      "ai-agent"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "id": "2026-11-05-qwenlm-qwen-code",
+    "type": "new",
+    "vendor": "Alibaba / QwenLM",
+    "section": "community",
+    "title": "QwenLM/qwen-code — Alibaba Qwen製ターミナルAIコーディングエージェント",
+    "summary": "Gemini CLI フォークから独自進化したOSSターミナルコーディングエージェント。マルチプロバイダー対応・OSSモデル・デーモンモードが特徴。README でClaude Code機能対比表を公開 (★29,012, +73)。",
+    "url": "https://github.com/QwenLM/qwen-code",
+    "importance": "standard",
+    "tags": [
+      "coding-agent",
+      "typescript",
+      "open-source",
+      "alibaba",
+      "qwen",
+      "terminal"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "id": "2026-11-05-ai-goofish-monitor",
+    "type": "new",
+    "vendor": "Usagi-org",
+    "section": "community",
+    "title": "Usagi-org/ai-goofish-monitor — Playwright×AIによる中国フリマ出品リアルタイム監視",
+    "summary": "マルチモーダルAIが闲鱼出品を評価・通知するシステム。自然言語で監視ルールを設定し、Playwright×Chromiumで複数タスク並列収集 (★17,131, +979)。",
+    "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+    "importance": "standard",
+    "tags": [
+      "ai-agent",
+      "monitoring",
+      "playwright",
+      "multimodal",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "id": "2026-11-05-github-spec-kit-d5",
+    "type": "followup",
+    "vendor": "GitHub",
+    "section": "community",
+    "title": "[続報 Day 5] github/spec-kit — スペック駆動開発ツールキットが5日連続",
+    "summary": "GitHub公式のスペック駆動開発ツールキットが5日連続でPython Trendingに登場 (★147,264, +810)。",
+    "url": "https://github.com/github/spec-kit",
+    "related_date": "2026-11-01",
+    "importance": "standard",
+    "tags": [
+      "spec-driven-development",
+      "github",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "id": "2026-11-05-calesthio-openmontage-d5",
+    "type": "followup",
+    "vendor": "calesthio",
+    "section": "community",
+    "title": "[続報 Day 5] calesthio/OpenMontage — エージェント型動画制作が5日連続",
+    "summary": "12パイプライン・100以上のツールを備えたエージェント型動画制作システムが5日連続 (★76,498, +572)。",
+    "url": "https://github.com/calesthio/OpenMontage",
+    "related_date": "2026-11-01",
+    "importance": "standard",
+    "tags": [
+      "video-generation",
+      "ai-agent",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "id": "2026-11-05-max-sixty-worktrunk-d2",
+    "type": "followup",
+    "vendor": "max-sixty",
+    "section": "community",
+    "title": "[続報 Day 2] max-sixty/worktrunk — 並列AIエージェント向けGit worktree管理CLIが継続",
+    "summary": "並列AIエージェントワークフロー向けGit worktree管理Rust製CLIが2日目も継続 (★10,998, +524)。",
+    "url": "https://github.com/max-sixty/worktrunk",
+    "related_date": "2026-11-04",
+    "importance": "standard",
+    "tags": [
+      "git",
+      "worktree",
+      "rust",
+      "ai-agent",
+      "parallel"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "id": "2026-11-05-shiyu-coder-kronos-d4",
+    "type": "followup",
+    "vendor": "shiyu-coder",
+    "section": "community",
+    "title": "[続報 Day 4] shiyu-coder/Kronos — 金融市場データ向けファンデーションモデルが4日連続",
+    "summary": "世界45以上の取引所のOHLCVデータで事前学習した金融時系列基盤モデルが4日連続Trending (★46,795, +506)。",
+    "url": "https://github.com/shiyu-coder/Kronos",
+    "related_date": "2026-11-02",
+    "importance": "minor",
+    "tags": [
+      "foundation-model",
+      "financial",
+      "time-series",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "id": "2026-11-05-thysrael-horizon",
+    "type": "new",
+    "vendor": "Thysrael",
+    "section": "community",
+    "title": "Thysrael/Horizon — AIを使って英中2言語の日次ニュースブリーフィングを生成",
+    "summary": "複数ソースを横断収集しAIが英中2言語で日次ブリーフィングを生成するニュースレーダー (★12,461, +121)。",
+    "url": "https://github.com/Thysrael/Horizon",
+    "importance": "minor",
+    "tags": [
+      "news",
+      "ai-summary",
+      "python",
+      "multilingual"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "id": "2026-11-05-anil-matcha-open-duet",
+    "type": "new",
+    "vendor": "Anil-matcha",
+    "section": "community",
+    "title": "Anil-matcha/open-duet — 独立コンピュータと承認ゲートを持つセルフホスト型AIコワーカー",
+    "summary": "メモリ・ルーティン・独立コンピュータ・承認ゲートを備えたAIコワーカーエージェントのセルフホストプラットフォーム (★6,772, +105)。",
+    "url": "https://github.com/Anil-matcha/open-duet",
+    "importance": "minor",
+    "tags": [
+      "ai-agent",
+      "coworker",
+      "python",
+      "self-hosted"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "id": "2026-11-05-scenario-labs-skills-cont",
+    "type": "followup",
+    "vendor": "scenario-labs",
+    "section": "community",
+    "title": "[続報] scenario-labs/skills — 画像・動画・音声・3D生成のエージェントスキル集が継続",
+    "summary": "Scenario Labs製の生成系エージェントスキル集が継続してPython Trendingにランクイン (★2,398, +224)。",
+    "url": "https://github.com/scenario-labs/skills",
+    "related_date": "2026-11-02",
+    "importance": "minor",
+    "tags": [
+      "agent-skills",
+      "generation",
+      "python",
+      "image",
+      "video",
+      "3d"
+    ]
+  },
+  {
     "date": "2026-11-04",
     "id": "2026-11-04-anthropic-no-update",
     "type": "no-update",
