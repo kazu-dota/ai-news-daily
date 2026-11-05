@@ -1,0 +1,221 @@
+{
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T08:14:00+09:00",
+  "sources_checked": 11,
+  "sources_failed": 7,
+  "items": [
+    {
+      "id": "2026-11-06-skills-ecosystem-day",
+      "type": "new",
+      "vendor": "Google / Scenario Labs / ConardLi",
+      "section": "community",
+      "title": "エージェントスキルリポジトリが同日3本 Trending 初登場",
+      "summary": "google/skills・scenario-labs/skills・ConardLi/garden-skills が同日グローバル Trending 初登場。Google 公式含むスキルカテゴリが独立領域として定着しつつある。",
+      "url": "https://github.com/google/skills",
+      "importance": "highlight",
+      "tags": ["agent-skills", "google", "scenario-labs", "ecosystem"]
+    },
+    {
+      "id": "2026-11-06-nvidia-auto-ontology-d2",
+      "type": "followup",
+      "vendor": "NVIDIA",
+      "section": "community",
+      "title": "[続報 Day 2] NVIDIA/auto-ontology — 2日連続グローバル Trending トップ +2,707 stars",
+      "summary": "前日比 +32% でさらに加速。2日間の累計スター獲得は約 4,760。",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "importance": "highlight",
+      "related_date": "2026-11-05",
+      "tags": ["nvidia", "agent", "knowledge-graph", "enterprise-ai"]
+    },
+    {
+      "id": "2026-11-06-max-sixty-worktrunk",
+      "type": "new",
+      "vendor": "max-sixty",
+      "section": "community",
+      "title": "max-sixty/worktrunk — 並列 AI エージェントワークフロー向け Git worktree 管理 CLI 初登場",
+      "summary": "複数 AI エージェントが同一リポジトリを並列作業する際の worktree 操作を効率化する Rust 製 CLI。★11,491, +546 today。",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "importance": "highlight",
+      "tags": ["git", "worktree", "agent", "parallel", "rust"]
+    },
+    {
+      "id": "2026-11-06-vercel-agent-browser",
+      "type": "new",
+      "vendor": "Vercel",
+      "section": "community",
+      "title": "vercel-labs/agent-browser — AI エージェント向けブラウザ自動操作 CLI 初登場",
+      "summary": "agent-desktop の姉妹リポジトリとして登場。ブラウザのタブ制御・フォーム操作・スクレイピングに特化したエージェント向け CLI。★45,845, +181 today。",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "importance": "highlight",
+      "tags": ["vercel", "agent", "browser", "automation", "rust"]
+    },
+    {
+      "id": "2026-11-06-microsoft-vibevoice",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "community",
+      "title": "microsoft/VibeVoice — Microsoft がオープンソース音声 AI を公開 初登場",
+      "summary": "Microsoft 公式のオープンソース音声 AI リポジトリが本日グローバル Trending に初登場。★55,869, +214 today。",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "importance": "highlight",
+      "tags": ["microsoft", "voice-ai", "open-source"]
+    },
+    {
+      "id": "2026-11-06-sandbox-quantum-switch",
+      "type": "new",
+      "vendor": "sandbox-quantum",
+      "section": "community",
+      "title": "sandbox-quantum/switch — Slack・Teams 等で動く自己ホスト型 AI チームメンバー 初登場",
+      "summary": "Slack・Teams・Discord・Telegram・Mattermost に AI チームメンバーを配置できる自己ホスト型プラットフォーム。★3,939, +215 today。",
+      "url": "https://github.com/sandbox-quantum/switch",
+      "importance": "standard",
+      "tags": ["ai-teammates", "slack", "teams", "self-hosted", "agent"]
+    },
+    {
+      "id": "2026-11-06-thysrael-horizon",
+      "type": "new",
+      "vendor": "Thysrael",
+      "section": "community",
+      "title": "Thysrael/Horizon — AI 駆動ニュースレーダー 初登場",
+      "summary": "英中2言語のデイリー AI ニュースブリーフィングを自動生成するニュースアグリゲーターツール。★12,865, +540 today。",
+      "url": "https://github.com/Thysrael/Horizon",
+      "importance": "standard",
+      "tags": ["news-aggregator", "llm", "daily-briefing"]
+    },
+    {
+      "id": "2026-11-06-harry0703-moneyprinterturbo",
+      "type": "new",
+      "vendor": "harry0703",
+      "section": "community",
+      "title": "harry0703/MoneyPrinterTurbo — AI ワークフローで HD ショート動画を自動生成",
+      "summary": "LLM によるスクリプト生成・TTS・映像素材の組み合わせで高解像度の短尺動画を自動作成する成熟ツール。★139,760, +1,056 today。",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "importance": "standard",
+      "tags": ["video-generation", "ai-workflow", "tts"]
+    },
+    {
+      "id": "2026-11-06-liguobao-ds-harness-remote",
+      "type": "new",
+      "vendor": "liguobao",
+      "section": "community",
+      "title": "liguobao/ds-harness-remote — ローカルのコーディングエージェントをリモート操作 初登場",
+      "summary": "暗号化 P2P ネットワーク経由で、外出先からローカルの Claude Code 等にリモートアクセスするツール。★1,937, +218 today。",
+      "url": "https://github.com/liguobao/ds-harness-remote",
+      "importance": "standard",
+      "tags": ["remote-access", "coding-agent", "p2p"]
+    },
+    {
+      "id": "2026-11-06-southleft-figma-console-mcp",
+      "type": "new",
+      "vendor": "southleft",
+      "section": "community",
+      "title": "southleft/figma-console-mcp — Figma デザインシステムを AI に接続する MCP サーバー 初登場",
+      "summary": "AI エージェントから Figma のコンポーネント・トークンを操作できる MCP サーバー。★3,137, +242 today。",
+      "url": "https://github.com/southleft/figma-console-mcp",
+      "importance": "standard",
+      "tags": ["figma", "mcp", "design-system", "agent"]
+    },
+    {
+      "id": "2026-11-06-vercel-agent-desktop-d3",
+      "type": "followup",
+      "vendor": "Vercel",
+      "section": "community",
+      "title": "[続報 Day 3] vercel-labs/agent-desktop — +2,173 stars で3日連続グローバル Trending",
+      "summary": "初登場から3日連続高水準を維持。同日に姉妹リポジトリ agent-browser が登場。★16,775, +2,173 today。",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "importance": "standard",
+      "related_date": "2026-11-04",
+      "tags": ["vercel", "agent", "desktop", "rust"]
+    },
+    {
+      "id": "2026-11-06-mattpocock-skills-d7",
+      "type": "followup",
+      "vendor": "mattpocock",
+      "section": "community",
+      "title": "[続報 Day 7] mattpocock/skills — +2,053 stars で7日連続",
+      "summary": "TypeScript 著名教育者 Matt Pocock のエージェントスキル集が7日連続で高水準を維持。7日間の累計スター獲得は +約10,000 超。★315,150, +2,053 today。",
+      "url": "https://github.com/mattpocock/skills",
+      "importance": "standard",
+      "related_date": "2026-10-31",
+      "tags": ["agent-skills", "typescript", "engineering"]
+    },
+    {
+      "id": "2026-11-06-garrytan-gstack-d2",
+      "type": "followup",
+      "vendor": "garrytan",
+      "section": "community",
+      "title": "[続報 Day 2] garrytan/gstack — +608 stars で前日比約 2 倍",
+      "summary": "23役割の Claude Code スラッシュコマンド集が前日の +285 から +608 へ倍増。★139,923, +608 today。",
+      "url": "https://github.com/garrytan/gstack",
+      "importance": "minor",
+      "related_date": "2026-11-05",
+      "tags": ["claude-code", "slash-commands", "agent-roles"]
+    },
+    {
+      "id": "2026-11-06-pingdotgg-t3code",
+      "type": "followup",
+      "vendor": "pingdotgg",
+      "section": "community",
+      "title": "[続報] pingdotgg/t3code — +1,983 stars で継続 TypeScript Trending 上位",
+      "summary": "コーディングエージェントを iOS/Android/Web から操作するハーネスが7日以上継続して高水準を維持。★48,260, +1,983 today。",
+      "url": "https://github.com/pingdotgg/t3code",
+      "importance": "minor",
+      "related_date": "2026-10-31",
+      "tags": ["coding-agent", "mobile", "typescript"]
+    },
+    {
+      "id": "2026-11-06-github-spec-kit",
+      "type": "followup",
+      "vendor": "GitHub",
+      "section": "community",
+      "title": "[続報] github/spec-kit — Python Trending に再登場 +750 stars",
+      "summary": "11月1日以来の再登場。前回（TypeScript, +166）から今回（Python, +750）へ大幅加速。★147,845, +750 today。",
+      "url": "https://github.com/github/spec-kit",
+      "importance": "minor",
+      "related_date": "2026-11-01",
+      "tags": ["spec-driven-development", "github", "ai-coding"]
+    },
+    {
+      "id": "2026-11-06-pr-agent",
+      "type": "followup",
+      "vendor": "The-PR-Agent",
+      "section": "community",
+      "title": "[続報] The-PR-Agent/pr-agent — +506 stars で Python Trending に再登場",
+      "summary": "11月1日の +118 から本日 +506 へ大幅に増加。OSS PR 自動レビューアーへの関心が高まり継続。★15,082, +506 today。",
+      "url": "https://github.com/The-PR-Agent/pr-agent",
+      "importance": "minor",
+      "related_date": "2026-11-01",
+      "tags": ["pr-review", "ai-automation", "open-source"]
+    },
+    {
+      "id": "2026-11-06-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-06-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-06-google-no-update",
+      "type": "no-update",
+      "vendor": "Google / Google DeepMind",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-06-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-06-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    }
+  ]
+}
