@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T08:20:59+09:00",
+  "sources_checked": 17,
+  "sources_failed": 14,
+  "items": [
+    {
+      "id": "2026-11-07-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-07-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-07-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-07-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-07-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-07-cloudflare-security-audit-skill",
+      "type": "new",
+      "vendor": "Cloudflare",
+      "section": "community",
+      "title": "cloudflare/security-audit-skill 初登場",
+      "summary": "Cloudflare公式のコーディングエージェント向けセキュリティ監査スキル。6フェーズ構造化監査を自動化。★63,896, +2,524 today",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "importance": "highlight",
+      "tags": ["security", "agent-skill", "cloudflare", "github-trending"]
+    },
+    {
+      "id": "2026-11-07-stablyai-orca",
+      "type": "new",
+      "vendor": "Stably AI",
+      "section": "community",
+      "title": "stablyai/orca 初登場",
+      "summary": "Claude Code/Codex等複数AIコーディングエージェントを並列実行するオーケストレーター。デスクトップ+モバイル対応。★117,816, +1,199 today",
+      "url": "https://github.com/stablyai/orca",
+      "importance": "highlight",
+      "tags": ["agent-orchestration", "coding-agent", "parallel", "github-trending"]
+    },
+    {
+      "id": "2026-11-07-mattpocock-skills-d8",
+      "type": "followup",
+      "vendor": "mattpocock",
+      "section": "community",
+      "title": "[続報 Day 8] mattpocock/skills — 8日連続グローバルTrending",
+      "summary": "エンジニア向けエージェントスキル集が8日連続でグローバルTrendingに登場。+2,058 today, ★316,666",
+      "url": "https://github.com/mattpocock/skills",
+      "related_date": "2026-11-06",
+      "importance": "highlight",
+      "tags": ["agent-skill", "github-trending", "followup"]
+    },
+    {
+      "id": "2026-11-07-nvidia-auto-ontology-d3",
+      "type": "followup",
+      "vendor": "NVIDIA",
+      "section": "community",
+      "title": "[続報 Day 3] NVIDIA/auto-ontology — 3日連続グローバルTrending",
+      "summary": "グラフ型意味推論フレームワークが3日連続トレンド入り。+2,005 today, ★8,952",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "related_date": "2026-11-06",
+      "importance": "highlight",
+      "tags": ["llm", "agent", "graph", "reasoning", "github-trending", "followup"]
+    },
+    {
+      "id": "2026-11-07-elder-plinius-t3mp3st",
+      "type": "new",
+      "vendor": "elder-plinius",
+      "section": "community",
+      "title": "elder-plinius/T3MP3ST 初登場",
+      "summary": "AIコーディングエージェントを推論層に転用する自律レッドチーミングフレームワーク。+238 today, ★6,944",
+      "url": "https://github.com/elder-plinius/T3MP3ST",
+      "importance": "highlight",
+      "tags": ["security", "red-teaming", "multi-agent", "github-trending"]
+    },
+    {
+      "id": "2026-11-07-paradevai-paradev",
+      "type": "new",
+      "vendor": "Paradev AI",
+      "section": "community",
+      "title": "ParadevAI/Paradev 初登場",
+      "summary": "Codex App/ConductorのOSS代替、複数AIエージェント並列実行プラットフォーム。+62 today, ★16,031",
+      "url": "https://github.com/ParadevAI/Paradev",
+      "importance": "standard",
+      "tags": ["agent-orchestration", "coding-agent", "open-source", "github-trending"]
+    },
+    {
+      "id": "2026-11-07-google-skills-d2",
+      "type": "followup",
+      "vendor": "Google",
+      "section": "community",
+      "title": "[続報 Day 2] google/skills — 2日連続Python Trending",
+      "summary": "Google公式エージェントスキル集が2日連続トレンド入り。+532 today, ★22,809",
+      "url": "https://github.com/google/skills",
+      "related_date": "2026-11-06",
+      "importance": "standard",
+      "tags": ["agent-skill", "google", "github-trending", "followup"]
+    },
+    {
+      "id": "2026-11-07-microsoft-vibevoice-d2",
+      "type": "followup",
+      "vendor": "Microsoft",
+      "section": "community",
+      "title": "[続報 Day 2] microsoft/VibeVoice — 2日連続Python Trending",
+      "summary": "MicrosoftのオープンソースAIが2日連続トレンド。+1,001 today, ★56,453",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "related_date": "2026-11-06",
+      "importance": "standard",
+      "tags": ["voice-ai", "microsoft", "github-trending", "followup"]
+    },
+    {
+      "id": "2026-11-07-pipeshub-ai",
+      "type": "new",
+      "vendor": "Pipeshub",
+      "section": "community",
+      "title": "pipeshub-ai/pipeshub-ai 初登場",
+      "summary": "MCP対応・自己ホスト型AIエージェント向けコンテキスト基盤。+76 today, ★4,025",
+      "url": "https://github.com/pipeshub-ai/pipeshub-ai",
+      "importance": "minor",
+      "tags": ["mcp", "agent", "self-hosted", "github-trending"]
+    }
+  ]
+}

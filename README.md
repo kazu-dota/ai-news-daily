@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-11-07](summaries/2026/11/2026-11-07.md) — cloudflare/security-audit-skill 初登場, stablyai/orca, NVIDIA/auto-ontology Day 3
 - [2026-11-06](summaries/2026/11/2026-11-06.md) — google/skills 初登場・スキルエコシステム拡大, NVIDIA/auto-ontology Day 2, max-sixty/worktrunk
 - [2026-11-05](summaries/2026/11/2026-11-05.md) — NVIDIA/auto-ontology, FareedKhan-dev/kimi-k3-in-c, garrytan/gstack
 - [2026-11-04](summaries/2026/11/2026-11-04.md) — vercel-labs/agent-desktop, Donchitos/Claude-Code-Game-Studios
 - [2026-11-03](summaries/2026/11/2026-11-03.md) — p-e-w/heretic, karpathy/nanochat
 - [2026-11-02](summaries/2026/11/2026-11-02.md) — pingdotgg/t3code, ifixai-ai/iFixAi
 - [2026-11-01](summaries/2026/11/2026-11-01.md) — anthropics/skills, Graphify-Labs/graphify
-- [2026-10-31](summaries/2026/10/2026-10-31.md) — Microsoft Copilot for Finance 発表, pingdotgg/t3code
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
