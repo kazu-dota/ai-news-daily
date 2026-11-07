@@ -1,0 +1,259 @@
+{
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T08:19:10+09:00",
+  "sources_checked": 18,
+  "sources_failed": 13,
+  "items": [
+    {
+      "id": "2026-11-08-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-08-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-08-google-no-update",
+      "type": "no-update",
+      "vendor": "Google / Google DeepMind",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-08-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-08-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-08-morluto-rea",
+      "type": "new",
+      "vendor": "morluto",
+      "section": "community",
+      "title": "morluto/rea — エージェントで何でもリバースエンジニアリングする MCP サーバー 初登場",
+      "summary": "ソースコード不要で既存アプリをネイティブバイナリまで解析する MCP サーバー。TypeScript Trending 首位、+3,308 stars (★440,916)。",
+      "url": "https://github.com/morluto/rea",
+      "importance": "highlight",
+      "tags": ["mcp", "agents", "reverse-engineering", "typescript"]
+    },
+    {
+      "id": "2026-11-08-cloudflare-security-audit-skill-d2",
+      "type": "followup",
+      "vendor": "Cloudflare",
+      "section": "community",
+      "title": "[続報 Day 2] cloudflare/security-audit-skill — +2,088 stars でグローバル Trending 2 位",
+      "summary": "初登場翌日も +2,088 stars でグローバル Trending 2 位維持。累計 ★65,637。",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "related_date": "2026-11-07",
+      "importance": "highlight",
+      "tags": ["security", "agents", "cloudflare", "javascript"]
+    },
+    {
+      "id": "2026-11-08-milind-soni-openmausbot",
+      "type": "followup",
+      "vendor": "milind-soni",
+      "section": "community",
+      "title": "[続報] milind-soni/OpenMausBot — +1,986 stars でグローバル Trending に返り咲き",
+      "summary": "Nov 3 以降圏外だった Grok Bot OSS 代替が +1,986 stars で再浮上。グローバル & TypeScript 両 Trending 登場 (★16,914)。",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "related_date": "2026-11-03",
+      "importance": "highlight",
+      "tags": ["agents", "chat", "typescript", "open-source"]
+    },
+    {
+      "id": "2026-11-08-mattpocock-skills-d9",
+      "type": "followup",
+      "vendor": "mattpocock",
+      "section": "community",
+      "title": "[続報 Day 9] mattpocock/skills — 9日連続グローバル Trending +1,111 stars",
+      "summary": "9日連続グローバル Trending 入り、累計 +約14,000 stars 超。本日 Trending 4 位 (★317,659)。",
+      "url": "https://github.com/mattpocock/skills",
+      "related_date": "2026-11-07",
+      "importance": "highlight",
+      "tags": ["skills", "agents", "shell"]
+    },
+    {
+      "id": "2026-11-08-jamiepine-voicebox",
+      "type": "new",
+      "vendor": "jamiepine",
+      "section": "community",
+      "title": "jamiepine/voicebox — OSS AI ボイスタジオ 初登場 (MCP サーバー内蔵)",
+      "summary": "MCP サーバー内蔵でエージェントが音声を発せるローカル完結型 AI ボイスタジオ。Whisper×Qwen3、23言語対応。+318 stars (★59,991)。",
+      "url": "https://github.com/jamiepine/voicebox",
+      "importance": "highlight",
+      "tags": ["voice", "ai", "mcp", "python", "tts", "whisper"]
+    },
+    {
+      "id": "2026-11-08-nvidia-auto-ontology-d4",
+      "type": "followup",
+      "vendor": "NVIDIA",
+      "section": "community",
+      "title": "[続報 Day 4] NVIDIA/auto-ontology — +1,322 stars で 4 日連続 Python Trending",
+      "summary": "4日間累計 +約8,000 stars 超。グラフ型意味推論フレームワークへの持続的関心が継続 (★9,763)。",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "related_date": "2026-11-07",
+      "importance": "standard",
+      "tags": ["graph", "agents", "python", "nvidia", "semantic-reasoning"]
+    },
+    {
+      "id": "2026-11-08-stablyai-orca-d2",
+      "type": "followup",
+      "vendor": "stablyai",
+      "section": "community",
+      "title": "[続報 Day 2] stablyai/orca — +917 stars で 2 日連続 TypeScript Trending",
+      "summary": "AI コーディングエージェント並列実行オーケストレーターが初登場翌日も堅調 (★118,562)。",
+      "url": "https://github.com/stablyai/orca",
+      "related_date": "2026-11-07",
+      "importance": "standard",
+      "tags": ["agents", "orchestration", "typescript", "claude-code"]
+    },
+    {
+      "id": "2026-11-08-google-skills-d3",
+      "type": "followup",
+      "vendor": "Google",
+      "section": "community",
+      "title": "[続報 Day 3] google/skills — +449 stars で 3 日連続 Python / グローバル Trending",
+      "summary": "Google 公式エージェントスキルリポジトリが3日連続でトレンド入り (★23,362)。",
+      "url": "https://github.com/google/skills",
+      "related_date": "2026-11-07",
+      "importance": "standard",
+      "tags": ["skills", "agents", "python", "google"]
+    },
+    {
+      "id": "2026-11-08-microsoft-vibevoice-d3",
+      "type": "followup",
+      "vendor": "Microsoft",
+      "section": "community",
+      "title": "[続報 Day 3] microsoft/VibeVoice — +237 stars で 3 日連続 Python Trending",
+      "summary": "Microsoft OSS 音声 AI が3日継続。同日に jamiepine/voicebox も初登場し、音声 AI 領域が賑わう (★56,691)。",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "related_date": "2026-11-07",
+      "importance": "standard",
+      "tags": ["voice", "ai", "python", "microsoft", "open-source"]
+    },
+    {
+      "id": "2026-11-08-garrytan-gstack",
+      "type": "followup",
+      "vendor": "garrytan",
+      "section": "community",
+      "title": "[続報] garrytan/gstack — +292 stars で TypeScript Trending に返り咲き",
+      "summary": "Nov 7 は圏外だったが TypeScript Trending 4 位で再登場。YC CEO の 23 役割スラッシュコマンド集、累計 ★140,657。",
+      "url": "https://github.com/garrytan/gstack",
+      "related_date": "2026-11-06",
+      "importance": "standard",
+      "tags": ["skills", "agents", "typescript", "claude-code", "yc"]
+    },
+    {
+      "id": "2026-11-08-vercel-agent-browser",
+      "type": "followup",
+      "vendor": "Vercel",
+      "section": "community",
+      "title": "[続報] vercel-labs/agent-browser — グローバル Trending 首位 +180 stars で返り咲き",
+      "summary": "Nov 7 圏外後にグローバル Trending 1 位で返り咲き。AI エージェント向けブラウザ自動操作 Rust 製 CLI (★46,785)。",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "related_date": "2026-11-06",
+      "importance": "standard",
+      "tags": ["browser-automation", "agents", "rust", "vercel"]
+    },
+    {
+      "id": "2026-11-08-anthropics-skills",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "[続報] anthropics/skills — Anthropic 公式 Agent Skills がグローバル Trending に再登場",
+      "summary": "Nov 2 以降しばらく圏外だった Anthropic 公式スキルリポジトリがグローバル Trending 5 位で返り咲き (★188,749, +386)。",
+      "url": "https://github.com/anthropics/skills",
+      "related_date": "2026-11-02",
+      "importance": "standard",
+      "tags": ["skills", "agents", "python", "anthropic"]
+    },
+    {
+      "id": "2026-11-08-cheaper-inference-omniroute",
+      "type": "followup",
+      "vendor": "cheaper-inference",
+      "section": "community",
+      "title": "[続報] cheaper-inference/OmniRoute — TypeScript Trending に返り咲き +325 stars",
+      "summary": "Nov 3 以降圏外だった 375+ プロバイダ対応 AI ゲートウェイが TypeScript Trending 9 位で再登場 (★85,446)。",
+      "url": "https://github.com/cheaper-inference/OmniRoute",
+      "related_date": "2026-11-03",
+      "importance": "standard",
+      "tags": ["gateway", "ai", "typescript", "routing"]
+    },
+    {
+      "id": "2026-11-08-meta-astryx",
+      "type": "new",
+      "vendor": "Meta",
+      "section": "community",
+      "title": "meta/astryx — Meta 製エージェント対応 OSS デザインシステム 初登場",
+      "summary": "Meta 社内 8 年の実績をベータ公開。150+ React コンポーネント、AI コーディングアシスタント向け CLI 標準装備 (★14,456, +185)。",
+      "url": "https://github.com/meta/astryx",
+      "importance": "standard",
+      "tags": ["design-system", "agents", "typescript", "meta", "react"]
+    },
+    {
+      "id": "2026-11-08-elder-plinius-t3mp3st-d2",
+      "type": "followup",
+      "vendor": "elder-plinius",
+      "section": "community",
+      "title": "[続報 Day 2] elder-plinius/T3MP3ST — +39 stars で 2 日連続 TypeScript Trending",
+      "summary": "マルチエージェント自律レッドチーミングフレームワークが2日連続 TypeScript Trending に留まる (★6,973)。",
+      "url": "https://github.com/elder-plinius/T3MP3ST",
+      "related_date": "2026-11-07",
+      "importance": "minor",
+      "tags": ["security", "red-team", "typescript", "agents"]
+    },
+    {
+      "id": "2026-11-08-ranxianglei-billion-context",
+      "type": "new",
+      "vendor": "ranxianglei",
+      "section": "community",
+      "title": "ranxianglei/billion-context — 長期セッション向けコンテキスト圧縮プラグイン 初登場",
+      "summary": "AI コーディングツール向けコンテキスト圧縮プラグイン。長期・マルチセッション作業のトークンコスト削減を目的とする (★4,584, +185)。",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "importance": "minor",
+      "tags": ["context", "tokens", "typescript", "compression"]
+    },
+    {
+      "id": "2026-11-08-fission-ai-openspec",
+      "type": "new",
+      "vendor": "Fission-AI",
+      "section": "community",
+      "title": "Fission-AI/OpenSpec — AI コーディングアシスタント向けスペック駆動開発 初登場",
+      "summary": "AI エージェントが参照する仕様書をプロジェクト中心に置くスペック駆動開発ツール (★74,232, +92)。",
+      "url": "https://github.com/Fission-AI/OpenSpec",
+      "importance": "minor",
+      "tags": ["spec-driven", "coding-assistants", "typescript"]
+    },
+    {
+      "id": "2026-11-08-awslabs-aidlc-workflows",
+      "type": "new",
+      "vendor": "AWS",
+      "section": "community",
+      "title": "awslabs/aidlc-workflows — AI コーディングエージェント向け適応型ワークフロールール 初登場",
+      "summary": "AWS Labs 公開。AI コーディングエージェントの振る舞いをプロジェクト固有のルールで制御するワークフロー集 (★5,931, +99)。",
+      "url": "https://github.com/awslabs/aidlc-workflows",
+      "importance": "minor",
+      "tags": ["workflow", "agents", "typescript", "aws"]
+    },
+    {
+      "id": "2026-11-08-aws-agent-toolkit",
+      "type": "new",
+      "vendor": "AWS",
+      "section": "community",
+      "title": "aws/agent-toolkit-for-aws — AWS 向け MCP サーバー・スキル・プラグイン集 初登場",
+      "summary": "AWS が公式サポートする AI エージェント向け MCP サーバー・スキル・プラグインツールキット (★3,426, +8)。",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "importance": "minor",
+      "tags": ["mcp", "skills", "aws", "python"]
+    }
+  ]
+}
