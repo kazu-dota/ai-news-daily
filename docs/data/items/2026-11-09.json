@@ -1,0 +1,186 @@
+{
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T08:14:00+09:00",
+  "sources_checked": 12,
+  "sources_failed": 8,
+  "items": [
+    {
+      "id": "2026-11-09-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-09-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-09-google-no-update",
+      "type": "no-update",
+      "vendor": "Google / Google DeepMind",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-09-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-09-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-09-albert-weasker-niubigeo",
+      "type": "new",
+      "vendor": "Albert-Weasker",
+      "section": "community",
+      "title": "Albert-Weasker/niubigeo — AI ブランド可視化 GEO トラッカー 初登場",
+      "summary": "AI が自社ブランドをどう語るかを可視化するオープンソース GEO トラッキングツール。TypeScript Trending 4位、+1,307 stars (★10,135)。",
+      "url": "https://github.com/Albert-Weasker/niubigeo",
+      "importance": "highlight",
+      "tags": ["geo", "brand-monitoring", "ai-visibility", "typescript", "open-source"]
+    },
+    {
+      "id": "2026-11-09-milind-soni-openmausbot-d2",
+      "type": "followup",
+      "vendor": "milind-soni",
+      "section": "community",
+      "title": "[続報 Day 2] milind-soni/OpenMausBot — +1,437 stars で全言語 Trending 3位維持",
+      "summary": "OSS Grok Bot 代替が前日に続き全言語 Trending 3位に登場。+1,437 stars (★18,186)。",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "related_date": "2026-11-08",
+      "importance": "highlight",
+      "tags": ["agents", "chat", "typescript", "open-source", "grok-alternative"]
+    },
+    {
+      "id": "2026-11-09-ranxianglei-billion-context",
+      "type": "new",
+      "vendor": "ranxianglei",
+      "section": "community",
+      "title": "ranxianglei/billion-context — 超長期コーディングセッション向けコンテキスト圧縮プロキシ 初登場",
+      "summary": "月単位・数十億トークン規模の単一セッション向けコンテキスト圧縮プロキシ。ContextBench 首位、コスト58.3%削減。TypeScript、+460 stars (★5,105)。",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "importance": "highlight",
+      "tags": ["context-compression", "coding-agents", "typescript", "long-context", "proxy"]
+    },
+    {
+      "id": "2026-11-09-meta-astryx-d2",
+      "type": "followup",
+      "vendor": "Meta",
+      "section": "community",
+      "title": "[続報 Day 2] meta/astryx — +863 stars で全言語 Trending 6位・急加速",
+      "summary": "Meta 製エージェント対応 OSS デザインシステムが2日連続トレンド入り。初日の+185から+863へ約4.7倍に加速 (★16,567)。",
+      "url": "https://github.com/meta/astryx",
+      "related_date": "2026-11-08",
+      "importance": "highlight",
+      "tags": ["design-system", "agents", "meta", "typescript", "open-source"]
+    },
+    {
+      "id": "2026-11-09-vercel-labs-agent-browser-cont",
+      "type": "followup",
+      "vendor": "Vercel",
+      "section": "community",
+      "title": "[続報] vercel-labs/agent-browser — 全言語 Trending 5位に再浮上 +812 stars",
+      "summary": "AIエージェント向けブラウザ自動操作 CLI が間隔を置いて再 Trending 入り。Rust、+812 stars (★47,545)。",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "related_date": "2026-11-06",
+      "importance": "highlight",
+      "tags": ["browser-automation", "agents", "rust", "vercel"]
+    },
+    {
+      "id": "2026-11-09-dsx-ai-factory-nvke",
+      "type": "new",
+      "vendor": "NVIDIA",
+      "section": "community",
+      "title": "dsx-ai-factory/nvke — NVIDIA GPU ベアメタル Kubernetes 管理基盤 初登場",
+      "summary": "GPU ベアメタル上の Kubernetes 管理プレーン (プレビュー)。Go、+345 stars (★826)。",
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "importance": "standard",
+      "tags": ["kubernetes", "gpu", "nvidia", "infrastructure", "go"]
+    },
+    {
+      "id": "2026-11-09-anthropics-skills-cont",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "anthropics/skills — Anthropic 公式エージェントスキル集 継続 Trending",
+      "summary": "2週間以上継続して Trending 入り。Python Trending 3位、+793 stars (★189,578)。",
+      "url": "https://github.com/anthropics/skills",
+      "related_date": "2026-11-01",
+      "importance": "minor",
+      "tags": ["agents", "skills", "anthropic", "python"]
+    },
+    {
+      "id": "2026-11-09-jamiepine-voicebox-d2",
+      "type": "followup",
+      "vendor": "jamiepine",
+      "section": "community",
+      "title": "[続報 Day 2] jamiepine/voicebox — Python Trending 継続 +208 stars",
+      "summary": "MCP サーバー内蔵 OSS AI ボイスタジオが2日連続 Trending。Python、+208 stars (★60,156)。",
+      "url": "https://github.com/jamiepine/voicebox",
+      "related_date": "2026-11-08",
+      "importance": "minor",
+      "tags": ["voice", "audio", "mcp", "python", "open-source"]
+    },
+    {
+      "id": "2026-11-09-elie222-rakazo",
+      "type": "new",
+      "vendor": "elie222",
+      "section": "community",
+      "title": "elie222/rakazo — もう一つの OSS Grok Bot 代替 新登場",
+      "summary": "選択可能なモデルとサンドボックス環境を提供する OSS Grok Bot 代替。TypeScript、+117 stars (★7,556)。",
+      "url": "https://github.com/elie222/rakazo",
+      "importance": "standard",
+      "tags": ["agents", "chat", "typescript", "grok-alternative", "open-source"]
+    },
+    {
+      "id": "2026-11-09-vercel-labs-json-render",
+      "type": "new",
+      "vendor": "Vercel",
+      "section": "community",
+      "title": "vercel-labs/json-render — Vercel 製 Generative UI フレームワーク",
+      "summary": "JSON ベースの生成 UI フレームワーク。TypeScript、+202 stars (★19,455)。",
+      "url": "https://github.com/vercel-labs/json-render",
+      "importance": "minor",
+      "tags": ["generative-ui", "typescript", "vercel", "framework"]
+    },
+    {
+      "id": "2026-11-09-rohitg00-ai-engineering",
+      "type": "new",
+      "vendor": "rohitg00",
+      "section": "community",
+      "title": "rohitg00/ai-engineering-from-scratch — AI エンジニアリング学習ロードマップ",
+      "summary": "542 レッスン・20 フェーズの AI エンジニアリング総合カリキュラム。Python、+439 stars (★77,801)。",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "importance": "standard",
+      "tags": ["education", "ai-engineering", "python", "curriculum", "mcp"]
+    },
+    {
+      "id": "2026-11-09-googlecolab-cli",
+      "type": "new",
+      "vendor": "Google",
+      "section": "community",
+      "title": "googlecolab/google-colab-cli — Google Colab ランタイム操作 CLI 初登場",
+      "summary": "Google Colab のランタイムをコマンドラインから操作するための公式 CLI ツール。Python、+139 stars (★2,079)。",
+      "url": "https://github.com/googlecolab/google-colab-cli",
+      "importance": "minor",
+      "tags": ["google", "colab", "cli", "python"]
+    },
+    {
+      "id": "2026-11-09-swe-agent-mini",
+      "type": "new",
+      "vendor": "SWE-agent",
+      "section": "community",
+      "title": "SWE-agent/mini-swe-agent — 約100行のミニマル AI エージェント",
+      "summary": "GitHub Issues 解決とコマンドライン補助に特化した最小実装 AI エージェント。Python、+84 stars (★9,419)。",
+      "url": "https://github.com/SWE-agent/mini-swe-agent",
+      "importance": "minor",
+      "tags": ["agents", "minimal", "python", "github-issues"]
+    }
+  ]
+}
