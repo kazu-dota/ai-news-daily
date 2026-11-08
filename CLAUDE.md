@@ -142,6 +142,54 @@ routine の prompt は claude.ai の Routines 管理 UI で管理されており
 
 ---
 
+## CI / CD (GitHub Actions)
+
+PR 経由の変更を自動で検証・レビュー・試運転するため、以下の workflow を `.github/workflows/`
+に置いている。
+
+| workflow | 起動契機 | 役割 |
+|---|---|---|
+| `validate.yml` | PR / `dev` への push | actionlint で workflow 構文を検証、`sources.yaml` / `docs/data/*.json` / `summaries/*.md` のスキーマ・必須セクションを検証 |
+| `claude-review.yml` | `main` / `dev` 向け PR | Claude Code Action が PR を日本語で自動レビュー (ROUTINE.md / sources.yaml / 不可侵領域などをチェック) |
+| `dev-test-trigger.yml` | `dev → main` の PR | claude.ai の dev-test routine の webhook を叩いて自動試運転 (結果は `dev-test` ブランチに force push) |
+| `dev-test-feedback.yml` | `dev-test` ブランチへの push | routine 完了を検知して open 中の dev→main PR に結果コメントを投稿 (フィードバックループを閉じる) |
+
+各 workflow には `concurrency` が設定されており、連続 push 時の二重起動・コスト浪費を防ぐ。
+GitHub Actions の依存は `.github/dependabot.yml` で週次自動更新する。
+
+### 必要な repository secrets
+
+GitHub の Settings → Secrets and variables → Actions で以下を設定する。
+
+| Secret | 用途 | 取得方法 |
+|---|---|---|
+| `CLAUDE_CODE_OAUTH_TOKEN` | `claude-review.yml` で Claude が PR レビューを書くための認証 | claude.ai のサブスクリプション OAuth トークン (`claude` CLI の `/install-github-app` で発行できる) |
+| `DEV_TEST_ROUTINE_WEBHOOK_URL` | `dev-test-trigger.yml` から dev-test routine を起動するための webhook URL | claude.ai → Routines → `AI News Daily (dev test)` → trigger 設定で webhook を追加し、発行された URL をコピー |
+
+`CLAUDE_CODE_OAUTH_TOKEN` を OAuth ではなく API キーで運用したい場合は、
+`claude-review.yml` の `with:` を `anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}` に
+差し替える。
+
+### dev-test routine の webhook 設定手順
+
+1. claude.ai → Routines → `AI News Daily (dev test)` を開く
+2. Trigger 設定で **Webhook** を有効化し、発行された URL をコピー
+3. GitHub の `DEV_TEST_ROUTINE_WEBHOOK_URL` secret に貼り付け
+4. `dev` ブランチに push して `dev → main` の PR を出すと、自動で webhook が叩かれる
+5. routine 完了後 `dev-test` ブランチが更新されるので
+   https://github.com/kazu-dota/ai-news-daily/tree/dev-test/summaries で当日 md を確認
+
+secret 未設定の場合 `dev-test-trigger.yml` は warning を出してスキップするだけなので、
+secret を後から追加しても問題ない。
+
+### fork からの PR について
+
+`dev-test-trigger.yml` は **同一リポジトリ内の PR のみ** で起動する (fork PR には secret を
+渡さないのが GitHub Actions のデフォルト挙動)。外部コントリビュータの PR は手動で Run now
+する運用とする。
+
+---
+
 ## 編集時の留意点
 
 - `ROUTINE.md` を変更したら **必ず dev-test routine で動作確認** してから main にマージする
