@@ -1,0 +1,226 @@
+{
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T08:14:33+09:00",
+  "sources_checked": 13,
+  "sources_failed": 9,
+  "items": [
+    {
+      "id": "2026-11-10-anthropic-fable-52",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Claude Fable 5.2 & Mythos 5.2 発表",
+      "summary": "最先端技術作業向けの最高性能ラインが更新。コーディング・科学・ロボット各分野で前世代比大幅向上、出力速度は最大30%高速化。FrontierCode 49.1%、FrontierSWE 69.9%。入力 $8/M・出力 $40/M トークン。",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "importance": "highlight",
+      "tags": ["model-release", "anthropic", "fable", "mythos", "coding", "science"]
+    },
+    {
+      "id": "2026-11-10-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-10-google-no-update",
+      "type": "no-update",
+      "vendor": "Google / Google DeepMind",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-10-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-10-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-10-github-claude-quickstarts",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "GitHub Trending: anthropics/claude-quickstarts 初登場",
+      "summary": "Claude API でデプロイ可能なアプリを作るための公式スターターテンプレート集。Fable 5.2 発表当日にグローバル Trending 初登場 (★19,985, +560 today)。",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "importance": "highlight",
+      "tags": ["github-trending", "python", "anthropic", "quickstart", "api"]
+    },
+    {
+      "id": "2026-11-10-github-gbrain",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: garrytan/gbrain 初登場",
+      "summary": "OpenClaw・Hermes エージェント向けに最適化されたナレッジ管理と推論構成を提供するツール集 (★32,110, +215 today)。",
+      "url": "https://github.com/garrytan/gbrain",
+      "importance": "standard",
+      "tags": ["github-trending", "typescript", "agent", "knowledge-management"]
+    },
+    {
+      "id": "2026-11-10-github-daily-stock-analysis",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: ZhuLinsen/daily_stock_analysis 初登場",
+      "summary": "LLM を活用してニュースと株価データを統合分析するマルチマーケット株式分析ツール (★68,797, +505 today)。",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "llm", "finance", "stock-analysis"]
+    },
+    {
+      "id": "2026-11-10-github-meta-astryx-d3",
+      "type": "followup",
+      "vendor": "Meta",
+      "section": "community",
+      "title": "[続報 Day 3] meta/astryx — +3,324 stars で本日 AI 関連最大の急増",
+      "summary": "初登場3日目に過去最大の単日増加 +3,324 stars。3日累計 +4,372 stars、現在 ★19,871。Meta 製エージェント対応 OSS デザインシステムのコミュニティへの定着が加速。",
+      "url": "https://github.com/meta/astryx",
+      "related_date": "2026-11-08",
+      "importance": "highlight",
+      "tags": ["github-trending", "typescript", "meta", "design-system", "ai-agent", "followup"]
+    },
+    {
+      "id": "2026-11-10-github-openmausbot-d3",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 3] milind-soni/OpenMausBot — +1,589 stars で3日連続 Global Trending",
+      "summary": "OSS Grok Bot 代替が3日連続 Global Trending を維持。累計 ★19,615 超 (+1,589 today)。",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "related_date": "2026-11-08",
+      "importance": "highlight",
+      "tags": ["github-trending", "typescript", "grok-alternative", "bot", "followup"]
+    },
+    {
+      "id": "2026-11-10-github-anthropics-skills",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "anthropics/skills — Fable 5.2 発表と重なり +1,052 stars 継続",
+      "summary": "Anthropic 公式 Agent Skills リポジトリが連日 Trending 継続。Fable 5.2 発表当日に +1,052 stars (★190,893)。",
+      "url": "https://github.com/anthropics/skills",
+      "related_date": "2026-11-08",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "anthropic", "agent-skills", "followup"]
+    },
+    {
+      "id": "2026-11-10-github-agent-browser",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "vercel-labs/agent-browser — +914 stars 継続",
+      "summary": "Vercel 製 AI エージェント向けブラウザ自動操作 CLI が継続上昇。+914 stars、累計 ★48,422。",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "related_date": "2026-11-06",
+      "importance": "standard",
+      "tags": ["github-trending", "rust", "vercel", "browser-automation", "ai-agent", "followup"]
+    },
+    {
+      "id": "2026-11-10-github-billion-context-d3",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 3] ranxianglei/billion-context — +764 stars と3日連続加速",
+      "summary": "11-08 (+185) → 11-09 (+460) → 本日 +764 と3日連続で加速。月単位超長期セッション向けコンテキスト圧縮プロキシ (★5,727)。",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "related_date": "2026-11-08",
+      "importance": "standard",
+      "tags": ["github-trending", "typescript", "context-compression", "coding-agent", "followup"]
+    },
+    {
+      "id": "2026-11-10-github-infinite-canvas",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: basketikun/infinite-canvas 初登場",
+      "summary": "AI を使った画像・動画生成を含むクリエイティブ作業向け OSS 無限キャンバス (TypeScript, ★10,115, +132 today)。",
+      "url": "https://github.com/basketikun/infinite-canvas",
+      "importance": "minor",
+      "tags": ["github-trending", "typescript", "creative", "canvas", "ai-image"]
+    },
+    {
+      "id": "2026-11-10-github-rakazo-d2",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 2] elie222/rakazo — +139 stars で2日連続 TypeScript Trending",
+      "summary": "OSS Grok Bot 代替 (モデル・サンドボックス選択可能) が2日連続 TypeScript Trending (★7,693)。",
+      "url": "https://github.com/elie222/rakazo",
+      "related_date": "2026-11-09",
+      "importance": "minor",
+      "tags": ["github-trending", "typescript", "grok-alternative", "followup"]
+    },
+    {
+      "id": "2026-11-10-github-voicestudio",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: debpalash/VoiceStudio 初登場",
+      "summary": "ElevenLabs 代替のローカル完結型自己ホスト音声 AI スタジオ。音声クローニング・吹き替え・文字起こし機能を備え外部送信なし。MIT ライセンス (★106,119, +1,247 today)。",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "importance": "highlight",
+      "tags": ["github-trending", "python", "voice-ai", "tts", "local-ai", "elevenlabs-alternative"]
+    },
+    {
+      "id": "2026-11-10-github-voxcpm",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: OpenBMB/VoxCPM 初登場",
+      "summary": "多言語出力・音声デザイン・音声クローニングに対応した TTS エンジン (Python, ★42,108, +423 today)。",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "tts", "voice-cloning", "multilingual"]
+    },
+    {
+      "id": "2026-11-10-github-deeptutor",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: HKUDS/DeepTutor 初登場",
+      "summary": "学習履歴に基づいて個別に最適化する AI チュータリングシステム (Python, ★57,604, +784 today)。",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "ai-tutor", "education", "personalized-learning"]
+    },
+    {
+      "id": "2026-11-10-github-claude-plugins-official",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "GitHub Trending: anthropics/claude-plugins-official 初登場",
+      "summary": "Anthropic 公式管理の Claude Code プラグインディレクトリ。Fable 5.2 発表当日に初登場 (Python, ★46,630, +129 today)。",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "anthropic", "plugins", "claude-code"]
+    },
+    {
+      "id": "2026-11-10-github-opensandbox",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending: opensandbox-group/OpenSandbox 初登場",
+      "summary": "AI エージェントがコードを安全に実行するためのサンドボックスランタイム (Python, ★16,905, +159 today)。",
+      "url": "https://github.com/opensandbox-group/OpenSandbox",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "sandbox", "ai-agent", "security"]
+    },
+    {
+      "id": "2026-11-10-github-ai-engineering-from-scratch-d2",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 2] rohitg00/ai-engineering-from-scratch — +323 stars で2日連続 Python Trending",
+      "summary": "542 レッスン・20フェーズの AI エンジニアリング総合カリキュラムへの関心が継続 (Python, ★78,148, +323 today)。",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "related_date": "2026-11-09",
+      "importance": "minor",
+      "tags": ["github-trending", "python", "ai-learning", "curriculum", "followup"]
+    }
+  ]
+}
