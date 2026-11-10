@@ -1,0 +1,219 @@
+{
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T08:14:38+09:00",
+  "sources_checked": 18,
+  "sources_failed": 15,
+  "items": [
+    {
+      "id": "2026-11-11-anthropic-ipo-roadshow",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "Anthropic: IPO ロードショー 開始",
+      "summary": "Class A 普通株式の IPO ロードショーを開始。825M株、想定価格 $70〜$78/株、Nasdaq 上場申請 (ティッカー: ANT)。Goldman Sachs・Morgan Stanley が主幹事。",
+      "url": "https://www.anthropic.com/news/roadshow-launch",
+      "importance": "highlight",
+      "tags": ["ipo", "anthropic", "nasdaq", "stocks", "funding"]
+    },
+    {
+      "id": "2026-11-11-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-11-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-11-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-11-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-11-homeassistant-ha-mcp",
+      "type": "new",
+      "vendor": "homeassistant-ai",
+      "section": "community",
+      "title": "GitHub Trending Python: homeassistant-ai/ha-mcp",
+      "summary": "Claude・ChatGPT 等と Home Assistant を接続する MCP サーバー。スマートホームの設定・自動化・デバイス制御を AI から直接操作できる。(★6,604, +792 today)",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "importance": "highlight",
+      "tags": ["github-trending", "mcp", "home-assistant", "smart-home", "python"]
+    },
+    {
+      "id": "2026-11-11-whitetown-ohmygame",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending TypeScript: WhiteTowerAI/ohmygame",
+      "summary": "自前の API キーで動かせる OSS AI ゲームスタジオ。(★2,033, +201 today)",
+      "url": "https://github.com/WhiteTowerAI/ohmygame",
+      "importance": "standard",
+      "tags": ["github-trending", "typescript", "game", "ai-studio"]
+    },
+    {
+      "id": "2026-11-11-imbad0202-academic-research-skills",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending Python: Imbad0202/academic-research-skills",
+      "summary": "リサーチ・執筆・レビュー・改訂・仕上げをカバーする Claude Code 向け学術研究スキルセット。(★56,358, +242 today)",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "importance": "standard",
+      "tags": ["github-trending", "claude-code", "skills", "academic", "python"]
+    },
+    {
+      "id": "2026-11-11-rlaope-oh-my-hermes",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "GitHub Trending TypeScript: rlaope/oh-my-hermes",
+      "summary": "AI コワーカーが協働するエージェント型システム。(★5,373, +59 today)",
+      "url": "https://github.com/rlaope/oh-my-hermes",
+      "importance": "minor",
+      "tags": ["github-trending", "typescript", "agent", "coworker"]
+    },
+    {
+      "id": "2026-11-11-meta-astryx-d4",
+      "type": "followup",
+      "vendor": "Meta",
+      "section": "community",
+      "title": "[続報 Day 4] meta/astryx — TypeScript Trending トップ 4日連続",
+      "summary": "4日連続で TypeScript Trending トップ。+3,111 stars (★22,665)、4日間累計 +7,500 stars 超。Meta 公式エージェント対応 OSS デザインシステムとして定着しつつある。",
+      "url": "https://github.com/meta/astryx",
+      "related_date": "2026-11-10",
+      "importance": "highlight",
+      "tags": ["github-trending", "typescript", "meta", "design-system", "agent-ready"]
+    },
+    {
+      "id": "2026-11-11-anthropics-skills-cont",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "[続報] anthropics/skills — +1,676 stars と今週最大規模",
+      "summary": "IPO ロードショー開始の日に昨日 (+1,052) を超える +1,676 stars を記録 (★192,266)。Anthropic エコシステムへの関心がピークに。",
+      "url": "https://github.com/anthropics/skills",
+      "related_date": "2026-11-10",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "anthropic", "skills", "agent"]
+    },
+    {
+      "id": "2026-11-11-milind-openmausbot-d4",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 4] milind-soni/OpenMausBot — 4日連続 Global Trending",
+      "summary": "OSS Grok Bot 代替。+1,220 stars (★20,603)。累計 ★20,000 超えを達成。",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "related_date": "2026-11-10",
+      "importance": "standard",
+      "tags": ["github-trending", "typescript", "grok-bot", "open-source"]
+    },
+    {
+      "id": "2026-11-11-debpalash-voicestudio-d2",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 2] debpalash/VoiceStudio — 高水準維持",
+      "summary": "ローカル完結型自己ホスト音声 AI スタジオ。+1,211 stars (★107,213)。昨日に続き同水準を維持。",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "related_date": "2026-11-10",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "voice", "tts", "open-source"]
+    },
+    {
+      "id": "2026-11-11-zhulinsen-stock-d2",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 2] ZhuLinsen/daily_stock_analysis — +1,062 stars と成長加速",
+      "summary": "LLM 活用マルチマーケット株式分析ツール。+1,062 stars (★69,545)。昨日 (+505) から倍増。",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "related_date": "2026-11-10",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "stock", "llm", "finance"]
+    },
+    {
+      "id": "2026-11-11-garrytan-gbrain-d2",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 2] garrytan/gbrain — +558 stars と成長加速",
+      "summary": "エージェント向け opinionated brain 設定集。+558 stars (★32,489)。昨日 (+215) の2.6倍に加速。",
+      "url": "https://github.com/garrytan/gbrain",
+      "related_date": "2026-11-10",
+      "importance": "standard",
+      "tags": ["github-trending", "typescript", "agent", "brain"]
+    },
+    {
+      "id": "2026-11-11-anthropics-quickstarts-d2",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "[続報 Day 2] anthropics/claude-quickstarts — +530 stars 継続",
+      "summary": "Anthropic 公式 Claude API クイックスタート集。+530 stars (★20,467)。IPO と連動し継続して高水準。",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "related_date": "2026-11-10",
+      "importance": "standard",
+      "tags": ["github-trending", "python", "anthropic", "api", "quickstart"]
+    },
+    {
+      "id": "2026-11-11-ranxianglei-billion-context",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報] ranxianglei/billion-context — +374 stars 継続",
+      "summary": "超長期セッション向けコンテキスト圧縮プロキシ。+374 stars (★6,277)。11-08 初登場以降安定して Trending 維持。",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "related_date": "2026-11-08",
+      "importance": "minor",
+      "tags": ["github-trending", "typescript", "context", "compression"]
+    },
+    {
+      "id": "2026-11-11-opensandbox-d2",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 2] opensandbox-group/OpenSandbox — +308 stars と成長",
+      "summary": "AI エージェント向けセキュア実行サンドボックス。+308 stars (★17,143)。昨日 (+159) から倍増。",
+      "url": "https://github.com/opensandbox-group/OpenSandbox",
+      "related_date": "2026-11-10",
+      "importance": "minor",
+      "tags": ["github-trending", "python", "sandbox", "agent"]
+    },
+    {
+      "id": "2026-11-11-rohitg00-ai-engineering-d3",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 3] rohitg00/ai-engineering-from-scratch — 3日連続 Trending",
+      "summary": "AI エンジニアリング総合カリキュラム (542 レッスン・20 フェーズ)。+187 stars (★78,302)。3日間安定。",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "related_date": "2026-11-09",
+      "importance": "minor",
+      "tags": ["github-trending", "python", "education", "ai-engineering"]
+    },
+    {
+      "id": "2026-11-11-papers-no-data",
+      "type": "no-update",
+      "vendor": null,
+      "section": "papers"
+    },
+    {
+      "id": "2026-11-11-media-no-data",
+      "type": "no-update",
+      "vendor": null,
+      "section": "media"
+    }
+  ]
+}
