@@ -1,0 +1,246 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T08:18:37+09:00",
+  "sources_checked": 26,
+  "sources_failed": 23,
+  "items": [
+    {
+      "id": "2026-11-12-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-12-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-12-google-no-update",
+      "type": "no-update",
+      "vendor": "Google / Google DeepMind",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-12-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-12-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-12-addyosmani-agent-skills",
+      "type": "new",
+      "vendor": "addyosmani",
+      "section": "community",
+      "title": "addyosmani/agent-skills — 本番品質エージェントスキル集 初登場",
+      "summary": "Addy Osmani (Google Chrome) による AI コーディングエージェント向け25スキル集。ライフサイクルを9スラッシュコマンドに対応付け、70以上のエージェントへのインストールに対応。Global Trending 初登場 +788 stars (★115,896)。",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "importance": "highlight",
+      "tags": ["agent-skills", "coding-agent", "javascript", "community"]
+    },
+    {
+      "id": "2026-11-12-openai-codex-security",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "community",
+      "title": "openai/codex-security — OpenAI 公式コードセキュリティ脆弱性検出 CLI",
+      "summary": "OpenAI 公式のセキュリティスキャン CLI と TypeScript SDK。リポジトリ全体の脆弱性検出・パッチ生成・SARIF エクスポートに対応。TypeScript Trending 首位登場 (★11,683)。",
+      "url": "https://github.com/openai/codex-security",
+      "importance": "highlight",
+      "tags": ["security", "openai", "cli", "typescript", "vulnerability-scanner"]
+    },
+    {
+      "id": "2026-11-12-shadcn-improve",
+      "type": "new",
+      "vendor": "shadcn",
+      "section": "community",
+      "title": "shadcn/improve — 高性能モデル×安価モデル分業エージェントスキル",
+      "summary": "shadcn/ui 作者による OSS エージェントスキル。高性能モデルが審査・計画を担い、安価モデルが孤立した git worktree で実行する分業アーキテクチャ。Global Trending 初登場 +333 stars (★10,817)。",
+      "url": "https://github.com/shadcn/improve",
+      "importance": "highlight",
+      "tags": ["agent-skills", "cost-optimization", "codebase-audit", "community"]
+    },
+    {
+      "id": "2026-11-12-experientiallabs-experiential",
+      "type": "new",
+      "vendor": "Experiential Labs",
+      "section": "community",
+      "title": "experientiallabs/experiential — 1,000以上のモデル対応ゼロマークアップ AI ゲートウェイ",
+      "summary": "料金上乗せなしで 1,000 以上の AI モデルへのアクセスを提供するオープンソースのルーティングゲートウェイ。モデル推薦機能も備える。Python Trending 初登場 +675 stars (★16,566)。",
+      "url": "https://github.com/experientiallabs/experiential",
+      "importance": "highlight",
+      "tags": ["ai-gateway", "model-routing", "cost-optimization", "python"]
+    },
+    {
+      "id": "2026-11-12-meta-astryx-d5",
+      "type": "followup",
+      "vendor": "Meta",
+      "section": "community",
+      "title": "[続報 Day 5] meta/astryx — 5日連続 TypeScript Trending トップ",
+      "summary": "5日間累計 +10,421 stars。AI エージェント対応 Meta 公式 OSS デザインシステム。本日 +2,842 で TypeScript Trending トップを維持 (★24,877)。",
+      "url": "https://github.com/meta/astryx",
+      "related_date": "2026-11-08",
+      "importance": "highlight",
+      "tags": ["meta", "design-system", "agent-ready", "typescript"]
+    },
+    {
+      "id": "2026-11-12-free-claude-code",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "Alishahryar1/free-claude-code — 無料トークンで Claude Code を使えるツール",
+      "summary": "ターミナル・IDE・ブラウザから無料トークンを経由して Claude Code 等 AI コーディングハーネスを利用できるツール。Python Trending 初登場 +652 stars (★68,674)。",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "importance": "standard",
+      "tags": ["claude-code", "free-tier", "python"]
+    },
+    {
+      "id": "2026-11-12-vercel-labs-agent-browser",
+      "type": "followup",
+      "vendor": "Vercel",
+      "section": "community",
+      "title": "[続報] vercel-labs/agent-browser — +712 stars で今週も継続",
+      "summary": "AI エージェント向けブラウザ自動操作 Rust 製 CLI。今週も断続的に Global Trending を維持し本日 +712 stars、累計 ★49,831。",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "related_date": "2026-11-09",
+      "importance": "standard",
+      "tags": ["browser-automation", "agent", "rust"]
+    },
+    {
+      "id": "2026-11-12-homeassistant-ha-mcp-d2",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 2] homeassistant-ai/ha-mcp — +640 stars で2日連続 Python Trending",
+      "summary": "Claude・ChatGPT 等の AI から Home Assistant を操作できる MCP サーバー。昨日 (+792) に続き2日連続で Trending を維持、累計 ★7,322。",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "related_date": "2026-11-11",
+      "importance": "standard",
+      "tags": ["mcp", "home-assistant", "smart-home", "python"]
+    },
+    {
+      "id": "2026-11-12-anthropics-skills",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "[続報] anthropics/skills — +1,093 stars で今週も継続",
+      "summary": "Anthropic 公式エージェントスキルリポジトリ。IPO ロードショー進行中でエコシステムへの関心が続き、本日 +1,093 stars を追加 (累計 ★193,100)。",
+      "url": "https://github.com/anthropics/skills",
+      "related_date": "2026-11-10",
+      "importance": "standard",
+      "tags": ["anthropic", "agent-skills", "python"]
+    },
+    {
+      "id": "2026-11-12-ranxianglei-billion-context-d4",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 4] ranxianglei/billion-context — +756 stars で4日連続 TypeScript Trending",
+      "summary": "超長期コーディングセッション向けコンテキスト圧縮プロキシ。11-09 初登場以来4日連続で Trending を維持、本日 +756 stars (★6,824)。",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "related_date": "2026-11-09",
+      "importance": "standard",
+      "tags": ["context-compression", "long-context", "typescript"]
+    },
+    {
+      "id": "2026-11-12-anthropics-claude-quickstarts-d3",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "[続報 Day 3] anthropics/claude-quickstarts — +482 stars で3日連続 Python Trending",
+      "summary": "Anthropic 公式 Claude API クイックスタート集。11-10 初登場以来3日連続で Python Trending を維持 (★20,761)。",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "related_date": "2026-11-10",
+      "importance": "standard",
+      "tags": ["anthropic", "claude-api", "quickstart", "python"]
+    },
+    {
+      "id": "2026-11-12-browser-use",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "browser-use/browser-use — AI ブラウザエージェントライブラリ",
+      "summary": "AI エージェントがウェブブラウザを操作するオープンソースライブラリ。クラウドホスティングサービスも提供。Python Trending 継続 +171 stars (★120,738)。",
+      "url": "https://github.com/browser-use/browser-use",
+      "importance": "minor",
+      "tags": ["browser-automation", "agent", "python"]
+    },
+    {
+      "id": "2026-11-12-backnotprop-plannotator",
+      "type": "new",
+      "vendor": null,
+      "section": "community",
+      "title": "backnotprop/plannotator — エージェント向け計画・注釈ワークスペース",
+      "summary": "エージェントの計画策定・コード注釈・レビュー・フィードバック送信を一元管理するワークスペースツール。TypeScript Trending 初登場 +55 stars (★10,056)。",
+      "url": "https://github.com/backnotprop/plannotator",
+      "importance": "minor",
+      "tags": ["agent-tools", "planning", "typescript"]
+    },
+    {
+      "id": "2026-11-12-google-labs-stitch-skills",
+      "type": "new",
+      "vendor": "Google",
+      "section": "community",
+      "title": "google-labs-code/stitch-skills — Google Stitch MCP 向けエージェントスキルライブラリ",
+      "summary": "Google Labs が公開した Stitch MCP サーバー向けエージェントスキルライブラリ。コーディングエージェントとの互換性を備える。TypeScript Trending 初登場 +15 stars (★8,740)。",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "importance": "minor",
+      "tags": ["google", "mcp", "agent-skills", "stitch", "typescript"]
+    },
+    {
+      "id": "2026-11-12-zhulinsen-daily-stock-d3",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 3] ZhuLinsen/daily_stock_analysis — +429 stars で3日連続 Python Trending",
+      "summary": "LLM 活用のマルチマーケット株式分析ツール。11-10 初登場以来3日連続で Trending を維持 (★70,167)。",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "related_date": "2026-11-10",
+      "importance": "minor",
+      "tags": ["finance", "llm", "stock-analysis", "python"]
+    },
+    {
+      "id": "2026-11-12-garrytan-gbrain-d3",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 3] garrytan/gbrain — +225 stars で3日連続 TypeScript Trending",
+      "summary": "エージェント向け \"brain\" 設定集。11-10 初登場以来3日連続で TypeScript Trending を維持 (★32,695)。",
+      "url": "https://github.com/garrytan/gbrain",
+      "related_date": "2026-11-10",
+      "importance": "minor",
+      "tags": ["agent-tools", "typescript"]
+    },
+    {
+      "id": "2026-11-12-whitetower-ohmygame-d2",
+      "type": "followup",
+      "vendor": "WhiteTowerAI",
+      "section": "community",
+      "title": "[続報 Day 2] WhiteTowerAI/ohmygame — +91 stars で2日連続 TypeScript Trending",
+      "summary": "自前 API キーで使う OSS AI ゲームスタジオ。昨日 (2026-11-11) の初登場に続き2日連続で TypeScript Trending を維持 (★2,106)。",
+      "url": "https://github.com/WhiteTowerAI/ohmygame",
+      "related_date": "2026-11-11",
+      "importance": "minor",
+      "tags": ["game", "ai-studio", "typescript"]
+    },
+    {
+      "id": "2026-11-12-opensandbox-d3",
+      "type": "followup",
+      "vendor": null,
+      "section": "community",
+      "title": "[続報 Day 3] opensandbox-group/OpenSandbox — +88 stars で3日連続 Trending",
+      "summary": "AI エージェント向けセキュア実行サンドボックスランタイム。11-10 初登場以来3日連続で Trending を維持 (★17,202)。",
+      "url": "https://github.com/opensandbox-group/OpenSandbox",
+      "related_date": "2026-11-10",
+      "importance": "minor",
+      "tags": ["sandbox", "agent-runtime", "security"]
+    }
+  ]
+}
