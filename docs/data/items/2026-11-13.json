@@ -1,0 +1,243 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T08:17:07+09:00",
+  "sources_checked": 26,
+  "sources_failed": 23,
+  "items": [
+    {
+      "id": "2026-11-13-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-13-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-13-google-no-update",
+      "type": "no-update",
+      "vendor": "Google / Google DeepMind",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-13-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-13-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-13-googlechrome-modern-web",
+      "type": "new",
+      "vendor": "Google",
+      "section": "community",
+      "title": "GoogleChrome/modern-web-guidance-src — AI コーディングエージェント向けウェブ標準ガイド 初登場",
+      "summary": "Google Chrome 公式チームが公開した、AI コーディングエージェント向け最新ウェブ標準ベストプラクティスガイド。TypeScript 製、★2,826, +799 today。",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "importance": "highlight",
+      "tags": ["google", "coding-agent", "web-standards", "github-trending"]
+    },
+    {
+      "id": "2026-11-13-qwenlm-qwen-code",
+      "type": "new",
+      "vendor": "Alibaba Qwen",
+      "section": "community",
+      "title": "QwenLM/qwen-code — Alibaba Qwen 製 OSS ターミナル AI コーディングエージェント 初登場",
+      "summary": "Alibaba Qwen チームが公開した OSS ターミナル AI コーディングエージェント。TypeScript 製、★29,776, +151 today。",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "importance": "highlight",
+      "tags": ["alibaba", "qwen", "coding-agent", "open-source", "github-trending"]
+    },
+    {
+      "id": "2026-11-13-copilotkit-openbot",
+      "type": "new",
+      "vendor": "CopilotKit",
+      "section": "community",
+      "title": "CopilotKit/OpenBot — AG-UI 対応 OSS AI コワーカーフレームワーク 初登場",
+      "summary": "それぞれ固有のブラウザ・ファイル・ツール群を持つ AI コワーカーを複数起動・管理する OSS エージェントフレームワーク。TypeScript 製、★11,556, +291 today。",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "importance": "standard",
+      "tags": ["copilotkit", "ai-coworkers", "ag-ui", "github-trending"]
+    },
+    {
+      "id": "2026-11-13-ggml-llama-cpp",
+      "type": "new",
+      "vendor": "ggml-org",
+      "section": "community",
+      "title": "ggml-org/llama.cpp — C/C++ LLM ローカル推論エンジン 再登場",
+      "summary": "LLM をローカルで実行するための C/C++ 推論エンジン。定番プロジェクト、C++ 製、★134,522, +287 today。",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "importance": "standard",
+      "tags": ["llm", "inference", "local", "cpp", "github-trending"]
+    },
+    {
+      "id": "2026-11-13-ashhart-tensorfold",
+      "type": "new",
+      "vendor": "ashhart",
+      "section": "community",
+      "title": "ashhart/TensorFold — Metal / CUDA / Vulkan 対応 LLM 推論エンジン 初登場",
+      "summary": "Zig 製の LLM 推論エンジン。Apple Metal・NVIDIA CUDA・Vulkan の3バックエンドに対応。★1,923, +94 today。",
+      "url": "https://github.com/ashhart/TensorFold",
+      "importance": "standard",
+      "tags": ["llm", "inference", "zig", "metal", "cuda", "vulkan", "github-trending"]
+    },
+    {
+      "id": "2026-11-13-meta-astryx-d6",
+      "type": "followup",
+      "vendor": "Meta",
+      "section": "community",
+      "title": "[続報 Day 6] meta/astryx — +1,789 stars で6日連続 TypeScript Trending",
+      "summary": "AI エージェント対応 Meta 公式 OSS デザインシステム。6日間累計 +12,210 stars。TypeScript 製、★26,459, +1,789 today。",
+      "url": "https://github.com/meta/astryx",
+      "related_date": "2026-11-08",
+      "importance": "highlight",
+      "tags": ["meta", "design-system", "agent-ready", "github-trending"]
+    },
+    {
+      "id": "2026-11-13-addyosmani-agent-skills",
+      "type": "followup",
+      "vendor": "Google",
+      "section": "community",
+      "title": "[続報 Day 2] addyosmani/agent-skills — +812 stars で2日連続 Global Trending",
+      "summary": "Addy Osmani (Google Chrome) による本番品質 AI コーディングエージェントスキル集。JavaScript 製、★116,638, +812 today。",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "related_date": "2026-11-12",
+      "importance": "standard",
+      "tags": ["google", "coding-agent", "agent-skills", "github-trending"]
+    },
+    {
+      "id": "2026-11-13-openai-codex-security",
+      "type": "followup",
+      "vendor": "OpenAI",
+      "section": "community",
+      "title": "[続報 Day 2] openai/codex-security — +663 stars と TypeScript Trending で大幅急伸",
+      "summary": "OpenAI 公式コードセキュリティ脆弱性検出 CLI・SDK。11-12 の +20 から本日 +663 と急増。TypeScript 製、★12,375, +663 today。",
+      "url": "https://github.com/openai/codex-security",
+      "related_date": "2026-11-12",
+      "importance": "standard",
+      "tags": ["openai", "security", "code-security", "github-trending"]
+    },
+    {
+      "id": "2026-11-13-alishahryar1-free-claude-code",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 2] Alishahryar1/free-claude-code — +461 stars で2日連続 Python Trending",
+      "summary": "無料トークンで Claude Code 等の AI コーディングハーネスを利用できるツール。Python 製、★69,241, +461 today。",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "related_date": "2026-11-12",
+      "importance": "minor",
+      "tags": ["claude-code", "free", "github-trending"]
+    },
+    {
+      "id": "2026-11-13-purpledoubled-locally-uncensored",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "PurpleDoubleD/locally-uncensored — ローカル完結型デスクトップ AI スタジオ 初登場",
+      "summary": "チャット・画像/動画生成・AI コーディングエージェント機能をすべてローカルで提供するデスクトップアプリ。TypeScript 製、★4,074, +217 today。",
+      "url": "https://github.com/PurpleDoubleD/locally-uncensored",
+      "importance": "standard",
+      "tags": ["local-ai", "desktop-app", "image-gen", "github-trending"]
+    },
+    {
+      "id": "2026-11-13-nvidia-skillspector",
+      "type": "new",
+      "vendor": "NVIDIA",
+      "section": "community",
+      "title": "NVIDIA/SkillSpector — AI エージェントスキルセキュリティスキャナ 初登場",
+      "summary": "プロンプトインジェクション・データ流出・サプライチェーンリスクを自動検査する AI エージェントスキル向けセキュリティスキャナ。Python 製、★25,695, +302 today。",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "importance": "highlight",
+      "tags": ["nvidia", "security", "agent-skills", "prompt-injection", "github-trending"]
+    },
+    {
+      "id": "2026-11-13-nvidia-skillevaluator",
+      "type": "new",
+      "vendor": "NVIDIA",
+      "section": "community",
+      "title": "NVIDIA/SkillEvaluator — AI エージェントスキル評価フレームワーク 初登場",
+      "summary": "品質ゲートとライブエージェント評価を含む AI スキル評価フレームワーク。Python 製、★852, +83 today。",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "importance": "standard",
+      "tags": ["nvidia", "evaluation", "agent-skills", "github-trending"]
+    },
+    {
+      "id": "2026-11-13-davila7-claude-code-templates",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "davila7/claude-code-templates — Claude Code コンポーネントのオープンソースレジストリ 初登場",
+      "summary": "Claude Code 向けのエージェント・コマンド・スキル・フックをまとめたオープンソースのレジストリ兼 CLI。Python 製、★33,429, +91 today。",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "importance": "minor",
+      "tags": ["claude-code", "registry", "components", "github-trending"]
+    },
+    {
+      "id": "2026-11-13-openai-whisper",
+      "type": "new",
+      "vendor": "OpenAI",
+      "section": "community",
+      "title": "openai/whisper — OpenAI 音声認識モデル 再登場",
+      "summary": "大規模弱教師あり学習で訓練した OpenAI の音声認識モデル。定番プロジェクト。Python 製、★112,602, +118 today。",
+      "url": "https://github.com/openai/whisper",
+      "importance": "minor",
+      "tags": ["openai", "speech-recognition", "whisper", "github-trending"]
+    },
+    {
+      "id": "2026-11-13-mvanhorn-last30days-skill",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "mvanhorn/last30days-skill — 複数プラットフォームにわたるトピックリサーチスキル 初登場",
+      "summary": "指定トピックについて複数プラットフォームにまたがって調査し、根拠付きのサマリーを生成する AI エージェントスキル。Python 製、★67,437, +119 today。",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "importance": "minor",
+      "tags": ["agent-skills", "research", "github-trending"]
+    },
+    {
+      "id": "2026-11-13-zhulindzen-daily-stock-d4",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 4] ZhuLinsen/daily_stock_analysis — +1,290 stars で今週単日最大・4日連続 Python Trending",
+      "summary": "LLM 活用のマルチマーケット株式分析ツール。今週単日最大の +1,290 stars で4日連続 Python Trending を維持。Python 製、★71,070。",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "related_date": "2026-11-10",
+      "importance": "highlight",
+      "tags": ["llm", "stock-analysis", "fintech", "github-trending"]
+    },
+    {
+      "id": "2026-11-13-homeassistant-ha-mcp-d3",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 3] homeassistant-ai/ha-mcp — +691 stars で3日連続 Python Trending",
+      "summary": "Home Assistant × AI 統合 MCP サーバー。3日連続で安定した高水準を維持。Python 製、★7,684, +691 today。",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "related_date": "2026-11-11",
+      "importance": "standard",
+      "tags": ["home-assistant", "mcp", "smart-home", "github-trending"]
+    },
+    {
+      "id": "2026-11-13-rlaope-oh-my-hermes",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 3] rlaope/oh-my-hermes — +100 stars で3日連続 Python Trending",
+      "summary": "AI コワーカーエージェントシステム。3日連続 Python Trending を維持。Python 製、★5,558, +100 today。",
+      "url": "https://github.com/rlaope/oh-my-hermes",
+      "related_date": "2026-11-11",
+      "importance": "minor",
+      "tags": ["ai-coworkers", "agent", "github-trending"]
+    }
+  ]
+}

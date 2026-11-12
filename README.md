@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-11-13](summaries/2026/11/2026-11-13.md) — NVIDIA/SkillSpector & SkillEvaluator 初登場, GoogleChrome/modern-web-guidance-src 初登場, QwenLM/qwen-code 初登場, meta/astryx Day 6
 - [2026-11-12](summaries/2026/11/2026-11-12.md) — addyosmani/agent-skills 初登場, openai/codex-security TypeScript Trending 首位, shadcn/improve 初登場, meta/astryx Day 5
 - [2026-11-11](summaries/2026/11/2026-11-11.md) — Anthropic IPO ロードショー開始 (Nasdaq "ANT"), homeassistant-ai/ha-mcp 初登場, meta/astryx Day 4
 - [2026-11-10](summaries/2026/11/2026-11-10.md) — Anthropic Claude Fable 5.2 & Mythos 5.2 発表, meta/astryx Day 3, debpalash/VoiceStudio 初登場
 - [2026-11-09](summaries/2026/11/2026-11-09.md) — niubigeo 初登場 (GEOトラッカー), billion-context 初登場, OpenMausBot Day 2
 - [2026-11-08](summaries/2026/11/2026-11-08.md) — morluto/rea 初登場, cloudflare/security-audit-skill Day 2, jamiepine/voicebox 初登場
 - [2026-11-07](summaries/2026/11/2026-11-07.md) — cloudflare/security-audit-skill 初登場, stablyai/orca, NVIDIA/auto-ontology Day 3
-- [2026-11-06](summaries/2026/11/2026-11-06.md) — google/skills 初登場・スキルエコシステム拡大, NVIDIA/auto-ontology Day 2, max-sixty/worktrunk
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
