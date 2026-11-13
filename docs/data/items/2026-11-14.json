@@ -1,0 +1,290 @@
+{
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T08:15:08+09:00",
+  "sources_checked": 4,
+  "sources_failed": 23,
+  "items": [
+    {
+      "id": "2026-11-14-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-14-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-14-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-14-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-14-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-14-alibaba-open-code-review",
+      "type": "new",
+      "vendor": "Alibaba",
+      "section": "community",
+      "title": "alibaba/open-code-review — ルールベース + LLM ハイブリッドコードレビューツール 初登場",
+      "summary": "ルールベースパイプラインと LLM エージェントを組み合わせ、NPE・XSS・SQL インジェクション等を行単位コメントで指摘する Alibaba 製コードレビューツール。Go, ★50,565, +206 today。",
+      "url": "https://github.com/alibaba/open-code-review",
+      "importance": "standard",
+      "tags": ["code-review", "llm", "alibaba", "github-trending", "go"]
+    },
+    {
+      "id": "2026-11-14-chrome-devtools-mcp",
+      "type": "new",
+      "vendor": "Google",
+      "section": "community",
+      "title": "ChromeDevTools/chrome-devtools-mcp — Chrome DevTools の AI コーディングエージェント向け公式 MCP サーバー 初登場",
+      "summary": "Chrome DevTools チーム公式の MCP サーバー。エージェントがブラウザのデバッグ・パフォーマンス分析・ネットワーク検査を直接操作できる。TypeScript, ★55,435, +145 today。",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "importance": "highlight",
+      "tags": ["mcp", "chrome-devtools", "browser", "google", "github-trending", "typescript"]
+    },
+    {
+      "id": "2026-11-14-a2ui-project",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "a2ui-project/a2ui — エージェントがレイアウトをストリームし、アプリがネイティブコンポーネントで描画する生成 UI フレームワーク 初登場",
+      "summary": "AI エージェントがレイアウトデータをストリームし、クライアントアプリがネイティブコンポーネントで描画する生成 UI フレームワーク。TypeScript, ★17,309, +121 today。",
+      "url": "https://github.com/a2ui-project/a2ui",
+      "importance": "standard",
+      "tags": ["generative-ui", "agent", "ui-framework", "github-trending", "typescript"]
+    },
+    {
+      "id": "2026-11-14-tradermonty-claude-trading-skills",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "tradermonty/claude-trading-skills — 株式投資家・トレーダー向け Claude Code スキル集 初登場",
+      "summary": "市場分析・チャート生成・スクリーニング・トレード戦略開発などの機能を持つ Claude Code 専用スキルセット。Python, ★4,139, +60 today。",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "importance": "minor",
+      "tags": ["claude-code", "skills", "trading", "finance", "github-trending", "python"]
+    },
+    {
+      "id": "2026-11-14-googlechrome-modern-web-d2",
+      "type": "followup",
+      "vendor": "Google",
+      "section": "community",
+      "title": "[続報 Day 2] GoogleChrome/modern-web-guidance-src — +1,875 stars と急加速、前日比 2.4 倍",
+      "summary": "初登場 (11-13, +799) → 本日 +1,875。AI コーディングエージェント向けウェブ標準ガイドへの週末需要が急拡大。TypeScript, ★4,775。",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "related_date": "2026-11-13",
+      "importance": "highlight",
+      "tags": ["web-standards", "coding-agent", "google-chrome", "github-trending", "typescript"]
+    },
+    {
+      "id": "2026-11-14-copilotkit-openbot-d2",
+      "type": "followup",
+      "vendor": "CopilotKit",
+      "section": "community",
+      "title": "[続報 Day 2] CopilotKit/OpenBot — +799 stars と急伸、初日の 2.7 倍",
+      "summary": "初登場 (11-13, +291) → 本日 +799。AG-UI 対応 OSS AI コワーカーフレームワークへの関心が週末に加速。TypeScript, ★12,096。",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "related_date": "2026-11-13",
+      "importance": "highlight",
+      "tags": ["ai-agent", "ag-ui", "open-source", "copilotkit", "github-trending", "typescript"]
+    },
+    {
+      "id": "2026-11-14-openai-codex-security-d3",
+      "type": "followup",
+      "vendor": "OpenAI",
+      "section": "community",
+      "title": "[続報 Day 3] openai/codex-security — +754 stars で今週を通じて継続",
+      "summary": "11-12 初登場 (+20) → 11-13 (+663) → 本日 +754。OpenAI 公式コードセキュリティ CLI への需要が週末も継続。TypeScript, ★13,106。",
+      "url": "https://github.com/openai/codex-security",
+      "related_date": "2026-11-12",
+      "importance": "highlight",
+      "tags": ["security", "code-security", "openai", "cli", "github-trending", "typescript"]
+    },
+    {
+      "id": "2026-11-14-free-claude-code-d3",
+      "type": "followup",
+      "vendor": "Other",
+      "section": "community",
+      "title": "[続報 Day 3] Alishahryar1/free-claude-code — +895 stars で今週最大規模",
+      "summary": "11-12 初登場 (+652) → 11-13 (+461) → 本日 +895 と再加速。今週最多の単日増加を記録。Python, ★69,867。",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "related_date": "2026-11-12",
+      "importance": "highlight",
+      "tags": ["claude-code", "free", "github-trending", "python"]
+    },
+    {
+      "id": "2026-11-14-qwenlm-qwen-code-d2",
+      "type": "followup",
+      "vendor": "Alibaba",
+      "section": "community",
+      "title": "[続報 Day 2] QwenLM/qwen-code — +574 stars で2日連続 TypeScript Trending",
+      "summary": "初登場 (11-13, +151) → 本日 +574 と急伸。Alibaba Qwen の OSS ターミナル AI コーディングエージェントへの注目が週末に大幅に高まった。TypeScript, ★30,118。",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "related_date": "2026-11-13",
+      "importance": "standard",
+      "tags": ["coding-agent", "alibaba", "qwen", "open-source", "github-trending", "typescript"]
+    },
+    {
+      "id": "2026-11-14-zhulisen-daily-stock-d5",
+      "type": "followup",
+      "vendor": "Other",
+      "section": "community",
+      "title": "[続報 Day 5] ZhuLinsen/daily_stock_analysis — +272 stars で5日連続 Python Trending",
+      "summary": "11-10 初登場以来5日連続。今週単日最大は Day 4 (+1,290) だったが、本日も +272 を維持。Python, ★71,555。",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "related_date": "2026-11-10",
+      "importance": "minor",
+      "tags": ["stock-analysis", "llm", "finance", "github-trending", "python"]
+    },
+    {
+      "id": "2026-11-14-anthropics-plugins-official",
+      "type": "new",
+      "vendor": "Anthropic",
+      "section": "community",
+      "title": "anthropics/claude-plugins-official — Anthropic 公式 Claude Code プラグイン認定ディレクトリ 初登場",
+      "summary": "Anthropic が公式管理する Claude Code プラグインの認定ディレクトリ。エコシステムの品質・信頼性を担保する公式基盤。Python, ★47,186, +134 today。",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "importance": "highlight",
+      "tags": ["claude-code", "plugins", "anthropic", "official", "github-trending", "python"]
+    },
+    {
+      "id": "2026-11-14-kajisho5-ffmpeg-skill",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "kajisho5/ffmpeg-skill — AI コーディングエージェント向けローカル動画編集スキルキット 初登場",
+      "summary": "42 種類の FFmpeg ツールと MCP サーバーを含む、AI エージェント専用のローカル動画編集スキルキット。Python, ★5,429, +224 today。",
+      "url": "https://github.com/kajisho5/ffmpeg-skill",
+      "importance": "standard",
+      "tags": ["ffmpeg", "video-editing", "mcp", "agent-skill", "github-trending", "python"]
+    },
+    {
+      "id": "2026-11-14-headroomlabs-ai-headroom",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "headroomlabs-ai/headroom — LLM へのツール出力・ログ・RAG チャンクを圧縮するプロキシ 初登場",
+      "summary": "ツール出力・ログ・ファイル・RAG チャンクを LLM に渡す前に圧縮するオープンソースプロキシ。コンテキスト消費量とコストを削減。Python, ★79,595, +125 today。",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "importance": "standard",
+      "tags": ["context-compression", "rag", "proxy", "llm", "github-trending", "python"]
+    },
+    {
+      "id": "2026-11-14-ahujasid-mcp-for-blender",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "ahujasid/mcp-for-blender — LLM で Blender 3D を操作するコミュニティ製 MCP サーバー 初登場",
+      "summary": "LLM で Blender 3D を直接操作するコミュニティ製 MCP サーバー。3D モデリング・シーン編集などの操作を AI から制御できる。Python, ★34,321, +140 today。",
+      "url": "https://github.com/ahujasid/mcp-for-blender",
+      "importance": "standard",
+      "tags": ["mcp", "blender", "3d", "llm", "github-trending", "python"]
+    },
+    {
+      "id": "2026-11-14-volcengine-openviking",
+      "type": "new",
+      "vendor": "ByteDance",
+      "section": "community",
+      "title": "volcengine/OpenViking — ByteDance Volcano Engine 製エージェント向けコンテキストデータベース 初登場",
+      "summary": "ByteDance の Volcano Engine が公開した、AI エージェントのメモリ・ナレッジ RAG・スキルを統合管理するコンテキストデータベース。Python, ★42,202, +111 today。",
+      "url": "https://github.com/volcengine/OpenViking",
+      "importance": "standard",
+      "tags": ["context-database", "rag", "memory", "bytedance", "agent", "github-trending", "python"]
+    },
+    {
+      "id": "2026-11-14-tencent-hunyuan-hy-mt2",
+      "type": "new",
+      "vendor": "Tencent",
+      "section": "community",
+      "title": "Tencent-Hunyuan/Hy-MT2 — Tencent Hunyuan 新 AI モデル 初登場",
+      "summary": "Tencent の Hunyuan チームが公開した新しい AI モデル。詳細未公開だが本日 Python Trending に初登場。Python, ★1,752, +49 today。",
+      "url": "https://github.com/Tencent-Hunyuan/Hy-MT2",
+      "importance": "standard",
+      "tags": ["model-release", "tencent", "hunyuan", "github-trending", "python"]
+    },
+    {
+      "id": "2026-11-14-shanliuling-dsh-image-gen",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "shanliuling/dsh-image-gen — チャット形式の AI 画像生成・編集・比較スタジオ 初登場",
+      "summary": "チャットインタフェースで AI 画像の生成・編集・比較ができ、ComfyUI 連携もサポートするスタジオツール。TypeScript, ★1,472, +92 today。",
+      "url": "https://github.com/shanliuling/dsh-image-gen",
+      "importance": "minor",
+      "tags": ["image-generation", "comfyui", "ai-studio", "github-trending", "typescript"]
+    },
+    {
+      "id": "2026-11-14-lidge-jun-opencodex",
+      "type": "new",
+      "vendor": "Other",
+      "section": "community",
+      "title": "lidge-jun/opencodex — OpenAI Codex / Claude Code で Gemini・Grok・DeepSeek 等を利用できるプロキシ 初登場",
+      "summary": "OpenAI Codex や Claude Code のインタフェースのまま、Gemini・Grok・DeepSeek・Ollama などを利用できるプロキシ。TypeScript, ★18,489, +55 today。",
+      "url": "https://github.com/lidge-jun/opencodex",
+      "importance": "minor",
+      "tags": ["proxy", "claude-code", "codex", "gemini", "deepseek", "github-trending", "typescript"]
+    },
+    {
+      "id": "2026-11-14-nvidia-skillspector-d2",
+      "type": "followup",
+      "vendor": "NVIDIA",
+      "section": "community",
+      "title": "[続報 Day 2] NVIDIA/SkillSpector — +185 stars で2日連続 Python Trending",
+      "summary": "初登場 (11-13, +302) → 本日 +185。NVIDIA の AI スキルセキュリティスキャナへの関心が継続。Python, ★25,885。",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "related_date": "2026-11-13",
+      "importance": "standard",
+      "tags": ["security", "ai-skills", "nvidia", "prompt-injection", "github-trending", "python"]
+    },
+    {
+      "id": "2026-11-14-purpledoubled-locally-uncensored-d2",
+      "type": "followup",
+      "vendor": "Other",
+      "section": "community",
+      "title": "[続報 Day 2] PurpleDoubleD/locally-uncensored — +154 stars で2日連続 TypeScript Trending",
+      "summary": "初登場 (11-13, +217) → 本日 +154。ローカル完結型デスクトップ AI スタジオへの需要が週末も持続。TypeScript, ★4,187。",
+      "url": "https://github.com/PurpleDoubleD/locally-uncensored",
+      "related_date": "2026-11-13",
+      "importance": "minor",
+      "tags": ["local-ai", "desktop-app", "image-gen", "coding-agent", "github-trending", "typescript"]
+    },
+    {
+      "id": "2026-11-14-mvanhorn-last30days-skill-d2",
+      "type": "followup",
+      "vendor": "Other",
+      "section": "community",
+      "title": "[続報 Day 2] mvanhorn/last30days-skill — +112 stars で2日連続 Python Trending",
+      "summary": "初登場 (11-13, +119) → 本日 +112。マルチプラットフォームにわたるトピックリサーチスキルへの関心が継続。Python, ★67,553。",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "related_date": "2026-11-13",
+      "importance": "minor",
+      "tags": ["agent-skill", "research", "github-trending", "python"]
+    },
+    {
+      "id": "2026-11-14-davila7-claude-code-templates-d2",
+      "type": "followup",
+      "vendor": "Other",
+      "section": "community",
+      "title": "[続報 Day 2] davila7/claude-code-templates — +65 stars で2日連続 Python Trending",
+      "summary": "初登場 (11-13, +91) → 本日 +65。Claude Code 向けコンポーネントレジストリへの関心が継続。Python, ★33,481。",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "related_date": "2026-11-13",
+      "importance": "minor",
+      "tags": ["claude-code", "templates", "registry", "github-trending", "python"]
+    }
+  ]
+}
