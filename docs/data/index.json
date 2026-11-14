@@ -1,5 +1,396 @@
 [
   {
+    "date": "2026-11-15",
+    "id": "2026-11-15-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-15",
+    "id": "2026-11-15-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-15",
+    "id": "2026-11-15-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-15",
+    "id": "2026-11-15-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-15",
+    "id": "2026-11-15-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-15",
+    "id": "2026-11-15-backnotprop-plannotator",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "backnotprop/plannotator 初登場 — AI エージェント向け計画・注釈・作業管理ワークスペース",
+    "summary": "AI エージェントの計画・注釈・コードレビュー・フィードバックを統合した作業環境。初日 +412 stars。",
+    "url": "https://github.com/backnotprop/plannotator",
+    "importance": "highlight",
+    "tags": [
+      "agent-tools",
+      "workflow",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "id": "2026-11-15-dream-num-univer",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "dream-num/univer 初登場 — AI エージェント対応統合型 Office SDK",
+    "summary": "表計算・文書編集・コラボ・ファイル処理を統合したエージェント対応 Office SDK。初日 +495 stars。",
+    "url": "https://github.com/dream-num/univer",
+    "importance": "highlight",
+    "tags": [
+      "office-sdk",
+      "agent-tools",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "id": "2026-11-15-juliusbrussee-caveman",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "JuliusBrussee/caveman 初登場 — AI コーディングエージェントのトークン消費を約 65% 削減するプロキシ",
+    "summary": "コーディングエージェント出力を圧縮しトークン消費を最大 65% 削減するスキル + プロキシ。初日 +227 stars。",
+    "url": "https://github.com/JuliusBrussee/caveman",
+    "importance": "standard",
+    "tags": [
+      "token-optimization",
+      "proxy",
+      "go",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "id": "2026-11-15-tencent-loopforge",
+    "type": "new",
+    "vendor": "Tencent",
+    "section": "community",
+    "title": "Tencent/LoopForge 初登場 — 人間承認ゲート付き AI コーディングエージェント配信ワークフロー",
+    "summary": "Tencent 製、人間承認ゲートを挟んで AI エージェント成果物を管理・配信するセルフホスト型ワークフロー。初日 +101 stars。",
+    "url": "https://github.com/Tencent/LoopForge",
+    "importance": "standard",
+    "tags": [
+      "workflow",
+      "human-in-the-loop",
+      "go",
+      "tencent",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "id": "2026-11-15-andrewyng-openworker",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "andrewyng/openworker 初登場 — Andrew Ng による新規 AI プロジェクト",
+    "summary": "Andrew Ng が公開した新プロジェクト。詳細は未公表だが公開直後から多数の注目を集める。初日 +94 stars。",
+    "url": "https://github.com/andrewyng/openworker",
+    "importance": "standard",
+    "tags": [
+      "python",
+      "andrew-ng",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "id": "2026-11-15-elementalsouls-claude-bughunter",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "community",
+    "title": "elementalsouls/Claude-BugHunter 初登場 — Claude Code 向けバグ発見・レッドチームスキルバンドル",
+    "summary": "Claude Code 専用のバグ検出・レッドチーム特化スキルセット。初日 +127 stars。",
+    "url": "https://github.com/elementalsouls/Claude-BugHunter",
+    "importance": "standard",
+    "tags": [
+      "claude-code",
+      "security",
+      "bug-hunting",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "id": "2026-11-15-mukul975-cybersecurity-skills",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "community",
+    "title": "mukul975/Anthropic-Cybersecurity-Skills 初登場 — AI エージェント向けサイバーセキュリティスキル 817 本",
+    "summary": "MITRE ATT&CK 等主要フレームワーク対応のサイバーセキュリティスキルを 817 本収録。初日 +66 stars。",
+    "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+    "importance": "standard",
+    "tags": [
+      "cybersecurity",
+      "skills",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "id": "2026-11-15-microsoft-pyrit",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "community",
+    "title": "microsoft/PyRIT 初登場 — Microsoft 製生成 AI 向けオープンソースレッドチームツールキット",
+    "summary": "Microsoft 製、生成 AI システムのリスク評価とレッドチームを自動化するオープンソースツールキット。初日 +22 stars。",
+    "url": "https://github.com/microsoft/PyRIT",
+    "importance": "minor",
+    "tags": [
+      "microsoft",
+      "red-team",
+      "security",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "id": "2026-11-15-ashhart-tensorfold",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "ashhart/TensorFold 初登場 — Metal / CUDA / Vulkan 対応 LLM 推論エンジン",
+    "summary": "Apple Metal・NVIDIA CUDA・Vulkan 対応の LLM 推論エンジン（Zig 実装）。初日 +53 stars。",
+    "url": "https://github.com/ashhart/TensorFold",
+    "importance": "minor",
+    "tags": [
+      "inference",
+      "zig",
+      "metal",
+      "cuda",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "id": "2026-11-15-0x0funky-agent-sprite-forge",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "0x0funky/agent-sprite-forge 初登場 — 2D スプライト・透過 PNG・アニメーション GIF 生成エージェントスキル",
+    "summary": "AI エージェントが 2D スプライトシートや透過 PNG・アニメーション GIF を生成するスキル。初日 +56 stars。",
+    "url": "https://github.com/0x0funky/agent-sprite-forge",
+    "importance": "minor",
+    "tags": [
+      "image-gen",
+      "sprite",
+      "agent-skills",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "id": "2026-11-15-moeru-ai-airi",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "moeru-ai/airi 初登場 — 音声チャット・ゲームプレイ対応セルフホスト型 AI コンパニオン",
+    "summary": "音声チャットとゲームのリアルタイムプレイを担うセルフホスト型 AI コンパニオン。初日 +51 stars。",
+    "url": "https://github.com/moeru-ai/airi",
+    "importance": "minor",
+    "tags": [
+      "ai-companion",
+      "voice",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "id": "2026-11-15-alibaba-open-code-review-d2",
+    "type": "followup",
+    "vendor": "Alibaba",
+    "section": "community",
+    "title": "[続報 Day 2] alibaba/open-code-review — +897 stars と前日比 4.3 倍に加速",
+    "summary": "初日 +206 → Day 2 +897 と 4.3 倍に急加速。LLM ハイブリッドコードレビューへの月曜日の注目が急拡大。",
+    "url": "https://github.com/alibaba/open-code-review",
+    "related_date": "2026-11-14",
+    "importance": "highlight",
+    "tags": [
+      "code-review",
+      "llm",
+      "go",
+      "alibaba",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "id": "2026-11-15-chromedts-mcp-d2",
+    "type": "followup",
+    "vendor": "Google",
+    "section": "community",
+    "title": "[続報 Day 2] ChromeDevTools/chrome-devtools-mcp — +673 stars と前日比 4.6 倍に急加速",
+    "summary": "初日 +145 → Day 2 +673 と 4.6 倍に急加速。Chrome DevTools 公式 MCP サーバーへの需要が週初めに爆発。",
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "related_date": "2026-11-14",
+    "importance": "highlight",
+    "tags": [
+      "mcp",
+      "chrome-devtools",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "id": "2026-11-15-tradermonty-trading-skills-d2",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 Day 2] tradermonty/claude-trading-skills — +556 stars と初日の 9 倍超に急騰",
+    "summary": "初日 +60 → Day 2 +556 と 9 倍超に急騰。株式投資家向け Claude Code スキル集への週初め需要が急増。",
+    "url": "https://github.com/tradermonty/claude-trading-skills",
+    "related_date": "2026-11-14",
+    "importance": "highlight",
+    "tags": [
+      "trading",
+      "claude-code",
+      "skills",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "id": "2026-11-15-googlechrome-modern-web-d3",
+    "type": "followup",
+    "vendor": "Google",
+    "section": "community",
+    "title": "[続報 Day 3] GoogleChrome/modern-web-guidance-src — +1,225 stars で3日連続上位",
+    "summary": "11-13 (+799) → 11-14 (+1,875) → 本日 +1,225 と3日連続で高水準を維持。",
+    "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+    "related_date": "2026-11-13",
+    "importance": "standard",
+    "tags": [
+      "web-standards",
+      "typescript",
+      "google-chrome",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "id": "2026-11-15-openai-codex-security-d4",
+    "type": "followup",
+    "vendor": "OpenAI",
+    "section": "community",
+    "title": "[続報 Day 4] openai/codex-security — +599 stars で4日連続継続",
+    "summary": "週を通じて安定した +599 stars を維持。OpenAI 公式コードセキュリティツールへの継続的関心。",
+    "url": "https://github.com/openai/codex-security",
+    "related_date": "2026-11-12",
+    "importance": "standard",
+    "tags": [
+      "security",
+      "openai",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "id": "2026-11-15-free-claude-code-d4",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 Day 4] Alishahryar1/free-claude-code — +367 stars で4日連続継続",
+    "summary": "11-14 のピーク (+895) から +367 と落ち着いてきたが4日連続で Trending 維持。",
+    "url": "https://github.com/Alishahryar1/free-claude-code",
+    "related_date": "2026-11-12",
+    "importance": "standard",
+    "tags": [
+      "claude-code",
+      "free-tokens",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "id": "2026-11-15-copilotkit-openbot-d3",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 Day 3] CopilotKit/OpenBot — +209 stars で3日連続継続",
+    "summary": "11-14 のピーク (+799) から +209 と安定。AG-UI 対応 OSS AI コワーカーフレームワークへの関心継続。",
+    "url": "https://github.com/CopilotKit/OpenBot",
+    "related_date": "2026-11-13",
+    "importance": "minor",
+    "tags": [
+      "ag-ui",
+      "ai-coworker",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "id": "2026-11-15-nvidia-skillevaluator-d3",
+    "type": "followup",
+    "vendor": "NVIDIA",
+    "section": "community",
+    "title": "[続報 Day 3] NVIDIA/SkillEvaluator — +168 stars で今週最多単日",
+    "summary": "11-13 初登場 (+50) → 11-14 → 本日 +168 と週内最多を記録。AI スキル品質評価への関心が高まっている。",
+    "url": "https://github.com/NVIDIA/SkillEvaluator",
+    "related_date": "2026-11-13",
+    "importance": "minor",
+    "tags": [
+      "nvidia",
+      "skill-evaluation",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "id": "2026-11-15-anthropics-plugins-official-d2",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "community",
+    "title": "[続報 Day 2] anthropics/claude-plugins-official — +137 stars で2日連続 Python Trending",
+    "summary": "初登場 (11-14, +134) に続き +137 stars で Python Trending 維持。Anthropic 公式プラグイン認定ディレクトリへの関心が継続。",
+    "url": "https://github.com/anthropics/claude-plugins-official",
+    "related_date": "2026-11-14",
+    "importance": "minor",
+    "tags": [
+      "anthropic",
+      "claude-code",
+      "plugins",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
     "date": "2026-11-14",
     "id": "2026-11-14-anthropic-no-update",
     "type": "no-update",
