@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-11-16](summaries/2026/11/2026-11-16.md) — ag-ui-protocol/ag-ui 初登場, google-labs-code/stitch-skills 初登場, GoogleChrome/modern-web-guidance-src Day 4 (+1,220), dream-num/univer Day 2 (+1,041), tashfeenahmed/freellmapi 初登場
 - [2026-11-15](summaries/2026/11/2026-11-15.md) — ChromeDevTools/chrome-devtools-mcp Day 2 (+673, ×4.6), alibaba/open-code-review Day 2 (+897, ×4.3), tradermonty/claude-trading-skills Day 2 (+556, ×9), dream-num/univer 初登場, backnotprop/plannotator 初登場
 - [2026-11-14](summaries/2026/11/2026-11-14.md) — GoogleChrome/modern-web-guidance-src Day 2 (+1,875), anthropics/claude-plugins-official 初登場, ChromeDevTools/chrome-devtools-mcp 初登場, alibaba/open-code-review 初登場
 - [2026-11-13](summaries/2026/11/2026-11-13.md) — NVIDIA/SkillSpector & SkillEvaluator 初登場, GoogleChrome/modern-web-guidance-src 初登場, QwenLM/qwen-code 初登場, meta/astryx Day 6
 - [2026-11-12](summaries/2026/11/2026-11-12.md) — addyosmani/agent-skills 初登場, openai/codex-security TypeScript Trending 首位, shadcn/improve 初登場, meta/astryx Day 5
 - [2026-11-11](summaries/2026/11/2026-11-11.md) — Anthropic IPO ロードショー開始 (Nasdaq "ANT"), homeassistant-ai/ha-mcp 初登場, meta/astryx Day 4
 - [2026-11-10](summaries/2026/11/2026-11-10.md) — Anthropic Claude Fable 5.2 & Mythos 5.2 発表, meta/astryx Day 3, debpalash/VoiceStudio 初登場
-- [2026-11-09](summaries/2026/11/2026-11-09.md) — niubigeo 初登場 (GEOトラッカー), billion-context 初登場, OpenMausBot Day 2
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
