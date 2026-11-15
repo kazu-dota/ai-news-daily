@@ -1,5 +1,460 @@
 [
   {
+    "date": "2026-11-16",
+    "id": "2026-11-16-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-google-no-update",
+    "type": "no-update",
+    "vendor": "Google / Google DeepMind",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-ag-ui-protocol",
+    "type": "new",
+    "vendor": "ag-ui-protocol",
+    "section": "community",
+    "title": "ag-ui-protocol/ag-ui — AG-UI 公式プロトコルリポジトリ 初登場",
+    "summary": "AI エージェントとフロントエンドアプリ間のインタラクションを標準化する公式 AG-UI プロトコル。CopilotKit 等多数が採用。TypeScript, ★17,812, +393 today。",
+    "url": "https://github.com/ag-ui-protocol/ag-ui",
+    "importance": "highlight",
+    "tags": [
+      "agent-protocol",
+      "frontend",
+      "typescript",
+      "ag-ui",
+      "standard"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-stitch-skills",
+    "type": "new",
+    "vendor": "Google Labs",
+    "section": "community",
+    "title": "google-labs-code/stitch-skills — Google Labs 公式 Stitch MCP スキルライブラリ 初登場",
+    "summary": "Google Labs が Stitch MCP サーバー向けに公開したエージェントスキルライブラリ。Claude Code・Cursor・Gemini CLI に対応。TypeScript, ★9,265, +248 today。",
+    "url": "https://github.com/google-labs-code/stitch-skills",
+    "importance": "highlight",
+    "tags": [
+      "google-labs",
+      "mcp",
+      "skills",
+      "typescript",
+      "coding-agent"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-freellmapi",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "tashfeenahmed/freellmapi — 無料 LLM 多プロバイダ統合 API 初登場",
+    "summary": "複数の無料 LLM プロバイダを単一 /v1 エンドポイントでルーティング・フェイルオーバーするアグリゲーター。TypeScript, ★52,889, +579 today。",
+    "url": "https://github.com/tashfeenahmed/freellmapi",
+    "importance": "highlight",
+    "tags": [
+      "free-llm",
+      "api-aggregator",
+      "typescript",
+      "llm"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-assistant-ui",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "assistant-ui/assistant-ui — TypeScript/React AI チャット UI ライブラリ 初登場",
+    "summary": "React・TypeScript 向けの AI チャットインタフェース構築ライブラリ。TypeScript, ★13,236, +92 today。",
+    "url": "https://github.com/assistant-ui/assistant-ui",
+    "importance": "standard",
+    "tags": [
+      "react",
+      "typescript",
+      "ui",
+      "chat-ui"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-ai-infra-book",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "bojieli/ai-infra-book — LLM インフラ定量解説オープンソースブック 初登場",
+    "summary": "LLM 推論・学習インフラを定量分析とともに解説する中国語オープンソースブック。Python, ★7,819, +151 today。",
+    "url": "https://github.com/bojieli/ai-infra-book",
+    "importance": "standard",
+    "tags": [
+      "ai-infra",
+      "book",
+      "llm",
+      "education"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-cog-second-brain",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "huytieu/COG-second-brain — AI スキル・エージェント・CRM 統合セカンドブレイン 初登場",
+    "summary": "AI スキルとエージェント、人脈管理 CRM を統合した自己進化型セカンドブレインシステム。Python, ★1,480, +182 today。",
+    "url": "https://github.com/huytieu/COG-second-brain",
+    "importance": "standard",
+    "tags": [
+      "second-brain",
+      "agent",
+      "crm",
+      "skills"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-claude-red",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "SnailSploit/Claude-Red — Claude Code 向け攻撃的セキュリティスキルライブラリ 初登場",
+    "summary": "Claude スキルシステム向けのオフェンシブセキュリティスキルキュレーテッドライブラリ。Python, ★11,026, +135 today。",
+    "url": "https://github.com/SnailSploit/Claude-Red",
+    "importance": "standard",
+    "tags": [
+      "security",
+      "offensive",
+      "claude-skills",
+      "red-team"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-autoswarm",
+    "type": "new",
+    "vendor": "HKUDS",
+    "section": "community",
+    "title": "HKUDS/AutoSwarm — 複数 AI エージェント統合協調フレームワーク 初登場",
+    "summary": "複数の AI エージェントを統一的に協調動作させる HKUDS 製フレームワーク。Python, ★2,538, +56 today。",
+    "url": "https://github.com/HKUDS/AutoSwarm",
+    "importance": "standard",
+    "tags": [
+      "multi-agent",
+      "orchestration",
+      "swarm"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-fastmcp",
+    "type": "new",
+    "vendor": "Prefect",
+    "section": "community",
+    "title": "PrefectHQ/fastmcp — Python MCP サーバー・クライアント高速構築フレームワーク 初登場",
+    "summary": "FastAPI 的な開発体験で MCP サーバーとクライアントを Pythonic に構築できる Prefect 製フレームワーク。Python, ★28,530, +76 today。",
+    "url": "https://github.com/PrefectHQ/fastmcp",
+    "importance": "standard",
+    "tags": [
+      "mcp",
+      "framework",
+      "python",
+      "prefect"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-vibe-trading",
+    "type": "new",
+    "vendor": "HKUDS",
+    "section": "community",
+    "title": "HKUDS/Vibe-Trading — LLM ベース個人向けトレーディングエージェント 初登場",
+    "summary": "LLM による市場分析と売買判断支援を提供する個人向けトレーディングエージェント。Python, ★38,323, +83 today。",
+    "url": "https://github.com/HKUDS/Vibe-Trading",
+    "importance": "minor",
+    "tags": [
+      "trading",
+      "agent",
+      "llm",
+      "finance"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-wrenai",
+    "type": "new",
+    "vendor": "Canner",
+    "section": "community",
+    "title": "Canner/WrenAI — 20+ データソース対応 GenBI テキスト-to-SQL プラットフォーム 初登場",
+    "summary": "AI エージェントが 20 以上のデータソースにまたがってテキストから SQL を生成できる GenBI プラットフォーム。Python, ★18,264, +52 today。",
+    "url": "https://github.com/Canner/WrenAI",
+    "importance": "minor",
+    "tags": [
+      "text-to-sql",
+      "genbi",
+      "data",
+      "agent"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-unsloth",
+    "type": "new",
+    "vendor": null,
+    "section": "community",
+    "title": "unslothai/unsloth — LLM ローカル実行・ファインチューニング最適化ツール 再登場",
+    "summary": "LLM のローカル実行と拡散モデル学習・推論を高速化する定番最適化ライブラリ。Python, ★79,569, +59 today。",
+    "url": "https://github.com/unslothai/unsloth",
+    "importance": "minor",
+    "tags": [
+      "fine-tuning",
+      "llm",
+      "local",
+      "optimization"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-googlechrome-modern-web-d4",
+    "type": "followup",
+    "vendor": "Google Chrome",
+    "section": "community",
+    "title": "[続報 Day 4] GoogleChrome/modern-web-guidance-src — +1,220 stars で4日連続トップ",
+    "summary": "11-13 初登場以来4日連続グローバル Trending トップ維持。AI コーディングエージェント向けウェブ標準ガイドへの需要が衰えない。TypeScript, ★7,105。",
+    "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+    "related_date": "2026-11-13",
+    "importance": "highlight",
+    "tags": [
+      "web-standards",
+      "coding-agent",
+      "google-chrome",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-dream-num-univer-d2",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 Day 2] dream-num/univer — +1,041 stars と初日の 2 倍超に加速",
+    "summary": "初登場 (11-15, +495) から本日 +1,041 に急加速。エージェント対応統合 Office SDK への需要が拡大中。TypeScript, ★25,574。",
+    "url": "https://github.com/dream-num/univer",
+    "related_date": "2026-11-15",
+    "importance": "highlight",
+    "tags": [
+      "office-sdk",
+      "agent",
+      "typescript",
+      "collaboration"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-backnotprop-plannotator-d2",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 Day 2] backnotprop/plannotator — +860 stars と前日比 2 倍超に加速",
+    "summary": "初登場 (11-15, +412) から本日 +860 に急伸。エージェント向け計画・注釈・作業管理ワークスペースへの関心が継続して高まる。TypeScript, ★11,804。",
+    "url": "https://github.com/backnotprop/plannotator",
+    "related_date": "2026-11-15",
+    "importance": "standard",
+    "tags": [
+      "agent-workspace",
+      "planning",
+      "annotation",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-chrome-devtools-mcp-d3",
+    "type": "followup",
+    "vendor": "Google Chrome",
+    "section": "community",
+    "title": "[続報 Day 3] ChromeDevTools/chrome-devtools-mcp — +718 stars で3日連続継続",
+    "summary": "11-14 初登場以来3日継続。Chrome DevTools 公式 MCP サーバーへの需要が落ち着かない。TypeScript, ★56,885。",
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "related_date": "2026-11-14",
+    "importance": "standard",
+    "tags": [
+      "mcp",
+      "chrome-devtools",
+      "coding-agent",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-claude-trading-skills-d3",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 Day 3] tradermonty/claude-trading-skills — +707 stars で3日連続継続",
+    "summary": "11-14 初登場 (+60) → 11-15 (+556) → 本日 +707 と再加速。株式投資家向け Claude Code スキル集への需要が継続。Python, ★5,499。",
+    "url": "https://github.com/tradermonty/claude-trading-skills",
+    "related_date": "2026-11-14",
+    "importance": "standard",
+    "tags": [
+      "trading",
+      "claude-skills",
+      "finance",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-open-code-review-d3",
+    "type": "followup",
+    "vendor": "Alibaba",
+    "section": "community",
+    "title": "[続報 Day 3] alibaba/open-code-review — +688 stars で3日連続継続",
+    "summary": "11-14 初登場 (+206) → 11-15 (+897) → 本日 +688。Alibaba のハイブリッドコードレビューツールへの関心が継続。Go, ★52,020。",
+    "url": "https://github.com/alibaba/open-code-review",
+    "related_date": "2026-11-14",
+    "importance": "standard",
+    "tags": [
+      "code-review",
+      "alibaba",
+      "llm",
+      "go"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-loopforge-d2",
+    "type": "followup",
+    "vendor": "Tencent",
+    "section": "community",
+    "title": "[続報 Day 2] Tencent/LoopForge — +484 stars と初日の 4.8 倍に急加速",
+    "summary": "初登場 (11-15, +101) から本日 +484 と大幅加速。人間承認ゲート付き AI コーディングエージェント配信ワークフローへの需要が一気に高まった。Go, ★1,441。",
+    "url": "https://github.com/Tencent/LoopForge",
+    "related_date": "2026-11-15",
+    "importance": "standard",
+    "tags": [
+      "tencent",
+      "agent-workflow",
+      "human-in-the-loop",
+      "go"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-ffmpeg-skill-d3",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 Day 3] kajisho5/ffmpeg-skill — +285 stars で3日連続継続",
+    "summary": "コーディングエージェント向けローカル動画編集スキルへの安定した需要が継続。Python, ★5,956。",
+    "url": "https://github.com/kajisho5/ffmpeg-skill",
+    "related_date": "2026-11-14",
+    "importance": "minor",
+    "tags": [
+      "ffmpeg",
+      "video",
+      "skills",
+      "mcp"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-claude-bughunter-d2",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 Day 2] elementalsouls/Claude-BugHunter — +221 stars で2日連続 Python Trending",
+    "summary": "初登場 (11-15, +127) から本日 +221 と加速。Claude Code 向けバグ発見・レッドチームスキル集への需要が継続。Python, ★6,377。",
+    "url": "https://github.com/elementalsouls/Claude-BugHunter",
+    "related_date": "2026-11-15",
+    "importance": "minor",
+    "tags": [
+      "bug-hunting",
+      "red-team",
+      "claude-skills",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-skill-evaluator-d4",
+    "type": "followup",
+    "vendor": "NVIDIA",
+    "section": "community",
+    "title": "[続報 Day 4] NVIDIA/SkillEvaluator — +205 stars で4日連続継続",
+    "summary": "11-13 初登場以来4日継続。NVIDIA の AI エージェントスキル品質評価フレームワークへの持続的な関心。Python, ★1,632。",
+    "url": "https://github.com/NVIDIA/SkillEvaluator",
+    "related_date": "2026-11-13",
+    "importance": "minor",
+    "tags": [
+      "nvidia",
+      "skill-evaluation",
+      "agent",
+      "quality"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-claude-code-templates-d4",
+    "type": "followup",
+    "vendor": null,
+    "section": "community",
+    "title": "[続報 Day 4] davila7/claude-code-templates — +179 stars で4日連続継続",
+    "summary": "11-13 初登場以来4日継続。Claude Code コンポーネントレジストリへの安定した関心が続く。Python, ★33,757。",
+    "url": "https://github.com/davila7/claude-code-templates",
+    "related_date": "2026-11-13",
+    "importance": "minor",
+    "tags": [
+      "claude-code",
+      "templates",
+      "registry",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "id": "2026-11-16-openworker-d2",
+    "type": "followup",
+    "vendor": "Andrew Ng",
+    "section": "community",
+    "title": "[続報 Day 2] andrewyng/openworker — +139 stars で2日連続 Python Trending",
+    "summary": "初登場 (11-15, +94) に続き本日も Python Trending を維持。Andrew Ng の新プロジェクトへの継続的な関心。Python, ★19,343。",
+    "url": "https://github.com/andrewyng/openworker",
+    "related_date": "2026-11-15",
+    "importance": "minor",
+    "tags": [
+      "andrew-ng",
+      "python",
+      "ai-agent"
+    ]
+  },
+  {
     "date": "2026-11-15",
     "id": "2026-11-15-anthropic-no-update",
     "type": "no-update",
