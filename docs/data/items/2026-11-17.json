@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T08:14:00+09:00",
+  "sources_checked": 26,
+  "sources_failed": 23,
+  "items": [
+    {
+      "id": "2026-11-17-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-17-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-17-google-no-update",
+      "type": "no-update",
+      "vendor": "Google / Google DeepMind",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-17-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-17-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-17-paper-orchestra",
+      "type": "new",
+      "vendor": "Google Research",
+      "section": "community",
+      "title": "google-research/paper-orchestra — 多エージェント AI 論文自動執筆フレームワーク公開",
+      "summary": "アイデアと実験ログから専門エージェントが分担してアウトライン生成・文献調査・執筆・図版生成を行い LaTeX 原稿を出力するオープンソースフレームワーク。arXiv: 2604.05018 に基づく。",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "importance": "highlight",
+      "tags": ["multi-agent", "research-automation", "google", "github-trending", "paper-writing"]
+    },
+    {
+      "id": "2026-11-17-ifixai",
+      "type": "new",
+      "vendor": "iFixAi",
+      "section": "community",
+      "title": "iFixAi-ai/iFixAi — AI エージェント監査ツールが急浮上",
+      "summary": "エージェントが意図した動作をしているかを自動検証する監査ツール。エージェントガバナンスへの関心の高まりを受け本日 +313 stars を記録。",
+      "url": "https://github.com/iFixAi-ai/iFixAi",
+      "importance": "highlight",
+      "tags": ["agent-governance", "audit", "ai-safety", "github-trending"]
+    },
+    {
+      "id": "2026-11-17-agenticos",
+      "type": "new",
+      "vendor": "vstorm-co",
+      "section": "community",
+      "title": "vstorm-co/agenticos — セルフホスト型 AI エージェント管理プラットフォーム",
+      "summary": "Pydantic AI ベースのオープンソース AI エージェント管理・ガバナンスプラットフォーム。まだ 364 stars の新興リポジトリだが急速に注目を集めている。",
+      "url": "https://github.com/vstorm-co/agenticos",
+      "importance": "standard",
+      "tags": ["agent-platform", "self-hosted", "pydantic-ai", "github-trending"]
+    },
+    {
+      "id": "2026-11-17-treg",
+      "type": "new",
+      "vendor": "superdesigndev",
+      "section": "community",
+      "title": "superdesigndev/treg — エージェントツール向け OpenRouter 型ゲートウェイ",
+      "summary": "AI エージェントが共通のツールレジストリを参照できるゲートウェイサービス。複数エージェントのツール共有・一元管理を実現する。",
+      "url": "https://github.com/superdesigndev/treg",
+      "importance": "standard",
+      "tags": ["tool-registry", "agent-tools", "gateway", "github-trending"]
+    },
+    {
+      "id": "2026-11-17-pentestcode",
+      "type": "new",
+      "vendor": "s0ld13rr",
+      "section": "community",
+      "title": "s0ld13rr/pentestcode — AI 多エージェント ペネトレーションテスト自動化",
+      "summary": "エンゲージメント状態を持続管理する多エージェント AI ペネトレーションテストシステム。セキュリティ研究・レッドチーム向け。",
+      "url": "https://github.com/s0ld13rr/pentestcode",
+      "importance": "minor",
+      "tags": ["security", "penetration-testing", "multi-agent", "github-trending"]
+    },
+    {
+      "id": "2026-11-17-worldmonitor",
+      "type": "new",
+      "vendor": "koala73",
+      "section": "community",
+      "title": "koala73/worldmonitor — AI ニュース集約リアルタイムダッシュボード",
+      "summary": "AI を使って複数ニュースソースを集約し地政学・インフラ動向をリアルタイム表示するダッシュボード。既存の大規模リポジトリが本日トレンド再浮上。",
+      "url": "https://github.com/koala73/worldmonitor",
+      "importance": "standard",
+      "tags": ["news-aggregation", "dashboard", "real-time", "github-trending"]
+    }
+  ]
+}
