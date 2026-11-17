@@ -1,0 +1,280 @@
+{
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T08:14:32+09:00",
+  "sources_checked": 26,
+  "sources_failed": 23,
+  "items": [
+    {
+      "id": "2026-11-18-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-18-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-18-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-18-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-18-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-18-obra-superpowers",
+      "type": "new",
+      "vendor": "obra",
+      "section": "community",
+      "title": "obra/superpowers — コーディングエージェント向け包括的スキルフレームワーク 初登場",
+      "summary": "設計・計画・実装・レビュー・検証の各フェーズをスキルが自動担当。Claude Code・Codex・Cursor・Gemini CLI 等に対応する MIT 製フレームワーク。(Shell, ★319,297, +598 today)",
+      "url": "https://github.com/obra/superpowers",
+      "importance": "highlight",
+      "tags": ["skills-framework", "agent", "coding-agent", "claude-code"]
+    },
+    {
+      "id": "2026-11-18-affaan-m-ecc",
+      "type": "new",
+      "vendor": "affaan-m",
+      "section": "community",
+      "title": "affaan-m/ECC — エージェントハーネス最適化システム 初登場",
+      "summary": "72 サブエージェント・327 スキル・98 スラッシュコマンド搭載。Claude Code ネイティブ対応のハーネス強化ツール。(JavaScript, ★305,457, +902 today)",
+      "url": "https://github.com/affaan-m/ECC",
+      "importance": "highlight",
+      "tags": ["skills-framework", "agent-harness", "claude-code", "codex"]
+    },
+    {
+      "id": "2026-11-18-tencent-loopforge",
+      "type": "followup",
+      "vendor": "Tencent",
+      "section": "community",
+      "title": "[続報 Day 4+] Tencent/LoopForge — +590 stars と再加速",
+      "summary": "人間承認ゲート付きビジュアルワークフロープラットフォーム。CodeBuddy・Codex・Claude Code・Cursor 対応。初登場時 +101 から本日 +590 と大幅加速。(Go, ★3,089)",
+      "url": "https://github.com/Tencent/LoopForge",
+      "related_date": "2026-11-14",
+      "importance": "standard",
+      "tags": ["workflow", "agent-orchestration", "tencent", "coding-agent"]
+    },
+    {
+      "id": "2026-11-18-graphify-labs-graphify",
+      "type": "new",
+      "vendor": "Graphify-Labs",
+      "section": "community",
+      "title": "Graphify-Labs/graphify — コードベースを知識グラフ化する Claude Code スキル 初登場",
+      "summary": "コードベース・ドキュメント・PDF を知識グラフ化し、エージェントが grep 不要でクエリ実行できる。Claude Code・Cursor 等 20+ プラットフォーム対応。Apache-2.0。(Python, ★149,636, +615 today)",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "importance": "highlight",
+      "tags": ["knowledge-graph", "claude-code", "skills", "codebase-analysis"]
+    },
+    {
+      "id": "2026-11-18-composio-awesome-claude-skills",
+      "type": "new",
+      "vendor": "ComposioHQ",
+      "section": "community",
+      "title": "ComposioHQ/awesome-claude-skills — Claude スキル・リソース・ツールのキュレーテッドリスト 初登場",
+      "summary": "Claude Code スキルとエージェント関連ツールをカテゴリ別に整理した Awesome リスト。スキルエコシステム拡大にともない参照リソースとしての需要が高まる。(Python, ★79,736, +88 today)",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "importance": "standard",
+      "tags": ["awesome-list", "claude-code", "skills", "resources"]
+    },
+    {
+      "id": "2026-11-18-usestrix-strix",
+      "type": "new",
+      "vendor": "usestrix",
+      "section": "community",
+      "title": "usestrix/strix — AI を活用したオープンソースペネトレーションテストツール 初登場",
+      "summary": "アプリケーションの脆弱性を発見・修正する AI ペネトレーションテストツール。自動化された侵入テストワークフローを提供。(Python, ★76,333, +325 today)",
+      "url": "https://github.com/usestrix/strix",
+      "importance": "standard",
+      "tags": ["security", "penetration-testing", "ai-security"]
+    },
+    {
+      "id": "2026-11-18-virgiliojr94-book-to-skill",
+      "type": "new",
+      "vendor": "virgiliojr94",
+      "section": "community",
+      "title": "virgiliojr94/book-to-skill — 技術書 PDF を Claude Code スキルに変換するツール 初登場",
+      "summary": "技術書の PDF から Claude Code スキルを自動生成。書籍の手法・パターンをエージェントが即活用できる形式に変換。(Python, ★38,283, +161 today)",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "importance": "standard",
+      "tags": ["skills", "claude-code", "pdf", "knowledge-extraction"]
+    },
+    {
+      "id": "2026-11-18-kajisho5-ffmpeg-skill",
+      "type": "followup",
+      "vendor": "kajisho5",
+      "section": "community",
+      "title": "[続報 Day 5+] kajisho5/ffmpeg-skill — +1,376 stars と本日 Python 最多を記録",
+      "summary": "コーディングエージェント向け 42 種の FFmpeg ツール＋MCP サーバー。これまで +224〜+285 程度で推移していたが本日約 5 倍に急加速。(Python, ★7,724)",
+      "url": "https://github.com/kajisho5/ffmpeg-skill",
+      "related_date": "2026-11-13",
+      "importance": "highlight",
+      "tags": ["skills", "ffmpeg", "video", "mcp", "coding-agent"]
+    },
+    {
+      "id": "2026-11-18-tradermonty-claude-trading-skills",
+      "type": "followup",
+      "vendor": "tradermonty",
+      "section": "community",
+      "title": "[続報 Day 5] tradermonty/claude-trading-skills — +771 stars で5日連続",
+      "summary": "株式投資家向けの Claude Code スキル集（市場分析・チャート・スクリーナー等）。5日連続トレンド継続。(Python, ★6,850)",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "related_date": "2026-11-14",
+      "importance": "minor",
+      "tags": ["skills", "claude-code", "trading", "finance"]
+    },
+    {
+      "id": "2026-11-18-stablyai-orca",
+      "type": "new",
+      "vendor": "stablyai",
+      "section": "community",
+      "title": "stablyai/orca — 複数コーディングエージェント並列オーケストレーション環境 初登場",
+      "summary": "Claude Code・Codex・Grok など 30+ エージェントを並列 git ワークツリーで同時実行できるデスクトップアプリ。スマートフォン経由での承認・指示も可能。MIT。(TypeScript, ★127,803, +1,052 today)",
+      "url": "https://github.com/stablyai/orca",
+      "importance": "highlight",
+      "tags": ["agent-orchestration", "coding-agent", "claude-code", "codex", "parallel"]
+    },
+    {
+      "id": "2026-11-18-cursor-plugins",
+      "type": "new",
+      "vendor": "Cursor",
+      "section": "community",
+      "title": "cursor/plugins — Cursor 公式プラグイン仕様と公式プラグイン集 初登場",
+      "summary": "Cursor が公開した公式プラグインの仕様書と実装コレクション。Google Workspace・Salesforce・HubSpot 等多数の外部サービスとの連携プラグインを収録。(TypeScript, ★16,879, +196 today)",
+      "url": "https://github.com/cursor/plugins",
+      "importance": "standard",
+      "tags": ["cursor", "plugins", "integrations", "coding-agent"]
+    },
+    {
+      "id": "2026-11-18-nightly-labs-openbot",
+      "type": "new",
+      "vendor": "nightly-labs",
+      "section": "community",
+      "title": "nightly-labs/openbot — Codex・Claude・Grok 対応のローカルファースト AI ワークスペース 初登場",
+      "summary": "複数 AI エージェントを常駐チームメイトとして運用できるローカルファーストのデスクトップワークスペース。(TypeScript, ★8,615, +343 today)",
+      "url": "https://github.com/nightly-labs/openbot",
+      "importance": "standard",
+      "tags": ["workspace", "coding-agent", "claude-code", "codex", "local-first"]
+    },
+    {
+      "id": "2026-11-18-elie222-rakazo",
+      "type": "new",
+      "vendor": "elie222",
+      "section": "community",
+      "title": "elie222/rakazo — モデル自由選択型 Grok Bot 代替ツール 初登場",
+      "summary": "使用モデルとサンドボックスを自由に選べる Grok Bot 代替 OSS ツール。同日に OpenMausBot も同類として並行トレンド入り。(TypeScript, ★9,024, +186 today)",
+      "url": "https://github.com/elie222/rakazo",
+      "importance": "standard",
+      "tags": ["grok", "open-source", "chatbot"]
+    },
+    {
+      "id": "2026-11-18-dream-num-univer",
+      "type": "followup",
+      "vendor": "dream-num",
+      "section": "community",
+      "title": "[続報 Day 4] dream-num/univer — +1,776 stars と4日連続最高値",
+      "summary": "AI エージェントとリアルユーザー双方向けの Office SDK。Day 1 (+495) → Day 4 (+1,776) と4日間高水準継続。累計 +5,100 stars。(TypeScript, ★28,879)",
+      "url": "https://github.com/dream-num/univer",
+      "related_date": "2026-11-15",
+      "importance": "highlight",
+      "tags": ["office-sdk", "agent", "collaboration", "typescript"]
+    },
+    {
+      "id": "2026-11-18-ag-ui-protocol-ag-ui",
+      "type": "followup",
+      "vendor": "ag-ui-protocol",
+      "section": "community",
+      "title": "[続報 Day 3] ag-ui-protocol/ag-ui — +1,444 stars と3日連続加速",
+      "summary": "AI エージェントとフロントエンドアプリ間のインタラクションを標準化する公式プロトコル。Day 1 (+393) → Day 3 (+1,444) と勢いが増している。(TypeScript, ★19,971)",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "related_date": "2026-11-16",
+      "importance": "highlight",
+      "tags": ["protocol", "agent-ui", "frontend", "standardization"]
+    },
+    {
+      "id": "2026-11-18-backnotprop-plannotator",
+      "type": "followup",
+      "vendor": "backnotprop",
+      "section": "community",
+      "title": "[続報 Day 4] backnotprop/plannotator — +691 stars で4日連続",
+      "summary": "エージェントとの共同計画・注釈・レビューワークスペース。4日連続トレンド継続。(TypeScript, ★13,050)",
+      "url": "https://github.com/backnotprop/plannotator",
+      "related_date": "2026-11-15",
+      "importance": "minor",
+      "tags": ["planning", "agent", "workspace"]
+    },
+    {
+      "id": "2026-11-18-milind-soni-openmausbot",
+      "type": "followup",
+      "vendor": "milind-soni",
+      "section": "community",
+      "title": "[続報 Day 7+] milind-soni/OpenMausBot — +662 stars で継続",
+      "summary": "仮想マシン付きの Grok Bot 代替 OSS ツール。7日以上にわたりトレンドを維持。(TypeScript, ★24,750)",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "related_date": "2026-11-11",
+      "importance": "minor",
+      "tags": ["grok", "open-source", "vm", "chatbot"]
+    },
+    {
+      "id": "2026-11-18-google-research-paper-orchestra",
+      "type": "followup",
+      "vendor": "Google Research",
+      "section": "community",
+      "title": "[続報 Day 2] google-research/paper-orchestra — +1,175 stars",
+      "summary": "Google Research 製の多エージェント AI 論文自動執筆フレームワーク。Day 2 で +1,175 stars と引き続き高い注目を維持。(Python, ★2,923)",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "related_date": "2026-11-17",
+      "importance": "standard",
+      "tags": ["multi-agent", "research", "paper-writing", "google"]
+    },
+    {
+      "id": "2026-11-18-elementalsouls-claude-bughunter",
+      "type": "followup",
+      "vendor": "elementalsouls",
+      "section": "community",
+      "title": "[続報 Day 4] elementalsouls/Claude-BugHunter — +1,007 stars",
+      "summary": "Claude Code バグハンティングスキルセット（82 スキル・15 スラッシュコマンド）。4日連続 1,000 stars 超え。(Python, ★9,167)",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "related_date": "2026-11-15",
+      "importance": "standard",
+      "tags": ["skills", "claude-code", "bug-hunting", "security"]
+    },
+    {
+      "id": "2026-11-18-nvidia-skill-evaluator",
+      "type": "followup",
+      "vendor": "NVIDIA",
+      "section": "community",
+      "title": "[続報 Day 6] NVIDIA/SkillEvaluator — +969 stars で6日連続",
+      "summary": "AI エージェントスキルの品質評価フレームワーク。6日間にわたり安定したトレンドを維持。(Python, ★3,324)",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "related_date": "2026-11-13",
+      "importance": "minor",
+      "tags": ["skills", "evaluation", "nvidia", "agent"]
+    },
+    {
+      "id": "2026-11-18-papers-no-update",
+      "type": "no-update",
+      "vendor": null,
+      "section": "papers"
+    },
+    {
+      "id": "2026-11-18-media-no-update",
+      "type": "no-update",
+      "vendor": null,
+      "section": "media"
+    }
+  ]
+}
