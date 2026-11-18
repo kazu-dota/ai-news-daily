@@ -1,5 +1,434 @@
 [
   {
+    "date": "2026-11-19",
+    "id": "2026-11-19-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-google-no-update",
+    "type": "no-update",
+    "vendor": "Google / Google DeepMind",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-t3code",
+    "type": "new",
+    "vendor": "pingdotgg",
+    "section": "community",
+    "title": "pingdotgg/t3code — どのデバイスからもエージェントをリモート操作できる統合インターフェース",
+    "summary": "Claude Code・Codex 等のコーディングエージェントを任意のデバイスから制御できるリモートコントロールプラットフォーム。TypeScript Trending 初登場で +1,264 stars。",
+    "url": "https://github.com/pingdotgg/t3code",
+    "importance": "highlight",
+    "tags": [
+      "coding-agent",
+      "remote-control",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-cli-anything",
+    "type": "new",
+    "vendor": "HKUDS",
+    "section": "community",
+    "title": "HKUDS/CLI-Anything — CLI 経由でソフトウェアをエージェント対応に変換するブリッジフレームワーク",
+    "summary": "コマンドラインインターフェースを持つあらゆるソフトウェアを AI エージェントから呼び出せる形式に変換する統合ツール。Python Trending 初登場で +384 stars。",
+    "url": "https://github.com/HKUDS/CLI-Anything",
+    "importance": "highlight",
+    "tags": [
+      "agent-tooling",
+      "cli",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-heretic",
+    "type": "new",
+    "vendor": "p-e-w",
+    "section": "community",
+    "title": "p-e-w/heretic — 訓練フリーでモデルの出力特性を後処理変換するLM修正ツール",
+    "summary": "追加学習なしに言語モデルの応答傾向を変えることを目指す実験的フレームワーク。ML 研究コミュニティで注目を集め Python Trending 初登場 +620 stars。",
+    "url": "https://github.com/p-e-w/heretic",
+    "importance": "highlight",
+    "tags": [
+      "lm-modification",
+      "research",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-minimind",
+    "type": "new",
+    "vendor": "jingyaogong",
+    "section": "community",
+    "title": "jingyaogong/minimind — 64M パラメータ LLM を約 2 時間で一から学習できる教育用フレームワーク",
+    "summary": "小規模 LLM をスクラッチから学習する全工程をカバーする実践的な教育用コードベース。Python Trending 初登場で +772 stars。",
+    "url": "https://github.com/jingyaogong/minimind",
+    "importance": "standard",
+    "tags": [
+      "llm-training",
+      "education",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-sellbird",
+    "type": "new",
+    "vendor": "ethanplusai",
+    "section": "community",
+    "title": "ethanplusai/sellbird — AI で見込み客発掘から返信対応まで自動化するオープンソース営業メールツール",
+    "summary": "潜在顧客発掘・AI パーソナライズメール送信・返信処理を一連で行うオープンソースのアウトリーチプラットフォーム。Python Trending 初登場 +358 stars。",
+    "url": "https://github.com/ethanplusai/sellbird",
+    "importance": "minor",
+    "tags": [
+      "ai-sales",
+      "automation",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-claude-code-security-review",
+    "type": "new",
+    "vendor": "Anthropic",
+    "section": "community",
+    "title": "anthropics/claude-code-security-review — Claude で PR のセキュリティ問題を自動検出する公式 GitHub Action",
+    "summary": "Anthropic 公式の GitHub Action。コード差分を Claude で解析し CI/CD パイプラインでの継続的セキュリティレビューを実現。Python Trending 初登場 +24 stars。",
+    "url": "https://github.com/anthropics/claude-code-security-review",
+    "importance": "standard",
+    "tags": [
+      "security",
+      "github-action",
+      "anthropic",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-video-shotcraft",
+    "type": "new",
+    "vendor": "Vincentwei1021",
+    "section": "community",
+    "title": "Vincentwei1021/video-shotcraft — Remotion を使って製品プロモ動画を生成するコーディングエージェント向けスキル",
+    "summary": "Claude Code・Codex 向けの動画制作スキル。Remotion を活用し製品宣伝動画をプログラマティックに生成できる。TypeScript Trending 初登場 +225 stars。",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft",
+    "importance": "minor",
+    "tags": [
+      "video",
+      "coding-agent",
+      "skill",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-codegraph",
+    "type": "new",
+    "vendor": "colbymchenry",
+    "section": "community",
+    "title": "colbymchenry/codegraph — コードベースをインデックス化してAIエージェントに提供するローカル知識グラフ",
+    "summary": "コードベースを事前インデックス化し AI コーディングエージェントがリポジトリ全体の構造・依存関係を高速クエリで参照できるツール。TypeScript Trending 初登場 +129 stars。",
+    "url": "https://github.com/colbymchenry/codegraph",
+    "importance": "standard",
+    "tags": [
+      "knowledge-graph",
+      "coding-agent",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-appwrite",
+    "type": "new",
+    "vendor": "appwrite",
+    "section": "community",
+    "title": "appwrite/appwrite — エージェントと開発者向けのセルフホスト型オープンソースクラウド基盤",
+    "summary": "認証・DB・ストレージ・ファンクションを一元提供するオープンソースのクラウドプラットフォーム。エージェント向け機能強化のアップデートを受けトレンド登場 +239 stars。",
+    "url": "https://github.com/appwrite/appwrite",
+    "importance": "minor",
+    "tags": [
+      "backend",
+      "cloud",
+      "agent-infrastructure",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-n8n",
+    "type": "new",
+    "vendor": "n8n-io",
+    "section": "community",
+    "title": "n8n-io/n8n — AI 機能と 400+ インテグレーションを持つオープンソースワークフロー自動化",
+    "summary": "セルフホスト可能なワークフロー自動化プラットフォーム。AI ノードを組み込んだフローで多様なサービスを連携可能。大型リポジトリが継続需要でトレンド再登場 +315 stars。",
+    "url": "https://github.com/n8n-io/n8n",
+    "importance": "minor",
+    "tags": [
+      "workflow-automation",
+      "ai-integration",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-vercel-eve",
+    "type": "new",
+    "vendor": "Vercel",
+    "section": "community",
+    "title": "vercel/eve — Vercel 製エージェント構築オープンフレームワーク",
+    "summary": "Vercel が公開したエージェント開発向けオープンソースフレームワーク。Vercel エコシステムとの親和性を活かした初期段階の構築基盤。TypeScript Trending 初登場 +38 stars。",
+    "url": "https://github.com/vercel/eve",
+    "importance": "minor",
+    "tags": [
+      "agent-framework",
+      "vercel",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-bug-hunter-d5",
+    "type": "followup",
+    "vendor": "elementalsouls",
+    "section": "community",
+    "title": "[続報 Day 5] elementalsouls/Claude-BugHunter — +2,322 stars と5日間で最高値を更新",
+    "summary": "Claude Code 向けバグハンティング・レッドチーム特化スキルバンドル。本日 +2,322 stars と Day 4 (+1,007) の 2 倍超を記録し、5日間累計で約 5,500 stars に達した。",
+    "url": "https://github.com/elementalsouls/Claude-BugHunter",
+    "related_date": "2026-11-15",
+    "importance": "highlight",
+    "tags": [
+      "security",
+      "skill",
+      "claude-code",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-paper-orchestra-d3",
+    "type": "followup",
+    "vendor": "Google Research",
+    "section": "community",
+    "title": "[続報 Day 3] google-research/paper-orchestra — +1,529 stars と Day 3 でも高水準",
+    "summary": "Google Research 発の多エージェント論文自動執筆フレームワーク。Day 1 (+306) → Day 2 (+1,175) → Day 3 (+1,529) と勢いが増している。",
+    "url": "https://github.com/google-research/paper-orchestra",
+    "related_date": "2026-11-17",
+    "importance": "highlight",
+    "tags": [
+      "multi-agent",
+      "research",
+      "paper-writing",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-univer-d5",
+    "type": "followup",
+    "vendor": "dream-num",
+    "section": "community",
+    "title": "[続報 Day 5] dream-num/univer — +1,162 stars で5日連続トレンド",
+    "summary": "AI エージェントとリアルユーザー双方に対応したオフィス SDK。5日間累計の増加は約 5,500 stars を超えた。",
+    "url": "https://github.com/dream-num/univer",
+    "related_date": "2026-11-15",
+    "importance": "standard",
+    "tags": [
+      "office-sdk",
+      "ai-native",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-ecc-d2",
+    "type": "followup",
+    "vendor": "affaan-m",
+    "section": "community",
+    "title": "[続報 Day 2] affaan-m/ECC — +1,109 stars で連続トレンド",
+    "summary": "72 専門サブエージェント・327 スキルを搭載したエージェントハーネス強化システム。昨日に続き 1,000 stars 超を維持。",
+    "url": "https://github.com/affaan-m/ECC",
+    "related_date": "2026-11-18",
+    "importance": "standard",
+    "tags": [
+      "agent-harness",
+      "skills",
+      "claude-code",
+      "javascript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-last30days-d4",
+    "type": "followup",
+    "vendor": "mvanhorn",
+    "section": "community",
+    "title": "[続報 Day 4] mvanhorn/last30days-skill — +1,062 stars で4日連続トレンド",
+    "summary": "特定トピックの過去30日分の動向を調査・要約するエージェントスキル。高水準の需要が4日間継続。",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "related_date": "2026-11-16",
+    "importance": "standard",
+    "tags": [
+      "research-skill",
+      "agent",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-superpowers-d2",
+    "type": "followup",
+    "vendor": "obra",
+    "section": "community",
+    "title": "[続報 Day 2] obra/superpowers — +823 stars で連続トレンド",
+    "summary": "コーディングエージェント向け包括的スキルフレームワーク。長時間タスクでの仕様逸脱を抑制する構造を提供。Claude Code・Codex・Cursor 等対応。",
+    "url": "https://github.com/obra/superpowers",
+    "related_date": "2026-11-18",
+    "importance": "standard",
+    "tags": [
+      "agent-framework",
+      "skills",
+      "claude-code",
+      "shell",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-ag-ui-d4",
+    "type": "followup",
+    "vendor": "ag-ui-protocol",
+    "section": "community",
+    "title": "[続報 Day 4] ag-ui-protocol/ag-ui — +535 stars で4日連続トレンド",
+    "summary": "AI エージェントとフロントエンドアプリ間インタラクションの標準化プロトコル。4日間の継続で標準化規格として定着を示す。",
+    "url": "https://github.com/ag-ui-protocol/ag-ui",
+    "related_date": "2026-11-16",
+    "importance": "standard",
+    "tags": [
+      "protocol",
+      "agent-ui",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-plannotator-d5",
+    "type": "followup",
+    "vendor": "backnotprop",
+    "section": "community",
+    "title": "[続報 Day 5] backnotprop/plannotator — +396 stars で5日連続トレンド",
+    "summary": "エージェントとの共同作業用の計画・注釈・レビューワークスペース。5日間の継続トレンドを維持。",
+    "url": "https://github.com/backnotprop/plannotator",
+    "related_date": "2026-11-15",
+    "importance": "minor",
+    "tags": [
+      "planning",
+      "agent-workspace",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-stitch-skills-d4",
+    "type": "followup",
+    "vendor": "google-labs-code",
+    "section": "community",
+    "title": "[続報 Day 4] google-labs-code/stitch-skills — +369 stars で4日連続トレンド",
+    "summary": "Google Labs のエージェントスキルライブラリ。Stitch MCP サーバー向けのスキルコレクションとして4日間継続。",
+    "url": "https://github.com/google-labs-code/stitch-skills",
+    "related_date": "2026-11-16",
+    "importance": "minor",
+    "tags": [
+      "skills",
+      "mcp",
+      "google",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-cursor-plugins-d2",
+    "type": "followup",
+    "vendor": "cursor",
+    "section": "community",
+    "title": "[続報 Day 2] cursor/plugins — +315 stars で連続トレンド",
+    "summary": "Cursor 公式プラグイン仕様と実装コレクション。Google Workspace・Microsoft Teams 等との連携プラグインを収録。",
+    "url": "https://github.com/cursor/plugins",
+    "related_date": "2026-11-18",
+    "importance": "minor",
+    "tags": [
+      "cursor",
+      "plugins",
+      "typescript",
+      "github-trending"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "id": "2026-11-19-skill-evaluator-d7",
+    "type": "followup",
+    "vendor": "NVIDIA",
+    "section": "community",
+    "title": "[続報 Day 7] NVIDIA/SkillEvaluator — +323 stars で7日連続トレンド",
+    "summary": "AI エージェントスキルとプラグインを多層的に評価するフレームワーク。7日連続トレンドで評価インフラへの安定した需要を示す。",
+    "url": "https://github.com/NVIDIA/SkillEvaluator",
+    "related_date": "2026-11-13",
+    "importance": "minor",
+    "tags": [
+      "evaluation",
+      "skills",
+      "nvidia",
+      "python",
+      "github-trending"
+    ]
+  },
+  {
     "date": "2026-11-18",
     "id": "2026-11-18-anthropic-no-update",
     "type": "no-update",
