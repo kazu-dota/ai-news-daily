@@ -1,0 +1,319 @@
+{
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T08:20:00+09:00",
+  "sources_checked": 27,
+  "sources_failed": 23,
+  "items": [
+    {
+      "id": "2026-11-20-anthropic-ipo-close",
+      "type": "followup",
+      "vendor": "Anthropic",
+      "section": "vendor",
+      "title": "[続報] Anthropic IPO クロージング — $83/株で Nasdaq \"ANT\" 上場完了へ",
+      "summary": "公募価格 $83/株が確定し、11/19 に Nasdaq（ANT）での取引が開始。本日 11/20 が決済クロージング予定日。Goldman Sachs・Morgan Stanley が主幹事。",
+      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "related_date": "2026-11-10",
+      "importance": "highlight",
+      "tags": ["ipo", "anthropic", "nasdaq", "finance"]
+    },
+    {
+      "id": "2026-11-20-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-20-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-20-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-20-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-20-firecrawl-firecrawl",
+      "type": "new",
+      "vendor": "firecrawl",
+      "section": "community",
+      "title": "firecrawl/firecrawl — AI エージェント向け知識インフラ 初登場",
+      "summary": "検索・スクレイピング・550+ データプロバイダを単一 API で提供。グローバル Trending 初登場 (★204,150, +795)。",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "importance": "highlight",
+      "tags": ["web-scraping", "agent-tools", "knowledge-infra", "typescript"]
+    },
+    {
+      "id": "2026-11-20-cathrynlavery-diagram-design",
+      "type": "new",
+      "vendor": "cathrynlavery",
+      "section": "community",
+      "title": "cathrynlavery/diagram-design — AI コーディングツール向け 45 種ダイアグラム生成ツール 初登場",
+      "summary": "AI コーディングエージェント向けに設計された 45 種類の HTML/SVG ダイアグラムテンプレート (★68,601, +402)。",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "importance": "standard",
+      "tags": ["diagrams", "agent-tools", "html", "svg"]
+    },
+    {
+      "id": "2026-11-20-openvinotoolkit-openvino",
+      "type": "new",
+      "vendor": "Intel",
+      "section": "community",
+      "title": "openvinotoolkit/openvino — Intel 製 AI 推論最適化ツールキット 初登場",
+      "summary": "CPU/GPU/NPU 対応の AI モデル推論最適化・デプロイツールキット (★11,547, +246)。",
+      "url": "https://github.com/openvinotoolkit/openvino",
+      "importance": "standard",
+      "tags": ["inference", "optimization", "edge-ai", "intel"]
+    },
+    {
+      "id": "2026-11-20-microsoft-markitdown",
+      "type": "new",
+      "vendor": "Microsoft",
+      "section": "community",
+      "title": "microsoft/markitdown — あらゆるファイルを Markdown に変換する Microsoft 製ツール 初登場",
+      "summary": "PDF・Word・Excel・HTML など多様な形式を Markdown に変換。RAG パイプライン前処理として広く採用 (★197,022, +526)。",
+      "url": "https://github.com/microsoft/markitdown",
+      "importance": "highlight",
+      "tags": ["markdown", "rag", "document-processing", "microsoft", "python"]
+    },
+    {
+      "id": "2026-11-20-imbad0202-academic-research-skills",
+      "type": "new",
+      "vendor": "Imbad0202",
+      "section": "community",
+      "title": "Imbad0202/academic-research-skills — 学術研究ワークフロー向け Claude Code スキル集 初登場",
+      "summary": "文献探索・論文執筆・引用フォーマット変換など学術研究の全工程を Claude Code スキルでサポート (★57,758, +271)。",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "importance": "standard",
+      "tags": ["claude-skills", "academic", "research", "python"]
+    },
+    {
+      "id": "2026-11-20-github-spec-kit",
+      "type": "new",
+      "vendor": "GitHub",
+      "section": "community",
+      "title": "github/spec-kit — GitHub 公式スペック駆動開発ツールキット 初登場",
+      "summary": "AI コーディングエージェントとの協調を念頭に置いたスペック駆動開発を支援する GitHub 公式ツールキット (★150,689, +230)。",
+      "url": "https://github.com/github/spec-kit",
+      "importance": "standard",
+      "tags": ["spec-driven", "github", "agent-tools", "python"]
+    },
+    {
+      "id": "2026-11-20-agentscope-ai-agentscope",
+      "type": "new",
+      "vendor": "agentscope-ai",
+      "section": "community",
+      "title": "agentscope-ai/agentscope — 透明性・信頼性重視のエージェント構築フレームワーク 初登場",
+      "summary": "エージェントの意思決定可視化と信頼性保証に特化したフレームワーク (★36,307, +75)。",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "importance": "minor",
+      "tags": ["agent-framework", "governance", "python"]
+    },
+    {
+      "id": "2026-11-20-anomalyco-opencode",
+      "type": "new",
+      "vendor": "anomalyco",
+      "section": "community",
+      "title": "anomalyco/opencode — 大規模オープンソースコーディングエージェント 初登場",
+      "summary": "★22 万超の大規模 OSS コーディングエージェントが TypeScript Trending に初登場 (★228,035, +260)。",
+      "url": "https://github.com/anomalyco/opencode",
+      "importance": "highlight",
+      "tags": ["coding-agent", "open-source", "typescript"]
+    },
+    {
+      "id": "2026-11-20-earendil-works-pi",
+      "type": "new",
+      "vendor": "earendil-works",
+      "section": "community",
+      "title": "earendil-works/pi — 統合 LLM API・エージェントループ・TUI・コーディング CLI ツールキット 初登場",
+      "summary": "LLM 統一アクセス・エージェントループ・TUI・コーディング CLI を一体化した ★12 万超の AI エージェントツールキット (★122,929, +191)。",
+      "url": "https://github.com/earendil-works/pi",
+      "importance": "standard",
+      "tags": ["agent-toolkit", "llm-api", "tui", "typescript"]
+    },
+    {
+      "id": "2026-11-20-toeverything-affine",
+      "type": "new",
+      "vendor": "toeverything",
+      "section": "community",
+      "title": "toeverything/AFFiNE — プライバシーファースト AI 対応知識ベース 初登場",
+      "summary": "オープンソースの AI 対応知識管理プラットフォーム。クロスプラットフォーム同期とプライバシー優先設計 (★75,141, +170)。",
+      "url": "https://github.com/toeverything/AFFiNE",
+      "importance": "standard",
+      "tags": ["knowledge-base", "note-taking", "typescript", "privacy"]
+    },
+    {
+      "id": "2026-11-20-fission-ai-openspec",
+      "type": "new",
+      "vendor": "Fission-AI",
+      "section": "community",
+      "title": "Fission-AI/OpenSpec — AI コーディングアシスタント向けスペック駆動開発フレームワーク 初登場",
+      "summary": "AI コーディングアシスタントとの協調開発をスペック中心に標準化するフレームワーク (★75,276, +105)。",
+      "url": "https://github.com/Fission-AI/OpenSpec",
+      "importance": "standard",
+      "tags": ["spec-driven", "ai-coding", "typescript"]
+    },
+    {
+      "id": "2026-11-20-bendlang-bend",
+      "type": "new",
+      "vendor": "bendlang",
+      "section": "community",
+      "title": "bendlang/bend — AI の誤りをプログラム検証で防ぐ高速言語 Bend 2 初登場",
+      "summary": "形式証明を組み込み AI 生成コードのバグをコンパイル時に排除する高速プログラミング言語 Bend 第 2 世代 (★25,607, +127)。",
+      "url": "https://github.com/bendlang/bend",
+      "importance": "standard",
+      "tags": ["programming-language", "formal-verification", "ai-safety", "typescript"]
+    },
+    {
+      "id": "2026-11-20-mastra-ai-mastra",
+      "type": "new",
+      "vendor": "mastra-ai",
+      "section": "community",
+      "title": "mastra-ai/mastra — AI アプリケーション・エージェント構築フレームワーク 初登場",
+      "summary": "ワークフロー・ツール定義・メモリ管理を統合した AI アプリ・エージェント向け TypeScript フレームワーク (★29,667, +41)。",
+      "url": "https://github.com/mastra-ai/mastra",
+      "importance": "minor",
+      "tags": ["agent-framework", "typescript", "ai-app"]
+    },
+    {
+      "id": "2026-11-20-obra-superpowers-d3",
+      "type": "followup",
+      "vendor": "obra",
+      "section": "community",
+      "title": "[続報 Day 3] obra/superpowers — +2,029 stars でグローバル Trending 首位3日連続",
+      "summary": "コーディングエージェント向け開発方法論・スキルフレームワーク。Day 3 でも +2,029 stars とグローバル首位維持 (★322,041)。",
+      "url": "https://github.com/obra/superpowers",
+      "related_date": "2026-11-18",
+      "importance": "highlight",
+      "tags": ["agent-skills", "methodology", "shell", "coding-agent"]
+    },
+    {
+      "id": "2026-11-20-elementalsouls-claude-bughunter-d6",
+      "type": "followup",
+      "vendor": "elementalsouls",
+      "section": "community",
+      "title": "[続報 Day 6] elementalsouls/Claude-BugHunter — +1,353 stars で6日連続",
+      "summary": "Claude Code 向けバグハンティング・レッドチームスキルバンドル。6日間累計 ~7,000 stars (★12,445)。",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "related_date": "2026-11-15",
+      "importance": "standard",
+      "tags": ["claude-skills", "bug-hunting", "security", "python"]
+    },
+    {
+      "id": "2026-11-20-google-research-paper-orchestra-d4",
+      "type": "followup",
+      "vendor": "Google Research",
+      "section": "community",
+      "title": "[続報 Day 4] google-research/paper-orchestra — +1,197 stars で4日継続",
+      "summary": "多エージェント論文自動執筆フレームワーク。5,000 stars 突破 (★5,005, Day 4)。",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "related_date": "2026-11-17",
+      "importance": "standard",
+      "tags": ["multi-agent", "research", "paper-writing", "python"]
+    },
+    {
+      "id": "2026-11-20-mvanhorn-last30days-skill-d5",
+      "type": "followup",
+      "vendor": "mvanhorn",
+      "section": "community",
+      "title": "[続報 Day 5] mvanhorn/last30days-skill — +952 stars で5日連続",
+      "summary": "複数プラットフォームで過去30日の動向を調査・要約するエージェントスキル。5日継続 (★70,764)。",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "related_date": "2026-11-16",
+      "importance": "standard",
+      "tags": ["agent-skills", "research", "python"]
+    },
+    {
+      "id": "2026-11-20-hkuds-cli-anything-d2",
+      "type": "followup",
+      "vendor": "HKUDS",
+      "section": "community",
+      "title": "[続報 Day 2] HKUDS/CLI-Anything — +899 stars で2日連続グローバル Trending",
+      "summary": "CLI を持つ全ソフトウェアを AI エージェントから利用可能にするブリッジ。初日比 2.3 倍に加速 (★60,516)。",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "related_date": "2026-11-19",
+      "importance": "standard",
+      "tags": ["cli", "agent-bridge", "python"]
+    },
+    {
+      "id": "2026-11-20-cursor-plugins-d3",
+      "type": "followup",
+      "vendor": "Cursor",
+      "section": "community",
+      "title": "[続報 Day 3] cursor/plugins — +383 stars で3日継続",
+      "summary": "Cursor 公式プラグイン仕様と外部サービス連携プラグイン集。3日継続 (★17,538)。",
+      "url": "https://github.com/cursor/plugins",
+      "related_date": "2026-11-18",
+      "importance": "minor",
+      "tags": ["cursor", "plugins", "typescript"]
+    },
+    {
+      "id": "2026-11-20-appwrite-appwrite-d2",
+      "type": "followup",
+      "vendor": "appwrite",
+      "section": "community",
+      "title": "[続報 Day 2] appwrite/appwrite — +326 stars で2日継続",
+      "summary": "エージェントと開発者向けオープンソースクラウド基盤。認証・DB・ストレージ・ファンクション統合 (★58,405)。",
+      "url": "https://github.com/appwrite/appwrite",
+      "related_date": "2026-11-19",
+      "importance": "minor",
+      "tags": ["cloud", "backend", "typescript", "open-source"]
+    },
+    {
+      "id": "2026-11-20-google-labs-code-stitch-skills-d5",
+      "type": "followup",
+      "vendor": "Google",
+      "section": "community",
+      "title": "[続報 Day 5] google-labs-code/stitch-skills — +303 stars で5日継続",
+      "summary": "Google Labs 公式 Stitch MCP サーバー向けエージェントスキルライブラリ。5日継続 (★10,697)。",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "related_date": "2026-11-16",
+      "importance": "minor",
+      "tags": ["google", "stitch", "mcp", "agent-skills", "typescript"]
+    },
+    {
+      "id": "2026-11-20-jingyaogong-minimind-d2",
+      "type": "followup",
+      "vendor": "jingyaogong",
+      "section": "community",
+      "title": "[続報 Day 2] jingyaogong/minimind — +301 stars で2日継続",
+      "summary": "64M パラメータ LLM を ~2 時間で学習する教育用フレームワーク。2日継続 (★66,829)。",
+      "url": "https://github.com/jingyaogong/minimind",
+      "related_date": "2026-11-19",
+      "importance": "minor",
+      "tags": ["llm", "education", "training", "python"]
+    },
+    {
+      "id": "2026-11-20-p-e-w-heretic-d2",
+      "type": "followup",
+      "vendor": "p-e-w",
+      "section": "community",
+      "title": "[続報 Day 2] p-e-w/heretic — +254 stars で2日継続",
+      "summary": "追加学習なしでモデルの出力特性を後処理変換する実験的 LM 修正ツール (★42,183)。",
+      "url": "https://github.com/p-e-w/heretic",
+      "related_date": "2026-11-19",
+      "importance": "minor",
+      "tags": ["llm", "alignment", "post-processing", "python"]
+    },
+    {
+      "id": "2026-11-20-colbymchenry-codegraph-d3",
+      "type": "followup",
+      "vendor": "colbymchenry",
+      "section": "community",
+      "title": "[続報 Day 3] colbymchenry/codegraph — +140 stars で3日継続",
+      "summary": "コードベースをプリインデックス化し AI エージェントへ提供するローカル知識グラフ (★78,127)。",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "related_date": "2026-11-18",
+      "importance": "minor",
+      "tags": ["code-graph", "agent-tools", "typescript"]
+    }
+  ]
+}

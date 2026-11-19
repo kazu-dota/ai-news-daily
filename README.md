@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-11-20](summaries/2026/11/2026-11-20.md) — Anthropic IPO クロージング ($83/株・Nasdaq ANT), obra/superpowers Day 3 (+2,029 首位), firecrawl/firecrawl 初登場 (★204k), anomalyco/opencode 初登場 (★228k), microsoft/markitdown 初登場 (+526)
 - [2026-11-19](summaries/2026/11/2026-11-19.md) — pingdotgg/t3code 初登場 (+1,264), elementalsouls/Claude-BugHunter Day 5 (+2,322 過去最高), google-research/paper-orchestra Day 3 (+1,529), p-e-w/heretic 初登場, HKUDS/CLI-Anything 初登場
 - [2026-11-18](summaries/2026/11/2026-11-18.md) — kajisho5/ffmpeg-skill +1,376 急加速, stablyai/orca 初登場, dream-num/univer Day 4 (+1,776), ag-ui-protocol/ag-ui Day 3 (+1,444), obra/superpowers・affaan-m/ECC・Graphify スキルエコシステム拡大
 - [2026-11-17](summaries/2026/11/2026-11-17.md) — google-research/paper-orchestra 初登場, iFixAi-ai/iFixAi 急浮上, vstorm-co/agenticos 初登場, dream-num/univer Day 3 (+1,878), GoogleChrome/modern-web-guidance-src Day 5 (+1,200)
 - [2026-11-16](summaries/2026/11/2026-11-16.md) — ag-ui-protocol/ag-ui 初登場, google-labs-code/stitch-skills 初登場, GoogleChrome/modern-web-guidance-src Day 4 (+1,220), dream-num/univer Day 2 (+1,041), tashfeenahmed/freellmapi 初登場
 - [2026-11-15](summaries/2026/11/2026-11-15.md) — ChromeDevTools/chrome-devtools-mcp Day 2 (+673, ×4.6), alibaba/open-code-review Day 2 (+897, ×4.3), tradermonty/claude-trading-skills Day 2 (+556, ×9), dream-num/univer 初登場, backnotprop/plannotator 初登場
 - [2026-11-14](summaries/2026/11/2026-11-14.md) — GoogleChrome/modern-web-guidance-src Day 2 (+1,875), anthropics/claude-plugins-official 初登場, ChromeDevTools/chrome-devtools-mcp 初登場, alibaba/open-code-review 初登場
-- [2026-11-13](summaries/2026/11/2026-11-13.md) — NVIDIA/SkillSpector & SkillEvaluator 初登場, GoogleChrome/modern-web-guidance-src 初登場, QwenLM/qwen-code 初登場, meta/astryx Day 6
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
