@@ -1,5 +1,605 @@
 [
   {
+    "date": "2026-11-21",
+    "id": "2026-11-21-anthropic-ipo-final",
+    "type": "followup",
+    "vendor": "Anthropic",
+    "section": "vendor",
+    "title": "[続報] Anthropic IPO 最終クロージング完了 — グリーンシュー全行使で 11.3 億株・同時プライベートプレースメントも実施",
+    "summary": "11/20 付で IPO 最終決済完了。引受会社のオーバーアロットメント・オプション(約1.47億株)を全行使し、最終発行規模は Class A 普通株式約11.27億株(@$83)に。同時プライベートプレースメントも実施。",
+    "url": "https://www.anthropic.com/news/ipo-close",
+    "related_date": "2026-11-20",
+    "importance": "highlight",
+    "tags": [
+      "ipo",
+      "anthropic",
+      "corporate",
+      "nasdaq"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-openai-no-update",
+    "type": "no-update",
+    "vendor": "OpenAI",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-google-no-update",
+    "type": "no-update",
+    "vendor": "Google",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-microsoft-no-update",
+    "type": "no-update",
+    "vendor": "Microsoft",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-autoclip",
+    "type": "new",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "zhouxiaoka/autoclip — 長尺動画を字幕付きショート動画に AI 変換するデスクトップツール 初登場",
+    "summary": "AI が長尺動画から要点シーンを抽出し字幕・カバー・説明付きの短尺動画を自動出力。グローバル Trending 初登場 +983 stars。",
+    "url": "https://github.com/zhouxiaoka/autoclip",
+    "importance": "highlight",
+    "tags": [
+      "video-ai",
+      "content-creation",
+      "open-source",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-opensre",
+    "type": "new",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "Tracer-Cloud/opensre — AI エージェントによる CI/CD 信頼性強化オープンソースエージェント 初登場",
+    "summary": "CI/CD パイプラインの安定性を AI エージェントが自律監視・補修するオープンソース SRE ツール。グローバル Trending 初登場 +465 stars。",
+    "url": "https://github.com/Tracer-Cloud/opensre",
+    "importance": "highlight",
+    "tags": [
+      "cicd",
+      "sre",
+      "agent",
+      "devops",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-freevideo",
+    "type": "new",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "FlashML-org/FreeVideo — コンシューマー GPU で動く完全ローカルな動画生成 AI 初登場",
+    "summary": "VRAM 制約のあるコンシューマー GPU でテキストから動画をオフライン生成できるフレームワーク。Python Trending 初登場 +304 stars。",
+    "url": "https://github.com/FlashML-org/FreeVideo",
+    "importance": "standard",
+    "tags": [
+      "video-generation",
+      "local-ai",
+      "consumer-gpu",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-phone-harness",
+    "type": "new",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "phone-harness/phone-harness — AI エージェントが実機スマートフォンを直接操作するハーネス 初登場",
+    "summary": "AI エージェントが Android/iOS 実機を直接タップ・入力制御するブリッジライブラリ。Python Trending 初登場 +206 stars。",
+    "url": "https://github.com/phone-harness/phone-harness",
+    "importance": "standard",
+    "tags": [
+      "mobile-agent",
+      "phone-control",
+      "ui-automation",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-mini-swe-agent",
+    "type": "new",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "SWE-agent/mini-swe-agent — 約 100 行で実装した GitHub Issue 解決エージェント 初登場",
+    "summary": "SWE-agent の最小実装版 (~100行)。GitHub Issue 自動解決機能を維持しつつエージェント設計の学習・拡張ベースとして注目。Python Trending 初登場 +62 stars。",
+    "url": "https://github.com/SWE-agent/mini-swe-agent",
+    "importance": "standard",
+    "tags": [
+      "swe-agent",
+      "github-issues",
+      "minimal",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-wshobson-agents",
+    "type": "new",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "wshobson/agents — Markdown から複数コーディングツール向けにプラグイン・エージェント・スキルを自動生成 初登場",
+    "summary": "Markdown 仕様から Claude Code・Codex・Cursor 向けプラグイン/エージェント/スキルを横断生成するツール。Python Trending 初登場 +38 stars。",
+    "url": "https://github.com/wshobson/agents",
+    "importance": "minor",
+    "tags": [
+      "cross-platform",
+      "skill-generation",
+      "agent-tools",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-edgeever",
+    "type": "new",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "tianma-if/edgeever — AI ネイティブ設計のノートアプリ / Evernote・Obsidian 代替 初登場",
+    "summary": "AI 機能中心に設計したオープンソースのノートアプリ。TypeScript Trending 初登場 +26 stars。",
+    "url": "https://github.com/tianma-if/edgeever",
+    "importance": "minor",
+    "tags": [
+      "note-taking",
+      "knowledge-base",
+      "ai-native",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-twenty",
+    "type": "new",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "twentyhq/twenty — AI 連携前提のオープンソース Salesforce 代替 CRM 初登場",
+    "summary": "AI ワークフローとの統合を前提設計にした OSS CRM。TypeScript Trending 初登場 +53 stars。",
+    "url": "https://github.com/twentyhq/twenty",
+    "importance": "minor",
+    "tags": [
+      "crm",
+      "salesforce-alternative",
+      "ai-integration",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-bug-hunter-d7",
+    "type": "followup",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "[続報 Day 7] elementalsouls/Claude-BugHunter — +1,660 stars で Day 7 最高水準を維持",
+    "summary": "Claude Code 向けバグハンティングスキルバンドルが7日目も +1,660 stars。7日間累計 ~8,000 stars 超。",
+    "url": "https://github.com/elementalsouls/Claude-BugHunter",
+    "related_date": "2026-11-15",
+    "importance": "highlight",
+    "tags": [
+      "claude-code",
+      "security",
+      "bug-hunting",
+      "skill",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-firecrawl-d2",
+    "type": "followup",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "[続報 Day 2] firecrawl/firecrawl — +1,226 stars で 2 日連続グローバル上位",
+    "summary": "AI エージェント向け知識調達インフラ (検索/スクレイピング/550+ データプロバイダ)。初日 +795 → Day 2 +1,226 と加速。",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "related_date": "2026-11-20",
+    "importance": "highlight",
+    "tags": [
+      "knowledge-infrastructure",
+      "agent-tools",
+      "search",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-superpowers-d4",
+    "type": "followup",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "[続報 Day 4] obra/superpowers — +888 stars で 4 日連続グローバル Trending",
+    "summary": "コーディングエージェント向けスキルフレームワーク。Day 4 +888 stars で安定維持 (★322,810)。",
+    "url": "https://github.com/obra/superpowers",
+    "related_date": "2026-11-18",
+    "importance": "standard",
+    "tags": [
+      "skill-framework",
+      "coding-agent",
+      "shell"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-cli-anything-d3",
+    "type": "followup",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "[続報 Day 3] HKUDS/CLI-Anything — +774 stars で 3 日連続グローバル Trending",
+    "summary": "CLI ソフトウェアを AI エージェント対応に変換するブリッジ。Day 3 +774 stars (★61,350)。",
+    "url": "https://github.com/HKUDS/CLI-Anything",
+    "related_date": "2026-11-19",
+    "importance": "standard",
+    "tags": [
+      "cli-bridge",
+      "agent-tools",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-minimind-d3",
+    "type": "followup",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "[続報 Day 3] jingyaogong/minimind — +841 stars で 3 日連続 Python Trending",
+    "summary": "64M パラメータ LLM をスクラッチから ~2 時間で学習できる教育用フレームワーク。Day 3 +841 stars (★67,666)。",
+    "url": "https://github.com/jingyaogong/minimind",
+    "related_date": "2026-11-19",
+    "importance": "standard",
+    "tags": [
+      "llm-training",
+      "educational",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-last30days-skill-d6",
+    "type": "followup",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "[続報 Day 6] mvanhorn/last30days-skill — +685 stars で 6 日連続 Python Trending",
+    "summary": "特定トピックの過去30日動向を複数プラットフォームで調査するエージェントスキル。Day 6 +685 stars (★71,415)。",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "related_date": "2026-11-16",
+    "importance": "standard",
+    "tags": [
+      "agent-skill",
+      "research",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-paper-orchestra-d5",
+    "type": "followup",
+    "vendor": "Google",
+    "section": "community",
+    "title": "[続報 Day 5] google-research/paper-orchestra — +492 stars で 5 日連続 Python Trending",
+    "summary": "Google Research 発の多エージェント論文自動執筆フレームワーク。Day 5 +492 stars (★5,426)。",
+    "url": "https://github.com/google-research/paper-orchestra",
+    "related_date": "2026-11-17",
+    "importance": "standard",
+    "tags": [
+      "multi-agent",
+      "research",
+      "paper-writing",
+      "python",
+      "google"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-markitdown-d2",
+    "type": "followup",
+    "vendor": "Microsoft",
+    "section": "community",
+    "title": "[続報 Day 2] microsoft/markitdown — +280 stars で 2 日連続 Python Trending",
+    "summary": "PDF/Word/Excel 等多様ファイル形式を Markdown に変換する Microsoft OSS。Day 2 +280 stars (★197,254)。",
+    "url": "https://github.com/microsoft/markitdown",
+    "related_date": "2026-11-20",
+    "importance": "standard",
+    "tags": [
+      "markdown",
+      "file-conversion",
+      "rag",
+      "microsoft",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-heretic-d3",
+    "type": "followup",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "[続報 Day 3] p-e-w/heretic — +181 stars で 3 日連続 Python Trending",
+    "summary": "追加学習なしでモデル出力特性を後処理変換する実験的ツール。Day 3 +181 stars (★42,356)。",
+    "url": "https://github.com/p-e-w/heretic",
+    "related_date": "2026-11-19",
+    "importance": "minor",
+    "tags": [
+      "lm-modification",
+      "research",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-spec-kit-d2",
+    "type": "followup",
+    "vendor": "GitHub",
+    "section": "community",
+    "title": "[続報 Day 2] github/spec-kit — +161 stars で 2 日連続 Python Trending",
+    "summary": "GitHub 公式のスペック駆動開発ツールキット。Day 2 +161 stars (★150,820)。",
+    "url": "https://github.com/github/spec-kit",
+    "related_date": "2026-11-20",
+    "importance": "minor",
+    "tags": [
+      "spec-driven",
+      "github",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-academic-research-skills-d2",
+    "type": "followup",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "[続報 Day 2] Imbad0202/academic-research-skills — +144 stars で 2 日連続 Python Trending",
+    "summary": "学術研究・論文執筆ワークフローを網羅する Claude Code スキル集。Day 2 +144 stars (★57,882)。",
+    "url": "https://github.com/Imbad0202/academic-research-skills",
+    "related_date": "2026-11-20",
+    "importance": "minor",
+    "tags": [
+      "academic",
+      "research",
+      "claude-code",
+      "skill"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-treg-d5",
+    "type": "followup",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "[続報 Day 5] superdesigndev/treg — +103 stars で継続 Python Trending",
+    "summary": "エージェントツールを OpenRouter 風ゲートウェイとして提供するサービス。Day 5 +103 stars (★8,632)。",
+    "url": "https://github.com/superdesigndev/treg",
+    "related_date": "2026-11-17",
+    "importance": "minor",
+    "tags": [
+      "tool-registry",
+      "agent-tools",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-agentscope-d2",
+    "type": "followup",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "[続報 Day 2] agentscope-ai/agentscope — +75 stars で 2 日連続 Python Trending",
+    "summary": "透明性・信頼性重視のエージェント構築フレームワーク。Day 2 +75 stars (★36,379)。",
+    "url": "https://github.com/agentscope-ai/agentscope",
+    "related_date": "2026-11-20",
+    "importance": "minor",
+    "tags": [
+      "agent-framework",
+      "trustworthy",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-affine-d2",
+    "type": "followup",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "[続報 Day 2] toeverything/AFFiNE — +686 stars で 2 日連続 TypeScript Trending",
+    "summary": "プライバシーファーストのオープンソース知識ベース。Day 2 +686 stars (★75,767)。",
+    "url": "https://github.com/toeverything/AFFiNE",
+    "related_date": "2026-11-20",
+    "importance": "standard",
+    "tags": [
+      "knowledge-base",
+      "privacy",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-diagram-design-d2",
+    "type": "followup",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "[続報 Day 2] cathrynlavery/diagram-design — +634 stars で 2 日連続 TypeScript Trending",
+    "summary": "AI コーディングツール向け 45 種類のダイアグラム生成ツール。Day 2 +634 stars (★69,260)。",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "related_date": "2026-11-20",
+    "importance": "minor",
+    "tags": [
+      "diagram",
+      "ai-coding",
+      "html",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-stitch-skills-d6",
+    "type": "followup",
+    "vendor": "Google",
+    "section": "community",
+    "title": "[続報 Day 6] google-labs-code/stitch-skills — +315 stars で 6 日連続 TypeScript Trending",
+    "summary": "Stitch MCP サーバー向けエージェントスキルライブラリ。Day 6 +315 stars (★11,013)。",
+    "url": "https://github.com/google-labs-code/stitch-skills",
+    "related_date": "2026-11-16",
+    "importance": "minor",
+    "tags": [
+      "mcp",
+      "skills",
+      "google",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-cursor-plugins-d4",
+    "type": "followup",
+    "vendor": "Cursor",
+    "section": "community",
+    "title": "[続報 Day 4] cursor/plugins — +292 stars で 4 日連続 TypeScript Trending",
+    "summary": "Cursor 公式プラグイン仕様と実装コレクション。Day 4 +292 stars (★17,830)。",
+    "url": "https://github.com/cursor/plugins",
+    "related_date": "2026-11-18",
+    "importance": "minor",
+    "tags": [
+      "cursor",
+      "plugins",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-opencode-d2",
+    "type": "followup",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "[続報 Day 2] anomalyco/opencode — +244 stars で 2 日連続 TypeScript Trending",
+    "summary": "大規模オープンソースコーディングエージェント。Day 2 +244 stars (★228,249)。",
+    "url": "https://github.com/anomalyco/opencode",
+    "related_date": "2026-11-20",
+    "importance": "minor",
+    "tags": [
+      "coding-agent",
+      "open-source",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-pi-d2",
+    "type": "followup",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "[続報 Day 2] earendil-works/pi — +160 stars で 2 日連続 TypeScript Trending",
+    "summary": "統合 LLM API・エージェントループ・TUI・コーディング CLI を持つ AI エージェントツールキット。Day 2 +160 stars (★123,068)。",
+    "url": "https://github.com/earendil-works/pi",
+    "related_date": "2026-11-20",
+    "importance": "minor",
+    "tags": [
+      "agent-toolkit",
+      "tui",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-codegraph-d3",
+    "type": "followup",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "[続報 Day 3] colbymchenry/codegraph — +127 stars で 3 日連続 TypeScript Trending",
+    "summary": "コードベースをインデックス化して AI エージェントに提供するローカル知識グラフ。Day 3 +127 stars (★78,247)。",
+    "url": "https://github.com/colbymchenry/codegraph",
+    "related_date": "2026-11-19",
+    "importance": "minor",
+    "tags": [
+      "code-graph",
+      "knowledge-graph",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-bend-d2",
+    "type": "followup",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "[続報 Day 2] bendlang/bend — +95 stars で 2 日連続 TypeScript Trending",
+    "summary": "AI 生成コードのバグを形式証明で言語レベルで排除する高速プログラミング言語 Bend 2。Day 2 +95 stars (★25,695)。",
+    "url": "https://github.com/bendlang/bend",
+    "related_date": "2026-11-20",
+    "importance": "minor",
+    "tags": [
+      "programming-language",
+      "formal-verification",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-openspec-d2",
+    "type": "followup",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "[続報 Day 2] Fission-AI/OpenSpec — +87 stars で 2 日連続 TypeScript Trending",
+    "summary": "AI コーディングアシスタント向けスペック駆動開発フレームワーク。Day 2 +87 stars (★75,348)。",
+    "url": "https://github.com/Fission-AI/OpenSpec",
+    "related_date": "2026-11-20",
+    "importance": "minor",
+    "tags": [
+      "spec-driven",
+      "ai-coding",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-appwrite-d3",
+    "type": "followup",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "[続報 Day 3] appwrite/appwrite — +52 stars で 3 日連続 TypeScript Trending",
+    "summary": "エージェントと開発者向けのセルフホスト型オープンソースクラウド基盤。Day 3 +52 stars (★58,444)。",
+    "url": "https://github.com/appwrite/appwrite",
+    "related_date": "2026-11-19",
+    "importance": "minor",
+    "tags": [
+      "cloud-platform",
+      "agent-infrastructure",
+      "typescript"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-mastra-d2",
+    "type": "followup",
+    "vendor": "OSS",
+    "section": "community",
+    "title": "[続報 Day 2] mastra-ai/mastra — +44 stars で 2 日連続 TypeScript Trending",
+    "summary": "AI アプリケーション・エージェント構築フレームワーク。Day 2 +44 stars (★29,703)。",
+    "url": "https://github.com/mastra-ai/mastra",
+    "related_date": "2026-11-20",
+    "importance": "minor",
+    "tags": [
+      "agent-framework",
+      "typescript"
+    ]
+  },
+  {
     "date": "2026-11-20",
     "id": "2026-11-20-anthropic-ipo-close",
     "type": "followup",
