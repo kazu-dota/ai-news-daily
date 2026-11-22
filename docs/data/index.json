@@ -1,5 +1,234 @@
 [
   {
+    "date": "2026-11-23",
+    "id": "2026-11-23-anthropic-no-update",
+    "type": "no-update",
+    "vendor": "Anthropic",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-23",
+    "id": "2026-11-23-openai-gpt62-astra-sol",
+    "type": "new",
+    "vendor": "OpenAI",
+    "section": "vendor",
+    "title": "[補足] GPT-6.2 Astra & Sol リリース (11/17 公表)",
+    "summary": "GPT-6.2 Astra (フラッグシップ) と Sol (汎用) を ChatGPT / API でリリース。Astra は Preparedness Framework「AI 自己改善 High」しきい値を初めて超えたフロンティアモデル。API 価格 $8/$40 (MTok)。",
+    "url": "https://openai.com/id-ID/index/introducing-gpt-6-2-astra-sol/",
+    "importance": "highlight",
+    "tags": [
+      "model-release",
+      "openai",
+      "gpt-6",
+      "safety",
+      "frontier"
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "id": "2026-11-23-google-gemini4-neon",
+    "type": "new",
+    "vendor": "Google / Google DeepMind",
+    "section": "vendor",
+    "title": "[補足] Gemini 4 Neon リリース (11/18 公表)",
+    "summary": "Gemini 4 ファミリー第 3 段の中量モデル。コーディング・推論特化、4段階思考深度、100万トークンコンテキスト。API 価格 $3/$15 (MTok)。サイバー防御特化版も Fairwind Program 経由で提供。",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+    "importance": "highlight",
+    "tags": [
+      "model-release",
+      "google",
+      "gemini-4",
+      "reasoning",
+      "coding"
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "id": "2026-11-23-microsoft-ignite-copilot-home",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "[補足] Microsoft Ignite 2026: Copilot Home + Office in Copilot が GA (11/17-20 公表)",
+    "summary": "Chat/Cowork 統合の Copilot Home と Word/Excel/PowerPoint を Copilot UI 内で直接利用できる Office in Copilot が GA。Autopilot パーシステントエージェントが Frontier preview へ。",
+    "url": "https://news.microsoft.com/events/ignite/2026/book-of-news/",
+    "importance": "highlight",
+    "tags": [
+      "microsoft",
+      "copilot",
+      "ignite-2026",
+      "ga",
+      "agent"
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "id": "2026-11-23-microsoft-ignite-entra-agents",
+    "type": "new",
+    "vendor": "Microsoft",
+    "section": "vendor",
+    "title": "[補足] Microsoft Entra による AI エージェント管理 public preview (Ignite 2026)",
+    "summary": "Claude Code を含む 60 種類のローカル実行エージェントを自動検出してアイデンティティ付与・ガバナンス適用が可能に。Copilot Code (12月 GA 予定) や Copilot on Windows も発表。",
+    "url": "https://news.microsoft.com/events/ignite/2026/book-of-news/",
+    "importance": "standard",
+    "tags": [
+      "microsoft",
+      "entra",
+      "agent-governance",
+      "ignite-2026",
+      "copilot-code"
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "id": "2026-11-23-meta-no-update",
+    "type": "no-update",
+    "vendor": "Meta",
+    "section": "vendor"
+  },
+  {
+    "date": "2026-11-23",
+    "id": "2026-11-23-cursor-plugins",
+    "type": "new",
+    "vendor": "Cursor",
+    "section": "community",
+    "title": "cursor/plugins — Cursor 公式プラグイン仕様と公式プラグインコレクション 初登場",
+    "summary": "Google Workspace・Teams・Salesforce 等との連携プラグイン仕様と実装を公式リポジトリで公開。Cursor エコシステムの公式拡張基盤。TypeScript Trending 初登場 (★18,422, +301)。",
+    "url": "https://github.com/cursor/plugins",
+    "importance": "highlight",
+    "tags": [
+      "cursor",
+      "plugins",
+      "ecosystem",
+      "open-source",
+      "coding-agent"
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "id": "2026-11-23-elementalsouls-claude-bug-hunter-d9",
+    "type": "followup",
+    "vendor": "elementalsouls",
+    "section": "community",
+    "title": "[続報 Day 9] elementalsouls/Claude-BugHunter — +1,721 stars でグローバル首位圏 9日連続",
+    "summary": "Claude Code 向けバグハンティング・レッドチーム特化スキルバンドル。9日間累計 +11,400 超 stars。セキュリティ特化スキルへの根強い需要を証明する異例の長期トレンド。",
+    "url": "https://github.com/elementalsouls/Claude-BugHunter",
+    "related_date": "2026-11-15",
+    "importance": "highlight",
+    "tags": [
+      "claude-code",
+      "security",
+      "skill",
+      "trending",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "id": "2026-11-23-firecrawl-d4",
+    "type": "followup",
+    "vendor": "firecrawl",
+    "section": "community",
+    "title": "[続報 Day 4] firecrawl/firecrawl — +910 stars で4日連続グローバル上位",
+    "summary": "AI エージェント向け検索・スクレイピング・550+ データプロバイダ統合インフラ。4日連続高水準 (★206,998)。",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "related_date": "2026-11-20",
+    "importance": "standard",
+    "tags": [
+      "data-infrastructure",
+      "agent",
+      "typescript",
+      "trending"
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "id": "2026-11-23-obra-superpowers-d6",
+    "type": "followup",
+    "vendor": "obra",
+    "section": "community",
+    "title": "[続報 Day 6] obra/superpowers — +785 stars で6日連続グローバル Trending",
+    "summary": "コーディングエージェント向け包括的スキルフレームワーク。6日連続トレンド (★324,133)。",
+    "url": "https://github.com/obra/superpowers",
+    "related_date": "2026-11-18",
+    "importance": "standard",
+    "tags": [
+      "skill-framework",
+      "agent",
+      "shell",
+      "trending"
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "id": "2026-11-23-google-research-paper-orchestra-revival",
+    "type": "followup",
+    "vendor": "Google Research",
+    "section": "community",
+    "title": "google-research/paper-orchestra — Python Trending に再浮上",
+    "summary": "多エージェント AI 論文自動執筆フレームワーク。Gemini 4 Neon リリース後に再注目か。11/17 以来の再トレンド入り (★5,952, +253)。",
+    "url": "https://github.com/google-research/paper-orchestra",
+    "related_date": "2026-11-17",
+    "importance": "standard",
+    "tags": [
+      "multi-agent",
+      "research",
+      "paper-writing",
+      "google",
+      "python"
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "id": "2026-11-23-mvanhorn-last30days-skill-d2",
+    "type": "followup",
+    "vendor": "mvanhorn",
+    "section": "community",
+    "title": "[続報 Day 2] mvanhorn/last30days-skill — +673 stars で2日連続",
+    "summary": "AI エージェントがソーシャル・Web 横断でトピックを調査・要約するスキル。Python Trending 継続 (★72,672, +673)。",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "related_date": "2026-11-22",
+    "importance": "minor",
+    "tags": [
+      "skill",
+      "research-agent",
+      "python",
+      "trending"
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "id": "2026-11-23-stitch-skills-d8",
+    "type": "followup",
+    "vendor": "Google Labs",
+    "section": "community",
+    "title": "[続報 Day 8] google-labs-code/stitch-skills — +516 stars で8日連続",
+    "summary": "Stitch MCP サーバー向けエージェントスキルライブラリ。8日連続 TypeScript Trending (★11,898)。",
+    "url": "https://github.com/google-labs-code/stitch-skills",
+    "related_date": "2026-11-16",
+    "importance": "minor",
+    "tags": [
+      "mcp",
+      "skills",
+      "typescript",
+      "google-labs",
+      "trending"
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "id": "2026-11-23-papers-no-update",
+    "type": "no-update",
+    "vendor": null,
+    "section": "papers"
+  },
+  {
+    "date": "2026-11-23",
+    "id": "2026-11-23-media-no-update",
+    "type": "no-update",
+    "vendor": null,
+    "section": "media"
+  },
+  {
     "date": "2026-11-22",
     "id": "2026-11-22-anthropic-no-update",
     "type": "no-update",
