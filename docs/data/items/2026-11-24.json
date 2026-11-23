@@ -1,0 +1,205 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T08:14:00+09:00",
+  "sources_checked": 26,
+  "sources_failed": 22,
+  "items": [
+    {
+      "id": "2026-11-24-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-24-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-24-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-24-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-24-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-24-bug-hunter-d10",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 10] elementalsouls/Claude-BugHunter — +2,037 stars で10日連続グローバル Trending 首位圏維持",
+      "summary": "Claude Code 向けセキュリティ特化スキルバンドル。累計 ★19,675 まで成長し初登場比 +13,000 超。10日連続トレンド入りは単一スキルバンドルとして記録的長期在位。",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "related_date": "2026-11-15",
+      "importance": "highlight",
+      "tags": ["github-trending", "security", "claude-code", "skills"]
+    },
+    {
+      "id": "2026-11-24-firecrawl-d5",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 5] firecrawl/firecrawl — +920 stars で5日連続グローバル上位",
+      "summary": "AI エージェント向け検索・スクレイピング・550+ データプロバイダ統合プラットフォーム。5日間安定した需要曲線を維持。",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "related_date": "2026-11-20",
+      "importance": "highlight",
+      "tags": ["github-trending", "ai-agent", "data-infrastructure"]
+    },
+    {
+      "id": "2026-11-24-autoclip-d4",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 4] zhouxiaoka/autoclip — +908 stars で4日目も高水準維持",
+      "summary": "長尺動画から AI が要点シーンを抽出しショート動画を生成するデスクトップアプリ。初登場 (11/21) 以降失速せず4日連続で高い関心を維持。",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "related_date": "2026-11-21",
+      "importance": "highlight",
+      "tags": ["github-trending", "video-ai", "multimodal"]
+    },
+    {
+      "id": "2026-11-24-stitch-skills-d9",
+      "type": "followup",
+      "vendor": "Google",
+      "section": "community",
+      "title": "[続報 Day 9] google-labs-code/stitch-skills — +425 stars で9日連続グローバル Trending",
+      "summary": "Google 公式 Stitch MCP スキルライブラリ。複数コーディングエージェント対応の公式スキル集として長期需要を維持。",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "related_date": "2026-11-16",
+      "importance": "highlight",
+      "tags": ["github-trending", "mcp", "google", "agent-skills"]
+    },
+    {
+      "id": "2026-11-24-superpowers-d7",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 7] obra/superpowers — +838 stars で7日連続グローバル Trending",
+      "summary": "コーディングエージェント向けスキルフレームワーク。設計・計画・実装・検証の全フェーズに対応。7日間で累計 +6,500 超の stars を獲得。",
+      "url": "https://github.com/obra/superpowers",
+      "related_date": "2026-11-18",
+      "importance": "highlight",
+      "tags": ["github-trending", "agent-skills", "methodology"]
+    },
+    {
+      "id": "2026-11-24-davinci-resolve-mcp",
+      "type": "new",
+      "vendor": "community",
+      "section": "community",
+      "title": "samuelgursky/davinci-resolve-mcp — DaVinci Resolve Studio 向け MCP サーバー 初登場",
+      "summary": "映像編集ソフト DaVinci Resolve に MCP 経由で AI エージェントをつなぐ統合ツール。コーディング領域以外への MCP 普及を示す事例。",
+      "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "importance": "minor",
+      "tags": ["github-trending", "mcp", "video-editing", "new"]
+    },
+    {
+      "id": "2026-11-24-cli-anything-d6",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 6] HKUDS/CLI-Anything — +783 stars",
+      "summary": "任意のソフトウェアを AI エージェント対応にする CLI ブリッジフレームワーク。6日間高水準継続。",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "related_date": "2026-11-19",
+      "importance": "standard",
+      "tags": ["github-trending", "ai-agent", "cli"]
+    },
+    {
+      "id": "2026-11-24-minimind-d6",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 6] jingyaogong/minimind — +828 stars",
+      "summary": "約 2 時間で 64M パラメータの LLM をゼロから訓練できる教育・研究向けフレームワーク。",
+      "url": "https://github.com/jingyaogong/minimind",
+      "related_date": "2026-11-19",
+      "importance": "standard",
+      "tags": ["github-trending", "llm", "training", "education"]
+    },
+    {
+      "id": "2026-11-24-last30days-d9",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 9] mvanhorn/last30days-skill — +790 stars",
+      "summary": "複数プラットフォームにわたってトピックを調査・要約する AI エージェントスキル。9日連続Trending継続。",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "related_date": "2026-11-16",
+      "importance": "standard",
+      "tags": ["github-trending", "agent-skills", "research"]
+    },
+    {
+      "id": "2026-11-24-cursor-plugins-d2",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 2] cursor/plugins — +395 stars",
+      "summary": "Cursor 公式プラグイン仕様と Google Workspace・Salesforce 等への公式プラグインコレクション。",
+      "url": "https://github.com/cursor/plugins",
+      "related_date": "2026-11-23",
+      "importance": "standard",
+      "tags": ["github-trending", "cursor", "plugins"]
+    },
+    {
+      "id": "2026-11-24-opensre-d4",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 4] Tracer-Cloud/opensre — +438 stars",
+      "summary": "AI エージェントによる CI/CD 信頼性強化オープンソースツール。",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "related_date": "2026-11-21",
+      "importance": "standard",
+      "tags": ["github-trending", "ai-agent", "devops"]
+    },
+    {
+      "id": "2026-11-24-afine-d5",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 5] toeverything/AFFiNE — +593 stars",
+      "summary": "プライバシーファースト設計のオープンソース AI 対応知識ベース・ノートアプリ。",
+      "url": "https://github.com/toeverything/AFFiNE",
+      "related_date": "2026-11-20",
+      "importance": "standard",
+      "tags": ["github-trending", "knowledge-base", "ai-native"]
+    },
+    {
+      "id": "2026-11-24-paper-orchestra-cont",
+      "type": "followup",
+      "vendor": "Google",
+      "section": "community",
+      "title": "[続報] google-research/paper-orchestra — +235 stars でトレンド継続",
+      "summary": "Google Research の多エージェント AI 論文自動執筆フレームワーク。11/23 再浮上後も持続。",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "related_date": "2026-11-23",
+      "importance": "minor",
+      "tags": ["github-trending", "multi-agent", "research", "google"]
+    },
+    {
+      "id": "2026-11-24-cathryn-diagram-d5",
+      "type": "followup",
+      "vendor": "community",
+      "section": "community",
+      "title": "[続報 Day 5] cathrynlavery/diagram-design — +624 stars",
+      "summary": "AI コーディングエージェント向け 45 種類のダイアグラム生成スキル。5日連続継続。",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "related_date": "2026-11-20",
+      "importance": "minor",
+      "tags": ["github-trending", "diagram", "agent-skills"]
+    }
+  ]
+}
