@@ -1,0 +1,277 @@
+{
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T08:15:00+09:00",
+  "sources_checked": 26,
+  "sources_failed": 23,
+  "items": [
+    {
+      "id": "2026-11-25-anthropic-no-update",
+      "type": "no-update",
+      "vendor": "Anthropic",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-25-openai-no-update",
+      "type": "no-update",
+      "vendor": "OpenAI",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-25-google-no-update",
+      "type": "no-update",
+      "vendor": "Google",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-25-microsoft-no-update",
+      "type": "no-update",
+      "vendor": "Microsoft",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-25-meta-no-update",
+      "type": "no-update",
+      "vendor": "Meta",
+      "section": "vendor"
+    },
+    {
+      "id": "2026-11-25-bug-hunter-d11",
+      "type": "followup",
+      "vendor": "elementalsouls",
+      "section": "community",
+      "title": "[続報 Day 11] elementalsouls/Claude-BugHunter — +1,833 stars でDay 11もグローバル首位を維持",
+      "summary": "11日連続グローバルTrending首位。累計★21,390。セキュリティ特化Claudeスキルバンドル(84スキル/15スラッシュコマンド)が異例の長期在位。",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "related_date": "2026-11-15",
+      "importance": "highlight",
+      "tags": ["github-trending", "claude-skills", "security", "bug-hunting"]
+    },
+    {
+      "id": "2026-11-25-cli-anything-d7",
+      "type": "followup",
+      "vendor": "HKUDS",
+      "section": "community",
+      "title": "[続報 Day 7] HKUDS/CLI-Anything — +1,075 stars で7日連続グローバルTrending",
+      "summary": "CLIを通じてソフトウェアをエージェント対応に変換するブリッジフレームワーク。累計★64,698。7日連続で+1,000超えを維持。",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "related_date": "2026-11-19",
+      "importance": "highlight",
+      "tags": ["github-trending", "agent", "cli", "framework"]
+    },
+    {
+      "id": "2026-11-25-superpowers-d8",
+      "type": "followup",
+      "vendor": "obra",
+      "section": "community",
+      "title": "[続報 Day 8] obra/superpowers — +1,006 stars で8日連続グローバルTrending",
+      "summary": "コーディングエージェント向けスキルフレームワーク。設計〜検証の全フェーズをカバー。累計★325,764。",
+      "url": "https://github.com/obra/superpowers",
+      "related_date": "2026-11-18",
+      "importance": "highlight",
+      "tags": ["github-trending", "agent-skills", "framework", "coding-agent"]
+    },
+    {
+      "id": "2026-11-25-firecrawl-d6",
+      "type": "followup",
+      "vendor": "firecrawl",
+      "section": "community",
+      "title": "[続報 Day 6] firecrawl/firecrawl — +990 stars、累計★208k突破",
+      "summary": "AIエージェント向け検索・スクレイピング・550+データプロバイダ統合の知識調達インフラ。累計★208,894。",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "related_date": "2026-11-20",
+      "importance": "highlight",
+      "tags": ["github-trending", "agent", "web-scraping", "knowledge-infrastructure"]
+    },
+    {
+      "id": "2026-11-25-autoclip-d5",
+      "type": "followup",
+      "vendor": "zhouxiaoka",
+      "section": "community",
+      "title": "[続報 Day 5] zhouxiaoka/autoclip — +981 stars で5日連続Trending",
+      "summary": "長尺動画をAIで字幕付きショート動画に変換するデスクトップツール。累計★15,292。初登場時に近い勢い持続。",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "related_date": "2026-11-21",
+      "importance": "highlight",
+      "tags": ["github-trending", "ai-video", "short-video", "desktop-tool"]
+    },
+    {
+      "id": "2026-11-25-diagram-design-d6",
+      "type": "followup",
+      "vendor": "cathrynlavery",
+      "section": "community",
+      "title": "[続報 Day 6] cathrynlavery/diagram-design — +794 stars",
+      "summary": "AIコーディングツール向け52種類のダイアグラム生成ツール。累計★71,977。",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "related_date": "2026-11-20",
+      "importance": "standard",
+      "tags": ["github-trending", "diagram", "coding-agent"]
+    },
+    {
+      "id": "2026-11-25-minimind-d7",
+      "type": "followup",
+      "vendor": "jingyaogong",
+      "section": "community",
+      "title": "[続報 Day 7] jingyaogong/minimind — +727 stars",
+      "summary": "64Mパラメータ LLMを約2時間で一から学習できる教育用フレームワーク。累計★70,147。",
+      "url": "https://github.com/jingyaogong/minimind",
+      "related_date": "2026-11-19",
+      "importance": "standard",
+      "tags": ["github-trending", "llm-training", "education", "small-model"]
+    },
+    {
+      "id": "2026-11-25-last30days-skill-d10",
+      "type": "followup",
+      "vendor": "mvanhorn",
+      "section": "community",
+      "title": "[続報 Day 10] mvanhorn/last30days-skill — +695 stars",
+      "summary": "AIエージェントスキル。Reddit・X・YouTube・HN・Polymarket・Webを横断してトピックを調査・要約。累計★74,163。",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "related_date": "2026-11-16",
+      "importance": "standard",
+      "tags": ["github-trending", "agent-skills", "research"]
+    },
+    {
+      "id": "2026-11-25-affine-d6",
+      "type": "followup",
+      "vendor": "toeverything",
+      "section": "community",
+      "title": "[続報 Day 6] toeverything/AFFiNE — +589 stars",
+      "summary": "プライバシーファースト・オープンソースAI対応知識ベース。累計★77,959。",
+      "url": "https://github.com/toeverything/AFFiNE",
+      "related_date": "2026-11-20",
+      "importance": "standard",
+      "tags": ["github-trending", "knowledge-base", "ai-native"]
+    },
+    {
+      "id": "2026-11-25-opensre-d5",
+      "type": "followup",
+      "vendor": "Tracer-Cloud",
+      "section": "community",
+      "title": "[続報 Day 5] Tracer-Cloud/opensre — +408 stars",
+      "summary": "AIエージェントによるCI/CD信頼性強化オープンソースエージェント。累計★15,169。",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "related_date": "2026-11-21",
+      "importance": "standard",
+      "tags": ["github-trending", "ci-cd", "reliability", "agent"]
+    },
+    {
+      "id": "2026-11-25-stitch-skills-d10",
+      "type": "followup",
+      "vendor": "google-labs-code",
+      "section": "community",
+      "title": "[続報 Day 10] google-labs-code/stitch-skills — +401 stars",
+      "summary": "Stitch MCPサーバー向けエージェントスキルライブラリ。Claude Code・Cursorなど複数コーディングエージェントに対応。累計★12,630。",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "related_date": "2026-11-16",
+      "importance": "standard",
+      "tags": ["github-trending", "agent-skills", "mcp", "google"]
+    },
+    {
+      "id": "2026-11-25-cursor-plugins-d8",
+      "type": "followup",
+      "vendor": "cursor",
+      "section": "community",
+      "title": "[続報 Day 8] cursor/plugins — +359 stars",
+      "summary": "Cursor公式プラグイン仕様と公式プラグイン集。累計★19,176。",
+      "url": "https://github.com/cursor/plugins",
+      "related_date": "2026-11-18",
+      "importance": "standard",
+      "tags": ["github-trending", "cursor", "plugins", "coding-agent"]
+    },
+    {
+      "id": "2026-11-25-vllm-ascend",
+      "type": "new",
+      "vendor": "vllm-project",
+      "section": "community",
+      "title": "vllm-project/vllm-ascend — Huawei Ascend向けvLLMコミュニティプラグイン 初登場",
+      "summary": "vLLMをHuawei Ascend NPUに対応させるコミュニティプラグイン。Python Trending初登場。累計★3,143、+10 today。",
+      "url": "https://github.com/vllm-project/vllm-ascend",
+      "importance": "standard",
+      "tags": ["github-trending", "vllm", "huawei-ascend", "inference", "hardware"]
+    },
+    {
+      "id": "2026-11-25-freevideo-d5",
+      "type": "followup",
+      "vendor": "FlashML-org",
+      "section": "community",
+      "title": "[続報 Day 5] FlashML-org/FreeVideo — +295 stars",
+      "summary": "コンシューマーGPUで動く完全ローカルな動画生成AI。累計★4,893。",
+      "url": "https://github.com/FlashML-org/FreeVideo",
+      "related_date": "2026-11-21",
+      "importance": "minor",
+      "tags": ["github-trending", "video-generation", "local-ai"]
+    },
+    {
+      "id": "2026-11-25-markitdown-d6",
+      "type": "followup",
+      "vendor": "Microsoft",
+      "section": "community",
+      "title": "[続報 Day 6] microsoft/markitdown — +207 stars",
+      "summary": "あらゆるファイル形式をMarkdownに変換するMicrosoft製ツール。累計★198,275。",
+      "url": "https://github.com/microsoft/markitdown",
+      "related_date": "2026-11-20",
+      "importance": "minor",
+      "tags": ["github-trending", "microsoft", "markdown", "file-conversion"]
+    },
+    {
+      "id": "2026-11-25-heretic-d7",
+      "type": "followup",
+      "vendor": "p-e-w",
+      "section": "community",
+      "title": "[続報 Day 7] p-e-w/heretic — +203 stars",
+      "summary": "訓練フリーでモデルの出力特性を後処理変換するLM修正ツール。累計★43,026。",
+      "url": "https://github.com/p-e-w/heretic",
+      "related_date": "2026-11-19",
+      "importance": "minor",
+      "tags": ["github-trending", "llm-modification", "training-free"]
+    },
+    {
+      "id": "2026-11-25-opencode-d6",
+      "type": "followup",
+      "vendor": "anomalyco",
+      "section": "community",
+      "title": "[続報 Day 6] anomalyco/opencode — +226 stars",
+      "summary": "大規模オープンソースコーディングエージェント。累計★228,975。",
+      "url": "https://github.com/anomalyco/opencode",
+      "related_date": "2026-11-20",
+      "importance": "minor",
+      "tags": ["github-trending", "coding-agent", "open-source"]
+    },
+    {
+      "id": "2026-11-25-pi-d6",
+      "type": "followup",
+      "vendor": "earendil-works",
+      "section": "community",
+      "title": "[続報 Day 6] earendil-works/pi — +205 stars",
+      "summary": "統合LLM API・エージェントループ・TUI・コーディングCLIを持つAIエージェントツールキット。累計★123,721。",
+      "url": "https://github.com/earendil-works/pi",
+      "related_date": "2026-11-20",
+      "importance": "minor",
+      "tags": ["github-trending", "agent-toolkit", "llm-api", "tui"]
+    },
+    {
+      "id": "2026-11-25-paper-orchestra-d9",
+      "type": "followup",
+      "vendor": "google-research",
+      "section": "community",
+      "title": "[続報 Day 9] google-research/paper-orchestra — +162 stars",
+      "summary": "AI研究論文の自動執筆を行うマルチエージェントフレームワーク。累計★6,295。",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "related_date": "2026-11-17",
+      "importance": "minor",
+      "tags": ["github-trending", "research", "multi-agent", "paper-writing", "google"]
+    },
+    {
+      "id": "2026-11-25-spec-kit-d6",
+      "type": "followup",
+      "vendor": "github",
+      "section": "community",
+      "title": "[続報 Day 6] github/spec-kit — +144 stars",
+      "summary": "GitHub公式のスペック駆動開発ツールキット。累計★151,280。",
+      "url": "https://github.com/github/spec-kit",
+      "related_date": "2026-11-20",
+      "importance": "minor",
+      "tags": ["github-trending", "spec-driven-development", "github"]
+    }
+  ]
+}
