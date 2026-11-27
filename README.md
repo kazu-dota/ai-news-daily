@@ -18,13 +18,13 @@
 > 自動更新されるセクション。最新7日分へのリンクを表示。
 
 <!-- LATEST:BEGIN -->
+- [2026-11-28](summaries/2026/11/2026-11-28.md) — elementalsouls/Claude-BugHunter Day 14 (2週間連続 +1,615 ★26k), github/spec-kit Day 9 急加速 (+586 前日比4倍超), obra/superpowers Day 11 (+916), firecrawl Day 9 (+833), cathrynlavery/diagram-design Day 9 (+731)
 - [2026-11-22](summaries/2026/11/2026-11-22.md) — elementalsouls/Claude-BugHunter Day 8 (+1,794 グローバル首位), firecrawl Day 3 (+999), awslabs/cli-agent-orchestrator 初登場 (AWS公式), pytorch/torchtitan 初登場, obra/superpowers Day 5 (+884)
 - [2026-11-21](summaries/2026/11/2026-11-21.md) — Anthropic IPO 最終クロージング完了 (グリーンシュー全行使・11.3億株), elementalsouls/Claude-BugHunter Day 7 (+1,660), firecrawl Day 2 (+1,226), zhouxiaoka/autoclip 初登場 (+983), Tracer-Cloud/opensre 初登場
 - [2026-11-20](summaries/2026/11/2026-11-20.md) — Anthropic IPO クロージング ($83/株・Nasdaq ANT), obra/superpowers Day 3 (+2,029 首位), firecrawl/firecrawl 初登場 (★204k), anomalyco/opencode 初登場 (★228k), microsoft/markitdown 初登場 (+526)
 - [2026-11-19](summaries/2026/11/2026-11-19.md) — pingdotgg/t3code 初登場 (+1,264), elementalsouls/Claude-BugHunter Day 5 (+2,322 過去最高), google-research/paper-orchestra Day 3 (+1,529), p-e-w/heretic 初登場, HKUDS/CLI-Anything 初登場
 - [2026-11-18](summaries/2026/11/2026-11-18.md) — kajisho5/ffmpeg-skill +1,376 急加速, stablyai/orca 初登場, dream-num/univer Day 4 (+1,776), ag-ui-protocol/ag-ui Day 3 (+1,444), obra/superpowers・affaan-m/ECC・Graphify スキルエコシステム拡大
 - [2026-11-17](summaries/2026/11/2026-11-17.md) — google-research/paper-orchestra 初登場, iFixAi-ai/iFixAi 急浮上, vstorm-co/agenticos 初登場, dream-num/univer Day 3 (+1,878), GoogleChrome/modern-web-guidance-src Day 5 (+1,200)
-- [2026-11-16](summaries/2026/11/2026-11-16.md) — ag-ui-protocol/ag-ui 初登場, google-labs-code/stitch-skills 初登場, GoogleChrome/modern-web-guidance-src Day 4 (+1,220), dream-num/univer Day 2 (+1,041), tashfeenahmed/freellmapi 初登場
 <!-- LATEST:END -->
 
 過去ログは [`summaries/`](./summaries/) ディレクトリを参照。
